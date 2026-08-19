@@ -1,8 +1,9 @@
 import { Link } from "@tanstack/react-router";
 import { Star } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { brandName, inr } from "@/data/catalog";
+import { brandName } from "@/data/catalog";
 import { storeName } from "@/data/stores";
+import { useCurrency } from "@/lib/currency";
 import {
   bestOffer,
   productDiscount,
@@ -17,6 +18,7 @@ export function ProductCard({ product, className }: { product: Product; classNam
   const discount = productDiscount(product);
   const stores = product.offers.length;
   const saving = savingsVsHighest(product);
+  const { format } = useCurrency();
 
   return (
     <article
@@ -75,9 +77,9 @@ export function ProductCard({ product, className }: { product: Product; classNam
         </h3>
 
         <div className="mt-1 flex items-baseline gap-2">
-          <span className="text-base font-semibold">{inr(offer.price)}</span>
+          <span className="text-base font-semibold">{format(offer.price)}</span>
           {discount > 0 ? (
-            <span className="text-xs text-muted-foreground line-through">{inr(offer.originalPrice)}</span>
+            <span className="text-xs text-muted-foreground line-through">{format(offer.originalPrice)}</span>
           ) : null}
         </div>
 
@@ -90,7 +92,7 @@ export function ProductCard({ product, className }: { product: Product; classNam
         </div>
 
         {saving > 0 && stores > 1 ? (
-          <p className="text-[11px] text-clay">Save {inr(saving)} vs highest store price</p>
+          <p className="text-[11px] text-clay">Save {format(saving)} vs highest store price</p>
         ) : null}
 
         <Link

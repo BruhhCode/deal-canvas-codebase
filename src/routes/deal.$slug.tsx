@@ -12,8 +12,8 @@ import {
   discountPct,
   expiryLabel,
   getDeal,
-  inr,
 } from "@/data/catalog";
+import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 
 export const Route = createFileRoute("/deal/$slug")({
   loader: ({ params }) => {
@@ -27,7 +27,7 @@ export const Route = createFileRoute("/deal/$slug")({
     }
     const { deal } = loaderData;
     const title = `${deal.title} | DealCanvas`;
-    const description = `${brandName(deal.brand)} ${deal.product} at ${inr(deal.price)} (was ${inr(
+    const description = `${brandName(deal.brand)} ${deal.product} at ${formatUsd(deal.price)} (was ${formatUsd(
       deal.originalPrice,
     )}) — ${discountPct(deal)}% off.${deal.code ? ` Use code ${deal.code}.` : ""}`;
     return {
@@ -52,8 +52,8 @@ export const Route = createFileRoute("/deal/$slug")({
             brand: { "@type": "Brand", name: brandName(deal.brand) },
             offers: {
               "@type": "Offer",
-              price: deal.price,
-              priceCurrency: "INR",
+              price: Math.round(toUsd(deal.price)),
+              priceCurrency: "USD",
               availability:
                 deal.status === "ACTIVE"
                   ? "https://schema.org/InStock"
@@ -79,6 +79,7 @@ export const Route = createFileRoute("/deal/$slug")({
 
 function DealPage() {
   const { deal } = Route.useLoaderData();
+  const { format } = useCurrency();
   const expired = deal.status === "EXPIRED";
   const sameBrand = deals.filter((d) => d.brand === deal.brand && d.id !== deal.id && d.status === "ACTIVE");
   const similar = deals
@@ -136,9 +137,9 @@ function DealPage() {
           ) : (
             <>
               <div className="mt-6 flex flex-wrap items-baseline gap-3">
-                <span className="font-serif text-4xl">{inr(deal.price)}</span>
+                <span className="font-serif text-4xl">{format(deal.price)}</span>
                 <span className="text-lg text-muted-foreground line-through">
-                  {inr(deal.originalPrice)}
+                  {format(deal.originalPrice)}
                 </span>
                 <span className="rounded-sm bg-ink px-2 py-1 text-xs font-semibold text-background">
                   {discountPct(deal)}% OFF

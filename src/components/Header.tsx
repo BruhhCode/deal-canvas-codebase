@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { Heart, Menu, User, X } from "lucide-react";
+import { ChevronDown, Heart, Menu, User, X } from "lucide-react";
 import { ProductSearch } from "./ProductSearch";
+import { categoriesByDepartment, departments } from "@/data/products";
+import { cn } from "@/lib/utils";
+import { currencies, useCurrency, type CurrencyCode } from "@/lib/currency";
 
 type NavItem = { label: string; to: string; search?: Record<string, string> };
 
@@ -16,11 +19,16 @@ const nav: NavItem[] = [
   { label: "Sales Calendar", to: "/sales-calendar" },
 ];
 
-const markets = ["IN · ₹ INR", "AE · د.إ AED", "UK · £ GBP", "US · $ USD"];
+const deptOrder = ["men", "women", "lifestyle"] as const;
+const departmentNav = deptOrder
+  .map((slug) => departments.find((d) => d.slug === slug))
+  .filter((d): d is (typeof departments)[number] => Boolean(d));
 
 export function Header() {
   const [open, setOpen] = useState(false);
-  const [market, setMarket] = useState(markets[0]);
+  const { currency, setCurrency } = useCurrency();
+  const [openDept, setOpenDept] = useState<string | null>(null);
+  const [openDeptMobile, setOpenDeptMobile] = useState<string | null>(null);
 
   return (
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur">
@@ -44,15 +52,15 @@ export function Header() {
 
         <div className="ml-auto flex items-center gap-4 md:ml-4">
           <label className="hidden text-xs text-muted-foreground lg:block">
-            <span className="sr-only">Country and currency</span>
+            <span className="sr-only">Currency</span>
             <select
-              value={market}
-              onChange={(e) => setMarket(e.target.value)}
+              value={currency}
+              onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
               className="rounded-sm border bg-card px-2 py-1.5 text-xs text-foreground outline-none"
             >
-              {markets.map((m) => (
-                <option key={m} value={m}>
-                  {m}
+              {currencies.map((c) => (
+                <option key={c.code} value={c.code}>
+                  {c.label}
                 </option>
               ))}
             </select>
@@ -69,6 +77,42 @@ export function Header() {
 
       <nav className="hidden border-t lg:block">
         <ul className="mx-auto flex max-w-7xl items-center gap-6 px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em]">
+          {departmentNav.map((d) => (
+            <li
+              key={d.slug}
+              className="relative"
+              onMouseEnter={() => setOpenDept(d.slug)}
+              onMouseLeave={() => setOpenDept((v) => (v === d.slug ? null : v))}
+            >
+              <button
+                type="button"
+                onClick={() => setOpenDept((v) => (v === d.slug ? null : d.slug))}
+                aria-expanded={openDept === d.slug}
+                className={cn(
+                  "flex items-center gap-1 hover:text-clay",
+                  openDept === d.slug && "text-clay",
+                )}
+              >
+                {d.name}
+                <ChevronDown className="h-3 w-3" />
+              </button>
+              {openDept === d.slug ? (
+                <div className="absolute left-0 top-full z-50 mt-3 w-56 rounded-sm border bg-card p-2 normal-case shadow-lg">
+                  {categoriesByDepartment(d.slug).map((c) => (
+                    <Link
+                      key={c.slug}
+                      to="/shop"
+                      search={{ q: "", category: c.slug, department: d.slug, view: "" }}
+                      onClick={() => setOpenDept(null)}
+                      className="block rounded-sm px-3 py-2 text-sm font-normal tracking-normal hover:bg-cream hover:text-clay"
+                    >
+                      {c.name}
+                    </Link>
+                  ))}
+                </div>
+              ) : null}
+            </li>
+          ))}
           {nav.map((n) => (
             <li key={n.label}>
               <Link
@@ -89,6 +133,41 @@ export function Header() {
           <div className="p-4">
             <ProductSearch size="sm" />
           </div>
+          <ul className="border-b border-border">
+            {departmentNav.map((d) => (
+              <li key={d.slug} className="border-t border-border first:border-t-0">
+                <button
+                  type="button"
+                  onClick={() => setOpenDeptMobile((v) => (v === d.slug ? null : d.slug))}
+                  aria-expanded={openDeptMobile === d.slug}
+                  className="flex w-full items-center justify-between px-4 py-3 text-xs font-semibold uppercase tracking-[0.16em]"
+                >
+                  {d.name}
+                  <ChevronDown
+                    className={cn("h-3.5 w-3.5 transition-transform", openDeptMobile === d.slug && "rotate-180")}
+                  />
+                </button>
+                {openDeptMobile === d.slug ? (
+                  <div className="bg-cream px-4 pb-3">
+                    {categoriesByDepartment(d.slug).map((c) => (
+                      <Link
+                        key={c.slug}
+                        to="/shop"
+                        search={{ q: "", category: c.slug, department: d.slug, view: "" }}
+                        onClick={() => {
+                          setOpen(false);
+                          setOpenDeptMobile(null);
+                        }}
+                        className="block py-2 text-sm"
+                      >
+                        {c.name}
+                      </Link>
+                    ))}
+                  </div>
+                ) : null}
+              </li>
+            ))}
+          </ul>
           <ul className="grid grid-cols-2 gap-px bg-border pb-px">
             {nav.map((n) => (
               <li key={n.label} className="bg-background">

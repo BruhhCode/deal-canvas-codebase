@@ -3,6 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { DealCard } from "@/components/DealCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { brands, categories, deals, discountPct, type Deal } from "@/data/catalog";
+import { useCurrency } from "@/lib/currency";
 
 export const Route = createFileRoute("/deals")({
   head: () => ({
@@ -55,6 +56,7 @@ function sortDeals(list: Deal[], sort: (typeof sorts)[number]) {
 }
 
 function DealsPage() {
+  const { format } = useCurrency();
   const [category, setCategory] = useState("all");
   const [brand, setBrand] = useState("all");
   const [minDiscount, setMinDiscount] = useState(0);
@@ -142,7 +144,7 @@ function DealsPage() {
           </label>
 
           <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Max price: ₹{maxPrice.toLocaleString("en-IN")}</span>
+            <span className="font-medium">Max price: {format(maxPrice)}</span>
             <input
               type="range"
               min={1000}

@@ -1,7 +1,9 @@
 import { Link } from "@tanstack/react-router";
 import { categories, seasonalSales } from "@/data/catalog";
+import { useCurrency } from "@/lib/currency";
 
 export function Footer() {
+  const { currency } = useCurrency();
   return (
     <footer className="border-t bg-cream">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
@@ -56,7 +58,7 @@ export function Footer() {
 
       <div className="border-t">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-6 py-6 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} DealCanvas. All prices in INR and subject to change.</p>
+          <p>© {new Date().getFullYear()} DealCanvas. All prices in {currency} and subject to change.</p>
           <p>Affiliate disclosure · Editorial policy · Privacy</p>
         </div>
       </div>

@@ -11,7 +11,7 @@ export const Route = createFileRoute("/coupons")({
       {
         name: "description",
         content:
-          "Working coupons and promo codes for Myntra, Nike, AJIO, Zara, Nykaa, Levi's and more. Reveal the code, copy it and shop the discount.",
+          "Working coupons and promo codes for Nordstrom, Nike, Revolve, Zara, Ulta Beauty, Levi's and more. Reveal the code, copy it and shop the discount.",
       },
       { property: "og:title", content: "Coupons & Promo Codes | DealCanvas" },
       { property: "og:description", content: "Verified discount codes from top fashion brands." },

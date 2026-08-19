@@ -6,14 +6,13 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { StoreMark } from "@/components/StoreMark";
 import { BrandMark } from "@/components/BrandMark";
-import { brandName, brands, inr } from "@/data/catalog";
+import { brandName, brands } from "@/data/catalog";
+import { useCurrency } from "@/lib/currency";
 import { stores, storeName } from "@/data/stores";
 import {
   bestOffer,
   biggestDiscounts,
-  categoriesByDepartment,
   categoryName,
-  departments,
   newArrivals,
   offersSorted,
   popularSearches,
@@ -30,7 +29,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Find what you love and shop it for less. Search fashion, beauty and lifestyle products across Myntra, AJIO, Nike, Adidas, Zara, Amazon and more — compare live prices and buy at the lowest.",
+          "Find what you love and shop it for less. Search fashion, beauty and lifestyle products across Nordstrom, Revolve, Nike, Adidas, Zara, Amazon and more — compare live prices and buy at the lowest.",
       },
       { property: "og:title", content: "Find What You Love. Shop It for Less. | DealCanvas" },
       {
@@ -53,6 +52,7 @@ const compareShowcase = products
 const todaysSales = saleEvents.filter((e) => e.window === "today" || e.window === "tomorrow");
 
 function Home() {
+  const { format } = useCurrency();
   return (
     <>
       <section className="border-b bg-cream">
@@ -86,30 +86,6 @@ function Home() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="border-b">
-        <div className="mx-auto max-w-7xl px-4 py-8 md:px-6">
-          {departments.map((d) => (
-            <div key={d.slug} className="flex items-center gap-4 border-b py-4 last:border-0">
-              <span className="w-24 shrink-0 text-xs font-semibold uppercase tracking-[0.16em]">
-                {d.name}
-              </span>
-              <div className="flex flex-1 gap-2 overflow-x-auto pb-1">
-                {categoriesByDepartment(d.slug).map((c) => (
-                  <Link
-                    key={c.slug}
-                    to="/shop"
-                    search={{ q: "", category: c.slug, department: d.slug, view: "" }}
-                    className="shrink-0 rounded-full border px-4 py-1.5 text-sm transition-colors hover:border-clay hover:text-clay"
-                  >
-                    {c.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ))}
         </div>
       </section>
 
@@ -163,13 +139,13 @@ function Home() {
                             <StoreMark slug={o.store} /> {storeName(o.store)}
                           </span>
                           <span className={o.store === best.store ? "font-semibold" : "text-muted-foreground"}>
-                            {inr(o.price)}
+                            {format(o.price)}
                           </span>
                         </li>
                       ))}
                   </ul>
                   <p className="mt-4 border-t pt-3 text-sm">
-                    <span className="font-semibold">Best price {inr(best.price)}</span>{" "}
+                    <span className="font-semibold">Best price {format(best.price)}</span>{" "}
                     <span className="text-muted-foreground">at {storeName(best.store)}</span>
                   </p>
                   <span className="mt-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em]">

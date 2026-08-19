@@ -1,4 +1,3 @@
-import { inr } from "@/data/catalog";
 import { storeName } from "@/data/stores";
 import {
   bestOffer,
@@ -7,18 +6,20 @@ import {
   type Product,
 } from "@/data/products";
 import { cn } from "@/lib/utils";
+import { useCurrency } from "@/lib/currency";
 import { StoreMark } from "./StoreMark";
 
 export function PriceCompare({ product }: { product: Product }) {
   const best = bestOffer(product);
   const offers = offersSorted(product);
+  const { format } = useCurrency();
 
   return (
     <div className="rounded-lg border bg-card">
       <div className="flex flex-wrap items-end justify-between gap-3 border-b p-5">
         <div>
           <p className="editorial-eyebrow">Best price</p>
-          <p className="mt-1 text-3xl font-semibold">{inr(best.price)}</p>
+          <p className="mt-1 text-3xl font-semibold">{format(best.price)}</p>
           <p className="text-sm text-muted-foreground">at {storeName(best.store)}</p>
         </div>
         <a
@@ -51,7 +52,7 @@ export function PriceCompare({ product }: { product: Product }) {
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-base font-semibold">{inr(o.price)}</p>
+                <p className="text-base font-semibold">{format(o.price)}</p>
                 <p className="text-xs text-muted-foreground">{pct}% off</p>
               </div>
               {isBest ? (

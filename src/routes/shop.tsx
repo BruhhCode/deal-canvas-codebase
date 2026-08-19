@@ -21,6 +21,7 @@ import {
   type SortKey,
 } from "@/data/products";
 import { cn } from "@/lib/utils";
+import { useCurrency } from "@/lib/currency";
 
 export const Route = createFileRoute("/shop")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -35,7 +36,7 @@ export const Route = createFileRoute("/shop")({
       {
         name: "description",
         content:
-          "Search thousands of fashion, beauty and lifestyle products, compare live prices across Myntra, AJIO, Nike, Adidas, Amazon and more, and shop at the lowest price.",
+          "Search thousands of fashion, beauty and lifestyle products, compare live prices across Nordstrom, Revolve, Nike, Adidas, Amazon and more, and shop at the lowest price.",
       },
       { property: "og:title", content: "Shop & Compare | DealCanvas" },
       { property: "og:description", content: "One search. Every store. The best current price." },
@@ -49,6 +50,7 @@ export const Route = createFileRoute("/shop")({
 const PAGE_SIZE = 24;
 
 function ShopPage() {
+  const { format } = useCurrency();
   const { q, category, department, view } = Route.useSearch();
   const [filters, setFilters] = useState<ProductFilters>({});
   const [sort, setSort] = useState<SortKey>(
@@ -141,7 +143,7 @@ function ShopPage() {
         <Chips
           options={[2000, 5000, 10000, 20000, 50000].map((p) => ({
             value: String(p),
-            label: `Under ₹${p.toLocaleString("en-IN")}`,
+            label: `Under ${format(p)}`,
           }))}
           value={active.maxPrice ? String(active.maxPrice) : ""}
           onChange={(v) => set({ maxPrice: v ? Number(v) : undefined })}

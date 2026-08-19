@@ -12,7 +12,7 @@ export const Route = createFileRoute("/brands")({
       {
         name: "description",
         content:
-          "Browse every brand we track alphabetically, from Adidas and AJIO to Zara. Each brand page lists live deals, coupons and current sales.",
+          "Browse every brand we track alphabetically, from Adidas and Asos to Zara. Each brand page lists live deals, coupons and current sales.",
       },
       { property: "og:title", content: "All Brands A–Z | DealCanvas" },
       { property: "og:description", content: "Every store we track, with live deals and coupons." },

@@ -13,7 +13,7 @@ export const Route = createFileRoute("/sales-calendar")({
       {
         name: "description",
         content:
-          "See which fashion and lifestyle sales are live today, starting tomorrow or landing this month across Nike, Adidas, Myntra, AJIO, Zara, Nykaa and more.",
+          "See which fashion and lifestyle sales are live today, starting tomorrow or landing this month across Nike, Adidas, Nordstrom, Revolve, Zara, Ulta Beauty and more.",
       },
       { property: "og:title", content: "Sales Calendar | DealCanvas" },
       { property: "og:description", content: "Plan your shopping around every upcoming sale window." },

@@ -6,7 +6,7 @@ import { PriceAlert } from "@/components/PriceAlert";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { WishlistButton } from "@/components/WishlistButton";
-import { brandName, inr } from "@/data/catalog";
+import { brandName } from "@/data/catalog";
 import { storeName } from "@/data/stores";
 import {
   bestOffer,
@@ -17,6 +17,7 @@ import {
   relatedProducts,
   savingsVsHighest,
 } from "@/data/products";
+import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 
 export const Route = createFileRoute("/product/$slug")({
   loader: ({ params }) => {
@@ -31,7 +32,7 @@ export const Route = createFileRoute("/product/$slug")({
     const p = loaderData.product;
     const best = bestOffer(p);
     const title = `${brandName(p.brand)} ${p.name} — Compare Prices Across ${p.offers.length} Stores`;
-    const description = `${brandName(p.brand)} ${p.name} from ${inr(best.price)} at ${storeName(best.store)}. Compare live prices, stock and coupons across every store we track.`;
+    const description = `${brandName(p.brand)} ${p.name} from ${formatUsd(best.price)} at ${storeName(best.store)}. Compare live prices, stock and coupons across every store we track.`;
     return {
       meta: [
         { title },
@@ -48,6 +49,7 @@ export const Route = createFileRoute("/product/$slug")({
 
 function ProductPage() {
   const { product } = Route.useLoaderData();
+  const { format } = useCurrency();
   const best = bestOffer(product);
   const discount = productDiscount(product);
   const saving = savingsVsHighest(product);
@@ -66,8 +68,8 @@ function ProductPage() {
     },
     offers: product.offers.map((o) => ({
       "@type": "Offer",
-      price: o.price,
-      priceCurrency: "INR",
+      price: Math.round(toUsd(o.price)),
+      priceCurrency: "USD",
       availability:
         o.availability === "OUT OF STOCK"
           ? "https://schema.org/OutOfStock"
@@ -123,15 +125,15 @@ function ProductPage() {
           </div>
 
           <div className="mt-6 flex flex-wrap items-baseline gap-3">
-            <span className="text-3xl font-semibold">{inr(best.price)}</span>
-            <span className="text-base text-muted-foreground line-through">{inr(best.originalPrice)}</span>
+            <span className="text-3xl font-semibold">{format(best.price)}</span>
+            <span className="text-base text-muted-foreground line-through">{format(best.originalPrice)}</span>
             <span className="rounded-sm bg-ink px-2 py-1 text-xs font-semibold text-background">
               {discount}% OFF
             </span>
           </div>
           {saving > 0 ? (
             <p className="mt-2 text-sm text-clay">
-              Save {inr(saving)} by buying at {storeName(best.store)} instead of the priciest store.
+              Save {format(saving)} by buying at {storeName(best.store)} instead of the priciest store.
             </p>
           ) : null}
 

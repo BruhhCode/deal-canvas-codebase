@@ -12,7 +12,7 @@ export const Route = createFileRoute("/stores")({
       {
         name: "description",
         content:
-          "Browse every retailer DealCanvas tracks — Myntra, AJIO, Nike, Adidas, Amazon Fashion, Nykaa, Zara and more — with live product counts and store-wide offers.",
+          "Browse every retailer DealCanvas tracks — Nordstrom, Revolve, Nike, Adidas, Amazon Fashion, Ulta Beauty, Zara and more — with live product counts and store-wide offers.",
       },
       { property: "og:title", content: "All Stores | DealCanvas" },
       { property: "og:description", content: "Every store we compare prices across, in one directory." },

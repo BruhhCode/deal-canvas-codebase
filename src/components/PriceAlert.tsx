@@ -1,25 +1,27 @@
 import { useState } from "react";
 import { toast } from "sonner";
-import { inr } from "@/data/catalog";
+import { useCurrency } from "@/lib/currency";
 
 const KEY = "dc_price_alerts";
 
 export function PriceAlert({ productId, currentPrice }: { productId: string; currentPrice: number }) {
-  const suggested = Math.round((currentPrice * 0.85) / 100) * 100;
+  const { format, convert, toBase, symbol } = useCurrency();
+  const suggested = Math.round(convert(currentPrice) * 0.85);
   const [target, setTarget] = useState(String(suggested));
 
   const save = (e: React.FormEvent) => {
     e.preventDefault();
     const value = Number(target);
     if (!value || value <= 0) return;
+    const baseValue = Math.round(toBase(value));
     try {
       const all = JSON.parse(window.localStorage.getItem(KEY) ?? "{}") as Record<string, number>;
-      all[productId] = value;
+      all[productId] = baseValue;
       window.localStorage.setItem(KEY, JSON.stringify(all));
     } catch {
       /* ignore */
     }
-    toast.success(`Price alert set at ${inr(value)}`, {
+    toast.success(`Price alert set at ${format(baseValue)}`, {
       description: "We'll email you when any store drops below your target.",
     });
   };
@@ -28,14 +30,14 @@ export function PriceAlert({ productId, currentPrice }: { productId: string; cur
     <form onSubmit={save} className="rounded-lg border bg-cream p-5">
       <p className="editorial-eyebrow">Want it cheaper?</p>
       <p className="mt-2 text-sm text-muted-foreground">
-        Current best price {inr(currentPrice)}. Tell us your target and we'll watch every store for you.
+        Current best price {format(currentPrice)}. Tell us your target and we'll watch every store for you.
       </p>
       <div className="mt-4 flex flex-wrap gap-2">
         <label className="sr-only" htmlFor={`alert-${productId}`}>
           Target price
         </label>
         <div className="flex flex-1 items-center gap-1 rounded-sm border bg-card px-3 py-2">
-          <span className="text-sm text-muted-foreground">₹</span>
+          <span className="text-sm text-muted-foreground">{symbol}</span>
           <input
             id={`alert-${productId}`}
             inputMode="numeric"

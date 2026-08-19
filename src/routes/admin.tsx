@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DealBadge } from "@/components/DealBadge";
-import { brandName, brands, coupons, deals, discountPct, inr } from "@/data/catalog";
+import { brandName, brands, coupons, deals, discountPct } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import {
   bestOffer,
@@ -13,6 +13,7 @@ import {
   productsByStore,
   saleEvents,
 } from "@/data/products";
+import { useCurrency } from "@/lib/currency";
 
 export const Route = createFileRoute("/admin")({
   head: () => ({
@@ -30,6 +31,7 @@ const tabs = ["Products", "Stores", "Deals", "Sales", "Analytics", "Networks"] a
 function AdminPage() {
   const [tab, setTab] = useState<(typeof tabs)[number]>("Products");
   const [q, setQ] = useState("");
+  const { format } = useCurrency();
 
   const rows = useMemo(
     () => deals.filter((d) => (d.title + brandName(d.brand)).toLowerCase().includes(q.toLowerCase())),
@@ -53,12 +55,12 @@ function AdminPage() {
   }));
 
   const stats = [
-    { label: "Total clicks", value: totalClicks.toLocaleString("en-IN") },
-    { label: "Affiliate clicks", value: affiliateClicks.toLocaleString("en-IN") },
+    { label: "Total clicks", value: totalClicks.toLocaleString("en-US") },
+    { label: "Affiliate clicks", value: affiliateClicks.toLocaleString("en-US") },
     { label: "CTR", value: "6.4%" },
     { label: "Conversion rate", value: "4.1%" },
-    { label: "Revenue (30d)", value: inr(revenue) },
-    { label: "EPC", value: inr(Math.round(revenue / affiliateClicks)) },
+    { label: "Revenue (30d)", value: format(revenue) },
+    { label: "EPC", value: format(Math.round(revenue / affiliateClicks)) },
   ];
 
   return (
@@ -130,7 +132,7 @@ function AdminPage() {
                       <td className="px-4 py-3">{brandName(p.brand)}</td>
                       <td className="px-4 py-3">{categoryName(p.category)}</td>
                       <td className="px-4 py-3">{p.offers.length}</td>
-                      <td className="px-4 py-3">{inr(bestOffer(p).price)}</td>
+                      <td className="px-4 py-3">{format(bestOffer(p).price)}</td>
                       <td className="px-4 py-3">{productDiscount(p)}%</td>
                       <td className="px-4 py-3 text-muted-foreground">{lastUpdatedLabel(p)}</td>
                     </tr>
@@ -234,11 +236,11 @@ function AdminPage() {
                   <tr key={d.id} className="border-t">
                     <td className="px-4 py-3">{d.product}</td>
                     <td className="px-4 py-3">{brandName(d.brand)}</td>
-                    <td className="px-4 py-3 whitespace-nowrap">{inr(d.price)}</td>
+                    <td className="px-4 py-3 whitespace-nowrap">{format(d.price)}</td>
                     <td className="px-4 py-3">{discountPct(d)}%</td>
                     <td className="px-4 py-3 font-mono text-xs">{d.code ?? "—"}</td>
                     <td className="px-4 py-3 text-xs">{d.network}</td>
-                    <td className="px-4 py-3">{d.clicks.toLocaleString("en-IN")}</td>
+                    <td className="px-4 py-3">{d.clicks.toLocaleString("en-US")}</td>
                     <td className="px-4 py-3"><DealBadge badge={d.status} /></td>
                     <td className="px-4 py-3 text-xs text-muted-foreground">Edit · Pause · Expire</td>
                   </tr>
@@ -268,7 +270,7 @@ function AdminPage() {
                   <li key={b.slug}>
                     <div className="flex justify-between text-sm">
                       <span>{b.name}</span>
-                      <span className="text-muted-foreground">{b.clicks.toLocaleString("en-IN")}</span>
+                      <span className="text-muted-foreground">{b.clicks.toLocaleString("en-US")}</span>
                     </div>
                     <div className="mt-1 h-1.5 rounded-full bg-cream">
                       <div
@@ -320,7 +322,7 @@ function AdminPage() {
                   <td className="px-4 py-3">{n.name}</td>
                   <td className="px-4 py-3">{brands.filter((b) => b.network === n.name).length}</td>
                   <td className="px-4 py-3">{n.deals}</td>
-                  <td className="px-4 py-3">{n.clicks.toLocaleString("en-IN")}</td>
+                  <td className="px-4 py-3">{n.clicks.toLocaleString("en-US")}</td>
                   <td className="px-4 py-3"><DealBadge badge="ACTIVE" /></td>
                 </tr>
               ))}

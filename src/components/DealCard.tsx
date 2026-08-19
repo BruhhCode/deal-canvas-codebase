@@ -6,8 +6,8 @@ import {
   brandName,
   discountPct,
   expiryLabel,
-  inr,
 } from "@/data/catalog";
+import { useCurrency } from "@/lib/currency";
 import { BrandMark } from "./BrandMark";
 import { DealBadge } from "./DealBadge";
 import { CopyCode } from "./CopyCode";
@@ -15,6 +15,7 @@ import { WishlistButton } from "./WishlistButton";
 
 export function DealCard({ deal, className }: { deal: Deal; className?: string }) {
   const expired = deal.status === "EXPIRED";
+  const { format } = useCurrency();
 
   return (
     <article
@@ -70,8 +71,8 @@ export function DealCard({ deal, className }: { deal: Deal; className?: string }
 
         <div className="mt-auto space-y-3">
           <div className="flex items-baseline gap-2">
-            <span className="text-lg font-semibold">{inr(deal.price)}</span>
-            <span className="text-sm text-muted-foreground line-through">{inr(deal.originalPrice)}</span>
+            <span className="text-lg font-semibold">{format(deal.price)}</span>
+            <span className="text-sm text-muted-foreground line-through">{format(deal.originalPrice)}</span>
           </div>
 
           {deal.code ? <CopyCode code={deal.code} /> : null}

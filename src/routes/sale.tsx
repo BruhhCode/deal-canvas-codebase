@@ -6,8 +6,8 @@ import { DealCard } from "@/components/DealCard";
 export const Route = createFileRoute("/sale")({
   head: () => ({
     meta: [
-      { title: "Seasonal Sales — Diwali, Black Friday & End of Season | DealCanvas" },
-      { name: "description", content: "Every major shopping event in one place: Diwali, Black Friday, Cyber Monday, End of Season and New Year sales." },
+      { title: "Seasonal Sales — July 4th, Black Friday & End of Season | DealCanvas" },
+      { name: "description", content: "Every major shopping event in one place: July 4th, Black Friday, Cyber Monday, End of Season and New Year sales." },
       { property: "og:title", content: "Seasonal Sales | DealCanvas" },
       { property: "og:description", content: "Plan your year around the biggest discount windows." },
       { property: "og:url", content: "/sale" },

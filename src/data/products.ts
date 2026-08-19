@@ -286,15 +286,15 @@ export const similarInCategory = (p: Product, n = 4) =>
   products.filter((x) => x.id !== p.id && x.subcategory === p.subcategory).slice(0, n);
 
 export const popularSearches = [
-  "Nike",
-  "H&M",
-  "Adidas",
-  "Zara",
-  "Mango",
-  "Uniqlo",
-  "Columbia",
-  "Gucci",
-  "Asos",
+  { name: "Nike", slug: "nike" },
+  { name: "H&M", slug: "hm" },
+  { name: "Adidas", slug: "adidas" },
+  { name: "Zara", slug: "zara" },
+  { name: "Mango", slug: "mango" },
+  { name: "Uniqlo", slug: "uniqlo" },
+  { name: "Columbia", slug: "columbia" },
+  { name: "Gucci", slug: "gucci" },
+  { name: "Asos", slug: "asos" },
 ];
 
 export const searchPlaceholders = [

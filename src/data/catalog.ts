@@ -161,6 +161,11 @@ export const brands: Brand[] = [
   { slug: "armani", name: "Armani", category: "Luxury", network: "Awin", description: "Italian luxury tailoring, watches and fragrance." },
   { slug: "decathlon", name: "Decathlon", category: "Lifestyle", network: "Admitad", description: "Sports and fitness gear at accessible prices across 60+ in-house brands." },
   { slug: "makemytrip", name: "MakeMyTrip", category: "Travel", network: "Admitad", description: "Flights, hotels and holiday packages with bank-offer led discounting." },
+  { slug: "mango", name: "Mango", category: "Fashion", network: "Impact", featured: true, description: "Mediterranean-inspired womenswear and tailoring with frequent capsule-collection markdowns." },
+  { slug: "uniqlo", name: "Uniqlo", category: "Fashion", network: "Awin", featured: true, description: "Japanese basics and technical essentials like Heattech and Airism, often bundled in seasonal sales." },
+  { slug: "columbia", name: "Columbia", category: "Lifestyle", network: "CJ Affiliate", description: "Outdoor and performance wear built for hiking, cold weather and trail use." },
+  { slug: "gucci", name: "Gucci", category: "Luxury", network: "Awin", description: "Italian luxury house spanning ready-to-wear, leather goods and accessories." },
+  { slug: "asos", name: "ASOS", category: "Fashion", network: "Impact", featured: true, description: "UK-based fashion marketplace with thousands of third-party and in-house labels." },
 ];
 
 const brandNameBySlug = new Map(brands.map((b) => [b.slug, b.name]));

@@ -215,12 +215,12 @@ function ShopPage() {
         <div className="mt-3 flex flex-wrap gap-2">
           {popularSearches.slice(0, 6).map((t) => (
             <Link
-              key={t}
+              key={t.slug}
               to="/shop"
-              search={{ q: t, category: "", department: "", view: "" }}
+              search={{ q: t.name, category: "", department: "", view: "" }}
               className="rounded-full border px-3 py-1 text-xs hover:border-clay hover:text-clay"
             >
-              {t}
+              {t.name}
             </Link>
           ))}
         </div>

@@ -76,12 +76,12 @@ function Home() {
             <div className="mt-3 flex flex-wrap justify-center gap-2">
               {popularSearches.map((t) => (
                 <Link
-                  key={t}
-                  to="/shop"
-                  search={{ q: t, category: "", department: "", view: "" }}
+                  key={t.slug}
+                  to="/brand/$slug"
+                  params={{ slug: t.slug }}
                   className="rounded-full border bg-card px-4 py-2 text-sm transition-colors hover:border-clay hover:text-clay"
                 >
-                  {t}
+                  {t.name}
                 </Link>
               ))}
             </div>

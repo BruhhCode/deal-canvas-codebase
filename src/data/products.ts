@@ -287,14 +287,14 @@ export const similarInCategory = (p: Product, n = 4) =>
 
 export const popularSearches = [
   "Nike",
+  "H&M",
   "Adidas",
   "Zara",
-  "Puma",
-  "Levi's",
-  "Sneakers",
-  "Dresses",
-  "Watches",
-  "Beauty",
+  "Mango",
+  "Uniqlo",
+  "Columbia",
+  "Gucci",
+  "Asos",
 ];
 
 export const searchPlaceholders = [

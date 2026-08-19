@@ -27,7 +27,7 @@ export function CouponCard({ coupon }: { coupon: Coupon }) {
       <p className="text-sm text-muted-foreground">{coupon.description}</p>
 
       <div className="mt-auto space-y-3">
-        <RevealCode code={coupon.code} />
+        <RevealCode code={coupon.code} brand={coupon.brand} />
         <div className="flex items-center justify-between text-xs text-muted-foreground">
           <span>
             {coupon.usedToday} used today · {coupon.successRate}% success

@@ -4,7 +4,7 @@ import { BrandMark } from "@/components/BrandMark";
 import { DealCard } from "@/components/DealCard";
 import { CouponCard } from "@/components/CouponCard";
 import { SectionHeading } from "@/components/SectionHeading";
-import { couponsByBrand, dealsByBrand, getBrand, guides } from "@/data/catalog";
+import { brandUrl, couponsByBrand, dealsByBrand, getBrand, guides } from "@/data/catalog";
 import { ProductCard } from "@/components/ProductCard";
 import { StoreMark } from "@/components/StoreMark";
 import { storeName } from "@/data/stores";
@@ -79,7 +79,7 @@ function BrandPage() {
           <h1 className="mt-3 text-4xl md:text-5xl">{brand.name} Deals & Coupons</h1>
           <p className="mt-3 text-sm text-muted-foreground">{brand.description}</p>
           <a
-            href={`https://track.dealcanvas.example/click?merchant=${brand.slug}&network=${encodeURIComponent(brand.network)}`}
+            href={brandUrl(brand.slug)}
             target="_blank"
             rel="nofollow sponsored noopener"
             className="mt-6 inline-block rounded-sm bg-primary px-7 py-3 text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"

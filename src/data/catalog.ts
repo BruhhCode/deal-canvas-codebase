@@ -172,6 +172,36 @@ const brandNameBySlug = new Map(brands.map((b) => [b.slug, b.name]));
 export const brandName = (slug: string) => brandNameBySlug.get(slug) ?? slug;
 export const getBrand = (slug: string) => brands.find((b) => b.slug === slug);
 
+/** Official retailer domain for each brand — used to send shoppers to the real site. */
+const brandDomains: Record<string, string> = {
+  nike: "nike.com",
+  adidas: "adidas.com",
+  zara: "zara.com",
+  hm: "hm.com",
+  nordstrom: "nordstrom.com",
+  revolve: "revolve.com",
+  amazon: "amazon.com",
+  puma: "puma.com",
+  levis: "levi.com",
+  "calvin-klein": "calvinklein.com",
+  ulta: "ulta.com",
+  sephora: "sephora.com",
+  bata: "bata.com",
+  "charles-keith": "charleskeith.com",
+  burberry: "burberry.com",
+  armani: "armani.com",
+  decathlon: "decathlon.com",
+  expedia: "expedia.com",
+  mango: "mango.com",
+  uniqlo: "uniqlo.com",
+  columbia: "columbia.com",
+  gucci: "gucci.com",
+  asos: "asos.com",
+};
+
+/** The brand's real website — used for "Shop All Deals" / "Shop Now" outbound links. */
+export const brandUrl = (slug: string) => `https://www.${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}`;
+
 const imageFor = (cat: string) =>
   categories.find((c) => c.slug === cat)?.image ?? catFashion;
 

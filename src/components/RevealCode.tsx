@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { CopyCode } from "./CopyCode";
+import { brandUrl } from "@/data/catalog";
 
-export function RevealCode({ code }: { code: string }) {
+export function RevealCode({ code, brand }: { code: string; brand: string }) {
   const [shown, setShown] = useState(false);
 
   if (!shown) {
@@ -20,7 +21,7 @@ export function RevealCode({ code }: { code: string }) {
     <div className="space-y-2">
       <CopyCode code={code} />
       <a
-        href="https://track.dealcanvas.example/click"
+        href={brandUrl(brand)}
         target="_blank"
         rel="nofollow sponsored noopener"
         className="block rounded-sm border border-input py-2.5 text-center text-sm font-semibold uppercase tracking-wider transition-colors hover:border-clay hover:text-clay"

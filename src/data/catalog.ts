@@ -166,6 +166,72 @@ export const brands: Brand[] = [
   { slug: "columbia", name: "Columbia", category: "Lifestyle", network: "CJ Affiliate", description: "Outdoor and performance wear built for hiking, cold weather and trail use." },
   { slug: "gucci", name: "Gucci", category: "Luxury", network: "Awin", description: "Italian luxury house spanning ready-to-wear, leather goods and accessories." },
   { slug: "asos", name: "ASOS", category: "Fashion", network: "Impact", featured: true, description: "UK-based fashion marketplace with thousands of third-party and in-house labels." },
+
+  // fast fashion
+  { slug: "shein", name: "SHEIN", category: "Fashion", network: "CJ Affiliate", description: "Ultra-fast fashion marketplace with thousands of new styles added daily at low prices." },
+  { slug: "boohooman", name: "boohooMAN", category: "Fashion", network: "Awin", description: "Menswear-focused fast fashion with frequent sitewide flash sales." },
+  { slug: "prettylittlething", name: "PrettyLittleThing", category: "Fashion", network: "Awin", description: "Trend-led womenswear known for near-constant promotional pricing." },
+  { slug: "forever-21", name: "Forever 21", category: "Fashion", network: "Impact", description: "Youth-focused fast fashion covering clothing, accessories and beauty." },
+  { slug: "gap", name: "Gap", category: "Fashion", network: "CJ Affiliate", description: "American basics and denim staples with regular seasonal clearance events." },
+
+  // athletic / activewear
+  { slug: "under-armour", name: "Under Armour", category: "Shoes", network: "CJ Affiliate", description: "Performance training gear and footwear built around moisture-wicking fabric tech." },
+  { slug: "reebok", name: "Reebok", category: "Shoes", network: "Rakuten Advertising", description: "Training and lifestyle sneakers with a strong CrossFit and retro-runner following." },
+  { slug: "new-balance", name: "New Balance", category: "Shoes", network: "CJ Affiliate", description: "Running-heavy footwear brand known for wide-fit options and collaborator drops." },
+  { slug: "lululemon", name: "Lululemon", category: "Fashion", network: "Impact", description: "Premium yoga and athleisure apparel with limited markdown activity outside outlet drops." },
+  { slug: "gymshark", name: "Gymshark", category: "Fashion", network: "Awin", description: "Direct-to-consumer gymwear brand built on seamless leggings and frequent flash sales." },
+
+  // outdoor / lifestyle
+  { slug: "the-north-face", name: "The North Face", category: "Lifestyle", network: "CJ Affiliate", description: "Technical outerwear and outdoor gear for hiking, climbing and cold-weather use." },
+
+  // premium casual
+  { slug: "ralph-lauren", name: "Ralph Lauren", category: "Fashion", network: "Impact", description: "American heritage tailoring and polos with recurring seasonal sale events." },
+  { slug: "tommy-hilfiger", name: "Tommy Hilfiger", category: "Fashion", network: "Awin", description: "Preppy American sportswear with denim and outerwear as its strongest categories." },
+  { slug: "lacoste", name: "Lacoste", category: "Fashion", network: "Impact", description: "French sportswear house best known for its polo shirt and tennis heritage." },
+  { slug: "hugo-boss", name: "Hugo Boss", category: "Fashion", network: "Awin", description: "German tailoring and smart-casual menswear, with suiting as its core category." },
+
+  // accessories / bags / watches
+  { slug: "michael-kors", name: "Michael Kors", category: "Accessories", network: "Rakuten Advertising", description: "Accessible luxury handbags, watches and accessories with frequent outlet-style promotions." },
+  { slug: "coach", name: "Coach", category: "Accessories", network: "Impact", description: "American leather goods house known for totes, crossbody bags and outlet pricing." },
+  { slug: "kate-spade", name: "Kate Spade", category: "Accessories", network: "Rakuten Advertising", description: "Colorful handbags and accessories with regular surprise-sale events." },
+  { slug: "marc-jacobs", name: "Marc Jacobs", category: "Accessories", network: "Impact", description: "New York fashion house best known for The Tote Bag and playful ready-to-wear." },
+  { slug: "tory-burch", name: "Tory Burch", category: "Accessories", network: "Awin", description: "American accessories label built around its logo reva flats and structured bags." },
+  { slug: "ted-baker", name: "Ted Baker", category: "Accessories", network: "Awin", description: "British tailoring and accessories with a distinctive floral-print signature." },
+  { slug: "fossil", name: "Fossil", category: "Accessories", network: "Rakuten Advertising", description: "Watches, leather goods and wearables at accessible mid-range pricing." },
+  { slug: "longchamp", name: "Longchamp", category: "Accessories", network: "Impact", description: "French leather goods house famous for its foldable Le Pliage tote." },
+
+  // luxury houses
+  { slug: "prada", name: "Prada", category: "Luxury", network: "Awin", description: "Italian luxury house spanning ready-to-wear, leather goods and its Linea Rossa sport line." },
+  { slug: "versace", name: "Versace", category: "Luxury", network: "Awin", description: "Italian luxury fashion house known for bold prints and eveningwear." },
+  { slug: "balenciaga", name: "Balenciaga", category: "Luxury", network: "Awin", description: "Avant-garde Parisian luxury house spanning streetwear-inflected ready-to-wear and accessories." },
+  { slug: "saint-laurent", name: "Saint Laurent", category: "Luxury", network: "Awin", description: "Parisian luxury house known for tailored eveningwear and leather goods." },
+  { slug: "valentino", name: "Valentino", category: "Luxury", network: "Awin", description: "Italian couture house recognized for its signature red and eveningwear." },
+  { slug: "dolce-gabbana", name: "Dolce & Gabbana", category: "Luxury", network: "Awin", description: "Italian luxury house spanning tailoring, eveningwear and accessories." },
+  { slug: "givenchy", name: "Givenchy", category: "Luxury", network: "Awin", description: "Parisian luxury house spanning ready-to-wear, leather goods and fragrance." },
+  { slug: "moncler", name: "Moncler", category: "Luxury", network: "Awin", description: "Italian luxury outerwear house best known for down jackets and puffers." },
+
+  // multi-brand marketplaces / department stores
+  { slug: "el-corte-ingles", name: "El Corte Inglés", category: "Shopping", network: "Admitad", description: "Spain's largest department store chain, spanning fashion, beauty and home." },
+  { slug: "primeriti", name: "Primeriti", category: "Shopping", network: "Admitad", description: "Outlet marketplace for past-season luxury and premium fashion at reduced prices." },
+  { slug: "farfetch", name: "FARFETCH", category: "Luxury", network: "Impact", description: "Global luxury marketplace connecting boutiques and brands from over 50 countries." },
+  { slug: "ssense", name: "SSENSE", category: "Luxury", network: "Impact", description: "Contemporary and luxury multi-brand retailer known for its editorial curation." },
+  { slug: "net-a-porter", name: "NET-A-PORTER", category: "Luxury", network: "Admitad", description: "Luxury womenswear marketplace with same-day delivery in major cities." },
+  { slug: "mr-porter", name: "MR PORTER", category: "Luxury", network: "Admitad", description: "Luxury menswear marketplace and style destination from the Net-a-Porter group." },
+  { slug: "mytheresa", name: "Mytheresa", category: "Luxury", network: "Admitad", description: "German luxury e-commerce platform carrying leading designer ready-to-wear." },
+  { slug: "luisaviaroma", name: "Luisaviaroma", category: "Luxury", network: "Admitad", description: "Florence-based luxury multi-brand retailer with an early-access designer edit." },
+  { slug: "selfridges", name: "Selfridges", category: "Shopping", network: "Admitad", description: "Iconic British department store spanning fashion, beauty and lifestyle." },
+  { slug: "harrods", name: "Harrods", category: "Shopping", network: "Admitad", description: "London luxury department store carrying fashion, beauty and homeware." },
+
+  // travel / luggage
+  { slug: "samsonite", name: "Samsonite", category: "Travel", network: "CJ Affiliate", description: "Hard-case and soft-case luggage brand built for frequent travelers." },
+  { slug: "tumi", name: "TUMI", category: "Travel", network: "Admitad", description: "Premium travel and business bags known for durability and lifetime warranty repairs." },
+
+  // kids
+  { slug: "carters", name: "Carter's", category: "Fashion", network: "Awin", description: "Baby and young children's clothing brand known for everyday basics and sleepwear." },
+  { slug: "oshkosh-bgosh", name: "OshKosh B'gosh", category: "Fashion", network: "Awin", description: "Children's overalls and playwear brand with a heritage denim identity." },
+  { slug: "the-childrens-place", name: "The Children's Place", category: "Fashion", network: "Impact", description: "Value-priced kids' clothing with frequent storewide percentage-off sales." },
+  { slug: "gap-kids", name: "GAP Kids", category: "Fashion", network: "CJ Affiliate", description: "Gap's children's line, covering basics, denim and outerwear for kids." },
+  { slug: "hm-kids", name: "H&M Kids", category: "Fashion", network: "Awin", description: "H&M's children's line spanning everyday basics to occasionwear." },
 ];
 
 const brandNameBySlug = new Map(brands.map((b) => [b.slug, b.name]));
@@ -197,6 +263,63 @@ const brandDomains: Record<string, string> = {
   columbia: "columbia.com",
   gucci: "gucci.com",
   asos: "asos.com",
+
+  shein: "shein.com",
+  boohooman: "boohooman.com",
+  prettylittlething: "prettylittlething.com",
+  "forever-21": "forever21.com",
+  gap: "gap.com",
+
+  "under-armour": "underarmour.com",
+  reebok: "reebok.com",
+  "new-balance": "newbalance.com",
+  lululemon: "lululemon.com",
+  gymshark: "gymshark.com",
+
+  "the-north-face": "thenorthface.com",
+
+  "ralph-lauren": "ralphlauren.com",
+  "tommy-hilfiger": "usa.tommy.com",
+  lacoste: "lacoste.com",
+  "hugo-boss": "hugoboss.com",
+
+  "michael-kors": "michaelkors.com",
+  coach: "coach.com",
+  "kate-spade": "katespade.com",
+  "marc-jacobs": "marcjacobs.com",
+  "tory-burch": "toryburch.com",
+  "ted-baker": "tedbaker.com",
+  fossil: "fossil.com",
+  longchamp: "longchamp.com",
+
+  prada: "prada.com",
+  versace: "versace.com",
+  balenciaga: "balenciaga.com",
+  "saint-laurent": "ysl.com",
+  valentino: "valentino.com",
+  "dolce-gabbana": "dolcegabbana.com",
+  givenchy: "givenchy.com",
+  moncler: "moncler.com",
+
+  "el-corte-ingles": "elcorteingles.es",
+  primeriti: "primeriti.es",
+  farfetch: "farfetch.com",
+  ssense: "ssense.com",
+  "net-a-porter": "net-a-porter.com",
+  "mr-porter": "mrporter.com",
+  mytheresa: "mytheresa.com",
+  luisaviaroma: "luisaviaroma.com",
+  selfridges: "selfridges.com",
+  harrods: "harrods.com",
+
+  samsonite: "samsonite.com",
+  tumi: "tumi.com",
+
+  carters: "carters.com",
+  "oshkosh-bgosh": "oshkosh.com",
+  "the-childrens-place": "childrensplace.com",
+  "gap-kids": "gap.com",
+  "hm-kids": "hm.com",
 };
 
 /** The brand's real website — used for "Shop All Deals" / "Shop Now" outbound links. */

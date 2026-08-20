@@ -1,0 +1,6 @@
+product_name,brand_slug,category_slug,subcategory,gender,store_slug,price,original_price,availability,product_url,image_url
+Vaporfly 3 Racing Shoes,nike,mens-sportswear,Running Shoes,men,nike-store,224.95,259.99,IN STOCK,https://www.nike.com/p/vaporfly-3,https://images.example.com/nike-vaporfly-3.jpg
+Vaporfly 3 Racing Shoes,nike,mens-sportswear,Running Shoes,men,footlocker,229.99,259.99,LOW STOCK,https://www.footlocker.com/p/vaporfly-3,https://images.example.com/nike-vaporfly-3.jpg
+Vaporfly 3 Racing Shoes,nike,mens-sportswear,Running Shoes,men,amazon,219.00,259.99,IN STOCK,https://www.amazon.com/p/vaporfly-3,https://images.example.com/nike-vaporfly-3.jpg
+Adizero Adios Pro 3,adidas,mens-sportswear,Running Shoes,men,adidas-store,199.99,249.99,IN STOCK,https://www.adidas.com/p/adizero-adios-pro-3,https://images.example.com/adidas-adizero-pro-3.jpg
+Deviate Nitro 2 Running Shoes,puma,sneakers,Running Shoes,unisex,footlocker,89.99,119.99,OUT OF STOCK,https://www.footlocker.com/p/deviate-nitro-2,https://images.example.com/puma-deviate-nitro-2.jpg

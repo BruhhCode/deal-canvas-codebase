@@ -6,6 +6,7 @@ import pBeauty from "@/assets/p-beauty.jpg";
 import pApparel from "@/assets/p-apparel.jpg";
 import { brandName } from "./catalog";
 import { stores, storeName, type Store } from "./stores";
+import { generatedProducts } from "./products.generated";
 
 /* ---------------- taxonomy ---------------- */
 
@@ -219,7 +220,7 @@ function buildOffers(seed: Seed, id: string): Offer[] {
   });
 }
 
-export const products: Product[] = seeds.map((s, i) => {
+const seedProducts: Product[] = seeds.map((s, i) => {
   const id = `P-${String(i + 1).padStart(4, "0")}`;
   const slug = slugify(`${s.b}-${s.n}`);
   return {
@@ -242,6 +243,9 @@ export const products: Product[] = seeds.map((s, i) => {
     offers: buildOffers(s, id),
   };
 });
+
+// CSV-imported products live in products.generated.ts (see scripts/import-products.ts).
+export const products: Product[] = [...seedProducts, ...generatedProducts];
 
 /* ---------------- derived helpers ---------------- */
 

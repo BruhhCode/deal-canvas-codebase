@@ -1,27 +1,46 @@
 /**
  * Import products from a CSV into src/data/products.generated.ts.
  *
+ * src/data/products.ts exports `products` directly from this generated
+ * file — there is no separate hand-written seed catalog. Each run of this
+ * script is the full, authoritative source for the storefront's product
+ * list; it does not append to or merge with any hand-maintained data.
+ *
  * Usage:
- *   npx tsx scripts/import-products.ts <path-to-csv> [--out src/data/products.generated.ts]
+ *   npm run import:products -- <path-to-csv> [--out src/data/products.generated.ts]
+ *     [--store <store-slug>] [--replace-brands slug1,slug2,...]
  *
  * Expected CSV columns (header row required):
  *   product_name, brand_slug, category_slug, subcategory, gender,
- *   store_slug, price, original_price, availability, product_url, image_url
+ *   price, original_price, availability, product_url, image_url (or
+ *   product_image_url)
+ *
+ * `store_slug` is optional as a column: if the CSV has one, each row's
+ * store comes from that column; if it doesn't (e.g. a scrape from a single
+ * retailer's own site), pass --store <slug> and every row uses that store.
+ *
+ * `gender` and `availability` are normalized case-insensitively — gender
+ * values containing "/" (e.g. "Women/Unisex") are treated as unisex;
+ * availability values are matched to IN STOCK / LOW STOCK / OUT OF STOCK
+ * regardless of case.
  *
  * `price` / `original_price` are plain USD dollar amounts (e.g. 179.95) —
  * the script converts them into the catalog's stored legacy base unit
- * (see src/lib/currency.tsx) so they display correctly alongside the
- * existing seed products.
+ * (see src/lib/currency.tsx) so they display correctly.
  *
  * Rows are grouped by product_name — every row that shares a product_name
  * becomes one Offer inside that Product's offers[] array. brand_slug,
  * category_slug, subcategory and gender are taken from the group's first
  * row (a warning is printed if later rows in the group disagree).
  *
- * Re-running against an updated CSV is idempotent: any existing product in
- * the output file whose slug matches a freshly-imported product is replaced
- * rather than duplicated. Existing products with no matching slug in the
- * CSV are left untouched.
+ * Re-running against an updated CSV is idempotent: any product already in
+ * the output file whose slug matches a freshly-imported product is
+ * replaced rather than duplicated. Products from a previous run whose slug
+ * no longer appears in the CSV are left untouched — pass a CSV containing
+ * every product you want kept to fully replace the catalog in one run, or
+ * pass --replace-brands to drop every existing product for the given
+ * brand slug(s) before merging in this run's rows (use this when a new
+ * CSV is meant to fully replace a brand's catalog rather than patch it).
  */
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
@@ -75,46 +94,60 @@ const storeSlugSet = new Set(extractSlugNamePairs(extractArrayLiteral(storesSour
 
 /* ---------------- CSV parsing ---------------- */
 
-const REQUIRED_COLUMNS = [
+const BASE_REQUIRED_COLUMNS = [
   "product_name",
   "brand_slug",
   "category_slug",
   "subcategory",
   "gender",
-  "store_slug",
   "price",
   "original_price",
   "availability",
   "product_url",
-  "image_url",
 ] as const;
 
-type Column = (typeof REQUIRED_COLUMNS)[number];
-type Row = Record<Column, string>;
+// Accepted spellings for columns that vary between CSV sources.
+const IMAGE_COLUMN_ALIASES = ["image_url", "product_image_url"];
 
-function parseCsv(text: string): Row[] {
+type BaseColumn = (typeof BASE_REQUIRED_COLUMNS)[number];
+type Row = Record<BaseColumn, string> & { store_slug: string; image_url: string };
+
+function parseCsv(text: string, defaultStore?: string): Row[] {
   const lines = text.split(/\r\n|\n|\r/).filter((l) => l.trim().length > 0);
   if (lines.length === 0) return [];
 
   const header = parseCsvLine(lines[0]).map((h) => h.trim());
-  const missing = REQUIRED_COLUMNS.filter((c) => !header.includes(c));
+  const missing = BASE_REQUIRED_COLUMNS.filter((c) => !header.includes(c));
   if (missing.length > 0) {
     throw new Error(`CSV is missing required column(s): ${missing.join(", ")}`);
   }
+  const imageColumn = IMAGE_COLUMN_ALIASES.find((c) => header.includes(c));
+  const hasStoreColumn = header.includes("store_slug");
 
   return lines.slice(1).map((line, i) => {
     const cells = parseCsvLine(line);
-    const row = {} as Row;
+    const row = { store_slug: "", image_url: "" } as Row;
     header.forEach((col, idx) => {
-      if ((REQUIRED_COLUMNS as readonly string[]).includes(col)) {
-        row[col as Column] = (cells[idx] ?? "").trim();
+      const value = (cells[idx] ?? "").trim();
+      if ((BASE_REQUIRED_COLUMNS as readonly string[]).includes(col)) {
+        row[col as BaseColumn] = value;
+      } else if (col === "store_slug") {
+        row.store_slug = value;
+      } else if (col === imageColumn) {
+        row.image_url = value;
       }
     });
-    for (const col of REQUIRED_COLUMNS) {
+    for (const col of BASE_REQUIRED_COLUMNS) {
       if (row[col] === undefined) {
         throw new Error(`Row ${i + 2}: missing value for "${col}"`);
       }
     }
+    if (!hasStoreColumn && !defaultStore) {
+      throw new Error(
+        `Row ${i + 2}: CSV has no "store_slug" column — pass --store <slug> to use one store for every row.`,
+      );
+    }
+    if (!row.store_slug) row.store_slug = defaultStore ?? "";
     return row;
   });
 }
@@ -156,6 +189,16 @@ function parseCsvLine(line: string): string[] {
 const validAvailability = new Set(["IN STOCK", "LOW STOCK", "OUT OF STOCK"]);
 const validGenders = new Set(["women", "men", "unisex"]);
 
+/** Normalizes case ("In Stock" -> "IN STOCK") so scraped CSVs don't need exact casing. */
+const normalizeAvailability = (s: string) => s.trim().toUpperCase();
+
+/** Normalizes case, and maps values with no direct women/men/unisex equivalent (e.g. "Kids", "Women/Unisex") to unisex. */
+const normalizeGender = (s: string): string => {
+  const v = s.trim().toLowerCase();
+  if (v === "women" || v === "men" || v === "unisex") return v;
+  return "unisex";
+};
+
 /** Converts a real USD amount into the catalog's stored legacy base unit (inverse of toUsd). */
 const usdToBase = (usd: number) => Math.round(usd / toUsd(1));
 
@@ -192,6 +235,9 @@ function groupRows(rows: Row[]): Group[] {
   rows.forEach((row, i) => {
     const lineNo = i + 2;
 
+    row.availability = normalizeAvailability(row.availability);
+    row.gender = normalizeGender(row.gender);
+
     if (!brandsBySlug.has(row.brand_slug)) {
       throw new Error(`Row ${lineNo}: unknown brand_slug "${row.brand_slug}" (not found in catalog.ts)`);
     }
@@ -226,6 +272,7 @@ function groupRows(rows: Row[]): Group[] {
       };
       groups.set(row.product_name, group);
     } else {
+      if (!group.image && row.image_url) group.image = row.image_url;
       if (group.brand !== row.brand_slug) {
         console.warn(
           `Warning: "${row.product_name}" row ${lineNo} has brand_slug "${row.brand_slug}", ` +
@@ -261,6 +308,9 @@ function buildOffer(row: Row): Offer {
 }
 
 function buildProduct(group: Group, index: number): Product {
+  if (!group.image) {
+    console.warn(`Warning: "${group.name}" has no image_url in any row — image will be blank.`);
+  }
   const id = `PI-${String(index + 1).padStart(4, "0")}`;
   const slug = slugify(`${group.brand}-${group.name}`);
   const brandName = brandsBySlug.get(group.brand) ?? group.brand;
@@ -293,7 +343,7 @@ function toSource(products: Product[]): string {
     .replace(/"([a-zA-Z_][a-zA-Z0-9_]*)":/g, "$1:");
 
   return `// AUTO-GENERATED by scripts/import-products.ts — do not edit by hand.
-// Re-run \`npx tsx scripts/import-products.ts <csv>\` to regenerate.
+// Re-run \`npm run import:products -- <csv>\` to regenerate.
 
 import type { Product } from "./products";
 
@@ -316,7 +366,10 @@ async function main() {
   const args = process.argv.slice(2);
   const csvPath = args[0];
   if (!csvPath) {
-    console.error("Usage: npx tsx scripts/import-products.ts <path-to-csv> [--out <file>]");
+    console.error(
+      "Usage: npx tsx scripts/import-products.ts <path-to-csv> [--out <file>] " +
+        "[--store <store-slug>] [--replace-brands slug1,slug2,...]",
+    );
     process.exit(1);
   }
 
@@ -327,23 +380,37 @@ async function main() {
       : "src/data/products.generated.ts",
   );
 
+  const storeFlagIndex = args.indexOf("--store");
+  const defaultStore = storeFlagIndex !== -1 ? args[storeFlagIndex + 1] : undefined;
+  if (defaultStore && !storeSlugSet.has(defaultStore)) {
+    throw new Error(`--store "${defaultStore}" is not a known store slug (not found in stores.ts)`);
+  }
+
+  const replaceFlagIndex = args.indexOf("--replace-brands");
+  const replaceBrands = new Set(
+    replaceFlagIndex !== -1 ? (args[replaceFlagIndex + 1] ?? "").split(",").map((s) => s.trim()).filter(Boolean) : [],
+  );
+
   const csvText = readFileSync(resolve(csvPath), "utf-8");
-  const rows = parseCsv(csvText);
+  const rows = parseCsv(csvText, defaultStore);
   const groups = groupRows(rows);
   const imported = groups.map(buildProduct);
 
   const existing = await loadExistingProducts(outPath);
   const importedSlugs = new Set(imported.map((p) => p.slug));
-  const untouched = existing.filter((p) => !importedSlugs.has(p.slug));
+  const untouched = existing.filter((p) => !importedSlugs.has(p.slug) && !replaceBrands.has(p.brand));
   const merged = [...untouched, ...imported];
 
   writeFileSync(outPath, toSource(merged), "utf-8");
 
   const updatedCount = imported.filter((p) => existing.some((e) => e.slug === p.slug)).length;
   const addedCount = imported.length - updatedCount;
+  const removedCount = existing.filter((p) => replaceBrands.has(p.brand) && !importedSlugs.has(p.slug)).length;
   console.log(
     `Imported ${imported.length} product(s) from ${rows.length} row(s) → ${outPath} ` +
-      `(${addedCount} added, ${updatedCount} updated, ${untouched.length} unchanged)`,
+      `(${addedCount} added, ${updatedCount} updated, ${untouched.length} unchanged` +
+      (replaceBrands.size ? `, ${removedCount} removed for brand(s) ${[...replaceBrands].join(", ")}` : "") +
+      `)`,
   );
 }
 

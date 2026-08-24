@@ -232,6 +232,11 @@ export const brands: Brand[] = [
   { slug: "the-childrens-place", name: "The Children's Place", category: "Fashion", network: "Impact", description: "Value-priced kids' clothing with frequent storewide percentage-off sales." },
   { slug: "gap-kids", name: "GAP Kids", category: "Fashion", network: "CJ Affiliate", description: "Gap's children's line, covering basics, denim and outerwear for kids." },
   { slug: "hm-kids", name: "H&M Kids", category: "Fashion", network: "Awin", description: "H&M's children's line spanning everyday basics to occasionwear." },
+
+  // sub-labels / marketplace-exclusive brand lines
+  { slug: "jordan", name: "Jordan", category: "Shoes", network: "CJ Affiliate", description: "Nike's basketball-heritage brand built around the Air Jordan retro lineup." },
+  { slug: "asos-design", name: "ASOS DESIGN", category: "Fashion", network: "Impact", description: "ASOS's in-house label spanning everyday and occasion fashion." },
+  { slug: "adidas-originals", name: "Adidas Originals", category: "Shoes", network: "Awin", description: "Adidas's heritage lifestyle line, home to the Samba, Gazelle and Campus families." },
 ];
 
 const brandNameBySlug = new Map(brands.map((b) => [b.slug, b.name]));
@@ -320,6 +325,10 @@ const brandDomains: Record<string, string> = {
   "the-childrens-place": "childrensplace.com",
   "gap-kids": "gap.com",
   "hm-kids": "hm.com",
+
+  jordan: "nike.com",
+  "asos-design": "asos.com",
+  "adidas-originals": "adidas.com",
 };
 
 /** The brand's real website — used for "Shop All Deals" / "Shop Now" outbound links. */

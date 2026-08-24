@@ -5,1286 +5,6 @@ import type { Product } from "./products";
 
 export const generatedProducts: Product[] = [
   {
-    id: "PI-0041",
-    slug: "zara-zara-classic-blazer",
-    name: "Zara Classic Blazer",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Zara Zara Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 42,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 436995,
-        originalPrice: 672300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0042",
-    slug: "zara-zara-relaxed-shirt-dress",
-    name: "Zara Relaxed Shirt Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Zara Zara Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 61,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 178035,
-        originalPrice: 323700,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.zara.com/p/zara-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0043",
-    slug: "zara-zara-slim-fit-denim-jacket",
-    name: "Zara Slim Fit Denim Jacket",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Zara Zara Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 80,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 146080,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0044",
-    slug: "zara-zara-oversized-knit-sweater",
-    name: "Zara Oversized Knit Sweater",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Zara Zara Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 147,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 168407,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0045",
-    slug: "zara-zara-tailored-trench-coat",
-    name: "Zara Tailored Trench Coat",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Zara Zara Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 166,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 485550,
-        originalPrice: 647400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0046",
-    slug: "zara-zara-classic-midi-dress",
-    name: "Zara Classic Midi Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Zara Zara Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 185,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 62250,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0047",
-    slug: "zara-zara-relaxed-blazer",
-    name: "Zara Relaxed Blazer",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Zara Zara Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 204,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 199200,
-        originalPrice: 332000,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.zara.com/p/zara-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0048",
-    slug: "zara-zara-slim-fit-shirt-dress",
-    name: "Zara Slim Fit Shirt Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Zara Zara Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 71,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 472685,
-        originalPrice: 556100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0049",
-    slug: "zara-zara-oversized-denim-jacket",
-    name: "Zara Oversized Denim Jacket",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Zara Zara Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 90,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 369765,
-        originalPrice: 672300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0050",
-    slug: "zara-zara-tailored-knit-sweater",
-    name: "Zara Tailored Knit Sweater",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Zara Zara Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 232,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 278880,
-        originalPrice: 348600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0051",
-    slug: "zara-zara-classic-trench-coat",
-    name: "Zara Classic Trench Coat",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Zara Zara Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 213,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 303365,
-        originalPrice: 356900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0052",
-    slug: "zara-zara-relaxed-midi-dress",
-    name: "Zara Relaxed Midi Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Zara Zara Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 194,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 112050,
-        originalPrice: 224100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0053",
-    slug: "zara-zara-slim-fit-blazer",
-    name: "Zara Slim Fit Blazer",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Zara Zara Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 175,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 268090,
-        originalPrice: 315400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0054",
-    slug: "zara-zara-oversized-shirt-dress",
-    name: "Zara Oversized Shirt Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Zara Zara Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 156,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 348600,
-        originalPrice: 464800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0055",
-    slug: "zara-zara-tailored-denim-jacket",
-    name: "Zara Tailored Denim Jacket",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Zara Zara Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 137,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 438240,
-        originalPrice: 730400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0056",
-    slug: "zara-zara-classic-knit-sweater",
-    name: "Zara Classic Knit Sweater",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Zara Zara Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 118,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 92960,
-        originalPrice: 132800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0057",
-    slug: "zara-zara-relaxed-trench-coat",
-    name: "Zara Relaxed Trench Coat",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Zara Zara Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 99,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 118690,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.zara.com/p/zara-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0058",
-    slug: "zara-zara-slim-fit-midi-dress",
-    name: "Zara Slim Fit Midi Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Zara Zara Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 80,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 293820,
-        originalPrice: 489700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0059",
-    slug: "zara-zara-oversized-blazer",
-    name: "Zara Oversized Blazer",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Zara Zara Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 61,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 78850,
-        originalPrice: 157700,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.zara.com/p/zara-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0060",
-    slug: "zara-zara-tailored-shirt-dress",
-    name: "Zara Tailored Shirt Dress",
-    brand: "zara",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Zara Zara Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/zara-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 107,
-    views: 0,
-    offers: [
-      {
-        store: "zara-store",
-        price: 199200,
-        originalPrice: 398400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.zara.com/p/zara-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0061",
-    slug: "hm-hm-classic-blazer",
-    name: "Hm Classic Blazer",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "H&M Hm Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 88,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 49800,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0062",
-    slug: "hm-hm-relaxed-shirt-dress",
-    name: "Hm Relaxed Shirt Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "H&M Hm Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 145,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 97110,
-        originalPrice: 149400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0063",
-    slug: "hm-hm-slim-fit-denim-jacket",
-    name: "Hm Slim Fit Denim Jacket",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "H&M Hm Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 126,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 199200,
-        originalPrice: 265600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0064",
-    slug: "hm-hm-oversized-knit-sweater",
-    name: "Hm Oversized Knit Sweater",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "H&M Hm Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 183,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 59760,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0065",
-    slug: "hm-hm-tailored-trench-coat",
-    name: "Hm Tailored Trench Coat",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "H&M Hm Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 164,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 183430,
-        originalPrice: 215800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0066",
-    slug: "hm-hm-classic-midi-dress",
-    name: "Hm Classic Midi Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "H&M Hm Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 221,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 106240,
-        originalPrice: 132800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0067",
-    slug: "hm-hm-relaxed-blazer",
-    name: "Hm Relaxed Blazer",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "H&M Hm Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 202,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 74700,
-        originalPrice: 124500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.hm.com/p/hm-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0068",
-    slug: "hm-hm-slim-fit-shirt-dress",
-    name: "Hm Slim Fit Shirt Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "H&M Hm Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 155,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 110390,
-        originalPrice: 157700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0069",
-    slug: "hm-hm-oversized-denim-jacket",
-    name: "Hm Oversized Denim Jacket",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "H&M Hm Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 136,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 124500,
-        originalPrice: 207500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0070",
-    slug: "hm-hm-tailored-knit-sweater",
-    name: "Hm Tailored Knit Sweater",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "H&M Hm Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 98,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 168407,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.hm.com/p/hm-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0071",
-    slug: "hm-hm-classic-trench-coat",
-    name: "Hm Classic Trench Coat",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "H&M Hm Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 117,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 116200,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0072",
-    slug: "hm-hm-relaxed-midi-dress",
-    name: "Hm Relaxed Midi Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "H&M Hm Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 60,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 119520,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0073",
-    slug: "hm-hm-slim-fit-blazer",
-    name: "Hm Slim Fit Blazer",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "H&M Hm Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 79,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 26975,
-        originalPrice: 41500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0074",
-    slug: "hm-hm-oversized-shirt-dress",
-    name: "Hm Oversized Shirt Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "H&M Hm Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 222,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 59760,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0075",
-    slug: "hm-hm-tailored-denim-jacket",
-    name: "Hm Tailored Denim Jacket",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "H&M Hm Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 41,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 169320,
-        originalPrice: 282200,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.hm.com/p/hm-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0076",
-    slug: "hm-hm-classic-knit-sweater",
-    name: "Hm Classic Knit Sweater",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "H&M Hm Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 184,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 126160,
-        originalPrice: 157700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0077",
-    slug: "hm-hm-relaxed-trench-coat",
-    name: "Hm Relaxed Trench Coat",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "H&M Hm Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 203,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 53950,
-        originalPrice: 107900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0078",
-    slug: "hm-hm-slim-fit-midi-dress",
-    name: "Hm Slim Fit Midi Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "H&M Hm Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 50,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 49800,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0079",
-    slug: "hm-hm-oversized-blazer",
-    name: "Hm Oversized Blazer",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "H&M Hm Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 69,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 204595,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0080",
-    slug: "hm-hm-tailored-shirt-dress",
-    name: "Hm Tailored Shirt Dress",
-    brand: "hm",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "H&M Hm Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 195,
-    views: 0,
-    offers: [
-      {
-        store: "hm-store",
-        price: 154380,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.hm.com/p/hm-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
     id: "PI-0081",
     slug: "nordstrom-nordstrom-classic-blazer",
     name: "Nordstrom Classic Blazer",
@@ -3199,646 +1919,6 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.amazon.com/p/amazon-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0141",
-    slug: "puma-puma-air-runner",
-    name: "Puma Air Runner",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "men",
-    description: "Puma Puma Air Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-1-air-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 47,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 145665,
-        originalPrice: 224100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-1-air-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0142",
-    slug: "puma-puma-ultra-trainer",
-    name: "Puma Ultra Trainer",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "women",
-    description: "Puma Puma Ultra Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-2-ultra-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 104,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 307847,
-        originalPrice: 439900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-2-ultra-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0143",
-    slug: "puma-puma-pro-sneaker",
-    name: "Puma Pro Sneaker",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "unisex",
-    description: "Puma Puma Pro Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-3-pro-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 85,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 317475,
-        originalPrice: 423300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-3-pro-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0144",
-    slug: "puma-puma-react-basketball-shoe",
-    name: "Puma React Basketball Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "men",
-    description: "Puma Puma React Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-4-react-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 190,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 536180,
-        originalPrice: 630800,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.puma.com/p/puma-4-react-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0145",
-    slug: "puma-puma-flex-court-shoe",
-    name: "Puma Flex Court Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "women",
-    description: "Puma Puma Flex Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-5-flex-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 171,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 91715,
-        originalPrice: 107900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-5-flex-court-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0146",
-    slug: "puma-puma-boost-runner",
-    name: "Puma Boost Runner",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "unisex",
-    description: "Puma Puma Boost Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-6-boost-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 228,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 296310,
-        originalPrice: 423300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-6-boost-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0147",
-    slug: "puma-puma-prime-trainer",
-    name: "Puma Prime Trainer",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "men",
-    description: "Puma Puma Prime Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-7-prime-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 209,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 124500,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-7-prime-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0148",
-    slug: "puma-puma-air-sneaker",
-    name: "Puma Air Sneaker",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "women",
-    description: "Puma Puma Air Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-8-air-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 114,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 351505,
-        originalPrice: 639100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-8-air-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0149",
-    slug: "puma-puma-ultra-basketball-shoe",
-    name: "Puma Ultra Basketball Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "unisex",
-    description: "Puma Puma Ultra Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-9-ultra-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 95,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 251075,
-        originalPrice: 456500,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.puma.com/p/puma-9-ultra-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0150",
-    slug: "puma-puma-pro-court-shoe",
-    name: "Puma Pro Court Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "men",
-    description: "Puma Puma Pro Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-10-pro-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 57,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 203350,
-        originalPrice: 290500,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.puma.com/p/puma-10-pro-court-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0151",
-    slug: "puma-puma-react-runner",
-    name: "Puma React Runner",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "women",
-    description: "Puma Puma React Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-11-react-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 76,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 220780,
-        originalPrice: 315400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.puma.com/p/puma-11-react-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0152",
-    slug: "puma-puma-flex-trainer",
-    name: "Puma Flex Trainer",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "unisex",
-    description: "Puma Puma Flex Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-12-flex-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 219,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 423300,
-        originalPrice: 564400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-12-flex-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0153",
-    slug: "puma-puma-boost-sneaker",
-    name: "Puma Boost Sneaker",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "men",
-    description: "Puma Puma Boost Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-13-boost-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 238,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 268090,
-        originalPrice: 315400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.puma.com/p/puma-13-boost-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0154",
-    slug: "puma-puma-prime-basketball-shoe",
-    name: "Puma Prime Basketball Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "women",
-    description: "Puma Puma Prime Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-14-prime-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 133,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 73040,
-        originalPrice: 91300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-14-prime-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0155",
-    slug: "puma-puma-air-court-shoe",
-    name: "Puma Air Court Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "unisex",
-    description: "Puma Puma Air Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-15-air-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 152,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 442390,
-        originalPrice: 680600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-15-air-court-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0156",
-    slug: "puma-puma-ultra-runner",
-    name: "Puma Ultra Runner",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "men",
-    description: "Puma Puma Ultra Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-16-ultra-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 95,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 99600,
-        originalPrice: 124500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-16-ultra-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0157",
-    slug: "puma-puma-pro-trainer",
-    name: "Puma Pro Trainer",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "women",
-    description: "Puma Puma Pro Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-17-pro-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 114,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 221195,
-        originalPrice: 340300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-17-pro-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0158",
-    slug: "puma-puma-react-sneaker",
-    name: "Puma React Sneaker",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "unisex",
-    description: "Puma Puma React Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-18-react-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 105,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 361465,
-        originalPrice: 556100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-18-react-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0159",
-    slug: "puma-puma-flex-basketball-shoe",
-    name: "Puma Flex Basketball Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "men",
-    description: "Puma Puma Flex Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-19-flex-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 124,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 155625,
-        originalPrice: 207500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-19-flex-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0160",
-    slug: "puma-puma-boost-court-shoe",
-    name: "Puma Boost Court Shoe",
-    brand: "puma",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "women",
-    description: "Puma Puma Boost Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/puma-20-boost-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 68,
-    views: 0,
-    offers: [
-      {
-        store: "puma-store",
-        price: 53950,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.puma.com/p/puma-20-boost-court-shoe",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
@@ -8859,1286 +6939,6 @@ export const generatedProducts: Product[] = [
     ]
   },
   {
-    id: "PI-0298",
-    slug: "mango-mango-classic-blazer",
-    name: "Mango Classic Blazer",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Mango Mango Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 222,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 148155,
-        originalPrice: 174300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0299",
-    slug: "mango-mango-relaxed-shirt-dress",
-    name: "Mango Relaxed Shirt Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Mango Mango Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 41,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 100430,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0300",
-    slug: "mango-mango-slim-fit-denim-jacket",
-    name: "Mango Slim Fit Denim Jacket",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Mango Mango Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 236,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 303780,
-        originalPrice: 506300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0301",
-    slug: "mango-mango-oversized-knit-sweater",
-    name: "Mango Oversized Knit Sweater",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Mango Mango Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 55,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 149400,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0302",
-    slug: "mango-mango-tailored-trench-coat",
-    name: "Mango Tailored Trench Coat",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Mango Mango Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 74,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 143175,
-        originalPrice: 190900,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.mango.com/p/mango-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0303",
-    slug: "mango-mango-classic-midi-dress",
-    name: "Mango Classic Midi Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Mango Mango Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 93,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 86735,
-        originalPrice: 157700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0304",
-    slug: "mango-mango-relaxed-blazer",
-    name: "Mango Relaxed Blazer",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Mango Mango Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 160,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 441560,
-        originalPrice: 630800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0305",
-    slug: "mango-mango-slim-fit-shirt-dress",
-    name: "Mango Slim Fit Shirt Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Mango Mango Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 179,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 557345,
-        originalPrice: 655700,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.mango.com/p/mango-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0306",
-    slug: "mango-mango-oversized-denim-jacket",
-    name: "Mango Oversized Denim Jacket",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Mango Mango Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 198,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 249000,
-        originalPrice: 415000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0307",
-    slug: "mango-mango-tailored-knit-sweater",
-    name: "Mango Tailored Knit Sweater",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Mango Mango Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 217,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 392590,
-        originalPrice: 713800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0308",
-    slug: "mango-mango-classic-trench-coat",
-    name: "Mango Classic Trench Coat",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Mango Mango Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 188,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 423300,
-        originalPrice: 564400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0309",
-    slug: "mango-mango-relaxed-midi-dress",
-    name: "Mango Relaxed Midi Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Mango Mango Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 207,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 464800,
-        originalPrice: 664000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0310",
-    slug: "mango-mango-slim-fit-blazer",
-    name: "Mango Slim Fit Blazer",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Mango Mango Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 45,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 348600,
-        originalPrice: 498000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.mango.com/p/mango-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0311",
-    slug: "mango-mango-oversized-shirt-dress",
-    name: "Mango Oversized Shirt Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Mango Mango Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 226,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 145250,
-        originalPrice: 207500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0312",
-    slug: "mango-mango-tailored-denim-jacket",
-    name: "Mango Tailored Denim Jacket",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Mango Mango Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 207,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 541575,
-        originalPrice: 722100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0313",
-    slug: "mango-mango-classic-knit-sweater",
-    name: "Mango Classic Knit Sweater",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Mango Mango Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 188,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 124500,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0314",
-    slug: "mango-mango-relaxed-trench-coat",
-    name: "Mango Relaxed Trench Coat",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Mango Mango Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 169,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 400890,
-        originalPrice: 572700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0315",
-    slug: "mango-mango-slim-fit-midi-dress",
-    name: "Mango Slim Fit Midi Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Mango Mango Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 150,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 395080,
-        originalPrice: 464800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0316",
-    slug: "mango-mango-oversized-blazer",
-    name: "Mango Oversized Blazer",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Mango Mango Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 131,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 245680,
-        originalPrice: 307100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0317",
-    slug: "mango-mango-tailored-shirt-dress",
-    name: "Mango Tailored Shirt Dress",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Mango Mango Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mango-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 112,
-    views: 0,
-    offers: [
-      {
-        store: "mango-store",
-        price: 253565,
-        originalPrice: 390100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.mango.com/p/mango-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0318",
-    slug: "uniqlo-uniqlo-classic-blazer",
-    name: "Uniqlo Classic Blazer",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Uniqlo Uniqlo Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 197,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 98770,
-        originalPrice: 141100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0319",
-    slug: "uniqlo-uniqlo-relaxed-shirt-dress",
-    name: "Uniqlo Relaxed Shirt Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Uniqlo Uniqlo Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 178,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 154380,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0320",
-    slug: "uniqlo-uniqlo-slim-fit-denim-jacket",
-    name: "Uniqlo Slim Fit Denim Jacket",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Uniqlo Uniqlo Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 54,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 136950,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0321",
-    slug: "uniqlo-uniqlo-oversized-knit-sweater",
-    name: "Uniqlo Oversized Knit Sweater",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Uniqlo Uniqlo Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 73,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 120350,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0322",
-    slug: "uniqlo-uniqlo-tailored-trench-coat",
-    name: "Uniqlo Tailored Trench Coat",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Uniqlo Uniqlo Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 216,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 91300,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0323",
-    slug: "uniqlo-uniqlo-classic-midi-dress",
-    name: "Uniqlo Classic Midi Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Uniqlo Uniqlo Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 235,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 104995,
-        originalPrice: 190900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0324",
-    slug: "uniqlo-uniqlo-relaxed-blazer",
-    name: "Uniqlo Relaxed Blazer",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Uniqlo Uniqlo Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 130,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 44820,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0325",
-    slug: "uniqlo-uniqlo-slim-fit-shirt-dress",
-    name: "Uniqlo Slim Fit Shirt Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Uniqlo Uniqlo Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 149,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 33200,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0326",
-    slug: "uniqlo-uniqlo-oversized-denim-jacket",
-    name: "Uniqlo Oversized Denim Jacket",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Uniqlo Uniqlo Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 92,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 218705,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0327",
-    slug: "uniqlo-uniqlo-tailored-knit-sweater",
-    name: "Uniqlo Tailored Knit Sweater",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Uniqlo Uniqlo Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 111,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 59760,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0328",
-    slug: "uniqlo-uniqlo-classic-trench-coat",
-    name: "Uniqlo Classic Trench Coat",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Uniqlo Uniqlo Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 102,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 112880,
-        originalPrice: 141100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0329",
-    slug: "uniqlo-uniqlo-relaxed-midi-dress",
-    name: "Uniqlo Relaxed Midi Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Uniqlo Uniqlo Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 121,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 114125,
-        originalPrice: 207500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0330",
-    slug: "uniqlo-uniqlo-slim-fit-blazer",
-    name: "Uniqlo Slim Fit Blazer",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Uniqlo Uniqlo Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 63,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 70550,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0331",
-    slug: "uniqlo-uniqlo-oversized-shirt-dress",
-    name: "Uniqlo Oversized Shirt Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Uniqlo Uniqlo Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 44,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 192560,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0332",
-    slug: "uniqlo-uniqlo-tailored-denim-jacket",
-    name: "Uniqlo Tailored Denim Jacket",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Uniqlo Uniqlo Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 101,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 129480,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0333",
-    slug: "uniqlo-uniqlo-classic-knit-sweater",
-    name: "Uniqlo Classic Knit Sweater",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Uniqlo Uniqlo Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 82,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 63910,
-        originalPrice: 91300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0334",
-    slug: "uniqlo-uniqlo-relaxed-trench-coat",
-    name: "Uniqlo Relaxed Trench Coat",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Uniqlo Uniqlo Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 187,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 97110,
-        originalPrice: 149400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0335",
-    slug: "uniqlo-uniqlo-slim-fit-midi-dress",
-    name: "Uniqlo Slim Fit Midi Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Uniqlo Uniqlo Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 168,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 156455,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0336",
-    slug: "uniqlo-uniqlo-oversized-blazer",
-    name: "Uniqlo Oversized Blazer",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Uniqlo Uniqlo Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 225,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 143175,
-        originalPrice: 190900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0337",
-    slug: "uniqlo-uniqlo-tailored-shirt-dress",
-    name: "Uniqlo Tailored Shirt Dress",
-    brand: "uniqlo",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Uniqlo Uniqlo Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/uniqlo-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 206,
-    views: 0,
-    offers: [
-      {
-        store: "uniqlo-store",
-        price: 139440,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.uniqlo.com/p/uniqlo-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
     id: "PI-0338",
     slug: "columbia-columbia-seamless-leggings",
     name: "Columbia Seamless Leggings",
@@ -11419,2854 +8219,6 @@ export const generatedProducts: Product[] = [
     ]
   },
   {
-    id: "PI-0398",
-    slug: "shein-shein-classic-blazer",
-    name: "Shein Classic Blazer",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "SHEIN Shein Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 43,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 59760,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0399",
-    slug: "shein-shein-relaxed-shirt-dress",
-    name: "Shein Relaxed Shirt Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "SHEIN Shein Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 62,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 54780,
-        originalPrice: 91300,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.shein.com/p/shein-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0400",
-    slug: "shein-shein-slim-fit-denim-jacket",
-    name: "Shein Slim Fit Denim Jacket",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "SHEIN Shein Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 201,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 232815,
-        originalPrice: 273900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0401",
-    slug: "shein-shein-oversized-knit-sweater",
-    name: "Shein Oversized Knit Sweater",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "SHEIN Shein Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 182,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 70550,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0402",
-    slug: "shein-shein-tailored-trench-coat",
-    name: "Shein Tailored Trench Coat",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "SHEIN Shein Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 163,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 239870,
-        originalPrice: 282200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0403",
-    slug: "shein-shein-classic-midi-dress",
-    name: "Shein Classic Midi Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "SHEIN Shein Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 144,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 139440,
-        originalPrice: 232400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0404",
-    slug: "shein-shein-relaxed-blazer",
-    name: "Shein Relaxed Blazer",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "SHEIN Shein Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 77,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 172640,
-        originalPrice: 215800,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.shein.com/p/shein-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0405",
-    slug: "shein-shein-slim-fit-shirt-dress",
-    name: "Shein Slim Fit Shirt Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "SHEIN Shein Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 58,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 159775,
-        originalPrice: 290500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0406",
-    slug: "shein-shein-oversized-denim-jacket",
-    name: "Shein Oversized Denim Jacket",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "SHEIN Shein Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 239,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 69720,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0407",
-    slug: "shein-shein-tailored-knit-sweater",
-    name: "Shein Tailored Knit Sweater",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "SHEIN Shein Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 220,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 33200,
-        originalPrice: 41500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.shein.com/p/shein-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0408",
-    slug: "shein-shein-classic-trench-coat",
-    name: "Shein Classic Trench Coat",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "SHEIN Shein Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 49,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 161850,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0409",
-    slug: "shein-shein-relaxed-midi-dress",
-    name: "Shein Relaxed Midi Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "SHEIN Shein Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 230,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 59760,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0410",
-    slug: "shein-shein-slim-fit-blazer",
-    name: "Shein Slim Fit Blazer",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "SHEIN Shein Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 192,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 174300,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0411",
-    slug: "shein-shein-oversized-shirt-dress",
-    name: "Shein Oversized Shirt Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "SHEIN Shein Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 211,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 82170,
-        originalPrice: 149400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0412",
-    slug: "shein-shein-tailored-denim-jacket",
-    name: "Shein Tailored Denim Jacket",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "SHEIN Shein Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 230,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 97110,
-        originalPrice: 149400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.shein.com/p/shein-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0413",
-    slug: "shein-shein-classic-knit-sweater",
-    name: "Shein Classic Knit Sweater",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "SHEIN Shein Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 49,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 29880,
-        originalPrice: 49800,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.shein.com/p/shein-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0414",
-    slug: "shein-shein-relaxed-trench-coat",
-    name: "Shein Relaxed Trench Coat",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "SHEIN Shein Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 68,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 120350,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.shein.com/p/shein-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0415",
-    slug: "shein-shein-slim-fit-midi-dress",
-    name: "Shein Slim Fit Midi Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "SHEIN Shein Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 87,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 204595,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0416",
-    slug: "shein-shein-oversized-blazer",
-    name: "Shein Oversized Blazer",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "SHEIN Shein Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 106,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 22825,
-        originalPrice: 41500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0417",
-    slug: "shein-shein-tailored-shirt-dress",
-    name: "Shein Tailored Shirt Dress",
-    brand: "shein",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "SHEIN Shein Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/shein-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 125,
-    views: 0,
-    offers: [
-      {
-        store: "shein-store",
-        price: 39840,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.shein.com/p/shein-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0418",
-    slug: "boohooman-boohooman-slim-fit-denim-jeans",
-    name: "Boohooman Slim Fit Denim Jeans",
-    brand: "boohooman",
-    category: "mens-clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "boohooMAN Boohooman Slim Fit Denim Jeans — shirts tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/boohooman-1-slim-fit-denim-jeans/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "mens-clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 40,
-    views: 0,
-    offers: [
-      {
-        store: "boohooman-store",
-        price: 34860,
-        originalPrice: 49800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-1-slim-fit-denim-jeans",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 159360,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-5-slim-fit-denim-jeans",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 191730,
-        originalPrice: 273900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-9-slim-fit-denim-jeans",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 132800,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-13-slim-fit-denim-jeans",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 174300,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-17-slim-fit-denim-jeans",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0419",
-    slug: "boohooman-boohooman-classic-oxford-shirt",
-    name: "Boohooman Classic Oxford Shirt",
-    brand: "boohooman",
-    category: "mens-clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "boohooMAN Boohooman Classic Oxford Shirt — jeans tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/boohooman-2-classic-oxford-shirt/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "mens-clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 59,
-    views: 0,
-    offers: [
-      {
-        store: "boohooman-store",
-        price: 43160,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-2-classic-oxford-shirt",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 49800,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-6-classic-oxford-shirt",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 53120,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-10-classic-oxford-shirt",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 211650,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-14-classic-oxford-shirt",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 63495,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-18-classic-oxford-shirt",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0420",
-    slug: "boohooman-boohooman-relaxed-chino-trousers",
-    name: "Boohooman Relaxed Chino Trousers",
-    brand: "boohooman",
-    category: "mens-clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "boohooMAN Boohooman Relaxed Chino Trousers — jackets tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/boohooman-3-relaxed-chino-trousers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "mens-clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 133,
-    views: 0,
-    offers: [
-      {
-        store: "boohooman-store",
-        price: 23240,
-        originalPrice: 33200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-3-relaxed-chino-trousers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 134875,
-        originalPrice: 207500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-7-relaxed-chino-trousers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 219120,
-        originalPrice: 273900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-11-relaxed-chino-trousers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 86320,
-        originalPrice: 132800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-15-relaxed-chino-trousers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 105825,
-        originalPrice: 141100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-19-relaxed-chino-trousers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0421",
-    slug: "boohooman-boohooman-tailored-bomber-jacket",
-    name: "Boohooman Tailored Bomber Jacket",
-    brand: "boohooman",
-    category: "mens-clothing",
-    subcategory: "Chinos",
-    gender: "men",
-    description: "boohooMAN Boohooman Tailored Bomber Jacket — chinos tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/boohooman-4-tailored-bomber-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "mens-clothing",
-      "chinos"
-    ],
-    rating: 4,
-    reviews: 152,
-    views: 0,
-    offers: [
-      {
-        store: "boohooman-store",
-        price: 246925,
-        originalPrice: 290500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-4-tailored-bomber-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 53950,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-8-tailored-bomber-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 126160,
-        originalPrice: 157700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-12-tailored-bomber-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 161850,
-        originalPrice: 215800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-16-tailored-bomber-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      },
-      {
-        store: "boohooman-store",
-        price: 109560,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.boohooman.com/p/boohooman-20-tailored-bomber-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0422",
-    slug: "prettylittlething-prettylittlething-classic-blazer",
-    name: "Prettylittlething Classic Blazer",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 95,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 118690,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0423",
-    slug: "prettylittlething-prettylittlething-relaxed-shirt-dress",
-    name: "Prettylittlething Relaxed Shirt Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 114,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 44820,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0424",
-    slug: "prettylittlething-prettylittlething-slim-fit-denim-jacket",
-    name: "Prettylittlething Slim Fit Denim Jacket",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "PrettyLittleThing Prettylittlething Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 57,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 191730,
-        originalPrice: 273900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0425",
-    slug: "prettylittlething-prettylittlething-oversized-knit-sweater",
-    name: "Prettylittlething Oversized Knit Sweater",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 76,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 80925,
-        originalPrice: 124500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0426",
-    slug: "prettylittlething-prettylittlething-tailored-trench-coat",
-    name: "Prettylittlething Tailored Trench Coat",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 219,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 180525,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0427",
-    slug: "prettylittlething-prettylittlething-classic-midi-dress",
-    name: "Prettylittlething Classic Midi Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "PrettyLittleThing Prettylittlething Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 238,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 69720,
-        originalPrice: 116200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0428",
-    slug: "prettylittlething-prettylittlething-relaxed-blazer",
-    name: "Prettylittlething Relaxed Blazer",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 181,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 112050,
-        originalPrice: 149400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0429",
-    slug: "prettylittlething-prettylittlething-slim-fit-shirt-dress",
-    name: "Prettylittlething Slim Fit Shirt Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 200,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 64740,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0430",
-    slug: "prettylittlething-prettylittlething-oversized-denim-jacket",
-    name: "Prettylittlething Oversized Denim Jacket",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "PrettyLittleThing Prettylittlething Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 134,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 225760,
-        originalPrice: 282200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0431",
-    slug: "prettylittlething-prettylittlething-tailored-knit-sweater",
-    name: "Prettylittlething Tailored Knit Sweater",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 115,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 205840,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0432",
-    slug: "prettylittlething-prettylittlething-classic-trench-coat",
-    name: "Prettylittlething Classic Trench Coat",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 172,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 62250,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0433",
-    slug: "prettylittlething-prettylittlething-relaxed-midi-dress",
-    name: "Prettylittlething Relaxed Midi Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "PrettyLittleThing Prettylittlething Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 153,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 183430,
-        originalPrice: 282200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0434",
-    slug: "prettylittlething-prettylittlething-slim-fit-blazer",
-    name: "Prettylittlething Slim Fit Blazer",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 210,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 79680,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0435",
-    slug: "prettylittlething-prettylittlething-oversized-shirt-dress",
-    name: "Prettylittlething Oversized Shirt Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 191,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 43160,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0436",
-    slug: "prettylittlething-prettylittlething-tailored-denim-jacket",
-    name: "Prettylittlething Tailored Denim Jacket",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "PrettyLittleThing Prettylittlething Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 48,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 83000,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0437",
-    slug: "prettylittlething-prettylittlething-classic-knit-sweater",
-    name: "Prettylittlething Classic Knit Sweater",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 229,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 91300,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0438",
-    slug: "prettylittlething-prettylittlething-relaxed-trench-coat",
-    name: "Prettylittlething Relaxed Trench Coat",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 86,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 129480,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0439",
-    slug: "prettylittlething-prettylittlething-slim-fit-midi-dress",
-    name: "Prettylittlething Slim Fit Midi Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "PrettyLittleThing Prettylittlething Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 67,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 53950,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0440",
-    slug: "prettylittlething-prettylittlething-oversized-blazer",
-    name: "Prettylittlething Oversized Blazer",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "PrettyLittleThing Prettylittlething Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 197,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 148155,
-        originalPrice: 174300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0441",
-    slug: "prettylittlething-prettylittlething-tailored-shirt-dress",
-    name: "Prettylittlething Tailored Shirt Dress",
-    brand: "prettylittlething",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "PrettyLittleThing Prettylittlething Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prettylittlething-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 178,
-    views: 0,
-    offers: [
-      {
-        store: "prettylittlething-store",
-        price: 100430,
-        originalPrice: 182600,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.prettylittlething.com/p/prettylittlething-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0442",
-    slug: "forever-21-forever-21-classic-blazer",
-    name: "Forever 21 Classic Blazer",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Forever 21 Forever 21 Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 159,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 180110,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0443",
-    slug: "forever-21-forever-21-relaxed-shirt-dress",
-    name: "Forever 21 Relaxed Shirt Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Forever 21 Forever 21 Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 140,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 199200,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0444",
-    slug: "forever-21-forever-21-slim-fit-denim-jacket",
-    name: "Forever 21 Slim Fit Denim Jacket",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Forever 21 Forever 21 Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 121,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 91715,
-        originalPrice: 141100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0445",
-    slug: "forever-21-forever-21-oversized-knit-sweater",
-    name: "Forever 21 Oversized Knit Sweater",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Forever 21 Forever 21 Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 102,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 36520,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0446",
-    slug: "forever-21-forever-21-tailored-trench-coat",
-    name: "Forever 21 Tailored Trench Coat",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Forever 21 Forever 21 Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 83,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 124500,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0447",
-    slug: "forever-21-forever-21-classic-midi-dress",
-    name: "Forever 21 Classic Midi Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Forever 21 Forever 21 Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 64,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 87150,
-        originalPrice: 174300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0448",
-    slug: "forever-21-forever-21-relaxed-blazer",
-    name: "Forever 21 Relaxed Blazer",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Forever 21 Forever 21 Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 149,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 132385,
-        originalPrice: 240700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0449",
-    slug: "forever-21-forever-21-slim-fit-shirt-dress",
-    name: "Forever 21 Slim Fit Shirt Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Forever 21 Forever 21 Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 130,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 192975,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0450",
-    slug: "forever-21-forever-21-oversized-denim-jacket",
-    name: "Forever 21 Oversized Denim Jacket",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Forever 21 Forever 21 Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 124,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 119935,
-        originalPrice: 141100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0451",
-    slug: "forever-21-forever-21-tailored-knit-sweater",
-    name: "Forever 21 Tailored Knit Sweater",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Forever 21 Forever 21 Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 105,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 159360,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0452",
-    slug: "forever-21-forever-21-classic-trench-coat",
-    name: "Forever 21 Classic Trench Coat",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Forever 21 Forever 21 Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 86,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 150977,
-        originalPrice: 215800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0453",
-    slug: "forever-21-forever-21-relaxed-midi-dress",
-    name: "Forever 21 Relaxed Midi Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Forever 21 Forever 21 Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 67,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 59760,
-        originalPrice: 99600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0454",
-    slug: "forever-21-forever-21-slim-fit-blazer",
-    name: "Forever 21 Slim Fit Blazer",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Forever 21 Forever 21 Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 200,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 116200,
-        originalPrice: 232400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0455",
-    slug: "forever-21-forever-21-oversized-shirt-dress",
-    name: "Forever 21 Oversized Shirt Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Forever 21 Forever 21 Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 181,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 136950,
-        originalPrice: 273900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0456",
-    slug: "forever-21-forever-21-tailored-denim-jacket",
-    name: "Forever 21 Tailored Denim Jacket",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Forever 21 Forever 21 Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 162,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 149400,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0457",
-    slug: "forever-21-forever-21-classic-knit-sweater",
-    name: "Forever 21 Classic Knit Sweater",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Forever 21 Forever 21 Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 143,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 87150,
-        originalPrice: 174300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0458",
-    slug: "forever-21-forever-21-relaxed-trench-coat",
-    name: "Forever 21 Relaxed Trench Coat",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Forever 21 Forever 21 Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 172,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 199200,
-        originalPrice: 265600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0459",
-    slug: "forever-21-forever-21-slim-fit-midi-dress",
-    name: "Forever 21 Slim Fit Midi Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Forever 21 Forever 21 Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 153,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 44820,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0460",
-    slug: "forever-21-forever-21-oversized-blazer",
-    name: "Forever 21 Oversized Blazer",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Forever 21 Forever 21 Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 215,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 75530,
-        originalPrice: 116200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0461",
-    slug: "forever-21-forever-21-tailored-shirt-dress",
-    name: "Forever 21 Tailored Shirt Dress",
-    brand: "forever-21",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Forever 21 Forever 21 Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/forever-21-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 196,
-    views: 0,
-    offers: [
-      {
-        store: "forever-21-store",
-        price: 42330,
-        originalPrice: 49800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.forever21.com/p/forever-21-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0462",
-    slug: "gap-gap-classic-blazer",
-    name: "Gap Classic Blazer",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Gap Gap Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 53,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 104580,
-        originalPrice: 174300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0463",
-    slug: "gap-gap-relaxed-shirt-dress",
-    name: "Gap Relaxed Shirt Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Gap Gap Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 234,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 46480,
-        originalPrice: 66400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0464",
-    slug: "gap-gap-slim-fit-denim-jacket",
-    name: "Gap Slim Fit Denim Jacket",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Gap Gap Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 139,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 116200,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.gap.com/p/gap-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0465",
-    slug: "gap-gap-oversized-knit-sweater",
-    name: "Gap Oversized Knit Sweater",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Gap Gap Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 120,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 83000,
-        originalPrice: 166000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0466",
-    slug: "gap-gap-tailored-trench-coat",
-    name: "Gap Tailored Trench Coat",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Gap Gap Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 177,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 59760,
-        originalPrice: 74700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.gap.com/p/gap-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0467",
-    slug: "gap-gap-classic-midi-dress",
-    name: "Gap Classic Midi Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Gap Gap Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 158,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 174300,
-        originalPrice: 249000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0468",
-    slug: "gap-gap-relaxed-blazer",
-    name: "Gap Relaxed Blazer",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Gap Gap Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 63,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 156787,
-        originalPrice: 224100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.gap.com/p/gap-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0469",
-    slug: "gap-gap-slim-fit-shirt-dress",
-    name: "Gap Slim Fit Shirt Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Gap Gap Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 44,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 49800,
-        originalPrice: 83000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0470",
-    slug: "gap-gap-oversized-denim-jacket",
-    name: "Gap Oversized Denim Jacket",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Gap Gap Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 206,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 87150,
-        originalPrice: 174300,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.gap.com/p/gap-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0471",
-    slug: "gap-gap-tailored-knit-sweater",
-    name: "Gap Tailored Knit Sweater",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Gap Gap Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 225,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 161850,
-        originalPrice: 215800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0472",
-    slug: "gap-gap-classic-trench-coat",
-    name: "Gap Classic Trench Coat",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Gap Gap Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 168,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 114540,
-        originalPrice: 190900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0473",
-    slug: "gap-gap-relaxed-midi-dress",
-    name: "Gap Relaxed Midi Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Gap Gap Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 187,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 70135,
-        originalPrice: 107900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0474",
-    slug: "gap-gap-slim-fit-blazer",
-    name: "Gap Slim Fit Blazer",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Gap Gap Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 82,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 172640,
-        originalPrice: 265600,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.gap.com/p/gap-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0475",
-    slug: "gap-gap-oversized-shirt-dress",
-    name: "Gap Oversized Shirt Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Gap Gap Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 101,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 199200,
-        originalPrice: 265600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0476",
-    slug: "gap-gap-tailored-denim-jacket",
-    name: "Gap Tailored Denim Jacket",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Gap Gap Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 44,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 183430,
-        originalPrice: 282200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0477",
-    slug: "gap-gap-classic-knit-sweater",
-    name: "Gap Classic Knit Sweater",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Gap Gap Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 63,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 167245,
-        originalPrice: 257300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0478",
-    slug: "gap-gap-relaxed-trench-coat",
-    name: "Gap Relaxed Trench Coat",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Gap Gap Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 54,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 109560,
-        originalPrice: 199200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0479",
-    slug: "gap-gap-slim-fit-midi-dress",
-    name: "Gap Slim Fit Midi Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Gap Gap Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 73,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 34860,
-        originalPrice: 58100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0480",
-    slug: "gap-gap-oversized-blazer",
-    name: "Gap Oversized Blazer",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Gap Gap Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 169,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 73040,
-        originalPrice: 132800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0481",
-    slug: "gap-gap-tailored-shirt-dress",
-    name: "Gap Tailored Shirt Dress",
-    brand: "gap",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Gap Gap Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 150,
-    views: 0,
-    offers: [
-      {
-        store: "gap-store",
-        price: 134460,
-        originalPrice: 224100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gap.com/p/gap-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
     id: "PI-0482",
     slug: "under-armour-under-armour-seamless-leggings",
     name: "Under Armour Seamless Leggings",
@@ -14901,646 +8853,6 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-20-breathable-track-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0502",
-    slug: "reebok-reebok-air-runner",
-    name: "Reebok Air Runner",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "men",
-    description: "Reebok Reebok Air Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-1-air-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 176,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 590960,
-        originalPrice: 738700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-1-air-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0503",
-    slug: "reebok-reebok-ultra-trainer",
-    name: "Reebok Ultra Trainer",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "women",
-    description: "Reebok Reebok Ultra Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-2-ultra-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 157,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 282200,
-        originalPrice: 332000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-2-ultra-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0504",
-    slug: "reebok-reebok-pro-sneaker",
-    name: "Reebok Pro Sneaker",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "unisex",
-    description: "Reebok Reebok Pro Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-3-pro-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 62,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 69720,
-        originalPrice: 116200,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-3-pro-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0505",
-    slug: "reebok-reebok-react-basketball-shoe",
-    name: "Reebok React Basketball Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "men",
-    description: "Reebok Reebok React Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-4-react-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 43,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 74700,
-        originalPrice: 149400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-4-react-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0506",
-    slug: "reebok-reebok-flex-court-shoe",
-    name: "Reebok Flex Court Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "women",
-    description: "Reebok Reebok Flex Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-5-flex-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 100,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 522900,
-        originalPrice: 697200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-5-flex-court-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0507",
-    slug: "reebok-reebok-boost-runner",
-    name: "Reebok Boost Runner",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "unisex",
-    description: "Reebok Reebok Boost Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-6-boost-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 81,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 314985,
-        originalPrice: 572700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-6-boost-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0508",
-    slug: "reebok-reebok-prime-trainer",
-    name: "Reebok Prime Trainer",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "men",
-    description: "Reebok Reebok Prime Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-7-prime-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 186,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 252320,
-        originalPrice: 315400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-7-prime-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0509",
-    slug: "reebok-reebok-air-sneaker",
-    name: "Reebok Air Sneaker",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "women",
-    description: "Reebok Reebok Air Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-8-air-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 167,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 199200,
-        originalPrice: 332000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-8-air-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0510",
-    slug: "reebok-reebok-ultra-basketball-shoe",
-    name: "Reebok Ultra Basketball Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "unisex",
-    description: "Reebok Reebok Ultra Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-9-ultra-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 183,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 307847,
-        originalPrice: 439900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-9-ultra-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0511",
-    slug: "reebok-reebok-pro-court-shoe",
-    name: "Reebok Pro Court Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "men",
-    description: "Reebok Reebok Pro Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-10-pro-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 164,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 173470,
-        originalPrice: 315400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-10-pro-court-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0512",
-    slug: "reebok-reebok-react-runner",
-    name: "Reebok React Runner",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "women",
-    description: "Reebok Reebok React Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-11-react-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 221,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 75530,
-        originalPrice: 116200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-11-react-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0513",
-    slug: "reebok-reebok-flex-trainer",
-    name: "Reebok Flex Trainer",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "unisex",
-    description: "Reebok Reebok Flex Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-12-flex-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 202,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 323700,
-        originalPrice: 647400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-12-flex-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0514",
-    slug: "reebok-reebok-boost-sneaker",
-    name: "Reebok Boost Sneaker",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "men",
-    description: "Reebok Reebok Boost Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-13-boost-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 107,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 275145,
-        originalPrice: 423300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-13-boost-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0515",
-    slug: "reebok-reebok-prime-basketball-shoe",
-    name: "Reebok Prime Basketball Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "women",
-    description: "Reebok Reebok Prime Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-14-prime-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 88,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 220780,
-        originalPrice: 315400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-14-prime-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0516",
-    slug: "reebok-reebok-air-court-shoe",
-    name: "Reebok Air Court Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "unisex",
-    description: "Reebok Reebok Air Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-15-air-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 145,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 498000,
-        originalPrice: 622500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-15-air-court-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0517",
-    slug: "reebok-reebok-ultra-runner",
-    name: "Reebok Ultra Runner",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Sneakers",
-    gender: "men",
-    description: "Reebok Reebok Ultra Runner — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-16-ultra-runner/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "sneakers"
-    ],
-    rating: 4,
-    reviews: 126,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 194220,
-        originalPrice: 298800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-16-ultra-runner",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0518",
-    slug: "reebok-reebok-pro-trainer",
-    name: "Reebok Pro Trainer",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Running Shoes",
-    gender: "women",
-    description: "Reebok Reebok Pro Trainer — running shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-17-pro-trainer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "running-shoes"
-    ],
-    rating: 4,
-    reviews: 135,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 597600,
-        originalPrice: 747000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-17-pro-trainer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0519",
-    slug: "reebok-reebok-react-sneaker",
-    name: "Reebok React Sneaker",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Training Shoes",
-    gender: "unisex",
-    description: "Reebok Reebok React Sneaker — training shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-18-react-sneaker/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "training-shoes"
-    ],
-    rating: 4,
-    reviews: 116,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 59345,
-        originalPrice: 107900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-18-react-sneaker",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0520",
-    slug: "reebok-reebok-flex-basketball-shoe",
-    name: "Reebok Flex Basketball Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Basketball Shoes",
-    gender: "men",
-    description: "Reebok Reebok Flex Basketball Shoe — basketball shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-19-flex-basketball-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "basketball-shoes"
-    ],
-    rating: 4,
-    reviews: 148,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 378895,
-        originalPrice: 688900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-19-flex-basketball-shoe",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0521",
-    slug: "reebok-reebok-boost-court-shoe",
-    name: "Reebok Boost Court Shoe",
-    brand: "reebok",
-    category: "sneakers",
-    subcategory: "Lifestyle Sneakers",
-    gender: "women",
-    description: "Reebok Reebok Boost Court Shoe — lifestyle sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/reebok-20-boost-court-shoe/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "sneakers",
-      "lifestyle-sneakers"
-    ],
-    rating: 4,
-    reviews: 129,
-    views: 0,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 63910,
-        originalPrice: 116200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/p/reebok-20-boost-court-shoe",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
@@ -40049,6 +33361,7046 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.asos.com/us/nike/nike-air-rift-sneakers-in-beige/prd/207499260#colourWayId-207499262",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0001",
+    slug: "zara-mini-dress-with-pleated-sleeves",
+    name: "MINI DRESS WITH PLEATED SLEEVES",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara MINI DRESS WITH PLEATED SLEEVES — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/d210/18da/0fb94bbf9c46/85134b05a696/07827777800-a1/07827777800-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 106,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 5802,
+        originalPrice: 5802,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/mini-dress-with-pleated-sleeves-p07827777.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0002",
+    slug: "zara-satin-mini-dress",
+    name: "SATIN MINI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SATIN MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/7851/66ca/d5564e6ab2b8/dc3f17128b49/07100402084-a3/07100402084-a3.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 87,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 4972,
+        originalPrice: 4972,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/satin-mini-dress-p07100306.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0003",
+    slug: "zara-shoulder-pad-romper",
+    name: "SHOULDER PAD ROMPER",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SHOULDER PAD ROMPER — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/99ba/ad5b/ee154f63ba0f/3bba3c45caf9/04772246251-a3/04772246251-a3.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 68,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 6632,
+        originalPrice: 6632,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/shoulder-pad-short-jumpsuit-p04772246.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0004",
+    slug: "zara-metallic-effect-cut-out-bodysuit",
+    name: "METALLIC EFFECT CUT-OUT BODYSUIT",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara METALLIC EFFECT CUT-OUT BODYSUIT — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/04bb/4813/302041469455/18075d4170ba/01165741808-a1/01165741808-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 49,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 4142,
+        originalPrice: 4142,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/metallic-effect-open-back-bodysuit-p01165741.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0005",
+    slug: "zara-metallic-effect-halter-midi-dress",
+    name: "METALLIC EFFECT HALTER MIDI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara METALLIC EFFECT HALTER MIDI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/f968/74ec/f2ba47b58f0c/3226fd1c289e/01165742808-p/01165742808-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 230,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 4972,
+        originalPrice: 4972,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/metallic-effect-halter-midi-dress-p01165742.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0006",
+    slug: "zara-shoulder-pad-short-jumpsuit",
+    name: "SHOULDER PAD SHORT JUMPSUIT",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SHOULDER PAD SHORT JUMPSUIT — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/abfb/71bc/3ff641a6b6ee/a232c534aa4a/04772246800-a1/04772246800-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 211,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 6632,
+        originalPrice: 6632,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/shoulder-pad-short-jumpsuit-p04772246.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0007",
+    slug: "zara-shoulder-pad-romper-2",
+    name: "SHOULDER PAD ROMPER (2)",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SHOULDER PAD ROMPER (2) — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/bf7e/00b8/8d55447099f8/434f45899f5f/04772216251-a1/04772216251-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 192,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 8292,
+        originalPrice: 8292,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/shoulder-pad-romper-p04772216.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0008",
+    slug: "zara-shoulder-pad-seam-detail-mini-dress",
+    name: "SHOULDER PAD SEAM DETAIL MINI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SHOULDER PAD SEAM DETAIL MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/7d50/0259/e39c42b0828e/3315e6726197/07825444800-a1/07825444800-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 5802,
+        originalPrice: 5802,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/shoulder-pad-seamed-mini-dress-p07825444.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0009",
+    slug: "zara-animal-print-tulle-dress",
+    name: "ANIMAL PRINT TULLE DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara ANIMAL PRINT TULLE DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/de06/b65e/4ff1452ebd9d/206f0f987642/05039406051-p/05039406051-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 6632,
+        originalPrice: 6632,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/animal-print-tulle-dress-p05039406.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0010",
+    slug: "zara-satin-effect-midi-halter-dress",
+    name: "SATIN EFFECT MIDI HALTER DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SATIN EFFECT MIDI HALTER DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/bd3c/9a50/67854d73a39d/99d4023aa31e/04772386800-015-a2/04772386800-015-a2.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 4972,
+        originalPrice: 4972,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/satin-midi-halter-dress-p04772386.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0011",
+    slug: "zara-ruched-cutout-midi-dress",
+    name: "RUCHED CUTOUT MIDI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara RUCHED CUTOUT MIDI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/f5a6/b425/283f4c648878/f753186cbaa6/04772214800-p/04772214800-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 4972,
+        originalPrice: 4972,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/ruched-cutout-midi-dress-p04772214.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0012",
+    slug: "zara-pleated-sleeve-mini-dress",
+    name: "PLEATED SLEEVE MINI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara PLEATED SLEEVE MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/b391/8b0f/09cd4aeca120/ff7439dc6c0d/03067206251-a1/03067206251-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 5802,
+        originalPrice: 5802,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/mini-dress-with-pleated-sleeves-p07827777.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0013",
+    slug: "zara-crepe-midi-dress",
+    name: "CREPE MIDI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara CREPE MIDI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/eff3/798b/6a2742d298eb/7e6b413d9114/04387235251-p/04387235251-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 5802,
+        originalPrice: 5802,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/crepe-midi-dress-p04387235.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0014",
+    slug: "zara-100-leather-zip-up-mini-dress",
+    name: "100% LEATHER ZIP-UP MINI DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara 100% LEATHER ZIP-UP MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/2737/99af/3cea45628065/0920b0466c8f/03046292305-a1/03046292305-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 14027,
+        originalPrice: 14027,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.zara.com/us/en/100-leather-zip-up-mini-dress-p03046292.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0015",
+    slug: "zara-short-back-opening-dress",
+    name: "SHORT BACK OPENING DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SHORT BACK OPENING DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/d86d/f761/308543298db2/6a16eb53d145/08741271800-p/08741271800-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 4972,
+        originalPrice: 4972,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.zara.com/us/en/short-back-opening-dress-p08741271.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0016",
+    slug: "zara-sequin-open-back-dress",
+    name: "SEQUIN OPEN-BACK DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara SEQUIN OPEN-BACK DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/902f/b8a2/ec6342bb974b/90435057c88b/01223721756-a1/01223721756-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 10707,
+        originalPrice: 10707,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/open-back-sequin-dress-p01223721.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0017",
+    slug: "zara-long-floral-print-dress",
+    name: "LONG FLORAL PRINT DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara LONG FLORAL PRINT DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/7579/f60a/c27a4f58b71c/10dc9a2705f2/02488710710-a1/02488710710-a1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 12367,
+        originalPrice: 12367,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/floral-print-maxi-dress-p02488710.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0018",
+    slug: "zara-striped-belted-midi-shirt-dress",
+    name: "STRIPED BELTED MIDI SHIRT DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara STRIPED BELTED MIDI SHIRT DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/71ff/c2a6/4ff44c838430/b21498fc76b5/05029215104-p/05029215104-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 7462,
+        originalPrice: 7462,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.zara.com/us/en/striped-belted-midi-shirt-dress-p05029215.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0019",
+    slug: "zara-striped-midi-shirt-dress-with-belt",
+    name: "STRIPED MIDI SHIRT DRESS WITH BELT",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara STRIPED MIDI SHIRT DRESS WITH BELT — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/60e8/a0b0/c5c24060a2a5/413b3afd0e47/02587157330-p/02587157330-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 6632,
+        originalPrice: 6632,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.zara.com/us/en/striped-midi-belted-shirt-dress-p02587157.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0020",
+    slug: "zara-zw-collection-embroidered-fringe-dress",
+    name: "ZW COLLECTION EMBROIDERED FRINGE DRESS",
+    brand: "zara",
+    category: "dresses-jumpsuits",
+    subcategory: "Women's Dresses & Jumpsuits",
+    gender: "women",
+    description: "Zara ZW COLLECTION EMBROIDERED FRINGE DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.zara.net/assets/public/4659/db43/c4fb4ae290cf/6b7226e27841/07521256629-p/07521256629-p.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-jumpsuits",
+      "women-s-dresses-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "zara-store",
+        price: 12367,
+        originalPrice: 12367,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.zara.com/us/en/zw-collection-embroidered-fringe-dress-p07521256.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0021",
+    slug: "hm-collins-super-baggy-jeans",
+    name: "Collins Super Baggy Jeans",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Collins Super Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/48/e6/48e65b5303fd3c73cbeb2e107fa8c1c33b7b41d7.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1252606015.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0022",
+    slug: "hm-ultra-baggy-jeans",
+    name: "Ultra Baggy Jeans",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Ultra Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/9d/09/9d09b31aaf5e6ccdfc4bc528084b35c4840ecd49.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1344244002.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0023",
+    slug: "hm-regular-jeans",
+    name: "Regular Jeans",
+    brand: "hm",
+    category: "men-jeans-regular",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Regular Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/22/dd/22ddea984a4d2ddeee51cacc1d852e363b9fcea2.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-regular",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 2904,
+        originalPrice: 2904,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1311674007.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0024",
+    slug: "hm-fairfax-baggy-jeans",
+    name: "Fairfax Baggy Jeans",
+    brand: "hm",
+    category: "men-jeans",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Fairfax Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/a5/59/a55995c00a296ab971ffb8c46b9b2f24dd2eadd8.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4149,
+        originalPrice: 4149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1235448024.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0025",
+    slug: "hm-loose-jeans",
+    name: "Loose Jeans",
+    brand: "hm",
+    category: "men-jeans-loose",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Loose Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/7e/4a/7e4a4954086a6b934d6c7995446e896f28878a25.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-loose",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1352026001.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0026",
+    slug: "hm-relaxed-jeans",
+    name: "Relaxed Jeans",
+    brand: "hm",
+    category: "men-jeans-relaxed",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Relaxed Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/fa/2d/fa2d3adc00c1cbf58a8a3289136c28520eb597ce.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-relaxed",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4149,
+        originalPrice: 4149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1340673001.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0027",
+    slug: "hm-slim-jeans",
+    name: "Slim Jeans",
+    brand: "hm",
+    category: "men-jeans-slim",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Slim Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/4e/fd/4efd534578eea29628a17a5cd767194345a1390a.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-slim",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4149,
+        originalPrice: 4149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1311677001.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0028",
+    slug: "hm-wide-leg-jeans",
+    name: "Wide-Leg Jeans",
+    brand: "hm",
+    category: "men-jeans-loose",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Wide-Leg Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/7e/88/7e88598847235af5137122c67f833dd73aa85df9.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-loose",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4149,
+        originalPrice: 4149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1348295001.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0029",
+    slug: "hm-collins-super-baggy-jeans-2",
+    name: "Collins Super Baggy Jeans (2)",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Collins Super Baggy Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/24/16/24162e7ca43a75507c157343fc6b841cd5ded3da.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 76,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1252606017.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0030",
+    slug: "hm-collins-super-baggy-jeans-3",
+    name: "Collins Super Baggy Jeans (3)",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Collins Super Baggy Jeans (3) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/57/2c/572cabfa26bb948817df4059011061f976cf7141.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 218,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1252606018.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0031",
+    slug: "hm-baggy-jeans",
+    name: "Baggy Jeans",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/4f/2f/4f2fc8489fcbaed1555a9ff3e751b51c7b29390b.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 199,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 3319,
+        originalPrice: 3319,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1336394005.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0032",
+    slug: "hm-collins-super-baggy-jeans-4",
+    name: "Collins Super Baggy Jeans (4)",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Collins Super Baggy Jeans (4) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/18/31/1831a4bd5c2678308265c6429b86749312ff4885.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 56,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1252606016.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0033",
+    slug: "hm-baggy-barrel-leg-jeans",
+    name: "Baggy Barrel-Leg Jeans",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Baggy Barrel-Leg Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/3a/25/3a2575ccbb7a70c8ab17306162014ab52328d39d.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 237,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1369029001.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0034",
+    slug: "hm-relaxed-bootcut-jeans",
+    name: "Relaxed Bootcut Jeans",
+    brand: "hm",
+    category: "men-jeans-bootcut",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Relaxed Bootcut Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/80/04/80047cb69d6ac2c2a0af968555fd610215111d3b.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-bootcut",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 142,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1307319011.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0035",
+    slug: "hm-baggy-jeans-2",
+    name: "Baggy Jeans (2)",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Baggy Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/2c/cd/2ccd0d6594ddf9a5f36ad17151371d218195c3f1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 123,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1352077002.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0036",
+    slug: "hm-wide-leg-jeans-2",
+    name: "Wide-Leg Jeans (2)",
+    brand: "hm",
+    category: "men-jeans-loose",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Wide-Leg Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/d4/00/d400ea0a8e18f6dee5ed15ad2028083abd05b3da.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-loose",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 180,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1315487001.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0037",
+    slug: "hm-regular-jeans-2",
+    name: "Regular Jeans (2)",
+    brand: "hm",
+    category: "men-jeans-regular",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Regular Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/8c/a3/8ca33ace134a38aa1b964263b4ab5ad3dc67f0e0.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-regular",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 161,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4149,
+        originalPrice: 4149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1309974006.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0038",
+    slug: "hm-baggy-darted-jeans",
+    name: "Baggy Darted Jeans",
+    brand: "hm",
+    category: "men-jeans-baggy",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Baggy Darted Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/e8/cb/e8cb857c0bbd098f642f54e69a8bd05044558319.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-baggy",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 3734,
+        originalPrice: 3734,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1314928005.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0039",
+    slug: "hm-loose-fit-worker-jeans",
+    name: "Loose-Fit Worker Jeans",
+    brand: "hm",
+    category: "men-jeans-loose",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Loose-Fit Worker Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/49/1c/491c6348049fc6f1642bbe799cce65da91d18862.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-loose",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4149,
+        originalPrice: 4149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1325023003.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0040",
+    slug: "hm-relaxed-bootcut-jeans-2",
+    name: "Relaxed Bootcut Jeans (2)",
+    brand: "hm",
+    category: "men-jeans-bootcut",
+    subcategory: "Men's Jeans",
+    gender: "men",
+    description: "H&M Relaxed Bootcut Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.hm.com/assets/hm/00/b2/00b24e2e593a5333e9721aefc0d284f0b9a80061.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "men-jeans-bootcut",
+      "men-s-jeans"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "hm-store",
+        price: 4564,
+        originalPrice: 4564,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www2.hm.com/en_us/productpage.1307319010.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0041",
+    slug: "uniqlo-crew-neck-t-shirt",
+    name: "Crew Neck T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Crew Neck T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/424873/item/usgoods_00_424873_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E424873-000/00?colorDisplayCode=00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0042",
+    slug: "uniqlo-mini-t-shirt",
+    name: "Mini T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Mini T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/465760/item/usgoods_18_465760_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1652,
+        originalPrice: 1652,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E465760-000/18?colorDisplayCode=18",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0043",
+    slug: "uniqlo-airism-cotton-t-shirt-striped",
+    name: "AIRism Cotton T-Shirt | Striped",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo AIRism Cotton T-Shirt | Striped — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480054/item/usgoods_39_480054_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1652,
+        originalPrice: 1652,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E480054-000/39?colorDisplayCode=39",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0044",
+    slug: "uniqlo-ultra-stretch-active-t-shirt",
+    name: "Ultra Stretch Active T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Ultra Stretch Active T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/483458/item/usgoods_39_483458_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E483458-000/39?colorDisplayCode=39",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0045",
+    slug: "uniqlo-mini-t-shirt-striped",
+    name: "Mini T-Shirt | Striped",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Mini T-Shirt | Striped — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/483535/item/usgoods_01_483535_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1652,
+        originalPrice: 1652,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E483535-000/01?colorDisplayCode=01",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0046",
+    slug: "uniqlo-boat-neck-t-shirt",
+    name: "Boat Neck T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Boat Neck T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E487819-000/30?colorDisplayCode=30",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0047",
+    slug: "uniqlo-airism-cotton-t-shirt",
+    name: "AIRism Cotton T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo AIRism Cotton T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/465755/item/usgoods_09_465755_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1652,
+        originalPrice: 1652,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E465755-000/09?colorDisplayCode=09",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0048",
+    slug: "uniqlo-airism-cotton-t-shirt-2",
+    name: "AIRism Cotton T-Shirt (2)",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo AIRism Cotton T-Shirt (2) — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/465755/item/usgoods_54_465755_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 822,
+        originalPrice: 822,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E465755-000/54?colorDisplayCode=54",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0049",
+    slug: "uniqlo-boxy-knitted-t-shirt",
+    name: "Boxy Knitted T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Boxy Knitted T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482979/item/usgoods_38_482979_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1652,
+        originalPrice: 1652,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E482979-000/38?colorDisplayCode=38",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0050",
+    slug: "uniqlo-airism-camisole",
+    name: "AIRism Camisole",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo AIRism Camisole — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482148/item/usgoods_00_482148_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 232,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E482148-000/00?colorDisplayCode=00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0051",
+    slug: "uniqlo-shirring-boat-neck-sleeveless-t-shirt",
+    name: "Shirring Boat Neck Sleeveless T-Shirt",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Shirring Boat Neck Sleeveless T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/485673/item/usgoods_37_485673_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 213,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 822,
+        originalPrice: 822,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E485673-000/37?colorDisplayCode=37",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0052",
+    slug: "uniqlo-washable-knit-bra-top",
+    name: "Washable Knit Bra Top",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Washable Knit Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/488457/item/usgoods_09_488457_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 194,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 3312,
+        originalPrice: 3312,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E488457-000/09?colorDisplayCode=09",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0053",
+    slug: "uniqlo-ribbed-lace-v-neck-camisole",
+    name: "Ribbed Lace V-Neck Camisole",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Ribbed Lace V-Neck Camisole — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/489044/item/usgoods_69_489044_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 175,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E489044-000/69?colorDisplayCode=69",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0054",
+    slug: "uniqlo-racer-back-bra-top",
+    name: "Racer Back Bra Top",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Racer Back Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482839/item/usgoods_02_482839_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 156,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 2482,
+        originalPrice: 2482,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E482839-000/02?colorDisplayCode=02",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0055",
+    slug: "uniqlo-airism-bra-top",
+    name: "AIRism Bra Top",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo AIRism Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/473980/item/usgoods_02_473980_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 137,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 2482,
+        originalPrice: 2482,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E473980-000/02?colorDisplayCode=02",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0056",
+    slug: "uniqlo-ribbed-cropped-bra-top",
+    name: "Ribbed Cropped Bra Top",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Ribbed Cropped Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482195/item/usgoods_60_482195_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 118,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 2482,
+        originalPrice: 2482,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E482195-000/60?colorDisplayCode=60",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0057",
+    slug: "uniqlo-cropped-square-neck-sleeveless-top",
+    name: "Cropped Square Neck Sleeveless Top",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Cropped Square Neck Sleeveless Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/487119/item/usgoods_68_487119_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 99,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E487119-000/68?colorDisplayCode=68",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0058",
+    slug: "uniqlo-airism-sleeveless-top",
+    name: "AIRism Sleeveless Top",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo AIRism Sleeveless Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/457912/item/usgoods_60_457912_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E457912-000/60?colorDisplayCode=60",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0059",
+    slug: "uniqlo-pointelle-printed-camisole",
+    name: "Pointelle Printed Camisole",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Pointelle Printed Camisole — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/487121/item/usgoods_01_487121_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E487121-000/01?colorDisplayCode=01",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0060",
+    slug: "uniqlo-ribbed-sleeveless-top-striped",
+    name: "Ribbed Sleeveless Top | Striped",
+    brand: "uniqlo",
+    category: "t-shirts-sweats",
+    subcategory: "Women's T-Shirts & Tops",
+    gender: "women",
+    description: "Uniqlo Ribbed Sleeveless Top | Striped — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/489483/item/usgoods_16_489483_3x4.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts-sweats",
+      "women-s-t-shirts-tops"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "uniqlo-store",
+        price: 1237,
+        originalPrice: 1237,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.uniqlo.com/us/en/products/E489483-000/16?colorDisplayCode=16",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0061",
+    slug: "mango-suede-jacket-with-buttons",
+    name: "Suede jacket with buttons",
+    brand: "mango",
+    category: "jackets",
+    subcategory: "leather",
+    gender: "women",
+    description: "Mango Suede jacket with buttons — leather tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27051332-28-002",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jackets",
+      "leather"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 14939,
+        originalPrice: 35689,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/jackets/leather/suede-jacket-with-buttons/27051332/28/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0062",
+    slug: "mango-leather-block-heel-sandals",
+    name: "Leather block-heel sandals",
+    brand: "mango",
+    category: "shoes",
+    subcategory: "heeled-sandals",
+    gender: "women",
+    description: "Mango Leather block-heel sandals — heeled-sandals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37041443-32-016",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "heeled-sandals"
+    ],
+    rating: 4,
+    reviews: 145,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 12449,
+        originalPrice: 17429,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/shoes/heeled-sandals/leather-block-heel-sandals/37041443/32/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0063",
+    slug: "mango-wide-leg-studded-jeans",
+    name: "Wide leg studded jeans",
+    brand: "mango",
+    category: "jeans",
+    subcategory: "wide-leg",
+    gender: "women",
+    description: "Mango Wide leg studded jeans — wide-leg tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27014101-32-002",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jeans",
+      "wide-leg"
+    ],
+    rating: 4,
+    reviews: 126,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 5809,
+        originalPrice: 11619,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/jeans/wide-leg/wide-leg-studded-jeans/27014101/32/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0064",
+    slug: "mango-asymmetrical-satin-dress-with-fringes",
+    name: "Asymmetrical satin dress with fringes",
+    brand: "mango",
+    category: "dresses-and-jumpsuits",
+    subcategory: "dresses",
+    gender: "women",
+    description: "Mango Asymmetrical satin dress with fringes — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27081211-17-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-and-jumpsuits",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 24899,
+        originalPrice: 33200,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/dresses/asymmetrical-satin-dress-with-fringes/27081211/17/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0065",
+    slug: "mango-halter-jumpsuit-with-belt-detail",
+    name: "Halter jumpsuit with belt detail",
+    brand: "mango",
+    category: "dresses-and-jumpsuits",
+    subcategory: "halter",
+    gender: "women",
+    description: "Mango Halter jumpsuit with belt detail — halter tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37061389-05-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-and-jumpsuits",
+      "halter"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 4979,
+        originalPrice: 8299,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/halter/halter-jumpsuit-with-belt-detail/37061389/05/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0066",
+    slug: "mango-cotton-t-shirt-with-openwork-embroidered-detail",
+    name: "Cotton T-shirt with openwork embroidered detail",
+    brand: "mango",
+    category: "t-shirts",
+    subcategory: "basics",
+    gender: "women",
+    description: "Mango Cotton T-shirt with openwork embroidered detail — basics tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37041354-01-002",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "basics"
+    ],
+    rating: 4,
+    reviews: 221,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 1908,
+        originalPrice: 3817,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/t-shirts/basics/cotton-t-shirt-with-openwork-embroidered-detail/37041354/01/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0067",
+    slug: "mango-cross-back-linen-blend-romper",
+    name: "Cross-back linen blend romper",
+    brand: "mango",
+    category: "dresses-and-jumpsuits",
+    subcategory: "casual",
+    gender: "women",
+    description: "Mango Cross-back linen blend romper — casual tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37032527-70-002",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-and-jumpsuits",
+      "casual"
+    ],
+    rating: 4,
+    reviews: 202,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 5809,
+        originalPrice: 8299,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/cross-back-linen-blend-romper/37032527/70/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0068",
+    slug: "mango-vest-with-buttons-and-pockets",
+    name: "Vest with buttons and pockets",
+    brand: "mango",
+    category: "tops",
+    subcategory: "gilets",
+    gender: "women",
+    description: "Mango Vest with buttons and pockets — gilets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37041431-99-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops",
+      "gilets"
+    ],
+    rating: 4,
+    reviews: 155,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 2987,
+        originalPrice: 6639,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/tops/gilets/vest-with-buttons-and-pockets/37041431/99/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0069",
+    slug: "mango-leather-straps-sandals",
+    name: "Leather straps sandals",
+    brand: "mango",
+    category: "shoes",
+    subcategory: "flat-sandals",
+    gender: "women",
+    description: "Mango Leather straps sandals — flat-sandals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37052557-70-900",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "flat-sandals"
+    ],
+    rating: 4,
+    reviews: 136,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 4149,
+        originalPrice: 6639,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/shoes/flat-sandals/leather-straps-sandals/37052557/70/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0070",
+    slug: "mango-suit-jacket-with-fitted-waist",
+    name: "Suit jacket with fitted waist",
+    brand: "mango",
+    category: "blazers",
+    subcategory: "fitted",
+    gender: "women",
+    description: "Mango Suit jacket with fitted waist — fitted tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37071451-99-008",
+    colors: [],
+    sizes: [],
+    tags: [
+      "blazers",
+      "fitted"
+    ],
+    rating: 4,
+    reviews: 98,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 16599,
+        originalPrice: 24899,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/blazers/fitted/suit-jacket-with-fitted-waist/37071451/99/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0071",
+    slug: "mango-wool-blend-funnel-neck-coat",
+    name: "Wool-blend funnel-neck coat",
+    brand: "mango",
+    category: "coats",
+    subcategory: "coats",
+    gender: "women",
+    description: "Mango Wool-blend funnel-neck coat — coats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27051260-10-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "coats",
+      "coats"
+    ],
+    rating: 4,
+    reviews: 117,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 9959,
+        originalPrice: 20749,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/coats/coats/wool-blend-funnel-neck-coat/27051260/10/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0072",
+    slug: "mango-a-line-dress-with-stitching-details",
+    name: "A-line dress with stitching details",
+    brand: "mango",
+    category: "dresses-and-jumpsuits",
+    subcategory: "casual",
+    gender: "women",
+    description: "Mango A-line dress with stitching details — casual tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37002895-62-002",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-and-jumpsuits",
+      "casual"
+    ],
+    rating: 4,
+    reviews: 60,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 6639,
+        originalPrice: 8299,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/a-line-dress-with-stitching-details/37002895/62/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0073",
+    slug: "mango-wedge-leather-sandals",
+    name: "Wedge leather sandals",
+    brand: "mango",
+    category: "shoes",
+    subcategory: "heeled-sandals",
+    gender: "women",
+    description: "Mango Wedge leather sandals — heeled-sandals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37031444-70-900",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "heeled-sandals"
+    ],
+    rating: 4,
+    reviews: 79,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 14939,
+        originalPrice: 20749,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/shoes/heeled-sandals/wedge-leather-sandals/37031444/70/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0074",
+    slug: "mango-straight-mid-rise-bermuda-shorts",
+    name: "Straight mid-rise Bermuda shorts",
+    brand: "mango",
+    category: "shorts-and-bermuda-shorts",
+    subcategory: "bermuda-shorts",
+    gender: "women",
+    description: "Mango Straight mid-rise Bermuda shorts — bermuda-shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37051431-99-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shorts-and-bermuda-shorts",
+      "bermuda-shorts"
+    ],
+    rating: 4,
+    reviews: 222,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 3817,
+        originalPrice: 6639,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/shorts-and-bermuda-shorts/bermuda-shorts/straight-mid-rise-bermuda-shorts/37051431/99/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0075",
+    slug: "mango-belt-linen-jumpsuit",
+    name: "Belt linen jumpsuit",
+    brand: "mango",
+    category: "dresses-and-jumpsuits",
+    subcategory: "casual",
+    gender: "women",
+    description: "Mango Belt linen jumpsuit — casual tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37082539-70-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses-and-jumpsuits",
+      "casual"
+    ],
+    rating: 4,
+    reviews: 41,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 6639,
+        originalPrice: 10789,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/belt-linen-jumpsuit/37082539/70/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0076",
+    slug: "mango-crocheted-ballet-flats-with-ankle-strap",
+    name: "Crocheted ballet flats with ankle strap",
+    brand: "mango",
+    category: "shoes",
+    subcategory: "ballet-flats",
+    gender: "women",
+    description: "Mango Crocheted ballet flats with ankle strap — ballet-flats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37051346-80-052",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "ballet-flats"
+    ],
+    rating: 4,
+    reviews: 184,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 4149,
+        originalPrice: 6639,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/shoes/ballet-flats/crocheted-ballet-flats-with-ankle-strap/37051346/80/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0077",
+    slug: "mango-semi-sheer-shirt-with-beaded-belt",
+    name: "Semi-sheer shirt with beaded belt",
+    brand: "mango",
+    category: "shirts-blouses",
+    subcategory: "long-sleeve",
+    gender: "women",
+    description: "Mango Semi-sheer shirt with beaded belt — long-sleeve tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/37031458-02-007",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shirts-blouses",
+      "long-sleeve"
+    ],
+    rating: 4,
+    reviews: 203,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 10789,
+        originalPrice: 17429,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/shirts---blouses/long-sleeve/semi-sheer-shirt-with-beaded-belt/37031458/02/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0078",
+    slug: "mango-knit-jacket-with-combined-fabrics",
+    name: "Knit jacket with combined fabrics",
+    brand: "mango",
+    category: "sweaters-and-cardigans",
+    subcategory: "cardigans",
+    gender: "women",
+    description: "Mango Knit jacket with combined fabrics — cardigans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27044098-95-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "sweaters-and-cardigans",
+      "cardigans"
+    ],
+    rating: 4,
+    reviews: 50,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 4149,
+        originalPrice: 8299,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/sweaters-and-cardigans/cardigans/knit-jacket-with-combined-fabrics/27044098/95/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0079",
+    slug: "mango-turtleneck-knit-sweater",
+    name: "Turtleneck knit sweater",
+    brand: "mango",
+    category: "pyjamas",
+    subcategory: "knitwear",
+    gender: "women",
+    description: "Mango Turtleneck knit sweater — knitwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/17034101-34-002",
+    colors: [],
+    sizes: [],
+    tags: [
+      "pyjamas",
+      "knitwear"
+    ],
+    rating: 4,
+    reviews: 69,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 2489,
+        originalPrice: 7469,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/pyjamas/knitwear/turtleneck-knit-sweater/17034101/34/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0080",
+    slug: "mango-manteco-wool-coat-with-belt",
+    name: "Manteco wool coat with belt",
+    brand: "mango",
+    category: "coats",
+    subcategory: "coats",
+    gender: "women",
+    description: "Mango Manteco wool coat with belt — coats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27011307-37-008",
+    colors: [],
+    sizes: [],
+    tags: [
+      "coats",
+      "coats"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "mango-store",
+        price: 12449,
+        originalPrice: 24899,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/coats/coats/manteco-wool-coat-with-belt/27011307/37/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0081",
+    slug: "shein-naizhu-1pair-flower-earrings-fashion-party-accessories",
+    name: "NAIZHU 1pair Flower Earrings, Fashion Party Accessories",
+    brand: "shein",
+    category: "women-dangle-earrings",
+    subcategory: "Women Dangle Earrings",
+    gender: "women",
+    description: "SHEIN NAIZHU 1pair Flower Earrings, Fashion Party Accessories — women dangle earrings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/images3_spmp/2024/03/19/a9/1710833238f93cea562cd38ccb1918c7392dc296d2_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-dangle-earrings",
+      "women-dangle-earrings"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 283,
+        originalPrice: 319,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/NAIZHU-1pair-Beautiful-Circle-And-Creative-Flower-Earrings-Fashionable-Party-Accessories-Valentines-Mom-Mother-Mother-s-Day-Gift-p-33123770.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0082",
+    slug: "shein-emery-rose-faux-denim-color-block-polo-long-sleeve-top",
+    name: "EMERY ROSE Faux Denim Color Block Polo Long Sleeve Top",
+    brand: "shein",
+    category: "women-t-shirts",
+    subcategory: "Women T-Shirts",
+    gender: "women",
+    description: "SHEIN EMERY ROSE Faux Denim Color Block Polo Long Sleeve Top — women t-shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/dps/PS2026082022159/5c85381ecf7c53c39dc4fdbbffb0791154d3b1204395d3388e17fec8360170d6_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-t-shirts",
+      "women-t-shirts"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1848,
+        originalPrice: 2161,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/EMERY-ROSE-Recommended-Best-Selling-Casual-Design-Faux-Denim-Color-Block-Patchwork-Polo-Collar-Women-s-Long-Sleeve-Top-Suitable-For-Daily-Shopping-Dating-And-Commuting-Back-To-School-Season-Loose-And-Slimming-Versatile-Style-For-All-Seasons-p-515599093.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0083",
+    slug: "shein-women-s-v-neck-knit-vest-button-front-cardigan",
+    name: "Women's V-Neck Knit Vest, Button Front Cardigan",
+    brand: "shein",
+    category: "women-sweater-vests",
+    subcategory: "Women Sweater Vests",
+    gender: "women",
+    description: "SHEIN Women's V-Neck Knit Vest, Button Front Cardigan — women sweater vests tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/04/27/de/17772677267a35563516dc9df8009bc5e48e2cbd37_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-sweater-vests",
+      "women-sweater-vests"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1584,
+        originalPrice: 1814,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Women-s-Versatile-V-Neck-Knit-Vest-Spring-Summer-Fashion-Piece-Button-Front-Sleeveless-Cardigan-Knitwear-Top-Brown-Aesthetic-Fall-p-454501773.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0084",
+    slug: "shein-fashion-punk-gothic-elastic-beach-headband",
+    name: "Fashion Punk Gothic Elastic Beach Headband",
+    brand: "shein",
+    category: "hair-bands",
+    subcategory: "Hair Bands",
+    gender: "women",
+    description: "SHEIN Fashion Punk Gothic Elastic Beach Headband — hair bands tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/08/12/2b/1786500394127b655a6ab0ee3d09436d0def1df104_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hair-bands",
+      "hair-bands"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 388,
+        originalPrice: 430,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/1-3-4pcs-Fashion-Punk-Gothic-Soft-Non-Slip-Elastic-Hollow-Beach-Headband-Yoga-Sports-Daily-Casual-Hairband-Aesthetic-p-430341534.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0085",
+    slug: "shein-women-s-lace-trim-satin-halter-neck-top",
+    name: "Women's Lace Trim Satin Halter Neck Top",
+    brand: "shein",
+    category: "women-tops",
+    subcategory: "Women Tops",
+    gender: "women",
+    description: "SHEIN Women's Lace Trim Satin Halter Neck Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/08/18/9a/1787040658a2419634ed1de74fe142087cd21f88ca_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-tops",
+      "women-tops"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1371,
+        originalPrice: 1537,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Women-s-Summer-Top-Minimalist-Lace-Trim-Satin-Halter-Neck-Top-Going-Out-Date-Vacation-Travel-Tops-Halter-Cami-Satin-Y2K-Coquette-Old-Money-Date-Night-p-414209583.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0086",
+    slug: "shein-shein-essnce-long-sleeve-pleated-blazer",
+    name: "SHEIN Essnce Long Sleeve Pleated Blazer",
+    brand: "shein",
+    category: "women-jackets",
+    subcategory: "Women Jackets",
+    gender: "women",
+    description: "SHEIN SHEIN Essnce Long Sleeve Pleated Blazer — women jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/images3_pi/2024/08/16/e3/17237731484f56782a1f1473a0639978b963cf3a5f_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-jackets",
+      "women-jackets"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1454,
+        originalPrice: 1662,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/SHEIN-Essnce-Women-s-Solid-Color-Long-Sleeve-Pleated-Blazer-In-Fall-Winter-p-40842817.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0087",
+    slug: "shein-shein-boho-casual-loose-linen-shirt-blouse",
+    name: "SHEIN Boho Casual Loose Linen Shirt Blouse",
+    brand: "shein",
+    category: "women-blouses-shirts",
+    subcategory: "Women Blouses & Shirts",
+    gender: "women",
+    description: "SHEIN SHEIN Boho Casual Loose Linen Shirt Blouse — women blouses & shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/20/31/17845463206bf7f4c6585f83b99341d4235d514ee4_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-blouses-shirts",
+      "women-blouses-shirts"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1330,
+        originalPrice: 1496,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/SHEIN-Women-s-Simple-Boho-Casual-Comfortable-Loose-Linen-Shirt-Blouse-Vacation-Coffee-Brown-Autumn-p-533358211.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0088",
+    slug: "shein-trnvie-halter-neck-circular-buckle-tank-top",
+    name: "TRNVIE Halter Neck Circular Buckle Tank Top",
+    brand: "shein",
+    category: "women-tank-tops-camis",
+    subcategory: "Women Tank Tops & Camis",
+    gender: "women",
+    description: "SHEIN TRNVIE Halter Neck Circular Buckle Tank Top — women tank tops & camis tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2025/08/22/50/1755866915545c9736b38769d346bc380957c727fd_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-tank-tops-camis",
+      "women-tank-tops-camis"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 927,
+        originalPrice: 1038,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/TRNVIE-Elegant-High-Street-Halter-Neck-Circular-Buckle-Decor-Light-Blue-Women-Tank-Top-Spring-Summer-p-160685782.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0089",
+    slug: "shein-romwe-leopard-floral-print-y2k-skinny-denim-shorts",
+    name: "ROMWE Leopard & Floral Print Y2K Skinny Denim Shorts",
+    brand: "shein",
+    category: "women-jeans",
+    subcategory: "Women Jeans",
+    gender: "women",
+    description: "SHEIN ROMWE Leopard & Floral Print Y2K Skinny Denim Shorts — women jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/02/04/81/1770195424e9632c4ca035262199270f1b1ccd3f2e_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-jeans",
+      "women-jeans"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 3287,
+        originalPrice: 4559,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/ROMWE-Hippie-Vintage-Leopard-Floral-Print-Y2K-Style-Skinny-Denim-Shorts-p-328995645.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0090",
+    slug: "shein-bohemian-woven-flared-a-line-long-skirt",
+    name: "Bohemian Woven Flared A-Line Long Skirt",
+    brand: "shein",
+    category: "women-skirts",
+    subcategory: "Women Skirts",
+    gender: "women",
+    description: "SHEIN Bohemian Woven Flared A-Line Long Skirt — women skirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/06/22/dc/1782119923c9160504e95d50e05096e6922605dca7_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-skirts",
+      "women-skirts"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1874,
+        originalPrice: 2161,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Elegant-Spring-Autumn-All-Season-Versatile-French-Casual-Bohemian-Style-Woven-Fabric-Flared-A-Line-Long-Skirt-For-Women-Summer-p-469769661.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0091",
+    slug: "shein-casual-denim-spliced-jacket-slim-fit-coat",
+    name: "Casual Denim Spliced Jacket Slim-Fit Coat",
+    brand: "shein",
+    category: "women-jackets",
+    subcategory: "Women Jackets",
+    gender: "women",
+    description: "SHEIN Casual Denim Spliced Jacket Slim-Fit Coat — women jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/p/spmp/2026/07/21/64/1784630626d5244aa7001b053d965179ba5ebcf3fa_thumbnail_405x552.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-jackets",
+      "women-jackets"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 5109,
+        originalPrice: 10218,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Women-s-Casual-Denim-Spliced-Jacket-Loose-Neck-Open-Front-Top-Long-Sleeve-Single-Breasted-Slim-Fit-Autumn-And-Winter-Coat-p-533759060.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0092",
+    slug: "shein-elenzga-v-neck-cinched-waist-jumpsuit",
+    name: "Elenzga V-Neck Cinched Waist Jumpsuit",
+    brand: "shein",
+    category: "women-jumpsuits",
+    subcategory: "Women Jumpsuits",
+    gender: "women",
+    description: "SHEIN Elenzga V-Neck Cinched Waist Jumpsuit — women jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/dps/PS202608160527/d3989da97a11bf0a24fadba0ef77031cf110683c69cc1f8409968b2c335ca7a7_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-jumpsuits",
+      "women-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 3519,
+        originalPrice: 3963,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Elenzga-Women-s-Apricot-Solid-Fabric-V-Neck-Lapel-Collar-Cinched-Waist-Patchwork-Design-High-End-Elegant-Professional-Office-Wear-High-Presence-Meeting-Outfit-Teacher-Outfit-Academic-Style-Campus-Style-Valentine-s-Day-Carnival-Labor-Day-Easter-Travel-Vacation-Street-Style-Spring-Autumn-Jumpsuit-Spring-Autumn-New-Essential-Fashion-Item-Niche-Design-Versatile-Long-Sleeve-Cinched-Waist-Jumpsuit-p-516500556.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0093",
+    slug: "shein-romwe-goth-floral-lace-underwire-triangle-cup-bra",
+    name: "ROMWE Goth Floral Lace Underwire Triangle Cup Bra",
+    brand: "shein",
+    category: "women-bras-bralettes",
+    subcategory: "Women Bras & Bralettes",
+    gender: "women",
+    description: "SHEIN ROMWE Goth Floral Lace Underwire Triangle Cup Bra — women bras & bralettes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/01/05/d6/1767583925ecbe2357d32f29fc3180a520a3832708_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-bras-bralettes",
+      "women-bras-bralettes"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 775,
+        originalPrice: 969,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/ROMWE-Goth-Floral-Lace-Underwire-Triangle-Cup-Bra-p-353607624.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0094",
+    slug: "shein-autumn-tiger-print-crew-neck-sweatshirt",
+    name: "Autumn Tiger Print Crew Neck Sweatshirt",
+    brand: "shein",
+    category: "women-sweatshirts-hoodies",
+    subcategory: "Women Sweatshirts & Hoodies",
+    gender: "women",
+    description: "SHEIN Autumn Tiger Print Crew Neck Sweatshirt — women sweatshirts & hoodies tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2025/11/24/d7/1763955247ff2974a97e61871c7439582513476b03_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-sweatshirts-hoodies",
+      "women-sweatshirts-hoodies"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1343,
+        originalPrice: 1565,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Women-s-Autumn-Tiger-Print-Crew-Neck-Sweatshirt-Casual-Loose-Versatile-Holiday-Style-Top-Suitable-For-Daily-Wear-Autumn-Winter-Fashion-Spring-p-168282543.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0095",
+    slug: "shein-balvessa-floral-print-wrap-v-neck-sweater",
+    name: "Balvessa Floral Print Wrap V-Neck Sweater",
+    brand: "shein",
+    category: "women-sweaters",
+    subcategory: "Women Sweaters",
+    gender: "women",
+    description: "SHEIN Balvessa Floral Print Wrap V-Neck Sweater — women sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2025/10/30/cd/1761793423f903cc98458e3bc80bde65f39dd082b1_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-sweaters",
+      "women-sweaters"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 2501,
+        originalPrice: 2937,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Balvessa-Floral-Print-Wrap-Style-Cropped-V-Neck-Tie-Waist-Long-Gigot-Sleeve-Casual-Elegant-Sweater-For-Women-Long-Sleeve-Tops-Knit-Pullover-Fall-Winter-Outfit-p-222761527.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0096",
+    slug: "shein-vixey-textured-asymmetrical-hem-waistcoat-top",
+    name: "Vixey Textured Asymmetrical Hem Waistcoat Top",
+    brand: "shein",
+    category: "women-tops",
+    subcategory: "Women Tops",
+    gender: "women",
+    description: "SHEIN Vixey Textured Asymmetrical Hem Waistcoat Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/24/61/17848870032e292b562cf776050fff9a71b77dbe14_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-tops",
+      "women-tops"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1131,
+        originalPrice: 3422,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Vixey-Solid-Textured-Woven-Asymmetrical-Hem-Single-Button-Waistcoat-Top-p-233124658.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0097",
+    slug: "shein-colorful-striped-ankle-socks-4-8-pairs",
+    name: "Colorful Striped Ankle Socks (4/8 Pairs)",
+    brand: "shein",
+    category: "women-over-the-calf-socks",
+    subcategory: "Women Over the Calf Socks",
+    gender: "women",
+    description: "SHEIN Colorful Striped Ankle Socks (4/8 Pairs) — women over the calf socks tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2025/09/18/af/17581855747059f11260c390d4477b6d94c43f239f_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-over-the-calf-socks",
+      "women-over-the-calf-socks"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 347,
+        originalPrice: 388,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/4-Pairs-8-Pairs-Colorful-Striped-Ankle-Socks-Fashionable-Innovative-Skin-Friendly-Soft-Tight-Fitting-Suitable-For-Women-Cozy-Socks-p-195053831.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0098",
+    slug: "shein-glyssa-backless-halter-neck-fitted-jumpsuit",
+    name: "Glyssa Backless Halter Neck Fitted Jumpsuit",
+    brand: "shein",
+    category: "women-jumpsuits",
+    subcategory: "Women Jumpsuits",
+    gender: "women",
+    description: "SHEIN Glyssa Backless Halter Neck Fitted Jumpsuit — women jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/smartflow/2026/08/13/30/17865983008be564dc8c24413fc3ca2f4cc9202294_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-jumpsuits",
+      "women-jumpsuits"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 2050,
+        originalPrice: 2300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Glyssa-Fashion-Sexy-Backless-Halter-Neck-Fitted-Jumpsuit-p-556872263.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0099",
+    slug: "shein-shein-cross-neck-3-4-sleeve-pleated-top",
+    name: "SHEIN Cross Neck 3/4 Sleeve Pleated Top",
+    brand: "shein",
+    category: "women-tops",
+    subcategory: "Women Tops",
+    gender: "women",
+    description: "SHEIN SHEIN Cross Neck 3/4 Sleeve Pleated Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/08/04/f2/1785848495e4773d741658d2f9f633549c61d82626_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-tops",
+      "women-tops"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1755,
+        originalPrice: 2050,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/SHEIN-Women-s-Summer-Cross-Neck-3-4-Sleeve-Pleated-Casual-Top-p-523174658.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0100",
+    slug: "shein-hauture-cowl-neck-mesh-backless-halter-top",
+    name: "Hauture Cowl Neck Mesh Backless Halter Top",
+    brand: "shein",
+    category: "women-tops",
+    subcategory: "Women Tops",
+    gender: "women",
+    description: "SHEIN Hauture Cowl Neck Mesh Backless Halter Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/07/a5/1783363156ebcb2f9fe5934cd8fd6ff2e51985b8a6_thumbnail_405x552.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "women-tops",
+      "women-tops"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "shein-store",
+        price: 1130,
+        originalPrice: 1316,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.shein.com/Hauture-Women-s-Sexy-Casual-Elegant-Cowl-Neck-Ruched-Double-Layered-Mesh-Backless-Halter-Top-Perfect-For-Summer-Vacation-Date-Night-Out-Party-p-520591806.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0101",
+    slug: "prettylittlething-shell-funnel-neck-jacket",
+    name: "Shell Funnel Neck Jacket",
+    brand: "prettylittlething",
+    category: "jackets-coats",
+    subcategory: "Windbreaker",
+    gender: "women",
+    description: "PrettyLittleThing Shell Funnel Neck Jacket — windbreaker tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6321_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jackets-coats",
+      "windbreaker"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 2258,
+        originalPrice: 2822,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/shell-funnel-neck-jacket_plt101613",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0102",
+    slug: "prettylittlething-shell-balloon-leg-track-pants",
+    name: "Shell Balloon Leg Track Pants",
+    brand: "prettylittlething",
+    category: "joggers",
+    subcategory: "Sports Joggers",
+    gender: "women",
+    description: "PrettyLittleThing Shell Balloon Leg Track Pants — sports joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6322_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "joggers",
+      "sports-joggers"
+    ],
+    rating: 4,
+    reviews: 100,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1926,
+        originalPrice: 2407,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/shell-balloon-leg-track-pants_plt101612",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0103",
+    slug: "prettylittlething-cotton-fleece-polo-button-sweatshirt",
+    name: "Cotton Fleece Polo Button Sweatshirt",
+    brand: "prettylittlething",
+    category: "hoodies-sweatshirts",
+    subcategory: "Plain Sweatshirt",
+    gender: "women",
+    description: "PrettyLittleThing Cotton Fleece Polo Button Sweatshirt — plain sweatshirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq8194_navy_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "plain-sweatshirt"
+    ],
+    rating: 4,
+    reviews: 81,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1859,
+        originalPrice: 2324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/cotton-fleece-polo-button-sweatshirt_plt103504",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0104",
+    slug: "prettylittlething-sculpt-capri-leggings",
+    name: "Sculpt Capri Leggings",
+    brand: "prettylittlething",
+    category: "leggings",
+    subcategory: "Sports Leggings",
+    gender: "women",
+    description: "PrettyLittleThing Sculpt Capri Leggings — sports leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq7494_espresso_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "leggings",
+      "sports-leggings"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1461,
+        originalPrice: 1826,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/sculpt-capri-leggings_plt102804",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0105",
+    slug: "prettylittlething-cropped-zip-sweat-hoodie",
+    name: "Cropped Zip Sweat Hoodie",
+    brand: "prettylittlething",
+    category: "hoodies-sweatshirts",
+    subcategory: "Plain Hoodie",
+    gender: "women",
+    description: "PrettyLittleThing Cropped Zip Sweat Hoodie — plain hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq8190_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "plain-hoodie"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1859,
+        originalPrice: 2324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/cropped-zip-sweat-hoodie_plt103500",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0106",
+    slug: "prettylittlething-print-wide-leg-joggers",
+    name: "Print Wide Leg Joggers",
+    brand: "prettylittlething",
+    category: "joggers",
+    subcategory: "Sports Joggers",
+    gender: "women",
+    description: "PrettyLittleThing Print Wide Leg Joggers — sports joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6341_camo_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "joggers",
+      "sports-joggers"
+    ],
+    rating: 4,
+    reviews: 176,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1859,
+        originalPrice: 2324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/print-wide-leg-joggers_plt101632",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0107",
+    slug: "prettylittlething-paris-embroidered-full-zip-hoodie",
+    name: "Paris Embroidered Full Zip Hoodie",
+    brand: "prettylittlething",
+    category: "hoodies-sweatshirts",
+    subcategory: "Plain Hoodie",
+    gender: "women",
+    description: "PrettyLittleThing Paris Embroidered Full Zip Hoodie — plain hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6462_blue_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "plain-hoodie"
+    ],
+    rating: 4,
+    reviews: 157,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1926,
+        originalPrice: 2407,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/paris-embroidered-full-zip-hoodie_plt101754",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0108",
+    slug: "prettylittlething-paris-embroidered-sweat-shorts",
+    name: "Paris Embroidered Sweat Shorts",
+    brand: "prettylittlething",
+    category: "shorts",
+    subcategory: "Sports Shorts",
+    gender: "women",
+    description: "PrettyLittleThing Paris Embroidered Sweat Shorts — sports shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6463_blue_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shorts",
+      "sports-shorts"
+    ],
+    rating: 4,
+    reviews: 110,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1062,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/paris-embroidered-sweat-shorts_plt101753",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0109",
+    slug: "prettylittlething-button-front-sweatshirt",
+    name: "Button Front Sweatshirt",
+    brand: "prettylittlething",
+    category: "hoodies-sweatshirts",
+    subcategory: "Plain Sweatshirt",
+    gender: "women",
+    description: "PrettyLittleThing Button Front Sweatshirt — plain sweatshirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6808_charcoal_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "plain-sweatshirt"
+    ],
+    rating: 4,
+    reviews: 91,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1859,
+        originalPrice: 2324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/button-front-sweatshirt_plt102100",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0110",
+    slug: "prettylittlething-love-club-print-sweat-shorts",
+    name: "Love Club Print Sweat Shorts",
+    brand: "prettylittlething",
+    category: "shorts",
+    subcategory: "Sports Shorts",
+    gender: "women",
+    description: "PrettyLittleThing Love Club Print Sweat Shorts — sports shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6283_pink_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shorts",
+      "sports-shorts"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1195,
+        originalPrice: 1494,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/love-club-print-sweat-shorts_plt101574",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0111",
+    slug: "prettylittlething-cropped-zip-sweat-hoodie-2",
+    name: "Cropped Zip Sweat Hoodie (2)",
+    brand: "prettylittlething",
+    category: "hoodies-sweatshirts",
+    subcategory: "Plain Hoodie",
+    gender: "women",
+    description: "PrettyLittleThing Cropped Zip Sweat Hoodie (2) — plain hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq8199_charcoal_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "plain-hoodie"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1859,
+        originalPrice: 2324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/cropped-zip-sweat-hoodie_plt103509",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0112",
+    slug: "prettylittlething-sugar-print-pullover-sweatshirt",
+    name: "Sugar Print Pullover Sweatshirt",
+    brand: "prettylittlething",
+    category: "hoodies-sweatshirts",
+    subcategory: "Plain Sweatshirt",
+    gender: "women",
+    description: "PrettyLittleThing Sugar Print Pullover Sweatshirt — plain sweatshirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq6280_dark pink_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "plain-sweatshirt"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1859,
+        originalPrice: 2324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/sugar-print-pullover-sweatshirt_plt101571",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0113",
+    slug: "prettylittlething-soft-cotton-quarter-sleeve-fitted-top",
+    name: "Soft Cotton Quarter Sleeve Fitted Top",
+    brand: "prettylittlething",
+    category: "t-shirts",
+    subcategory: "T-Shirt",
+    gender: "women",
+    description: "PrettyLittleThing Soft Cotton Quarter Sleeve Fitted Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq8518_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "t-shirt"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1062,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/soft-cotton-quarter-sleeve-fitted-top_plt103828",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0114",
+    slug: "prettylittlething-soft-rib-crew-neck-short-sleeve-top",
+    name: "Soft Rib Crew Neck Short Sleeve Top",
+    brand: "prettylittlething",
+    category: "t-shirts",
+    subcategory: "T-Shirt",
+    gender: "women",
+    description: "PrettyLittleThing Soft Rib Crew Neck Short Sleeve Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnm9844_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "t-shirt"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 797,
+        originalPrice: 996,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/soft-rib-crew-neck-short-sleeve-top_plt00797",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0115",
+    slug: "prettylittlething-soft-rib-crew-neck-long-sleeve-top",
+    name: "Soft Rib Crew Neck Long Sleeve Top",
+    brand: "prettylittlething",
+    category: "t-shirts",
+    subcategory: "T-Shirt",
+    gender: "women",
+    description: "PrettyLittleThing Soft Rib Crew Neck Long Sleeve Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cno2437_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "t-shirt"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 996,
+        originalPrice: 1245,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/soft-rib-crew-neck-long-sleeve-top_plt02870",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0116",
+    slug: "prettylittlething-basic-soft-cotton-boat-neck-vest-top",
+    name: "Basic Soft Cotton Boat Neck Vest Top",
+    brand: "prettylittlething",
+    category: "tops",
+    subcategory: "Vest",
+    gender: "women",
+    description: "PrettyLittleThing Basic Soft Cotton Boat Neck Vest Top — vest tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnp8422_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops",
+      "vest"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 930,
+        originalPrice: 1162,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/basic-soft-cotton-boat-neck-vest-top_plt19679",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0117",
+    slug: "prettylittlething-soft-rib-high-neck-fitted-longline-t-shirt",
+    name: "Soft Rib High Neck Fitted Longline T-Shirt",
+    brand: "prettylittlething",
+    category: "t-shirts",
+    subcategory: "T-Shirt",
+    gender: "women",
+    description: "PrettyLittleThing Soft Rib High Neck Fitted Longline T-Shirt — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cno2433_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "t-shirt"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 930,
+        originalPrice: 1162,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/soft-rib-high-neck-fitted-longline-t-shirt_plt04221",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0118",
+    slug: "prettylittlething-basic-soft-rib-backless-top",
+    name: "Basic Soft Rib Backless Top",
+    brand: "prettylittlething",
+    category: "t-shirts",
+    subcategory: "T-Shirt",
+    gender: "women",
+    description: "PrettyLittleThing Basic Soft Rib Backless Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnc9233_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "t-shirt"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 598,
+        originalPrice: 747,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/basic-soft-rib-backless-top_plt13787",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0119",
+    slug: "prettylittlething-basic-soft-rib-racer-neck-vest-top",
+    name: "Basic Soft Rib Racer Neck Vest Top",
+    brand: "prettylittlething",
+    category: "tops",
+    subcategory: "Vest",
+    gender: "women",
+    description: "PrettyLittleThing Basic Soft Rib Racer Neck Vest Top — vest tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnm9836_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops",
+      "vest"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 664,
+        originalPrice: 830,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/basic-soft-rib-racer-neck-vest-top_plt00297",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0120",
+    slug: "prettylittlething-textured-burnout-slouchy-one-shoulder-t-shirt",
+    name: "Textured Burnout Slouchy One Shoulder T-Shirt",
+    brand: "prettylittlething",
+    category: "t-shirts",
+    subcategory: "T-Shirt",
+    gender: "women",
+    description: "PrettyLittleThing Textured Burnout Slouchy One Shoulder T-Shirt — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.prettylittlething.com/cnq8347_blue_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "t-shirt"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "prettylittlething-store",
+        price: 1129,
+        originalPrice: 1411,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.prettylittlething.com/product/textured-burnout-slouchy-one-shoulder-t-shirt_plt103657",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0121",
+    slug: "boohooman-oversized-paris-floral-t-shirt",
+    name: "Oversized Paris Floral T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN Oversized Paris Floral T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm12017_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 664,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-oversized-paris-floral-t-shirt_cmm12017",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0122",
+    slug: "boohooman-fixed-waist-relaxed-fit-cargo-trouser",
+    name: "Fixed Waist Relaxed Fit Cargo Trouser",
+    brand: "boohooman",
+    category: "trousers",
+    subcategory: "Cargo Trousers",
+    gender: "men",
+    description: "boohooMAN Fixed Waist Relaxed Fit Cargo Trouser — cargo trousers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/bmm34314_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "trousers",
+      "cargo-trousers"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1660,
+        originalPrice: 2075,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-fixed-waist-relaxed-fit-cargo-trouser_bmm34314",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0123",
+    slug: "boohooman-melton-pu-applique-varsity-jacket",
+    name: "Melton & PU Applique Varsity Jacket",
+    brand: "boohooman",
+    category: "jackets-coats",
+    subcategory: "Varsity Jacket",
+    gender: "men",
+    description: "boohooMAN Melton & PU Applique Varsity Jacket — varsity jacket tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm23085_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jackets-coats",
+      "varsity-jacket"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 4648,
+        originalPrice: 5810,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-melton-pu-mixed-fabric-applique-varsity-jacket_cmm23085",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0124",
+    slug: "boohooman-white-oversized-tokyo-floral-print-t-shirt",
+    name: "White Oversized Tokyo Floral Print T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN White Oversized Tokyo Floral Print T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm25753_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1062,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-white-oversized-tokyo-floral-print-t-shirt_cmm25753",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0125",
+    slug: "boohooman-essential-oversized-boxy-zip-through-hoodie",
+    name: "Essential Oversized Boxy Zip Through Hoodie",
+    brand: "boohooman",
+    category: "hoodies-sweatshirts",
+    subcategory: "Basic Hoodie",
+    gender: "men",
+    description: "boohooMAN Essential Oversized Boxy Zip Through Hoodie — basic hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm23422_grey marl_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "basic-hoodie"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1328,
+        originalPrice: 1660,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-essential-oversized-boxy-zip-through-hoodie_cmm23422",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0126",
+    slug: "boohooman-oversized-boxy-limited-edition-t-shirt",
+    name: "Oversized Boxy Limited Edition T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN Oversized Boxy Limited Edition T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm24642_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1062,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-oversized-boxy-limited-edition-t-shirt_cmm24642",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0127",
+    slug: "boohooman-essential-skinny-fit-stretch-washed-jeans",
+    name: "Essential Skinny Fit Stretch Washed Jeans",
+    brand: "boohooman",
+    category: "jeans",
+    subcategory: "Skinny Jeans",
+    gender: "men",
+    description: "boohooMAN Essential Skinny Fit Stretch Washed Jeans — skinny jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm24739_antique blue_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jeans",
+      "skinny-jeans"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1660,
+        originalPrice: 2075,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-essential-skinny-fit-stretch-washed-jeans_cmm24739",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0128",
+    slug: "boohooman-ecru-oversized-monaco-racing-t-shirt",
+    name: "Ecru Oversized Monaco Racing T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN Ecru Oversized Monaco Racing T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm14559_ecru_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1195,
+        originalPrice: 1494,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-ecru-oversized-monaco-racing-t-shirt_cmm14559",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0129",
+    slug: "boohooman-ecru-regular-fit-stencil-landscape-hoodie",
+    name: "Ecru Regular Fit Stencil Landscape Hoodie",
+    brand: "boohooman",
+    category: "hoodies-sweatshirts",
+    subcategory: "Printed Hoodie",
+    gender: "men",
+    description: "boohooMAN Ecru Regular Fit Stencil Landscape Hoodie — printed hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm21146_ecru_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "printed-hoodie"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1992,
+        originalPrice: 2490,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-ecru-regular-fit-stencil-landscape-printed-hoodie_cmm21146",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0130",
+    slug: "boohooman-oversized-marvel-spider-man-t-shirt",
+    name: "Oversized Marvel Spider-Man T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Licensed T-Shirt",
+    gender: "men",
+    description: "boohooMAN Oversized Marvel Spider-Man T-Shirt — licensed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm24645_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "licensed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1328,
+        originalPrice: 1660,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-oversized-marvel-spider-man-license-printed-t-shirt_cmm24645",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0131",
+    slug: "boohooman-white-oversized-interlock-monaco-car-t-shirt",
+    name: "White Oversized Interlock Monaco Car T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN White Oversized Interlock Monaco Car T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm26949_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1062,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-white-oversized-interlock-monaco-car-print-t-shirt_cmm26949",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0132",
+    slug: "boohooman-essential-elasticated-twill-cargo-shorts",
+    name: "Essential Elasticated Twill Cargo Shorts",
+    brand: "boohooman",
+    category: "shorts",
+    subcategory: "Cargo Shorts",
+    gender: "men",
+    description: "boohooMAN Essential Elasticated Twill Cargo Shorts — cargo shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm24451_stone_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shorts",
+      "cargo-shorts"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1195,
+        originalPrice: 1494,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-essential-relaxed-fit-elasticated-mid-length-twill-cargo-shorts_cmm24451",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0133",
+    slug: "boohooman-white-oversized-monaco-racing-print-t-shirt",
+    name: "White Oversized Monaco Racing Print T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN White Oversized Monaco Racing Print T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm26528_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1195,
+        originalPrice: 1494,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-white-oversized-monaco-racing-print-t-shirt_cmm26528",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0134",
+    slug: "boohooman-essential-relaxed-fit-denim-jorts",
+    name: "Essential Relaxed Fit Denim Jorts",
+    brand: "boohooman",
+    category: "shorts",
+    subcategory: "Jorts",
+    gender: "men",
+    description: "boohooMAN Essential Relaxed Fit Denim Jorts — jorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm23292_stonewash_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shorts",
+      "jorts"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1461,
+        originalPrice: 1826,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-essential-relaxed-fit-denim-jorts_cmm23292",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0135",
+    slug: "boohooman-oversized-boxy-floral-puff-print-hoodie",
+    name: "Oversized Boxy Floral Puff Print Hoodie",
+    brand: "boohooman",
+    category: "hoodies-sweatshirts",
+    subcategory: "Printed Hoodie",
+    gender: "men",
+    description: "boohooMAN Oversized Boxy Floral Puff Print Hoodie — printed hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/bmm93186_taupe_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "hoodies-sweatshirts",
+      "printed-hoodie"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1992,
+        originalPrice: 2490,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-oversized-boxy-floral-puff-print-zip-through-hoodie_bmm93186",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0136",
+    slug: "boohooman-relaxed-rhinestone-camo-cargo-trousers",
+    name: "Relaxed Rhinestone Camo Cargo Trousers",
+    brand: "boohooman",
+    category: "trousers",
+    subcategory: "Cargo Trousers",
+    gender: "men",
+    description: "boohooMAN Relaxed Rhinestone Camo Cargo Trousers — cargo trousers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm11083_camo_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "trousers",
+      "cargo-trousers"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 3320,
+        originalPrice: 4150,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-relaxed-rhinestone-camo-cargo-trousers_cmm11083",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0137",
+    slug: "boohooman-essential-slim-fit-crew-neck-t-shirt",
+    name: "Essential Slim Fit Crew Neck T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Basic T-Shirt",
+    gender: "men",
+    description: "boohooMAN Essential Slim Fit Crew Neck T-Shirt — basic t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm23038_white_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "basic-t-shirt"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 531,
+        originalPrice: 664,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-essential-slim-fit-crew-neck-t-shirt_cmm23038",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0138",
+    slug: "boohooman-essential-bm-signature-regular-fit-jogger",
+    name: "Essential BM Signature Regular Fit Jogger",
+    brand: "boohooman",
+    category: "joggers",
+    subcategory: "Basic Joggers",
+    gender: "men",
+    description: "boohooMAN Essential BM Signature Regular Fit Jogger — basic joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm20876_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "joggers",
+      "basic-joggers"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1195,
+        originalPrice: 1494,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-essential-bm-signature-regular-fit-jogger_cmm20876",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0139",
+    slug: "boohooman-oversized-floral-photo-back-print-t-shirt",
+    name: "Oversized Floral Photo Back Print T-Shirt",
+    brand: "boohooman",
+    category: "t-shirts",
+    subcategory: "Printed T-Shirt",
+    gender: "men",
+    description: "boohooMAN Oversized Floral Photo Back Print T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/mzz28644_black_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "t-shirts",
+      "printed-t-shirt"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 1062,
+        originalPrice: 1328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-oversized-floral-photo-back-print-t-shirt_mzz28644",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0140",
+    slug: "boohooman-oversized-boxy-bonded-scuba-hooded-tracksuit",
+    name: "Oversized Boxy Bonded Scuba Hooded Tracksuit",
+    brand: "boohooman",
+    category: "tracksuits",
+    subcategory: "Plain Long Tracksuit",
+    gender: "men",
+    description: "boohooMAN Oversized Boxy Bonded Scuba Hooded Tracksuit — plain long tracksuit tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://mediahub.boohoo.com/cmm22046_taupe_xl",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tracksuits",
+      "plain-long-tracksuit"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "boohooman-store",
+        price: 3652,
+        originalPrice: 4565,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.boohoo.com/product/boohooman-oversized-boxy-bonded-scuba-hooded-tracksuit_cmm22046",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0141",
+    slug: "forever-21-100-cotton-crew-tee",
+    name: "100% Cotton Crew Tee",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 100% Cotton Crew Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00489773-02-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 414,
+        originalPrice: 1659,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/00489773",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0142",
+    slug: "forever-21-100-cotton-crew-tee-2",
+    name: "100% Cotton Crew Tee (2)",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 100% Cotton Crew Tee (2) — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01262617-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 414,
+        originalPrice: 1659,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/01262617",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0143",
+    slug: "forever-21-100-cotton-v-neck-tee",
+    name: "100% Cotton V-Neck Tee",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 100% Cotton V-Neck Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00489779-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 414,
+        originalPrice: 1659,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/00489779",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0144",
+    slug: "forever-21-100-cotton-v-neck-tee-2",
+    name: "100% Cotton V-Neck Tee (2)",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 100% Cotton V-Neck Tee (2) — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01262618-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 414,
+        originalPrice: 1078,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/01262618",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0145",
+    slug: "forever-21-1970-graphic-cropped-tank-top",
+    name: "1970 Graphic Cropped Tank Top",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 1970 Graphic Cropped Tank Top — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01287482-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 1244,
+        originalPrice: 1244,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01287482",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0146",
+    slug: "forever-21-1984-varsity-bomber-jacket",
+    name: "1984 Varsity Bomber Jacket",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 1984 Varsity Bomber Jacket — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01348417-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 4979,
+        originalPrice: 4979,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01348417",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0147",
+    slug: "forever-21-1991-nyc-graphic-raglan-tee",
+    name: "1991 NYC Graphic Raglan Tee",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 1991 NYC Graphic Raglan Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01248912-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 581,
+        originalPrice: 1244,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01248912",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0148",
+    slug: "forever-21-28-off-the-shoulder-sweater",
+    name: "28 Off-the-Shoulder Sweater",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 28 Off-the-Shoulder Sweater — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01348157-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 114,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 996,
+        originalPrice: 1908,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01348157",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0149",
+    slug: "forever-21-72-ringer-baby-tee",
+    name: "72 Ringer Baby Tee",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 72 Ringer Baby Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01334687-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 95,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 662,
+        originalPrice: 1244,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/01334687",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0150",
+    slug: "forever-21-8-varsity-cropped-sweater",
+    name: "8 Varsity Cropped Sweater",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 8 Varsity Cropped Sweater — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01335253-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 2738,
+        originalPrice: 2738,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01335253",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0151",
+    slug: "forever-21-84-graphic-pullover",
+    name: "84 Graphic Pullover",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 84 Graphic Pullover — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01349471-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 76,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 1908,
+        originalPrice: 1908,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01349471",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0152",
+    slug: "forever-21-89-turtleneck-sweater",
+    name: "89 Turtleneck Sweater",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 89 Turtleneck Sweater — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01348942-02-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 219,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 2074,
+        originalPrice: 2904,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/01348942",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0153",
+    slug: "forever-21-90s-fit-high-rise-jeans",
+    name: "90s-Fit High-Rise Jeans",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 90s-Fit High-Rise Jeans — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00452998-02-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 238,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 3319,
+        originalPrice: 3319,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/00452998",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0154",
+    slug: "forever-21-90s-fit-high-rise-straight-jeans",
+    name: "90s-Fit High-Rise Straight Jeans",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 90s-Fit High-Rise Straight Jeans — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00504474-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 133,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 2489,
+        originalPrice: 2489,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/00504474",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0155",
+    slug: "forever-21-90s-fit-snap-button-jeans",
+    name: "90s-Fit Snap-Button Jeans",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 90s-Fit Snap-Button Jeans — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00461788-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 152,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 3319,
+        originalPrice: 3319,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/00461788",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0156",
+    slug: "forever-21-a-tribe-called-quest-graphic-tee",
+    name: "A Tribe Called Quest Graphic Tee",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 A Tribe Called Quest Graphic Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00462973-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 95,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 2074,
+        originalPrice: 2074,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/00462973",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0157",
+    slug: "forever-21-a-line-mini-skirt",
+    name: "A-Line Mini Skirt",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 A-Line Mini Skirt — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00473118-10-2_side.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 114,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 662,
+        originalPrice: 1659,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.forever21.com/products/00473118",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0158",
+    slug: "forever-21-a-line-mini-skirt-2",
+    name: "A-Line Mini Skirt (2)",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 A-Line Mini Skirt (2) — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00490662-03-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 105,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 1659,
+        originalPrice: 1659,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/00490662",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0159",
+    slug: "forever-21-aaliyah-graphic-baby-tee",
+    name: "Aaliyah Graphic Baby Tee",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 Aaliyah Graphic Baby Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-00492310-02-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 124,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 1659,
+        originalPrice: 1659,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/00492310",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0160",
+    slug: "forever-21-aaliyah-graphic-hoodie",
+    name: "Aaliyah Graphic Hoodie",
+    brand: "forever-21",
+    category: "tops-bottoms",
+    subcategory: "Tops & Bottoms",
+    gender: "women",
+    description: "Forever 21 Aaliyah Graphic Hoodie — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01359106-01-1_front.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "tops-bottoms",
+      "tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 68,
+    views: 0,
+    offers: [
+      {
+        store: "forever-21-store",
+        price: 2489,
+        originalPrice: 2489,
+        currency: "USD",
+        availability: "OUT OF STOCK",
+        productUrl: "https://www.forever21.com/products/01359106",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0161",
+    slug: "gap-knit-oversized-crop-t-shirt",
+    name: "Knit Oversized Crop T-Shirt",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Oversized Crop T-Shirt — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/734/877/cn62734877.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 89,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 2822,
+        originalPrice: 4146,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=896816012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0162",
+    slug: "gap-knit-oversized-crop-t-shirt-2",
+    name: "Knit Oversized Crop T-Shirt (2)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Oversized Crop T-Shirt (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/087/440/cn62087440.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 70,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 3319,
+        originalPrice: 4146,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=896816022",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0163",
+    slug: "gap-knit-oversized-crop-t-shirt-3",
+    name: "Knit Oversized Crop T-Shirt (3)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Oversized Crop T-Shirt (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/968/232/cn61968232.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 51,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 3403,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=896816072",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0164",
+    slug: "gap-knit-oversized-crop-t-shirt-4",
+    name: "Knit Oversized Crop T-Shirt (4)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Oversized Crop T-Shirt (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/250/217/cn62250217.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 192,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 4976,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=896816062",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0165",
+    slug: "gap-knit-oversized-crop-t-shirt-5",
+    name: "Knit Oversized Crop T-Shirt (5)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Oversized Crop T-Shirt (5) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/132/567/cn62132567.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 211,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 2822,
+        originalPrice: 4146,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=896816002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0166",
+    slug: "gap-100-cotton-oversized-crop-sweater",
+    name: "100% Cotton Oversized Crop Sweater",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap 100% Cotton Oversized Crop Sweater — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/966/251/cn61966251.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 230,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5229,
+        originalPrice: 6636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=901181012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0167",
+    slug: "gap-100-cotton-oversized-crop-sweater-2",
+    name: "100% Cotton Oversized Crop Sweater (2)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap 100% Cotton Oversized Crop Sweater (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/971/508/cn61971508.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 49,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5229,
+        originalPrice: 6636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=901181002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0168",
+    slug: "gap-100-cotton-oversized-crop-sweater-3",
+    name: "100% Cotton Oversized Crop Sweater (3)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap 100% Cotton Oversized Crop Sweater (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/949/924/cn61949924.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 4565,
+        originalPrice: 6636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=901181052",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0169",
+    slug: "gap-100-cotton-oversized-crop-sweater-4",
+    name: "100% Cotton Oversized Crop Sweater (4)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap 100% Cotton Oversized Crop Sweater (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/021/032/cn62021032.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 3901,
+        originalPrice: 6636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=901181022",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0170",
+    slug: "gap-100-cotton-oversized-crop-sweater-5",
+    name: "100% Cotton Oversized Crop Sweater (5)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap 100% Cotton Oversized Crop Sweater (5) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/012/026/cn62012026.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 99,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 3901,
+        originalPrice: 6636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=901181032",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0171",
+    slug: "gap-knit-relaxed-track-pants",
+    name: "Knit Relaxed Track Pants",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Relaxed Track Pants — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/975/582/cn62975582.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 118,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5391,
+        originalPrice: 5391,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=1185084012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0172",
+    slug: "gap-knit-relaxed-track-pants-2",
+    name: "Knit Relaxed Track Pants (2)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Relaxed Track Pants (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/872/144/cn62872144.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 137,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5391,
+        originalPrice: 5391,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=1185084002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0173",
+    slug: "gap-knit-relaxed-track-pants-3",
+    name: "Knit Relaxed Track Pants (3)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Relaxed Track Pants (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/139/768/cn63139768.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 156,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5391,
+        originalPrice: 5391,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=1185084022",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0174",
+    slug: "gap-knit-relaxed-track-pants-4",
+    name: "Knit Relaxed Track Pants (4)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Knit Relaxed Track Pants (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/130/172/cn63130172.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 175,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5391,
+        originalPrice: 5391,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=1185084032",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0175",
+    slug: "gap-organic-cotton-oversized-crop-oxford-shirt",
+    name: "Organic Cotton Oversized Crop Oxford Shirt",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Organic Cotton Oversized Crop Oxford Shirt — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/872/960/cn62872960.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 194,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5806,
+        originalPrice: 5806,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=913902002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0176",
+    slug: "gap-organic-cotton-oversized-crop-oxford-shirt-2",
+    name: "Organic Cotton Oversized Crop Oxford Shirt (2)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Organic Cotton Oversized Crop Oxford Shirt (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/924/138/cn62924138.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 163,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5806,
+        originalPrice: 5806,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=910042002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0177",
+    slug: "gap-organic-cotton-oversized-crop-oxford-shirt-3",
+    name: "Organic Cotton Oversized Crop Oxford Shirt (3)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Organic Cotton Oversized Crop Oxford Shirt (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/748/571/cn62748571.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 144,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5806,
+        originalPrice: 5806,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=910042022",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0178",
+    slug: "gap-organic-cotton-oversized-crop-oxford-shirt-4",
+    name: "Organic Cotton Oversized Crop Oxford Shirt (4)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Organic Cotton Oversized Crop Oxford Shirt (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/924/171/cn62924171.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 125,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5806,
+        originalPrice: 5806,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=910042012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0179",
+    slug: "gap-organic-cotton-oversized-crop-oxford-shirt-5",
+    name: "Organic Cotton Oversized Crop Oxford Shirt (5)",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap Organic Cotton Oversized Crop Oxford Shirt (5) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/099/863/cn63099863.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 106,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 5806,
+        originalPrice: 5806,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=913902012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0180",
+    slug: "gap-100-linen-oversized-shirt",
+    name: "100% Linen Oversized Shirt",
+    brand: "gap",
+    category: "petite-clothing",
+    subcategory: "Petite Tops & Bottoms",
+    gender: "women",
+    description: "Gap 100% Linen Oversized Shirt — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/045/371/cn62045371.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "petite-clothing",
+      "petite-tops-bottoms"
+    ],
+    rating: 4,
+    reviews: 94,
+    views: 0,
+    offers: [
+      {
+        store: "gap-store",
+        price: 3237,
+        originalPrice: 6636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=882924072",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0181",
+    slug: "puma-puma-x-hyrox-deviate-nitro-elite-4-men-s-shoes",
+    name: "PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/314156/02/sv01/fnd/PNA/fmt/png/PUMA-x-HYROX-Deviate-NITROâ¢-Elite-4-Men's-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 75,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 21580,
+        originalPrice: 21580,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0182",
+    slug: "puma-speedcat-og-sneakers",
+    name: "Speedcat OG Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Speedcat OG Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/398846/01/sv01/fnd/PNA/fmt/png/Speedcat-OG-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 132,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 8300,
+        originalPrice: 8300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0183",
+    slug: "puma-puma-x-hyrox-deviate-nitro-elite-4-men-s-shoes-white",
+    name: "PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (White)",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (White) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/314156/03/sv01/fnd/PNA/fmt/png/PUMA-x-HYROX-Deviate-NITROâ¢-Elite-4-Men's-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 113,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 21580,
+        originalPrice: 21580,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0184",
+    slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes",
+    name: "FAST-R NITRO Elite 3 Men's Road Running Shoes",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma FAST-R NITRO Elite 3 Men's Road Running Shoes — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312060/13/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 206,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 24900,
+        originalPrice: 24900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0185",
+    slug: "puma-speedcat-og-sneakers-shadow-gray",
+    name: "Speedcat OG Sneakers (Shadow Gray)",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Speedcat OG Sneakers (Shadow Gray) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/398846/64/sv01/fnd/PNA/fmt/png/Speedcat-OG-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 151,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 8300,
+        originalPrice: 8300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0186",
+    slug: "puma-puma-x-hyrox-deviate-nitro-elite-4-men-s-shoes-mint",
+    name: "PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (Mint)",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (Mint) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/314156/01/sv01/fnd/PNA/fmt/png/PUMA-x-HYROX-Deviate-NITROâ¢-Elite-4-Men's-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 168,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 21580,
+        originalPrice: 21580,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0187",
+    slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes-white",
+    name: "FAST-R NITRO Elite 3 Men's Road Running Shoes (White)",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma FAST-R NITRO Elite 3 Men's Road Running Shoes (White) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312060/14/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 187,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 24900,
+        originalPrice: 24900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0188",
+    slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes-lavender",
+    name: "FAST-R NITRO Elite 3 Men's Road Running Shoes (Lavender)",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma FAST-R NITRO Elite 3 Men's Road Running Shoes (Lavender) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312060/12/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 130,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 24900,
+        originalPrice: 24900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0189",
+    slug: "puma-fast-r-nitro-elite-3-showtime-men-s-road-running-shoes",
+    name: "FAST-R NITRO Elite 3 Showtime Men's Road Running Shoes",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma FAST-R NITRO Elite 3 Showtime Men's Road Running Shoes — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/313615/01/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Showtime-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 149,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 24900,
+        originalPrice: 24900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0190",
+    slug: "puma-suede-snake-print-sneakers",
+    name: "Suede Snake Print Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Suede Snake Print Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/408329/01/sv01/fnd/PNA/fmt/png/Suede-Snake-Print-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 83,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 8300,
+        originalPrice: 8300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0191",
+    slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes-red",
+    name: "FAST-R NITRO Elite 3 Men's Road Running Shoes (Red)",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma FAST-R NITRO Elite 3 Men's Road Running Shoes (Red) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312060/11/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 64,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 24900,
+        originalPrice: 24900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0192",
+    slug: "puma-porsche-legacy-speedcat-pepita-sneakers",
+    name: "Porsche Legacy Speedcat Pepita Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Porsche Legacy Speedcat Pepita Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/309389/01/sv01/fnd/PNA/fmt/png/Porsche-Legacy-Speedcat-Pepita-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 121,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 9960,
+        originalPrice: 9960,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0193",
+    slug: "puma-suede-xl-sneakers",
+    name: "Suede XL Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Suede XL Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395205/02/sv01/fnd/PNA/fmt/png/Suede-XL-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 102,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 7470,
+        originalPrice: 7470,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0194",
+    slug: "puma-puma-x-saysky-deviate-nitro-elite-4-men-s-road-running-shoes",
+    name: "PUMA x SAYSKY Deviate NITRO Elite 4 Men's Road Running Shoes",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma PUMA x SAYSKY Deviate NITRO Elite 4 Men's Road Running Shoes — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/313942/01/sv01/fnd/PNA/fmt/png/PUMA-x-SAYSKY-Deviate-NITROâ¢-Elite-4-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 159,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 20750,
+        originalPrice: 20750,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0195",
+    slug: "puma-beisser-disc-sneakers",
+    name: "Beisser Disc Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Beisser Disc Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/405306/02/sv01/fnd/PNA/fmt/png/Beisser-Disc-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 140,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 16600,
+        originalPrice: 16600,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0196",
+    slug: "puma-deviate-nitro-4-men-s-road-running-shoes",
+    name: "Deviate NITRO 4 Men's Road Running Shoes",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Deviate NITRO 4 Men's Road Running Shoes — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312123/01/sv01/fnd/PNA/fmt/png/Deviate-NITROâ¢-4-Men's-Road-Running-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 197,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 14110,
+        originalPrice: 14110,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0197",
+    slug: "puma-suede-classic-sneakers",
+    name: "Suede Classic Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma Suede Classic Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/399781/01/sv01/fnd/PNA/fmt/png/Suede-Classic-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 178,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 7470,
+        originalPrice: 7470,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0198",
+    slug: "puma-king-20-ultimate-soccer-cleats",
+    name: "KING 20 ULTIMATE Soccer Cleats",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma KING 20 ULTIMATE Soccer Cleats — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/109345/01/sv01/fnd/PNA/fmt/png/KING-20-ULTIMATE-Firm/Artificial-Ground-Soccer-Cleats",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 235,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 18260,
+        originalPrice: 18260,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0199",
+    slug: "puma-puma-x-hyrox-deviate-nitro-4-men-s-shoes",
+    name: "PUMA x HYROX Deviate NITRO 4 Men's Shoes",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma PUMA x HYROX Deviate NITRO 4 Men's Shoes — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/314155/01/sv01/fnd/PNA/fmt/png/PUMA-x-HYROX-Deviate-NITROâ¢-4-Men's-Shoes",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 216,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 14940,
+        originalPrice: 14940,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0200",
+    slug: "puma-puma-x-nahmias-speedcat-sneakers",
+    name: "PUMA x NAHMIAS Speedcat Sneakers",
+    brand: "puma",
+    category: "mens-shoes",
+    subcategory: "Men's Shoes and Sneakers",
+    gender: "men",
+    description: "Puma PUMA x NAHMIAS Speedcat Sneakers — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/407189/01/sv01/fnd/PNA/fmt/png/PUMA-x-NAHMIAS-Speedcat-Sneakers",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "men-s-shoes-and-sneakers"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "puma-store",
+        price: 13280,
+        originalPrice: 13280,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://us.puma.com/us/en/men/shoes",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0201",
+    slug: "reebok-club-c-revenge-vintage-shoes",
+    name: "Club C Revenge Vintage Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Club C Revenge Vintage Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100262314_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7885,
+        originalPrice: 7885,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-revenge-vintage-shoes-chalk-chalk-brown-162073",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0202",
+    slug: "reebok-club-c-85-vintage-shoes",
+    name: "Club C 85 Vintage Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Club C 85 Vintage Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100007796_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7055,
+        originalPrice: 7055,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-85-vintage-shoes-chalk-alabaster-vector-navy-103162",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0203",
+    slug: "reebok-club-c-85-vintage-shoes-green",
+    name: "Club C 85 Vintage Shoes (Green)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Club C 85 Vintage Shoes (Green) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000317_SLC_eCom_s_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7055,
+        originalPrice: 7055,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-85-vintage-shoes-chalk-paperwhite-glen-green-103162",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0204",
+    slug: "reebok-reebok-x-g-unit-g6-men-s-shoes",
+    name: "Reebok x G-Unit G6 Men's Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "men",
+    description: "Reebok Reebok x G-Unit G6 Men's Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/1x1_GUNIT4_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 10790,
+        originalPrice: 10790,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-reebok-x-g-unit-g6-mens-shoes-white-blue-red-118020",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0205",
+    slug: "reebok-nano-x5-training-shoes",
+    name: "Nano X5 Training Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Nano X5 Training Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100279092_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 8299,
+        originalPrice: 12450,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-nano-x5-training-shoes-black-grey-6-172449",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0206",
+    slug: "reebok-club-c-85-vintage-shoes-blue",
+    name: "Club C 85 Vintage Shoes (Blue)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Club C 85 Vintage Shoes (Blue) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100007794_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7055,
+        originalPrice: 7055,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-85-vintage-shoes-chalk-alabaster-essential-blue-103162",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0207",
+    slug: "reebok-classic-leather-shoes-little-kids",
+    name: "Classic Leather Shoes - Little Kids",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Classic Leather Shoes - Little Kids — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000116_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 4150,
+        originalPrice: 4150,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-classic-leather-shoes-preschool-black-108737",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0208",
+    slug: "reebok-angel-reese-1-basketball-shoes",
+    name: "Angel Reese 1 Basketball Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Angel Reese 1 Basketball Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100263426_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 11205,
+        originalPrice: 11205,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-angel-reese-1-shoes-expressive-pink-expressive-pink-black-160540",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0209",
+    slug: "reebok-nano-x5-training-shoes-red",
+    name: "Nano X5 Training Shoes (Red)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Nano X5 Training Shoes (Red) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100225445_SLC_eCom_f2ab9bd0-2df2-4c4b-882c-12c9b6b21084_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 8299,
+        originalPrice: 11620,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-nano-x5-training-shoes-luxe-grey-retro-red-black-118837",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0210",
+    slug: "reebok-women-s-club-c-85-vintage-shoes",
+    name: "Women's Club C 85 Vintage Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Club C 85 Vintage Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100007797_SLC_eCom_s_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 102,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7055,
+        originalPrice: 7055,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-85-vintage-shoes-chalk-alabaster-glen-green-100012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0211",
+    slug: "reebok-women-s-freestyle-hi-shoes",
+    name: "Women's Freestyle Hi Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Freestyle Hi Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000103_SLC_eCom_8611fee9-91f8-4f24-8807-4e3adaa9aa7c_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 121,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 6640,
+        originalPrice: 6640,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-f-s-hi-womens-shoes-white-103475",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0212",
+    slug: "reebok-women-s-freestyle-hi-shoes-2",
+    name: "Women's Freestyle Hi Shoes (2)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Freestyle Hi Shoes (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/1x1_kg3_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 64,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 6640,
+        originalPrice: 6640,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-womens-f-s-hi-shoes-ftwr-white-blue-gum-158559",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0213",
+    slug: "reebok-nano-x4-training-shoes",
+    name: "Nano X4 Training Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Nano X4 Training Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100253799_SLC_eCom_b75dacc1-a953-4561-b822-86444ad5f04d_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 83,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 6639,
+        originalPrice: 11620,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-nano-x4-training-shoes-black-black-white-154862",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0214",
+    slug: "reebok-club-c-85-vintage-shoes-gum",
+    name: "Club C 85 Vintage Shoes (Gum)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Club C 85 Vintage Shoes (Gum) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100233953_SLC_eCom_344a5c3a-417e-470d-8f9a-5eab8d77e2b6_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 178,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7055,
+        originalPrice: 7055,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-85-vintage-shoes-chalk-black-gum-103162",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0215",
+    slug: "reebok-club-c-85-shoes",
+    name: "Club C 85 Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Club C 85 Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000154_SLC_eCom_e8e16aea-6c4e-45a6-b3c7-2a2973581caa_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 197,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 7055,
+        originalPrice: 7055,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-club-c-85-shoes-white-sheer-grey-100050",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0216",
+    slug: "reebok-women-s-zig-dynamica-str-shoes",
+    name: "Women's Zig Dynamica STR Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Zig Dynamica STR Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100252501_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 140,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 3734,
+        originalPrice: 6225,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-womens-zig-dynamica-str-running-shoes-white-glitch-aqua-143797",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0217",
+    slug: "reebok-women-s-zig-dynamica-str-shoes-2",
+    name: "Women's Zig Dynamica STR Shoes (2)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Zig Dynamica STR Shoes (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100222244_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 159,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 3734,
+        originalPrice: 6225,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-zig-dynamica-str-shoes-black-white-slvmt-112920",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0218",
+    slug: "reebok-nano-x5-edge-training-shoes",
+    name: "Nano X5 Edge Training Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Nano X5 Edge Training Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100244425_SLC_eCom_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 150,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 12450,
+        originalPrice: 12450,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-nano-x5-edge-training-shoes-black-grey-5-146092",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0219",
+    slug: "reebok-nano-x4-training-shoes-grey",
+    name: "Nano X4 Training Shoes (Grey)",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "unisex",
+    description: "Reebok Nano X4 Training Shoes (Grey) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254234_SLC_eCom_8817039e-5f24-44dd-a4aa-add2015e023b_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 169,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 6639,
+        originalPrice: 11620,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-nano-x4-training-shoes-grey-4-grey-1-grey-6-154862",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0220",
+    slug: "reebok-women-s-nano-x4-training-shoes",
+    name: "Women's Nano X4 Training Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Nano X4 Training Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100253814_SLC_eCom_6769e8c5-4401-467d-8384-16346030aca0_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 93,
+    views: 0,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 6639,
+        originalPrice: 11620,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-womens-nano-x4-training-shoes-chalk-future-cyan-pink-blast-154884",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }

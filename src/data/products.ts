@@ -269,16 +269,16 @@ export const allSizes = Array.from(new Set(products.flatMap((p) => p.sizes))).so
 
 export function offerAffiliateUrl(product: Product, offer: Offer) {
   const store = stores.find((s) => s.slug === offer.store);
-  const params = new URLSearchParams({
-    url: offer.productUrl,
-    network: store?.network ?? "Direct",
-    campaign: store?.campaign ?? "dc-direct",
-    storeid: store?.storeId ?? offer.store,
-    subid: `${store?.subId ?? "web"}-${product.category}`,
-    productid: product.id,
-    clickid: `${product.id}-${offer.store}`,
-  });
-  return `https://track.dealcanvas.example/click?${params.toString()}`;
+  try {
+    const target = new URL(offer.productUrl);
+    target.searchParams.set("utm_source", "dealcanvas");
+    target.searchParams.set("utm_medium", "affiliate");
+    target.searchParams.set("utm_campaign", store?.campaign ?? "dc-direct");
+    target.searchParams.set("dc_click", `${product.id}-${offer.store}`);
+    return target.toString();
+  } catch {
+    return offer.productUrl;
+  }
 }
 
 /* ---------------- sales calendar ---------------- */

@@ -189,8 +189,12 @@ function parseCsvLine(line: string): string[] {
 const validAvailability = new Set(["IN STOCK", "LOW STOCK", "OUT OF STOCK"]);
 const validGenders = new Set(["women", "men", "unisex"]);
 
-/** Normalizes case ("In Stock" -> "IN STOCK") so scraped CSVs don't need exact casing. */
-const normalizeAvailability = (s: string) => s.trim().toUpperCase();
+/** Normalizes case ("In Stock" -> "IN STOCK") and maps values with no direct equivalent (e.g. "Coming Soon") to OUT OF STOCK. */
+const normalizeAvailability = (s: string) => {
+  const v = s.trim().toUpperCase();
+  if (v === "IN STOCK" || v === "LOW STOCK" || v === "OUT OF STOCK") return v;
+  return "OUT OF STOCK";
+};
 
 /** Normalizes case, and maps values with no direct women/men/unisex equivalent (e.g. "Kids", "Women/Unisex") to unisex. */
 const normalizeGender = (s: string): string => {

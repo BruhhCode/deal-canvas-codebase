@@ -608,15 +608,16 @@ export const couponsByBrand = (slug: string) => coupons.filter((c) => c.brand ==
 
 /** Builds the outbound affiliate URL from the stored merchant URL + tracking data. */
 export const affiliateUrl = (d: Deal) => {
-  const params = new URLSearchParams({
-    url: d.merchantUrl,
-    network: d.network,
-    campaign: d.campaign,
-    subid: d.subId,
-    tracking: d.trackingId,
-    deal: d.id,
-  });
-  return `https://track.dealcanvas.example/click?${params.toString()}`;
+  try {
+    const target = new URL(d.merchantUrl);
+    target.searchParams.set("utm_source", "dealcanvas");
+    target.searchParams.set("utm_medium", "affiliate");
+    target.searchParams.set("utm_campaign", d.campaign);
+    target.searchParams.set("dc_click", d.id);
+    return target.toString();
+  } catch {
+    return d.merchantUrl;
+  }
 };
 
 export const searchAll = (q: string) => {

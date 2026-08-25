@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ChevronDown, Heart, Menu, User, X } from "lucide-react";
-import { ProductSearch } from "./ProductSearch";
 import { categoriesByDepartment, departments } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { currencies, useCurrency, type CurrencyCode } from "@/lib/currency";
@@ -46,11 +45,7 @@ export function Header() {
           Deal<span className="text-clay">Canvas</span>
         </Link>
 
-        <div className="ml-auto hidden max-w-md flex-1 md:block">
-          <ProductSearch size="sm" />
-        </div>
-
-        <div className="ml-auto flex items-center gap-4 md:ml-4">
+        <div className="ml-auto flex items-center gap-4">
           <label className="hidden text-xs text-muted-foreground lg:block">
             <span className="sr-only">Currency</span>
             <select
@@ -130,9 +125,6 @@ export function Header() {
 
       {open ? (
         <div className="border-t bg-background lg:hidden">
-          <div className="p-4">
-            <ProductSearch size="sm" />
-          </div>
           <ul className="border-b border-border">
             {departmentNav.map((d) => (
               <li key={d.slug} className="border-t border-border first:border-t-0">

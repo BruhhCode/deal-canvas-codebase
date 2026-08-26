@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Clock, Eye, Star } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BrandMark } from "@/components/BrandMark";
 import { PriceCompare } from "@/components/PriceCompare";
 import { PriceAlert } from "@/components/PriceAlert";
 import { ProductCard } from "@/components/ProductCard";
@@ -106,8 +107,9 @@ function ProductPage() {
           <Link
             to="/brand/$slug"
             params={{ slug: product.brand }}
-            className="editorial-eyebrow hover:text-clay"
+            className="flex items-center gap-2 editorial-eyebrow hover:text-clay"
           >
+            <BrandMark slug={product.brand} size="sm" />
             {brandName(product.brand)}
           </Link>
           <h1 className="mt-3 text-4xl leading-tight md:text-5xl">{product.name}</h1>

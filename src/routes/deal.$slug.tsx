@@ -6,13 +6,13 @@ import { DealCard } from "@/components/DealCard";
 import { CopyCode } from "@/components/CopyCode";
 import { SectionHeading } from "@/components/SectionHeading";
 import {
-  affiliateUrl,
   brandName,
   deals,
   discountPct,
   expiryLabel,
   getDeal,
 } from "@/data/catalog";
+import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 
 export const Route = createFileRoute("/deal/$slug")({
@@ -99,7 +99,7 @@ function DealPage() {
 
       <div className="grid gap-10 lg:grid-cols-2">
         <img
-          src={deal.image}
+          src={dealImage(deal)}
           alt={`${brandName(deal.brand)} ${deal.product}`}
           width={900}
           height={900}
@@ -156,7 +156,7 @@ function DealPage() {
               <p className="mt-4 text-sm text-clay">{expiryLabel(deal.expiresInHours)}</p>
 
               <a
-                href={affiliateUrl(deal)}
+                href={dealAffiliateUrl(deal)}
                 target="_blank"
                 rel="nofollow sponsored noopener"
                 className="mt-6 block rounded-sm bg-primary px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.16em] text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"

@@ -863,4 +863,16 @@ export const stores: Store[] = [
 
 const bySlug = new Map(stores.map((s) => [s.slug, s]));
 export const getStore = (slug: string) => bySlug.get(slug);
+
+/** The store's icon, sourced from its real domain — used as a logo image wherever a store is displayed. */
+export const storeLogo = (slug: string) => {
+  const domain = bySlug.get(slug)?.domain ?? `${slug.replace(/-/g, "")}.com`;
+  return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
+};
+
+/** Secondary source, tried if `storeLogo` fails to load. */
+export const storeLogoFallback = (slug: string) => {
+  const domain = bySlug.get(slug)?.domain ?? `${slug.replace(/-/g, "")}.com`;
+  return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+};
 export const storeName = (slug: string) => bySlug.get(slug)?.name ?? slug;

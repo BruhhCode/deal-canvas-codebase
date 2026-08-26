@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Search } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BrandMark } from "@/components/BrandMark";
-import { brands, dealsByBrand } from "@/data/catalog";
+import { brands } from "@/data/catalog";
 
 export const Route = createFileRoute("/brands")({
   head: () => ({
@@ -77,9 +77,7 @@ function BrandsPage() {
                     <BrandMark slug={b.slug} />
                     <span>
                       <span className="block text-sm font-semibold">{b.name}</span>
-                      <span className="block text-xs text-muted-foreground">
-                        {dealsByBrand(b.slug).length} deals · {b.category}
-                      </span>
+                      <span className="block text-xs text-muted-foreground">{b.category}</span>
                     </span>
                   </Link>
                 ))}

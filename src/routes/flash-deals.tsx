@@ -1,8 +1,10 @@
+import { useMemo } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DealCard } from "@/components/DealCard";
 import { Countdown } from "@/components/Countdown";
-import { endingSoon, flashDeals } from "@/data/catalog";
+import { endingSoon, flashDeals as seedFlashDeals } from "@/data/catalog";
+import { productsAsDeals } from "@/data/deal-products";
 
 export const Route = createFileRoute("/flash-deals")({
   head: () => ({
@@ -19,6 +21,11 @@ export const Route = createFileRoute("/flash-deals")({
 });
 
 function FlashPage() {
+  const flashDeals = useMemo(
+    () => [...seedFlashDeals, ...productsAsDeals(12, "flash-deals")],
+    [],
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Flash Deals" }]} />

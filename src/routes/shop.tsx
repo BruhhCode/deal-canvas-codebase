@@ -1,6 +1,6 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { SlidersHorizontal, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductSearch } from "@/components/ProductSearch";
@@ -72,7 +72,13 @@ function ShopPage() {
     [q, JSON.stringify(active), sort],
   );
 
-  const visible = results.slice(0, page * PAGE_SIZE);
+  const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const visible = results.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+  useEffect(() => {
+    setPage(1);
+  }, [q, JSON.stringify(active), sort]);
 
   const set = (patch: ProductFilters) => {
     setFilters((f) => ({ ...f, ...patch }));
@@ -263,16 +269,8 @@ function ShopPage() {
                   <ProductCard key={p.id} product={p} />
                 ))}
               </div>
-              {visible.length < results.length ? (
-                <div className="mt-12 text-center">
-                  <button
-                    type="button"
-                    onClick={() => setPage((p) => p + 1)}
-                    className="rounded-sm border border-foreground px-8 py-3 text-xs font-semibold uppercase tracking-[0.14em] transition-colors hover:bg-foreground hover:text-background"
-                  >
-                    Load more ({results.length - visible.length} left)
-                  </button>
-                </div>
+              {totalPages > 1 ? (
+                <Pagination page={currentPage} totalPages={totalPages} onChange={setPage} />
               ) : null}
             </>
           ) : (
@@ -339,6 +337,85 @@ function Chips({
         </Toggle>
       ))}
     </div>
+  );
+}
+
+function Pagination({
+  page,
+  totalPages,
+  onChange,
+}: {
+  page: number;
+  totalPages: number;
+  onChange: (page: number) => void;
+}) {
+  const go = (p: number) => {
+    onChange(Math.min(Math.max(p, 1), totalPages));
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const windowSize = 5;
+  let start = Math.max(1, page - Math.floor(windowSize / 2));
+  const end = Math.min(totalPages, start + windowSize - 1);
+  start = Math.max(1, end - windowSize + 1);
+  const pages = Array.from({ length: end - start + 1 }, (_, i) => start + i);
+
+  return (
+    <nav aria-label="Pagination" className="mt-12 flex items-center justify-center gap-2">
+      <button
+        type="button"
+        onClick={() => go(page - 1)}
+        disabled={page === 1}
+        aria-label="Previous page"
+        className="flex h-9 w-9 items-center justify-center rounded-sm border border-foreground transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
+      >
+        <ChevronLeft className="h-4 w-4" />
+      </button>
+
+      {start > 1 ? (
+        <>
+          <PageButton n={1} active={page === 1} onClick={go} />
+          {start > 2 ? <span className="px-1 text-sm text-muted-foreground">…</span> : null}
+        </>
+      ) : null}
+
+      {pages.map((n) => (
+        <PageButton key={n} n={n} active={n === page} onClick={go} />
+      ))}
+
+      {end < totalPages ? (
+        <>
+          {end < totalPages - 1 ? <span className="px-1 text-sm text-muted-foreground">…</span> : null}
+          <PageButton n={totalPages} active={page === totalPages} onClick={go} />
+        </>
+      ) : null}
+
+      <button
+        type="button"
+        onClick={() => go(page + 1)}
+        disabled={page === totalPages}
+        aria-label="Next page"
+        className="flex h-9 w-9 items-center justify-center rounded-sm border border-foreground transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
+      >
+        <ChevronRight className="h-4 w-4" />
+      </button>
+    </nav>
+  );
+}
+
+function PageButton({ n, active, onClick }: { n: number; active: boolean; onClick: (n: number) => void }) {
+  return (
+    <button
+      type="button"
+      aria-current={active ? "page" : undefined}
+      onClick={() => onClick(n)}
+      className={cn(
+        "flex h-9 w-9 items-center justify-center rounded-sm border text-xs font-semibold transition-colors",
+        active ? "border-foreground bg-foreground text-background" : "hover:border-clay hover:text-clay",
+      )}
+    >
+      {n}
+    </button>
   );
 }
 

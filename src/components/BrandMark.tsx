@@ -1,4 +1,5 @@
-import { brandName } from "@/data/catalog";
+import { useState } from "react";
+import { brandLogo, brandLogoFallback, brandName } from "@/data/catalog";
 import { cn } from "@/lib/utils";
 
 const sizes = {
@@ -16,6 +17,7 @@ export function BrandMark({
   size?: keyof typeof sizes;
   className?: string;
 }) {
+  const [stage, setStage] = useState<"primary" | "fallback" | "failed">("primary");
   const name = brandName(slug);
   const initials = name
     .replace(/[^A-Za-z ]/g, "")
@@ -26,14 +28,24 @@ export function BrandMark({
 
   return (
     <span
-      aria-hidden="true"
       className={cn(
-        "inline-flex shrink-0 items-center justify-center rounded-sm border bg-cream font-semibold uppercase tracking-wider text-foreground",
+        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white font-semibold uppercase tracking-wider text-foreground",
         sizes[size],
         className,
       )}
     >
-      {initials}
+      {stage === "failed" ? (
+        <span aria-hidden="true">{initials}</span>
+      ) : (
+        <img
+          key={stage}
+          src={stage === "primary" ? brandLogo(slug) : brandLogoFallback(slug)}
+          alt={`${name} logo`}
+          className="h-full w-full object-contain"
+          loading="lazy"
+          onError={() => setStage((s) => (s === "primary" ? "fallback" : "failed"))}
+        />
+      )}
     </span>
   );
 }

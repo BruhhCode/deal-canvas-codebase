@@ -2,11 +2,11 @@ import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
 import {
   type Deal,
-  affiliateUrl,
   brandName,
   discountPct,
   expiryLabel,
 } from "@/data/catalog";
+import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { useCurrency } from "@/lib/currency";
 import { BrandMark } from "./BrandMark";
 import { DealBadge } from "./DealBadge";
@@ -31,7 +31,7 @@ export function DealCard({ deal, className }: { deal: Deal; className?: string }
         className="relative block aspect-[4/3] overflow-hidden bg-cream"
       >
         <img
-          src={deal.image}
+          src={dealImage(deal)}
           alt={`${brandName(deal.brand)} ${deal.product} deal`}
           loading="lazy"
           width={900}
@@ -93,7 +93,7 @@ export function DealCard({ deal, className }: { deal: Deal; className?: string }
             </Link>
           ) : (
             <a
-              href={affiliateUrl(deal)}
+              href={dealAffiliateUrl(deal)}
               target="_blank"
               rel="nofollow sponsored noopener"
               className="block rounded-sm bg-primary py-2.5 text-center text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"

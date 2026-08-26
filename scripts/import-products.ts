@@ -28,10 +28,11 @@
  * the script converts them into the catalog's stored legacy base unit
  * (see src/lib/currency.tsx) so they display correctly.
  *
- * Rows are grouped by product_name — every row that shares a product_name
- * becomes one Offer inside that Product's offers[] array. brand_slug,
- * category_slug, subcategory and gender are taken from the group's first
- * row (a warning is printed if later rows in the group disagree).
+ * Rows are grouped by brand_slug + product_name — every row that shares both
+ * becomes one Offer inside that Product's offers[] array (rows with the same
+ * product_name but different brand_slug produce separate products). category_slug,
+ * subcategory and gender are taken from the group's first row (a warning is
+ * printed if later rows in the group disagree on category_slug).
  *
  * Re-running against an updated CSV is idempotent: any product already in
  * the output file whose slug matches a freshly-imported product is
@@ -263,7 +264,8 @@ function groupRows(rows: Row[]): Group[] {
       throw new Error(`Row ${lineNo}: price and original_price must be numbers`);
     }
 
-    let group = groups.get(row.product_name);
+    const groupKey = `${row.brand_slug}::${row.product_name}`;
+    let group = groups.get(groupKey);
     if (!group) {
       group = {
         name: row.product_name,
@@ -274,15 +276,9 @@ function groupRows(rows: Row[]): Group[] {
         image: row.image_url,
         rows: [],
       };
-      groups.set(row.product_name, group);
+      groups.set(groupKey, group);
     } else {
       if (!group.image && row.image_url) group.image = row.image_url;
-      if (group.brand !== row.brand_slug) {
-        console.warn(
-          `Warning: "${row.product_name}" row ${lineNo} has brand_slug "${row.brand_slug}", ` +
-            `but the group was started with "${group.brand}". Keeping "${group.brand}".`,
-        );
-      }
       if (group.category !== row.category_slug) {
         console.warn(
           `Warning: "${row.product_name}" row ${lineNo} has category_slug "${row.category_slug}", ` +

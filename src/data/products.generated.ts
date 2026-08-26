@@ -4421,1286 +4421,6 @@ export const generatedProducts: Product[] = [
     ]
   },
   {
-    id: "PI-0249",
-    slug: "burberry-burberry-signature-shoulder-bag",
-    name: "Burberry Signature Shoulder Bag",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Burberry Burberry Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 208,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 1705650,
-        originalPrice: 2274200,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0250",
-    slug: "burberry-burberry-monogram-silk-scarf",
-    name: "Burberry Monogram Silk Scarf",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Burberry Burberry Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 238,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 1574510,
-        originalPrice: 2249300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0251",
-    slug: "burberry-burberry-limited-edition-leather-loafers",
-    name: "Burberry Limited Edition Leather Loafers",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Burberry Burberry Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 219,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 6106725,
-        originalPrice: 8142300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0252",
-    slug: "burberry-burberry-runway-sunglasses",
-    name: "Burberry Runway Sunglasses",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Burberry Burberry Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 76,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 7972150,
-        originalPrice: 9379000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0253",
-    slug: "burberry-burberry-heritage-wool-coat",
-    name: "Burberry Heritage Wool Coat",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Burberry Burberry Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 57,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 3929220,
-        originalPrice: 6548700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0254",
-    slug: "burberry-burberry-signature-tote",
-    name: "Burberry Signature Tote",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Burberry Burberry Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 114,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 1892400,
-        originalPrice: 2523200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0255",
-    slug: "burberry-burberry-monogram-shoulder-bag",
-    name: "Burberry Monogram Shoulder Bag",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Burberry Burberry Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 95,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 1838450,
-        originalPrice: 3676900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0256",
-    slug: "burberry-burberry-limited-edition-silk-scarf",
-    name: "Burberry Limited Edition Silk Scarf",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Burberry Burberry Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 152,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 4889115,
-        originalPrice: 8889300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0257",
-    slug: "burberry-burberry-runway-leather-loafers",
-    name: "Burberry Runway Leather Loafers",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Burberry Burberry Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 133,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 7425180,
-        originalPrice: 12375300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0258",
-    slug: "burberry-burberry-heritage-sunglasses",
-    name: "Burberry Heritage Sunglasses",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Burberry Burberry Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 190,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 2419865,
-        originalPrice: 2846900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0259",
-    slug: "burberry-burberry-signature-wool-coat",
-    name: "Burberry Signature Wool Coat",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Burberry Burberry Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 171,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 1523880,
-        originalPrice: 2539800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0260",
-    slug: "burberry-burberry-monogram-tote",
-    name: "Burberry Monogram Tote",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Burberry Burberry Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 47,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 9030400,
-        originalPrice: 11288000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0261",
-    slug: "burberry-burberry-limited-edition-shoulder-bag",
-    name: "Burberry Limited Edition Shoulder Bag",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Burberry Burberry Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 66,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 6942950,
-        originalPrice: 9918500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0262",
-    slug: "burberry-burberry-runway-silk-scarf",
-    name: "Burberry Runway Silk Scarf",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Burberry Burberry Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 85,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 6517160,
-        originalPrice: 10026400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0263",
-    slug: "burberry-burberry-heritage-leather-loafers",
-    name: "Burberry Heritage Leather Loafers",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Burberry Burberry Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 104,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 5092880,
-        originalPrice: 6366100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0264",
-    slug: "burberry-burberry-signature-sunglasses",
-    name: "Burberry Signature Sunglasses",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Burberry Burberry Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 171,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 4769927,
-        originalPrice: 6814300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0265",
-    slug: "burberry-burberry-monogram-wool-coat",
-    name: "Burberry Monogram Wool Coat",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Burberry Burberry Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 190,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 5830750,
-        originalPrice: 11661500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0266",
-    slug: "burberry-burberry-limited-edition-tote",
-    name: "Burberry Limited Edition Tote",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Burberry Burberry Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 209,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 2809550,
-        originalPrice: 5619100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0267",
-    slug: "burberry-burberry-runway-shoulder-bag",
-    name: "Burberry Runway Shoulder Bag",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Burberry Burberry Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 228,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 4287780,
-        originalPrice: 6125400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0268",
-    slug: "burberry-burberry-heritage-silk-scarf",
-    name: "Burberry Heritage Silk Scarf",
-    brand: "burberry",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Burberry Burberry Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/burberry-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 199,
-    views: 0,
-    offers: [
-      {
-        store: "burberry-store",
-        price: 5500825,
-        originalPrice: 10001500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.burberry.com/p/burberry-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0269",
-    slug: "armani-armani-classic-blazer",
-    name: "Armani Classic Blazer",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Armani Armani Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 218,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 1020900,
-        originalPrice: 2041800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0270",
-    slug: "armani-armani-relaxed-shirt-dress",
-    name: "Armani Relaxed Shirt Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Armani Armani Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 56,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 9919330,
-        originalPrice: 11669800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0271",
-    slug: "armani-armani-slim-fit-denim-jacket",
-    name: "Armani Slim Fit Denim Jacket",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Armani Armani Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 237,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 7828560,
-        originalPrice: 9785700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.armani.com/p/armani-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0272",
-    slug: "armani-armani-oversized-knit-sweater",
-    name: "Armani Oversized Knit Sweater",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Armani Armani Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 218,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 3207120,
-        originalPrice: 5345200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0273",
-    slug: "armani-armani-tailored-trench-coat",
-    name: "Armani Tailored Trench Coat",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Armani Armani Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 199,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 10265025,
-        originalPrice: 12076500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0274",
-    slug: "armani-armani-classic-midi-dress",
-    name: "Armani Classic Midi Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Armani Armani Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 180,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 5672220,
-        originalPrice: 9453700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.armani.com/p/armani-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0275",
-    slug: "armani-armani-relaxed-blazer",
-    name: "Armani Relaxed Blazer",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Armani Armani Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 161,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 4162450,
-        originalPrice: 4897000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0276",
-    slug: "armani-armani-slim-fit-shirt-dress",
-    name: "Armani Slim Fit Shirt Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Armani Armani Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 142,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 6513840,
-        originalPrice: 8142300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0277",
-    slug: "armani-armani-oversized-denim-jacket",
-    name: "Armani Oversized Denim Jacket",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Armani Armani Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 123,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 3366480,
-        originalPrice: 4208100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0278",
-    slug: "armani-armani-tailored-knit-sweater",
-    name: "Armani Tailored Knit Sweater",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Armani Armani Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 208,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 6034100,
-        originalPrice: 12068200,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.armani.com/p/armani-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0279",
-    slug: "armani-armani-classic-trench-coat",
-    name: "Armani Classic Trench Coat",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Armani Armani Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 189,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 3814265,
-        originalPrice: 5868100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.armani.com/p/armani-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0280",
-    slug: "armani-armani-relaxed-midi-dress",
-    name: "Armani Relaxed Midi Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Armani Armani Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 79,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 5262200,
-        originalPrice: 10524400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0281",
-    slug: "armani-armani-slim-fit-blazer",
-    name: "Armani Slim Fit Blazer",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Armani Armani Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 60,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 5297475,
-        originalPrice: 7063300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0282",
-    slug: "armani-armani-oversized-shirt-dress",
-    name: "Armani Oversized Shirt Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Armani Armani Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 117,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 7660900,
-        originalPrice: 11786000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.armani.com/p/armani-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0283",
-    slug: "armani-armani-tailored-denim-jacket",
-    name: "Armani Tailored Denim Jacket",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Armani Armani Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 98,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 7550925,
-        originalPrice: 10067900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0284",
-    slug: "armani-armani-classic-knit-sweater",
-    name: "Armani Classic Knit Sweater",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Armani Armani Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 77,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 3137400,
-        originalPrice: 5229000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0285",
-    slug: "armani-armani-relaxed-trench-coat",
-    name: "Armani Relaxed Trench Coat",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Armani Armani Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 96,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 8147280,
-        originalPrice: 10184100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0286",
-    slug: "armani-armani-slim-fit-midi-dress",
-    name: "Armani Slim Fit Midi Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Armani Armani Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 41,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 4438425,
-        originalPrice: 5917900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0287",
-    slug: "armani-armani-oversized-blazer",
-    name: "Armani Oversized Blazer",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Armani Armani Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 222,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 2010675,
-        originalPrice: 2365500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0288",
-    slug: "armani-armani-tailored-shirt-dress",
-    name: "Armani Tailored Shirt Dress",
-    brand: "armani",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Armani Armani Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/armani-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 231,
-    views: 0,
-    offers: [
-      {
-        store: "armani-store",
-        price: 4551720,
-        originalPrice: 7586200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.armani.com/p/armani-20-tailored-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
     id: "PI-0289",
     slug: "decathlon-decathlon-compact-resistance-bands",
     name: "Decathlon Compact Resistance Bands",
@@ -6293,646 +5013,6 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-20-3-night-hotel-booking",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0358",
-    slug: "gucci-gucci-signature-shoulder-bag",
-    name: "Gucci Signature Shoulder Bag",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Gucci Gucci Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 47,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 4412280,
-        originalPrice: 7353800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0359",
-    slug: "gucci-gucci-monogram-silk-scarf",
-    name: "Gucci Monogram Silk Scarf",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Gucci Gucci Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 66,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 4003090,
-        originalPrice: 6158600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0360",
-    slug: "gucci-gucci-limited-edition-leather-loafers",
-    name: "Gucci Limited Edition Leather Loafers",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Gucci Gucci Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 86,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 2330640,
-        originalPrice: 3884400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0361",
-    slug: "gucci-gucci-runway-sunglasses",
-    name: "Gucci Runway Sunglasses",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Gucci Gucci Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 67,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 5116950,
-        originalPrice: 6822600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0362",
-    slug: "gucci-gucci-heritage-wool-coat",
-    name: "Gucci Heritage Wool Coat",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Gucci Gucci Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 124,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 8296680,
-        originalPrice: 11852400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0363",
-    slug: "gucci-gucci-signature-tote",
-    name: "Gucci Signature Tote",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Gucci Gucci Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 105,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 5252240,
-        originalPrice: 6565300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0364",
-    slug: "gucci-gucci-monogram-shoulder-bag",
-    name: "Gucci Monogram Shoulder Bag",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Gucci Gucci Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 162,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 2104050,
-        originalPrice: 3237000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0365",
-    slug: "gucci-gucci-limited-edition-silk-scarf",
-    name: "Gucci Limited Edition Silk Scarf",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Gucci Gucci Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 143,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 3852030,
-        originalPrice: 4531800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0366",
-    slug: "gucci-gucci-runway-leather-loafers",
-    name: "Gucci Runway Leather Loafers",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Gucci Gucci Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 200,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 6354480,
-        originalPrice: 10590800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0367",
-    slug: "gucci-gucci-heritage-sunglasses",
-    name: "Gucci Heritage Sunglasses",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Gucci Gucci Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 181,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 3975700,
-        originalPrice: 7951400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0368",
-    slug: "gucci-gucci-signature-wool-coat",
-    name: "Gucci Signature Wool Coat",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Gucci Gucci Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 238,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 3643700,
-        originalPrice: 7287400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0369",
-    slug: "gucci-gucci-monogram-tote",
-    name: "Gucci Monogram Tote",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Gucci Gucci Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 219,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 9764120,
-        originalPrice: 11487200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0370",
-    slug: "gucci-gucci-limited-edition-shoulder-bag",
-    name: "Gucci Limited Edition Shoulder Bag",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Gucci Gucci Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 85,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 6328335,
-        originalPrice: 7445100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0371",
-    slug: "gucci-gucci-runway-silk-scarf",
-    name: "Gucci Runway Silk Scarf",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Gucci Gucci Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 104,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 3187200,
-        originalPrice: 4249600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0372",
-    slug: "gucci-gucci-heritage-leather-loafers",
-    name: "Gucci Heritage Leather Loafers",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Gucci Gucci Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 47,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 8107440,
-        originalPrice: 10134300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0373",
-    slug: "gucci-gucci-signature-sunglasses",
-    name: "Gucci Signature Sunglasses",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Gucci Gucci Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 66,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 5356737,
-        originalPrice: 7652600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0374",
-    slug: "gucci-gucci-monogram-wool-coat",
-    name: "Gucci Monogram Wool Coat",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Gucci Gucci Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 209,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 2109030,
-        originalPrice: 3834600,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0375",
-    slug: "gucci-gucci-limited-edition-tote",
-    name: "Gucci Limited Edition Tote",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Gucci Gucci Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 228,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 2314455,
-        originalPrice: 3560700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0376",
-    slug: "gucci-gucci-runway-shoulder-bag",
-    name: "Gucci Runway Shoulder Bag",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Gucci Gucci Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 171,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 7196100,
-        originalPrice: 8466000,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0377",
-    slug: "gucci-gucci-heritage-silk-scarf",
-    name: "Gucci Heritage Silk Scarf",
-    brand: "gucci",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Gucci Gucci Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gucci-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 190,
-    views: 0,
-    offers: [
-      {
-        store: "gucci-store",
-        price: 4768350,
-        originalPrice: 9536700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.gucci.com/p/gucci-20-heritage-silk-scarf",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
@@ -7573,3206 +5653,6 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-20-breathable-track-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0686",
-    slug: "coach-coach-structured-tote-bag",
-    name: "Coach Structured Tote Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Coach Coach Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-1-structured-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 67,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 5281705,
-        originalPrice: 8125700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-1-structured-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0687",
-    slug: "coach-coach-compact-crossbody-bag",
-    name: "Coach Compact Crossbody Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Coach Coach Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-2-compact-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 86,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 6063150,
-        originalPrice: 8084200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-2-compact-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0688",
-    slug: "coach-coach-signature-wallet",
-    name: "Coach Signature Wallet",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Coach Coach Signature Wallet — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-3-signature-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 229,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 5421975,
-        originalPrice: 7229300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.coach.com/p/coach-3-signature-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0689",
-    slug: "coach-coach-pebbled-leather-clutch",
-    name: "Coach Pebbled Leather Clutch",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Coach Coach Pebbled Leather Clutch — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-4-pebbled-leather-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 48,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 6391000,
-        originalPrice: 11620000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-4-pebbled-leather-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0690",
-    slug: "coach-coach-structured-shoulder-bag",
-    name: "Coach Structured Shoulder Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Coach Coach Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-5-structured-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 162,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 3247790,
-        originalPrice: 4639700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-5-structured-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0691",
-    slug: "coach-coach-compact-tote-bag",
-    name: "Coach Compact Tote Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Coach Coach Compact Tote Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-6-compact-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 181,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 6312150,
-        originalPrice: 9711000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.coach.com/p/coach-6-compact-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0692",
-    slug: "coach-coach-signature-crossbody-bag",
-    name: "Coach Signature Crossbody Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Coach Coach Signature Crossbody Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-7-signature-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 124,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 5804190,
-        originalPrice: 8291700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-7-signature-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0693",
-    slug: "coach-coach-pebbled-leather-wallet",
-    name: "Coach Pebbled Leather Wallet",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Coach Coach Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-8-pebbled-leather-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 143,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 2310720,
-        originalPrice: 3851200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-8-pebbled-leather-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0694",
-    slug: "coach-coach-structured-clutch",
-    name: "Coach Structured Clutch",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Coach Coach Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-9-structured-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 86,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 4952610,
-        originalPrice: 7619400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-9-structured-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0695",
-    slug: "coach-coach-compact-shoulder-bag",
-    name: "Coach Compact Shoulder Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "women",
-    description: "Coach Coach Compact Shoulder Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-10-compact-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 105,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 4396925,
-        originalPrice: 6764500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-10-compact-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0696",
-    slug: "coach-coach-signature-tote-bag",
-    name: "Coach Signature Tote Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "men",
-    description: "Coach Coach Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-11-signature-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 48,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 3700970,
-        originalPrice: 5287100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-11-signature-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0697",
-    slug: "coach-coach-pebbled-leather-crossbody-bag",
-    name: "Coach Pebbled Leather Crossbody Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "unisex",
-    description: "Coach Coach Pebbled Leather Crossbody Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-12-pebbled-leather-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 67,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 4181540,
-        originalPrice: 7602800,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.coach.com/p/coach-12-pebbled-leather-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0698",
-    slug: "coach-coach-structured-wallet",
-    name: "Coach Structured Wallet",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Coach Coach Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-13-structured-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 210,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 5079600,
-        originalPrice: 5976000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.coach.com/p/coach-13-structured-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0699",
-    slug: "coach-coach-compact-clutch",
-    name: "Coach Compact Clutch",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Coach Coach Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-14-compact-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 229,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 2399447,
-        originalPrice: 3427900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-14-compact-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0700",
-    slug: "coach-coach-signature-shoulder-bag",
-    name: "Coach Signature Shoulder Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Coach Coach Signature Shoulder Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-15-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 48,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 2602050,
-        originalPrice: 5204100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-15-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0701",
-    slug: "coach-coach-pebbled-leather-tote-bag",
-    name: "Coach Pebbled Leather Tote Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Coach Coach Pebbled Leather Tote Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-16-pebbled-leather-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 229,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 7849310,
-        originalPrice: 11213300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-16-pebbled-leather-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0702",
-    slug: "coach-coach-structured-crossbody-bag",
-    name: "Coach Structured Crossbody Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Coach Coach Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-17-structured-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 210,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 8550660,
-        originalPrice: 10059600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-17-structured-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0703",
-    slug: "coach-coach-compact-wallet",
-    name: "Coach Compact Wallet",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Coach Coach Compact Wallet — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-18-compact-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 191,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 1434240,
-        originalPrice: 2390400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-18-compact-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0704",
-    slug: "coach-coach-signature-clutch",
-    name: "Coach Signature Clutch",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Coach Coach Signature Clutch — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-19-signature-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 172,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 1282765,
-        originalPrice: 2332300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.coach.com/p/coach-19-signature-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0705",
-    slug: "coach-coach-pebbled-leather-shoulder-bag",
-    name: "Coach Pebbled Leather Shoulder Bag",
-    brand: "coach",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Coach Coach Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/coach-20-pebbled-leather-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 153,
-    views: 0,
-    offers: [
-      {
-        store: "coach-store",
-        price: 4408960,
-        originalPrice: 5511200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.coach.com/p/coach-20-pebbled-leather-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0706",
-    slug: "kate-spade-kate-spade-structured-tote-bag",
-    name: "Kate Spade Structured Tote Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Kate Spade Kate Spade Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-1-structured-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 134,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 9318825,
-        originalPrice: 12425100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-1-structured-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0707",
-    slug: "kate-spade-kate-spade-compact-crossbody-bag",
-    name: "Kate Spade Compact Crossbody Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Kate Spade Kate Spade Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-2-compact-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 115,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 5358480,
-        originalPrice: 8930800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-2-compact-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0708",
-    slug: "kate-spade-kate-spade-signature-wallet",
-    name: "Kate Spade Signature Wallet",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Kate Spade Kate Spade Signature Wallet — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-3-signature-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 96,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 2508675,
-        originalPrice: 3859500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-3-signature-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0709",
-    slug: "kate-spade-kate-spade-pebbled-leather-clutch",
-    name: "Kate Spade Pebbled Leather Clutch",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Kate Spade Kate Spade Pebbled Leather Clutch — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-4-pebbled-leather-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 77,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 5836560,
-        originalPrice: 7295700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-4-pebbled-leather-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0710",
-    slug: "kate-spade-kate-spade-structured-shoulder-bag",
-    name: "Kate Spade Structured Shoulder Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Kate Spade Kate Spade Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-5-structured-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 239,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 4872100,
-        originalPrice: 9744200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-5-structured-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0711",
-    slug: "kate-spade-kate-spade-compact-tote-bag",
-    name: "Kate Spade Compact Tote Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Kate Spade Kate Spade Compact Tote Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-6-compact-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 58,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 6393075,
-        originalPrice: 8524100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-6-compact-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0712",
-    slug: "kate-spade-kate-spade-signature-crossbody-bag",
-    name: "Kate Spade Signature Crossbody Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Kate Spade Kate Spade Signature Crossbody Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-7-signature-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 77,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 2363425,
-        originalPrice: 2780500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-7-signature-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0713",
-    slug: "kate-spade-kate-spade-pebbled-leather-wallet",
-    name: "Kate Spade Pebbled Leather Wallet",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Kate Spade Kate Spade Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-8-pebbled-leather-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 96,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 6115440,
-        originalPrice: 7644300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-8-pebbled-leather-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0714",
-    slug: "kate-spade-kate-spade-structured-clutch",
-    name: "Kate Spade Structured Clutch",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Kate Spade Kate Spade Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-9-structured-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 163,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 9100950,
-        originalPrice: 12134600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-9-structured-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0715",
-    slug: "kate-spade-kate-spade-compact-shoulder-bag",
-    name: "Kate Spade Compact Shoulder Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "women",
-    description: "Kate Spade Kate Spade Compact Shoulder Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-10-compact-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 182,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 6619665,
-        originalPrice: 10184100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-10-compact-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0716",
-    slug: "kate-spade-kate-spade-signature-tote-bag",
-    name: "Kate Spade Signature Tote Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "men",
-    description: "Kate Spade Kate Spade Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-11-signature-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 201,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 6613440,
-        originalPrice: 8266800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-11-signature-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0717",
-    slug: "kate-spade-kate-spade-pebbled-leather-crossbody-bag",
-    name: "Kate Spade Pebbled Leather Crossbody Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "unisex",
-    description: "Kate Spade Kate Spade Pebbled Leather Crossbody Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-12-pebbled-leather-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 220,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 3290950,
-        originalPrice: 6581900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-12-pebbled-leather-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0718",
-    slug: "kate-spade-kate-spade-structured-wallet",
-    name: "Kate Spade Structured Wallet",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Kate Spade Kate Spade Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-13-structured-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 87,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 3571490,
-        originalPrice: 5494600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-13-structured-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0719",
-    slug: "kate-spade-kate-spade-compact-clutch",
-    name: "Kate Spade Compact Clutch",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Kate Spade Kate Spade Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-14-compact-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 106,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 4062850,
-        originalPrice: 7387000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-14-compact-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0720",
-    slug: "kate-spade-kate-spade-signature-shoulder-bag",
-    name: "Kate Spade Signature Shoulder Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Kate Spade Kate Spade Signature Shoulder Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-15-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 82,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 867350,
-        originalPrice: 1734700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-15-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0721",
-    slug: "kate-spade-kate-spade-pebbled-leather-tote-bag",
-    name: "Kate Spade Pebbled Leather Tote Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Kate Spade Kate Spade Pebbled Leather Tote Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-16-pebbled-leather-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 101,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 3691425,
-        originalPrice: 4921900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-16-pebbled-leather-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0722",
-    slug: "kate-spade-kate-spade-structured-crossbody-bag",
-    name: "Kate Spade Structured Crossbody Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Kate Spade Kate Spade Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-17-structured-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 44,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 7793700,
-        originalPrice: 10391600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-17-structured-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0723",
-    slug: "kate-spade-kate-spade-compact-wallet",
-    name: "Kate Spade Compact Wallet",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Kate Spade Kate Spade Compact Wallet — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-18-compact-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 63,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 4032140,
-        originalPrice: 5760200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-18-compact-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0724",
-    slug: "kate-spade-kate-spade-signature-clutch",
-    name: "Kate Spade Signature Clutch",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Kate Spade Kate Spade Signature Clutch — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-19-signature-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 206,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 7001880,
-        originalPrice: 11669800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-19-signature-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0725",
-    slug: "kate-spade-kate-spade-pebbled-leather-shoulder-bag",
-    name: "Kate Spade Pebbled Leather Shoulder Bag",
-    brand: "kate-spade",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Kate Spade Kate Spade Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/kate-spade-20-pebbled-leather-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 225,
-    views: 0,
-    offers: [
-      {
-        store: "kate-spade-store",
-        price: 7582050,
-        originalPrice: 10831500,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.katespade.com/p/kate-spade-20-pebbled-leather-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0726",
-    slug: "marc-jacobs-marc-jacobs-structured-tote-bag",
-    name: "Marc Jacobs Structured Tote Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-1-structured-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 168,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 2136420,
-        originalPrice: 3884400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-1-structured-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0727",
-    slug: "marc-jacobs-marc-jacobs-compact-crossbody-bag",
-    name: "Marc Jacobs Compact Crossbody Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-2-compact-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 187,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 10250915,
-        originalPrice: 12059900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-2-compact-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0728",
-    slug: "marc-jacobs-marc-jacobs-signature-wallet",
-    name: "Marc Jacobs Signature Wallet",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Marc Jacobs Marc Jacobs Signature Wallet — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-3-signature-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 234,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 2224400,
-        originalPrice: 4448800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-3-signature-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0729",
-    slug: "marc-jacobs-marc-jacobs-pebbled-leather-clutch",
-    name: "Marc Jacobs Pebbled Leather Clutch",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Pebbled Leather Clutch — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-4-pebbled-leather-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 53,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 4871685,
-        originalPrice: 7494900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-4-pebbled-leather-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0730",
-    slug: "marc-jacobs-marc-jacobs-structured-shoulder-bag",
-    name: "Marc Jacobs Structured Shoulder Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-5-structured-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 91,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 3528745,
-        originalPrice: 6415900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-5-structured-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0731",
-    slug: "marc-jacobs-marc-jacobs-compact-tote-bag",
-    name: "Marc Jacobs Compact Tote Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Marc Jacobs Marc Jacobs Compact Tote Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-6-compact-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 72,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 4719795,
-        originalPrice: 5552700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-6-compact-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0732",
-    slug: "marc-jacobs-marc-jacobs-signature-crossbody-bag",
-    name: "Marc Jacobs Signature Crossbody Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Signature Crossbody Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-7-signature-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 129,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 2739000,
-        originalPrice: 5478000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-7-signature-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0733",
-    slug: "marc-jacobs-marc-jacobs-pebbled-leather-wallet",
-    name: "Marc Jacobs Pebbled Leather Wallet",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-8-pebbled-leather-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 110,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 7217680,
-        originalPrice: 9022100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-8-pebbled-leather-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0734",
-    slug: "marc-jacobs-marc-jacobs-structured-clutch",
-    name: "Marc Jacobs Structured Clutch",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Marc Jacobs Marc Jacobs Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-9-structured-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 167,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 1506450,
-        originalPrice: 2739000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-9-structured-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0735",
-    slug: "marc-jacobs-marc-jacobs-compact-shoulder-bag",
-    name: "Marc Jacobs Compact Shoulder Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Compact Shoulder Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-10-compact-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 148,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 4513125,
-        originalPrice: 6017500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-10-compact-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0736",
-    slug: "marc-jacobs-marc-jacobs-signature-tote-bag",
-    name: "Marc Jacobs Signature Tote Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-11-signature-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 205,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 6683160,
-        originalPrice: 12151200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-11-signature-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0737",
-    slug: "marc-jacobs-marc-jacobs-pebbled-leather-crossbody-bag",
-    name: "Marc Jacobs Pebbled Leather Crossbody Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "unisex",
-    description: "Marc Jacobs Marc Jacobs Pebbled Leather Crossbody Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-12-pebbled-leather-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 186,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 3869460,
-        originalPrice: 6449100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-12-pebbled-leather-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0738",
-    slug: "marc-jacobs-marc-jacobs-structured-wallet",
-    name: "Marc Jacobs Structured Wallet",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-13-structured-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 139,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 7821920,
-        originalPrice: 9777400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-13-structured-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0739",
-    slug: "marc-jacobs-marc-jacobs-compact-clutch",
-    name: "Marc Jacobs Compact Clutch",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-14-compact-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 120,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 3072660,
-        originalPrice: 5121100,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-14-compact-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0740",
-    slug: "marc-jacobs-marc-jacobs-signature-shoulder-bag",
-    name: "Marc Jacobs Signature Shoulder Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Marc Jacobs Marc Jacobs Signature Shoulder Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-15-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 100,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 6921785,
-        originalPrice: 10648900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-15-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0741",
-    slug: "marc-jacobs-marc-jacobs-pebbled-leather-tote-bag",
-    name: "Marc Jacobs Pebbled Leather Tote Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Pebbled Leather Tote Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-16-pebbled-leather-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 119,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 1861275,
-        originalPrice: 2863500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-16-pebbled-leather-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0742",
-    slug: "marc-jacobs-marc-jacobs-structured-crossbody-bag",
-    name: "Marc Jacobs Structured Crossbody Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-17-structured-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 138,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 5824940,
-        originalPrice: 10590800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-17-structured-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0743",
-    slug: "marc-jacobs-marc-jacobs-compact-wallet",
-    name: "Marc Jacobs Compact Wallet",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Marc Jacobs Marc Jacobs Compact Wallet — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-18-compact-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 157,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 4785365,
-        originalPrice: 7362100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-18-compact-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0744",
-    slug: "marc-jacobs-marc-jacobs-signature-clutch",
-    name: "Marc Jacobs Signature Clutch",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Marc Jacobs Marc Jacobs Signature Clutch — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-19-signature-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 224,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 2742320,
-        originalPrice: 3917600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-19-signature-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0745",
-    slug: "marc-jacobs-marc-jacobs-pebbled-leather-shoulder-bag",
-    name: "Marc Jacobs Pebbled Leather Shoulder Bag",
-    brand: "marc-jacobs",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Marc Jacobs Marc Jacobs Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/marc-jacobs-20-pebbled-leather-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 43,
-    views: 0,
-    offers: [
-      {
-        store: "marc-jacobs-store",
-        price: 1852560,
-        originalPrice: 2315700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.marcjacobs.com/p/marc-jacobs-20-pebbled-leather-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0746",
-    slug: "tory-burch-tory-burch-structured-tote-bag",
-    name: "Tory Burch Structured Tote Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Tory Burch Tory Burch Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-1-structured-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 62,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 7245485,
-        originalPrice: 8524100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-1-structured-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0747",
-    slug: "tory-burch-tory-burch-compact-crossbody-bag",
-    name: "Tory Burch Compact Crossbody Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Tory Burch Tory Burch Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-2-compact-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 81,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 1509770,
-        originalPrice: 1776200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-2-compact-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0748",
-    slug: "tory-burch-tory-burch-signature-wallet",
-    name: "Tory Burch Signature Wallet",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Tory Burch Tory Burch Signature Wallet — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-3-signature-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 148,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 7795775,
-        originalPrice: 9171500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-3-signature-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0749",
-    slug: "tory-burch-tory-burch-pebbled-leather-clutch",
-    name: "Tory Burch Pebbled Leather Clutch",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Tory Burch Tory Burch Pebbled Leather Clutch — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-4-pebbled-leather-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 167,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 4787440,
-        originalPrice: 5984300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-4-pebbled-leather-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0750",
-    slug: "tory-burch-tory-burch-structured-shoulder-bag",
-    name: "Tory Burch Structured Shoulder Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Tory Burch Tory Burch Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-5-structured-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 109,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 7591180,
-        originalPrice: 8930800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-5-structured-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0751",
-    slug: "tory-burch-tory-burch-compact-tote-bag",
-    name: "Tory Burch Compact Tote Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Tory Burch Tory Burch Compact Tote Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-6-compact-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 90,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 4601935,
-        originalPrice: 7079900,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-6-compact-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0752",
-    slug: "tory-burch-tory-burch-signature-crossbody-bag",
-    name: "Tory Burch Signature Crossbody Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Tory Burch Tory Burch Signature Crossbody Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-7-signature-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 71,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 8553150,
-        originalPrice: 11404200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-7-signature-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0753",
-    slug: "tory-burch-tory-burch-pebbled-leather-wallet",
-    name: "Tory Burch Pebbled Leather Wallet",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Tory Burch Tory Burch Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-8-pebbled-leather-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 52,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 4906960,
-        originalPrice: 6133700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-8-pebbled-leather-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0754",
-    slug: "tory-burch-tory-burch-structured-clutch",
-    name: "Tory Burch Structured Clutch",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Tory Burch Tory Burch Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-9-structured-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 233,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 5836560,
-        originalPrice: 7295700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-9-structured-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0755",
-    slug: "tory-burch-tory-burch-compact-shoulder-bag",
-    name: "Tory Burch Compact Shoulder Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "women",
-    description: "Tory Burch Tory Burch Compact Shoulder Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-10-compact-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 214,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 1867500,
-        originalPrice: 2490000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-10-compact-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0756",
-    slug: "tory-burch-tory-burch-signature-tote-bag",
-    name: "Tory Burch Signature Tote Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "men",
-    description: "Tory Burch Tory Burch Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-11-signature-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 195,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 3498450,
-        originalPrice: 6996900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-11-signature-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0757",
-    slug: "tory-burch-tory-burch-pebbled-leather-crossbody-bag",
-    name: "Tory Burch Pebbled Leather Crossbody Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "unisex",
-    description: "Tory Burch Tory Burch Pebbled Leather Crossbody Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-12-pebbled-leather-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 176,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 8868135,
-        originalPrice: 10433100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-12-pebbled-leather-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0758",
-    slug: "tory-burch-tory-burch-structured-wallet",
-    name: "Tory Burch Structured Wallet",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Tory Burch Tory Burch Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-13-structured-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 157,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 5463060,
-        originalPrice: 9105100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-13-structured-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0759",
-    slug: "tory-burch-tory-burch-compact-clutch",
-    name: "Tory Burch Compact Clutch",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "men",
-    description: "Tory Burch Tory Burch Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-14-compact-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 138,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 2549760,
-        originalPrice: 4249600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-14-compact-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0760",
-    slug: "tory-burch-tory-burch-signature-shoulder-bag",
-    name: "Tory Burch Signature Shoulder Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "unisex",
-    description: "Tory Burch Tory Burch Signature Shoulder Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-15-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 234,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 1310985,
-        originalPrice: 2016900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-15-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0761",
-    slug: "tory-burch-tory-burch-pebbled-leather-tote-bag",
-    name: "Tory Burch Pebbled Leather Tote Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "women",
-    description: "Tory Burch Tory Burch Pebbled Leather Tote Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-16-pebbled-leather-tote-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 215,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 8804640,
-        originalPrice: 11005800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-16-pebbled-leather-tote-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0762",
-    slug: "tory-burch-tory-burch-structured-crossbody-bag",
-    name: "Tory Burch Structured Crossbody Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Tory Burch Tory Burch Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-17-structured-crossbody-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 72,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 3606350,
-        originalPrice: 6557000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-17-structured-crossbody-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0763",
-    slug: "tory-burch-tory-burch-compact-wallet",
-    name: "Tory Burch Compact Wallet",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Crossbody Bags",
-    gender: "unisex",
-    description: "Tory Burch Tory Burch Compact Wallet — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-18-compact-wallet/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "crossbody-bags"
-    ],
-    rating: 4,
-    reviews: 53,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 2227720,
-        originalPrice: 4050400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-18-compact-wallet",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0764",
-    slug: "tory-burch-tory-burch-signature-clutch",
-    name: "Tory Burch Signature Clutch",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Totes",
-    gender: "women",
-    description: "Tory Burch Tory Burch Signature Clutch — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-19-signature-clutch/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "totes"
-    ],
-    rating: 4,
-    reviews: 158,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 10286190,
-        originalPrice: 12101400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-19-signature-clutch",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0765",
-    slug: "tory-burch-tory-burch-pebbled-leather-shoulder-bag",
-    name: "Tory Burch Pebbled Leather Shoulder Bag",
-    brand: "tory-burch",
-    category: "bags",
-    subcategory: "Wallets",
-    gender: "men",
-    description: "Tory Burch Tory Burch Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tory-burch-20-pebbled-leather-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "bags",
-      "wallets"
-    ],
-    rating: 4,
-    reviews: 139,
-    views: 0,
-    offers: [
-      {
-        store: "tory-burch-store",
-        price: 5885530,
-        originalPrice: 8407900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.toryburch.com/p/tory-burch-20-pebbled-leather-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0766",
-    slug: "ted-baker-ted-baker-classic-blazer",
-    name: "Ted Baker Classic Blazer",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Ted Baker Ted Baker Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 196,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 336150,
-        originalPrice: 448200,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0767",
-    slug: "ted-baker-ted-baker-relaxed-shirt-dress",
-    name: "Ted Baker Relaxed Shirt Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Ted Baker Ted Baker Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 177,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 483060,
-        originalPrice: 805100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0768",
-    slug: "ted-baker-ted-baker-slim-fit-denim-jacket",
-    name: "Ted Baker Slim Fit Denim Jacket",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Ted Baker Ted Baker Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 82,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 1019655,
-        originalPrice: 1568700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0769",
-    slug: "ted-baker-ted-baker-oversized-knit-sweater",
-    name: "Ted Baker Oversized Knit Sweater",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Ted Baker Ted Baker Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 63,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 510450,
-        originalPrice: 1020900,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0770",
-    slug: "ted-baker-ted-baker-tailored-trench-coat",
-    name: "Ted Baker Tailored Trench Coat",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Ted Baker Ted Baker Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 225,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 360220,
-        originalPrice: 514600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0771",
-    slug: "ted-baker-ted-baker-classic-midi-dress",
-    name: "Ted Baker Classic Midi Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Ted Baker Ted Baker Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 44,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 1347837,
-        originalPrice: 1925600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0772",
-    slug: "ted-baker-ted-baker-relaxed-blazer",
-    name: "Ted Baker Relaxed Blazer",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Ted Baker Ted Baker Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 187,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 709650,
-        originalPrice: 1419300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0773",
-    slug: "ted-baker-ted-baker-slim-fit-shirt-dress",
-    name: "Ted Baker Slim Fit Shirt Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Ted Baker Ted Baker Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 206,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 796800,
-        originalPrice: 996000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0774",
-    slug: "ted-baker-ted-baker-oversized-denim-jacket",
-    name: "Ted Baker Oversized Denim Jacket",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Ted Baker Ted Baker Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 101,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 716705,
-        originalPrice: 1303100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0775",
-    slug: "ted-baker-ted-baker-tailored-knit-sweater",
-    name: "Ted Baker Tailored Knit Sweater",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Ted Baker Ted Baker Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 120,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 616275,
-        originalPrice: 1120500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0776",
-    slug: "ted-baker-ted-baker-classic-trench-coat",
-    name: "Ted Baker Classic Trench Coat",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Ted Baker Ted Baker Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 63,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 388440,
-        originalPrice: 647400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0777",
-    slug: "ted-baker-ted-baker-relaxed-midi-dress",
-    name: "Ted Baker Relaxed Midi Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Ted Baker Ted Baker Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 82,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 826680,
-        originalPrice: 1377800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0778",
-    slug: "ted-baker-ted-baker-slim-fit-blazer",
-    name: "Ted Baker Slim Fit Blazer",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Ted Baker Ted Baker Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 73,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 405040,
-        originalPrice: 506300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0779",
-    slug: "ted-baker-ted-baker-oversized-shirt-dress",
-    name: "Ted Baker Oversized Shirt Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Ted Baker Ted Baker Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 92,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 900550,
-        originalPrice: 1286500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0780",
-    slug: "ted-baker-ted-baker-tailored-denim-jacket",
-    name: "Ted Baker Tailored Denim Jacket",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Ted Baker Ted Baker Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 216,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 1041235,
-        originalPrice: 1601900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0781",
-    slug: "ted-baker-ted-baker-classic-knit-sweater",
-    name: "Ted Baker Classic Knit Sweater",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Ted Baker Ted Baker Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 197,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 1291065,
-        originalPrice: 1518900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0782",
-    slug: "ted-baker-ted-baker-relaxed-trench-coat",
-    name: "Ted Baker Relaxed Trench Coat",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Ted Baker Ted Baker Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 178,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 239040,
-        originalPrice: 398400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0783",
-    slug: "ted-baker-ted-baker-slim-fit-midi-dress",
-    name: "Ted Baker Slim Fit Midi Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Ted Baker Ted Baker Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 159,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 740775,
-        originalPrice: 987700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0784",
-    slug: "ted-baker-ted-baker-oversized-blazer",
-    name: "Ted Baker Oversized Blazer",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Ted Baker Ted Baker Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 140,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 796800,
-        originalPrice: 1062400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0785",
-    slug: "ted-baker-ted-baker-tailored-shirt-dress",
-    name: "Ted Baker Tailored Shirt Dress",
-    brand: "ted-baker",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Ted Baker Ted Baker Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ted-baker-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 121,
-    views: 0,
-    offers: [
-      {
-        store: "ted-baker-store",
-        price: 1121330,
-        originalPrice: 1601900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.tedbaker.com/p/ted-baker-20-tailored-shirt-dress",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
@@ -11877,5126 +6757,6 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-20-pebbled-leather-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0818",
-    slug: "prada-prada-signature-shoulder-bag",
-    name: "Prada Signature Shoulder Bag",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Prada Prada Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 188,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 1583640,
-        originalPrice: 2639400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.prada.com/p/prada-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0819",
-    slug: "prada-prada-monogram-silk-scarf",
-    name: "Prada Monogram Silk Scarf",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Prada Prada Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 169,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 3137400,
-        originalPrice: 6274800,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.prada.com/p/prada-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0820",
-    slug: "prada-prada-limited-edition-leather-loafers",
-    name: "Prada Limited Edition Leather Loafers",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Prada Prada Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 199,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 4594050,
-        originalPrice: 9188100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0821",
-    slug: "prada-prada-runway-sunglasses",
-    name: "Prada Runway Sunglasses",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Prada Prada Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 180,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 6315470,
-        originalPrice: 9022100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0822",
-    slug: "prada-prada-heritage-wool-coat",
-    name: "Prada Heritage Wool Coat",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Prada Prada Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 237,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 5421975,
-        originalPrice: 7229300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0823",
-    slug: "prada-prada-signature-tote",
-    name: "Prada Signature Tote",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Prada Prada Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 218,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 3160640,
-        originalPrice: 3718400,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.prada.com/p/prada-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0824",
-    slug: "prada-prada-monogram-shoulder-bag",
-    name: "Prada Monogram Shoulder Bag",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Prada Prada Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 123,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 6916390,
-        originalPrice: 10640600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0825",
-    slug: "prada-prada-limited-edition-silk-scarf",
-    name: "Prada Limited Edition Silk Scarf",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Prada Prada Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 104,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 2411067,
-        originalPrice: 3444500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0826",
-    slug: "prada-prada-runway-leather-loafers",
-    name: "Prada Runway Leather Loafers",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Prada Prada Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 161,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 3717985,
-        originalPrice: 4374100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0827",
-    slug: "prada-prada-heritage-sunglasses",
-    name: "Prada Heritage Sunglasses",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Prada Prada Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 142,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 2990075,
-        originalPrice: 5436500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0828",
-    slug: "prada-prada-signature-wool-coat",
-    name: "Prada Signature Wool Coat",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Prada Prada Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 47,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 5578430,
-        originalPrice: 8582200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0829",
-    slug: "prada-prada-monogram-tote",
-    name: "Prada Monogram Tote",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Prada Prada Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 228,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 4560850,
-        originalPrice: 9121700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0830",
-    slug: "prada-prada-limited-edition-shoulder-bag",
-    name: "Prada Limited Edition Shoulder Bag",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Prada Prada Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 122,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 2974720,
-        originalPrice: 4249600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0831",
-    slug: "prada-prada-runway-silk-scarf",
-    name: "Prada Runway Silk Scarf",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Prada Prada Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 103,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 4589900,
-        originalPrice: 9179800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0832",
-    slug: "prada-prada-heritage-leather-loafers",
-    name: "Prada Heritage Leather Loafers",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Prada Prada Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 160,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 5179200,
-        originalPrice: 8632000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0833",
-    slug: "prada-prada-signature-sunglasses",
-    name: "Prada Signature Sunglasses",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Prada Prada Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 141,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 2334375,
-        originalPrice: 3112500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0834",
-    slug: "prada-prada-monogram-wool-coat",
-    name: "Prada Monogram Wool Coat",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Prada Prada Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 46,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 2569680,
-        originalPrice: 4282800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0835",
-    slug: "prada-prada-limited-edition-tote",
-    name: "Prada Limited Edition Tote",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Prada Prada Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 227,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 1620575,
-        originalPrice: 2946500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0836",
-    slug: "prada-prada-runway-shoulder-bag",
-    name: "Prada Runway Shoulder Bag",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Prada Prada Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 84,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 2626950,
-        originalPrice: 3502600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.prada.com/p/prada-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0837",
-    slug: "prada-prada-heritage-silk-scarf",
-    name: "Prada Heritage Silk Scarf",
-    brand: "prada",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Prada Prada Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/prada-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 65,
-    views: 0,
-    offers: [
-      {
-        store: "prada-store",
-        price: 3670260,
-        originalPrice: 6673200,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.prada.com/p/prada-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0838",
-    slug: "versace-versace-signature-shoulder-bag",
-    name: "Versace Signature Shoulder Bag",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Versace Versace Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 74,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 1888250,
-        originalPrice: 2905000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0839",
-    slug: "versace-versace-monogram-silk-scarf",
-    name: "Versace Monogram Silk Scarf",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Versace Versace Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 55,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 4868697,
-        originalPrice: 6955400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0840",
-    slug: "versace-versace-limited-edition-leather-loafers",
-    name: "Versace Limited Edition Leather Loafers",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Versace Versace Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 185,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 7412730,
-        originalPrice: 11404200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0841",
-    slug: "versace-versace-runway-sunglasses",
-    name: "Versace Runway Sunglasses",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Versace Versace Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 166,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 1861275,
-        originalPrice: 2863500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0842",
-    slug: "versace-versace-heritage-wool-coat",
-    name: "Versace Heritage Wool Coat",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Versace Versace Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 147,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 2166300,
-        originalPrice: 2888400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0843",
-    slug: "versace-versace-signature-tote",
-    name: "Versace Signature Tote",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Versace Versace Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 128,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 4053720,
-        originalPrice: 6756200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0844",
-    slug: "versace-versace-monogram-shoulder-bag",
-    name: "Versace Monogram Shoulder Bag",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Versace Versace Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 61,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 6181840,
-        originalPrice: 7727300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0845",
-    slug: "versace-versace-limited-edition-silk-scarf",
-    name: "Versace Limited Edition Silk Scarf",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Versace Versace Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 42,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 3378100,
-        originalPrice: 6756200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0846",
-    slug: "versace-versace-runway-leather-loafers",
-    name: "Versace Runway Leather Loafers",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Versace Versace Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 223,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 5677200,
-        originalPrice: 9462000,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.versace.com/p/versace-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0847",
-    slug: "versace-versace-heritage-sunglasses",
-    name: "Versace Heritage Sunglasses",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Versace Versace Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 204,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 5065905,
-        originalPrice: 7793700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0848",
-    slug: "versace-versace-signature-wool-coat",
-    name: "Versace Signature Wool Coat",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Versace Versace Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 233,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 3839165,
-        originalPrice: 6980300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0849",
-    slug: "versace-versace-monogram-tote",
-    name: "Versace Monogram Tote",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Versace Versace Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 214,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 6110460,
-        originalPrice: 10184100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0850",
-    slug: "versace-versace-limited-edition-shoulder-bag",
-    name: "Versace Limited Edition Shoulder Bag",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Versace Versace Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 176,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 9329200,
-        originalPrice: 11661500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0851",
-    slug: "versace-versace-runway-silk-scarf",
-    name: "Versace Runway Silk Scarf",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Versace Versace Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 195,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 5519085,
-        originalPrice: 8490900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0852",
-    slug: "versace-versace-heritage-leather-loafers",
-    name: "Versace Heritage Leather Loafers",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Versace Versace Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 214,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 1879950,
-        originalPrice: 2506600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0853",
-    slug: "versace-versace-signature-sunglasses",
-    name: "Versace Signature Sunglasses",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Versace Versace Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 233,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 1063645,
-        originalPrice: 1933900,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.versace.com/p/versace-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0854",
-    slug: "versace-versace-monogram-wool-coat",
-    name: "Versace Monogram Wool Coat",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Versace Versace Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 52,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 2928240,
-        originalPrice: 4880400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0855",
-    slug: "versace-versace-limited-edition-tote",
-    name: "Versace Limited Edition Tote",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Versace Versace Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 71,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 6449100,
-        originalPrice: 8598800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0856",
-    slug: "versace-versace-runway-shoulder-bag",
-    name: "Versace Runway Shoulder Bag",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Versace Versace Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 90,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 6161090,
-        originalPrice: 9478600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0857",
-    slug: "versace-versace-heritage-silk-scarf",
-    name: "Versace Heritage Silk Scarf",
-    brand: "versace",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Versace Versace Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/versace-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 109,
-    views: 0,
-    offers: [
-      {
-        store: "versace-store",
-        price: 2866820,
-        originalPrice: 5212400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.versace.com/p/versace-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0858",
-    slug: "balenciaga-balenciaga-signature-shoulder-bag",
-    name: "Balenciaga Signature Shoulder Bag",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Balenciaga Balenciaga Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 224,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 6384360,
-        originalPrice: 10640600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0859",
-    slug: "balenciaga-balenciaga-monogram-silk-scarf",
-    name: "Balenciaga Monogram Silk Scarf",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Balenciaga Balenciaga Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 43,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 4251675,
-        originalPrice: 5668900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0860",
-    slug: "balenciaga-balenciaga-limited-edition-leather-loafers",
-    name: "Balenciaga Limited Edition Leather Loafers",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Balenciaga Balenciaga Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 149,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 3690180,
-        originalPrice: 5677200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0861",
-    slug: "balenciaga-balenciaga-runway-sunglasses",
-    name: "Balenciaga Runway Sunglasses",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Balenciaga Balenciaga Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 168,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 1686560,
-        originalPrice: 2108200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0862",
-    slug: "balenciaga-balenciaga-heritage-wool-coat",
-    name: "Balenciaga Heritage Wool Coat",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Balenciaga Balenciaga Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 111,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 4669995,
-        originalPrice: 8490900,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0863",
-    slug: "balenciaga-balenciaga-signature-tote",
-    name: "Balenciaga Signature Tote",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Balenciaga Balenciaga Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 130,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 8360590,
-        originalPrice: 11943700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0864",
-    slug: "balenciaga-balenciaga-monogram-shoulder-bag",
-    name: "Balenciaga Monogram Shoulder Bag",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Balenciaga Balenciaga Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 73,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 5322375,
-        originalPrice: 7096500,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0865",
-    slug: "balenciaga-balenciaga-limited-edition-silk-scarf",
-    name: "Balenciaga Limited Edition Silk Scarf",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Balenciaga Balenciaga Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 92,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 6573600,
-        originalPrice: 8217000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0866",
-    slug: "balenciaga-balenciaga-runway-leather-loafers",
-    name: "Balenciaga Runway Leather Loafers",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Balenciaga Balenciaga Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 235,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 3100050,
-        originalPrice: 4133400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0867",
-    slug: "balenciaga-balenciaga-heritage-sunglasses",
-    name: "Balenciaga Heritage Sunglasses",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Balenciaga Balenciaga Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 54,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 4724775,
-        originalPrice: 8590500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0868",
-    slug: "balenciaga-balenciaga-signature-wool-coat",
-    name: "Balenciaga Signature Wool Coat",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Balenciaga Balenciaga Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 197,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 1045800,
-        originalPrice: 2091600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0869",
-    slug: "balenciaga-balenciaga-monogram-tote",
-    name: "Balenciaga Monogram Tote",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Balenciaga Balenciaga Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 216,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 2420280,
-        originalPrice: 4033800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0870",
-    slug: "balenciaga-balenciaga-limited-edition-shoulder-bag",
-    name: "Balenciaga Limited Edition Shoulder Bag",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Balenciaga Balenciaga Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 194,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 5943630,
-        originalPrice: 10806600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0871",
-    slug: "balenciaga-balenciaga-runway-silk-scarf",
-    name: "Balenciaga Runway Silk Scarf",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Balenciaga Balenciaga Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 213,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 2074170,
-        originalPrice: 2440200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0872",
-    slug: "balenciaga-balenciaga-heritage-leather-loafers",
-    name: "Balenciaga Heritage Leather Loafers",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Balenciaga Balenciaga Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 156,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 3744960,
-        originalPrice: 6241600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0873",
-    slug: "balenciaga-balenciaga-signature-sunglasses",
-    name: "Balenciaga Signature Sunglasses",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Balenciaga Balenciaga Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 175,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 1319700,
-        originalPrice: 1759600,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0874",
-    slug: "balenciaga-balenciaga-monogram-wool-coat",
-    name: "Balenciaga Monogram Wool Coat",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Balenciaga Balenciaga Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 118,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 1899040,
-        originalPrice: 3452800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0875",
-    slug: "balenciaga-balenciaga-limited-edition-tote",
-    name: "Balenciaga Limited Edition Tote",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Balenciaga Balenciaga Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 137,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 3889380,
-        originalPrice: 6482300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0876",
-    slug: "balenciaga-balenciaga-runway-shoulder-bag",
-    name: "Balenciaga Runway Shoulder Bag",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Balenciaga Balenciaga Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 80,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 5404960,
-        originalPrice: 6756200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0877",
-    slug: "balenciaga-balenciaga-heritage-silk-scarf",
-    name: "Balenciaga Heritage Silk Scarf",
-    brand: "balenciaga",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Balenciaga Balenciaga Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/balenciaga-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 99,
-    views: 0,
-    offers: [
-      {
-        store: "balenciaga-store",
-        price: 3639550,
-        originalPrice: 7279100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.balenciaga.com/p/balenciaga-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0878",
-    slug: "saint-laurent-saint-laurent-signature-shoulder-bag",
-    name: "Saint Laurent Signature Shoulder Bag",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 42,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 5608725,
-        originalPrice: 7478300,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0879",
-    slug: "saint-laurent-saint-laurent-monogram-silk-scarf",
-    name: "Saint Laurent Monogram Silk Scarf",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 61,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 9701040,
-        originalPrice: 12126300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0880",
-    slug: "saint-laurent-saint-laurent-limited-edition-leather-loafers",
-    name: "Saint Laurent Limited Edition Leather Loafers",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Saint Laurent Saint Laurent Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 155,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 1389420,
-        originalPrice: 2315700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0881",
-    slug: "saint-laurent-saint-laurent-runway-sunglasses",
-    name: "Saint Laurent Runway Sunglasses",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 174,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2688785,
-        originalPrice: 4888700,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0882",
-    slug: "saint-laurent-saint-laurent-heritage-wool-coat",
-    name: "Saint Laurent Heritage Wool Coat",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 193,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 5166750,
-        originalPrice: 6889000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0883",
-    slug: "saint-laurent-saint-laurent-signature-tote",
-    name: "Saint Laurent Signature Tote",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Saint Laurent Saint Laurent Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 212,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 4585750,
-        originalPrice: 5395000,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0884",
-    slug: "saint-laurent-saint-laurent-monogram-shoulder-bag",
-    name: "Saint Laurent Monogram Shoulder Bag",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 231,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2041800,
-        originalPrice: 4083600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0885",
-    slug: "saint-laurent-saint-laurent-limited-edition-silk-scarf",
-    name: "Saint Laurent Limited Edition Silk Scarf",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 50,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 1957140,
-        originalPrice: 3261900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0886",
-    slug: "saint-laurent-saint-laurent-runway-leather-loafers",
-    name: "Saint Laurent Runway Leather Loafers",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Saint Laurent Saint Laurent Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 69,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 6555340,
-        originalPrice: 11918800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0887",
-    slug: "saint-laurent-saint-laurent-heritage-sunglasses",
-    name: "Saint Laurent Heritage Sunglasses",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 88,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2137250,
-        originalPrice: 4274500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0888",
-    slug: "saint-laurent-saint-laurent-signature-wool-coat",
-    name: "Saint Laurent Signature Wool Coat",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 107,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2033500,
-        originalPrice: 2905000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0889",
-    slug: "saint-laurent-saint-laurent-monogram-tote",
-    name: "Saint Laurent Monogram Tote",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Saint Laurent Saint Laurent Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 126,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 7942270,
-        originalPrice: 11346100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0890",
-    slug: "saint-laurent-saint-laurent-limited-edition-shoulder-bag",
-    name: "Saint Laurent Limited Edition Shoulder Bag",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 180,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2016070,
-        originalPrice: 2880100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0891",
-    slug: "saint-laurent-saint-laurent-runway-silk-scarf",
-    name: "Saint Laurent Runway Silk Scarf",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 199,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 3532480,
-        originalPrice: 4415600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0892",
-    slug: "saint-laurent-saint-laurent-heritage-leather-loafers",
-    name: "Saint Laurent Heritage Leather Loafers",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Saint Laurent Saint Laurent Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 218,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 5815810,
-        originalPrice: 8947400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0893",
-    slug: "saint-laurent-saint-laurent-signature-sunglasses",
-    name: "Saint Laurent Signature Sunglasses",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 237,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2066700,
-        originalPrice: 4133400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0894",
-    slug: "saint-laurent-saint-laurent-monogram-wool-coat",
-    name: "Saint Laurent Monogram Wool Coat",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 104,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 6314640,
-        originalPrice: 7893300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0895",
-    slug: "saint-laurent-saint-laurent-limited-edition-tote",
-    name: "Saint Laurent Limited Edition Tote",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Saint Laurent Saint Laurent Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 123,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 9242880,
-        originalPrice: 11553600,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0896",
-    slug: "saint-laurent-saint-laurent-runway-shoulder-bag",
-    name: "Saint Laurent Runway Shoulder Bag",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Saint Laurent Saint Laurent Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 142,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 7244240,
-        originalPrice: 9055300,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0897",
-    slug: "saint-laurent-saint-laurent-heritage-silk-scarf",
-    name: "Saint Laurent Heritage Silk Scarf",
-    brand: "saint-laurent",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Saint Laurent Saint Laurent Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/saint-laurent-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 161,
-    views: 0,
-    offers: [
-      {
-        store: "saint-laurent-store",
-        price: 2496640,
-        originalPrice: 3120800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.ysl.com/p/saint-laurent-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0898",
-    slug: "valentino-valentino-signature-shoulder-bag",
-    name: "Valentino Signature Shoulder Bag",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Valentino Valentino Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 228,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 9687760,
-        originalPrice: 12109700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0899",
-    slug: "valentino-valentino-monogram-silk-scarf",
-    name: "Valentino Monogram Silk Scarf",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Valentino Valentino Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 47,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 5016935,
-        originalPrice: 9121700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0900",
-    slug: "valentino-valentino-limited-edition-leather-loafers",
-    name: "Valentino Limited Edition Leather Loafers",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Valentino Valentino Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 146,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 8534890,
-        originalPrice: 12192700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0901",
-    slug: "valentino-valentino-runway-sunglasses",
-    name: "Valentino Runway Sunglasses",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Valentino Valentino Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 165,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 8074240,
-        originalPrice: 10092800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0902",
-    slug: "valentino-valentino-heritage-wool-coat",
-    name: "Valentino Heritage Wool Coat",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Valentino Valentino Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 108,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 8585935,
-        originalPrice: 10101100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0903",
-    slug: "valentino-valentino-signature-tote",
-    name: "Valentino Signature Tote",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Valentino Valentino Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 127,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 1304760,
-        originalPrice: 2174600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0904",
-    slug: "valentino-valentino-monogram-shoulder-bag",
-    name: "Valentino Monogram Shoulder Bag",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Valentino Valentino Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 70,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 6507200,
-        originalPrice: 9296000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0905",
-    slug: "valentino-valentino-limited-edition-silk-scarf",
-    name: "Valentino Limited Edition Silk Scarf",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Valentino Valentino Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 89,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 2228550,
-        originalPrice: 2971400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0906",
-    slug: "valentino-valentino-runway-leather-loafers",
-    name: "Valentino Runway Leather Loafers",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Valentino Valentino Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 232,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 9063600,
-        originalPrice: 11329500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0907",
-    slug: "valentino-valentino-heritage-sunglasses",
-    name: "Valentino Heritage Sunglasses",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Valentino Valentino Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 51,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 7802830,
-        originalPrice: 11146900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0908",
-    slug: "valentino-valentino-signature-wool-coat",
-    name: "Valentino Signature Wool Coat",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Valentino Valentino Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 194,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 6986940,
-        originalPrice: 11644900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0909",
-    slug: "valentino-valentino-monogram-tote",
-    name: "Valentino Monogram Tote",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Valentino Valentino Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 213,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 5861460,
-        originalPrice: 9769100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0910",
-    slug: "valentino-valentino-limited-edition-shoulder-bag",
-    name: "Valentino Limited Edition Shoulder Bag",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Valentino Valentino Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 147,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 8219075,
-        originalPrice: 9669500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0911",
-    slug: "valentino-valentino-runway-silk-scarf",
-    name: "Valentino Runway Silk Scarf",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Valentino Valentino Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 128,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 2097410,
-        originalPrice: 2996300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0912",
-    slug: "valentino-valentino-heritage-leather-loafers",
-    name: "Valentino Heritage Leather Loafers",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Valentino Valentino Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 185,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 5806680,
-        originalPrice: 9677800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0913",
-    slug: "valentino-valentino-signature-sunglasses",
-    name: "Valentino Signature Sunglasses",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Valentino Valentino Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 166,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 1279860,
-        originalPrice: 2133100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0914",
-    slug: "valentino-valentino-monogram-wool-coat",
-    name: "Valentino Monogram Wool Coat",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Valentino Valentino Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 223,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 4576620,
-        originalPrice: 7627700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0915",
-    slug: "valentino-valentino-limited-edition-tote",
-    name: "Valentino Limited Edition Tote",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Valentino Valentino Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 204,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 2455140,
-        originalPrice: 2888400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0916",
-    slug: "valentino-valentino-runway-shoulder-bag",
-    name: "Valentino Runway Shoulder Bag",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Valentino Valentino Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 61,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 6303850,
-        originalPrice: 9005500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0917",
-    slug: "valentino-valentino-heritage-silk-scarf",
-    name: "Valentino Heritage Silk Scarf",
-    brand: "valentino",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Valentino Valentino Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/valentino-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 42,
-    views: 0,
-    offers: [
-      {
-        store: "valentino-store",
-        price: 1879950,
-        originalPrice: 3759900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.valentino.com/p/valentino-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0918",
-    slug: "dolce-gabbana-dolce-gabbana-signature-shoulder-bag",
-    name: "Dolce Gabbana Signature Shoulder Bag",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 99,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 6208400,
-        originalPrice: 12416800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0919",
-    slug: "dolce-gabbana-dolce-gabbana-monogram-silk-scarf",
-    name: "Dolce Gabbana Monogram Silk Scarf",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 80,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 942050,
-        originalPrice: 1884100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0920",
-    slug: "dolce-gabbana-dolce-gabbana-limited-edition-leather-loafers",
-    name: "Dolce Gabbana Limited Edition Leather Loafers",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Dolce & Gabbana Dolce Gabbana Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 184,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 6738355,
-        originalPrice: 10366700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0921",
-    slug: "dolce-gabbana-dolce-gabbana-runway-sunglasses",
-    name: "Dolce Gabbana Runway Sunglasses",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 165,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 4995770,
-        originalPrice: 7685800,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0922",
-    slug: "dolce-gabbana-dolce-gabbana-heritage-wool-coat",
-    name: "Dolce Gabbana Heritage Wool Coat",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 146,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 4921070,
-        originalPrice: 8947400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0923",
-    slug: "dolce-gabbana-dolce-gabbana-signature-tote",
-    name: "Dolce Gabbana Signature Tote",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Dolce & Gabbana Dolce Gabbana Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 127,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 5238545,
-        originalPrice: 8059300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0924",
-    slug: "dolce-gabbana-dolce-gabbana-monogram-shoulder-bag",
-    name: "Dolce Gabbana Monogram Shoulder Bag",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 108,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 5956080,
-        originalPrice: 9163200,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0925",
-    slug: "dolce-gabbana-dolce-gabbana-limited-edition-silk-scarf",
-    name: "Dolce Gabbana Limited Edition Silk Scarf",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 89,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 1537990,
-        originalPrice: 1809400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0926",
-    slug: "dolce-gabbana-dolce-gabbana-runway-leather-loafers",
-    name: "Dolce Gabbana Runway Leather Loafers",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Dolce & Gabbana Dolce Gabbana Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 70,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 1651700,
-        originalPrice: 3303400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0927",
-    slug: "dolce-gabbana-dolce-gabbana-heritage-sunglasses",
-    name: "Dolce Gabbana Heritage Sunglasses",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 51,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 9481920,
-        originalPrice: 11155200,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0928",
-    slug: "dolce-gabbana-dolce-gabbana-signature-wool-coat",
-    name: "Dolce Gabbana Signature Wool Coat",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 136,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 1633440,
-        originalPrice: 2041800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0929",
-    slug: "dolce-gabbana-dolce-gabbana-monogram-tote",
-    name: "Dolce Gabbana Monogram Tote",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Dolce & Gabbana Dolce Gabbana Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 117,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 5811245,
-        originalPrice: 10565900,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0930",
-    slug: "dolce-gabbana-dolce-gabbana-limited-edition-shoulder-bag",
-    name: "Dolce Gabbana Limited Edition Shoulder Bag",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 137,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 9138300,
-        originalPrice: 12184400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0931",
-    slug: "dolce-gabbana-dolce-gabbana-runway-silk-scarf",
-    name: "Dolce Gabbana Runway Silk Scarf",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 118,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 3597220,
-        originalPrice: 6540400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0932",
-    slug: "dolce-gabbana-dolce-gabbana-heritage-leather-loafers",
-    name: "Dolce Gabbana Heritage Leather Loafers",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Dolce & Gabbana Dolce Gabbana Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 99,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 9667840,
-        originalPrice: 12084800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0933",
-    slug: "dolce-gabbana-dolce-gabbana-signature-sunglasses",
-    name: "Dolce Gabbana Signature Sunglasses",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 80,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 5182437,
-        originalPrice: 7403600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0934",
-    slug: "dolce-gabbana-dolce-gabbana-monogram-wool-coat",
-    name: "Dolce Gabbana Monogram Wool Coat",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 213,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 2624460,
-        originalPrice: 3087600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0935",
-    slug: "dolce-gabbana-dolce-gabbana-limited-edition-tote",
-    name: "Dolce Gabbana Limited Edition Tote",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Dolce & Gabbana Dolce Gabbana Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 194,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 6344520,
-        originalPrice: 10574200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0936",
-    slug: "dolce-gabbana-dolce-gabbana-runway-shoulder-bag",
-    name: "Dolce Gabbana Runway Shoulder Bag",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Dolce & Gabbana Dolce Gabbana Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 175,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 2631100,
-        originalPrice: 5262200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0937",
-    slug: "dolce-gabbana-dolce-gabbana-heritage-silk-scarf",
-    name: "Dolce Gabbana Heritage Silk Scarf",
-    brand: "dolce-gabbana",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Dolce & Gabbana Dolce Gabbana Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/dolce-gabbana-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 156,
-    views: 0,
-    offers: [
-      {
-        store: "dolce-gabbana-store",
-        price: 3306720,
-        originalPrice: 5511200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.dolcegabbana.com/p/dolce-gabbana-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0938",
-    slug: "givenchy-givenchy-signature-shoulder-bag",
-    name: "Givenchy Signature Shoulder Bag",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Givenchy Givenchy Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-1-signature-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 185,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 3979850,
-        originalPrice: 7959700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-1-signature-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0939",
-    slug: "givenchy-givenchy-monogram-silk-scarf",
-    name: "Givenchy Monogram Silk Scarf",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Givenchy Givenchy Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-2-monogram-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 166,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 1318787,
-        originalPrice: 1884100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-2-monogram-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0940",
-    slug: "givenchy-givenchy-limited-edition-leather-loafers",
-    name: "Givenchy Limited Edition Leather Loafers",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Givenchy Givenchy Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-3-limited-edition-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 170,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 10533115,
-        originalPrice: 12391900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-3-limited-edition-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0941",
-    slug: "givenchy-givenchy-runway-sunglasses",
-    name: "Givenchy Runway Sunglasses",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Givenchy Givenchy Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-4-runway-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 151,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 7177425,
-        originalPrice: 9569900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-4-runway-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0942",
-    slug: "givenchy-givenchy-heritage-wool-coat",
-    name: "Givenchy Heritage Wool Coat",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Givenchy Givenchy Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-5-heritage-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 208,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 3705120,
-        originalPrice: 4631400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-5-heritage-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0943",
-    slug: "givenchy-givenchy-signature-tote",
-    name: "Givenchy Signature Tote",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Givenchy Givenchy Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-6-signature-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 189,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 2704140,
-        originalPrice: 4506900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-6-signature-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0944",
-    slug: "givenchy-givenchy-monogram-shoulder-bag",
-    name: "Givenchy Monogram Shoulder Bag",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Givenchy Givenchy Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-7-monogram-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 94,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 5552700,
-        originalPrice: 7403600,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-7-monogram-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0945",
-    slug: "givenchy-givenchy-limited-edition-silk-scarf",
-    name: "Givenchy Limited Edition Silk Scarf",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Givenchy Givenchy Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-8-limited-edition-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 75,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 1626800,
-        originalPrice: 2033500,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-8-limited-edition-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0946",
-    slug: "givenchy-givenchy-runway-leather-loafers",
-    name: "Givenchy Runway Leather Loafers",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "unisex",
-    description: "Givenchy Givenchy Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-9-runway-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 132,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 5546475,
-        originalPrice: 10084500,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-9-runway-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0947",
-    slug: "givenchy-givenchy-heritage-sunglasses",
-    name: "Givenchy Heritage Sunglasses",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "men",
-    description: "Givenchy Givenchy Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-10-heritage-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 113,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 6852480,
-        originalPrice: 8565600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-10-heritage-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0948",
-    slug: "givenchy-givenchy-signature-wool-coat",
-    name: "Givenchy Signature Wool Coat",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "women",
-    description: "Givenchy Givenchy Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-11-signature-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 122,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 3305890,
-        originalPrice: 4722700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-11-signature-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0949",
-    slug: "givenchy-givenchy-monogram-tote",
-    name: "Givenchy Monogram Tote",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "unisex",
-    description: "Givenchy Givenchy Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-12-monogram-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 103,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 8901750,
-        originalPrice: 11869000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-12-monogram-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0950",
-    slug: "givenchy-givenchy-limited-edition-shoulder-bag",
-    name: "Givenchy Limited Edition Shoulder Bag",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "men",
-    description: "Givenchy Givenchy Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-13-limited-edition-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 161,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 2978040,
-        originalPrice: 4963400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-13-limited-edition-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0951",
-    slug: "givenchy-givenchy-runway-silk-scarf",
-    name: "Givenchy Runway Silk Scarf",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "women",
-    description: "Givenchy Givenchy Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-14-runway-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 180,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 5037187,
-        originalPrice: 7196100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-14-runway-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0952",
-    slug: "givenchy-givenchy-heritage-leather-loafers",
-    name: "Givenchy Heritage Leather Loafers",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "unisex",
-    description: "Givenchy Givenchy Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-15-heritage-leather-loafers/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 123,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 4208930,
-        originalPrice: 7652600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-15-heritage-leather-loafers",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0953",
-    slug: "givenchy-givenchy-signature-sunglasses",
-    name: "Givenchy Signature Sunglasses",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "men",
-    description: "Givenchy Givenchy Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-16-signature-sunglasses/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 142,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 5592540,
-        originalPrice: 9320900,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-16-signature-sunglasses",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0954",
-    slug: "givenchy-givenchy-monogram-wool-coat",
-    name: "Givenchy Monogram Wool Coat",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Handbags",
-    gender: "women",
-    description: "Givenchy Givenchy Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-17-monogram-wool-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "handbags"
-    ],
-    rating: 4,
-    reviews: 237,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 5635700,
-        originalPrice: 11271400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-17-monogram-wool-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0955",
-    slug: "givenchy-givenchy-limited-edition-tote",
-    name: "Givenchy Limited Edition Tote",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Ready-to-Wear",
-    gender: "unisex",
-    description: "Givenchy Givenchy Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-18-limited-edition-tote/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "ready-to-wear"
-    ],
-    rating: 4,
-    reviews: 56,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 7971320,
-        originalPrice: 11387600,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-18-limited-edition-tote",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0956",
-    slug: "givenchy-givenchy-runway-shoulder-bag",
-    name: "Givenchy Runway Shoulder Bag",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Footwear",
-    gender: "men",
-    description: "Givenchy Givenchy Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-19-runway-shoulder-bag/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "footwear"
-    ],
-    rating: 4,
-    reviews: 199,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 4096050,
-        originalPrice: 5461400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-19-runway-shoulder-bag",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0957",
-    slug: "givenchy-givenchy-heritage-silk-scarf",
-    name: "Givenchy Heritage Silk Scarf",
-    brand: "givenchy",
-    category: "accessories",
-    subcategory: "Accessories",
-    gender: "women",
-    description: "Givenchy Givenchy Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/givenchy-20-heritage-silk-scarf/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "accessories",
-      "accessories"
-    ],
-    rating: 4,
-    reviews: 218,
-    views: 0,
-    offers: [
-      {
-        store: "givenchy-store",
-        price: 867350,
-        originalPrice: 1734700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.givenchy.com/p/givenchy-20-heritage-silk-scarf",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0958",
-    slug: "moncler-moncler-classic-blazer",
-    name: "Moncler Classic Blazer",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Moncler Moncler Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-1-classic-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 113,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 3879005,
-        originalPrice: 5967700,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-1-classic-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0959",
-    slug: "moncler-moncler-relaxed-shirt-dress",
-    name: "Moncler Relaxed Shirt Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Moncler Moncler Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-2-relaxed-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 132,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 6434160,
-        originalPrice: 8042700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-2-relaxed-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0960",
-    slug: "moncler-moncler-slim-fit-denim-jacket",
-    name: "Moncler Slim Fit Denim Jacket",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Moncler Moncler Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-3-slim-fit-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 188,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 6171880,
-        originalPrice: 9495200,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-3-slim-fit-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0961",
-    slug: "moncler-moncler-oversized-knit-sweater",
-    name: "Moncler Oversized Knit Sweater",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Moncler Moncler Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-4-oversized-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 169,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 4731000,
-        originalPrice: 7885000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-4-oversized-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0962",
-    slug: "moncler-moncler-tailored-trench-coat",
-    name: "Moncler Tailored Trench Coat",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Moncler Moncler Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-5-tailored-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 150,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 2981360,
-        originalPrice: 3726700,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-5-tailored-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0963",
-    slug: "moncler-moncler-classic-midi-dress",
-    name: "Moncler Classic Midi Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "unisex",
-    description: "Moncler Moncler Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-6-classic-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 131,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 2983020,
-        originalPrice: 4971700,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-6-classic-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0964",
-    slug: "moncler-moncler-relaxed-blazer",
-    name: "Moncler Relaxed Blazer",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "women",
-    description: "Moncler Moncler Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-7-relaxed-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 64,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 3049420,
-        originalPrice: 5544400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-7-relaxed-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0965",
-    slug: "moncler-moncler-slim-fit-shirt-dress",
-    name: "Moncler Slim Fit Shirt Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "men",
-    description: "Moncler Moncler Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-8-slim-fit-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 45,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 9349120,
-        originalPrice: 11686400,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-8-slim-fit-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0966",
-    slug: "moncler-moncler-oversized-denim-jacket",
-    name: "Moncler Oversized Denim Jacket",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "unisex",
-    description: "Moncler Moncler Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-9-oversized-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 226,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 3847050,
-        originalPrice: 5129400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-9-oversized-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0967",
-    slug: "moncler-moncler-tailored-knit-sweater",
-    name: "Moncler Tailored Knit Sweater",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "women",
-    description: "Moncler Moncler Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-10-tailored-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 207,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 3795590,
-        originalPrice: 4465400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-10-tailored-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0968",
-    slug: "moncler-moncler-classic-trench-coat",
-    name: "Moncler Classic Trench Coat",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "men",
-    description: "Moncler Moncler Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-11-classic-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 236,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 5508295,
-        originalPrice: 8474300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-11-classic-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0969",
-    slug: "moncler-moncler-relaxed-midi-dress",
-    name: "Moncler Relaxed Midi Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "unisex",
-    description: "Moncler Moncler Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-12-relaxed-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 217,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 1312977,
-        originalPrice: 1875800,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-12-relaxed-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0970",
-    slug: "moncler-moncler-slim-fit-blazer",
-    name: "Moncler Slim Fit Blazer",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "women",
-    description: "Moncler Moncler Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-13-slim-fit-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 179,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 4572470,
-        originalPrice: 6532100,
-        currency: "USD",
-        availability: "LOW STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-13-slim-fit-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0971",
-    slug: "moncler-moncler-oversized-shirt-dress",
-    name: "Moncler Oversized Shirt Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "men",
-    description: "Moncler Moncler Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-14-oversized-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 198,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 3784800,
-        originalPrice: 4731000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-14-oversized-shirt-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0972",
-    slug: "moncler-moncler-tailored-denim-jacket",
-    name: "Moncler Tailored Denim Jacket",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "unisex",
-    description: "Moncler Moncler Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-15-tailored-denim-jacket/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 217,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 8197910,
-        originalPrice: 9644600,
-        currency: "USD",
-        availability: "OUT OF STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-15-tailored-denim-jacket",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0973",
-    slug: "moncler-moncler-classic-knit-sweater",
-    name: "Moncler Classic Knit Sweater",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Dresses",
-    gender: "women",
-    description: "Moncler Moncler Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-16-classic-knit-sweater/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "dresses"
-    ],
-    rating: 4,
-    reviews: 236,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 6970340,
-        originalPrice: 8200400,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-16-classic-knit-sweater",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0974",
-    slug: "moncler-moncler-relaxed-trench-coat",
-    name: "Moncler Relaxed Trench Coat",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jackets",
-    gender: "men",
-    description: "Moncler Moncler Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-17-relaxed-trench-coat/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jackets"
-    ],
-    rating: 4,
-    reviews: 55,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 6279780,
-        originalPrice: 10466300,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-17-relaxed-trench-coat",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0975",
-    slug: "moncler-moncler-slim-fit-midi-dress",
-    name: "Moncler Slim Fit Midi Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Jeans",
-    gender: "unisex",
-    description: "Moncler Moncler Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-18-slim-fit-midi-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "jeans"
-    ],
-    rating: 4,
-    reviews: 74,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 1202587,
-        originalPrice: 1718100,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-18-slim-fit-midi-dress",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0976",
-    slug: "moncler-moncler-oversized-blazer",
-    name: "Moncler Oversized Blazer",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Shirts",
-    gender: "women",
-    description: "Moncler Moncler Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-19-oversized-blazer/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "shirts"
-    ],
-    rating: 4,
-    reviews: 93,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 7351310,
-        originalPrice: 8648600,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-19-oversized-blazer",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ]
-  },
-  {
-    id: "PI-0977",
-    slug: "moncler-moncler-tailored-shirt-dress",
-    name: "Moncler Tailored Shirt Dress",
-    brand: "moncler",
-    category: "clothing",
-    subcategory: "Sweaters",
-    gender: "men",
-    description: "Moncler Moncler Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/moncler-20-tailored-shirt-dress/600/600",
-    colors: [],
-    sizes: [],
-    tags: [
-      "clothing",
-      "sweaters"
-    ],
-    rating: 4,
-    reviews: 112,
-    views: 0,
-    offers: [
-      {
-        store: "moncler-store",
-        price: 9947550,
-        originalPrice: 11703000,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.moncler.com/p/moncler-20-tailored-shirt-dress",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
@@ -40785,6 +30545,10246 @@ export const generatedProducts: Product[] = [
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/michael-kors-tote-con-logo-estampado-item-28944355.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0001",
+    slug: "coach-logo-plaque-stud-earrings",
+    name: "logo-plaque stud earrings",
+    brand: "coach",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Coach logo-plaque stud earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/16/44/18/38164418_71474498_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 106,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 6889,
+        originalPrice: 6889,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-logo-plaque-stud-earrings-item-38164418.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0002",
+    slug: "coach-logo-plaque-bracelet",
+    name: "logo-plaque bracelet",
+    brand: "coach",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Coach logo-plaque bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/16/35/60/38163560_71242356_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 87,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 10707,
+        originalPrice: 10707,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-logo-plaque-bracelet-item-38163560.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0003",
+    slug: "coach-26-tabby-shoulder-bag",
+    name: "26 Tabby shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach 26 Tabby shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/25/79/30/55/25793055_55910259_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 68,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 45650,
+        originalPrice: 45650,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-26-tabby-shoulder-bag-item-25793055.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0004",
+    slug: "coach-logo-pendant-pearl-detail-necklace",
+    name: "logo-pendant pearl-detail necklace",
+    brand: "coach",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Coach logo-pendant pearl-detail necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/16/33/83/38163383_71345033_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 49,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 10707,
+        originalPrice: 10707,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-logo-pendant-pearl-detail-necklace-item-38163383.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0005",
+    slug: "coach-23-lana-tote-bag",
+    name: "23 Lana tote bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach 23 Lana tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/29/02/99/58/29029958_58260146_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 230,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 38346,
+        originalPrice: 38346,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-23-lana-tote-bag-item-29029958.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0006",
+    slug: "coach-logo-plaque-leather-cardholder",
+    name: "logo-plaque leather cardholder",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach logo-plaque leather cardholder — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/21/34/85/45/21348545_51538319_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 211,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 10292,
+        originalPrice: 10292,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-logo-plaque-leather-cardholder-item-21348545.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0007",
+    slug: "coach-tabby-20-leather-shoulder-bag",
+    name: "Tabby 20 leather shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Tabby 20 leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/26/61/94/16/26619416_69502809_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 192,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 29050,
+        originalPrice: 29050,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-tabby-20-leather-shoulder-bag-item-26619416.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0008",
+    slug: "coach-39-brooklyn-logo-tote-bag",
+    name: "39 Brooklyn logo tote bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach 39 Brooklyn logo tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/96/75/02/34967502_67022450_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 41334,
+        originalPrice: 41334,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-39-brooklyn-logo-tote-bag-item-34967502.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0009",
+    slug: "coach-crystal-embellished-buckle-fastening-sandals",
+    name: "crystal-embellished buckle-fastening sandals",
+    brand: "coach",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Coach crystal-embellished buckle-fastening sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/52/92/30/36529230_69109860_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 15355,
+        originalPrice: 15355,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-crystal-embellished-buckle-fastening-sandals-item-36529230.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0010",
+    slug: "coach-leah-patent-leather-loafers",
+    name: "Leah patent-leather loafers",
+    brand: "coach",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Coach Leah patent-leather loafers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/21/45/42/62/21454262_51412033_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 12118,
+        originalPrice: 16185,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-leah-patent-leather-loafers-item-21454262.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0011",
+    slug: "coach-tabby-leather-shoulder-bag",
+    name: "Tabby leather shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Tabby leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/39/24/93/32392493_63695383_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 49551,
+        originalPrice: 49551,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-tabby-leather-shoulder-bag-item-32392493.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0012",
+    slug: "coach-lana-shoulder-bag-19",
+    name: "Lana shoulder bag 19",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Lana shoulder bag 19 — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/73/68/07/36736807_69357935_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 42247,
+        originalPrice: 42247,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-lana-shoulder-bag-19-item-36736807.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0013",
+    slug: "coach-tabby-26-shoulder-bag",
+    name: "Tabby 26 shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Tabby 26 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/16/79/00/32167900_62113094_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 62333,
+        originalPrice: 62333,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-tabby-26-shoulder-bag-item-32167900.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0014",
+    slug: "coach-heart-floral-charm-necklace",
+    name: "heart floral charm necklace",
+    brand: "coach",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Coach heart floral charm necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/24/01/83/33240183_64382242_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 11869,
+        originalPrice: 15438,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-heart-floral-charm-necklace-item-33240183.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0015",
+    slug: "coach-tabby-flap-shoulder-bag",
+    name: "Tabby flap shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Tabby flap shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/00/95/40/32009540_61942927_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 36354,
+        originalPrice: 36354,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-tabby-flap-shoulder-bag-item-32009540.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0016",
+    slug: "coach-empire-top-handle-leather-tote-bag",
+    name: "Empire top-handle leather tote bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Empire top-handle leather tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/08/47/51/31084751_60182173_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 43243,
+        originalPrice: 43243,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-empire-top-handle-leather-tote-bag-item-31084751.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0017",
+    slug: "coach-brooklyn-39-shoulder-bag",
+    name: "Brooklyn 39 shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Brooklyn 39 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/84/54/99/30845499_59686743_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 43824,
+        originalPrice: 43824,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-brooklyn-39-shoulder-bag-item-30845499.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0018",
+    slug: "coach-pebbled-leather-zip-around-wallet",
+    name: "pebbled leather zip-around wallet",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach pebbled leather zip-around wallet — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/39/55/05/37395505_70065294_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 10126,
+        originalPrice: 10126,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-pebbled-leather-zip-around-wallet-item-37395505.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0019",
+    slug: "coach-tabby-26-logo-plaque-shoulder-bag",
+    name: "Tabby 26 logo-plaque shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Tabby 26 logo-plaque shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/50/02/41/36500241_68583399_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 70218,
+        originalPrice: 70218,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-tabby-26-logo-plaque-shoulder-bag-item-36500241.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0020",
+    slug: "coach-empire-carryall-34-leather-shoulder-bag",
+    name: "Empire Carryall 34 leather shoulder bag",
+    brand: "coach",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Coach Empire Carryall 34 leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/13/73/05/31137305_60344361_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 41085,
+        originalPrice: 68724,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/coach-empire-carryall-34-leather-shoulder-bag-item-31137305.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0021",
+    slug: "kate-spade-crystal-embellished-huggie-earrings",
+    name: "crystal-embellished huggie earrings",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade crystal-embellished huggie earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/16/33/65/38163365_71727444_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 6990,
+        originalPrice: 6990,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-crystal-embellished-huggie-earrings-item-38163365.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0022",
+    slug: "kate-spade-faux-fur-collar-jacket",
+    name: "faux-fur collar jacket",
+    brand: "kate-spade",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Kate Spade faux-fur collar jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/29/96/76/33299676_64195145_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35600,
+        originalPrice: 45687,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-faux-fur-collar-jacket-item-33299676.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0023",
+    slug: "kate-spade-deco-tote-bag",
+    name: "Deco tote bag",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade Deco tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/25/63/33/82/25633382_55653403_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 38775,
+        originalPrice: 38775,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-deco-tote-bag-item-25633382.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0024",
+    slug: "kate-spade-safety-pin-besties-bracelets",
+    name: "safety-pin besties bracelets",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade safety-pin besties bracelets — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/16/33/58/38163358_71454788_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 8005,
+        originalPrice: 8005,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-safety-pin-besties-bracelets-item-38163358.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0025",
+    slug: "kate-spade-summer-daze-fish-motif-necklace",
+    name: "Summer Daze fish-motif necklace",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade Summer Daze fish-motif necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/66/91/11/36669111_71106228_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 6990,
+        originalPrice: 6990,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-summer-daze-fish-motif-necklace-item-36669111.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0026",
+    slug: "kate-spade-mini-deco-embellished-shoulder-bag",
+    name: "mini Deco embellished shoulder bag",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade mini Deco embellished shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/08/40/30/33084030_63710104_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 27920,
+        originalPrice: 38815,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-mini-deco-embellished-shoulder-bag-item-33084030.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0027",
+    slug: "kate-spade-harmony-orb-strap-sandals",
+    name: "Harmony orb strap sandals",
+    brand: "kate-spade",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Kate Spade Harmony orb strap sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/78/00/03/33780003_64920189_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 12946,
+        originalPrice: 17997,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-harmony-orb-strap-sandals-item-33780003.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0028",
+    slug: "kate-spade-crystal-embellished-clover-earrings",
+    name: "crystal-embellished clover earrings",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade crystal-embellished clover earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/86/78/77/37867877_70867532_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 8005,
+        originalPrice: 8005,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-crystal-embellished-clover-earrings-item-37867877.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0029",
+    slug: "kate-spade-do-it-all-studded-leather-tote-bag",
+    name: "Do It All studded leather tote bag",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade Do It All studded leather tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/77/94/23/33779423_64949924_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 76,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 28502,
+        originalPrice: 36190,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-do-it-all-studded-leather-tote-bag-item-33779423.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0030",
+    slug: "kate-spade-embellished-ring-shoulder-bag",
+    name: "embellished ring shoulder bag",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade embellished ring shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/56/49/49/32564949_62875666_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 218,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 71986,
+        originalPrice: 71986,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-emblellished-ring-shoulder-bag-item-32564949.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0031",
+    slug: "kate-spade-deco-mini-cross-body-bag",
+    name: "Deco Mini cross body bag",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade Deco Mini cross body bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/25/53/38/79/25533879_55647697_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 199,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 32670,
+        originalPrice: 32670,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-deco-mini-cross-body-bag-item-25533879.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0032",
+    slug: "kate-spade-sam-icon-sneakers",
+    name: "Sam Icon sneakers",
+    brand: "kate-spade",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Kate Spade Sam Icon sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/78/00/48/33780048_64927292_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 56,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 17409,
+        originalPrice: 18426,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-sam-icon-sneakers-item-33780048.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0033",
+    slug: "kate-spade-clover-embellished-bangle-bracelet",
+    name: "clover-embellished bangle bracelet",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade clover-embellished bangle bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/64/11/73/31641173_61552613_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 237,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 12094,
+        originalPrice: 15720,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-clover-embellished-bangle-bracelet-item-31641173.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0034",
+    slug: "kate-spade-duo-suede-cross-body-bag",
+    name: "Duo suede cross body bag",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade Duo suede cross body bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/56/80/38/32568038_62985931_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 142,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 28222,
+        originalPrice: 36220,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-duo-suede-cross-body-bag-item-32568038.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0035",
+    slug: "kate-spade-foil-emboss-logo-bag-charm",
+    name: "foil emboss-logo bag charm",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade foil emboss-logo bag charm — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/76/31/64/34763164_66564956_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 123,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 10795,
+        originalPrice: 10795,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-foil-emboss-logo-bag-charm-item-34763164.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0036",
+    slug: "kate-spade-precious-delights-hoop-earrings",
+    name: "Precious Delights hoop earrings",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade Precious Delights hoop earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/22/24/71/60/22247160_52118882_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 180,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 8403,
+        originalPrice: 9336,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-precious-delights-hoop-earrings-item-22247160.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0037",
+    slug: "kate-spade-deco-tote-bag-2",
+    name: "Deco tote bag (2)",
+    brand: "kate-spade",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Kate Spade Deco tote bag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/25/63/28/46/25632846_55653082_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 161,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 40668,
+        originalPrice: 40668,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-deco-tote-bag-item-25632846.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0038",
+    slug: "kate-spade-say-i-do-crystal-embellished-block-heel-sandals",
+    name: "Say I Do crystal-embellished block-heel sandals",
+    brand: "kate-spade",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Kate Spade Say I Do crystal-embellished block-heel sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/21/87/58/38218758_71304304_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 26064,
+        originalPrice: 26064,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-say-i-do-crystal-embellished-block-heel-sandals-item-38218758.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0039",
+    slug: "kate-spade-safety-pin-engraved-logo-bracelet",
+    name: "safety-pin engraved-logo bracelet",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade safety-pin engraved-logo bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/23/63/62/38236362_71406620_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 8005,
+        originalPrice: 8005,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-safety-pin-engraved-logo-bracelet-item-38236362.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0040",
+    slug: "kate-spade-harmony-stud-earrings",
+    name: "Harmony stud earrings",
+    brand: "kate-spade",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Kate Spade Harmony stud earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/43/71/42/36437142_68628600_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 5978,
+        originalPrice: 5978,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/kate-spade-harmony-stud-earrings-item-36437142.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0041",
+    slug: "marc-jacobs-the-canvas-small-tote-bag",
+    name: "The Canvas Small Tote Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs The Canvas Small Tote Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/19/36/41/78/19364178_53566556_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19177,
+        originalPrice: 19177,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-19364178.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0042",
+    slug: "marc-jacobs-the-sak-belt-leather-shoulder-bag",
+    name: "The Sak Belt Leather Shoulder Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs The Sak Belt Leather Shoulder Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/32/04/90/34320490_67831159_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 56751,
+        originalPrice: 56751,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-34320490.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0043",
+    slug: "marc-jacobs-mini-vanity-cross-body-bag",
+    name: "Mini Vanity Cross Body Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs Mini Vanity Cross Body Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/82/92/12/31829212_62760978_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 21035,
+        originalPrice: 35597,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-31829212.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0044",
+    slug: "marc-jacobs-the-sak-leather-shoulder-bag",
+    name: "The Sak Leather Shoulder Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs The Sak Leather Shoulder Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/32/04/46/34320446_67759704_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 56751,
+        originalPrice: 56751,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-34320446.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0045",
+    slug: "marc-jacobs-everyday-vanity-leather-cross-body-bag",
+    name: "Everyday Vanity Leather Cross Body Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs Everyday Vanity Leather Cross Body Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/82/91/02/31829102_62665974_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 28646,
+        originalPrice: 28646,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-31829102.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0046",
+    slug: "marc-jacobs-the-belt-sak-bag",
+    name: "The Belt Sak Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs The Belt Sak Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/32/15/49/34321549_67719696_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 56751,
+        originalPrice: 56751,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-34321549.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0047",
+    slug: "marc-jacobs-the-tote-medium-bag",
+    name: "The Tote Medium Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs The Tote Medium Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/11/05/58/37110558_69779672_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 16300,
+        originalPrice: 16300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37110558.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0048",
+    slug: "marc-jacobs-the-72-spring-sneakers",
+    name: "The '72 Spring Sneakers",
+    brand: "marc-jacobs",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Marc Jacobs The '72 Spring Sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/92/92/35/30929235_60946628_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 32241,
+        originalPrice: 32241,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs-72-item-30929235.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0049",
+    slug: "marc-jacobs-sabrina-ballerina-flats",
+    name: "Sabrina Ballerina Flats",
+    brand: "marc-jacobs",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Marc Jacobs Sabrina Ballerina Flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/82/91/71/31829171_62692560_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19057,
+        originalPrice: 31821,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-31829171.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0050",
+    slug: "marc-jacobs-the-72-spring-sneakers-2",
+    name: "The '72 Spring Sneakers (2)",
+    brand: "marc-jacobs",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Marc Jacobs The '72 Spring Sneakers (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/82/82/85/31828285_62666084_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 232,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 28646,
+        originalPrice: 28646,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs-72-item-31828285.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0051",
+    slug: "marc-jacobs-black-midi-dress",
+    name: "Black Midi Dress",
+    brand: "marc-jacobs",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Marc Jacobs Black Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/83/93/28/33839328_64635201_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 213,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 30144,
+        originalPrice: 50280,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-33839328.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0052",
+    slug: "marc-jacobs-layered-satin-slip-skirt",
+    name: "Layered Satin Slip Skirt",
+    brand: "marc-jacobs",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Marc Jacobs Layered Satin Slip Skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/21/37135421_70897682_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 194,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 46324,
+        originalPrice: 46324,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37135421.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0053",
+    slug: "marc-jacobs-faux-fur-shrunken-trucker-jacket",
+    name: "Faux Fur Shrunken Trucker Jacket",
+    brand: "marc-jacobs",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Marc Jacobs Faux Fur Shrunken Trucker Jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/61/70/37136170_70796871_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 175,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 49740,
+        originalPrice: 49740,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37136170.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0054",
+    slug: "marc-jacobs-glam-mirror-shoulder-bag",
+    name: "Glam Mirror Shoulder Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs Glam Mirror Shoulder Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/36/85/09/31368509_60816876_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 156,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 33380,
+        originalPrice: 33380,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-31368509.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0055",
+    slug: "marc-jacobs-oversized-bow-floral-canvas-medium-tote-bag",
+    name: "Oversized Bow Floral Canvas Medium Tote Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs Oversized Bow Floral Canvas Medium Tote Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/55/07/37135507_70797838_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 137,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35717,
+        originalPrice: 35717,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37135507.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0056",
+    slug: "marc-jacobs-pop-j-mark-ankle-boots",
+    name: "Pop J Mark Ankle Boots",
+    brand: "marc-jacobs",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Marc Jacobs Pop J Mark Ankle Boots — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/53/87/37135387_71145155_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 118,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 46504,
+        originalPrice: 46504,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs-j-item-37135387.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0057",
+    slug: "marc-jacobs-babe-mini-vanity-bag",
+    name: "Babe Mini Vanity Bag",
+    brand: "marc-jacobs",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Marc Jacobs Babe Mini Vanity Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/87/37135487_70796546_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 99,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 22293,
+        originalPrice: 22293,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37135487.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0058",
+    slug: "marc-jacobs-bow-lace-up-ballerina-shoes",
+    name: "Bow Lace-Up Ballerina Shoes",
+    brand: "marc-jacobs",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Marc Jacobs Bow Lace-Up Ballerina Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/03/37135403_71145844_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 30323,
+        originalPrice: 30323,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37135403.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0059",
+    slug: "marc-jacobs-logo-print-bow-print-t-shirt",
+    name: "Logo-Print Bow-Print T-Shirt",
+    brand: "marc-jacobs",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Marc Jacobs Logo-Print Bow-Print T-Shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/10/37135410_70901190_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 9888,
+        originalPrice: 9888,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-37135410.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0060",
+    slug: "marc-jacobs-polka-dot-cut-out-dress",
+    name: "Polka Dot Cut-Out Dress",
+    brand: "marc-jacobs",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Marc Jacobs Polka Dot Cut-Out Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/92/91/25/30929125_60947673_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 50280,
+        originalPrice: 50280,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/marc-jacobs--item-30929125.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0061",
+    slug: "tory-burch-romy-leather-shoulder-bag",
+    name: "Romy leather shoulder bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Romy leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/37/18/51/37371851_70056601_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 32298,
+        originalPrice: 32298,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-porte-epaule-romy-en-cuir-item-37371851.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0062",
+    slug: "tory-burch-ines-slippers",
+    name: "Ines slippers",
+    brand: "tory-burch",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Tory Burch Ines slippers — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/27/45/81/58/27458158_57230691_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 145,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 22284,
+        originalPrice: 22284,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-chaussons-ines-item-27458158.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0063",
+    slug: "tory-burch-lee-radziwill-double-small-handbag",
+    name: "Lee Radziwill Double small handbag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Lee Radziwill Double small handbag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/57/59/12/34575912_65685090_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 126,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 67663,
+        originalPrice: 67663,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-petit-sac-a-main-lee-radziwill-double-item-34575912.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0064",
+    slug: "tory-burch-charlie-quilted-leather-mini-bag",
+    name: "Charlie quilted leather mini bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Charlie quilted leather mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/39/73/90/36397390_68256672_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 42222,
+        originalPrice: 42222,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-mini-sac-charlie-en-cuir-matelasse-item-36397390.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0065",
+    slug: "tory-burch-fleming-quilted-mini-tote-bag",
+    name: "Fleming quilted mini tote bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Fleming quilted mini tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/25/37/48/37/25374837_55887053_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 38613,
+        originalPrice: 38613,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-mini-cabas-fleming-a-design-matelasse-item-25374837.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0066",
+    slug: "tory-burch-romy-slim-design-handbag",
+    name: "Romy slim design handbag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Romy slim design handbag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/80/66/06/31806606_62940382_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 221,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 25712,
+        originalPrice: 25712,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-a-main-romy-a-design-fin-item-31806606.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0067",
+    slug: "tory-burch-mini-miller-flip-flops",
+    name: "Mini Miller flip flops",
+    brand: "tory-burch",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Tory Burch Mini Miller flip flops — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/29/65/13/17/29651317_59813190_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 202,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 8841,
+        originalPrice: 8841,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-tongs-mini-miller-item-29651317.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0068",
+    slug: "tory-burch-reva-travel-ballet-flats",
+    name: "Reva Travel ballet flats",
+    brand: "tory-burch",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Tory Burch Reva Travel ballet flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/58/20/77/31582077_60963593_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 155,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 16690,
+        originalPrice: 16690,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-ballerines-reva-travel-item-31582077.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0069",
+    slug: "tory-burch-perry-tote-bag",
+    name: "Perry tote bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Perry tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/10/75/27/30107527_59130824_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 136,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 26073,
+        originalPrice: 26073,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-cabas-perry-item-30107527.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0070",
+    slug: "tory-burch-charlie-quilted-shoulder-bag",
+    name: "Charlie quilted shoulder bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Charlie quilted shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/39/73/81/36397381_68259047_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 98,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 48988,
+        originalPrice: 48988,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-porte-epaule-charlie-a-design-matelasse-item-36397381.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0071",
+    slug: "tory-burch-lee-radziwill-double-small-handbag-2",
+    name: "Lee Radziwill Double small handbag (2)",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Lee Radziwill Double small handbag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/57/59/66/34575966_65688175_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 117,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 68746,
+        originalPrice: 68746,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-petit-sac-a-main-lee-radziwill-double-item-34575966.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0072",
+    slug: "tory-burch-jelly-sandals",
+    name: "Jelly sandals",
+    brand: "tory-burch",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Tory Burch Jelly sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/38/06/84/34380684_68798381_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 60,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 13893,
+        originalPrice: 13893,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sandales-jelly-item-34380684.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0073",
+    slug: "tory-burch-double-t-sport-slides",
+    name: "Double T Sport slides",
+    brand: "tory-burch",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Tory Burch Double T Sport slides — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/19/04/22/12/19042212_41858969_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 79,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 18134,
+        originalPrice: 18134,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-claquettes-double-t-sport-item-19042212.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0074",
+    slug: "tory-burch-lee-radziwill-double-small-handbag-3",
+    name: "Lee Radziwill Double small handbag (3)",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Lee Radziwill Double small handbag (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/57/48/10/34574810_65686262_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 222,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 52597,
+        originalPrice: 52597,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-petit-sac-a-main-lee-radziwill-double-item-34574810.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0075",
+    slug: "tory-burch-romy-suede-bag",
+    name: "Romy suede bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Romy suede bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/26/35/33/37263533_71050268_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 41,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 26253,
+        originalPrice: 26253,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-romy-en-daim-item-37263533.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0076",
+    slug: "tory-burch-kira-sport-sandals",
+    name: "Kira Sport sandals",
+    brand: "tory-burch",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Tory Burch Kira Sport sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/20/47/41/23/20474123_50472173_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 184,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 20118,
+        originalPrice: 20118,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sandales-kira-sport-item-20474123.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0077",
+    slug: "tory-burch-romy-leather-bucket-bag",
+    name: "Romy leather bucket bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Romy leather bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/27/45/90/95/27459095_57232475_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 203,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 31576,
+        originalPrice: 31576,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-seau-romy-en-cuir-item-27459095.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0078",
+    slug: "tory-burch-charlie-quilted-mini-shoulder-bag",
+    name: "Charlie quilted mini shoulder bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Charlie quilted mini shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/96/84/45/36968445_69457665_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 50,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 28328,
+        originalPrice: 28328,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-mini-sac-a-bandouliere-charlie-matelasse-item-36968445.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0079",
+    slug: "tory-burch-kira-quilted-flip-flops",
+    name: "Kira quilted flip flops",
+    brand: "tory-burch",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Tory Burch Kira quilted flip flops — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/29/28/62/59/29286259_58278681_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 69,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 9924,
+        originalPrice: 9924,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-tongs-kira-a-design-matelasse-item-29286259.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0080",
+    slug: "tory-burch-charlie-quilted-suede-shoulder-bag",
+    name: "Charlie quilted suede shoulder bag",
+    brand: "tory-burch",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Tory Burch Charlie quilted suede shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/03/30/66/37033066_71101104_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 49439,
+        originalPrice: 49439,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/tory-burch-sac-porte-epaule-charlie-a-design-matelasse-en-daim-item-37033066.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0081",
+    slug: "ted-baker-jonora-dress-with-balloon-sleeves-and-floral-print",
+    name: "Jonora dress with balloon sleeves and floral print",
+    brand: "ted-baker",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Ted Baker Jonora dress with balloon sleeves and floral print — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/15/22/36611522_68651624_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 31125,
+        originalPrice: 31125,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-vestido-jonora-con-mangas-farol-y-estampado-floral-item-36611522.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0082",
+    slug: "ted-baker-jolyye-24mm-watch",
+    name: "Jolyye 24mm watch",
+    brand: "ted-baker",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Ted Baker Jolyye 24mm watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/28/69/87/70/28698770_61031129_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19754,
+        originalPrice: 23323,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-reloj-jolyye-de-24mm-item-28698770.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0083",
+    slug: "ted-baker-kkassia-large-belt-bag-with-woven-design-and-leather-trim",
+    name: "Kkassia large belt bag with woven design and leather trim",
+    brand: "ted-baker",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Ted Baker Kkassia large belt bag with woven design and leather trim — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/42/47/64/38424764_71599091_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 17181,
+        originalPrice: 17181,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-rinonera-kkassia-grande-con-diseno-tejido-y-ribete-de-cuero-item-38424764.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0084",
+    slug: "ted-baker-alati-blouse",
+    name: "Alati blouse",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Alati blouse — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/81/42/36388142_68226743_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 14774,
+        originalPrice: 14774,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-blusa-alati-item-36388142.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0085",
+    slug: "ted-baker-sanderr-sweater",
+    name: "Sanderr sweater",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Sanderr sweater — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/81/48/36388148_68223246_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 12699,
+        originalPrice: 12699,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-sueter-sanderr-item-36388148.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0086",
+    slug: "ted-baker-rose-trench-coat",
+    name: "Rose trench coat",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Rose trench coat — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/82/14/36388214_68252767_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 40504,
+        originalPrice: 40504,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-gabardina-rose-item-36388214.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0087",
+    slug: "ted-baker-kander-midi-skirt",
+    name: "Kander midi skirt",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Kander midi skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/81/66/36388166_68278520_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 23323,
+        originalPrice: 23323,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-falda-midi-kander-item-36388166.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0088",
+    slug: "ted-baker-aracely-short-dress-with-floral-motif",
+    name: "Aracely short dress with floral motif",
+    brand: "ted-baker",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Ted Baker Aracely short dress with floral motif — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/44/97/85/38449785_71718731_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 18841,
+        originalPrice: 18841,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-vestido-corto-aracely-con-motivo-floral-item-38449785.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0089",
+    slug: "ted-baker-lileey-16mm-watch",
+    name: "Lileey 16mm watch",
+    brand: "ted-baker",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Ted Baker Lileey 16mm watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/61/95/51/32619551_62949961_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 18011,
+        originalPrice: 25813,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-reloj-lileey-de-16mm-item-32619551.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0090",
+    slug: "ted-baker-georie-long-jumpsuit",
+    name: "Georie long jumpsuit",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Georie long jumpsuit — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/84/18/36388418_68280970_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 27058,
+        originalPrice: 27058,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-jumpsuit-largo-georie-item-36388418.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0091",
+    slug: "ted-baker-louannn-floral-print-t-shirt",
+    name: "Louannn floral print t-shirt",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Louannn floral print t-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/27/01/36/38270136_71388327_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 7387,
+        originalPrice: 7387,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-camiseta-louannn-con-estampado-floral-item-38270136.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0092",
+    slug: "ted-baker-shii-bomber-jacket",
+    name: "Shii bomber jacket",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Shii bomber jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/82/71/36388271_68225168_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 18426,
+        originalPrice: 18426,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-chamarra-bomber-shii-item-36388271.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0093",
+    slug: "ted-baker-long-dress-with-lace-up-detail",
+    name: "Long dress with lace-up detail",
+    brand: "ted-baker",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Ted Baker Long dress with lace-up detail — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/14/51/36611451_68652816_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35192,
+        originalPrice: 35192,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-vestido-largo-con-cordones-item-36611451.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0094",
+    slug: "ted-baker-35-5mm-stainless-steel-watch",
+    name: "35.5mm stainless steel watch",
+    brand: "ted-baker",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Ted Baker 35.5mm stainless steel watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/80/50/32/30805032_61037207_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 9877,
+        originalPrice: 10375,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-reloj-de-355mm-en-acero-inoxidable-item-30805032.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0095",
+    slug: "ted-baker-marssia-sweatshirt",
+    name: "Marssia sweatshirt",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Marssia sweatshirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/91/13/36389113_68273363_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 11454,
+        originalPrice: 11454,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-sudadera-marssia-item-36389113.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0096",
+    slug: "ted-baker-midi-dress-with-floral-print",
+    name: "Midi dress with floral print",
+    brand: "ted-baker",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Ted Baker Midi dress with floral print — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/44/85/06/37448506_70194711_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 31125,
+        originalPrice: 31125,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-vestido-midi-con-estampado-floral-item-37448506.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0097",
+    slug: "ted-baker-ammy-hearts-34mm-bracelet-and-bracelet-set",
+    name: "Ammy Hearts 34mm bracelet and bracelet set",
+    brand: "ted-baker",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Ted Baker Ammy Hearts 34mm bracelet and bracelet set — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/61/87/26/32618726_62949980_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 14774,
+        originalPrice: 19671,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-set-de-pulsera-y-pulsera-ammy-hearts-de-34mm-item-32618726.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0098",
+    slug: "ted-baker-lahnaa-blouse",
+    name: "Lahnaa blouse",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Lahnaa blouse — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/83/44/36388344_68306252_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 14774,
+        originalPrice: 14774,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-blusa-lahnaa-item-36388344.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0099",
+    slug: "ted-baker-sannii-midi-dress",
+    name: "Sannii midi dress",
+    brand: "ted-baker",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Ted Baker Sannii midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/38/83/58/36388358_68373879_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 39342,
+        originalPrice: 39342,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-vestido-midi-sannii-item-36388358.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0100",
+    slug: "ted-baker-layleta-bikini-bottom",
+    name: "Layleta bikini bottom",
+    brand: "ted-baker",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Ted Baker Layleta bikini bottom — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/39/76/77/36397677_68741863_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 6557,
+        originalPrice: 6557,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/ted-baker-bikini-bottom-layleta-item-36397677.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0101",
+    slug: "prada-small-shoulder-bag-with-buckle-detail",
+    name: "small shoulder bag with buckle detail",
+    brand: "prada",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Prada small shoulder bag with buckle detail — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/65/56/31/37655631_70495506_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 392590,
+        originalPrice: 392590,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-de-hombro-pequena-con-detalle-de-hebilla-item-37655631.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0102",
+    slug: "prada-satin-skirt",
+    name: "satin skirt",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada satin skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/65/32/37696532_70642213_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 100,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 187580,
+        originalPrice: 187580,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-falda-de-saten-item-37696532.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0103",
+    slug: "prada-leather-sneakers-with-back-strap",
+    name: "leather sneakers with back strap",
+    brand: "prada",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Prada leather sneakers with back strap — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/35/26/44/37352644_70018297_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 81,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 151060,
+        originalPrice: 151060,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-zapatillas-de-piel-con-tira-trasera-item-37352644.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0104",
+    slug: "prada-suede-sneakers-with-back-strap",
+    name: "suede sneakers with back strap",
+    brand: "prada",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Prada suede sneakers with back strap — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/60/79/98/37607998_70399331_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 132800,
+        originalPrice: 132800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-zapatillas-de-gamuza-con-tira-trasera-item-37607998.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0105",
+    slug: "prada-compact-printed-dress",
+    name: "compact printed dress",
+    brand: "prada",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Prada compact printed dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/04/04/81/38040481_71009422_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 365200,
+        originalPrice: 365200,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-vestido-compacto-estampado-item-38040481.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0106",
+    slug: "prada-buckle-small-leather-bag",
+    name: "Buckle small leather bag",
+    brand: "prada",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Prada Buckle small leather bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/94/33/43/36943343_69232568_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 176,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 392590,
+        originalPrice: 392590,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-de-piel-buckle-pequena-item-36943343.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0107",
+    slug: "prada-embroidered-silk-dress",
+    name: "embroidered silk dress",
+    brand: "prada",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Prada embroidered silk dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/77/14/06/37771406_70630267_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 157,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 547800,
+        originalPrice: 547800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-vestido-de-seda-con-bordado-item-37771406.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0108",
+    slug: "prada-houndstooth-and-fur-jacket",
+    name: "houndstooth and fur jacket",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada houndstooth and fur jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/04/05/03/38040503_71007019_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 110,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 483890,
+        originalPrice: 483890,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-chaqueta-con-motivo-pied-de-poule-y-piel-item-38040503.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0109",
+    slug: "prada-poplin-shirt",
+    name: "poplin shirt",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada poplin shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/39/01/01/37390101_70063834_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 91,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 181770,
+        originalPrice: 181770,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-camisa-de-popelina-item-37390101.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0110",
+    slug: "prada-bonnie-mini-leather-bag",
+    name: "Bonnie mini leather bag",
+    brand: "prada",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Prada Bonnie mini leather bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/46/77/96/37467796_70230142_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 273900,
+        originalPrice: 273900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-bonnie-mini-de-piel-item-37467796.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0111",
+    slug: "prada-compact-pants-with-trench-coat-fabric",
+    name: "compact pants with trench coat fabric",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada compact pants with trench coat fabric — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/83/91/61/37839161_70724998_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 219120,
+        originalPrice: 219120,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-pants-compactos-con-gabardina-item-37839161.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0112",
+    slug: "prada-wish-bag",
+    name: "Wish bag",
+    brand: "prada",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Prada Wish bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/65/19/37696519_70667467_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 120350,
+        originalPrice: 120350,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-wish-item-37696519.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0113",
+    slug: "prada-coat-with-buttons",
+    name: "coat with buttons",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada coat with buttons — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/03/99/03/38039903_71013283_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 337810,
+        originalPrice: 337810,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-abrigo-con-botones-item-38039903.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0114",
+    slug: "prada-leather-sneakers-with-back-strap-2",
+    name: "leather sneakers with back strap (2)",
+    brand: "prada",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Prada leather sneakers with back strap (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/83/91/80/37839180_70954105_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 132800,
+        originalPrice: 132800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-zapatillas-de-piel-con-tira-trasera-item-37839180.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0115",
+    slug: "prada-devore-satin-dress",
+    name: "devore satin dress",
+    brand: "prada",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Prada devore satin dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/64/94/37696494_70562276_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 721270,
+        originalPrice: 721270,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-vestido-de-saten-devore-item-37696494.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0116",
+    slug: "prada-cardigan-with-zip",
+    name: "cardigan with zip",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada cardigan with zip — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/39/00/75/37390075_70066438_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 255640,
+        originalPrice: 255640,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-cardigan-con-cierre-item-37390075.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0117",
+    slug: "prada-shoulder-bag-with-logo-plaque",
+    name: "shoulder bag with logo plaque",
+    brand: "prada",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Prada shoulder bag with logo plaque — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/27/27/56/37272756_69858684_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 333660,
+        originalPrice: 333660,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-de-hombro-con-placa-del-logo-item-37272756.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0118",
+    slug: "prada-short-top-with-duchesse-motif",
+    name: "short top with Duchesse motif",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada short top with Duchesse motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/40/93/11/37409311_70098150_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 117860,
+        originalPrice: 117860,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-top-corto-con-motivo-duchesse-item-37409311.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0119",
+    slug: "prada-cotton-midi-skirt",
+    name: "cotton midi skirt",
+    brand: "prada",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Prada cotton midi skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/39/00/69/37390069_70064288_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 145250,
+        originalPrice: 145250,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-falda-midi-de-algodon-item-37390069.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0120",
+    slug: "prada-leather-flats",
+    name: "leather flats",
+    brand: "prada",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Prada leather flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/83/91/93/37839193_71039713_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 136120,
+        originalPrice: 136120,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/prada-flats-de-piel-item-37839193.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0121",
+    slug: "burberry-heritage-square-sunglasses",
+    name: "Heritage square sunglasses",
+    brand: "burberry",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Burberry Heritage square sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/32/43/44/36324344_68438503_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35690,
+        originalPrice: 35690,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-heritage-square-sunglasses-item-36324344.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0122",
+    slug: "burberry-quilted-design-bucket-bag",
+    name: "quilted-design bucket bag",
+    brand: "burberry",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Burberry quilted-design bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/51/30/36105130_67828998_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 80510,
+        originalPrice: 80510,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-quilted-design-bucket-bag-item-36105130.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0123",
+    slug: "burberry-horseshoe-chain-bag",
+    name: "Horseshoe chain bag",
+    brand: "burberry",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Burberry Horseshoe chain bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/73/82/11/36738211_69266580_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 165585,
+        originalPrice: 165585,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-horseshoe-chain-bag-item-36738211.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0124",
+    slug: "burberry-nylon-suede-and-leather-eclipse-sneakers",
+    name: "nylon, suede and leather Eclipse sneakers",
+    brand: "burberry",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Burberry nylon, suede and leather Eclipse sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/75/33/19/36753319_69266606_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 76360,
+        originalPrice: 76360,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-nylon-suede-and-leather-eclipse-sneakers-item-36753319.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0125",
+    slug: "burberry-side-tie-top",
+    name: "side-tie top",
+    brand: "burberry",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Burberry side-tie top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/63/00/92/35630092_66803901_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 46812,
+        originalPrice: 46812,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-side-tie-top-item-35630092.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0126",
+    slug: "burberry-crochet-cotton-blend-dress",
+    name: "crochet cotton blend dress",
+    brand: "burberry",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Burberry crochet cotton blend dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/70/98/23/34709823_66120584_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 165170,
+        originalPrice: 165170,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-crochet-cotton-blend-dress-item-34709823.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0127",
+    slug: "burberry-check-trim-leather-robin-ballerinas",
+    name: "Check-trim leather Robin ballerinas",
+    brand: "burberry",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Burberry Check-trim leather Robin ballerinas — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/76/20/22/36762022_69266620_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 60590,
+        originalPrice: 60590,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-check-trim-leather-robin-ballerinas-item-36762022.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0128",
+    slug: "burberry-cotton-pique-tennis-dress",
+    name: "cotton pique tennis dress",
+    brand: "burberry",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Burberry cotton pique tennis dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/96/16/36619616_68975360_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 72210,
+        originalPrice: 72210,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-cotton-pique-tennis-dress-item-36619616.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0129",
+    slug: "burberry-long-silk-cotton-foxfield-trench-coat",
+    name: "long silk cotton Foxfield trench coat",
+    brand: "burberry",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Burberry long silk cotton Foxfield trench coat — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/25/38/03/35253803_66904947_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 331170,
+        originalPrice: 331170,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-long-silk-cotton-foxfield-trench-coat-item-35253803.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0130",
+    slug: "burberry-medium-check-zip-tote",
+    name: "medium Check zip tote",
+    brand: "burberry",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Burberry medium Check zip tote — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/37/74/63/36377463_68566460_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 178450,
+        originalPrice: 178450,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-medium-check-zip-tote-item-36377463.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0131",
+    slug: "burberry-wool-polo-shirt",
+    name: "wool polo shirt",
+    brand: "burberry",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Burberry wool polo shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/37/74/67/36377467_68383230_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 65819,
+        originalPrice: 65819,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-wool-polo-shirt-item-36377467.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0132",
+    slug: "burberry-cavalier-check-detail-boots",
+    name: "Cavalier Check-detail boots",
+    brand: "burberry",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Burberry Cavalier Check-detail boots — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/68/74/81/37687481_70958401_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 63080,
+        originalPrice: 63080,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-cavalier-check-detail-boots-item-37687481.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0133",
+    slug: "burberry-check-slides",
+    name: "Check slides",
+    brand: "burberry",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Burberry Check slides — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/32/45/04/36324504_68463316_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35275,
+        originalPrice: 35275,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-check-slides-item-36324504.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0134",
+    slug: "burberry-check-canvas-highgate-ballerinas",
+    name: "Check canvas Highgate ballerinas",
+    brand: "burberry",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Burberry Check canvas Highgate ballerinas — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/68/82/65/37688265_71077378_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 57685,
+        originalPrice: 57685,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-check-canvas-highgate-ballerinas-item-37688265.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0135",
+    slug: "burberry-check-trim-bikini",
+    name: "Check trim bikini",
+    brand: "burberry",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Burberry Check trim bikini — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/20/07/77/79/20077779_70198184_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 47808,
+        originalPrice: 47808,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-check-trim-bikini-item-20077779.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0136",
+    slug: "burberry-quilted-thermoregulated-fernleigh-jacket",
+    name: "quilted thermoregulated Fernleigh jacket",
+    brand: "burberry",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Burberry quilted thermoregulated Fernleigh jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/17/54/16/89/17541689_36571268_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 90885,
+        originalPrice: 90885,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-quilted-thermoregulated-fernleigh-jacket-item-17541689.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0137",
+    slug: "burberry-gabardine-baseball-cap",
+    name: "Gabardine baseball cap",
+    brand: "burberry",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Burberry Gabardine baseball cap — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/35/38/99/31353899_60972263_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 37350,
+        originalPrice: 37350,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-gabardine-baseball-cap-item-31353899.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0138",
+    slug: "burberry-skinny-check-silk-scarf",
+    name: "skinny Check silk scarf",
+    brand: "burberry",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Burberry skinny Check silk scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/86/01/19/31860119_61536078_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 22825,
+        originalPrice: 22825,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-skinny-check-silk-scarf-item-31860119.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0139",
+    slug: "burberry-mid-length-taffeta-kensington-trench-coat",
+    name: "mid-length taffeta Kensington trench coat",
+    brand: "burberry",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Burberry mid-length taffeta Kensington trench coat — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/15/81/97/29/15819729_29040387_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 128650,
+        originalPrice: 128650,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-mid-length-taffeta-kensington-trench-coat-item-15819729.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0140",
+    slug: "burberry-mini-check-vanity-bag",
+    name: "mini Check vanity bag",
+    brand: "burberry",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Burberry mini Check vanity bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/32/43/28/36324328_68462867_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 99185,
+        originalPrice: 99185,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/burberry-mini-check-vanity-bag-item-36324328.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0141",
+    slug: "versace-printed-silk-twill-mini-dress",
+    name: "printed silk twill mini dress",
+    brand: "versace",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Versace printed silk twill mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/37/35039337_68276917_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 179861,
+        originalPrice: 179861,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-printed-silk-twill-mini-dress-item-35039337.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0142",
+    slug: "versace-sea-frames-necklace",
+    name: "sea frames necklace",
+    brand: "versace",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Versace sea frames necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/52/35043752_67999899_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 140851,
+        originalPrice: 140851,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-sea-frames-necklace-item-35043752.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0143",
+    slug: "versace-lace-trim-silk-cady-satin-mini-dress",
+    name: "lace-trim silk cady satin mini dress",
+    brand: "versace",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Versace lace-trim silk cady satin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/42/35039342_67938535_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 367607,
+        originalPrice: 367607,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-lace-trim-silk-cady-satin-mini-dress-item-35039342.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0144",
+    slug: "versace-nyx-buckle-detail-sandals",
+    name: "Nyx buckle-detail sandals",
+    brand: "versace",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Versace Nyx buckle-detail sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/16/50/94/37165094_69702913_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 89557,
+        originalPrice: 89557,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-nyx-buckle-detail-sandals-item-37165094.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0145",
+    slug: "versace-pivot-small-canvas-bucket-bag",
+    name: "Pivot small canvas bucket bag",
+    brand: "versace",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Versace Pivot small canvas bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/28/06/82/36280682_68383725_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 190817,
+        originalPrice: 190817,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-pivot-small-canvas-bucket-bag-item-36280682.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0146",
+    slug: "versace-greca-print-graphic-pattern-dress",
+    name: "Greca-print graphic-pattern dress",
+    brand: "versace",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Versace Greca-print graphic-pattern dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/71/35043571_68493628_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 138527,
+        originalPrice: 138527,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-greca-print-graphic-pattern-dress-item-35043571.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0147",
+    slug: "versace-gianni-nappa-mules-55mm",
+    name: "Gianni nappa mules 55mm",
+    brand: "versace",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Versace Gianni nappa mules 55mm — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/40/35043740_67556173_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 89972,
+        originalPrice: 89972,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-gianni-nappa-mules-55-mm-item-35043740.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0148",
+    slug: "versace-embroidered-silk-cady-satin-mini-dress",
+    name: "embroidered silk cady satin mini dress",
+    brand: "versace",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Versace embroidered silk cady satin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/73/35039373_67938141_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 114,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 692801,
+        originalPrice: 692801,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-embroidered-silk-cady-satin-mini-dress-item-35039373.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0149",
+    slug: "versace-printed-silk-twill-shirt",
+    name: "printed silk twill shirt",
+    brand: "versace",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Versace printed silk twill shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/36/71/35043671_67939120_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 95,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 118109,
+        originalPrice: 118109,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-printed-silk-twill-shirt-item-35043671.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0150",
+    slug: "versace-severine-leather-shoulder-bag",
+    name: "Severine leather shoulder bag",
+    brand: "versace",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Versace Severine leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/28/13/08/36281308_68444925_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 163510,
+        originalPrice: 163510,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-severine-leather-shoulder-bag-item-36281308.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0151",
+    slug: "versace-nappa-shorts",
+    name: "nappa shorts",
+    brand: "versace",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Versace nappa shorts — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/04/35043504_67937405_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 76,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 270746,
+        originalPrice: 270746,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-nappa-shorts-item-35043504.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0152",
+    slug: "versace-marisa-leather-sandals",
+    name: "Marisa leather sandals",
+    brand: "versace",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Versace Marisa leather sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/56/14/49/34561449_70768285_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 219,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 99102,
+        originalPrice: 99102,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-marisa-leather-sandals-item-34561449.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0153",
+    slug: "versace-irradia-earrings",
+    name: "Irradia earrings",
+    brand: "versace",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Versace Irradia earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/82/35043582_68166295_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 238,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 49966,
+        originalPrice: 49966,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-irradia-earrings-item-35043582.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0154",
+    slug: "versace-printed-silk-duchesse-mini-dress",
+    name: "printed silk duchesse mini dress",
+    brand: "versace",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Versace printed silk duchesse mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/12/35043712_67937427_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 133,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 452516,
+        originalPrice: 452516,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-printed-silk-duchesse-mini-dress-item-35043712.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0155",
+    slug: "versace-gianni-nappa-pumps-90mm",
+    name: "Gianni nappa pumps 90mm",
+    brand: "versace",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Versace Gianni nappa pumps 90mm — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/69/35039369_67854771_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 152,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 106240,
+        originalPrice: 106240,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-gianni-nappa-pumps-90-mm-item-35039369.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0156",
+    slug: "versace-cotton-poplin-mini-dress",
+    name: "cotton-poplin mini dress",
+    brand: "versace",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Versace cotton-poplin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/37/90/50/36379050_68381187_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 95,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 145416,
+        originalPrice: 145416,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-cotton-poplin-mini-dress-item-36379050.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0157",
+    slug: "versace-buttoned-striped-polo-shirt",
+    name: "buttoned striped polo shirt",
+    brand: "versace",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Versace buttoned striped polo shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/43/35043543_67988151_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 114,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 59096,
+        originalPrice: 59096,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-buttoned-striped-polo-shirt-item-35043543.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0158",
+    slug: "versace-bikini-top",
+    name: "bikini top",
+    brand: "versace",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Versace bikini top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/36/63/35043663_68265904_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 105,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19090,
+        originalPrice: 19090,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-bikini-top-item-35043663.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0159",
+    slug: "versace-embroidered-logo-bikini-bottoms",
+    name: "embroidered-logo bikini bottoms",
+    brand: "versace",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Versace embroidered-logo bikini bottoms — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/03/94/01/35039401_68695524_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 124,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 15438,
+        originalPrice: 15438,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-embroidered-logo-bikini-bottoms-item-35039401.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0160",
+    slug: "versace-sophie-thong-strap-mules",
+    name: "Sophie thong-strap mules",
+    brand: "versace",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Versace Sophie thong-strap mules — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/46/35043746_68515732_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 68,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 39176,
+        originalPrice: 39176,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/versace-sophie-thong-strap-mules-item-35043746.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0161",
+    slug: "gucci-ophidia-small-shoulder-bag",
+    name: "Ophidia small shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Ophidia small shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/87/71/43/37877143_71629391_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 89,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 99239,
+        originalPrice: 99239,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-ophidia-small-shoulder-bag-item-37877143.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0162",
+    slug: "gucci-mini-quilted-gg-marmont-bag",
+    name: "mini quilted GG Marmont bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci mini quilted GG Marmont bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/92/94/84/32929484_63269757_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 70,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 115388,
+        originalPrice: 115388,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-mini-sac-a-motif-marmont-matelasse-item-32929484.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0163",
+    slug: "gucci-small-quilted-gg-handbag",
+    name: "small quilted GG handbag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci small quilted GG handbag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/19/45/62/56/19456256_53167169_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 51,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 225543,
+        originalPrice: 225543,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-petit-sac-a-main-gg-a-design-matelasse-item-19456256.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0164",
+    slug: "gucci-small-dionysus-gg-canvas-clutch-bag",
+    name: "small Dionysus GG canvas clutch bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci small Dionysus GG canvas clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/87/71/50/37877150_71628930_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 192,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 144348,
+        originalPrice: 144348,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-small-dionysus-gg-canvas-clutch-bag-item-37877150.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0165",
+    slug: "gucci-medium-monogram-tote-bag",
+    name: "medium monogram tote bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci medium monogram tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/83/37690083_71359280_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 211,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 198478,
+        originalPrice: 198478,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-sac-fourre-tout-a-motif-monogramme-medium-item-37690083.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0166",
+    slug: "gucci-large-gg-supreme-brera-shoulder-bag",
+    name: "large GG Supreme Brera shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci large GG Supreme Brera shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/67/85/65/35678565_67130680_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 230,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 198478,
+        originalPrice: 198478,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-grand-sac-porte-epaule-brera-a-motif-gg-supreme-item-35678565.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0167",
+    slug: "gucci-mini-gg-marmont-shoulder-bag",
+    name: "mini GG Marmont shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci mini GG Marmont shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/17/34/77/19/17347719_53149487_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 49,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 178630,
+        originalPrice: 178630,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-mini-sac-porte-epaule-a-motif-gg-marmont-item-17347719.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0168",
+    slug: "gucci-boston-gg-supreme-mini-bag",
+    name: "Boston GG Supreme mini bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Boston GG Supreme mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/68/90/29/37689029_71845937_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 99239,
+        originalPrice: 99239,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-boston-gg-supreme-mini-bag-item-37689029.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0169",
+    slug: "gucci-gg-marmont-mini-shoulder-bag",
+    name: "GG Marmont mini shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci GG Marmont mini shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/80/89/01/37808901_71783338_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 117282,
+        originalPrice: 117282,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-gg-marmont-mini-shoulder-bag-item-37808901.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0170",
+    slug: "gucci-medium-jackie-1961-shoulder-bag",
+    name: "Medium Jackie 1961 shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Medium Jackie 1961 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/26/45/63/38264563_71690702_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 99,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 212011,
+        originalPrice: 212011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-medium-jackie-1961-shoulder-bag-item-38264563.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0171",
+    slug: "gucci-shoulder-bag-with-logo-plaque",
+    name: "shoulder bag with logo plaque",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci shoulder bag with logo plaque — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/72/37690072_71332007_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 118,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 148859,
+        originalPrice: 148859,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-sac-a-bandouliere-a-plaque-logo-item-37690072.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0172",
+    slug: "gucci-small-tribeca-tote-bag",
+    name: "small Tribeca tote bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci small Tribeca tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/50/22/64/36502264_68459441_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 137,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 128650,
+        originalPrice: 128650,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-petit-sac-cabas-tribeca-item-36502264.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0173",
+    slug: "gucci-jackie-1961-medium-shoulder-bag",
+    name: "Jackie 1961 medium shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Jackie 1961 medium shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/87/64/53/37876453_71629386_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 156,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 248098,
+        originalPrice: 248098,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-jackie-1961-medium-shoulder-bag-item-37876453.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0174",
+    slug: "gucci-medium-dionysus-shoulder-bag",
+    name: "medium Dionysus shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci medium Dionysus shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/68/90/33/37689033_71843877_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 175,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 261630,
+        originalPrice: 261630,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-medium-dionysus-shoulder-bag-item-37689033.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0175",
+    slug: "gucci-gg-marmont-medium-shoulder-bag",
+    name: "GG Marmont medium shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci GG Marmont medium shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/80/89/08/37808908_71783042_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 194,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 207500,
+        originalPrice: 207500,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-gg-marmont-medium-shoulder-bag-item-37808908.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0176",
+    slug: "gucci-bamboo-1947-cross-body-bag",
+    name: "Bamboo 1947 cross body bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Bamboo 1947 cross body bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/25/37690025_71848739_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 163,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 369891,
+        originalPrice: 369891,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-bamboo-1947-cross-body-bag-item-37690025.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0177",
+    slug: "gucci-gg-marmont-shoulder-bag",
+    name: "GG Marmont shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci GG Marmont shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/13/84/45/33138445_68202290_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 144,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 186389,
+        originalPrice: 186389,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-sac-a-bandouliere-a-motif-gg-marmont-item-33138445.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0178",
+    slug: "gucci-dionysus-goat-leather-shoulder-bag",
+    name: "Dionysus goat leather shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Dionysus goat leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/23/37690023_71845681_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 125,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 261630,
+        originalPrice: 261630,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-dionysus-goat-shoulder-bag-item-37690023.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0179",
+    slug: "gucci-small-dionysus-leather-shoulder-bag",
+    name: "small Dionysus leather shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci small Dionysus leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/68/90/30/37689030_71844307_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 106,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 162391,
+        originalPrice: 162391,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-small-dionysus-leather-shoulder-bag-item-37689030.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0180",
+    slug: "gucci-jackie-grained-leather-shoulder-bag",
+    name: "Jackie grained leather shoulder bag",
+    brand: "gucci",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Gucci Jackie grained leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/44/99/71/36449971_68450682_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 94,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 155715,
+        originalPrice: 155715,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/gucci-sac-porte-epaule-jackie-en-cuir-graine-item-36449971.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0001",
+    slug: "balenciaga-belted-cotton-shirt",
+    name: "belted cotton shirt",
+    brand: "balenciaga",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Balenciaga belted cotton shirt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/25/23/77/32/25237732_55456632_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 106,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 55473,
+        originalPrice: 164949,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-belted-cotton-shirt-item-25237732.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0002",
+    slug: "balenciaga-cagole-mules",
+    name: "Cagole mules",
+    brand: "balenciaga",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Balenciaga Cagole mules — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/24/17/77/87/24177787_54450766_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 87,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 57785,
+        originalPrice: 73124,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-cagole-mules-item-24177787.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0003",
+    slug: "balenciaga-draped-glittered-mini-dress",
+    name: "draped glittered mini dress",
+    brand: "balenciaga",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Balenciaga draped glittered mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/21/72/91/98/21729198_54176121_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 68,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 79638,
+        originalPrice: 131645,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-draped-glittered-mini-dress-item-21729198.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0004",
+    slug: "balenciaga-cagole-110mm-leather-sandals",
+    name: "Cagole 110mm leather sandals",
+    brand: "balenciaga",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Balenciaga Cagole 110mm leather sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/23/38/95/63/23389563_53527758_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 49,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 79428,
+        originalPrice: 129333,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-cagole-110mm-leather-sandals-item-23389563.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0005",
+    slug: "balenciaga-techwear-fitted-long-sleeve-top",
+    name: "techwear fitted long sleeve top",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga techwear fitted long sleeve top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/94/34/12/37943412_71535025_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 230,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 49170,
+        originalPrice: 49170,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-techwear-fitted-long-sleeve-top-item-37943412.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0006",
+    slug: "balenciaga-gaeta-wedge-thong-sandals-in-black",
+    name: "Gaeta wedge thong sandals in black",
+    brand: "balenciaga",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Balenciaga Gaeta wedge thong sandals in black — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/75/96/69/37759669_70624418_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 211,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 61777,
+        originalPrice: 61777,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-gaeta-wedge-thong-sandals-in-black-item-37759669.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0007",
+    slug: "balenciaga-logo-print-panelled-leggings",
+    name: "logo-print panelled leggings",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga logo-print panelled leggings — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/62/49/12/36624912_70266848_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 192,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 65770,
+        originalPrice: 65770,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-logo-print-panelled-leggings-item-36624912.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0008",
+    slug: "balenciaga-twisted-seam-jeans-in-bleach-light-blue",
+    name: "twisted seam jeans in bleach light blue",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga twisted seam jeans in bleach light blue — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/37/21/07/37372107_70054351_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 89198,
+        originalPrice: 89198,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-twisted-seam-jeans-in-bleach-light-bleu-item-37372107.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0009",
+    slug: "balenciaga-techwear-short-long-sleeve-bodysuit-in-black",
+    name: "techwear short long sleeve bodysuit in black",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga techwear short long sleeve bodysuit in black — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/31/31/87/37313187_69952397_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 89198,
+        originalPrice: 89198,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-techwear-short-long-sleeve-bodysuit-in-black-item-37313187.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0010",
+    slug: "balenciaga-le-city-pouch-shoulder-bag",
+    name: "Le City Pouch shoulder bag",
+    brand: "balenciaga",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Balenciaga Le City Pouch shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/94/33/20/37943320_71539422_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 75330,
+        originalPrice: 75330,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-le-city-pouch-shoulder-bag-item-37943320.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0011",
+    slug: "balenciaga-le-city-bag-medium-in-black",
+    name: "Le City bag medium in black",
+    brand: "balenciaga",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Balenciaga Le City bag medium in black — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/27/65/21/34276521_71572511_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 209602,
+        originalPrice: 209602,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-le-city-bag-medium-in-black-item-34276521.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0012",
+    slug: "balenciaga-nano-le-city-bag",
+    name: "nano Le City bag",
+    brand: "balenciaga",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Balenciaga nano Le City bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/17/31/68/36173168_71303289_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 112733,
+        originalPrice: 112733,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-nano-le-city-bag-item-36173168.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0013",
+    slug: "balenciaga-logo-short-sleeves-t-shirt",
+    name: "logo short-sleeves T-shirt",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga logo short-sleeves T-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/29/30/77/33293077_63898525_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 39609,
+        originalPrice: 39609,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-logo-short-sleeves-t-shirt-item-33293077.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0014",
+    slug: "balenciaga-track-trainers-in-black",
+    name: "track trainers in black",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga track trainers in black — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/13/40/79/41/13407941_54383264_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 75120,
+        originalPrice: 75120,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-track-trainers-in-black-item-13407941.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0015",
+    slug: "balenciaga-two-button-cotton-blazer",
+    name: "two-button cotton blazer",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga two-button cotton blazer — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/23/73/12/75/23731275_54972261_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 119247,
+        originalPrice: 284091,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-two-button-cotton-blazer-item-23731275.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0016",
+    slug: "balenciaga-los-angeles-city-print-layered-dress",
+    name: "Los Angeles city print layered dress",
+    brand: "balenciaga",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Balenciaga Los Angeles city print layered dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/02/20/69/31022069_60182283_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 115149,
+        originalPrice: 146038,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-los-angeles-city-print-layered-dress-item-31022069.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0017",
+    slug: "balenciaga-le-city-charm-detail-long-card-holder",
+    name: "Le City charm-detail long card holder",
+    brand: "balenciaga",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Balenciaga Le City charm-detail long card holder — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/90/85/86/36908586_69261361_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 40345,
+        originalPrice: 40345,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-le-city-charm-detail-long-car-holder-item-36908586.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0018",
+    slug: "balenciaga-gaeta-leopard-print-wedge-sandals",
+    name: "Gaeta leopard-print wedge sandals",
+    brand: "balenciaga",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Balenciaga Gaeta leopard-print wedge sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/17/37/83/37173783_69746943_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 73439,
+        originalPrice: 73439,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-gaeta-leopard-print-wedge-sandals-item-37173783.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0019",
+    slug: "balenciaga-le-city-tote-bag",
+    name: "Le City tote bag",
+    brand: "balenciaga",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Balenciaga Le City tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/94/32/11/34943211_66387360_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 178082,
+        originalPrice: 178082,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-le-city-tote-bag-item-34943211.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0020",
+    slug: "balenciaga-cagole-thong-sandal-in-black",
+    name: "Cagole thong sandal in black",
+    brand: "balenciaga",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Balenciaga Cagole thong sandal in black — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/22/98/30/73/22983073_54150608_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 32675,
+        originalPrice: 32675,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/balenciaga-cagole-thong-sandal-in-black-item-22983073.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0021",
+    slug: "saint-laurent-small-envelope-wallet-with-chain",
+    name: "small Envelope wallet with chain",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent small Envelope wallet with chain — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/63/36/45/32633645_62867745_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 87511,
+        originalPrice: 87511,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-kleines-envelope-portemonnaie-mit-kette-item-32633645.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0022",
+    slug: "saint-laurent-compact-cassandre-wallet",
+    name: "compact Cassandre wallet",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent compact Cassandre wallet — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/14/56/55/11/14565511_56392356_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 30945,
+        originalPrice: 30945,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-kompaktes-cassandre-portemonnaie-item-14565511.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0023",
+    slug: "saint-laurent-cassandre-clutch",
+    name: "Cassandre clutch",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent Cassandre clutch — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/12/10/17/23/12101723_54570770_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 117102,
+        originalPrice: 117102,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-cassandre-clutch-item-12101723.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0024",
+    slug: "saint-laurent-cassandre-leather-belt",
+    name: "Cassandre leather belt",
+    brand: "saint-laurent",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Saint Laurent Cassandre leather belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/14/36/04/95/14360495_54374618_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 34734,
+        originalPrice: 34734,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-cassandre-gurtel-aus-leder-item-14360495.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0025",
+    slug: "saint-laurent-le-loafer-smooth-leather-shoes",
+    name: "Le Loafer smooth leather shoes",
+    brand: "saint-laurent",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Saint Laurent Le Loafer smooth leather shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/41/89/40/37418940_70217415_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 80745,
+        originalPrice: 80745,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-le-loafer-schuhe-aus-glattem-leder-item-37418940.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0026",
+    slug: "saint-laurent-medium-clutch-with-monogram",
+    name: "medium clutch with monogram",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent medium clutch with monogram — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/15/10/26/14/15102614_25725705_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 58641,
+        originalPrice: 58641,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-mittelgroe-clutch-mit-monogramm-item-15102614.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0027",
+    slug: "saint-laurent-opyum-sandals-with-logo-heel",
+    name: "Opyum sandals with logo heel",
+    brand: "saint-laurent",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Saint Laurent Opyum sandals with logo heel — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/21/99/29/60/21992960_65046420_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 101043,
+        originalPrice: 101043,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-opyum-sandalen-mit-logo-absatz-item-21992960.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0028",
+    slug: "saint-laurent-mini-le-5-7-shoulder-bag",
+    name: "mini Le 5 à 7 shoulder bag",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent mini Le 5 à 7 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/18/42/95/06/18429506_54809843_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 131988,
+        originalPrice: 131988,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-mini-le-5-a-7-schultertasche-item-18429506.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0029",
+    slug: "saint-laurent-shoulder-bag-with-logo-plaque",
+    name: "shoulder bag with logo plaque",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent shoulder bag with logo plaque — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/06/68/18/32066818_62037516_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 76,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 109434,
+        originalPrice: 109434,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-schultertasche-mit-logo-schild-item-32066818.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0030",
+    slug: "saint-laurent-cassandre-card-holder",
+    name: "Cassandre card holder",
+    brand: "saint-laurent",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Saint Laurent Cassandre card holder — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/11/63/73/89/11637389_54975450_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 218,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 24900,
+        originalPrice: 24900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-cassandre-kartenetui-item-11637389.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0031",
+    slug: "saint-laurent-cassandre-metal-and-rhinestone-bracelet",
+    name: "Cassandre metal and rhinestone bracelet",
+    brand: "saint-laurent",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Saint Laurent Cassandre metal and rhinestone bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/22/65/87/90/22658790_60128052_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 199,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 31576,
+        originalPrice: 31576,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-cassandre-armband-aus-metall-und-strass-item-22658790.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0032",
+    slug: "saint-laurent-loafer-with-logo-plaque",
+    name: "loafer with logo plaque",
+    brand: "saint-laurent",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Saint Laurent loafer with logo plaque — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/04/31/26/32043126_61810381_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 56,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 80745,
+        originalPrice: 80745,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-loafer-mit-logo-schild-item-32043126.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0033",
+    slug: "saint-laurent-high-waisted-jeans",
+    name: "high-waisted jeans",
+    brand: "saint-laurent",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Saint Laurent high-waisted jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/99/23/72/33992372_65500950_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 237,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 76053,
+        originalPrice: 76053,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-jeans-mit-hohem-bund-item-33992372.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0034",
+    slug: "saint-laurent-babylone-smooth-leather-mules",
+    name: "Babylone smooth leather mules",
+    brand: "saint-laurent",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Saint Laurent Babylone smooth leather mules — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/10/88/25/30108825_59192890_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 142,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 87150,
+        originalPrice: 87150,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-babylone-mules-aus-glattem-leder-item-30108825.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0035",
+    slug: "saint-laurent-classic-belt",
+    name: "classic belt",
+    brand: "saint-laurent",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Saint Laurent classic belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/85/63/14/37856314_71537729_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 123,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 36899,
+        originalPrice: 36899,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-klassischer-gurtel-item-37856314.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0036",
+    slug: "saint-laurent-quilted-shoulder-bag",
+    name: "quilted shoulder bag",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent quilted shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/16/08/06/74/16080674_54575355_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 180,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 96172,
+        originalPrice: 96172,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-gesteppte-schultertasche-item-16080674.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0037",
+    slug: "saint-laurent-gaby-shoulder-bag",
+    name: "Gaby shoulder bag",
+    brand: "saint-laurent",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Saint Laurent Gaby shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/22/35/08/93/22350893_54809861_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 161,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 166902,
+        originalPrice: 166902,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-gaby-umhangetasche-item-22350893.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0038",
+    slug: "saint-laurent-cassandre-card-holder-2",
+    name: "Cassandre card holder (2)",
+    brand: "saint-laurent",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Saint Laurent Cassandre card holder (2) — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/14/33/90/53/14339053_54156605_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 32659,
+        originalPrice: 32659,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-cassandre-kartenetui-item-14339053.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0039",
+    slug: "saint-laurent-ruched-loafer-with-logo-plaque",
+    name: "ruched loafer with logo plaque",
+    brand: "saint-laurent",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Saint Laurent ruched loafer with logo plaque — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/13/67/63/33136763_64682762_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 87872,
+        originalPrice: 87872,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-geraffte-loafer-mit-logo-schild-item-33136763.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0040",
+    slug: "saint-laurent-earrings-with-monogram",
+    name: "earrings with monogram",
+    brand: "saint-laurent",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Saint Laurent earrings with monogram — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/20/01/99/85/20019985_45036899_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 42132,
+        originalPrice: 42132,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-ohrringe-mit-monogramm-item-20019985.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0041",
+    slug: "valentino-lace-bodysuit",
+    name: "lace bodysuit",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino lace bodysuit — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/64/92/54/35649254_70191639_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 174300,
+        originalPrice: 174300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-body-de-encaje-item-35649254.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0042",
+    slug: "valentino-panthea-medium-shoulder-bag",
+    name: "Panthea medium shoulder bag",
+    brand: "valentino",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Valentino Panthea medium shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/66/28/98/35662898_67104517_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 315400,
+        originalPrice: 315400,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-bolsa-de-hombro-panthea-mediana-item-35662898.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0043",
+    slug: "valentino-rockstud-sneakers-with-100mm-heel",
+    name: "Rockstud sneakers with 100mm heel",
+    brand: "valentino",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Valentino Rockstud sneakers with 100mm heel — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/64/94/57/35649457_68046138_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 90553,
+        originalPrice: 90553,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-zapatillas-rockstud-con-tacon-de-100mm-item-35649457.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0044",
+    slug: "valentino-small-antibes-tote-bag",
+    name: "small Antibes tote bag",
+    brand: "valentino",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Valentino small Antibes tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/66/40/03/35664003_69133050_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 219950,
+        originalPrice: 219950,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-tote-antibes-pequena-item-35664003.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0045",
+    slug: "valentino-canestrello-cotton-tweed-top",
+    name: "Canestrello cotton tweed top",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino Canestrello cotton tweed top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/65/68/06/35656806_67591719_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 99600,
+        originalPrice: 99600,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-top-canestrello-de-tweed-de-algodon-item-35656806.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0046",
+    slug: "valentino-vlogo-straight-jeans",
+    name: "VLogo straight jeans",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino VLogo straight jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/67/02/05/36670205_68860368_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 132800,
+        originalPrice: 132800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-jeans-rectos-vlogo-item-36670205.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0047",
+    slug: "valentino-mool-moulin-sweater",
+    name: "Mool Mouliné sweater",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino Mool Mouliné sweater — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/65/67/42/35656742_69146116_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 112050,
+        originalPrice: 112050,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-sueter-mool-mouline-item-35656742.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0048",
+    slug: "valentino-vlogo-signature-earrings-with-swarovski-crystals",
+    name: "VLogo Signature earrings with Swarovski crystals",
+    brand: "valentino",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Valentino VLogo Signature earrings with Swarovski crystals — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/07/45/37/36074537_67679142_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 24070,
+        originalPrice: 24070,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-aretes-vlogo-signature-de-metal-y-cristales-de-swarovski-item-36074537.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0049",
+    slug: "valentino-lace-midi-skirt",
+    name: "lace midi skirt",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino lace midi skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/83/61/08/35836108_67479696_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 172640,
+        originalPrice: 172640,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-falda-midi-de-encaje-item-35836108.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0050",
+    slug: "valentino-rockstud-leather-sandals",
+    name: "Rockstud leather sandals",
+    brand: "valentino",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Valentino Rockstud leather sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/45/00/37/34450037_69348138_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 232,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 95450,
+        originalPrice: 95450,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-sandalias-rockstud-de-piel-item-34450037.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0051",
+    slug: "valentino-small-embroidered-loc-shoulder-bag",
+    name: "small embroidered Locò shoulder bag",
+    brand: "valentino",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Valentino small embroidered Locò shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/23/27/36612327_68683629_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 213,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 356900,
+        originalPrice: 356900,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-bolsa-de-hombro-loco-pequena-con-bordado-item-36612327.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0052",
+    slug: "valentino-blanket-top-with-floral-stamps",
+    name: "blanket top with floral stamps",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino blanket top with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/91/59/36619159_68656172_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 194,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 145250,
+        originalPrice: 145250,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-top-en-frazada-con-sellos-florales-item-36619159.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0053",
+    slug: "valentino-resort-shoes-with-75mm-wedge",
+    name: "Resort shoes with 75mm wedge",
+    brand: "valentino",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Valentino Resort shoes with 75mm wedge — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/62/00/00/36620000_68733579_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 175,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 73870,
+        originalPrice: 73870,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-zapatos-resort-con-cuna-de-75mm-item-36620000.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0054",
+    slug: "valentino-blanket-midi-skirt-with-floral-stamps",
+    name: "blanket midi skirt with floral stamps",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino blanket midi skirt with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/93/87/36619387_68655673_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 156,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 298800,
+        originalPrice: 298800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-falda-midi-en-frazada-con-sellos-florales-item-36619387.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0055",
+    slug: "valentino-embroidered-couture-linen-top",
+    name: "embroidered Couture linen top",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino embroidered Couture linen top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/93/89/36619389_68655588_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 137,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 348600,
+        originalPrice: 348600,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-embroidered-couture-linen-top-item-36619389.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0056",
+    slug: "valentino-embroidered-couture-linen-shorts",
+    name: "embroidered Couture linen shorts",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino embroidered Couture linen shorts — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/62/00/02/36620002_68655596_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 118,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 215800,
+        originalPrice: 215800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-embroidered-couture-linen-shorts-item-36620002.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0057",
+    slug: "valentino-rockstud-sandals-45mm",
+    name: "Rockstud sandals 45mm",
+    brand: "valentino",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Valentino Rockstud sandals 45mm — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/65/98/07/35659807_67104629_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 99,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 81340,
+        originalPrice: 81340,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-sandalias-rockstud-de-45mm-item-35659807.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0058",
+    slug: "valentino-raffia-bag-with-geometric-motif",
+    name: "raffia bag with geometric motif",
+    brand: "valentino",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Valentino raffia bag with geometric motif — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/23/61/36612361_68656171_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 72210,
+        originalPrice: 72210,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-bolsa-de-rafia-con-motivo-geometrico-item-36612361.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0059",
+    slug: "valentino-rockstud-rubber-slippers",
+    name: "Rockstud rubber slippers",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino Rockstud rubber slippers — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/07/79/83/34077983_68035040_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 43160,
+        originalPrice: 43160,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-slippers-rockstud-de-goma-item-34077983.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0060",
+    slug: "valentino-short-blanket-skirt-with-floral-stamps",
+    name: "short blanket skirt with floral stamps",
+    brand: "valentino",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Valentino short blanket skirt with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/61/88/20/36618820_68655986_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 132800,
+        originalPrice: 132800,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-falda-corta-en-frazada-con-sellos-florales-item-36618820.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0061",
+    slug: "dolce-gabbana-exclusive-linda-double-breasted-jacket",
+    name: "EXCLUSIVE Linda double-breasted jacket",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana EXCLUSIVE Linda double-breasted jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/35/76/35853576_70008597_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 335735,
+        originalPrice: 335735,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-exclusive-linda-double-breasted-jacket-item-35853576.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0062",
+    slug: "dolce-gabbana-medium-my-sicily-handbag-in-split-calfskin",
+    name: "medium My Sicily handbag in split calfskin",
+    brand: "dolce-gabbana",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Dolce & Gabbana medium My Sicily handbag in split calfskin — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/68/15/74/37681574_70666041_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 145,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 323285,
+        originalPrice: 323285,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-medium-my-sicily-handbag-in-split-calfskin-item-37681574.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0063",
+    slug: "dolce-gabbana-cashmere-serafino-pullover",
+    name: "cashmere Serafino pullover",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana cashmere Serafino pullover — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/50/46/35855046_70008938_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 126,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 219535,
+        originalPrice: 219535,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-cashmere-serafino-pullover-item-35855046.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0064",
+    slug: "dolce-gabbana-five-pocket-denim-jeans",
+    name: "five-pocket denim jeans",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana five-pocket denim jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/39/88/35853988_70287269_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 86735,
+        originalPrice: 86735,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-five-pocket-denim-jeans-item-35853988.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0065",
+    slug: "dolce-gabbana-medium-sicily-rose-print-crystal-embellished-tote-bag",
+    name: "medium Sicily rose-print crystal-embellished tote bag",
+    brand: "dolce-gabbana",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Dolce & Gabbana medium Sicily rose-print crystal-embellished tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/92/02/50/36920250_70106173_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 397985,
+        originalPrice: 397985,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-medium-sicily-rose-print-crystal-embellished-tote-bag-item-36920250.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0066",
+    slug: "dolce-gabbana-rose-print-charmeuse-midi-dress",
+    name: "rose-print charmeuse midi dress",
+    brand: "dolce-gabbana",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Dolce & Gabbana rose-print charmeuse midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/37/16/35853716_70679936_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 221,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 348185,
+        originalPrice: 348185,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-rose-print-charmeuse-midi-dress-item-35853716.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0067",
+    slug: "dolce-gabbana-exclusive-lace-midi-dress",
+    name: "EXCLUSIVE lace midi dress",
+    brand: "dolce-gabbana",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Dolce & Gabbana EXCLUSIVE lace midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/37/12/35853712_70611523_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 202,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 290085,
+        originalPrice: 290085,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-exclusive-lace-midi-dress-item-35853712.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0068",
+    slug: "dolce-gabbana-satin-sandals-with-flower",
+    name: "satin sandals with flower",
+    brand: "dolce-gabbana",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Dolce & Gabbana satin sandals with flower — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/99/35853299_70615962_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 155,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 211235,
+        originalPrice: 211235,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-satin-sandals-with-flower-item-35853299.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0069",
+    slug: "dolce-gabbana-jersey-t-shirt",
+    name: "jersey T-shirt",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana jersey T-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/38/38/35853838_69190309_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 136,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 70135,
+        originalPrice: 70135,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-jersey-t-shirt-item-35853838.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0070",
+    slug: "dolce-gabbana-leo-print-viscose-jersey-skirt",
+    name: "leo-print viscose jersey skirt",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana leo-print viscose jersey skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/36/04/35853604_69195362_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 98,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 161435,
+        originalPrice: 161435,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-leo-print-viscose-jersey-skirt-item-35853604.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0071",
+    slug: "dolce-gabbana-leo-kid-leather-slingbacks",
+    name: "leo kid-leather slingbacks",
+    brand: "dolce-gabbana",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Dolce & Gabbana leo kid-leather slingbacks — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/17/35853217_69404010_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 117,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 144835,
+        originalPrice: 144835,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-leo-kid-leather-slingbacks-item-35853217.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0072",
+    slug: "dolce-gabbana-exclusive-leo-print-sheer-dress",
+    name: "EXCLUSIVE leo-print sheer dress",
+    brand: "dolce-gabbana",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Dolce & Gabbana EXCLUSIVE leo-print sheer dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/36/71/35853671_69190494_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 60,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 406285,
+        originalPrice: 406285,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-exclusive-leo-print-sheer-dress-item-35853671.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0073",
+    slug: "dolce-gabbana-double-breasted-pinstripe-wool-jacket",
+    name: "double-breasted pinstripe wool jacket",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana double-breasted pinstripe wool jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/35/61/35853561_70027962_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 79,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 348185,
+        originalPrice: 348185,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-double-breasted-pinstripe-wool-jacket-item-35853561.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0074",
+    slug: "dolce-gabbana-dg-logo-clip-earrings",
+    name: "DG-logo clip earrings",
+    brand: "dolce-gabbana",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Dolce & Gabbana DG-logo clip earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/45/99/35854599_70015270_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 222,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 53535,
+        originalPrice: 53535,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-dg-logo-clip-earrings-item-35854599.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0075",
+    slug: "dolce-gabbana-wool-skirt",
+    name: "wool skirt",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana wool skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/36/27/35853627_70014237_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 41,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 136535,
+        originalPrice: 136535,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-wool-skirt-item-35853627.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0076",
+    slug: "dolce-gabbana-logo-detail-pointed-toe-pumps",
+    name: "logo-detail pointed-toe pumps",
+    brand: "dolce-gabbana",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Dolce & Gabbana logo-detail pointed-toe pumps — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/23/35853223_70482432_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 184,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 90885,
+        originalPrice: 90885,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-logo-detail-pointed-toe-pumps-item-35853223.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0077",
+    slug: "dolce-gabbana-turlington-single-breasted-jacket-in-pinstripe-wool",
+    name: "Turlington single-breasted jacket in pinstripe wool",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana Turlington single-breasted jacket in pinstripe wool — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/35/42/35853542_70008895_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 203,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 323285,
+        originalPrice: 323285,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-turlington-single-breasted-jacket-in-pinstripe-wool-item-35853542.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0078",
+    slug: "dolce-gabbana-bow-detail-long-sleeve-sweater",
+    name: "bow-detail long-sleeve sweater",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana bow-detail long-sleeve sweater — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/50/73/35855073_70765992_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 50,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 169735,
+        originalPrice: 169735,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-bow-detail-long-sleeve-sweater-item-35855073.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0079",
+    slug: "dolce-gabbana-lace-flat-slides",
+    name: "lace flat slides",
+    brand: "dolce-gabbana",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Dolce & Gabbana lace flat slides — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/72/35853272_70612681_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 69,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 76775,
+        originalPrice: 76775,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-lace-flat-slides-item-35853272.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0080",
+    slug: "dolce-gabbana-pinstripe-wool-trousers",
+    name: "pinstripe wool trousers",
+    brand: "dolce-gabbana",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Dolce & Gabbana pinstripe wool trousers — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/85/39/11/35853911_70014690_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 95035,
+        originalPrice: 95035,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-pinstripe-wool-trousers-item-35853911.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0081",
+    slug: "armani-tote-bag-with-shoulder-strap",
+    name: "tote bag with shoulder strap",
+    brand: "armani",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Armani tote bag with shoulder strap — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/15/49/26/34/15492634_27602753_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 255364,
+        originalPrice: 255364,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-bolsa-tote-com-alca-de-ombro-item-15492634.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0082",
+    slug: "armani-shoulder-bag-with-logo",
+    name: "shoulder bag with logo",
+    brand: "armani",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Armani shoulder bag with logo — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/15/20/37/58/15203758_26191955_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 255364,
+        originalPrice: 255364,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-bolsa-tiracolo-com-logo-item-15203758.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0083",
+    slug: "armani-shoulder-bag-with-logo-2",
+    name: "shoulder bag with logo (2)",
+    brand: "armani",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Armani shoulder bag with logo (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/15/12/76/09/15127609_25750008_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 255364,
+        originalPrice: 255364,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-bolsa-tiracolo-com-logo-item-15127609.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0084",
+    slug: "armani-embroidered-cotton-jacket",
+    name: "embroidered cotton jacket",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani embroidered cotton jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/44/99/92/37449992_70196355_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 390684,
+        originalPrice: 390684,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-jaqueta-de-algodao-com-bordado-item-37449992.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0085",
+    slug: "armani-fringed-sequin-blouse",
+    name: "fringed sequin blouse",
+    brand: "armani",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Armani fringed sequin blouse — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/92/07/16/34920716_66111521_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 198724,
+        originalPrice: 367997,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-blusa-com-franjas-e-paetes-item-34920716.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0086",
+    slug: "armani-felted-wool-fedora-hat",
+    name: "felted wool fedora hat",
+    brand: "armani",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Armani felted wool fedora hat — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/41/41/26/38414126_71721513_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 95250,
+        originalPrice: 95250,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-felted-wool-fedora-hat-item-38414126.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0087",
+    slug: "armani-keyring-with-logo-plaque",
+    name: "keyring with logo plaque",
+    brand: "armani",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Armani keyring with logo plaque — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/28/45/27/63/28452763_57822554_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 45696,
+        originalPrice: 67369,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-chaveiro-com-placa-de-logo-item-28452763.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0088",
+    slug: "armani-square-eyeglass-frame",
+    name: "square eyeglass frame",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani square eyeglass frame — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/16/07/90/35160790_66890496_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 46049,
+        originalPrice: 46049,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-armacao-de-oculos-quadrada-item-35160790.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0089",
+    slug: "armani-midi-dress-with-twisted-detail",
+    name: "midi dress with twisted detail",
+    brand: "armani",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Armani midi dress with twisted detail — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/76/51/16/37765116_70754718_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 217660,
+        originalPrice: 217660,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-vestido-midi-com-detalhe-torcido-item-37765116.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0090",
+    slug: "armani-logo-debossed-bifold-cardholder",
+    name: "logo-debossed bifold cardholder",
+    brand: "armani",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Armani logo-debossed bifold cardholder — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/41/23/57/38412357_71645895_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 94128,
+        originalPrice: 94128,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-logo-debossed-bifold-cardholder-item-38412357.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0091",
+    slug: "armani-short-sleeve-jersey-blouse",
+    name: "short-sleeve jersey blouse",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani short-sleeve jersey blouse — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/24/50/51/59/24505159_54663378_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 45081,
+        originalPrice: 75038,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-blusa-de-jersey-mangas-curtas-item-24505159.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0092",
+    slug: "armani-slim-jacket-with-chevron-pattern",
+    name: "slim jacket with chevron pattern",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani slim jacket with chevron pattern — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/46/55/12/37465512_70315005_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 371149,
+        originalPrice: 371149,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-jaqueta-slim-com-padronagem-chevron-item-37465512.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0093",
+    slug: "armani-gathered-midi-dress-with-tied-collar",
+    name: "gathered midi dress with tied collar",
+    brand: "armani",
+    category: "dresses",
+    subcategory: "Dresses",
+    gender: "women",
+    description: "Armani gathered midi dress with tied collar — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/66/96/17/37669617_70558539_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "dresses",
+      "dresses"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 214878,
+        originalPrice: 214878,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-vestido-midi-franzido-com-no-na-gola-item-37669617.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0094",
+    slug: "armani-round-eyeglass-frame",
+    name: "round eyeglass frame",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani round eyeglass frame — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/16/20/15/35162015_66890404_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 42976,
+        originalPrice: 42976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-armacao-de-oculos-redonda-item-35162015.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0095",
+    slug: "armani-high-waisted-bootcut-jeans",
+    name: "high-waisted bootcut jeans",
+    brand: "armani",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Armani high-waisted bootcut jeans — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/28/60/40/97/28604097_57945035_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 192391,
+        originalPrice: 192391,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-calca-jeans-bootcut-de-cintura-alta-item-28604097.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0096",
+    slug: "armani-vest-with-chain-trim-and-double-breasted-buttons",
+    name: "vest with chain trim and double-breasted buttons",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani vest with chain trim and double-breasted buttons — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/76/00/16/37760016_71332430_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 382169,
+        originalPrice: 382169,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-colete-com-acabamento-de-corrente-e-abotoamento-duplo-item-37760016.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0097",
+    slug: "armani-fringed-crew-neck-tank-top",
+    name: "fringed crew-neck tank top",
+    brand: "armani",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Armani fringed crew-neck tank top — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/29/28/72/33292872_65200663_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 384628,
+        originalPrice: 384628,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-regata-decote-careca-com-franjas-item-33292872.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0098",
+    slug: "armani-round-eyeglass-frame-2",
+    name: "round eyeglass frame (2)",
+    brand: "armani",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Armani round eyeglass frame (2) — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/18/29/83/75/18298375_39333346_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35229,
+        originalPrice: 35229,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-armacao-de-oculos-redonda-item-18298375.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0099",
+    slug: "armani-earrings-with-crystal-application",
+    name: "earrings with crystal application",
+    brand: "armani",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Armani earrings with crystal application — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/06/43/97/38064397_71250210_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 56655,
+        originalPrice: 56655,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-par-de-brincos-com-aplicacao-de-cristais-item-38064397.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0100",
+    slug: "armani-pendant-earrings",
+    name: "pendant earrings",
+    brand: "armani",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Armani pendant earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/06/53/19/38065319_71108587_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 56655,
+        originalPrice: 56655,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-par-de-brincos-pendente-item-38065319.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0101",
+    slug: "givenchy-antigona-tote-bag",
+    name: "Antigona tote bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy Antigona tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/36/52/59/32365259_62324346_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 118856,
+        originalPrice: 118856,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-antigona-tote-bag-item-32365259.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0102",
+    slug: "givenchy-leopard-print-logo-print-clutch-bag",
+    name: "leopard-print logo-print clutch bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy leopard-print logo-print clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/54/24/14/37542414_70914879_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 100,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 42247,
+        originalPrice: 42247,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-leopard-print-logo-print-clutch-bag-item-37542414.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0103",
+    slug: "givenchy-grained-leather-shoulder-bag",
+    name: "grained-leather shoulder bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy grained-leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/19/80/93/86/19809386_44438369_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 81,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 184509,
+        originalPrice: 184509,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-grained-leather-shoulder-bag-item-19809386.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0104",
+    slug: "givenchy-small-voyou-leather-bucket-bag",
+    name: "small Voyou leather bucket bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy small Voyou leather bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/56/35/98/36563598_68785039_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 123006,
+        originalPrice: 123006,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-small-voyou-leather-bucket-bag-item-36563598.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0105",
+    slug: "givenchy-mini-antigona-leather-tote-bag",
+    name: "mini Antigona leather tote bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy mini Antigona leather tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/21/20/38/32212038_62100029_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 114540,
+        originalPrice: 114540,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-mini-antigona-leather-tote-bag-item-32212038.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0106",
+    slug: "givenchy-logo-lettering-clutch-bag",
+    name: "logo-lettering clutch bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy logo-lettering clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/92/75/25/32927525_63372669_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 176,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 28386,
+        originalPrice: 46812,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-logo-lettering-clutch-bag-item-32927525.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0107",
+    slug: "givenchy-medium-voyou-shoulder-bag",
+    name: "medium Voyou shoulder bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy medium Voyou shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/27/19/34/92/27193492_57119166_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 157,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 163676,
+        originalPrice: 224764,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-medium-voyou-shoulder-bag-item-27193492.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0108",
+    slug: "givenchy-antigona-mini-bag",
+    name: "Antigona mini bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy Antigona mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/35/63/42/57/35634257_67416597_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 110,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 148155,
+        originalPrice: 148155,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-antigona-mini-bag-item-35634257.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0109",
+    slug: "givenchy-small-voyou-two-way-bucket-bag",
+    name: "small Voyou two-way bucket bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy small Voyou two-way bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/37/91/12/39/37911239_71942671_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 91,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 153384,
+        originalPrice: 153384,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-small-voyou-two-way-bucket-bag-item-37911239.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0110",
+    slug: "givenchy-small-antigona-tote-bag",
+    name: "small Antigona tote bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy small Antigona tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/24/15/82/31241582_60516362_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 127903,
+        originalPrice: 127903,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-small-antigona-tote-bag-item-31241582.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0111",
+    slug: "givenchy-small-voyou-leather-bucket-bag-2",
+    name: "small Voyou leather bucket bag (2)",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy small Voyou leather bucket bag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/96/89/64/36968964_69617485_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 131472,
+        originalPrice: 131472,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-small-voyou-leather-bucket-bag-item-36968964.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0112",
+    slug: "givenchy-logo-print-clutch-bag",
+    name: "logo-print clutch bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy logo-print clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/91/94/94/31919494_61513495_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 31374,
+        originalPrice: 45982,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-logo-print-clutch-bag-item-31919494.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0113",
+    slug: "givenchy-multi-pocket-top-handle-belt-bag",
+    name: "multi-pocket top-handle belt bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy multi-pocket top-handle belt bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/52/50/84/31525084_61037702_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 38097,
+        originalPrice: 88146,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-multi-pocket-top-handle-belt-bag-item-31525084.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0114",
+    slug: "givenchy-voyou-shoulder-bag",
+    name: "Voyou shoulder bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy Voyou shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/40/07/67/32400767_62669481_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 202603,
+        originalPrice: 289504,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-voyou-shoulder-bag-item-32400767.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0115",
+    slug: "givenchy-nano-facet-logo-embroidered-raffia-effect-tote-bag",
+    name: "Nano Facet logo-embroidered raffia-effect tote bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy Nano Facet logo-embroidered raffia-effect tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/00/72/39/36007239_67831007_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 89142,
+        originalPrice: 89142,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-nano-facet-logo-embroidered-raffia-effect-tote-bag-item-36007239.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0116",
+    slug: "givenchy-star-print-iconic-pouch",
+    name: "star print Iconic pouch",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy star print Iconic pouch — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/11/80/41/49/11804149_8506877_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 25232,
+        originalPrice: 63412,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-star-print-iconic-pouch-item-11804149.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0117",
+    slug: "givenchy-medium-voyou-shoulder-bag-2",
+    name: "medium Voyou shoulder bag (2)",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy medium Voyou shoulder bag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/31/24/15/50/31241550_60509150_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 136037,
+        originalPrice: 221527,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-medium-voyou-shoulder-bag-item-31241550.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0118",
+    slug: "givenchy-mini-antigona-east-west-tote-bag",
+    name: "mini Antigona East-West tote bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy mini Antigona East-West tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/30/91/49/68/30914968_59779855_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 76277,
+        originalPrice: 76277,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-mini-antigona-east-west-tote-bag-item-30914968.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0119",
+    slug: "givenchy-mini-antigona-metallic-leather-shoulder-bag",
+    name: "mini Antigona metallic leather shoulder bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy mini Antigona metallic leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/19/55/34/38195534_71677191_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 159360,
+        originalPrice: 159360,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-mini-antigona-metallic-leather-shoulder-bag-item-38195534.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0120",
+    slug: "givenchy-silk-blend-clutch-bag",
+    name: "silk-blend clutch bag",
+    brand: "givenchy",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Givenchy silk-blend clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/38/29/01/36/38290136_71971451_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 167079,
+        originalPrice: 167079,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/givenchy-silk-blend-clutch-bag-item-38290136.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0121",
+    slug: "moncler-printed-striped-shirt",
+    name: "printed striped shirt",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler printed striped shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/57/55/23/32575523_65250726_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 72625,
+        originalPrice: 72625,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-camisa-con-rayas-estampadas-item-32575523.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0122",
+    slug: "moncler-tote-bag-with-logo-detail",
+    name: "tote bag with logo detail",
+    brand: "moncler",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Moncler tote bag with logo detail — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/33/82/56/34338256_65584597_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 149898,
+        originalPrice: 149898,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-tote-con-detalle-del-logo-item-34338256.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0123",
+    slug: "moncler-nepeta-jacket",
+    name: "Nepeta jacket",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler Nepeta jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/33/40/32/34334032_65631768_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 137531,
+        originalPrice: 137531,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-chamarra-nepeta-item-34334032.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0124",
+    slug: "moncler-vera-leisure-sneakers",
+    name: "Vera Leisure sneakers",
+    brand: "moncler",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Moncler Vera Leisure sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/71/39/01/33713901_64677621_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35773,
+        originalPrice: 35773,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-tenis-vera-leisure-item-33713901.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0125",
+    slug: "moncler-polo-shirt-with-printed-stripes",
+    name: "polo shirt with printed stripes",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler polo shirt with printed stripes — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/74/67/56/33746756_65566177_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 64989,
+        originalPrice: 64989,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-playera-tipo-polo-con-rayas-estampadas-item-33746756.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0126",
+    slug: "moncler-zelkova-jacket",
+    name: "Zelkova jacket",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler Zelkova jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/57/27/24/34572724_66110439_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 70799,
+        originalPrice: 70799,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-chamarra-zelkova-item-34572724.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0127",
+    slug: "moncler-trick-mini-bag",
+    name: "Trick mini bag",
+    brand: "moncler",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Moncler Trick mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/44/98/18/34449818_65753605_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 55610,
+        originalPrice: 55610,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-bolsa-trick-mini-item-34449818.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0128",
+    slug: "moncler-shirt-with-printed-stripes-and-printed-logo",
+    name: "shirt with printed stripes and printed logo",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler shirt with printed stripes and printed logo — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/57/26/82/34572682_66110515_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 51211,
+        originalPrice: 51211,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-playera-con-rayas-estampadas-y-logo-estampado-item-34572682.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0129",
+    slug: "moncler-knit-shorts-with-printed-stripes",
+    name: "knit shorts with printed stripes",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler knit shorts with printed stripes — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/57/27/58/34572758_66110217_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 46563,
+        originalPrice: 46563,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-shorts-tejidos-con-rayas-estampas-item-34572758.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0130",
+    slug: "moncler-short-hooded-jacket",
+    name: "short hooded jacket",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler short hooded jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/89/24/95/34892495_66096088_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 95450,
+        originalPrice: 95450,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-chamarra-corta-con-capucha-item-34892495.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0131",
+    slug: "moncler-shirt-with-logo-patch-three-piece-set",
+    name: "shirt with logo patch (three-piece set)",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler shirt with logo patch (three-piece set) — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/74/03/09/32740309_65982918_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 46978,
+        originalPrice: 46978,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-playera-con-parche-del-logo-set-de-tres-piezas-item-32740309.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0132",
+    slug: "moncler-pleated-short-skirt-with-check-motif",
+    name: "pleated short skirt with check motif",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler pleated short skirt with check motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/28/84/61/34288461_65705200_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 43326,
+        originalPrice: 43326,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-falda-corta-plisada-con-motivo-de-cuadros-item-34288461.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0133",
+    slug: "moncler-short-sleeve-top-with-floral-motif",
+    name: "short-sleeve top with floral motif",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler short-sleeve top with floral motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/18/55/63/33185563_63873275_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 79265,
+        originalPrice: 79265,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-top-manga-corta-con-motivo-floral-item-33185563.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0134",
+    slug: "moncler-caradoc-teddy-micro-tote-bag",
+    name: "Caradoc Teddy micro tote bag",
+    brand: "moncler",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Moncler Caradoc Teddy micro tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/63/52/14/32635214_63801316_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 65321,
+        originalPrice: 65321,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-tote-caradoc-teddy-micro-item-32635214.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0135",
+    slug: "moncler-drawstring-waist-trousers",
+    name: "drawstring-waist trousers",
+    brand: "moncler",
+    category: "jewelry-accessories",
+    subcategory: "Jewelry-Accessories",
+    gender: "women",
+    description: "Moncler drawstring-waist trousers — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/26/69/41/33266941_63964005_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "jewelry-accessories",
+      "jewelry-accessories"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 99600,
+        originalPrice: 99600,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-pantalones-con-cordones-en-la-pretina-item-33266941.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0136",
+    slug: "moncler-tailgrip-lp-sneakers",
+    name: "Tailgrip LP sneakers",
+    brand: "moncler",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Moncler Tailgrip LP sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/33/90/92/34339092_65548586_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 47559,
+        originalPrice: 47559,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-tenis-tailgrip-lp-item-34339092.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0137",
+    slug: "moncler-coquelicot-jacket",
+    name: "Coquelicot jacket",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler Coquelicot jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/32/57/60/28/32576028_65491812_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 84245,
+        originalPrice: 84245,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-chamarra-coquelicot-item-32576028.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0138",
+    slug: "moncler-very-tote-bag",
+    name: "Very tote bag",
+    brand: "moncler",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Moncler Very tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/94/46/98/33944698_65089012_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 92877,
+        originalPrice: 92877,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-tote-very-item-33944698.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0139",
+    slug: "moncler-shirt-with-lace-trim",
+    name: "shirt with lace trim",
+    brand: "moncler",
+    category: "clothing",
+    subcategory: "Clothing",
+    gender: "women",
+    description: "Moncler shirt with lace trim — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/33/74/68/22/33746822_65409773_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "clothing"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 35358,
+        originalPrice: 35358,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-playera-con-ribete-de-encaje-item-33746822.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0140",
+    slug: "moncler-skirt-with-belt-and-buttons",
+    name: "skirt with belt and buttons",
+    brand: "moncler",
+    category: "accessories",
+    subcategory: "Accessories",
+    gender: "women",
+    description: "Moncler skirt with belt and buttons — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/34/63/82/36/34638236_65919985_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "accessories",
+      "accessories"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 52456,
+        originalPrice: 52456,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/moncler-falda-con-cinturon-y-botones-item-34638236.aspx",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }

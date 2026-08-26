@@ -334,6 +334,32 @@ const brandDomains: Record<string, string> = {
 /** The brand's real website — used for "Shop All Deals" / "Shop Now" outbound links. */
 export const brandUrl = (slug: string) => `https://www.${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}`;
 
+/**
+ * Sharper vector logos for the handful of brands actually covered by Simple
+ * Icons (most fashion retailers aren't — it's a tech/open-source icon set).
+ * Verified working before adding: everything else falls back to a favicon.
+ */
+const brandLogoOverrides: Record<string, string> = {
+  zara: "https://api.iconify.design/simple-icons:zara.svg?height=1024",
+  uniqlo: "https://api.iconify.design/simple-icons:uniqlo.svg?height=1024",
+  nike: "https://api.iconify.design/simple-icons:nike.svg?height=1024",
+  adidas: "https://api.iconify.design/simple-icons:adidas.svg?height=1024",
+  puma: "https://api.iconify.design/simple-icons:puma.svg?height=1024",
+  "under-armour": "https://api.iconify.design/simple-icons:underarmour.svg?height=1024",
+  reebok: "https://api.iconify.design/simple-icons:reebok.svg?height=1024",
+  "new-balance": "https://api.iconify.design/simple-icons:newbalance.svg?height=1024",
+  "the-north-face": "https://api.iconify.design/simple-icons:thenorthface.svg?height=1024",
+  farfetch: "https://api.iconify.design/simple-icons:farfetch.svg?height=1024",
+};
+
+/** The brand's logo — a verified vector logo where available, otherwise a favicon sourced from its real domain. */
+export const brandLogo = (slug: string) =>
+  brandLogoOverrides[slug] ?? `https://icons.duckduckgo.com/ip3/${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}.ico`;
+
+/** Secondary source, tried if `brandLogo` fails to load. */
+export const brandLogoFallback = (slug: string) =>
+  `https://www.google.com/s2/favicons?domain=${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}&sz=128`;
+
 const imageFor = (cat: string) =>
   categories.find((c) => c.slug === cat)?.image ?? catFashion;
 

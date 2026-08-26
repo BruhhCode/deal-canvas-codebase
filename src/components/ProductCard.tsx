@@ -12,6 +12,7 @@ import {
 } from "@/data/products";
 import { WishlistButton } from "./WishlistButton";
 import { StoreMark } from "./StoreMark";
+import { BrandMark } from "./BrandMark";
 
 export function ProductCard({ product, className }: { product: Product; className?: string }) {
   const offer = bestOffer(product);
@@ -59,8 +60,9 @@ export function ProductCard({ product, className }: { product: Product; classNam
           <Link
             to="/brand/$slug"
             params={{ slug: product.brand }}
-            className="text-[11px] font-semibold uppercase tracking-[0.14em] hover:text-clay"
+            className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] hover:text-clay"
           >
+            <BrandMark slug={product.brand} size="sm" />
             {brandName(product.brand)}
           </Link>
           {product.rating ? (

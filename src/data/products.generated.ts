@@ -40789,5 +40789,4805 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ]
+  },
+  {
+    id: "PI-0001",
+    slug: "samsonite-freeform-hardside-carry-on-luggage-electric-yellow",
+    name: "Freeform Hardside Carry-On Luggage - Electric Yellow",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Freeform Hardside Carry-On Luggage - Electric Yellow — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61UNg1GdHDL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 106,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 16239,
+        originalPrice: 16239,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Freeform-Hardside-Luggage-Spinner/dp/B0FY5NS7XX",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0002",
+    slug: "samsonite-omni-2-hardside-2-piece-set-icy-lilac",
+    name: "Omni 2 Hardside 2 Piece Set - Icy Lilac",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Omni 2 Hardside 2 Piece Set - Icy Lilac — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/91wWuKpW7WL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 87,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 14705,
+        originalPrice: 14705,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Hardside-Expandable-Luggage-Spinner/dp/B0G22KSRCM",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0003",
+    slug: "samsonite-centric-2-hardside-expandable-luggage-3-piece-set-black",
+    name: "Centric 2 Hardside Expandable Luggage 3-Piece Set - Black",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Centric 2 Hardside Expandable Luggage 3-Piece Set - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71vF7oZFuKL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 68,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 24359,
+        originalPrice: 24359,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Centric-Hardside-Expandable-Luggage/dp/B081JD53DJ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0004",
+    slug: "samsonite-andante-2-wheeled-duffel-bag-all-black",
+    name: "Andante 2 Wheeled Duffel Bag - All Black",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Andante 2 Wheeled Duffel Bag - All Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81vZ3E+MhlL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 49,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 11368,
+        originalPrice: 11368,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Inch-Rolling-Duffel-Black/dp/B07HPLJLZJ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0005",
+    slug: "samsonite-omni-2-domestic-carry-on-luggage-nova-teal",
+    name: "Omni 2 Domestic Carry-On Luggage - Nova Teal",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Omni 2 Domestic Carry-On Luggage - Nova Teal — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81CISS6f9UL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 230,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 7668,
+        originalPrice: 7668,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Hardside-Expandable-Luggage-Spinner/dp/B0FY7DMD1D",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0006",
+    slug: "samsonite-omni-2-pro-hardside-expandable-luggage-midnight-black",
+    name: "Omni 2 Pro Hardside Expandable Luggage - Midnight Black",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Omni 2 Pro Hardside Expandable Luggage - Midnight Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71LSTZPyTKL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 211,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 9924,
+        originalPrice: 9924,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-147749-1548-Midnight-Black/dp/B0BJ2R4YZK",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0007",
+    slug: "samsonite-saire-lte-softside-expandable-luggage-3pc-set-olive-green",
+    name: "Saire LTE Softside Expandable Luggage 3PC Set - Olive Green",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Saire LTE Softside Expandable Luggage 3PC Set - Olive Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71ejwDiBkoL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 192,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 28960,
+        originalPrice: 28960,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Softside-Expandable-Luggage-Spinners/dp/B0DX7HWBG7",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0008",
+    slug: "samsonite-omni-2-hardside-expandable-luggage-3-piece-set-emerald-green",
+    name: "Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81KD5bb+31L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 26795,
+        originalPrice: 26795,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Hardside-Expandable-Luggage-Spinner/dp/B0FY7F3BD5",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0009",
+    slug: "samsonite-scure-spinner-75-28-hardside-suitcase",
+    name: "Scure Spinner 75/28 Hardside Suitcase",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Scure Spinner 75/28 Hardside Suitcase — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81nKW2g0SPL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 11999,
+        originalPrice: 11999,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Scure-Spinner-10U002-49308/dp/B007WQJSGM",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0010",
+    slug: "samsonite-scure-renewed-classic-hardside-suitcase-black",
+    name: "Scure Renewed Classic Hardside Suitcase - Black",
+    brand: "samsonite",
+    category: "luggage",
+    subcategory: "Luggage & Travel Bags",
+    gender: "unisex",
+    description: "Samsonite Scure Renewed Classic Hardside Suitcase - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61ddE8PAs2L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "luggage",
+      "luggage-travel-bags"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 14615,
+        originalPrice: 14615,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Samsonite-Scure-Renewed-Classic-black/dp/B0G71JFW5Y",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0011",
+    slug: "tumi-just-in-case-tote-packable-travel-tote-bag",
+    name: "Just In Case Tote - Packable Travel Tote Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Just In Case Tote - Packable Travel Tote Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61eVyug9W5L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 13532,
+        originalPrice: 13532,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Just-Case-Tote-Black/dp/B0BBS5ZN6Z",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0012",
+    slug: "tumi-tyler-crossbody-women-s-nylon-crossbody-bag",
+    name: "Tyler Crossbody - Women's Nylon Crossbody Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Tyler Crossbody - Women's Nylon Crossbody Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71bRLbuJzhL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 22825,
+        originalPrice: 22825,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Voyageur-Tyler-Crossbody-Black/dp/B0BRSH725N",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0013",
+    slug: "tumi-contine-weekender-women-s-travel-weekend-bag",
+    name: "Contine Weekender - Women's Travel Weekend Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Contine Weekender - Women's Travel Weekend Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71K4dDd0-lL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 46011,
+        originalPrice: 46011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Voyageur-Contine-Weekender-Black/dp/B0BS6HWXZJ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0014",
+    slug: "tumi-voyageur-valetta-tote-women-s-carryall-bag",
+    name: "Voyageur Valetta Tote - Women's Carryall Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Voyageur Valetta Tote - Women's Carryall Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71fIkRJ9+DL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 38252,
+        originalPrice: 38252,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Tumi-Womens-Valetta-Large-Black/dp/B0G5BXSLB2",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0015",
+    slug: "tumi-persia-crossbody-nylon-travel-shoulder-bag",
+    name: "Persia Crossbody - Nylon Travel Shoulder Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Persia Crossbody - Nylon Travel Shoulder Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/712nPYMu+1L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 15066,
+        originalPrice: 15066,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Voyageur-Persia-Crossbody-Black/dp/B0BRSK77TG",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0016",
+    slug: "tumi-alpha-bravo-esports-pro-sling-bag",
+    name: "Alpha Bravo Esports Pro Sling Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Bravo Esports Pro Sling Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81qttN+B7DL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 28960,
+        originalPrice: 28960,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Mens-Esports-Sling-Black/dp/B0936YGFD8",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0017",
+    slug: "tumi-alpha-bravo-search-backpack",
+    name: "Alpha Bravo Search Backpack",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Bravo Search Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/916invaR6AL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 50251,
+        originalPrice: 50251,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Search-Backpack-Laptop-Travel/dp/B09N8RZPHN",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0018",
+    slug: "tumi-voyageur-celina-backpack-unisex",
+    name: "Voyageur Celina Backpack - Unisex",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Voyageur Celina Backpack - Unisex — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71-Yq1HdUzL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 38252,
+        originalPrice: 38252,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Voyageur-Celina-Backpack-Black/dp/B0BS6HY947",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0019",
+    slug: "tumi-unisex-double-expansion-duffel",
+    name: "Unisex Double Expansion Duffel",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Unisex Double Expansion Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71W0+T73lUL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 46011,
+        originalPrice: 46011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Unisex-Double-Expansion-Duffel-Black/dp/B0G5DFLYR3",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0020",
+    slug: "tumi-alpha-large-17-laptop-briefcase",
+    name: "Alpha Large 17\" Laptop Briefcase",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Large 17\" Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71JC5Mv6qfL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 46011,
+        originalPrice: 46011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Briefcase-Professional-Commute-Compartment/dp/B0G5D9J2S9",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0021",
+    slug: "tumi-voyageur-halsey-backpack",
+    name: "Voyageur Halsey Backpack",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Voyageur Halsey Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61wbFGIX2vL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 30493,
+        originalPrice: 30493,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Voyageur-Halsey-Backpack-Gunmetal/dp/B0BS6JR37Y",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0022",
+    slug: "tumi-just-in-case-foldable-backpack",
+    name: "Just In Case Foldable Backpack",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Just In Case Foldable Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61HFOAAFBFL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 13532,
+        originalPrice: 13532,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Just-Case-Backpack-Accessories/dp/B0BS6K31NP",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0023",
+    slug: "tumi-alpha-bravo-academy-brief-compact-laptop-briefcase",
+    name: "Alpha Bravo Academy Brief - Compact Laptop Briefcase",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Bravo Academy Brief - Compact Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71N5xVKnA7L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 38252,
+        originalPrice: 38252,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Mens-Academy-Briefcase-Black/dp/B09N977ZP6",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0024",
+    slug: "tumi-alpha-medium-crossbody",
+    name: "Alpha Medium Crossbody",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Medium Crossbody — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71h5+HJoa5L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 22825,
+        originalPrice: 22825,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Crossbody-Everyday-Essentials-Ballistic/dp/B0G5D7FCMY",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0025",
+    slug: "tumi-alpha-travel-kit-toiletry-bag",
+    name: "Alpha Travel Kit - Toiletry Bag",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Travel Kit - Toiletry Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81hjA05pHsL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 11909,
+        originalPrice: 11909,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Travel-Luggage-Accessories-Toiletry/dp/B07MK2LPC6",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0026",
+    slug: "tumi-voyageur-q-tote-lightweight-travel-tote",
+    name: "Voyageur Q Tote - Lightweight Travel Tote",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Voyageur Q Tote - Lightweight Travel Tote — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/51XPLLk8wRL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 22825,
+        originalPrice: 22825,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Voyageur-Everyday-Gunmetal-Hardware/dp/B0G5BY473G",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0027",
+    slug: "tumi-unisex-rhys-expandable-duffel",
+    name: "Unisex Rhys Expandable Duffel",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Unisex Rhys Expandable Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/51OJa4U9DDL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 46011,
+        originalPrice: 46011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Tumi-Unisex-Expandable-Duffel-Black/dp/B0G5DYR9D7",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0028",
+    slug: "tumi-alpha-tri-fold-garment-bag-carry-on",
+    name: "Alpha Tri-Fold Garment Bag Carry-On",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Tri-Fold Garment Bag Carry-On — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81MmL+Mr-WL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 49078,
+        originalPrice: 49078,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Garment-Tri-fold-Carry-Luggage/dp/B07M84Q258",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0029",
+    slug: "tumi-alpha-east-west-sling",
+    name: "Alpha East West Sling",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha East West Sling — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71Z+0NbiVnL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 76,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 19487,
+        originalPrice: 19487,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Premium-Travel-Pockets-Everyday/dp/B088K6S4XK",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0030",
+    slug: "tumi-alpha-large-dual-access-expandable-carry-on-luggage",
+    name: "Alpha Large Dual Access Expandable Carry-On Luggage",
+    brand: "tumi",
+    category: "bags",
+    subcategory: "Bags & Travel",
+    gender: "unisex",
+    description: "TUMI Alpha Large Dual Access Expandable Carry-On Luggage — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71PwNAUjQwL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags-travel"
+    ],
+    rating: 4,
+    reviews: 218,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 51875,
+        originalPrice: 51875,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/TUMI-Continental-4-Wheeled-Carry-Lightweight/dp/B0DP9YJ6R4",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0031",
+    slug: "longchamp-tote-le-pliage-one-m",
+    name: "Tote Le Pliage One M",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Tote Le Pliage One M — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/03/36103203_68066036_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 199,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 15355,
+        originalPrice: 15355,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-tote-le-pliage-one-m-item-36103203.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0032",
+    slug: "longchamp-handbag-le-pliage-one-l",
+    name: "Handbag Le Pliage One L",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Handbag Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/14/36102614_68066014_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 56,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 14359,
+        originalPrice: 14359,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-mano-le-pliage-one-l-item-36102614.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0033",
+    slug: "longchamp-tote-le-pliage-one-l",
+    name: "Tote Le Pliage One L",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Tote Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/27/36102627_68088228_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 237,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 17015,
+        originalPrice: 17015,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-tote-le-pliage-one-l-item-36102627.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0034",
+    slug: "longchamp-tote-le-pliage-one-m-2",
+    name: "Tote Le Pliage One M (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Tote Le Pliage One M (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/29/36103229_68042471_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 142,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 15355,
+        originalPrice: 15355,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-tote-le-pliage-one-m-item-36103229.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0035",
+    slug: "longchamp-handbag-le-pliage-one-s",
+    name: "Handbag Le Pliage One S",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Handbag Le Pliage One S — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/31/92/36103192_68099961_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 123,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 14110,
+        originalPrice: 14110,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-mano-le-pliage-one-s-item-36103192.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0036",
+    slug: "longchamp-travel-bag-le-pliage-one-l",
+    name: "Travel Bag Le Pliage One L",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Travel Bag Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/45/36102645_68065967_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 180,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19090,
+        originalPrice: 19090,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-viaje-le-pliage-one-l-item-36102645.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0037",
+    slug: "longchamp-handbag-le-pliage-one-s-2",
+    name: "Handbag Le Pliage One S (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Handbag Le Pliage One S (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/24/36102624_68065920_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 161,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 13197,
+        originalPrice: 13197,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-mano-le-pliage-one-s-item-36102624.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0038",
+    slug: "longchamp-bag-le-pliage-one",
+    name: "Bag Le Pliage One",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Bag Le Pliage One — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/25/36102625_68078666_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 11205,
+        originalPrice: 11205,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-le-pliage-one-item-36102625.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0039",
+    slug: "longchamp-travel-bag-le-pliage-one-s",
+    name: "Travel Bag Le Pliage One S",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Travel Bag Le Pliage One S — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/00/36103200_68039979_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 31125,
+        originalPrice: 31125,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-viaje-le-pliage-one-s-item-36103200.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0040",
+    slug: "longchamp-travel-bag-le-pliage-one-l-2",
+    name: "Travel Bag Le Pliage One L (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Travel Bag Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/31/95/36103195_68066056_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19090,
+        originalPrice: 19090,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-viaje-le-pliage-one-l-item-36103195.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0041",
+    slug: "longchamp-bag-le-pliage-one-2",
+    name: "Bag Le Pliage One (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Bag Le Pliage One (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/09/36102609_68078400_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 11205,
+        originalPrice: 11205,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-le-pliage-one-item-36102609.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0042",
+    slug: "longchamp-backpack-le-pliage-one-m",
+    name: "Backpack Le Pliage One M",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Backpack Le Pliage One M — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/27/36103227_72083535_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19090,
+        originalPrice: 19090,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-mochila-le-pliage-one-m-item-36103227.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0043",
+    slug: "longchamp-tote-le-pliage-one-l-2",
+    name: "Tote Le Pliage One L (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Tote Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/01/36103201_68070559_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 17015,
+        originalPrice: 17015,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-tote-le-pliage-one-l-item-36103201.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0044",
+    slug: "longchamp-handbag-le-pliage-one-l-2",
+    name: "Handbag Le Pliage One L (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Handbag Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/23/36103223_68070692_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 15355,
+        originalPrice: 15355,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-mano-le-pliage-one-l-item-36103223.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0045",
+    slug: "longchamp-travel-bag-le-pliage-one-xl",
+    name: "Travel Bag Le Pliage One XL",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Travel Bag Le Pliage One XL — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/48/36102648_71995536_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 21580,
+        originalPrice: 21580,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-viaje-le-pliage-one-xl-item-36102648.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0046",
+    slug: "longchamp-backpack-le-pliage-one-m-2",
+    name: "Backpack Le Pliage One M (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Backpack Le Pliage One M (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/13/36102613_68089012_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19090,
+        originalPrice: 19090,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-mochila-le-pliage-one-m-item-36102613.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0047",
+    slug: "longchamp-tote-le-pliage-one-l-3",
+    name: "Tote Le Pliage One L (3)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Tote Le Pliage One L (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/49/36102649_67942293_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 17015,
+        originalPrice: 17015,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-tote-le-pliage-one-l-item-36102649.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0048",
+    slug: "longchamp-travel-bag-le-pliage-one-xl-2",
+    name: "Travel Bag Le Pliage One XL (2)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Travel Bag Le Pliage One XL (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/22/36103222_68101792_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 21580,
+        originalPrice: 21580,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-bolsa-de-viaje-le-pliage-one-xl-item-36103222.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0049",
+    slug: "longchamp-tote-le-pliage-one-m-3",
+    name: "Tote Le Pliage One M (3)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Tote Le Pliage One M (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/32/36103232_67942421_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 15355,
+        originalPrice: 15355,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-tote-le-pliage-one-m-item-36103232.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0050",
+    slug: "longchamp-backpack-le-pliage-one-m-3",
+    name: "Backpack Le Pliage One M (3)",
+    brand: "longchamp",
+    category: "bags",
+    subcategory: "Bags",
+    gender: "women",
+    description: "Longchamp Backpack Le Pliage One M (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/16/36102616_68099583_480.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "bags",
+      "bags"
+    ],
+    rating: 4,
+    reviews: 232,
+    views: 0,
+    offers: [
+      {
+        store: "farfetch-store",
+        price: 19090,
+        originalPrice: 19090,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.farfetch.com/shopping/women/longchamp-mochila-le-pliage-one-m-item-36102616.aspx",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0051",
+    slug: "carters-unisex-baby-5-pack-side-snap-short-sleeve-bodysuit",
+    name: "Unisex Baby 5-pack Side Snap Short-sleeve Bodysuit",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Unisex Baby 5-pack Side Snap Short-sleeve Bodysuit — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/91C8Z9G9j9L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 213,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1642,
+        originalPrice: 1642,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Bodysuit-Newborn/dp/B083X7F38P",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0052",
+    slug: "carters-baby-6-piece-bodysuits-and-pants-set",
+    name: "Baby 6-piece Bodysuits and Pants Set",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby 6-piece Bodysuits and Pants Set — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81D7d6cfKwL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 194,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2011,
+        originalPrice: 2011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-6-Piece-Bodysuits/dp/B01MQD5THT",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0053",
+    slug: "carters-baby-girls-6-pack-short-sleeve-bodysuit",
+    name: "Baby Girls 6 Pack Short Sleeve Bodysuit",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Girls 6 Pack Short Sleeve Bodysuit — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81fLiGg0L8L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 175,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1642,
+        originalPrice: 1642,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Short-Sleeve-Bodysuit/dp/B073X38K8L",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0054",
+    slug: "carters-baby-3-pack-neutral-sleep-and-play",
+    name: "Baby 3-Pack Neutral Sleep and Play",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby 3-Pack Neutral Sleep and Play — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71Du1VFs13L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 156,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2052,
+        originalPrice: 2052,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Neutral-Elephant/dp/B075Z2HPPZ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0055",
+    slug: "carters-baby-girls-6-piece-bodysuits-and-pants-set",
+    name: "Baby Girls 6-piece Bodysuits and Pants Set",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Girls 6-piece Bodysuits and Pants Set — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81kcdsSnDqL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 137,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2011,
+        originalPrice: 2011,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-6-Piece-Character/dp/B01MTNHGW9",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0056",
+    slug: "carters-baby-girls-3-pack-cotton-sleeper-gown",
+    name: "Baby Girls' 3-pack Cotton Sleeper Gown",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Girls' 3-pack Cotton Sleeper Gown — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71RdGSkQOTL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 118,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1572,
+        originalPrice: 1572,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Sleeper-Elephants/dp/B08G8SG2N8",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0057",
+    slug: "carters-baby-hooded-sweater-jacket-with-sherpa-lining",
+    name: "Baby Hooded Sweater Jacket with Sherpa Lining",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Hooded Sweater Jacket with Sherpa Lining — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/910pajFCcPL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 99,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1477,
+        originalPrice: 1477,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Hooded-Sweater/dp/B07CMHXV56",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0058",
+    slug: "carters-baby-boys-4-piece-jacket-pant-and-bodysuit-set",
+    name: "Baby Boys 4-piece Jacket, Pant, and Bodysuit Set",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Boys 4-piece Jacket, Pant, and Bodysuit Set — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/915fikz2NTL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1724,
+        originalPrice: 1724,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-4-Piece-Bodysuit/dp/B07MY1BN8R",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0059",
+    slug: "carters-baby-8-pack-short-sleeve-bodysuit",
+    name: "Baby 8-Pack Short-Sleeve Bodysuit",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby 8-Pack Short-Sleeve Bodysuit — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81yDahe4h6L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1635,
+        originalPrice: 1635,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Short-Sleeve-Bodysuit/dp/B08G8SYDY1",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0060",
+    slug: "carters-baby-boys-3-pack-snap-up-rompers",
+    name: "Baby Boys 3 pack Snap up Rompers",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Boys 3 pack Snap up Rompers — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81j0asOYlbL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1765,
+        originalPrice: 1765,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Snap-up-Rompers/dp/B072JLTKSW",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0061",
+    slug: "carters-baby-neutral-2-pack-cotton-footed-sleep-and-play",
+    name: "Baby Neutral 2-pack Cotton Footed Sleep and Play",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Neutral 2-pack Cotton Footed Sleep and Play — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/91q1etzCm+L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1395,
+        originalPrice: 1395,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Neutral-2-Pack/dp/B07Y2K1ZDJ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0062",
+    slug: "carters-baby-girls-cotton-footed-sleep-and-play-pack-of-2",
+    name: "Baby Girls' Cotton Footed Sleep and Play, Pack of 2",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Girls' Cotton Footed Sleep and Play, Pack of 2 — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81II3wjE3gL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 145,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1177,
+        originalPrice: 1177,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Cotton-Preemie/dp/B0BLCXLP4Q",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0063",
+    slug: "carters-baby-6-piece-bodysuits-and-pants-set-2",
+    name: "Baby 6-piece Bodysuits and Pants Set (2)",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby 6-piece Bodysuits and Pants Set (2) — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81lxx-BnYIL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 126,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1849,
+        originalPrice: 1849,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Neutral-Bodysuits/dp/B0FNPVPC2W",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0064",
+    slug: "carters-baby-boys-3-pack-short-sleeve-tee-shirts",
+    name: "Baby Boys' 3-Pack Short-Sleeve Tee Shirts",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Boys' 3-Pack Short-Sleeve Tee Shirts — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81Lzng5wTQL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 183,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1073,
+        originalPrice: 1073,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Short-sleeve-Stripes/dp/B09M8Y6RVT",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0065",
+    slug: "carters-baby-boys-3-pack-rompers",
+    name: "Baby Boys' 3-pack Rompers",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Boys' 3-pack Rompers — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81vGZ8aneWL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 164,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2093,
+        originalPrice: 2093,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Rompers-Turquoise/dp/B072JW2CG7",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0066",
+    slug: "carters-babys-3-pack-snug-fit-footless-cotton-pajamas",
+    name: "Babys' 3 pack Snug Fit Footless Cotton Pajamas",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Babys' 3 pack Snug Fit Footless Cotton Pajamas — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81SDap+LHjL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 221,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2216,
+        originalPrice: 2216,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-Snug-Fit-Footless/dp/B0BL8FBQ6Z",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0067",
+    slug: "carters-baby-boys-3-pack-cotton-sleeper-gown",
+    name: "Baby Boys 3-pack Cotton Sleeper Gown",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Boys 3-pack Cotton Sleeper Gown — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81pZ62cNXRL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 202,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1355,
+        originalPrice: 1355,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-3-Pack-Sleeper/dp/B08G8RSDJY",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0068",
+    slug: "carters-baby-boys-2-way-zip-thermal-footed-sleep-and-play-pack-of-2",
+    name: "Baby Boys 2-way Zip Thermal Footed Sleep and Play, Pack of 2",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Boys 2-way Zip Thermal Footed Sleep and Play, Pack of 2 — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81V-mOhNUSL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 155,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1395,
+        originalPrice: 1395,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Simple-Joys-Carters-2-Pack-Dinosaur/dp/B07ZPQ8VDN",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0069",
+    slug: "carters-unisex-baby-organic-cotton-gauze-shortall",
+    name: "Unisex Baby Organic Cotton Gauze Shortall",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Unisex Baby Organic Cotton Gauze Shortall — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81Yf2YMAkwL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 136,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1658,
+        originalPrice: 1658,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/little-planet-carters-Neutral-Organic/dp/B0GGVJVDT9",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0070",
+    slug: "carters-baby-girls-8-pack-short-sleeve-onesies-bodysuits",
+    name: "Baby Girls' 8-pack Short Sleeve Onesies Bodysuits",
+    brand: "carters",
+    category: "baby-clothing",
+    subcategory: "Baby Clothing",
+    gender: "unisex",
+    description: "Carter's Baby Girls' 8-pack Short Sleeve Onesies Bodysuits — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81mfiIoQ1-L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-clothing",
+      "baby-clothing"
+    ],
+    rating: 4,
+    reviews: 98,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2048,
+        originalPrice: 2048,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Gerber-8-Pack-Onesies-Bodysuits-Newborn/dp/B08CQRWXH6",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0071",
+    slug: "oshkosh-bgosh-kids-aquatic-water-sports-sandals",
+    name: "Kids' Aquatic Water Sports Sandals",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Kids' Aquatic Water Sports Sandals — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81O5Z9lH1gL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 117,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2075,
+        originalPrice: 2075,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Os22p01b-Water-Little/dp/B09FYDCBQV",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0072",
+    slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls",
+    name: "Baby Boys World's Best Overalls",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Boys World's Best Overalls — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71UymUfFREL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 60,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1804,
+        originalPrice: 1804,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OSHKOSH-BGOSH-Worlds-Overalls-Brown/dp/B0GZX2G4C6",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0073",
+    slug: "oshkosh-bgosh-girls-world-s-best-overalls",
+    name: "Girls World's Best Overalls",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Girls World's Best Overalls — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71RgPOD7dGL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 79,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1082,
+        originalPrice: 1082,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-Bgosh-Girl-Worlds-Overalls/dp/B0GKJLHSZD",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0074",
+    slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-2",
+    name: "Baby Boys World's Best Overalls (2)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Boys World's Best Overalls (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/816kOTFfL-L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 222,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1443,
+        originalPrice: 1443,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Worlds-Best-Overalls/dp/B0GHZN3C1Z",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0075",
+    slug: "oshkosh-bgosh-girls-world-s-best-overalls-2",
+    name: "Girls World's Best Overalls (2)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Girls World's Best Overalls (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81g9fSZ33tL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 41,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2165,
+        originalPrice: 2165,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-Bgosh-Worlds-Overalls-Multi/dp/B0GP9BJZNB",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0076",
+    slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-3",
+    name: "Baby Boys World's Best Overalls (3)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Boys World's Best Overalls (3) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/91SN1xHg2oL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 184,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 3248,
+        originalPrice: 3248,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Worlds-Overalls-Railroad/dp/B0DJWRV1ZZ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0077",
+    slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-floral",
+    name: "Baby Girls World's Best Overalls (Floral)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Girls World's Best Overalls (Floral) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71Nhp6AM54L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 203,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2526,
+        originalPrice: 2526,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OSHKOSH-BGOSH-Worlds-Overalls-Floral/dp/B0GZWVJBQ4",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0078",
+    slug: "oshkosh-bgosh-girls-athletic-shoes-sneaker",
+    name: "Girls Athletic Shoes Sneaker",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Girls Athletic Shoes Sneaker — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71KZBXSGZzL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 50,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2707,
+        originalPrice: 2707,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Girls-Sneaker-Toddler/dp/B09Y2D3ZZ7",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0079",
+    slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-hickory",
+    name: "Baby Girls World's Best Overalls (Hickory)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Girls World's Best Overalls (Hickory) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71ugrrivruL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 69,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2165,
+        originalPrice: 2165,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-Worlds-Overalls-Hickory-Stripe/dp/B0DJWQHSKD",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0080",
+    slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-denim",
+    name: "Baby Girls World's Best Overalls (Denim)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Girls World's Best Overalls (Denim) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81JAp5LMscL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2526,
+        originalPrice: 2526,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OSHKOSH-BGOSH-Worlds-Overalls-Denim/dp/B0GZX3M7Z3",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0081",
+    slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-olive",
+    name: "Baby Boys World's Best Overalls (Olive)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Boys World's Best Overalls (Olive) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81FTDambRtL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2165,
+        originalPrice: 2165,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-Bgosh-Worlds-Overalls-Olive/dp/B0GHBRZ659",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0082",
+    slug: "oshkosh-bgosh-boy-s-short-sleeve-henley",
+    name: "Boy's Short Sleeve Henley",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Boy's Short Sleeve Henley — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71i99fmjolL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1534,
+        originalPrice: 1534,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OSHKOSH-BGOSH-Sleeve-Henley-Stripe/dp/B0GZWSMVGR",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0083",
+    slug: "oshkosh-bgosh-baby-girls-dress",
+    name: "Baby Girls' Dress",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Girls' Dress — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81awiTqpOUL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1624,
+        originalPrice: 1624,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Girl-Dress-Bandana/dp/B0GPZV75LZ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0084",
+    slug: "oshkosh-bgosh-boy-s-short-sleeve-henley-2",
+    name: "Boy's Short Sleeve Henley (2)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Boy's Short Sleeve Henley (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81kQUrENuLL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 993,
+        originalPrice: 993,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OSHKOSH-BGOSH-Sleeve-Henley-Stripe/dp/B0GZX2P4WF",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0085",
+    slug: "oshkosh-bgosh-boys-bruno-shoes",
+    name: "Boys' Bruno Shoes",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Boys' Bruno Shoes — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71Zu6HVp1cL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1624,
+        originalPrice: 1624,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Unisex-Child-Chocolate-Toddler/dp/B0BCSC748L",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0086",
+    slug: "oshkosh-bgosh-boys-pull-on-shorts",
+    name: "Boys Pull on Shorts",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Boys Pull on Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/814EA8em15L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1173,
+        originalPrice: 1173,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Boys-Shorts-Taupe/dp/B0DQ9H1RD8",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0087",
+    slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-green",
+    name: "Baby Boys World's Best Overalls (Green)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Baby Boys World's Best Overalls (Green) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81AE+B3nvrL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1985,
+        originalPrice: 1985,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-Bgosh-Worlds-Overalls-Green/dp/B0GKJPV3TF",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0088",
+    slug: "oshkosh-bgosh-boys-putney-sneaker",
+    name: "Boys' Putney Sneaker",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Boys' Putney Sneaker — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71QLphJeDHL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1534,
+        originalPrice: 1534,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Putney-Sneaker-Toddler/dp/B09Y2CFLGX",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0089",
+    slug: "oshkosh-bgosh-kids-marie-casual-sandals",
+    name: "Kids' Marie Casual Sandals",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Kids' Marie Casual Sandals — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71R5mzBUyAL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2165,
+        originalPrice: 2165,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OshKosh-BGosh-Sandal-Purple-Little/dp/B09FYF49VS",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0090",
+    slug: "oshkosh-bgosh-boy-s-short-sleeve-henley-3",
+    name: "Boy's Short Sleeve Henley (3)",
+    brand: "oshkosh-bgosh",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "OshKosh B'gosh Boy's Short Sleeve Henley (3) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/818Dzpz5VZL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 812,
+        originalPrice: 812,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/OSHKOSH-BGOSH-Short-Sleeve-Henley/dp/B0GTW7ZQP6",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0091",
+    slug: "the-childrens-place-girls-2-piece-tankini-swimsuit",
+    name: "Girls 2-Piece Tankini Swimsuit",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls 2-Piece Tankini Swimsuit — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71sagIhazWL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1493,
+        originalPrice: 1493,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-2-Piece-Tankini-Swimsuit/dp/B0BNP5BPZW",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0092",
+    slug: "the-childrens-place-girls-short-sleeve-graphic-t-shirts-5-pack",
+    name: "Girls' Short Sleeve Graphic T-shirts (5-Pack)",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Short Sleeve Graphic T-shirts (5-Pack) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71aHUg7soRL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2269,
+        originalPrice: 2269,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Assorted-Everyday-Multipacks/dp/B0DKZVCV22",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0093",
+    slug: "the-childrens-place-boys-pull-on-cargo-pants-multipacks",
+    name: "Boys' Pull on Cargo Pants, Multipacks",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Boys' Pull on Cargo Pants, Multipacks — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61r1xiZt9VL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 4120,
+        originalPrice: 4120,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Cargo-Pants-Black/dp/B08Y19DTV2",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0094",
+    slug: "the-childrens-place-girls-flare-leggings",
+    name: "Girls' Flare Leggings",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Flare Leggings — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61hX1SpwDLL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2449,
+        originalPrice: 2449,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Girls-Leggings-Vintage/dp/B0H4MG67JZ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0095",
+    slug: "the-childrens-place-baby-girls-and-toddler-graphic-t-shirts-4-pack",
+    name: "Baby Girls' and Toddler Graphic T-Shirts, 4 Pack",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Baby Girls' and Toddler Graphic T-Shirts, 4 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71jguxpdH2L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1672,
+        originalPrice: 1672,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Assorted-multipacks-Butterfly/dp/B0F67MDN3V",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0096",
+    slug: "the-childrens-place-baby-girls-and-toddler-assorted-solid-leggings-multipacks",
+    name: "Baby Girls and Toddler Assorted Solid Leggings, Multipacks",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Baby Girls and Toddler Assorted Solid Leggings, Multipacks — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61yj7ziiH7L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2449,
+        originalPrice: 2449,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Toddler-Girls-Leggings/dp/B0BMD1ZM1Q",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0097",
+    slug: "the-childrens-place-girls-assorted-cartwheel-shorts",
+    name: "Girls Assorted Cartwheel Shorts",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls Assorted Cartwheel Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71Y28z8CrpL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1970,
+        originalPrice: 1970,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Cartwheel-Shorts-Yellow/dp/B0BMDNQ9NT",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0098",
+    slug: "the-childrens-place-girls-basic-cardigan",
+    name: "Girls Basic Cardigan",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls Basic Cardigan — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81xHOG4Z9NL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1731,
+        originalPrice: 1731,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Uniform-Cardigan-Sweater/dp/B01FWOOZ2W",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0099",
+    slug: "the-childrens-place-girls-plaid-stretch-jacquard-short-sleeve-dress",
+    name: "Girls' Plaid Stretch Jacquard Short Sleeve Dress",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Plaid Stretch Jacquard Short Sleeve Dress — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81y53f3tArL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 896,
+        originalPrice: 896,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Girls-Skater-SleeveFair/dp/B0FQ7S689R",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0100",
+    slug: "the-childrens-place-boys-performance-basketball-shorts",
+    name: "Boys' Performance Basketball Shorts",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Boys' Performance Basketball Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71ytHWrxpEL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 62,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1194,
+        originalPrice: 1194,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Athletic-Basketball-Shorts/dp/B0BNDCRMP2",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0101",
+    slug: "the-childrens-place-girls-leggings-8-pack",
+    name: "girls Leggings 8 Pack",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place girls Leggings 8 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71IXWvxftoL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 43,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 3045,
+        originalPrice: 3045,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Leggings-Purple-Orange/dp/B0BMDZZRK1",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0102",
+    slug: "the-childrens-place-girls-long-sleeve-graphic-t-shirts-5-pack",
+    name: "Girls' Long Sleeve Graphic T-Shirts, 5 Pack",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Long Sleeve Graphic T-Shirts, 5 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71KDjVhhICL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 100,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2449,
+        originalPrice: 2449,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Animals-T-Shirts-Multipacks/dp/B0D9R5R72R",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0103",
+    slug: "the-childrens-place-baby-and-toddler-stretch-straight-chino-pants",
+    name: "Baby and Toddler Stretch Straight Chino Pants",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Baby and Toddler Stretch Straight Chino Pants — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81ws4e8LobL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 81,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1015,
+        originalPrice: 1015,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Baby-Chino-Pants/dp/B0851KCMZD",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0104",
+    slug: "the-childrens-place-baby-girls-and-toddler-pull-on-chambray-shorts",
+    name: "Baby Girls' and Toddler Pull on Chambray Shorts",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Baby Girls' and Toddler Pull on Chambray Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/91s4rxObM4L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 2806,
+        originalPrice: 2806,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Toddler-Shorts-Wash-2/dp/B0C6W74CKL",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0105",
+    slug: "the-childrens-place-boys-uniform-quick-dry-jogger-shorts",
+    name: "Boys' Uniform Quick Dry Jogger Shorts",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Boys' Uniform Quick Dry Jogger Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81hrB+pP0eL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1314,
+        originalPrice: 1314,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Uniform-Jogger-Shorts/dp/B0CTPMGJCT",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0106",
+    slug: "the-childrens-place-girls-solid-bike-shorts",
+    name: "Girls' Solid Bike Shorts",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Solid Bike Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71MxYQA3QkL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 176,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 3165,
+        originalPrice: 3165,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Shorts-Spring-8-Pack/dp/B0FQ6VX32G",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0107",
+    slug: "the-childrens-place-boys-pull-on-cargo-pants",
+    name: "Boys' Pull on Cargo Pants",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Boys' Pull on Cargo Pants — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71917uJe5nL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 157,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1015,
+        originalPrice: 1015,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Little-Pull-Cargo/dp/B00QGSM30U",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0108",
+    slug: "the-childrens-place-boys-straight-leg-jeans",
+    name: "Boys' Straight Leg Jeans",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Boys' Straight Leg Jeans — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/911EZ2IUsaL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 110,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 3702,
+        originalPrice: 3702,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Three-Straight-Jeans/dp/B08P53K95W",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0109",
+    slug: "the-childrens-place-girls-unicorns-butterfly-short-sleeve-graphic-t-shirts-3-pack",
+    name: "Girls' Unicorns,Butterfly Short Sleeve Graphic T-Shirts, 3 Pack",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Unicorns,Butterfly Short Sleeve Graphic T-Shirts, 3 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/7121hTmElfL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 91,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 1493,
+        originalPrice: 1493,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Graphic-T-Shirt-Unicorn/dp/B09Q7PN2K8",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0110",
+    slug: "the-childrens-place-girls-denim-bermuda-shorts",
+    name: "Girls' Denim Bermuda Shorts",
+    brand: "the-childrens-place",
+    category: "kids-clothing",
+    subcategory: "Kids' Clothing",
+    gender: "unisex",
+    description: "The Children's Place Girls' Denim Bermuda Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/91J7TysMwqL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "kids-clothing",
+      "kids-clothing"
+    ],
+    rating: 4,
+    reviews: 59,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 5374,
+        originalPrice: 5374,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Childrens-Place-Girls-Shortie-3-Pack/dp/B0CJKGV72M",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0111",
+    slug: "fossil-men-s-nate-quartz-chronograph-watch",
+    name: "Men's Nate Quartz Chronograph Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Nate Quartz Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 40,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10292,
+        originalPrice: 10292,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Steel-Chronograph/dp/B008AXYWHQ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0112",
+    slug: "fossil-women-s-riley-quartz-stainless-steel-multifunction-watch",
+    name: "Women's Riley Quartz Stainless Steel Multifunction Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Women's Riley Quartz Stainless Steel Multifunction Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71HAooNcaYL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 97,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 8051,
+        originalPrice: 8051,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-ES3203-Multifunction-Gold-Tone-Stainless/dp/B009BEOAGQ",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0113",
+    slug: "fossil-men-s-neutra-quartz-stainless-steel-chronograph-watch",
+    name: "Men's Neutra Quartz Stainless Steel Chronograph Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Neutra Quartz Stainless Steel Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/714AEIyeizL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 78,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 8549,
+        originalPrice: 8549,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Neutra-Quartz-Stainless-Silver/dp/B08QVCPDVT",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0114",
+    slug: "fossil-men-s-grant-quartz-chronograph-watch",
+    name: "Men's Grant Quartz Chronograph Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Grant Quartz Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81cfp4YcCtL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 135,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 9213,
+        originalPrice: 9213,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Leather-Chronograph/dp/B00STAYV6C",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0115",
+    slug: "fossil-women-s-raquel-quartz-stainless-steel-watch",
+    name: "Women's Raquel Quartz Stainless Steel Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Women's Raquel Quartz Stainless Steel Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61LY38tKASL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 116,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10043,
+        originalPrice: 10043,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Womens-Raquel-Stainless-Three-Hand/dp/B0B4H6K6J7",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0116",
+    slug: "fossil-men-s-neutra-quartz-stainless-steel-chronograph-watch-2",
+    name: "Men's Neutra Quartz Stainless Steel Chronograph Watch (2)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Neutra Quartz Stainless Steel Chronograph Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/713qy8eBfsL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 173,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 11205,
+        originalPrice: 11205,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Neutra-Chrono-Stainless-Leather/dp/B074ZHN54C",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0117",
+    slug: "fossil-men-s-neutra-quartz-stainless-steel-chronograph-watch-3",
+    name: "Men's Neutra Quartz Stainless Steel Chronograph Watch (3)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Neutra Quartz Stainless Steel Chronograph Watch (3) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71Qck57ImqL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 154,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10209,
+        originalPrice: 10209,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Neutra-Chrono-Quartz-Stainless/dp/B075QFF5BV",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0118",
+    slug: "fossil-men-s-minimalist-quartz-stainless-steel-three-hand-watch",
+    name: "Men's Minimalist Quartz Stainless Steel Three-Hand Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71WAr6TSVKL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 107,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 7636,
+        originalPrice: 7636,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Mens-Minimalist-Stainless-Analog-Quartz/dp/B079D8QRRL",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0119",
+    slug: "fossil-coachman-quartz-chronograph-leather-watch",
+    name: "Coachman Quartz Chronograph Leather Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Coachman Quartz Chronograph Leather Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71MlmOso55L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 88,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 9545,
+        originalPrice: 9545,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Leather-Casual/dp/B001SQLI9C",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0120",
+    slug: "fossil-coachman-quartz-chronograph-leather-watch-2",
+    name: "Coachman Quartz Chronograph Leather Watch (2)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Coachman Quartz Chronograph Leather Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81hmv3QuQfL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 80,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10292,
+        originalPrice: 10292,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Coachman-Quartz-Stainless-Leather/dp/B00DUCIMCI",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0121",
+    slug: "fossil-men-s-grant-quartz-chronograph-watch-2",
+    name: "Men's Grant Quartz Chronograph Watch (2)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Grant Quartz Chronograph Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/818lBoWqXtL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 61,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 11537,
+        originalPrice: 11537,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Leather-Chronograph/dp/B017SN1OI8",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0122",
+    slug: "fossil-men-s-minimalist-quartz-stainless-steel-three-hand-watch-2",
+    name: "Men's Minimalist Quartz Stainless Steel Three-Hand Watch (2)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81sLG+YEFqL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 42,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 9296,
+        originalPrice: 9296,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Minimalist-Quartz-Stainless-Leather/dp/B06W2JSJ4H",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0123",
+    slug: "fossil-men-s-dean-quartz-stainless-steel-chronograph-watch",
+    name: "Men's Dean Quartz Stainless Steel Chronograph Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Dean Quartz Stainless Steel Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71QoSMBhfVL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 223,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10707,
+        originalPrice: 10707,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Two-Tone-Stainless-Chronograph/dp/B00AG37H8Y",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0124",
+    slug: "fossil-men-s-minimalist-quartz-stainless-steel-three-hand-watch-3",
+    name: "Men's Minimalist Quartz Stainless Steel Three-Hand Watch (3)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch (3) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/51NYPwjoHhL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 204,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 9047,
+        originalPrice: 9047,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Minimalist-Quartz-Stainless-Leather/dp/B079DD13WB",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0125",
+    slug: "fossil-men-s-carraway-quartz-stainless-steel-three-hand-watch",
+    name: "Men's Carraway Quartz Stainless Steel Three-Hand Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Carraway Quartz Stainless Steel Three-Hand Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71R9UXW6d3L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 185,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 8549,
+        originalPrice: 8549,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Carraway-Stainless-Leather-Three-Hand/dp/B0C77NPQFH",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0126",
+    slug: "fossil-women-s-carlie-watch-and-bracelet-set",
+    name: "Women's Carlie Watch and Bracelet Set",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Women's Carlie Watch and Bracelet Set — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61Cx7A+Yy4L._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 166,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 6059,
+        originalPrice: 6059,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Carlie-Mini-ES4701-Rose/dp/B07XYWS79G",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0127",
+    slug: "fossil-men-s-machine-quartz-stainless-steel-three-hand-watch",
+    name: "Men's Machine Quartz Stainless Steel Three-Hand Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Machine Quartz Stainless Steel Three-Hand Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71phfGfh8GL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 147,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 7802,
+        originalPrice: 7802,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Machine-Quartz-Stainless-Steel/dp/B00A9WVTJ0",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0128",
+    slug: "fossil-men-s-grant-quartz-chronograph-watch-3",
+    name: "Men's Grant Quartz Chronograph Watch (3)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Grant Quartz Chronograph Watch (3) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/713EyiqlnTL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 9545,
+        originalPrice: 9545,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Leather-Chronograph/dp/B00AFTTQ8I",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0129",
+    slug: "fossil-men-s-nate-quartz-chronograph-watch-2",
+    name: "Men's Nate Quartz Chronograph Watch (2)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Nate Quartz Chronograph Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10292,
+        originalPrice: 10292,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Steel-Chronograph/dp/B008AXYWHQ2",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0130",
+    slug: "fossil-women-s-raquel-quartz-stainless-steel-watch-2",
+    name: "Women's Raquel Quartz Stainless Steel Watch (2)",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Women's Raquel Quartz Stainless Steel Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/61LY38tKASL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 71,
+    views: 0,
+    offers: [
+      {
+        store: "amazon",
+        price: 10043,
+        originalPrice: 10043,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Womens-Raquel-Stainless-Three-Hand2/dp/B0B4H6K6J8",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0131",
+    slug: "gap-kids-kids-rib-t-shirt",
+    name: "Kids Rib T-Shirt",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Rib T-Shirt — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/862/268/cn62862268.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 90,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 913,
+        originalPrice: 1656,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=898840062",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0132",
+    slug: "gap-kids-kids-rib-t-shirt-2",
+    name: "Kids Rib T-Shirt (2)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Rib T-Shirt (2) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/467/196/cn62467196.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 109,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 913,
+        originalPrice: 1656,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=898840042",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0133",
+    slug: "gap-kids-kids-rib-t-shirt-3",
+    name: "Kids Rib T-Shirt (3)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Rib T-Shirt (3) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/792/345/cn61792345.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 128,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 913,
+        originalPrice: 1656,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=898840072",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0134",
+    slug: "gap-kids-kids-rib-t-shirt-4",
+    name: "Kids Rib T-Shirt (4)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Rib T-Shirt (4) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/792/349/cn61792349.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 195,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 913,
+        originalPrice: 1656,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=898840052",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0135",
+    slug: "gap-kids-kids-rib-t-shirt-5",
+    name: "Kids Rib T-Shirt (5)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Rib T-Shirt (5) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/882/427/cn61882427.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 214,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 1079,
+        originalPrice: 1656,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=898840032",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0136",
+    slug: "gap-kids-kids-square-neck-t-shirt",
+    name: "Kids Square-Neck T-Shirt",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Square-Neck T-Shirt — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/117/066/cn62117066.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 233,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 1244,
+        originalPrice: 2486,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=894337012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0137",
+    slug: "gap-kids-kids-square-neck-t-shirt-2",
+    name: "Kids Square-Neck T-Shirt (2)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Square-Neck T-Shirt (2) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/879/436/cn61879436.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 52,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 1244,
+        originalPrice: 2486,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=894337022",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0138",
+    slug: "gap-kids-kids-square-neck-t-shirt-3",
+    name: "Kids Square-Neck T-Shirt (3)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Square-Neck T-Shirt (3) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/116/576/cn62116576.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 119,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 1244,
+        originalPrice: 2486,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=894337002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0139",
+    slug: "gap-kids-kids-square-neck-t-shirt-4",
+    name: "Kids Square-Neck T-Shirt (4)",
+    brand: "gap-kids",
+    category: "girls-short-sleeved-tees",
+    subcategory: "Girls Short-Sleeved Tees",
+    gender: "unisex",
+    description: "GAP Kids Kids Square-Neck T-Shirt (4) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/096/790/cn62096790.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-short-sleeved-tees",
+      "girls-short-sleeved-tees"
+    ],
+    rating: 4,
+    reviews: 138,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2074,
+        originalPrice: 2486,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=894337032",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0140",
+    slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set",
+    name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set",
+    brand: "gap-kids",
+    category: "baby-sleepwear",
+    subcategory: "Baby Sleepwear",
+    gender: "unisex",
+    description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/446/044/cn63446044.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-sleepwear",
+      "baby-sleepwear"
+    ],
+    rating: 4,
+    reviews: 66,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2241,
+        originalPrice: 2901,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=912952002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0141",
+    slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-2",
+    name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (2)",
+    brand: "gap-kids",
+    category: "baby-sleepwear",
+    subcategory: "Baby Sleepwear",
+    gender: "unisex",
+    description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set (2) — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/406/967/cn63406967.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-sleepwear",
+      "baby-sleepwear"
+    ],
+    rating: 4,
+    reviews: 47,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2241,
+        originalPrice: 2901,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=912954002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0142",
+    slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-3",
+    name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (3)",
+    brand: "gap-kids",
+    category: "baby-sleepwear",
+    subcategory: "Baby Sleepwear",
+    gender: "unisex",
+    description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set (3) — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/464/727/cn63464727.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-sleepwear",
+      "baby-sleepwear"
+    ],
+    rating: 4,
+    reviews: 104,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2241,
+        originalPrice: 2901,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=912955002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0143",
+    slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-4",
+    name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (4)",
+    brand: "gap-kids",
+    category: "baby-sleepwear",
+    subcategory: "Baby Sleepwear",
+    gender: "unisex",
+    description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set (4) — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0063/445/228/cn63445228.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "baby-sleepwear",
+      "baby-sleepwear"
+    ],
+    rating: 4,
+    reviews: 85,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2241,
+        originalPrice: 2901,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=912953002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0144",
+    slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans",
+    name: "Kids Low Rise Stride Wide-Leg Jeans",
+    brand: "gap-kids",
+    category: "girls-jeans",
+    subcategory: "Girls Jeans",
+    gender: "unisex",
+    description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/835/553/cn62835553.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-jeans",
+      "girls-jeans"
+    ],
+    rating: 4,
+    reviews: 190,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2407,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=501265002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0145",
+    slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-2",
+    name: "Kids Low Rise Stride Wide-Leg Jeans (2)",
+    brand: "gap-kids",
+    category: "girls-jeans",
+    subcategory: "Girls Jeans",
+    gender: "unisex",
+    description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (2) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0054/751/919/cn54751919.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-jeans",
+      "girls-jeans"
+    ],
+    rating: 4,
+    reviews: 171,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2407,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=891508002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0146",
+    slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-3",
+    name: "Kids Low Rise Stride Wide-Leg Jeans (3)",
+    brand: "gap-kids",
+    category: "girls-jeans",
+    subcategory: "Girls Jeans",
+    gender: "unisex",
+    description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (3) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0056/276/462/cn56276462.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-jeans",
+      "girls-jeans"
+    ],
+    rating: 4,
+    reviews: 228,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2905,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=525732002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0147",
+    slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-4",
+    name: "Kids Low Rise Stride Wide-Leg Jeans (4)",
+    brand: "gap-kids",
+    category: "girls-jeans",
+    subcategory: "Girls Jeans",
+    gender: "unisex",
+    description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (4) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0060/112/464/cn60112464.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-jeans",
+      "girls-jeans"
+    ],
+    rating: 4,
+    reviews: 209,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 1909,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=819481002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0148",
+    slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-5",
+    name: "Kids Low Rise Stride Wide-Leg Jeans (5)",
+    brand: "gap-kids",
+    category: "girls-jeans",
+    subcategory: "Girls Jeans",
+    gender: "unisex",
+    description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (5) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0061/365/927/cn61365927.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-jeans",
+      "girls-jeans"
+    ],
+    rating: 4,
+    reviews: 114,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 2073,
+        originalPrice: 4976,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=881333002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0149",
+    slug: "gap-kids-kids-flare-leggings",
+    name: "Kids Flare Leggings",
+    brand: "gap-kids",
+    category: "girls-active-bottoms",
+    subcategory: "Girls Active Bottoms",
+    gender: "unisex",
+    description: "GAP Kids Kids Flare Leggings — girls active bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/666/653/cn62666653.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-active-bottoms",
+      "girls-active-bottoms"
+    ],
+    rating: 4,
+    reviews: 95,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 996,
+        originalPrice: 2071,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=445082012",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0150",
+    slug: "gap-kids-kids-flare-leggings-2",
+    name: "Kids Flare Leggings (2)",
+    brand: "gap-kids",
+    category: "girls-active-bottoms",
+    subcategory: "Girls Active Bottoms",
+    gender: "unisex",
+    description: "GAP Kids Kids Flare Leggings (2) — girls active bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://content.gapinc.com/b/0062/666/664/cn62666664.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "girls-active-bottoms",
+      "girls-active-bottoms"
+    ],
+    rating: 4,
+    reviews: 57,
+    views: 0,
+    offers: [
+      {
+        store: "gap-kids-store",
+        price: 996,
+        originalPrice: 2071,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.gap.com/browse/product.do?pid=445082002",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
   }
 ];

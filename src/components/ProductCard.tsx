@@ -55,7 +55,7 @@ export function ProductCard({ product, className }: { product: Product; classNam
 
       <WishlistButton id={product.id} className="absolute right-3 top-3" />
 
-      <div className="flex flex-1 flex-col gap-1.5 pt-3">
+      <div className="flex flex-1 flex-col gap-1.5 p-3 pt-3">
         <div className="flex items-center justify-between gap-2">
           <Link
             to="/brand/$slug"

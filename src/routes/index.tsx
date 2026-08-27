@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { ProductSearch } from "@/components/ProductSearch";
+import { HeroCarousel } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
@@ -55,31 +56,32 @@ function Home() {
   const { format } = useCurrency();
   return (
     <>
-      <section className="border-b bg-cream">
-        <div className="mx-auto max-w-3xl px-4 py-16 text-center md:px-6 md:py-24">
-          <p className="editorial-eyebrow">
+      <section className="relative isolate overflow-hidden border-b">
+        <HeroCarousel />
+        <div className="relative mx-auto max-w-3xl px-4 py-20 text-center md:px-6 md:py-28">
+          <p className="editorial-eyebrow text-background/80">
             {products.length} products · {stores.length} stores · updated hourly
           </p>
-          <h1 className="mt-5 text-5xl leading-[1.05] md:text-7xl">
+          <h1 className="mt-5 text-5xl leading-[1.05] text-background md:text-7xl">
             Find What You Love.
             <br />
             Shop It for Less.
           </h1>
-          <p className="mx-auto mt-6 max-w-xl text-base text-muted-foreground">
+          <p className="mx-auto mt-6 max-w-xl text-base text-background/85">
             Discover fashion, beauty and lifestyle products from your favourite stores — all in one place.
           </p>
 
           <ProductSearch className="mx-auto mt-9 max-w-2xl" />
 
           <div className="mt-7">
-            <p className="editorial-eyebrow">Popular searches</p>
+            <p className="editorial-eyebrow text-background/80">Popular searches</p>
             <div className="mt-3 flex flex-wrap justify-center gap-2">
               {popularSearches.map((t) => (
                 <Link
                   key={t.slug}
                   to="/brand/$slug"
                   params={{ slug: t.slug }}
-                  className="rounded-full border bg-card px-4 py-2 text-sm transition-colors hover:border-clay hover:text-clay"
+                  className="rounded-full border border-background/30 bg-background/10 px-4 py-2 text-sm text-background backdrop-blur-sm transition-colors hover:border-background hover:bg-background/20"
                 >
                   {t.name}
                 </Link>

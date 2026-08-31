@@ -52,20 +52,26 @@ const PAGE_SIZE = 24;
 function ShopPage() {
   const { format } = useCurrency();
   const { q, category, department, view } = Route.useSearch();
-  const [filters, setFilters] = useState<ProductFilters>({});
+  // The URL's category/department/view only seed the initial filter state —
+  // once the page has mounted, the sidebar chips are the single source of
+  // truth. Re-deriving these from the URL on every render (as this used to)
+  // meant that arriving at /shop with e.g. ?category=sneakers permanently
+  // pinned that category: clicking a different Category chip updated local
+  // state, but the URL value silently overrode it back on the very next
+  // render, making the filter look broken.
+  const [filters, setFilters] = useState<ProductFilters>(() => ({
+    ...(category ? { category } : {}),
+    ...(department ? { department } : {}),
+    ...(view === "new" ? { newIn: true } : {}),
+    ...(view === "sale" ? { sale: true } : {}),
+  }));
   const [sort, setSort] = useState<SortKey>(
     view === "trending" ? "popular" : view === "sale" ? "highest-discount" : "recommended",
   );
   const [page, setPage] = useState(1);
   const [sheet, setSheet] = useState(false);
 
-  const active: ProductFilters = {
-    ...filters,
-    ...(category ? { category } : {}),
-    ...(department ? { department } : {}),
-    ...(view === "new" ? { newIn: true } : {}),
-    ...(view === "sale" ? { sale: true } : {}),
-  };
+  const active: ProductFilters = filters;
 
   const results = useMemo(
     () => sortProducts(filterProducts(searchProducts(q), active), sort),

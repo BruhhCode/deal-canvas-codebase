@@ -131,7 +131,9 @@ function ShopPage() {
 
       <FilterGroup label="Brand">
         <Chips
-          options={brands.map((b) => ({ value: b.slug, label: b.name }))}
+          options={brands
+            .map((b) => ({ value: b.slug, label: b.name }))
+            .sort((a, b) => a.label.localeCompare(b.label))}
           value={active.brand ?? ""}
           onChange={(v) => set({ brand: v })}
         />
@@ -139,7 +141,9 @@ function ShopPage() {
 
       <FilterGroup label="Store">
         <Chips
-          options={stores.map((s) => ({ value: s.slug, label: s.name }))}
+          options={stores
+            .map((s) => ({ value: s.slug, label: s.name }))
+            .sort((a, b) => a.label.localeCompare(b.label))}
           value={active.store ?? ""}
           onChange={(v) => set({ store: v })}
         />

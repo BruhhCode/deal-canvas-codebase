@@ -9,7 +9,7 @@ export type Gender = "women" | "men" | "unisex";
 export interface ShopCategory {
   slug: string;
   name: string;
-  department: "women" | "men" | "lifestyle";
+  department: "women" | "men" | "kids" | "lifestyle";
 }
 
 export const shopCategories: ShopCategory[] = [
@@ -31,6 +31,10 @@ export const shopCategories: ShopCategory[] = [
   { slug: "grooming", name: "Grooming", department: "men" },
   { slug: "mens-sportswear", name: "Sportswear", department: "men" },
 
+  { slug: "kids-clothing", name: "Clothing", department: "kids" },
+  { slug: "kids-shoes", name: "Shoes", department: "kids" },
+  { slug: "baby-clothing", name: "Baby Clothing", department: "kids" },
+
   { slug: "home", name: "Home", department: "lifestyle" },
   { slug: "electronics", name: "Electronics", department: "lifestyle" },
   { slug: "fitness", name: "Fitness", department: "lifestyle" },
@@ -42,6 +46,7 @@ export const shopCategories: ShopCategory[] = [
 export const departments = [
   { slug: "women", name: "Women" },
   { slug: "men", name: "Men" },
+  { slug: "kids", name: "Kids" },
   { slug: "lifestyle", name: "Lifestyle" },
 ] as const;
 

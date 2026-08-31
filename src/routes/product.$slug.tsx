@@ -152,14 +152,18 @@ function ProductPage() {
               <dt className="editorial-eyebrow">Gender</dt>
               <dd className="mt-1 capitalize">{product.gender}</dd>
             </div>
-            <div>
-              <dt className="editorial-eyebrow">Colours</dt>
-              <dd className="mt-1">{product.colors.join(", ")}</dd>
-            </div>
-            <div>
-              <dt className="editorial-eyebrow">Sizes</dt>
-              <dd className="mt-1">{product.sizes.join(", ")}</dd>
-            </div>
+            {product.colors.length ? (
+              <div>
+                <dt className="editorial-eyebrow">Colours</dt>
+                <dd className="mt-1">{product.colors.join(", ")}</dd>
+              </div>
+            ) : null}
+            {product.sizes.length ? (
+              <div>
+                <dt className="editorial-eyebrow">Sizes</dt>
+                <dd className="mt-1">{product.sizes.join(", ")}</dd>
+              </div>
+            ) : null}
             <div>
               <dt className="editorial-eyebrow">Product ID</dt>
               <dd className="mt-1">{product.id}</dd>

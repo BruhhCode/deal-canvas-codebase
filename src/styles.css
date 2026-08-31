@@ -25,7 +25,7 @@
   --radius-xl: calc(var(--radius) + 4px);
   --radius-2xl: calc(var(--radius) + 8px);
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -157,9 +157,9 @@
   h1,
   h2,
   h3 {
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     font-weight: 500;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.01em;
   }
 }
 

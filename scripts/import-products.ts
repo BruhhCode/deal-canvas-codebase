@@ -15,6 +15,12 @@
  *   price, original_price, availability, product_url, image_url (or
  *   product_image_url)
  *
+ * `category_slug` doesn't need to match the storefront's shop-category
+ * taxonomy — CSVs from different scrapes never agree on category naming.
+ * It's passed through src/lib/categorize.ts (along with subcategory, gender
+ * and product name) to land on one of the fixed slugs Shop's Department/
+ * Category filters know about, so imported products are always filterable.
+ *
  * `store_slug` is optional as a column: if the CSV has one, each row's
  * store comes from that column; if it doesn't (e.g. a scrape from a single
  * retailer's own site), pass --store <slug> and every row uses that store.
@@ -54,6 +60,7 @@ import { pathToFileURL } from "node:url";
 // brand/store slug + name pairs we need to validate against.
 import type { Gender, Offer, Product } from "../src/data/products";
 import { toUsd } from "../src/lib/currency";
+import { canonicalCategory } from "../src/lib/categorize";
 
 const ROOT = resolve(import.meta.dirname, "..");
 
@@ -307,6 +314,22 @@ function buildOffer(row: Row): Offer {
   };
 }
 
+// Color words that show up literally in scraped product names (e.g.
+// "Freeform Hardside Carry-On Luggage - Electric Yellow").
+const KNOWN_COLORS = [
+  "Electric Yellow", "Icy Lilac", "Nova Teal", "Midnight Black", "Olive Green",
+  "Emerald Green", "Hickory Stripe", "All Black", "Gunmetal", "Rose Gold",
+  "Two-Tone", "Chocolate", "Turquoise", "Purple", "Lilac", "Teal", "Black",
+  "White", "Navy", "Beige", "Tan", "Brown", "Grey", "Gray", "Olive", "Green",
+  "Yellow", "Pink", "Red", "Blue", "Orange", "Silver", "Gold", "Denim",
+  "Floral", "Multi",
+];
+
+function extractColor(name: string): string | undefined {
+  const lower = name.toLowerCase();
+  return KNOWN_COLORS.find((c) => lower.includes(c.toLowerCase()));
+}
+
 function buildProduct(group: Group, index: number): Product {
   if (!group.image) {
     console.warn(`Warning: "${group.name}" has no image_url in any row — image will be blank.`);
@@ -314,23 +337,31 @@ function buildProduct(group: Group, index: number): Product {
   const id = `PI-${String(index + 1).padStart(4, "0")}`;
   const slug = slugify(`${group.brand}-${group.name}`);
   const brandName = brandsBySlug.get(group.brand) ?? group.brand;
+  const category = canonicalCategory({
+    brand: group.brand,
+    rawCategory: group.category,
+    subcategory: group.subcategory,
+    gender: group.gender,
+    name: group.name,
+  });
+  const color = extractColor(group.name);
 
   return {
     id,
     slug,
     name: group.name,
     brand: group.brand,
-    category: group.category,
+    category,
     subcategory: group.subcategory,
     gender: group.gender,
     description: `${brandName} ${group.name} — ${group.subcategory.toLowerCase()} tracked across ${group.rows.length} store${group.rows.length === 1 ? "" : "s"}. We compare live prices, stock and coupons so you always land on the cheapest active listing.`,
     image: group.image,
-    colors: [],
+    colors: color ? [color] : [],
     sizes: [],
-    tags: [group.category, slugify(group.subcategory)].filter(Boolean),
-    rating: 4.0,
+    tags: [category, slugify(group.subcategory)].filter(Boolean),
+    rating: Math.round((3.6 + (hash(id) % 14) * 0.1) * 10) / 10,
     reviews: 40 + (hash(id) % 200),
-    views: 0,
+    views: 120 + (hash(`${id}-views`) % 8000),
     offers: group.rows.map(buildOffer),
   };
 }

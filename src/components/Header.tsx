@@ -3,7 +3,6 @@ import { Link } from "@tanstack/react-router";
 import { ChevronDown, Heart, Menu, User, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
 import { cn } from "@/lib/utils";
-import { currencies, useCurrency, type CurrencyCode } from "@/lib/currency";
 
 type NavItem = { label: string; to: string; search?: Record<string, string> };
 
@@ -18,14 +17,13 @@ const nav: NavItem[] = [
   { label: "Sales Calendar", to: "/sales-calendar" },
 ];
 
-const deptOrder = ["men", "women", "lifestyle"] as const;
+const deptOrder = ["men", "women", "kids", "lifestyle"] as const;
 const departmentNav = deptOrder
   .map((slug) => departments.find((d) => d.slug === slug))
   .filter((d): d is (typeof departments)[number] => Boolean(d));
 
 export function Header() {
   const [open, setOpen] = useState(false);
-  const { currency, setCurrency } = useCurrency();
   const [openDept, setOpenDept] = useState<string | null>(null);
   const [openDeptMobile, setOpenDeptMobile] = useState<string | null>(null);
 
@@ -46,20 +44,6 @@ export function Header() {
         </Link>
 
         <div className="ml-auto flex items-center gap-4">
-          <label className="hidden text-xs text-muted-foreground lg:block">
-            <span className="sr-only">Currency</span>
-            <select
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
-              className="rounded-sm border bg-card px-2 py-1.5 text-xs text-foreground outline-none"
-            >
-              {currencies.map((c) => (
-                <option key={c.code} value={c.code}>
-                  {c.label}
-                </option>
-              ))}
-            </select>
-          </label>
           <Link to="/account" aria-label="Saved products" className="hover:text-clay">
             <Heart className="h-5 w-5" />
           </Link>

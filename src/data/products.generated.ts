@@ -20,9 +20,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 4415,
     offers: [
       {
         store: "nordstrom",
@@ -41,7 +41,7 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-relaxed-shirt-dress",
     name: "Nordstrom Relaxed Shirt Dress",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "Nordstrom Nordstrom Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -52,9 +52,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 1500,
     offers: [
       {
         store: "nordstrom",
@@ -78,15 +78,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Nordstrom Nordstrom Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/nordstrom-3-slim-fit-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 3417,
     offers: [
       {
         store: "nordstrom",
@@ -116,9 +118,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 6294,
     offers: [
       {
         store: "nordstrom",
@@ -137,20 +139,22 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-tailored-trench-coat",
     name: "Nordstrom Tailored Trench Coat",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "Nordstrom Nordstrom Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/nordstrom-5-tailored-trench-coat/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 7525,
     offers: [
       {
         store: "nordstrom",
@@ -180,9 +184,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 3320,
     offers: [
       {
         store: "nordstrom",
@@ -214,7 +218,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 5131,
     offers: [
       {
         store: "nordstrom",
@@ -233,7 +237,7 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-slim-fit-shirt-dress",
     name: "Nordstrom Slim Fit Shirt Dress",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jeans",
     gender: "men",
     description: "Nordstrom Nordstrom Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -244,9 +248,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 43,
-    views: 0,
+    views: 2670,
     offers: [
       {
         store: "nordstrom",
@@ -270,7 +274,9 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Nordstrom Nordstrom Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/nordstrom-9-oversized-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
@@ -278,7 +284,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 62,
-    views: 0,
+    views: 8103,
     offers: [
       {
         store: "nordstrom",
@@ -302,15 +308,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Nordstrom Nordstrom Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/nordstrom-10-tailored-knit-sweater/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 1993,
     offers: [
       {
         store: "nordstrom",
@@ -329,7 +337,7 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-classic-trench-coat",
     name: "Nordstrom Classic Trench Coat",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Nordstrom Nordstrom Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -340,9 +348,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 740,
     offers: [
       {
         store: "nordstrom",
@@ -372,9 +380,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 166,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "nordstrom",
@@ -404,9 +412,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 147,
-    views: 0,
+    views: 5798,
     offers: [
       {
         store: "nordstrom",
@@ -425,7 +433,7 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-oversized-shirt-dress",
     name: "Nordstrom Oversized Shirt Dress",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Nordstrom Nordstrom Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -436,9 +444,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 80,
-    views: 0,
+    views: 1557,
     offers: [
       {
         store: "nordstrom",
@@ -462,15 +470,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Nordstrom Nordstrom Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/nordstrom-15-tailored-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 61,
-    views: 0,
+    views: 4520,
     offers: [
       {
         store: "nordstrom",
@@ -500,9 +510,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 42,
-    views: 0,
+    views: 251,
     offers: [
       {
         store: "nordstrom",
@@ -521,7 +531,7 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-relaxed-trench-coat",
     name: "Nordstrom Relaxed Trench Coat",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "Nordstrom Nordstrom Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -532,9 +542,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 223,
-    views: 0,
+    views: 5766,
     offers: [
       {
         store: "nordstrom",
@@ -564,9 +574,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5599,
     offers: [
       {
         store: "nordstrom",
@@ -596,9 +606,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3348,
     offers: [
       {
         store: "nordstrom",
@@ -617,20 +627,22 @@ export const generatedProducts: Product[] = [
     slug: "nordstrom-nordstrom-tailored-shirt-dress",
     name: "Nordstrom Tailored Shirt Dress",
     brand: "nordstrom",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "Nordstrom Nordstrom Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/nordstrom-20-tailored-shirt-dress/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 62,
-    views: 0,
+    views: 1617,
     offers: [
       {
         store: "nordstrom",
@@ -660,9 +672,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 43,
-    views: 0,
+    views: 4858,
     offers: [
       {
         store: "revolve",
@@ -681,7 +693,7 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-relaxed-shirt-dress",
     name: "Revolve Relaxed Shirt Dress",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "Revolve Revolve Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -692,9 +704,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 100,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "revolve",
@@ -718,15 +730,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Revolve Revolve Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/revolve-3-slim-fit-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 81,
-    views: 0,
+    views: 2300,
     offers: [
       {
         store: "revolve",
@@ -756,9 +770,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 645,
     offers: [
       {
         store: "revolve",
@@ -777,20 +791,22 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-tailored-trench-coat",
     name: "Revolve Tailored Trench Coat",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "Revolve Revolve Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/revolve-5-tailored-trench-coat/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 7034,
     offers: [
       {
         store: "revolve",
@@ -820,9 +836,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 176,
-    views: 0,
+    views: 3499,
     offers: [
       {
         store: "revolve",
@@ -852,9 +868,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 157,
-    views: 0,
+    views: 1688,
     offers: [
       {
         store: "revolve",
@@ -873,7 +889,7 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-slim-fit-shirt-dress",
     name: "Revolve Slim Fit Shirt Dress",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jeans",
     gender: "men",
     description: "Revolve Revolve Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -884,9 +900,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 110,
-    views: 0,
+    views: 1735,
     offers: [
       {
         store: "revolve",
@@ -910,15 +926,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Revolve Revolve Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/revolve-9-oversized-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 91,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "revolve",
@@ -942,15 +960,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Revolve Revolve Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/revolve-10-tailored-knit-sweater/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 59,
-    views: 0,
+    views: 2464,
     offers: [
       {
         store: "revolve",
@@ -969,7 +989,7 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-classic-trench-coat",
     name: "Revolve Classic Trench Coat",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Revolve Revolve Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -980,9 +1000,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "revolve",
@@ -1012,9 +1032,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 97,
-    views: 0,
+    views: 2158,
     offers: [
       {
         store: "revolve",
@@ -1046,7 +1066,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 78,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "revolve",
@@ -1065,7 +1085,7 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-oversized-shirt-dress",
     name: "Revolve Oversized Shirt Dress",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Revolve Revolve Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1076,9 +1096,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 1692,
     offers: [
       {
         store: "revolve",
@@ -1102,15 +1122,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Revolve Revolve Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/revolve-15-tailored-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 2399,
     offers: [
       {
         store: "revolve",
@@ -1140,9 +1162,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 173,
-    views: 0,
+    views: 5298,
     offers: [
       {
         store: "revolve",
@@ -1161,7 +1183,7 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-relaxed-trench-coat",
     name: "Revolve Relaxed Trench Coat",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "Revolve Revolve Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1172,9 +1194,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 154,
-    views: 0,
+    views: 7895,
     offers: [
       {
         store: "revolve",
@@ -1204,9 +1226,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 107,
-    views: 0,
+    views: 520,
     offers: [
       {
         store: "revolve",
@@ -1236,9 +1258,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 88,
-    views: 0,
+    views: 3483,
     offers: [
       {
         store: "revolve",
@@ -1257,20 +1279,22 @@ export const generatedProducts: Product[] = [
     slug: "revolve-revolve-tailored-shirt-dress",
     name: "Revolve Tailored Shirt Dress",
     brand: "revolve",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "Revolve Revolve Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/revolve-20-tailored-shirt-dress/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 80,
-    views: 0,
+    views: 3659,
     offers: [
       {
         store: "revolve",
@@ -1300,9 +1324,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 61,
-    views: 0,
+    views: 3768,
     offers: [
       {
         store: "amazon",
@@ -1321,7 +1345,7 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-relaxed-shirt-dress",
     name: "Amazon Relaxed Shirt Dress",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "Amazon Fashion Amazon Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1332,9 +1356,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 42,
-    views: 0,
+    views: 5925,
     offers: [
       {
         store: "amazon",
@@ -1358,15 +1382,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Amazon Fashion Amazon Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/amazon-3-slim-fit-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 223,
-    views: 0,
+    views: 7898,
     offers: [
       {
         store: "amazon",
@@ -1396,9 +1422,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 204,
-    views: 0,
+    views: 2713,
     offers: [
       {
         store: "amazon",
@@ -1417,20 +1443,22 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-tailored-trench-coat",
     name: "Amazon Tailored Trench Coat",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "Amazon Fashion Amazon Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/amazon-5-tailored-trench-coat/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 185,
-    views: 0,
+    views: 6044,
     offers: [
       {
         store: "amazon",
@@ -1460,9 +1488,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 166,
-    views: 0,
+    views: 3953,
     offers: [
       {
         store: "amazon",
@@ -1492,9 +1520,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 147,
-    views: 0,
+    views: 602,
     offers: [
       {
         store: "amazon",
@@ -1513,7 +1541,7 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-slim-fit-shirt-dress",
     name: "Amazon Slim Fit Shirt Dress",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jeans",
     gender: "men",
     description: "Amazon Fashion Amazon Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1524,9 +1552,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 707,
     offers: [
       {
         store: "amazon",
@@ -1550,15 +1578,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Amazon Fashion Amazon Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/amazon-9-oversized-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 720,
     offers: [
       {
         store: "amazon",
@@ -1582,15 +1612,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Amazon Fashion Amazon Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/amazon-10-tailored-knit-sweater/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 71,
-    views: 0,
+    views: 4362,
     offers: [
       {
         store: "amazon",
@@ -1609,7 +1641,7 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-classic-trench-coat",
     name: "Amazon Classic Trench Coat",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Amazon Fashion Amazon Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1620,9 +1652,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "amazon",
@@ -1652,9 +1684,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 168,
     offers: [
       {
         store: "amazon",
@@ -1684,9 +1716,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 2357,
     offers: [
       {
         store: "amazon",
@@ -1705,7 +1737,7 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-oversized-shirt-dress",
     name: "Amazon Oversized Shirt Dress",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Amazon Fashion Amazon Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1716,9 +1748,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 195,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "amazon",
@@ -1742,15 +1774,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Amazon Fashion Amazon Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/amazon-15-tailored-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 214,
-    views: 0,
+    views: 7439,
     offers: [
       {
         store: "amazon",
@@ -1780,9 +1814,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "amazon",
@@ -1801,7 +1835,7 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-relaxed-trench-coat",
     name: "Amazon Relaxed Trench Coat",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "Amazon Fashion Amazon Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -1814,7 +1848,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 52,
-    views: 0,
+    views: 1193,
     offers: [
       {
         store: "amazon",
@@ -1844,9 +1878,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 3618,
     offers: [
       {
         store: "amazon",
@@ -1876,9 +1910,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 6403,
     offers: [
       {
         store: "amazon",
@@ -1897,12 +1931,14 @@ export const generatedProducts: Product[] = [
     slug: "amazon-amazon-tailored-shirt-dress",
     name: "Amazon Tailored Shirt Dress",
     brand: "amazon",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "Amazon Fashion Amazon Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/amazon-20-tailored-shirt-dress/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
@@ -1910,7 +1946,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 66,
-    views: 0,
+    views: 4149,
     offers: [
       {
         store: "amazon",
@@ -1934,15 +1970,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "Levi's Levis Slim Fit Denim Jeans — shirts tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/levis-1-slim-fit-denim-jeans/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "mens-clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 89,
-    views: 0,
+    views: 5028,
     offers: [
       {
         store: "levis-store",
@@ -2012,9 +2050,9 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 70,
-    views: 0,
+    views: 4937,
     offers: [
       {
         store: "levis-store",
@@ -2084,9 +2122,9 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 51,
-    views: 0,
+    views: 8066,
     offers: [
       {
         store: "levis-store",
@@ -2150,15 +2188,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "Levi's Levis Tailored Bomber Jacket — chinos tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/levis-4-tailored-bomber-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "mens-clothing",
       "chinos"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 192,
-    views: 0,
+    views: 1325,
     offers: [
       {
         store: "levis-store",
@@ -2228,9 +2268,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 151,
-    views: 0,
+    views: 3842,
     offers: [
       {
         store: "ulta",
@@ -2260,9 +2300,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 168,
-    views: 0,
+    views: 7069,
     offers: [
       {
         store: "ulta",
@@ -2292,9 +2332,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 187,
-    views: 0,
+    views: 7312,
     offers: [
       {
         store: "ulta",
@@ -2326,7 +2366,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 130,
-    views: 0,
+    views: 5295,
     offers: [
       {
         store: "ulta",
@@ -2356,9 +2396,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 149,
-    views: 0,
+    views: 1062,
     offers: [
       {
         store: "ulta",
@@ -2388,9 +2428,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 83,
-    views: 0,
+    views: 4712,
     offers: [
       {
         store: "ulta",
@@ -2422,7 +2462,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 64,
-    views: 0,
+    views: 6523,
     offers: [
       {
         store: "ulta",
@@ -2452,9 +2492,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 121,
-    views: 0,
+    views: 4006,
     offers: [
       {
         store: "ulta",
@@ -2484,9 +2524,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 102,
-    views: 0,
+    views: 981,
     offers: [
       {
         store: "ulta",
@@ -2516,9 +2556,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 159,
-    views: 0,
+    views: 1580,
     offers: [
       {
         store: "ulta",
@@ -2548,9 +2588,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 140,
-    views: 0,
+    views: 6215,
     offers: [
       {
         store: "ulta",
@@ -2580,9 +2620,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 197,
-    views: 0,
+    views: 4742,
     offers: [
       {
         store: "ulta",
@@ -2612,9 +2652,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 178,
-    views: 0,
+    views: 591,
     offers: [
       {
         store: "ulta",
@@ -2644,9 +2684,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 235,
-    views: 0,
+    views: 7408,
     offers: [
       {
         store: "ulta",
@@ -2676,9 +2716,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 216,
-    views: 0,
+    views: 371,
     offers: [
       {
         store: "ulta",
@@ -2708,9 +2748,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3156,
     offers: [
       {
         store: "ulta",
@@ -2740,9 +2780,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5151,
     offers: [
       {
         store: "ulta",
@@ -2772,9 +2812,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 6450,
     offers: [
       {
         store: "ulta",
@@ -2804,9 +2844,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 7193,
     offers: [
       {
         store: "ulta",
@@ -2836,9 +2876,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 4384,
     offers: [
       {
         store: "ulta",
@@ -2870,7 +2910,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 8029,
     offers: [
       {
         store: "sephora",
@@ -2900,9 +2940,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 7406,
     offers: [
       {
         store: "sephora",
@@ -2932,9 +2972,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "sephora",
@@ -2964,9 +3004,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 4388,
     offers: [
       {
         store: "sephora",
@@ -2996,9 +3036,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 5513,
     offers: [
       {
         store: "sephora",
@@ -3028,9 +3068,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 102,
-    views: 0,
+    views: 4509,
     offers: [
       {
         store: "sephora",
@@ -3060,9 +3100,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 121,
-    views: 0,
+    views: 3218,
     offers: [
       {
         store: "sephora",
@@ -3092,9 +3132,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 64,
-    views: 0,
+    views: 3533,
     offers: [
       {
         store: "sephora",
@@ -3124,9 +3164,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 83,
-    views: 0,
+    views: 5936,
     offers: [
       {
         store: "sephora",
@@ -3156,9 +3196,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 178,
-    views: 0,
+    views: 7815,
     offers: [
       {
         store: "sephora",
@@ -3188,9 +3228,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 197,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "sephora",
@@ -3220,9 +3260,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 140,
-    views: 0,
+    views: 2479,
     offers: [
       {
         store: "sephora",
@@ -3252,9 +3292,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 159,
-    views: 0,
+    views: 2692,
     offers: [
       {
         store: "sephora",
@@ -3286,7 +3326,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 150,
-    views: 0,
+    views: 5573,
     offers: [
       {
         store: "sephora",
@@ -3316,9 +3356,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 169,
-    views: 0,
+    views: 6586,
     offers: [
       {
         store: "sephora",
@@ -3348,9 +3388,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 93,
-    views: 0,
+    views: 4166,
     offers: [
       {
         store: "sephora",
@@ -3380,9 +3420,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 74,
-    views: 0,
+    views: 7073,
     offers: [
       {
         store: "sephora",
@@ -3412,9 +3452,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 55,
-    views: 0,
+    views: 2156,
     offers: [
       {
         store: "sephora",
@@ -3444,9 +3484,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 236,
-    views: 0,
+    views: 5639,
     offers: [
       {
         store: "sephora",
@@ -3476,9 +3516,9 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 217,
-    views: 0,
+    views: 3658,
     offers: [
       {
         store: "sephora",
@@ -3497,7 +3537,7 @@ export const generatedProducts: Product[] = [
     slug: "bata-bata-leather-derby-shoes",
     name: "Bata Leather Derby Shoes",
     brand: "bata",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Formal Shoes",
     gender: "men",
     description: "Bata Bata Leather Derby Shoes — formal shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -3508,9 +3548,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "formal-shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 198,
-    views: 0,
+    views: 7131,
     offers: [
       {
         store: "bata-store",
@@ -3580,9 +3620,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sandals"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 179,
-    views: 0,
+    views: 3400,
     offers: [
       {
         store: "bata-store",
@@ -3652,9 +3692,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "casual-shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 160,
-    views: 0,
+    views: 1589,
     offers: [
       {
         store: "bata-store",
@@ -3713,7 +3753,7 @@ export const generatedProducts: Product[] = [
     slug: "bata-bata-everyday-sneakers",
     name: "Bata Everyday Sneakers",
     brand: "bata",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "School Shoes",
     gender: "men",
     description: "Bata Bata Everyday Sneakers — school shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -3724,9 +3764,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "school-shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 45,
-    views: 0,
+    views: 8030,
     offers: [
       {
         store: "bata-store",
@@ -3790,15 +3830,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Charles & Keith Charles Keith Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/charles-keith-1-structured-tote-bag/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 226,
-    views: 0,
+    views: 185,
     offers: [
       {
         store: "charles-keith-store",
@@ -3817,7 +3859,7 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-compact-crossbody-bag",
     name: "Charles Keith Compact Crossbody Bag",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Charles & Keith Charles Keith Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -3830,7 +3872,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 84,
-    views: 0,
+    views: 1495,
     offers: [
       {
         store: "charles-keith-store",
@@ -3860,9 +3902,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 103,
-    views: 0,
+    views: 4124,
     offers: [
       {
         store: "charles-keith-store",
@@ -3892,9 +3934,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 122,
-    views: 0,
+    views: 497,
     offers: [
       {
         store: "charles-keith-store",
@@ -3913,20 +3955,22 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-structured-shoulder-bag",
     name: "Charles Keith Structured Shoulder Bag",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Charles & Keith Charles Keith Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/charles-keith-5-structured-shoulder-bag/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 141,
-    views: 0,
+    views: 6682,
     offers: [
       {
         store: "charles-keith-store",
@@ -3956,9 +4000,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 72,
-    views: 0,
+    views: 5733,
     offers: [
       {
         store: "charles-keith-store",
@@ -3988,9 +4032,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 53,
-    views: 0,
+    views: 7544,
     offers: [
       {
         store: "charles-keith-store",
@@ -4009,7 +4053,7 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-pebbled-leather-wallet",
     name: "Charles Keith Pebbled Leather Wallet",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Wallets",
     gender: "men",
     description: "Charles & Keith Charles Keith Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -4020,9 +4064,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 234,
-    views: 0,
+    views: 3339,
     offers: [
       {
         store: "charles-keith-store",
@@ -4046,15 +4090,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Charles & Keith Charles Keith Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/charles-keith-9-structured-clutch/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 65,
-    views: 0,
+    views: 6618,
     offers: [
       {
         store: "charles-keith-store",
@@ -4084,9 +4130,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 236,
-    views: 0,
+    views: 2511,
     offers: [
       {
         store: "charles-keith-store",
@@ -4105,7 +4151,7 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-signature-tote-bag",
     name: "Charles Keith Signature Tote Bag",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Totes",
     gender: "men",
     description: "Charles & Keith Charles Keith Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -4116,9 +4162,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 55,
-    views: 0,
+    views: 3084,
     offers: [
       {
         store: "charles-keith-store",
@@ -4148,9 +4194,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 205,
-    views: 0,
+    views: 7144,
     offers: [
       {
         store: "charles-keith-store",
@@ -4174,15 +4220,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Charles & Keith Charles Keith Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/charles-keith-13-structured-wallet/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 224,
-    views: 0,
+    views: 3355,
     offers: [
       {
         store: "charles-keith-store",
@@ -4201,7 +4249,7 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-compact-clutch",
     name: "Charles Keith Compact Clutch",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Charles & Keith Charles Keith Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -4212,9 +4260,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 167,
-    views: 0,
+    views: 7146,
     offers: [
       {
         store: "charles-keith-store",
@@ -4246,7 +4294,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 186,
-    views: 0,
+    views: 2875,
     offers: [
       {
         store: "charles-keith-store",
@@ -4276,9 +4324,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 129,
-    views: 0,
+    views: 2124,
     offers: [
       {
         store: "charles-keith-store",
@@ -4297,20 +4345,22 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-structured-crossbody-bag",
     name: "Charles Keith Structured Crossbody Bag",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Charles & Keith Charles Keith Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/charles-keith-17-structured-crossbody-bag/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 148,
-    views: 0,
+    views: 4617,
     offers: [
       {
         store: "charles-keith-store",
@@ -4340,9 +4390,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 189,
-    views: 0,
+    views: 3174,
     offers: [
       {
         store: "charles-keith-store",
@@ -4372,9 +4422,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 170,
-    views: 0,
+    views: 4353,
     offers: [
       {
         store: "charles-keith-store",
@@ -4393,7 +4443,7 @@ export const generatedProducts: Product[] = [
     slug: "charles-keith-charles-keith-pebbled-leather-shoulder-bag",
     name: "Charles Keith Pebbled Leather Shoulder Bag",
     brand: "charles-keith",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Wallets",
     gender: "men",
     description: "Charles & Keith Charles Keith Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -4404,9 +4454,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 227,
-    views: 0,
+    views: 5200,
     offers: [
       {
         store: "charles-keith-store",
@@ -4430,15 +4480,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Decathlon Decathlon Compact Resistance Bands — fitness equipment tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/decathlon-1-compact-resistance-bands/600/600",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "fitness",
       "fitness-equipment"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 212,
-    views: 0,
+    views: 3521,
     offers: [
       {
         store: "decathlon",
@@ -4508,9 +4560,9 @@ export const generatedProducts: Product[] = [
       "fitness",
       "activewear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 210,
-    views: 0,
+    views: 2645,
     offers: [
       {
         store: "decathlon",
@@ -4580,9 +4632,9 @@ export const generatedProducts: Product[] = [
       "fitness",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 191,
-    views: 0,
+    views: 2342,
     offers: [
       {
         store: "decathlon",
@@ -4652,9 +4704,9 @@ export const generatedProducts: Product[] = [
       "fitness",
       "fitness-equipment"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 48,
-    views: 0,
+    views: 187,
     offers: [
       {
         store: "decathlon",
@@ -4724,9 +4776,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "check-in-luggage"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 229,
-    views: 0,
+    views: 6376,
     offers: [
       {
         store: "expedia-store",
@@ -4786,9 +4838,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "cabin-luggage"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 146,
-    views: 0,
+    views: 6927,
     offers: [
       {
         store: "expedia-store",
@@ -4848,9 +4900,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "travel-packages"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 165,
-    views: 0,
+    views: 1834,
     offers: [
       {
         store: "expedia-store",
@@ -4912,7 +4964,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 172,
-    views: 0,
+    views: 361,
     offers: [
       {
         store: "expedia-store",
@@ -4972,9 +5024,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "check-in-luggage"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 127,
-    views: 0,
+    views: 7620,
     offers: [
       {
         store: "expedia-store",
@@ -5034,9 +5086,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "activewear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 131,
-    views: 0,
+    views: 6888,
     offers: [
       {
         store: "under-armour-store",
@@ -5055,7 +5107,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-performance-joggers",
     name: "Under Armour Performance Joggers",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Leggings",
     gender: "women",
     description: "Under Armour Under Armour Performance Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5066,9 +5118,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "leggings"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 112,
-    views: 0,
+    views: 699,
     offers: [
       {
         store: "under-armour-store",
@@ -5087,7 +5139,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-lightweight-training-tee",
     name: "Under Armour Lightweight Training Tee",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Training Tops",
     gender: "unisex",
     description: "Under Armour Under Armour Lightweight Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5098,9 +5150,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "training-tops"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 45,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "under-armour-store",
@@ -5130,9 +5182,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "joggers"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 226,
-    views: 0,
+    views: 6415,
     offers: [
       {
         store: "under-armour-store",
@@ -5151,7 +5203,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-seamless-track-jacket",
     name: "Under Armour Seamless Track Jacket",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Sports Bras",
     gender: "women",
     description: "Under Armour Under Armour Seamless Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5162,9 +5214,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "sports-bras"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 207,
-    views: 0,
+    views: 7404,
     offers: [
       {
         store: "under-armour-store",
@@ -5183,7 +5235,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-performance-leggings",
     name: "Under Armour Performance Leggings",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Activewear",
     gender: "unisex",
     description: "Under Armour Under Armour Performance Leggings — activewear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5194,9 +5246,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "activewear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 188,
-    views: 0,
+    views: 391,
     offers: [
       {
         store: "under-armour-store",
@@ -5226,9 +5278,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "leggings"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 121,
-    views: 0,
+    views: 3790,
     offers: [
       {
         store: "under-armour-store",
@@ -5247,7 +5299,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-breathable-training-tee",
     name: "Under Armour Breathable Training Tee",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Training Tops",
     gender: "women",
     description: "Under Armour Under Armour Breathable Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5258,9 +5310,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "training-tops"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 102,
-    views: 0,
+    views: 6275,
     offers: [
       {
         store: "under-armour-store",
@@ -5279,7 +5331,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-seamless-sports-bra",
     name: "Under Armour Seamless Sports Bra",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Joggers",
     gender: "unisex",
     description: "Under Armour Under Armour Seamless Sports Bra — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5290,9 +5342,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "joggers"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 160,
-    views: 0,
+    views: 4555,
     offers: [
       {
         store: "under-armour-store",
@@ -5322,9 +5374,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "sports-bras"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 179,
-    views: 0,
+    views: 2744,
     offers: [
       {
         store: "under-armour-store",
@@ -5343,7 +5395,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-lightweight-leggings",
     name: "Under Armour Lightweight Leggings",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Activewear",
     gender: "women",
     description: "Under Armour Under Armour Lightweight Leggings — activewear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5354,9 +5406,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "activewear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 198,
-    views: 0,
+    views: 587,
     offers: [
       {
         store: "under-armour-store",
@@ -5375,7 +5427,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-breathable-joggers",
     name: "Under Armour Breathable Joggers",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Leggings",
     gender: "unisex",
     description: "Under Armour Under Armour Breathable Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5386,9 +5438,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "leggings"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 217,
-    views: 0,
+    views: 6870,
     offers: [
       {
         store: "under-armour-store",
@@ -5418,9 +5470,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "training-tops"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 236,
-    views: 0,
+    views: 4247,
     offers: [
       {
         store: "under-armour-store",
@@ -5439,7 +5491,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-performance-sports-bra",
     name: "Under Armour Performance Sports Bra",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Joggers",
     gender: "women",
     description: "Under Armour Under Armour Performance Sports Bra — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5450,9 +5502,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "joggers"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 55,
-    views: 0,
+    views: 6164,
     offers: [
       {
         store: "under-armour-store",
@@ -5471,7 +5523,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-lightweight-track-jacket",
     name: "Under Armour Lightweight Track Jacket",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Sports Bras",
     gender: "unisex",
     description: "Under Armour Under Armour Lightweight Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5484,7 +5536,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 74,
-    views: 0,
+    views: 3249,
     offers: [
       {
         store: "under-armour-store",
@@ -5514,9 +5566,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "activewear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 93,
-    views: 0,
+    views: 3606,
     offers: [
       {
         store: "under-armour-store",
@@ -5535,7 +5587,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-seamless-joggers",
     name: "Under Armour Seamless Joggers",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Leggings",
     gender: "women",
     description: "Under Armour Under Armour Seamless Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5546,9 +5598,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "leggings"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 112,
-    views: 0,
+    views: 6701,
     offers: [
       {
         store: "under-armour-store",
@@ -5567,7 +5619,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-performance-training-tee",
     name: "Under Armour Performance Training Tee",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Training Tops",
     gender: "unisex",
     description: "Under Armour Under Armour Performance Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5578,9 +5630,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "training-tops"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 131,
-    views: 0,
+    views: 1552,
     offers: [
       {
         store: "under-armour-store",
@@ -5610,9 +5662,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "joggers"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 138,
-    views: 0,
+    views: 3525,
     offers: [
       {
         store: "under-armour-store",
@@ -5631,7 +5683,7 @@ export const generatedProducts: Product[] = [
     slug: "under-armour-under-armour-breathable-track-jacket",
     name: "Under Armour Breathable Track Jacket",
     brand: "under-armour",
-    category: "mens-sportswear",
+    category: "sportswear",
     subcategory: "Sports Bras",
     gender: "women",
     description: "Under Armour Under Armour Breathable Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5642,9 +5694,9 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "sports-bras"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 119,
-    views: 0,
+    views: 4538,
     offers: [
       {
         store: "under-armour-store",
@@ -5663,7 +5715,7 @@ export const generatedProducts: Product[] = [
     slug: "fossil-fossil-classic-watch",
     name: "Fossil Classic Watch",
     brand: "fossil",
-    category: "watches",
+    category: "mens-watches",
     subcategory: "Watches",
     gender: "men",
     description: "Fossil Fossil Classic Watch — watches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5674,9 +5726,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 102,
-    views: 0,
+    views: 4649,
     offers: [
       {
         store: "fossil-store",
@@ -5716,9 +5768,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 83,
-    views: 0,
+    views: 7970,
     offers: [
       {
         store: "fossil-store",
@@ -5758,9 +5810,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 168,
-    views: 0,
+    views: 3589,
     offers: [
       {
         store: "fossil-store",
@@ -5789,7 +5841,7 @@ export const generatedProducts: Product[] = [
     slug: "fossil-fossil-stainless-steel-watch",
     name: "Fossil Stainless Steel Watch",
     brand: "fossil",
-    category: "watches",
+    category: "mens-watches",
     subcategory: "Smartwatches",
     gender: "men",
     description: "Fossil Fossil Stainless Steel Watch — smartwatches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5800,9 +5852,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 149,
-    views: 0,
+    views: 5208,
     offers: [
       {
         store: "fossil-store",
@@ -5842,9 +5894,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 105,
-    views: 0,
+    views: 5058,
     offers: [
       {
         store: "fossil-store",
@@ -5884,9 +5936,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 86,
-    views: 0,
+    views: 5795,
     offers: [
       {
         store: "fossil-store",
@@ -5915,7 +5967,7 @@ export const generatedProducts: Product[] = [
     slug: "fossil-fossil-chronograph-watch",
     name: "Fossil Chronograph Watch",
     brand: "fossil",
-    category: "watches",
+    category: "mens-watches",
     subcategory: "Watches",
     gender: "men",
     description: "Fossil Fossil Chronograph Watch — watches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5926,9 +5978,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 67,
-    views: 0,
+    views: 6928,
     offers: [
       {
         store: "fossil-store",
@@ -5968,9 +6020,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 48,
-    views: 0,
+    views: 4435,
     offers: [
       {
         store: "fossil-store",
@@ -6010,9 +6062,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 181,
-    views: 0,
+    views: 6014,
     offers: [
       {
         store: "fossil-store",
@@ -6031,7 +6083,7 @@ export const generatedProducts: Product[] = [
     slug: "fossil-fossil-minimalist-watch",
     name: "Fossil Minimalist Watch",
     brand: "fossil",
-    category: "watches",
+    category: "mens-watches",
     subcategory: "Smartwatches",
     gender: "men",
     description: "Fossil Fossil Minimalist Watch — smartwatches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6042,9 +6094,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 162,
-    views: 0,
+    views: 4119,
     offers: [
       {
         store: "fossil-store",
@@ -6074,9 +6126,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 143,
-    views: 0,
+    views: 6228,
     offers: [
       {
         store: "fossil-store",
@@ -6106,9 +6158,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 124,
-    views: 0,
+    views: 6161,
     offers: [
       {
         store: "fossil-store",
@@ -6132,15 +6184,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Longchamp Longchamp Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/longchamp-1-structured-tote-bag/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 153,
-    views: 0,
+    views: 4266,
     offers: [
       {
         store: "longchamp-store",
@@ -6159,7 +6213,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-compact-crossbody-bag",
     name: "Longchamp Compact Crossbody Bag",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Longchamp Longchamp Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6170,9 +6224,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 134,
-    views: 0,
+    views: 1275,
     offers: [
       {
         store: "longchamp-store",
@@ -6202,9 +6256,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 131,
-    views: 0,
+    views: 3434,
     offers: [
       {
         store: "longchamp-store",
@@ -6234,9 +6288,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 150,
-    views: 0,
+    views: 2255,
     offers: [
       {
         store: "longchamp-store",
@@ -6255,20 +6309,22 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-structured-shoulder-bag",
     name: "Longchamp Structured Shoulder Bag",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Longchamp Longchamp Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/longchamp-5-structured-shoulder-bag/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 169,
-    views: 0,
+    views: 1772,
     offers: [
       {
         store: "longchamp-store",
@@ -6298,9 +6354,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 188,
-    views: 0,
+    views: 4231,
     offers: [
       {
         store: "longchamp-store",
@@ -6330,9 +6386,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 207,
-    views: 0,
+    views: 5990,
     offers: [
       {
         store: "longchamp-store",
@@ -6351,7 +6407,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-pebbled-leather-wallet",
     name: "Longchamp Pebbled Leather Wallet",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Wallets",
     gender: "men",
     description: "Longchamp Longchamp Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6362,9 +6418,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 226,
-    views: 0,
+    views: 6747,
     offers: [
       {
         store: "longchamp-store",
@@ -6388,15 +6444,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Longchamp Longchamp Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/longchamp-9-structured-clutch/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 45,
-    views: 0,
+    views: 2184,
     offers: [
       {
         store: "longchamp-store",
@@ -6426,9 +6484,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 64,
-    views: 0,
+    views: 3067,
     offers: [
       {
         store: "longchamp-store",
@@ -6447,7 +6505,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-signature-tote-bag",
     name: "Longchamp Signature Tote Bag",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Totes",
     gender: "men",
     description: "Longchamp Longchamp Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6458,9 +6516,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 179,
-    views: 0,
+    views: 7774,
     offers: [
       {
         store: "longchamp-store",
@@ -6490,9 +6548,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 198,
-    views: 0,
+    views: 1401,
     offers: [
       {
         store: "longchamp-store",
@@ -6516,15 +6574,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Longchamp Longchamp Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/longchamp-13-structured-wallet/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 140,
-    views: 0,
+    views: 2711,
     offers: [
       {
         store: "longchamp-store",
@@ -6543,7 +6603,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-compact-clutch",
     name: "Longchamp Compact Clutch",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Longchamp Longchamp Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6554,9 +6614,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 121,
-    views: 0,
+    views: 7380,
     offers: [
       {
         store: "longchamp-store",
@@ -6588,7 +6648,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 102,
-    views: 0,
+    views: 6399,
     offers: [
       {
         store: "longchamp-store",
@@ -6618,9 +6678,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 83,
-    views: 0,
+    views: 4822,
     offers: [
       {
         store: "longchamp-store",
@@ -6639,20 +6699,22 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-structured-crossbody-bag",
     name: "Longchamp Structured Crossbody Bag",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Longchamp Longchamp Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/longchamp-17-structured-crossbody-bag/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 216,
-    views: 0,
+    views: 843,
     offers: [
       {
         store: "longchamp-store",
@@ -6682,9 +6744,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 197,
-    views: 0,
+    views: 1656,
     offers: [
       {
         store: "longchamp-store",
@@ -6714,9 +6776,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 178,
-    views: 0,
+    views: 4427,
     offers: [
       {
         store: "longchamp-store",
@@ -6735,7 +6797,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-longchamp-pebbled-leather-shoulder-bag",
     name: "Longchamp Pebbled Leather Shoulder Bag",
     brand: "longchamp",
-    category: "bags",
+    category: "mens-bags",
     subcategory: "Wallets",
     gender: "men",
     description: "Longchamp Longchamp Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6746,9 +6808,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 159,
-    views: 0,
+    views: 5082,
     offers: [
       {
         store: "longchamp-store",
@@ -6778,9 +6840,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 227,
-    views: 0,
+    views: 2606,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6799,7 +6861,7 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-relaxed-shirt-dress",
     name: "El Corte Ingles Relaxed Shirt Dress",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -6810,9 +6872,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 46,
-    views: 0,
+    views: 167,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6836,15 +6898,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/el-corte-ingles-3-slim-fit-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 114,
-    views: 0,
+    views: 3585,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6874,9 +6938,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 133,
-    views: 0,
+    views: 6886,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6895,20 +6959,22 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-tailored-trench-coat",
     name: "El Corte Ingles Tailored Trench Coat",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/el-corte-ingles-5-tailored-trench-coat/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 76,
-    views: 0,
+    views: 1063,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6938,9 +7004,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 95,
-    views: 0,
+    views: 4812,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6972,7 +7038,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 238,
-    views: 0,
+    views: 7163,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -6991,7 +7057,7 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-slim-fit-shirt-dress",
     name: "El Corte Ingles Slim Fit Shirt Dress",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jeans",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7002,9 +7068,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 57,
-    views: 0,
+    views: 1862,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7028,15 +7094,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/el-corte-ingles-9-oversized-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 200,
-    views: 0,
+    views: 6165,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7060,15 +7128,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/el-corte-ingles-10-tailored-knit-sweater/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 219,
-    views: 0,
+    views: 1608,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7087,7 +7157,7 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-classic-trench-coat",
     name: "El Corte Ingles Classic Trench Coat",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7098,9 +7168,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 66,
-    views: 0,
+    views: 5529,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7130,9 +7200,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 85,
-    views: 0,
+    views: 126,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7162,9 +7232,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 123,
-    views: 0,
+    views: 4832,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7183,7 +7253,7 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-oversized-shirt-dress",
     name: "El Corte Ingles Oversized Shirt Dress",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7196,7 +7266,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 104,
-    views: 0,
+    views: 4845,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7220,15 +7290,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/el-corte-ingles-15-tailored-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 161,
-    views: 0,
+    views: 4222,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7258,9 +7330,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 142,
-    views: 0,
+    views: 5555,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7279,7 +7351,7 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-relaxed-trench-coat",
     name: "El Corte Ingles Relaxed Trench Coat",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7290,9 +7362,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 199,
-    views: 0,
+    views: 268,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7322,9 +7394,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 180,
-    views: 0,
+    views: 7585,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7354,9 +7426,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 237,
-    views: 0,
+    views: 7426,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7375,20 +7447,22 @@ export const generatedProducts: Product[] = [
     slug: "el-corte-ingles-el-corte-ingles-tailored-shirt-dress",
     name: "El Corte Ingles Tailored Shirt Dress",
     brand: "el-corte-ingles",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/el-corte-ingles-20-tailored-shirt-dress/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 218,
-    views: 0,
+    views: 3273,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7407,7 +7481,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-signature-shoulder-bag",
     name: "Primeriti Signature Shoulder Bag",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Primeriti Primeriti Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7418,9 +7492,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 171,
-    views: 0,
+    views: 6456,
     offers: [
       {
         store: "primeriti-store",
@@ -7450,9 +7524,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 152,
-    views: 0,
+    views: 1893,
     offers: [
       {
         store: "primeriti-store",
@@ -7471,7 +7545,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-limited-edition-leather-loafers",
     name: "Primeriti Limited Edition Leather Loafers",
     brand: "primeriti",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Primeriti Primeriti Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7484,7 +7558,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 68,
-    views: 0,
+    views: 247,
     offers: [
       {
         store: "primeriti-store",
@@ -7503,7 +7577,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-runway-sunglasses",
     name: "Primeriti Runway Sunglasses",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Primeriti Primeriti Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7514,9 +7588,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 87,
-    views: 0,
+    views: 2164,
     offers: [
       {
         store: "primeriti-store",
@@ -7535,7 +7609,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-heritage-wool-coat",
     name: "Primeriti Heritage Wool Coat",
     brand: "primeriti",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Primeriti Primeriti Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7546,9 +7620,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 106,
-    views: 0,
+    views: 5407,
     offers: [
       {
         store: "primeriti-store",
@@ -7567,7 +7641,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-signature-tote",
     name: "Primeriti Signature Tote",
     brand: "primeriti",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Primeriti Primeriti Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7578,9 +7652,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 125,
-    views: 0,
+    views: 7606,
     offers: [
       {
         store: "primeriti-store",
@@ -7599,7 +7673,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-monogram-shoulder-bag",
     name: "Primeriti Monogram Shoulder Bag",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Primeriti Primeriti Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7610,9 +7684,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 192,
-    views: 0,
+    views: 5931,
     offers: [
       {
         store: "primeriti-store",
@@ -7642,9 +7716,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 211,
-    views: 0,
+    views: 7192,
     offers: [
       {
         store: "primeriti-store",
@@ -7663,7 +7737,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-runway-leather-loafers",
     name: "Primeriti Runway Leather Loafers",
     brand: "primeriti",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "Primeriti Primeriti Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7674,9 +7748,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 230,
-    views: 0,
+    views: 3781,
     offers: [
       {
         store: "primeriti-store",
@@ -7695,7 +7769,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-heritage-sunglasses",
     name: "Primeriti Heritage Sunglasses",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Primeriti Primeriti Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7706,9 +7780,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 49,
-    views: 0,
+    views: 2742,
     offers: [
       {
         store: "primeriti-store",
@@ -7727,7 +7801,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-signature-wool-coat",
     name: "Primeriti Signature Wool Coat",
     brand: "primeriti",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "Primeriti Primeriti Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7738,9 +7812,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 220,
-    views: 0,
+    views: 6849,
     offers: [
       {
         store: "primeriti-store",
@@ -7759,7 +7833,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-monogram-tote",
     name: "Primeriti Monogram Tote",
     brand: "primeriti",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "Primeriti Primeriti Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7770,9 +7844,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 239,
-    views: 0,
+    views: 4484,
     offers: [
       {
         store: "primeriti-store",
@@ -7791,7 +7865,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-limited-edition-shoulder-bag",
     name: "Primeriti Limited Edition Shoulder Bag",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Primeriti Primeriti Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7802,9 +7876,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 67,
-    views: 0,
+    views: 6758,
     offers: [
       {
         store: "primeriti-store",
@@ -7834,9 +7908,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 86,
-    views: 0,
+    views: 3457,
     offers: [
       {
         store: "primeriti-store",
@@ -7855,7 +7929,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-heritage-leather-loafers",
     name: "Primeriti Heritage Leather Loafers",
     brand: "primeriti",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Primeriti Primeriti Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7866,9 +7940,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 105,
-    views: 0,
+    views: 4940,
     offers: [
       {
         store: "primeriti-store",
@@ -7887,7 +7961,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-signature-sunglasses",
     name: "Primeriti Signature Sunglasses",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Primeriti Primeriti Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7898,9 +7972,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 124,
-    views: 0,
+    views: 935,
     offers: [
       {
         store: "primeriti-store",
@@ -7919,7 +7993,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-monogram-wool-coat",
     name: "Primeriti Monogram Wool Coat",
     brand: "primeriti",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Primeriti Primeriti Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7930,9 +8004,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 143,
-    views: 0,
+    views: 6250,
     offers: [
       {
         store: "primeriti-store",
@@ -7951,7 +8025,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-limited-edition-tote",
     name: "Primeriti Limited Edition Tote",
     brand: "primeriti",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Primeriti Primeriti Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7962,9 +8036,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 162,
-    views: 0,
+    views: 7291,
     offers: [
       {
         store: "primeriti-store",
@@ -7983,7 +8057,7 @@ export const generatedProducts: Product[] = [
     slug: "primeriti-primeriti-runway-shoulder-bag",
     name: "Primeriti Runway Shoulder Bag",
     brand: "primeriti",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Primeriti Primeriti Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -7994,9 +8068,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 181,
-    views: 0,
+    views: 1480,
     offers: [
       {
         store: "primeriti-store",
@@ -8026,9 +8100,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 200,
-    views: 0,
+    views: 6293,
     offers: [
       {
         store: "primeriti-store",
@@ -8047,7 +8121,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-signature-shoulder-bag",
     name: "Farfetch Signature Shoulder Bag",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "FARFETCH Farfetch Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8058,9 +8132,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 115,
-    views: 0,
+    views: 7998,
     offers: [
       {
         store: "farfetch-store",
@@ -8090,9 +8164,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 134,
-    views: 0,
+    views: 5401,
     offers: [
       {
         store: "farfetch-store",
@@ -8111,7 +8185,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-limited-edition-leather-loafers",
     name: "Farfetch Limited Edition Leather Loafers",
     brand: "farfetch",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "FARFETCH Farfetch Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8122,9 +8196,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 58,
-    views: 0,
+    views: 2557,
     offers: [
       {
         store: "farfetch-store",
@@ -8143,7 +8217,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-runway-sunglasses",
     name: "Farfetch Runway Sunglasses",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "FARFETCH Farfetch Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8154,9 +8228,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 239,
-    views: 0,
+    views: 4350,
     offers: [
       {
         store: "farfetch-store",
@@ -8175,7 +8249,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-heritage-wool-coat",
     name: "Farfetch Heritage Wool Coat",
     brand: "farfetch",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "FARFETCH Farfetch Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8186,9 +8260,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 96,
-    views: 0,
+    views: 4973,
     offers: [
       {
         store: "farfetch-store",
@@ -8207,7 +8281,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-signature-tote",
     name: "Farfetch Signature Tote",
     brand: "farfetch",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "FARFETCH Farfetch Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8218,9 +8292,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 77,
-    views: 0,
+    views: 4960,
     offers: [
       {
         store: "farfetch-store",
@@ -8239,7 +8313,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-monogram-shoulder-bag",
     name: "Farfetch Monogram Shoulder Bag",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "FARFETCH Farfetch Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8250,9 +8324,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 182,
-    views: 0,
+    views: 3145,
     offers: [
       {
         store: "farfetch-store",
@@ -8282,9 +8356,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 163,
-    views: 0,
+    views: 7554,
     offers: [
       {
         store: "farfetch-store",
@@ -8303,7 +8377,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-runway-leather-loafers",
     name: "Farfetch Runway Leather Loafers",
     brand: "farfetch",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "FARFETCH Farfetch Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8314,9 +8388,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 220,
-    views: 0,
+    views: 7713,
     offers: [
       {
         store: "farfetch-store",
@@ -8335,7 +8409,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-heritage-sunglasses",
     name: "Farfetch Heritage Sunglasses",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "FARFETCH Farfetch Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8346,9 +8420,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 201,
-    views: 0,
+    views: 140,
     offers: [
       {
         store: "farfetch-store",
@@ -8367,7 +8441,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-signature-wool-coat",
     name: "Farfetch Signature Wool Coat",
     brand: "farfetch",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "FARFETCH Farfetch Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8380,7 +8454,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 210,
-    views: 0,
+    views: 485,
     offers: [
       {
         store: "farfetch-store",
@@ -8399,7 +8473,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-monogram-tote",
     name: "Farfetch Monogram Tote",
     brand: "farfetch",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "FARFETCH Farfetch Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8410,9 +8484,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 191,
-    views: 0,
+    views: 5782,
     offers: [
       {
         store: "farfetch-store",
@@ -8431,7 +8505,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-limited-edition-shoulder-bag",
     name: "Farfetch Limited Edition Shoulder Bag",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "FARFETCH Farfetch Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8442,9 +8516,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 49,
-    views: 0,
+    views: 1652,
     offers: [
       {
         store: "farfetch-store",
@@ -8474,9 +8548,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 68,
-    views: 0,
+    views: 7089,
     offers: [
       {
         store: "farfetch-store",
@@ -8495,7 +8569,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-heritage-leather-loafers",
     name: "Farfetch Heritage Leather Loafers",
     brand: "farfetch",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "FARFETCH Farfetch Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8506,9 +8580,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 211,
-    views: 0,
+    views: 4446,
     offers: [
       {
         store: "farfetch-store",
@@ -8527,7 +8601,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-signature-sunglasses",
     name: "Farfetch Signature Sunglasses",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "FARFETCH Farfetch Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8538,9 +8612,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 230,
-    views: 0,
+    views: 1463,
     offers: [
       {
         store: "farfetch-store",
@@ -8559,7 +8633,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-monogram-wool-coat",
     name: "Farfetch Monogram Wool Coat",
     brand: "farfetch",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "FARFETCH Farfetch Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8570,9 +8644,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 125,
-    views: 0,
+    views: 2352,
     offers: [
       {
         store: "farfetch-store",
@@ -8591,7 +8665,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-limited-edition-tote",
     name: "Farfetch Limited Edition Tote",
     brand: "farfetch",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "FARFETCH Farfetch Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8604,7 +8678,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 144,
-    views: 0,
+    views: 2803,
     offers: [
       {
         store: "farfetch-store",
@@ -8623,7 +8697,7 @@ export const generatedProducts: Product[] = [
     slug: "farfetch-farfetch-runway-shoulder-bag",
     name: "Farfetch Runway Shoulder Bag",
     brand: "farfetch",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "FARFETCH Farfetch Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8634,9 +8708,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 87,
-    views: 0,
+    views: 2062,
     offers: [
       {
         store: "farfetch-store",
@@ -8666,9 +8740,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 106,
-    views: 0,
+    views: 3843,
     offers: [
       {
         store: "farfetch-store",
@@ -8687,7 +8761,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-signature-shoulder-bag",
     name: "Ssense Signature Shoulder Bag",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "SSENSE Ssense Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8698,9 +8772,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 201,
-    views: 0,
+    views: 3140,
     offers: [
       {
         store: "ssense-store",
@@ -8730,9 +8804,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 220,
-    views: 0,
+    views: 903,
     offers: [
       {
         store: "ssense-store",
@@ -8751,7 +8825,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-limited-edition-leather-loafers",
     name: "Ssense Limited Edition Leather Loafers",
     brand: "ssense",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "SSENSE Ssense Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8762,9 +8836,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 72,
-    views: 0,
+    views: 3197,
     offers: [
       {
         store: "ssense-store",
@@ -8783,7 +8857,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-runway-sunglasses",
     name: "Ssense Runway Sunglasses",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "SSENSE Ssense Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8794,9 +8868,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 53,
-    views: 0,
+    views: 7424,
     offers: [
       {
         store: "ssense-store",
@@ -8815,7 +8889,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-heritage-wool-coat",
     name: "Ssense Heritage Wool Coat",
     brand: "ssense",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "SSENSE Ssense Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8826,9 +8900,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 234,
-    views: 0,
+    views: 5933,
     offers: [
       {
         store: "ssense-store",
@@ -8847,7 +8921,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-signature-tote",
     name: "Ssense Signature Tote",
     brand: "ssense",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "SSENSE Ssense Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8858,9 +8932,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 215,
-    views: 0,
+    views: 7714,
     offers: [
       {
         store: "ssense-store",
@@ -8879,7 +8953,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-monogram-shoulder-bag",
     name: "Ssense Monogram Shoulder Bag",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "SSENSE Ssense Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8892,7 +8966,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 196,
-    views: 0,
+    views: 2687,
     offers: [
       {
         store: "ssense-store",
@@ -8922,9 +8996,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 177,
-    views: 0,
+    views: 124,
     offers: [
       {
         store: "ssense-store",
@@ -8943,7 +9017,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-runway-leather-loafers",
     name: "Ssense Runway Leather Loafers",
     brand: "ssense",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "SSENSE Ssense Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8954,9 +9028,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 158,
-    views: 0,
+    views: 313,
     offers: [
       {
         store: "ssense-store",
@@ -8975,7 +9049,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-heritage-sunglasses",
     name: "Ssense Heritage Sunglasses",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "SSENSE Ssense Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -8986,9 +9060,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 139,
-    views: 0,
+    views: 1554,
     offers: [
       {
         store: "ssense-store",
@@ -9007,7 +9081,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-signature-wool-coat",
     name: "Ssense Signature Wool Coat",
     brand: "ssense",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "SSENSE Ssense Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9018,9 +9092,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 224,
-    views: 0,
+    views: 1979,
     offers: [
       {
         store: "ssense-store",
@@ -9039,7 +9113,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-monogram-tote",
     name: "Ssense Monogram Tote",
     brand: "ssense",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "SSENSE Ssense Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9050,9 +9124,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 205,
-    views: 0,
+    views: 4264,
     offers: [
       {
         store: "ssense-store",
@@ -9071,7 +9145,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-limited-edition-shoulder-bag",
     name: "Ssense Limited Edition Shoulder Bag",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "SSENSE Ssense Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9082,9 +9156,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 63,
-    views: 0,
+    views: 5726,
     offers: [
       {
         store: "ssense-store",
@@ -9114,9 +9188,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 82,
-    views: 0,
+    views: 851,
     offers: [
       {
         store: "ssense-store",
@@ -9135,7 +9209,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-heritage-leather-loafers",
     name: "Ssense Heritage Leather Loafers",
     brand: "ssense",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "SSENSE Ssense Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9146,9 +9220,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 101,
-    views: 0,
+    views: 128,
     offers: [
       {
         store: "ssense-store",
@@ -9167,7 +9241,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-signature-sunglasses",
     name: "Ssense Signature Sunglasses",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "SSENSE Ssense Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9178,9 +9252,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 120,
-    views: 0,
+    views: 2893,
     offers: [
       {
         store: "ssense-store",
@@ -9199,7 +9273,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-monogram-wool-coat",
     name: "Ssense Monogram Wool Coat",
     brand: "ssense",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "SSENSE Ssense Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9210,9 +9284,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 187,
-    views: 0,
+    views: 8098,
     offers: [
       {
         store: "ssense-store",
@@ -9231,7 +9305,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-limited-edition-tote",
     name: "Ssense Limited Edition Tote",
     brand: "ssense",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "SSENSE Ssense Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9242,9 +9316,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 206,
-    views: 0,
+    views: 2601,
     offers: [
       {
         store: "ssense-store",
@@ -9263,7 +9337,7 @@ export const generatedProducts: Product[] = [
     slug: "ssense-ssense-runway-shoulder-bag",
     name: "Ssense Runway Shoulder Bag",
     brand: "ssense",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "SSENSE Ssense Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9274,9 +9348,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 225,
-    views: 0,
+    views: 5892,
     offers: [
       {
         store: "ssense-store",
@@ -9306,9 +9380,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 44,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "ssense-store",
@@ -9338,9 +9412,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 215,
-    views: 0,
+    views: 3130,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9359,7 +9433,7 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-relaxed-shirt-dress",
     name: "Net A Porter Relaxed Shirt Dress",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9370,9 +9444,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 234,
-    views: 0,
+    views: 4741,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9396,15 +9470,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/net-a-porter-3-slim-fit-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 58,
-    views: 0,
+    views: 4441,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9434,9 +9510,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 77,
-    views: 0,
+    views: 1202,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9455,20 +9531,22 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-tailored-trench-coat",
     name: "Net A Porter Tailored Trench Coat",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/net-a-porter-5-tailored-trench-coat/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 220,
-    views: 0,
+    views: 1041,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9498,9 +9576,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 239,
-    views: 0,
+    views: 5788,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9530,9 +9608,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 182,
-    views: 0,
+    views: 5923,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9551,7 +9629,7 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-slim-fit-shirt-dress",
     name: "Net A Porter Slim Fit Shirt Dress",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jeans",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9562,9 +9640,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 201,
-    views: 0,
+    views: 6062,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9588,15 +9666,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/net-a-porter-9-oversized-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 144,
-    views: 0,
+    views: 6803,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9620,15 +9700,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "NET-A-PORTER Net A Porter Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/net-a-porter-10-tailored-knit-sweater/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 163,
-    views: 0,
+    views: 976,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9647,7 +9729,7 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-classic-trench-coat",
     name: "Net A Porter Classic Trench Coat",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9658,9 +9740,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 106,
-    views: 0,
+    views: 577,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9690,9 +9772,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 125,
-    views: 0,
+    views: 842,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9722,9 +9804,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 59,
-    views: 0,
+    views: 3048,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9743,7 +9825,7 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-oversized-shirt-dress",
     name: "Net A Porter Oversized Shirt Dress",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9754,9 +9836,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 40,
-    views: 0,
+    views: 4859,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9780,15 +9862,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/net-a-porter-15-tailored-denim-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 97,
-    views: 0,
+    views: 5670,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9818,9 +9902,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 78,
-    views: 0,
+    views: 7317,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9839,7 +9923,7 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-relaxed-trench-coat",
     name: "Net A Porter Relaxed Trench Coat",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Jackets",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -9850,9 +9934,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 135,
-    views: 0,
+    views: 4292,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9882,9 +9966,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 116,
-    views: 0,
+    views: 3689,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9914,9 +9998,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 173,
-    views: 0,
+    views: 5162,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9935,20 +10019,22 @@ export const generatedProducts: Product[] = [
     slug: "net-a-porter-net-a-porter-tailored-shirt-dress",
     name: "Net A Porter Tailored Shirt Dress",
     brand: "net-a-porter",
-    category: "clothing",
+    category: "mens-clothing",
     subcategory: "Sweaters",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/net-a-porter-20-tailored-shirt-dress/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "sweaters"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 154,
-    views: 0,
+    views: 2255,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9972,15 +10058,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "MR PORTER Mr Porter Slim Fit Denim Jeans — shirts tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/mr-porter-1-slim-fit-denim-jeans/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "mens-clothing",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 211,
-    views: 0,
+    views: 6464,
     offers: [
       {
         store: "mr-porter-store",
@@ -10050,9 +10138,9 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 192,
-    views: 0,
+    views: 6707,
     offers: [
       {
         store: "mr-porter-store",
@@ -10122,9 +10210,9 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jackets"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 44,
-    views: 0,
+    views: 271,
     offers: [
       {
         store: "mr-porter-store",
@@ -10188,15 +10276,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "MR PORTER Mr Porter Tailored Bomber Jacket — chinos tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/mr-porter-4-tailored-bomber-jacket/600/600",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "mens-clothing",
       "chinos"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 63,
-    views: 0,
+    views: 844,
     offers: [
       {
         store: "mr-porter-store",
@@ -10255,7 +10345,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-signature-shoulder-bag",
     name: "Mytheresa Signature Shoulder Bag",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Mytheresa Mytheresa Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10268,7 +10358,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 82,
-    views: 0,
+    views: 4967,
     offers: [
       {
         store: "mytheresa-store",
@@ -10298,9 +10388,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 101,
-    views: 0,
+    views: 5806,
     offers: [
       {
         store: "mytheresa-store",
@@ -10319,7 +10409,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-limited-edition-leather-loafers",
     name: "Mytheresa Limited Edition Leather Loafers",
     brand: "mytheresa",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10330,9 +10420,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 168,
-    views: 0,
+    views: 2989,
     offers: [
       {
         store: "mytheresa-store",
@@ -10351,7 +10441,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-runway-sunglasses",
     name: "Mytheresa Runway Sunglasses",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Mytheresa Mytheresa Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10362,9 +10452,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 187,
-    views: 0,
+    views: 2976,
     offers: [
       {
         store: "mytheresa-store",
@@ -10383,7 +10473,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-heritage-wool-coat",
     name: "Mytheresa Heritage Wool Coat",
     brand: "mytheresa",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Mytheresa Mytheresa Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10394,9 +10484,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 206,
-    views: 0,
+    views: 4403,
     offers: [
       {
         store: "mytheresa-store",
@@ -10415,7 +10505,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-signature-tote",
     name: "Mytheresa Signature Tote",
     brand: "mytheresa",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10426,9 +10516,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 225,
-    views: 0,
+    views: 5234,
     offers: [
       {
         store: "mytheresa-store",
@@ -10447,7 +10537,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-monogram-shoulder-bag",
     name: "Mytheresa Monogram Shoulder Bag",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Mytheresa Mytheresa Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10458,9 +10548,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 92,
-    views: 0,
+    views: 281,
     offers: [
       {
         store: "mytheresa-store",
@@ -10490,9 +10580,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 111,
-    views: 0,
+    views: 6364,
     offers: [
       {
         store: "mytheresa-store",
@@ -10511,7 +10601,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-runway-leather-loafers",
     name: "Mytheresa Runway Leather Loafers",
     brand: "mytheresa",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "Mytheresa Mytheresa Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10522,9 +10612,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 53,
-    views: 0,
+    views: 1746,
     offers: [
       {
         store: "mytheresa-store",
@@ -10543,7 +10633,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-heritage-sunglasses",
     name: "Mytheresa Heritage Sunglasses",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Mytheresa Mytheresa Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10554,9 +10644,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 234,
-    views: 0,
+    views: 1591,
     offers: [
       {
         store: "mytheresa-store",
@@ -10575,7 +10665,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-signature-wool-coat",
     name: "Mytheresa Signature Wool Coat",
     brand: "mytheresa",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "Mytheresa Mytheresa Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10586,9 +10676,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 215,
-    views: 0,
+    views: 1076,
     offers: [
       {
         store: "mytheresa-store",
@@ -10607,7 +10697,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-monogram-tote",
     name: "Mytheresa Monogram Tote",
     brand: "mytheresa",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "Mytheresa Mytheresa Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10618,9 +10708,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 196,
-    views: 0,
+    views: 5951,
     offers: [
       {
         store: "mytheresa-store",
@@ -10639,7 +10729,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-limited-edition-shoulder-bag",
     name: "Mytheresa Limited Edition Shoulder Bag",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Mytheresa Mytheresa Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10650,9 +10740,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 177,
-    views: 0,
+    views: 8078,
     offers: [
       {
         store: "mytheresa-store",
@@ -10682,9 +10772,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 158,
-    views: 0,
+    views: 4973,
     offers: [
       {
         store: "mytheresa-store",
@@ -10703,7 +10793,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-heritage-leather-loafers",
     name: "Mytheresa Heritage Leather Loafers",
     brand: "mytheresa",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10714,9 +10804,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 139,
-    views: 0,
+    views: 6016,
     offers: [
       {
         store: "mytheresa-store",
@@ -10735,7 +10825,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-signature-sunglasses",
     name: "Mytheresa Signature Sunglasses",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Mytheresa Mytheresa Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10746,9 +10836,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 120,
-    views: 0,
+    views: 6259,
     offers: [
       {
         store: "mytheresa-store",
@@ -10767,7 +10857,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-monogram-wool-coat",
     name: "Mytheresa Monogram Wool Coat",
     brand: "mytheresa",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Mytheresa Mytheresa Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10778,9 +10868,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 101,
-    views: 0,
+    views: 5610,
     offers: [
       {
         store: "mytheresa-store",
@@ -10799,7 +10889,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-limited-edition-tote",
     name: "Mytheresa Limited Edition Tote",
     brand: "mytheresa",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10812,7 +10902,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 82,
-    views: 0,
+    views: 2703,
     offers: [
       {
         store: "mytheresa-store",
@@ -10831,7 +10921,7 @@ export const generatedProducts: Product[] = [
     slug: "mytheresa-mytheresa-runway-shoulder-bag",
     name: "Mytheresa Runway Shoulder Bag",
     brand: "mytheresa",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Mytheresa Mytheresa Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10842,9 +10932,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 201,
-    views: 0,
+    views: 5804,
     offers: [
       {
         store: "mytheresa-store",
@@ -10874,9 +10964,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 220,
-    views: 0,
+    views: 3439,
     offers: [
       {
         store: "mytheresa-store",
@@ -10895,7 +10985,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-signature-shoulder-bag",
     name: "Luisaviaroma Signature Shoulder Bag",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10906,9 +10996,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 163,
-    views: 0,
+    views: 4302,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -10938,9 +11028,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 182,
-    views: 0,
+    views: 6855,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -10959,7 +11049,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-limited-edition-leather-loafers",
     name: "Luisaviaroma Limited Edition Leather Loafers",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -10970,9 +11060,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 77,
-    views: 0,
+    views: 6896,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -10991,7 +11081,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-runway-sunglasses",
     name: "Luisaviaroma Runway Sunglasses",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11002,9 +11092,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 96,
-    views: 0,
+    views: 2573,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11023,7 +11113,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-heritage-wool-coat",
     name: "Luisaviaroma Heritage Wool Coat",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11034,9 +11124,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 239,
-    views: 0,
+    views: 4178,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11055,7 +11145,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-signature-tote",
     name: "Luisaviaroma Signature Tote",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11068,7 +11158,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 58,
-    views: 0,
+    views: 5469,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11087,7 +11177,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-monogram-shoulder-bag",
     name: "Luisaviaroma Monogram Shoulder Bag",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11098,9 +11188,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 153,
-    views: 0,
+    views: 4916,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11130,9 +11220,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 172,
-    views: 0,
+    views: 5241,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11151,7 +11241,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-runway-leather-loafers",
     name: "Luisaviaroma Runway Leather Loafers",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11162,9 +11252,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 210,
-    views: 0,
+    views: 8067,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11183,7 +11273,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-heritage-sunglasses",
     name: "Luisaviaroma Heritage Sunglasses",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11194,9 +11284,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 191,
-    views: 0,
+    views: 2658,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11215,7 +11305,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-signature-wool-coat",
     name: "Luisaviaroma Signature Wool Coat",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11226,9 +11316,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 48,
-    views: 0,
+    views: 6781,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11247,7 +11337,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-monogram-tote",
     name: "Luisaviaroma Monogram Tote",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11258,9 +11348,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 229,
-    views: 0,
+    views: 1216,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11279,7 +11369,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-limited-edition-shoulder-bag",
     name: "Luisaviaroma Limited Edition Shoulder Bag",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11290,9 +11380,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 134,
-    views: 0,
+    views: 1145,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11322,9 +11412,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 115,
-    views: 0,
+    views: 990,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11343,7 +11433,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-heritage-leather-loafers",
     name: "Luisaviaroma Heritage Leather Loafers",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11354,9 +11444,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 172,
-    views: 0,
+    views: 1151,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11375,7 +11465,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-signature-sunglasses",
     name: "Luisaviaroma Signature Sunglasses",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11386,9 +11476,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 153,
-    views: 0,
+    views: 1660,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11407,7 +11497,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-monogram-wool-coat",
     name: "Luisaviaroma Monogram Wool Coat",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11418,9 +11508,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 162,
-    views: 0,
+    views: 6171,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11439,7 +11529,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-limited-edition-tote",
     name: "Luisaviaroma Limited Edition Tote",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11450,9 +11540,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 143,
-    views: 0,
+    views: 4618,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11471,7 +11561,7 @@ export const generatedProducts: Product[] = [
     slug: "luisaviaroma-luisaviaroma-runway-shoulder-bag",
     name: "Luisaviaroma Runway Shoulder Bag",
     brand: "luisaviaroma",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11482,9 +11572,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 219,
-    views: 0,
+    views: 5722,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11514,9 +11604,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 238,
-    views: 0,
+    views: 1457,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11535,7 +11625,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-signature-shoulder-bag",
     name: "Selfridges Signature Shoulder Bag",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Selfridges Selfridges Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11546,9 +11636,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 57,
-    views: 0,
+    views: 3164,
     offers: [
       {
         store: "selfridges-store",
@@ -11578,9 +11668,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 76,
-    views: 0,
+    views: 2455,
     offers: [
       {
         store: "selfridges-store",
@@ -11599,7 +11689,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-limited-edition-leather-loafers",
     name: "Selfridges Limited Edition Leather Loafers",
     brand: "selfridges",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Selfridges Selfridges Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11610,9 +11700,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 95,
-    views: 0,
+    views: 7578,
     offers: [
       {
         store: "selfridges-store",
@@ -11631,7 +11721,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-runway-sunglasses",
     name: "Selfridges Runway Sunglasses",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Selfridges Selfridges Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11642,9 +11732,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 114,
-    views: 0,
+    views: 2379,
     offers: [
       {
         store: "selfridges-store",
@@ -11663,7 +11753,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-heritage-wool-coat",
     name: "Selfridges Heritage Wool Coat",
     brand: "selfridges",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Selfridges Selfridges Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11674,9 +11764,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 133,
-    views: 0,
+    views: 6584,
     offers: [
       {
         store: "selfridges-store",
@@ -11695,7 +11785,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-signature-tote",
     name: "Selfridges Signature Tote",
     brand: "selfridges",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Selfridges Selfridges Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11706,9 +11796,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 152,
-    views: 0,
+    views: 4773,
     offers: [
       {
         store: "selfridges-store",
@@ -11727,7 +11817,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-monogram-shoulder-bag",
     name: "Selfridges Monogram Shoulder Bag",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Selfridges Selfridges Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11738,9 +11828,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 67,
-    views: 0,
+    views: 7234,
     offers: [
       {
         store: "selfridges-store",
@@ -11770,9 +11860,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 86,
-    views: 0,
+    views: 1767,
     offers: [
       {
         store: "selfridges-store",
@@ -11791,7 +11881,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-runway-leather-loafers",
     name: "Selfridges Runway Leather Loafers",
     brand: "selfridges",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "Selfridges Selfridges Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11802,9 +11892,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 228,
-    views: 0,
+    views: 3657,
     offers: [
       {
         store: "selfridges-store",
@@ -11823,7 +11913,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-heritage-sunglasses",
     name: "Selfridges Heritage Sunglasses",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Selfridges Selfridges Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11834,9 +11924,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 209,
-    views: 0,
+    views: 1164,
     offers: [
       {
         store: "selfridges-store",
@@ -11855,7 +11945,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-signature-wool-coat",
     name: "Selfridges Signature Wool Coat",
     brand: "selfridges",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "Selfridges Selfridges Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11868,7 +11958,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 190,
-    views: 0,
+    views: 5313,
     offers: [
       {
         store: "selfridges-store",
@@ -11887,7 +11977,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-monogram-tote",
     name: "Selfridges Monogram Tote",
     brand: "selfridges",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "Selfridges Selfridges Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11898,9 +11988,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 171,
-    views: 0,
+    views: 4134,
     offers: [
       {
         store: "selfridges-store",
@@ -11919,7 +12009,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-limited-edition-shoulder-bag",
     name: "Selfridges Limited Edition Shoulder Bag",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Selfridges Selfridges Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11930,9 +12020,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 104,
-    views: 0,
+    views: 4315,
     offers: [
       {
         store: "selfridges-store",
@@ -11962,9 +12052,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 85,
-    views: 0,
+    views: 6184,
     offers: [
       {
         store: "selfridges-store",
@@ -11983,7 +12073,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-heritage-leather-loafers",
     name: "Selfridges Heritage Leather Loafers",
     brand: "selfridges",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Selfridges Selfridges Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -11994,9 +12084,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 66,
-    views: 0,
+    views: 1915,
     offers: [
       {
         store: "selfridges-store",
@@ -12015,7 +12105,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-signature-sunglasses",
     name: "Selfridges Signature Sunglasses",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Selfridges Selfridges Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12026,9 +12116,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 47,
-    views: 0,
+    views: 8106,
     offers: [
       {
         store: "selfridges-store",
@@ -12047,7 +12137,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-monogram-wool-coat",
     name: "Selfridges Monogram Wool Coat",
     brand: "selfridges",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Selfridges Selfridges Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12058,9 +12148,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 76,
-    views: 0,
+    views: 4305,
     offers: [
       {
         store: "selfridges-store",
@@ -12079,7 +12169,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-limited-edition-tote",
     name: "Selfridges Limited Edition Tote",
     brand: "selfridges",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Selfridges Selfridges Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12090,9 +12180,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 57,
-    views: 0,
+    views: 2524,
     offers: [
       {
         store: "selfridges-store",
@@ -12111,7 +12201,7 @@ export const generatedProducts: Product[] = [
     slug: "selfridges-selfridges-runway-shoulder-bag",
     name: "Selfridges Runway Shoulder Bag",
     brand: "selfridges",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Selfridges Selfridges Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12122,9 +12212,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 107,
-    views: 0,
+    views: 2520,
     offers: [
       {
         store: "selfridges-store",
@@ -12156,7 +12246,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 88,
-    views: 0,
+    views: 4331,
     offers: [
       {
         store: "selfridges-store",
@@ -12175,7 +12265,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-signature-shoulder-bag",
     name: "Harrods Signature Shoulder Bag",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Harrods Harrods Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12186,9 +12276,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 145,
-    views: 0,
+    views: 7670,
     offers: [
       {
         store: "harrods-store",
@@ -12218,9 +12308,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 126,
-    views: 0,
+    views: 1477,
     offers: [
       {
         store: "harrods-store",
@@ -12239,7 +12329,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-limited-edition-leather-loafers",
     name: "Harrods Limited Edition Leather Loafers",
     brand: "harrods",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Harrods Harrods Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12250,9 +12340,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 183,
-    views: 0,
+    views: 6772,
     offers: [
       {
         store: "harrods-store",
@@ -12271,7 +12361,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-runway-sunglasses",
     name: "Harrods Runway Sunglasses",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Harrods Harrods Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12282,9 +12372,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 164,
-    views: 0,
+    views: 1271,
     offers: [
       {
         store: "harrods-store",
@@ -12303,7 +12393,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-heritage-wool-coat",
     name: "Harrods Heritage Wool Coat",
     brand: "harrods",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Harrods Harrods Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12314,9 +12404,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 221,
-    views: 0,
+    views: 4214,
     offers: [
       {
         store: "harrods-store",
@@ -12335,7 +12425,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-signature-tote",
     name: "Harrods Signature Tote",
     brand: "harrods",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Harrods Harrods Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12346,9 +12436,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 202,
-    views: 0,
+    views: 5087,
     offers: [
       {
         store: "harrods-store",
@@ -12367,7 +12457,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-monogram-shoulder-bag",
     name: "Harrods Monogram Shoulder Bag",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Harrods Harrods Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12378,9 +12468,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 59,
-    views: 0,
+    views: 3392,
     offers: [
       {
         store: "harrods-store",
@@ -12410,9 +12500,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 40,
-    views: 0,
+    views: 2083,
     offers: [
       {
         store: "harrods-store",
@@ -12431,7 +12521,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-runway-leather-loafers",
     name: "Harrods Runway Leather Loafers",
     brand: "harrods",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "unisex",
     description: "Harrods Harrods Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12442,9 +12532,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 106,
-    views: 0,
+    views: 7433,
     offers: [
       {
         store: "harrods-store",
@@ -12463,7 +12553,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-heritage-sunglasses",
     name: "Harrods Heritage Sunglasses",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Harrods Harrods Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12474,9 +12564,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 125,
-    views: 0,
+    views: 3266,
     offers: [
       {
         store: "harrods-store",
@@ -12495,7 +12585,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-signature-wool-coat",
     name: "Harrods Signature Wool Coat",
     brand: "harrods",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "women",
     description: "Harrods Harrods Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12506,9 +12596,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 68,
-    views: 0,
+    views: 3425,
     offers: [
       {
         store: "harrods-store",
@@ -12527,7 +12617,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-monogram-tote",
     name: "Harrods Monogram Tote",
     brand: "harrods",
-    category: "accessories",
+    category: "bags",
     subcategory: "Accessories",
     gender: "unisex",
     description: "Harrods Harrods Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12538,9 +12628,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 87,
-    views: 0,
+    views: 4428,
     offers: [
       {
         store: "harrods-store",
@@ -12559,7 +12649,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-limited-edition-shoulder-bag",
     name: "Harrods Limited Edition Shoulder Bag",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Handbags",
     gender: "men",
     description: "Harrods Harrods Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12570,9 +12660,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "handbags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 230,
-    views: 0,
+    views: 6845,
     offers: [
       {
         store: "harrods-store",
@@ -12602,9 +12692,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 49,
-    views: 0,
+    views: 178,
     offers: [
       {
         store: "harrods-store",
@@ -12623,7 +12713,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-heritage-leather-loafers",
     name: "Harrods Heritage Leather Loafers",
     brand: "harrods",
-    category: "accessories",
+    category: "shoes",
     subcategory: "Footwear",
     gender: "unisex",
     description: "Harrods Harrods Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12634,9 +12724,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 192,
-    views: 0,
+    views: 7555,
     offers: [
       {
         store: "harrods-store",
@@ -12655,7 +12745,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-signature-sunglasses",
     name: "Harrods Signature Sunglasses",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Harrods Harrods Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12666,9 +12756,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 211,
-    views: 0,
+    views: 7568,
     offers: [
       {
         store: "harrods-store",
@@ -12687,7 +12777,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-monogram-wool-coat",
     name: "Harrods Monogram Wool Coat",
     brand: "harrods",
-    category: "accessories",
+    category: "bags",
     subcategory: "Handbags",
     gender: "women",
     description: "Harrods Harrods Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12700,7 +12790,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 154,
-    views: 0,
+    views: 2801,
     offers: [
       {
         store: "harrods-store",
@@ -12719,7 +12809,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-limited-edition-tote",
     name: "Harrods Limited Edition Tote",
     brand: "harrods",
-    category: "accessories",
+    category: "bags",
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Harrods Harrods Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12730,9 +12820,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 173,
-    views: 0,
+    views: 1754,
     offers: [
       {
         store: "harrods-store",
@@ -12751,7 +12841,7 @@ export const generatedProducts: Product[] = [
     slug: "harrods-harrods-runway-shoulder-bag",
     name: "Harrods Runway Shoulder Bag",
     brand: "harrods",
-    category: "accessories",
+    category: "mens-bags",
     subcategory: "Footwear",
     gender: "men",
     description: "Harrods Harrods Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -12762,9 +12852,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "footwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 97,
-    views: 0,
+    views: 3330,
     offers: [
       {
         store: "harrods-store",
@@ -12794,9 +12884,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 78,
-    views: 0,
+    views: 8013,
     offers: [
       {
         store: "harrods-store",
@@ -12826,9 +12916,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "check-in-luggage"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 59,
-    views: 0,
+    views: 656,
     offers: [
       {
         store: "samsonite-store",
@@ -12888,9 +12978,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "cabin-luggage"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "samsonite-store",
@@ -12950,9 +13040,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "travel-packages"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 173,
-    views: 0,
+    views: 4286,
     offers: [
       {
         store: "samsonite-store",
@@ -13014,7 +13104,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 154,
-    views: 0,
+    views: 1689,
     offers: [
       {
         store: "samsonite-store",
@@ -13074,9 +13164,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "check-in-luggage"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 135,
-    views: 0,
+    views: 7580,
     offers: [
       {
         store: "samsonite-store",
@@ -13136,9 +13226,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "check-in-luggage"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 116,
-    views: 0,
+    views: 7889,
     offers: [
       {
         store: "tumi-store",
@@ -13198,9 +13288,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "cabin-luggage"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 145,
-    views: 0,
+    views: 2538,
     offers: [
       {
         store: "tumi-store",
@@ -13260,9 +13350,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "travel-packages"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 126,
-    views: 0,
+    views: 3003,
     offers: [
       {
         store: "tumi-store",
@@ -13322,9 +13412,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "backpacks"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 224,
-    views: 0,
+    views: 7203,
     offers: [
       {
         store: "tumi-store",
@@ -13384,9 +13474,9 @@ export const generatedProducts: Product[] = [
       "travel",
       "check-in-luggage"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 205,
-    views: 0,
+    views: 7104,
     offers: [
       {
         store: "tumi-store",
@@ -13435,7 +13525,7 @@ export const generatedProducts: Product[] = [
     slug: "carters-carters-soft-cotton-onesie-set",
     name: "Carters Soft Cotton Onesie Set",
     brand: "carters",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Carters Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13446,9 +13536,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 186,
-    views: 0,
+    views: 531,
     offers: [
       {
         store: "carters-store",
@@ -13497,7 +13587,7 @@ export const generatedProducts: Product[] = [
     slug: "carters-carters-organic-graphic-tee",
     name: "Carters Organic Graphic Tee",
     brand: "carters",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "Carter's Carters Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13508,9 +13598,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "toddler-clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 167,
-    views: 0,
+    views: 1822,
     offers: [
       {
         store: "carters-store",
@@ -13559,7 +13649,7 @@ export const generatedProducts: Product[] = [
     slug: "carters-carters-printed-sneakers",
     name: "Carters Printed Sneakers",
     brand: "carters",
-    category: "clothing",
+    category: "kids-shoes",
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "Carter's Carters Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13570,9 +13660,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "kids-shoes"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 148,
-    views: 0,
+    views: 2561,
     offers: [
       {
         store: "carters-store",
@@ -13621,7 +13711,7 @@ export const generatedProducts: Product[] = [
     slug: "carters-carters-everyday-pajama-set",
     name: "Carters Everyday Pajama Set",
     brand: "carters",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "Carter's Carters Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13632,9 +13722,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 129,
-    views: 0,
+    views: 196,
     offers: [
       {
         store: "carters-store",
@@ -13683,12 +13773,14 @@ export const generatedProducts: Product[] = [
     slug: "carters-carters-cozy-denim-overalls",
     name: "Carters Cozy Denim Overalls",
     brand: "carters",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Carters Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/carters-5-cozy-denim-overalls/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
@@ -13696,7 +13788,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 110,
-    views: 0,
+    views: 2921,
     offers: [
       {
         store: "carters-store",
@@ -13745,7 +13837,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-oshkosh-bgosh-soft-cotton-onesie-set",
     name: "Oshkosh Bgosh Soft Cotton Onesie Set",
     brand: "oshkosh-bgosh",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13756,9 +13848,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 91,
-    views: 0,
+    views: 1698,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -13807,7 +13899,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-oshkosh-bgosh-organic-graphic-tee",
     name: "Oshkosh Bgosh Organic Graphic Tee",
     brand: "oshkosh-bgosh",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13820,7 +13912,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 176,
-    views: 0,
+    views: 5317,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -13869,7 +13961,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-oshkosh-bgosh-printed-sneakers",
     name: "Oshkosh Bgosh Printed Sneakers",
     brand: "oshkosh-bgosh",
-    category: "clothing",
+    category: "kids-shoes",
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13880,9 +13972,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "kids-shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 157,
-    views: 0,
+    views: 3480,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -13931,7 +14023,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-oshkosh-bgosh-everyday-pajama-set",
     name: "Oshkosh Bgosh Everyday Pajama Set",
     brand: "oshkosh-bgosh",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13942,9 +14034,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -13993,20 +14085,22 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-oshkosh-bgosh-cozy-denim-overalls",
     name: "Oshkosh Bgosh Cozy Denim Overalls",
     brand: "oshkosh-bgosh",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/oshkosh-bgosh-5-cozy-denim-overalls/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 52,
-    views: 0,
+    views: 7401,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -14055,7 +14149,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-the-childrens-place-soft-cotton-onesie-set",
     name: "The Childrens Place Soft Cotton Onesie Set",
     brand: "the-childrens-place",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14066,9 +14160,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 195,
-    views: 0,
+    views: 874,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14117,7 +14211,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-the-childrens-place-organic-graphic-tee",
     name: "The Childrens Place Organic Graphic Tee",
     brand: "the-childrens-place",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14128,9 +14222,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "toddler-clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 214,
-    views: 0,
+    views: 5967,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14179,7 +14273,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-the-childrens-place-printed-sneakers",
     name: "The Childrens Place Printed Sneakers",
     brand: "the-childrens-place",
-    category: "clothing",
+    category: "kids-shoes",
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14190,9 +14284,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "kids-shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 109,
-    views: 0,
+    views: 7336,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14241,7 +14335,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-the-childrens-place-everyday-pajama-set",
     name: "The Childrens Place Everyday Pajama Set",
     brand: "the-childrens-place",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14252,9 +14346,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 128,
-    views: 0,
+    views: 1147,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14303,20 +14397,22 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-the-childrens-place-cozy-denim-overalls",
     name: "The Childrens Place Cozy Denim Overalls",
     brand: "the-childrens-place",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/the-childrens-place-5-cozy-denim-overalls/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 71,
-    views: 0,
+    views: 1382,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14365,7 +14461,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-gap-kids-soft-cotton-onesie-set",
     name: "Gap Kids Soft Cotton Onesie Set",
     brand: "gap-kids",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "GAP Kids Gap Kids Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14376,9 +14472,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "gap-kids-store",
@@ -14427,7 +14523,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-gap-kids-organic-graphic-tee",
     name: "Gap Kids Organic Graphic Tee",
     brand: "gap-kids",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "GAP Kids Gap Kids Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14438,9 +14534,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "toddler-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 81,
-    views: 0,
+    views: 4340,
     offers: [
       {
         store: "gap-kids-store",
@@ -14489,7 +14585,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-gap-kids-printed-sneakers",
     name: "Gap Kids Printed Sneakers",
     brand: "gap-kids",
-    category: "clothing",
+    category: "kids-shoes",
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "GAP Kids Gap Kids Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14500,9 +14596,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "kids-shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 100,
-    views: 0,
+    views: 2687,
     offers: [
       {
         store: "gap-kids-store",
@@ -14551,7 +14647,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-gap-kids-everyday-pajama-set",
     name: "Gap Kids Everyday Pajama Set",
     brand: "gap-kids",
-    category: "clothing",
+    category: "kids-clothing",
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "GAP Kids Gap Kids Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14564,7 +14660,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 42,
-    views: 0,
+    views: 7397,
     offers: [
       {
         store: "gap-kids-store",
@@ -14613,20 +14709,22 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-gap-kids-cozy-denim-overalls",
     name: "Gap Kids Cozy Denim Overalls",
     brand: "gap-kids",
-    category: "clothing",
+    category: "baby-clothing",
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "GAP Kids Gap Kids Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/gap-kids-5-cozy-denim-overalls/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 223,
-    views: 0,
+    views: 6422,
     offers: [
       {
         store: "gap-kids-store",
@@ -14686,9 +14784,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 80,
-    views: 0,
+    views: 5003,
     offers: [
       {
         store: "hm-kids-store",
@@ -14748,9 +14846,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "toddler-clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 61,
-    views: 0,
+    views: 3192,
     offers: [
       {
         store: "hm-kids-store",
@@ -14799,7 +14897,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-kids-hm-kids-printed-sneakers",
     name: "Hm Kids Printed Sneakers",
     brand: "hm-kids",
-    category: "clothing",
+    category: "shoes",
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "H&M Kids Hm Kids Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -14810,9 +14908,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "kids-shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 166,
-    views: 0,
+    views: 4543,
     offers: [
       {
         store: "hm-kids-store",
@@ -14872,9 +14970,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 147,
-    views: 0,
+    views: 4054,
     offers: [
       {
         store: "hm-kids-store",
@@ -14928,15 +15026,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "H&M Kids Hm Kids Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://picsum.photos/seed/hm-kids-5-cozy-denim-overalls/600/600",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 204,
-    views: 0,
+    views: 3545,
     offers: [
       {
         store: "hm-kids-store",
@@ -14996,9 +15096,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "adidas-store",
@@ -15028,9 +15128,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "adidas-store",
@@ -15070,9 +15170,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "adidas-store",
@@ -15112,9 +15212,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "adidas-store",
@@ -15176,7 +15276,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "adidas-store",
@@ -15216,9 +15316,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "adidas-store",
@@ -15258,9 +15358,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sportswear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "adidas-store",
@@ -15290,9 +15390,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sportswear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "adidas-store",
@@ -15322,9 +15422,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "adidas-store",
@@ -15354,9 +15454,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "youth-originals"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "adidas-store",
@@ -15386,9 +15486,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "adidas-store",
@@ -15428,9 +15528,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "adidas-store",
@@ -15449,7 +15549,7 @@ export const generatedProducts: Product[] = [
     slug: "nike-nike-air-force-1-07",
     name: "Nike Air Force 1 '07",
     brand: "nike",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Men's Shoes",
     gender: "men",
     description: "Nike Nike Air Force 1 '07 — men's shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -15460,9 +15560,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "nike-store",
@@ -15532,9 +15632,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "nike-store",
@@ -15558,15 +15658,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Jordan Air Jordan 3 Retro \"True Blue\" — men's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88e1020e-4f52-4000-b44c-b421c73b9db1/AIR+JORDAN+3+RETRO+OG.png",
-    colors: [],
+    colors: [
+      "Blue"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "nike-store",
@@ -15596,9 +15698,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "nike-store",
@@ -15617,7 +15719,7 @@ export const generatedProducts: Product[] = [
     slug: "nike-nike-p-6000",
     name: "Nike P-6000",
     brand: "nike",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Nike Nike P-6000 — shoes tracked across 9 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -15630,7 +15732,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "nike-store",
@@ -15740,9 +15842,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "nike-store",
@@ -15761,7 +15863,7 @@ export const generatedProducts: Product[] = [
     slug: "nike-nike-p-6000-se",
     name: "Nike P-6000 SE",
     brand: "nike",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Nike Nike P-6000 SE — shoes tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -15772,9 +15874,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "nike-store",
@@ -15803,20 +15905,22 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-boat-neck-waist-detail-midi-dress-in-chocolate",
     name: "ASOS DESIGN boat neck waist detail midi dress in chocolate",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN boat neck waist detail midi dress in chocolate — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/asos-design-boat-neck-waist-detail-midi-dress-in-chocolate/210896598-1-chocolate/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Chocolate"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "asos-store",
@@ -15835,20 +15939,22 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-polka-dot-high-neck-drop-waist-midi-dress-in-lemon-and-brown",
     name: "ASOS DESIGN polka dot high neck drop waist midi dress in lemon and brown",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN polka dot high neck drop waist midi dress in lemon and brown — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/asos-design-polka-dot-high-neck-drop-waist-midi-dress-in-lemon-and-brown/211076435-1-lemonandbrown/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Brown"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "asos-store",
@@ -15867,20 +15973,22 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-maxi-dress-with-draped-skirt-into-scarf-detailing-in-mono-black-and-white",
     name: "ASOS DESIGN maxi dress with draped skirt into scarf detailing in mono black and white",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN maxi dress with draped skirt into scarf detailing in mono black and white — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/asos-design-maxi-dress-with-draped-skirt-into-scarf-detailing-in-mono-black-and-white/210672092-1-mono/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "asos-store",
@@ -15899,20 +16007,22 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-off-the-shoulder-wrap-bodice-detailing-maxi-dress-with-train-in-green",
     name: "ASOS DESIGN off the shoulder wrap bodice detailing maxi dress with train in green",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN off the shoulder wrap bodice detailing maxi dress with train in green — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/asos-design-off-the-shoulder-wrap-bodice-detailing-maxi-dress-with-train-in-green/210569883-1-olive/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Green"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "asos-store",
@@ -15931,12 +16041,14 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-mesh-maxi-dress-with-ruching-and-frill-details-in-pink",
     name: "ASOS DESIGN mesh maxi dress with ruching and frill details in pink",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN mesh maxi dress with ruching and frill details in pink — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/asos-design-mesh-maxi-dress-with-ruching-and-frill-details-in-pink/210746998-1-pink/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Pink"
+    ],
     sizes: [],
     tags: [
       "dresses",
@@ -15944,7 +16056,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "asos-store",
@@ -15963,20 +16075,22 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-twist-shoulder-with-lace-up-back-maxi-dress-in-black",
     name: "ASOS DESIGN twist shoulder with lace up back maxi dress in black",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN twist shoulder with lace up back maxi dress in black — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/asos-design-twist-shoulder-with-lace-up-back-maxi-dress-in-black/207789200-1-black/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "asos-store",
@@ -15995,7 +16109,7 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-lace-appliqu-grown-on-sleeve-bias-cut-satin-midi-dress-in-plum",
     name: "ASOS DESIGN lace appliqué grown on sleeve bias cut satin midi dress in plum",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN lace appliqué grown on sleeve bias cut satin midi dress in plum — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16006,9 +16120,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "asos-store",
@@ -16027,7 +16141,7 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-cut-out-detail-midaxi-dress-in-mono-polka-dot",
     name: "ASOS DESIGN cut-out detail midaxi dress in mono polka dot",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN cut-out detail midaxi dress in mono polka dot — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16038,9 +16152,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "asos-store",
@@ -16059,7 +16173,7 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-mesh-long-sleeve-maxi-dress-in-lemon",
     name: "ASOS DESIGN mesh long sleeve maxi dress in lemon",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN mesh long sleeve maxi dress in lemon — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16070,9 +16184,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "asos-store",
@@ -16091,20 +16205,22 @@ export const generatedProducts: Product[] = [
     slug: "asos-design-asos-design-draped-halter-neck-maxi-dress-with-knot-back-detail-in-floral-print",
     name: "ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print",
     brand: "asos-design",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dress"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "asos-store",
@@ -16128,15 +16244,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance New Balance 740 in beige and brown - Exclusive to ASOS — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/new-balance-740-in-beige-and-brown-exclusive-to-asos/207470989-1-beige/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Beige"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "asos-store",
@@ -16160,15 +16278,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance New Balance 9060 sneakers with ribbon laces in beige - Exclusive to ASOS — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/new-balance-9060-sneakers-with-ribbon-laces-in-beige-exclusive-to-asos/206991987-1-beige/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Beige"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "asos-store",
@@ -16192,15 +16312,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance New Balance 740 sneakers in beige - Exclusive to ASOS — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/new-balance-740-sneakers-in-beige-exclusive-to-asos/207206543-1-beige/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Beige"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "asos-store",
@@ -16224,15 +16346,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Nike Nike V5 RNR sneakers in beige — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/nike-v5-rnr-sneakers-in-beige/208418155-1-beige/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Beige"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "asos-store",
@@ -16256,15 +16380,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance New Balance 204L sneakers in brown — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/new-balance-204l-sneakers-in-brown/210213006-1-brown/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Brown"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "asos-store",
@@ -16288,15 +16414,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance New Balance 530 sneakers with ribbon laces in silver - Exclusive to ASOS — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/new-balance-530-sneakers-with-ribbon-laces-in-silver-exclusive-to-asos/206991973-1-silver/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Silver"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "asos-store",
@@ -16326,9 +16454,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "asos-store",
@@ -16352,7 +16480,9 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Adidas Originals adidas Originals Samba OG sneakers in navy and gray — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/adidas-originals-samba-og-sneakers-in-navy-and-gray/209359916-1-navy/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Navy"
+    ],
     sizes: [],
     tags: [
       "shoes",
@@ -16360,7 +16490,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "asos-store",
@@ -16384,15 +16514,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance New Balance 530 sneakers in cream and brown — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.asos-media.com/products/new-balance-530-sneakers-in-cream-and-brown/210717751-1-cream/?$n_480w$&wid=476&fit=constrain",
-    colors: [],
+    colors: [
+      "Brown"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "asos-store",
@@ -16416,15 +16548,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Nike Nike Air Rift sneakers in beige — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "",
-    colors: [],
+    colors: [
+      "Beige"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "asos-store",
@@ -16443,7 +16577,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-mini-dress-with-pleated-sleeves",
     name: "MINI DRESS WITH PLEATED SLEEVES",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara MINI DRESS WITH PLEATED SLEEVES — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16454,9 +16588,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "zara-store",
@@ -16475,7 +16609,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-satin-mini-dress",
     name: "SATIN MINI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SATIN MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16486,9 +16620,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "zara-store",
@@ -16507,7 +16641,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-shoulder-pad-romper",
     name: "SHOULDER PAD ROMPER",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SHOULDER PAD ROMPER — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16518,9 +16652,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "zara-store",
@@ -16539,7 +16673,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-metallic-effect-cut-out-bodysuit",
     name: "METALLIC EFFECT CUT-OUT BODYSUIT",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara METALLIC EFFECT CUT-OUT BODYSUIT — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16550,9 +16684,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "zara-store",
@@ -16571,7 +16705,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-metallic-effect-halter-midi-dress",
     name: "METALLIC EFFECT HALTER MIDI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara METALLIC EFFECT HALTER MIDI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16584,7 +16718,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "zara-store",
@@ -16603,7 +16737,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-shoulder-pad-short-jumpsuit",
     name: "SHOULDER PAD SHORT JUMPSUIT",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SHOULDER PAD SHORT JUMPSUIT — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16614,9 +16748,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "zara-store",
@@ -16635,7 +16769,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-shoulder-pad-romper-2",
     name: "SHOULDER PAD ROMPER (2)",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SHOULDER PAD ROMPER (2) — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16646,9 +16780,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "zara-store",
@@ -16667,7 +16801,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-shoulder-pad-seam-detail-mini-dress",
     name: "SHOULDER PAD SEAM DETAIL MINI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SHOULDER PAD SEAM DETAIL MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16678,9 +16812,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "zara-store",
@@ -16699,7 +16833,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-animal-print-tulle-dress",
     name: "ANIMAL PRINT TULLE DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara ANIMAL PRINT TULLE DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16710,9 +16844,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "zara-store",
@@ -16731,7 +16865,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-satin-effect-midi-halter-dress",
     name: "SATIN EFFECT MIDI HALTER DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SATIN EFFECT MIDI HALTER DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16742,9 +16876,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "zara-store",
@@ -16763,7 +16897,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-ruched-cutout-midi-dress",
     name: "RUCHED CUTOUT MIDI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara RUCHED CUTOUT MIDI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16774,9 +16908,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "zara-store",
@@ -16795,7 +16929,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-pleated-sleeve-mini-dress",
     name: "PLEATED SLEEVE MINI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara PLEATED SLEEVE MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16806,9 +16940,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "zara-store",
@@ -16827,7 +16961,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-crepe-midi-dress",
     name: "CREPE MIDI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara CREPE MIDI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16838,9 +16972,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "zara-store",
@@ -16859,7 +16993,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-100-leather-zip-up-mini-dress",
     name: "100% LEATHER ZIP-UP MINI DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara 100% LEATHER ZIP-UP MINI DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16870,9 +17004,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "zara-store",
@@ -16891,7 +17025,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-short-back-opening-dress",
     name: "SHORT BACK OPENING DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SHORT BACK OPENING DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16902,9 +17036,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "zara-store",
@@ -16923,7 +17057,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-sequin-open-back-dress",
     name: "SEQUIN OPEN-BACK DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara SEQUIN OPEN-BACK DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -16934,9 +17068,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "zara-store",
@@ -16955,20 +17089,22 @@ export const generatedProducts: Product[] = [
     slug: "zara-long-floral-print-dress",
     name: "LONG FLORAL PRINT DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara LONG FLORAL PRINT DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://static.zara.net/assets/public/7579/f60a/c27a4f58b71c/10dc9a2705f2/02488710710-a1/02488710710-a1.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "zara-store",
@@ -16987,7 +17123,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-striped-belted-midi-shirt-dress",
     name: "STRIPED BELTED MIDI SHIRT DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara STRIPED BELTED MIDI SHIRT DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17000,7 +17136,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "zara-store",
@@ -17019,7 +17155,7 @@ export const generatedProducts: Product[] = [
     slug: "zara-striped-midi-shirt-dress-with-belt",
     name: "STRIPED MIDI SHIRT DRESS WITH BELT",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara STRIPED MIDI SHIRT DRESS WITH BELT — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17030,9 +17166,9 @@ export const generatedProducts: Product[] = [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "zara-store",
@@ -17051,20 +17187,22 @@ export const generatedProducts: Product[] = [
     slug: "zara-zw-collection-embroidered-fringe-dress",
     name: "ZW COLLECTION EMBROIDERED FRINGE DRESS",
     brand: "zara",
-    category: "dresses-jumpsuits",
+    category: "clothing",
     subcategory: "Women's Dresses & Jumpsuits",
     gender: "women",
     description: "Zara ZW COLLECTION EMBROIDERED FRINGE DRESS — women's dresses & jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://static.zara.net/assets/public/4659/db43/c4fb4ae290cf/6b7226e27841/07521256629-p/07521256629-p.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses-jumpsuits",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "zara-store",
@@ -17083,7 +17221,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-collins-super-baggy-jeans",
     name: "Collins Super Baggy Jeans",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Collins Super Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17094,9 +17232,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 228,
-    views: 0,
+    views: 2503,
     offers: [
       {
         store: "hm-store",
@@ -17115,7 +17253,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-ultra-baggy-jeans",
     name: "Ultra Baggy Jeans",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Ultra Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17126,9 +17264,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 171,
-    views: 0,
+    views: 1030,
     offers: [
       {
         store: "hm-store",
@@ -17147,7 +17285,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-regular-jeans",
     name: "Regular Jeans",
     brand: "hm",
-    category: "men-jeans-regular",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Regular Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17158,9 +17296,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-regular",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 190,
-    views: 0,
+    views: 3937,
     offers: [
       {
         store: "hm-store",
@@ -17179,7 +17317,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-fairfax-baggy-jeans",
     name: "Fairfax Baggy Jeans",
     brand: "hm",
-    category: "men-jeans",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Fairfax Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17190,9 +17328,9 @@ export const generatedProducts: Product[] = [
       "men-jeans",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 85,
-    views: 0,
+    views: 6536,
     offers: [
       {
         store: "hm-store",
@@ -17211,7 +17349,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-loose-jeans",
     name: "Loose Jeans",
     brand: "hm",
-    category: "men-jeans-loose",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Loose Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17222,9 +17360,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-loose",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 104,
-    views: 0,
+    views: 4725,
     offers: [
       {
         store: "hm-store",
@@ -17243,7 +17381,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-relaxed-jeans",
     name: "Relaxed Jeans",
     brand: "hm",
-    category: "men-jeans-relaxed",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Relaxed Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17254,9 +17392,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-relaxed",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 7718,
     offers: [
       {
         store: "hm-store",
@@ -17275,7 +17413,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-slim-jeans",
     name: "Slim Jeans",
     brand: "hm",
-    category: "men-jeans-slim",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Slim Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17286,9 +17424,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-slim",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2267,
     offers: [
       {
         store: "hm-store",
@@ -17307,7 +17445,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-wide-leg-jeans",
     name: "Wide-Leg Jeans",
     brand: "hm",
-    category: "men-jeans-loose",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Wide-Leg Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17318,9 +17456,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-loose",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 57,
-    views: 0,
+    views: 5564,
     offers: [
       {
         store: "hm-store",
@@ -17339,7 +17477,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-collins-super-baggy-jeans-2",
     name: "Collins Super Baggy Jeans (2)",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Collins Super Baggy Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17350,9 +17488,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 76,
-    views: 0,
+    views: 3185,
     offers: [
       {
         store: "hm-store",
@@ -17371,7 +17509,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-collins-super-baggy-jeans-3",
     name: "Collins Super Baggy Jeans (3)",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Collins Super Baggy Jeans (3) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17382,9 +17520,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 218,
-    views: 0,
+    views: 6475,
     offers: [
       {
         store: "hm-store",
@@ -17403,7 +17541,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-baggy-jeans",
     name: "Baggy Jeans",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Baggy Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17414,9 +17552,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 199,
-    views: 0,
+    views: 3482,
     offers: [
       {
         store: "hm-store",
@@ -17435,7 +17573,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-collins-super-baggy-jeans-4",
     name: "Collins Super Baggy Jeans (4)",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Collins Super Baggy Jeans (4) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17446,9 +17584,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 56,
-    views: 0,
+    views: 869,
     offers: [
       {
         store: "hm-store",
@@ -17467,7 +17605,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-baggy-barrel-leg-jeans",
     name: "Baggy Barrel-Leg Jeans",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Baggy Barrel-Leg Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17478,9 +17616,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 237,
-    views: 0,
+    views: 2680,
     offers: [
       {
         store: "hm-store",
@@ -17499,7 +17637,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-relaxed-bootcut-jeans",
     name: "Relaxed Bootcut Jeans",
     brand: "hm",
-    category: "men-jeans-bootcut",
+    category: "mens-shoes",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Relaxed Bootcut Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17510,9 +17648,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-bootcut",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 142,
-    views: 0,
+    views: 5361,
     offers: [
       {
         store: "hm-store",
@@ -17531,7 +17669,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-baggy-jeans-2",
     name: "Baggy Jeans (2)",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Baggy Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17542,9 +17680,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 123,
-    views: 0,
+    views: 5718,
     offers: [
       {
         store: "hm-store",
@@ -17563,7 +17701,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-wide-leg-jeans-2",
     name: "Wide-Leg Jeans (2)",
     brand: "hm",
-    category: "men-jeans-loose",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Wide-Leg Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17576,7 +17714,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 180,
-    views: 0,
+    views: 6359,
     offers: [
       {
         store: "hm-store",
@@ -17595,7 +17733,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-regular-jeans-2",
     name: "Regular Jeans (2)",
     brand: "hm",
-    category: "men-jeans-regular",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Regular Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17606,9 +17744,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-regular",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 161,
-    views: 0,
+    views: 276,
     offers: [
       {
         store: "hm-store",
@@ -17627,7 +17765,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-baggy-darted-jeans",
     name: "Baggy Darted Jeans",
     brand: "hm",
-    category: "men-jeans-baggy",
+    category: "mens-bags",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Baggy Darted Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17638,9 +17776,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-baggy",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2237,
     offers: [
       {
         store: "hm-store",
@@ -17659,7 +17797,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-loose-fit-worker-jeans",
     name: "Loose-Fit Worker Jeans",
     brand: "hm",
-    category: "men-jeans-loose",
+    category: "mens-clothing",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Loose-Fit Worker Jeans — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17670,9 +17808,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-loose",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 3902,
     offers: [
       {
         store: "hm-store",
@@ -17691,7 +17829,7 @@ export const generatedProducts: Product[] = [
     slug: "hm-relaxed-bootcut-jeans-2",
     name: "Relaxed Bootcut Jeans (2)",
     brand: "hm",
-    category: "men-jeans-bootcut",
+    category: "mens-shoes",
     subcategory: "Men's Jeans",
     gender: "men",
     description: "H&M Relaxed Bootcut Jeans (2) — men's jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17702,9 +17840,9 @@ export const generatedProducts: Product[] = [
       "men-jeans-bootcut",
       "men-s-jeans"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 223,
-    views: 0,
+    views: 2550,
     offers: [
       {
         store: "hm-store",
@@ -17723,7 +17861,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-crew-neck-t-shirt",
     name: "Crew Neck T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Crew Neck T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17734,9 +17872,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 42,
-    views: 0,
+    views: 3973,
     offers: [
       {
         store: "uniqlo-store",
@@ -17755,7 +17893,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-mini-t-shirt",
     name: "Mini T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Mini T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17766,9 +17904,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 7384,
     offers: [
       {
         store: "uniqlo-store",
@@ -17787,7 +17925,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-airism-cotton-t-shirt-striped",
     name: "AIRism Cotton T-Shirt | Striped",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo AIRism Cotton T-Shirt | Striped — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17798,9 +17936,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6123,
     offers: [
       {
         store: "uniqlo-store",
@@ -17819,7 +17957,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-ultra-stretch-active-t-shirt",
     name: "Ultra Stretch Active T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "sportswear",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Ultra Stretch Active T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17830,9 +17968,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 147,
-    views: 0,
+    views: 7798,
     offers: [
       {
         store: "uniqlo-store",
@@ -17851,7 +17989,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-mini-t-shirt-striped",
     name: "Mini T-Shirt | Striped",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Mini T-Shirt | Striped — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17864,7 +18002,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 166,
-    views: 0,
+    views: 2321,
     offers: [
       {
         store: "uniqlo-store",
@@ -17883,7 +18021,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-boat-neck-t-shirt",
     name: "Boat Neck T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Boat Neck T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17894,9 +18032,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 185,
-    views: 0,
+    views: 2356,
     offers: [
       {
         store: "uniqlo-store",
@@ -17915,7 +18053,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-airism-cotton-t-shirt",
     name: "AIRism Cotton T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo AIRism Cotton T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17926,9 +18064,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 204,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "uniqlo-store",
@@ -17947,7 +18085,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-airism-cotton-t-shirt-2",
     name: "AIRism Cotton T-Shirt (2)",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo AIRism Cotton T-Shirt (2) — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17958,9 +18096,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 71,
-    views: 0,
+    views: 1618,
     offers: [
       {
         store: "uniqlo-store",
@@ -17979,7 +18117,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-boxy-knitted-t-shirt",
     name: "Boxy Knitted T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Boxy Knitted T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -17990,9 +18128,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 90,
-    views: 0,
+    views: 4627,
     offers: [
       {
         store: "uniqlo-store",
@@ -18011,7 +18149,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-airism-camisole",
     name: "AIRism Camisole",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo AIRism Camisole — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18024,7 +18162,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 232,
-    views: 0,
+    views: 5051,
     offers: [
       {
         store: "uniqlo-store",
@@ -18043,7 +18181,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-shirring-boat-neck-sleeveless-t-shirt",
     name: "Shirring Boat Neck Sleeveless T-Shirt",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Shirring Boat Neck Sleeveless T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18054,9 +18192,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 213,
-    views: 0,
+    views: 3240,
     offers: [
       {
         store: "uniqlo-store",
@@ -18075,7 +18213,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-washable-knit-bra-top",
     name: "Washable Knit Bra Top",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Washable Knit Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18086,9 +18224,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 194,
-    views: 0,
+    views: 7509,
     offers: [
       {
         store: "uniqlo-store",
@@ -18107,7 +18245,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-ribbed-lace-v-neck-camisole",
     name: "Ribbed Lace V-Neck Camisole",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Ribbed Lace V-Neck Camisole — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18118,9 +18256,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 175,
-    views: 0,
+    views: 2058,
     offers: [
       {
         store: "uniqlo-store",
@@ -18139,7 +18277,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-racer-back-bra-top",
     name: "Racer Back Bra Top",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Racer Back Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18150,9 +18288,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 156,
-    views: 0,
+    views: 3497,
     offers: [
       {
         store: "uniqlo-store",
@@ -18171,7 +18309,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-airism-bra-top",
     name: "AIRism Bra Top",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo AIRism Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18182,9 +18320,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 137,
-    views: 0,
+    views: 4484,
     offers: [
       {
         store: "uniqlo-store",
@@ -18203,7 +18341,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-ribbed-cropped-bra-top",
     name: "Ribbed Cropped Bra Top",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Ribbed Cropped Bra Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18214,9 +18352,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 118,
-    views: 0,
+    views: 5473,
     offers: [
       {
         store: "uniqlo-store",
@@ -18235,7 +18373,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-cropped-square-neck-sleeveless-top",
     name: "Cropped Square Neck Sleeveless Top",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Cropped Square Neck Sleeveless Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18246,9 +18384,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 99,
-    views: 0,
+    views: 4970,
     offers: [
       {
         store: "uniqlo-store",
@@ -18267,7 +18405,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-airism-sleeveless-top",
     name: "AIRism Sleeveless Top",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo AIRism Sleeveless Top — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18278,9 +18416,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6899,
     offers: [
       {
         store: "uniqlo-store",
@@ -18299,7 +18437,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-pointelle-printed-camisole",
     name: "Pointelle Printed Camisole",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Pointelle Printed Camisole — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18310,9 +18448,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 6656,
     offers: [
       {
         store: "uniqlo-store",
@@ -18331,7 +18469,7 @@ export const generatedProducts: Product[] = [
     slug: "uniqlo-ribbed-sleeveless-top-striped",
     name: "Ribbed Sleeveless Top | Striped",
     brand: "uniqlo",
-    category: "t-shirts-sweats",
+    category: "clothing",
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Ribbed Sleeveless Top | Striped — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18342,9 +18480,9 @@ export const generatedProducts: Product[] = [
       "t-shirts-sweats",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 107,
-    views: 0,
+    views: 4768,
     offers: [
       {
         store: "uniqlo-store",
@@ -18363,7 +18501,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-suede-jacket-with-buttons",
     name: "Suede jacket with buttons",
     brand: "mango",
-    category: "jackets",
+    category: "clothing",
     subcategory: "leather",
     gender: "women",
     description: "Mango Suede jacket with buttons — leather tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18374,9 +18512,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "leather"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 88,
-    views: 0,
+    views: 4781,
     offers: [
       {
         store: "mango-store",
@@ -18406,9 +18544,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "heeled-sandals"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 145,
-    views: 0,
+    views: 4158,
     offers: [
       {
         store: "mango-store",
@@ -18427,7 +18565,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-wide-leg-studded-jeans",
     name: "Wide leg studded jeans",
     brand: "mango",
-    category: "jeans",
+    category: "clothing",
     subcategory: "wide-leg",
     gender: "women",
     description: "Mango Wide leg studded jeans — wide-leg tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18438,9 +18576,9 @@ export const generatedProducts: Product[] = [
       "jeans",
       "wide-leg"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 126,
-    views: 0,
+    views: 5491,
     offers: [
       {
         store: "mango-store",
@@ -18459,7 +18597,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-asymmetrical-satin-dress-with-fringes",
     name: "Asymmetrical satin dress with fringes",
     brand: "mango",
-    category: "dresses-and-jumpsuits",
+    category: "clothing",
     subcategory: "dresses",
     gender: "women",
     description: "Mango Asymmetrical satin dress with fringes — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18470,9 +18608,9 @@ export const generatedProducts: Product[] = [
       "dresses-and-jumpsuits",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 332,
     offers: [
       {
         store: "mango-store",
@@ -18491,7 +18629,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-halter-jumpsuit-with-belt-detail",
     name: "Halter jumpsuit with belt detail",
     brand: "mango",
-    category: "dresses-and-jumpsuits",
+    category: "clothing",
     subcategory: "halter",
     gender: "women",
     description: "Mango Halter jumpsuit with belt detail — halter tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18504,7 +18642,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 7521,
     offers: [
       {
         store: "mango-store",
@@ -18523,20 +18661,22 @@ export const generatedProducts: Product[] = [
     slug: "mango-cotton-t-shirt-with-openwork-embroidered-detail",
     name: "Cotton T-shirt with openwork embroidered detail",
     brand: "mango",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "basics",
     gender: "women",
     description: "Mango Cotton T-shirt with openwork embroidered detail — basics tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://media.mango.com/is/image/punto/37041354-01-002",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "basics"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 221,
-    views: 0,
+    views: 7362,
     offers: [
       {
         store: "mango-store",
@@ -18555,7 +18695,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-cross-back-linen-blend-romper",
     name: "Cross-back linen blend romper",
     brand: "mango",
-    category: "dresses-and-jumpsuits",
+    category: "clothing",
     subcategory: "casual",
     gender: "women",
     description: "Mango Cross-back linen blend romper — casual tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18566,9 +18706,9 @@ export const generatedProducts: Product[] = [
       "dresses-and-jumpsuits",
       "casual"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 202,
-    views: 0,
+    views: 3337,
     offers: [
       {
         store: "mango-store",
@@ -18587,7 +18727,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-vest-with-buttons-and-pockets",
     name: "Vest with buttons and pockets",
     brand: "mango",
-    category: "tops",
+    category: "clothing",
     subcategory: "gilets",
     gender: "women",
     description: "Mango Vest with buttons and pockets — gilets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18598,9 +18738,9 @@ export const generatedProducts: Product[] = [
       "tops",
       "gilets"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 155,
-    views: 0,
+    views: 6520,
     offers: [
       {
         store: "mango-store",
@@ -18630,9 +18770,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "flat-sandals"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 136,
-    views: 0,
+    views: 1829,
     offers: [
       {
         store: "mango-store",
@@ -18651,7 +18791,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-suit-jacket-with-fitted-waist",
     name: "Suit jacket with fitted waist",
     brand: "mango",
-    category: "blazers",
+    category: "clothing",
     subcategory: "fitted",
     gender: "women",
     description: "Mango Suit jacket with fitted waist — fitted tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18664,7 +18804,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 98,
-    views: 0,
+    views: 3649,
     offers: [
       {
         store: "mango-store",
@@ -18683,7 +18823,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-wool-blend-funnel-neck-coat",
     name: "Wool-blend funnel-neck coat",
     brand: "mango",
-    category: "coats",
+    category: "clothing",
     subcategory: "coats",
     gender: "women",
     description: "Mango Wool-blend funnel-neck coat — coats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18694,9 +18834,9 @@ export const generatedProducts: Product[] = [
       "coats",
       "coats"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 117,
-    views: 0,
+    views: 6950,
     offers: [
       {
         store: "mango-store",
@@ -18715,7 +18855,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-a-line-dress-with-stitching-details",
     name: "A-line dress with stitching details",
     brand: "mango",
-    category: "dresses-and-jumpsuits",
+    category: "clothing",
     subcategory: "casual",
     gender: "women",
     description: "Mango A-line dress with stitching details — casual tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18726,9 +18866,9 @@ export const generatedProducts: Product[] = [
       "dresses-and-jumpsuits",
       "casual"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 60,
-    views: 0,
+    views: 1127,
     offers: [
       {
         store: "mango-store",
@@ -18758,9 +18898,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "heeled-sandals"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 79,
-    views: 0,
+    views: 4748,
     offers: [
       {
         store: "mango-store",
@@ -18779,7 +18919,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-straight-mid-rise-bermuda-shorts",
     name: "Straight mid-rise Bermuda shorts",
     brand: "mango",
-    category: "shorts-and-bermuda-shorts",
+    category: "clothing",
     subcategory: "bermuda-shorts",
     gender: "women",
     description: "Mango Straight mid-rise Bermuda shorts — bermuda-shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18790,9 +18930,9 @@ export const generatedProducts: Product[] = [
       "shorts-and-bermuda-shorts",
       "bermuda-shorts"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 222,
-    views: 0,
+    views: 7099,
     offers: [
       {
         store: "mango-store",
@@ -18811,7 +18951,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-belt-linen-jumpsuit",
     name: "Belt linen jumpsuit",
     brand: "mango",
-    category: "dresses-and-jumpsuits",
+    category: "clothing",
     subcategory: "casual",
     gender: "women",
     description: "Mango Belt linen jumpsuit — casual tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18822,9 +18962,9 @@ export const generatedProducts: Product[] = [
       "dresses-and-jumpsuits",
       "casual"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 41,
-    views: 0,
+    views: 1798,
     offers: [
       {
         store: "mango-store",
@@ -18854,9 +18994,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "ballet-flats"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 184,
-    views: 0,
+    views: 1435,
     offers: [
       {
         store: "mango-store",
@@ -18875,7 +19015,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-semi-sheer-shirt-with-beaded-belt",
     name: "Semi-sheer shirt with beaded belt",
     brand: "mango",
-    category: "shirts-blouses",
+    category: "clothing",
     subcategory: "long-sleeve",
     gender: "women",
     description: "Mango Semi-sheer shirt with beaded belt — long-sleeve tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18886,9 +19026,9 @@ export const generatedProducts: Product[] = [
       "shirts-blouses",
       "long-sleeve"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 203,
-    views: 0,
+    views: 1672,
     offers: [
       {
         store: "mango-store",
@@ -18907,7 +19047,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-knit-jacket-with-combined-fabrics",
     name: "Knit jacket with combined fabrics",
     brand: "mango",
-    category: "sweaters-and-cardigans",
+    category: "clothing",
     subcategory: "cardigans",
     gender: "women",
     description: "Mango Knit jacket with combined fabrics — cardigans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18918,9 +19058,9 @@ export const generatedProducts: Product[] = [
       "sweaters-and-cardigans",
       "cardigans"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 50,
-    views: 0,
+    views: 5593,
     offers: [
       {
         store: "mango-store",
@@ -18939,7 +19079,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-turtleneck-knit-sweater",
     name: "Turtleneck knit sweater",
     brand: "mango",
-    category: "pyjamas",
+    category: "clothing",
     subcategory: "knitwear",
     gender: "women",
     description: "Mango Turtleneck knit sweater — knitwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18950,9 +19090,9 @@ export const generatedProducts: Product[] = [
       "pyjamas",
       "knitwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 69,
-    views: 0,
+    views: 190,
     offers: [
       {
         store: "mango-store",
@@ -18971,7 +19111,7 @@ export const generatedProducts: Product[] = [
     slug: "mango-manteco-wool-coat-with-belt",
     name: "Manteco wool coat with belt",
     brand: "mango",
-    category: "coats",
+    category: "clothing",
     subcategory: "coats",
     gender: "women",
     description: "Mango Manteco wool coat with belt — coats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -18982,9 +19122,9 @@ export const generatedProducts: Product[] = [
       "coats",
       "coats"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 4058,
     offers: [
       {
         store: "mango-store",
@@ -19003,7 +19143,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-naizhu-1pair-flower-earrings-fashion-party-accessories",
     name: "NAIZHU 1pair Flower Earrings, Fashion Party Accessories",
     brand: "shein",
-    category: "women-dangle-earrings",
+    category: "jewelry",
     subcategory: "Women Dangle Earrings",
     gender: "women",
     description: "SHEIN NAIZHU 1pair Flower Earrings, Fashion Party Accessories — women dangle earrings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19014,9 +19154,9 @@ export const generatedProducts: Product[] = [
       "women-dangle-earrings",
       "women-dangle-earrings"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 4415,
     offers: [
       {
         store: "shein-store",
@@ -19035,20 +19175,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-emery-rose-faux-denim-color-block-polo-long-sleeve-top",
     name: "EMERY ROSE Faux Denim Color Block Polo Long Sleeve Top",
     brand: "shein",
-    category: "women-t-shirts",
+    category: "clothing",
     subcategory: "Women T-Shirts",
     gender: "women",
     description: "SHEIN EMERY ROSE Faux Denim Color Block Polo Long Sleeve Top — women t-shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/dps/PS2026082022159/5c85381ecf7c53c39dc4fdbbffb0791154d3b1204395d3388e17fec8360170d6_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "women-t-shirts",
       "women-t-shirts"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 1500,
     offers: [
       {
         store: "shein-store",
@@ -19067,7 +19209,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-women-s-v-neck-knit-vest-button-front-cardigan",
     name: "Women's V-Neck Knit Vest, Button Front Cardigan",
     brand: "shein",
-    category: "women-sweater-vests",
+    category: "clothing",
     subcategory: "Women Sweater Vests",
     gender: "women",
     description: "SHEIN Women's V-Neck Knit Vest, Button Front Cardigan — women sweater vests tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19078,9 +19220,9 @@ export const generatedProducts: Product[] = [
       "women-sweater-vests",
       "women-sweater-vests"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 3417,
     offers: [
       {
         store: "shein-store",
@@ -19099,7 +19241,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-fashion-punk-gothic-elastic-beach-headband",
     name: "Fashion Punk Gothic Elastic Beach Headband",
     brand: "shein",
-    category: "hair-bands",
+    category: "accessories",
     subcategory: "Hair Bands",
     gender: "women",
     description: "SHEIN Fashion Punk Gothic Elastic Beach Headband — hair bands tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19110,9 +19252,9 @@ export const generatedProducts: Product[] = [
       "hair-bands",
       "hair-bands"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 6294,
     offers: [
       {
         store: "shein-store",
@@ -19131,7 +19273,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-women-s-lace-trim-satin-halter-neck-top",
     name: "Women's Lace Trim Satin Halter Neck Top",
     brand: "shein",
-    category: "women-tops",
+    category: "clothing",
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN Women's Lace Trim Satin Halter Neck Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19142,9 +19284,9 @@ export const generatedProducts: Product[] = [
       "women-tops",
       "women-tops"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 7525,
     offers: [
       {
         store: "shein-store",
@@ -19163,7 +19305,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-shein-essnce-long-sleeve-pleated-blazer",
     name: "SHEIN Essnce Long Sleeve Pleated Blazer",
     brand: "shein",
-    category: "women-jackets",
+    category: "clothing",
     subcategory: "Women Jackets",
     gender: "women",
     description: "SHEIN SHEIN Essnce Long Sleeve Pleated Blazer — women jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19174,9 +19316,9 @@ export const generatedProducts: Product[] = [
       "women-jackets",
       "women-jackets"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 3320,
     offers: [
       {
         store: "shein-store",
@@ -19195,7 +19337,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-shein-boho-casual-loose-linen-shirt-blouse",
     name: "SHEIN Boho Casual Loose Linen Shirt Blouse",
     brand: "shein",
-    category: "women-blouses-shirts",
+    category: "clothing",
     subcategory: "Women Blouses & Shirts",
     gender: "women",
     description: "SHEIN SHEIN Boho Casual Loose Linen Shirt Blouse — women blouses & shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19208,7 +19350,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 5131,
     offers: [
       {
         store: "shein-store",
@@ -19227,20 +19369,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-trnvie-halter-neck-circular-buckle-tank-top",
     name: "TRNVIE Halter Neck Circular Buckle Tank Top",
     brand: "shein",
-    category: "women-tank-tops-camis",
+    category: "clothing",
     subcategory: "Women Tank Tops & Camis",
     gender: "women",
     description: "SHEIN TRNVIE Halter Neck Circular Buckle Tank Top — women tank tops & camis tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/pi/2025/08/22/50/1755866915545c9736b38769d346bc380957c727fd_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "women-tank-tops-camis",
       "women-tank-tops-camis"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 43,
-    views: 0,
+    views: 2670,
     offers: [
       {
         store: "shein-store",
@@ -19259,12 +19403,14 @@ export const generatedProducts: Product[] = [
     slug: "shein-romwe-leopard-floral-print-y2k-skinny-denim-shorts",
     name: "ROMWE Leopard & Floral Print Y2K Skinny Denim Shorts",
     brand: "shein",
-    category: "women-jeans",
+    category: "clothing",
     subcategory: "Women Jeans",
     gender: "women",
     description: "SHEIN ROMWE Leopard & Floral Print Y2K Skinny Denim Shorts — women jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/pi/2026/02/04/81/1770195424e9632c4ca035262199270f1b1ccd3f2e_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "women-jeans",
@@ -19272,7 +19418,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 62,
-    views: 0,
+    views: 8103,
     offers: [
       {
         store: "shein-store",
@@ -19291,20 +19437,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-bohemian-woven-flared-a-line-long-skirt",
     name: "Bohemian Woven Flared A-Line Long Skirt",
     brand: "shein",
-    category: "women-skirts",
+    category: "clothing",
     subcategory: "Women Skirts",
     gender: "women",
     description: "SHEIN Bohemian Woven Flared A-Line Long Skirt — women skirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/spmp/2026/06/22/dc/1782119923c9160504e95d50e05096e6922605dca7_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "women-skirts",
       "women-skirts"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 1993,
     offers: [
       {
         store: "shein-store",
@@ -19323,20 +19471,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-casual-denim-spliced-jacket-slim-fit-coat",
     name: "Casual Denim Spliced Jacket Slim-Fit Coat",
     brand: "shein",
-    category: "women-jackets",
+    category: "clothing",
     subcategory: "Women Jackets",
     gender: "women",
     description: "SHEIN Casual Denim Spliced Jacket Slim-Fit Coat — women jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/p/spmp/2026/07/21/64/1784630626d5244aa7001b053d965179ba5ebcf3fa_thumbnail_405x552.png",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "women-jackets",
       "women-jackets"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 740,
     offers: [
       {
         store: "shein-store",
@@ -19355,7 +19505,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-elenzga-v-neck-cinched-waist-jumpsuit",
     name: "Elenzga V-Neck Cinched Waist Jumpsuit",
     brand: "shein",
-    category: "women-jumpsuits",
+    category: "clothing",
     subcategory: "Women Jumpsuits",
     gender: "women",
     description: "SHEIN Elenzga V-Neck Cinched Waist Jumpsuit — women jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19366,9 +19516,9 @@ export const generatedProducts: Product[] = [
       "women-jumpsuits",
       "women-jumpsuits"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 166,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "shein-store",
@@ -19387,20 +19537,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-romwe-goth-floral-lace-underwire-triangle-cup-bra",
     name: "ROMWE Goth Floral Lace Underwire Triangle Cup Bra",
     brand: "shein",
-    category: "women-bras-bralettes",
+    category: "clothing",
     subcategory: "Women Bras & Bralettes",
     gender: "women",
     description: "SHEIN ROMWE Goth Floral Lace Underwire Triangle Cup Bra — women bras & bralettes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/pi/2026/01/05/d6/1767583925ecbe2357d32f29fc3180a520a3832708_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "women-bras-bralettes",
       "women-bras-bralettes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 147,
-    views: 0,
+    views: 5798,
     offers: [
       {
         store: "shein-store",
@@ -19419,7 +19571,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-autumn-tiger-print-crew-neck-sweatshirt",
     name: "Autumn Tiger Print Crew Neck Sweatshirt",
     brand: "shein",
-    category: "women-sweatshirts-hoodies",
+    category: "clothing",
     subcategory: "Women Sweatshirts & Hoodies",
     gender: "women",
     description: "SHEIN Autumn Tiger Print Crew Neck Sweatshirt — women sweatshirts & hoodies tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19430,9 +19582,9 @@ export const generatedProducts: Product[] = [
       "women-sweatshirts-hoodies",
       "women-sweatshirts-hoodies"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 80,
-    views: 0,
+    views: 1557,
     offers: [
       {
         store: "shein-store",
@@ -19451,20 +19603,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-balvessa-floral-print-wrap-v-neck-sweater",
     name: "Balvessa Floral Print Wrap V-Neck Sweater",
     brand: "shein",
-    category: "women-sweaters",
+    category: "clothing",
     subcategory: "Women Sweaters",
     gender: "women",
     description: "SHEIN Balvessa Floral Print Wrap V-Neck Sweater — women sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/pi/2025/10/30/cd/1761793423f903cc98458e3bc80bde65f39dd082b1_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "women-sweaters",
       "women-sweaters"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 61,
-    views: 0,
+    views: 4520,
     offers: [
       {
         store: "shein-store",
@@ -19483,20 +19637,22 @@ export const generatedProducts: Product[] = [
     slug: "shein-vixey-textured-asymmetrical-hem-waistcoat-top",
     name: "Vixey Textured Asymmetrical Hem Waistcoat Top",
     brand: "shein",
-    category: "women-tops",
+    category: "clothing",
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN Vixey Textured Asymmetrical Hem Waistcoat Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/24/61/17848870032e292b562cf776050fff9a71b77dbe14_thumbnail_405x552.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "women-tops",
       "women-tops"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 42,
-    views: 0,
+    views: 251,
     offers: [
       {
         store: "shein-store",
@@ -19515,7 +19671,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-colorful-striped-ankle-socks-4-8-pairs",
     name: "Colorful Striped Ankle Socks (4/8 Pairs)",
     brand: "shein",
-    category: "women-over-the-calf-socks",
+    category: "clothing",
     subcategory: "Women Over the Calf Socks",
     gender: "women",
     description: "SHEIN Colorful Striped Ankle Socks (4/8 Pairs) — women over the calf socks tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19526,9 +19682,9 @@ export const generatedProducts: Product[] = [
       "women-over-the-calf-socks",
       "women-over-the-calf-socks"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 223,
-    views: 0,
+    views: 5766,
     offers: [
       {
         store: "shein-store",
@@ -19547,7 +19703,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-glyssa-backless-halter-neck-fitted-jumpsuit",
     name: "Glyssa Backless Halter Neck Fitted Jumpsuit",
     brand: "shein",
-    category: "women-jumpsuits",
+    category: "clothing",
     subcategory: "Women Jumpsuits",
     gender: "women",
     description: "SHEIN Glyssa Backless Halter Neck Fitted Jumpsuit — women jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19558,9 +19714,9 @@ export const generatedProducts: Product[] = [
       "women-jumpsuits",
       "women-jumpsuits"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5599,
     offers: [
       {
         store: "shein-store",
@@ -19579,7 +19735,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-shein-cross-neck-3-4-sleeve-pleated-top",
     name: "SHEIN Cross Neck 3/4 Sleeve Pleated Top",
     brand: "shein",
-    category: "women-tops",
+    category: "clothing",
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN SHEIN Cross Neck 3/4 Sleeve Pleated Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19590,9 +19746,9 @@ export const generatedProducts: Product[] = [
       "women-tops",
       "women-tops"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3348,
     offers: [
       {
         store: "shein-store",
@@ -19611,7 +19767,7 @@ export const generatedProducts: Product[] = [
     slug: "shein-hauture-cowl-neck-mesh-backless-halter-top",
     name: "Hauture Cowl Neck Mesh Backless Halter Top",
     brand: "shein",
-    category: "women-tops",
+    category: "clothing",
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN Hauture Cowl Neck Mesh Backless Halter Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19622,9 +19778,9 @@ export const generatedProducts: Product[] = [
       "women-tops",
       "women-tops"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 62,
-    views: 0,
+    views: 1617,
     offers: [
       {
         store: "shein-store",
@@ -19643,7 +19799,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-shell-funnel-neck-jacket",
     name: "Shell Funnel Neck Jacket",
     brand: "prettylittlething",
-    category: "jackets-coats",
+    category: "clothing",
     subcategory: "Windbreaker",
     gender: "women",
     description: "PrettyLittleThing Shell Funnel Neck Jacket — windbreaker tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19654,9 +19810,9 @@ export const generatedProducts: Product[] = [
       "jackets-coats",
       "windbreaker"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 43,
-    views: 0,
+    views: 4858,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19675,7 +19831,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-shell-balloon-leg-track-pants",
     name: "Shell Balloon Leg Track Pants",
     brand: "prettylittlething",
-    category: "joggers",
+    category: "sportswear",
     subcategory: "Sports Joggers",
     gender: "women",
     description: "PrettyLittleThing Shell Balloon Leg Track Pants — sports joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19686,9 +19842,9 @@ export const generatedProducts: Product[] = [
       "joggers",
       "sports-joggers"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 100,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19707,7 +19863,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-cotton-fleece-polo-button-sweatshirt",
     name: "Cotton Fleece Polo Button Sweatshirt",
     brand: "prettylittlething",
-    category: "hoodies-sweatshirts",
+    category: "clothing",
     subcategory: "Plain Sweatshirt",
     gender: "women",
     description: "PrettyLittleThing Cotton Fleece Polo Button Sweatshirt — plain sweatshirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19718,9 +19874,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "plain-sweatshirt"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 81,
-    views: 0,
+    views: 2300,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19739,7 +19895,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-sculpt-capri-leggings",
     name: "Sculpt Capri Leggings",
     brand: "prettylittlething",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Sports Leggings",
     gender: "women",
     description: "PrettyLittleThing Sculpt Capri Leggings — sports leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19750,9 +19906,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "sports-leggings"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 645,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19771,7 +19927,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-cropped-zip-sweat-hoodie",
     name: "Cropped Zip Sweat Hoodie",
     brand: "prettylittlething",
-    category: "hoodies-sweatshirts",
+    category: "clothing",
     subcategory: "Plain Hoodie",
     gender: "women",
     description: "PrettyLittleThing Cropped Zip Sweat Hoodie — plain hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19782,9 +19938,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "plain-hoodie"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 7034,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19803,7 +19959,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-print-wide-leg-joggers",
     name: "Print Wide Leg Joggers",
     brand: "prettylittlething",
-    category: "joggers",
+    category: "sportswear",
     subcategory: "Sports Joggers",
     gender: "women",
     description: "PrettyLittleThing Print Wide Leg Joggers — sports joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19814,9 +19970,9 @@ export const generatedProducts: Product[] = [
       "joggers",
       "sports-joggers"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 176,
-    views: 0,
+    views: 3499,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19835,20 +19991,22 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-paris-embroidered-full-zip-hoodie",
     name: "Paris Embroidered Full Zip Hoodie",
     brand: "prettylittlething",
-    category: "hoodies-sweatshirts",
+    category: "clothing",
     subcategory: "Plain Hoodie",
     gender: "women",
     description: "PrettyLittleThing Paris Embroidered Full Zip Hoodie — plain hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.prettylittlething.com/cnq6462_blue_xl",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "hoodies-sweatshirts",
       "plain-hoodie"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 157,
-    views: 0,
+    views: 1688,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19867,20 +20025,22 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-paris-embroidered-sweat-shorts",
     name: "Paris Embroidered Sweat Shorts",
     brand: "prettylittlething",
-    category: "shorts",
+    category: "sportswear",
     subcategory: "Sports Shorts",
     gender: "women",
     description: "PrettyLittleThing Paris Embroidered Sweat Shorts — sports shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.prettylittlething.com/cnq6463_blue_xl",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "shorts",
       "sports-shorts"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 110,
-    views: 0,
+    views: 1735,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19899,7 +20059,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-button-front-sweatshirt",
     name: "Button Front Sweatshirt",
     brand: "prettylittlething",
-    category: "hoodies-sweatshirts",
+    category: "clothing",
     subcategory: "Plain Sweatshirt",
     gender: "women",
     description: "PrettyLittleThing Button Front Sweatshirt — plain sweatshirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19910,9 +20070,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "plain-sweatshirt"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 91,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19931,7 +20091,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-love-club-print-sweat-shorts",
     name: "Love Club Print Sweat Shorts",
     brand: "prettylittlething",
-    category: "shorts",
+    category: "sportswear",
     subcategory: "Sports Shorts",
     gender: "women",
     description: "PrettyLittleThing Love Club Print Sweat Shorts — sports shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19942,9 +20102,9 @@ export const generatedProducts: Product[] = [
       "shorts",
       "sports-shorts"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 59,
-    views: 0,
+    views: 2464,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19963,7 +20123,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-cropped-zip-sweat-hoodie-2",
     name: "Cropped Zip Sweat Hoodie (2)",
     brand: "prettylittlething",
-    category: "hoodies-sweatshirts",
+    category: "clothing",
     subcategory: "Plain Hoodie",
     gender: "women",
     description: "PrettyLittleThing Cropped Zip Sweat Hoodie (2) — plain hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -19974,9 +20134,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "plain-hoodie"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "prettylittlething-store",
@@ -19995,7 +20155,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-sugar-print-pullover-sweatshirt",
     name: "Sugar Print Pullover Sweatshirt",
     brand: "prettylittlething",
-    category: "hoodies-sweatshirts",
+    category: "clothing",
     subcategory: "Plain Sweatshirt",
     gender: "women",
     description: "PrettyLittleThing Sugar Print Pullover Sweatshirt — plain sweatshirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20006,9 +20166,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "plain-sweatshirt"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 97,
-    views: 0,
+    views: 2158,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20027,7 +20187,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-soft-cotton-quarter-sleeve-fitted-top",
     name: "Soft Cotton Quarter Sleeve Fitted Top",
     brand: "prettylittlething",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "T-Shirt",
     gender: "women",
     description: "PrettyLittleThing Soft Cotton Quarter Sleeve Fitted Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20040,7 +20200,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 78,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20059,7 +20219,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-soft-rib-crew-neck-short-sleeve-top",
     name: "Soft Rib Crew Neck Short Sleeve Top",
     brand: "prettylittlething",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "T-Shirt",
     gender: "women",
     description: "PrettyLittleThing Soft Rib Crew Neck Short Sleeve Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20070,9 +20230,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "t-shirt"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 1692,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20091,7 +20251,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-soft-rib-crew-neck-long-sleeve-top",
     name: "Soft Rib Crew Neck Long Sleeve Top",
     brand: "prettylittlething",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "T-Shirt",
     gender: "women",
     description: "PrettyLittleThing Soft Rib Crew Neck Long Sleeve Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20102,9 +20262,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "t-shirt"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 2399,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20123,7 +20283,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-basic-soft-cotton-boat-neck-vest-top",
     name: "Basic Soft Cotton Boat Neck Vest Top",
     brand: "prettylittlething",
-    category: "tops",
+    category: "clothing",
     subcategory: "Vest",
     gender: "women",
     description: "PrettyLittleThing Basic Soft Cotton Boat Neck Vest Top — vest tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20134,9 +20294,9 @@ export const generatedProducts: Product[] = [
       "tops",
       "vest"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 173,
-    views: 0,
+    views: 5298,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20155,7 +20315,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-soft-rib-high-neck-fitted-longline-t-shirt",
     name: "Soft Rib High Neck Fitted Longline T-Shirt",
     brand: "prettylittlething",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "T-Shirt",
     gender: "women",
     description: "PrettyLittleThing Soft Rib High Neck Fitted Longline T-Shirt — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20166,9 +20326,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "t-shirt"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 154,
-    views: 0,
+    views: 7895,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20187,7 +20347,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-basic-soft-rib-backless-top",
     name: "Basic Soft Rib Backless Top",
     brand: "prettylittlething",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "T-Shirt",
     gender: "women",
     description: "PrettyLittleThing Basic Soft Rib Backless Top — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20198,9 +20358,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "t-shirt"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 107,
-    views: 0,
+    views: 520,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20219,7 +20379,7 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-basic-soft-rib-racer-neck-vest-top",
     name: "Basic Soft Rib Racer Neck Vest Top",
     brand: "prettylittlething",
-    category: "tops",
+    category: "clothing",
     subcategory: "Vest",
     gender: "women",
     description: "PrettyLittleThing Basic Soft Rib Racer Neck Vest Top — vest tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20230,9 +20390,9 @@ export const generatedProducts: Product[] = [
       "tops",
       "vest"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 88,
-    views: 0,
+    views: 3483,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20251,20 +20411,22 @@ export const generatedProducts: Product[] = [
     slug: "prettylittlething-textured-burnout-slouchy-one-shoulder-t-shirt",
     name: "Textured Burnout Slouchy One Shoulder T-Shirt",
     brand: "prettylittlething",
-    category: "t-shirts",
+    category: "clothing",
     subcategory: "T-Shirt",
     gender: "women",
     description: "PrettyLittleThing Textured Burnout Slouchy One Shoulder T-Shirt — t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.prettylittlething.com/cnq8347_blue_xl",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "t-shirt"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 80,
-    views: 0,
+    views: 3659,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20283,20 +20445,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-oversized-paris-floral-t-shirt",
     name: "Oversized Paris Floral T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN Oversized Paris Floral T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/cmm12017_white_xl",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 61,
-    views: 0,
+    views: 3768,
     offers: [
       {
         store: "boohooman-store",
@@ -20315,7 +20479,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-fixed-waist-relaxed-fit-cargo-trouser",
     name: "Fixed Waist Relaxed Fit Cargo Trouser",
     brand: "boohooman",
-    category: "trousers",
+    category: "mens-clothing",
     subcategory: "Cargo Trousers",
     gender: "men",
     description: "boohooMAN Fixed Waist Relaxed Fit Cargo Trouser — cargo trousers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20326,9 +20490,9 @@ export const generatedProducts: Product[] = [
       "trousers",
       "cargo-trousers"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 42,
-    views: 0,
+    views: 5925,
     offers: [
       {
         store: "boohooman-store",
@@ -20347,7 +20511,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-melton-pu-applique-varsity-jacket",
     name: "Melton & PU Applique Varsity Jacket",
     brand: "boohooman",
-    category: "jackets-coats",
+    category: "mens-clothing",
     subcategory: "Varsity Jacket",
     gender: "men",
     description: "boohooMAN Melton & PU Applique Varsity Jacket — varsity jacket tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20358,9 +20522,9 @@ export const generatedProducts: Product[] = [
       "jackets-coats",
       "varsity-jacket"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 223,
-    views: 0,
+    views: 7898,
     offers: [
       {
         store: "boohooman-store",
@@ -20379,20 +20543,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-white-oversized-tokyo-floral-print-t-shirt",
     name: "White Oversized Tokyo Floral Print T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN White Oversized Tokyo Floral Print T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/cmm25753_white_xl",
-    colors: [],
+    colors: [
+      "White"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 204,
-    views: 0,
+    views: 2713,
     offers: [
       {
         store: "boohooman-store",
@@ -20411,7 +20577,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-essential-oversized-boxy-zip-through-hoodie",
     name: "Essential Oversized Boxy Zip Through Hoodie",
     brand: "boohooman",
-    category: "hoodies-sweatshirts",
+    category: "mens-clothing",
     subcategory: "Basic Hoodie",
     gender: "men",
     description: "boohooMAN Essential Oversized Boxy Zip Through Hoodie — basic hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20422,9 +20588,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "basic-hoodie"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 185,
-    views: 0,
+    views: 6044,
     offers: [
       {
         store: "boohooman-store",
@@ -20443,7 +20609,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-oversized-boxy-limited-edition-t-shirt",
     name: "Oversized Boxy Limited Edition T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN Oversized Boxy Limited Edition T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20454,9 +20620,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 166,
-    views: 0,
+    views: 3953,
     offers: [
       {
         store: "boohooman-store",
@@ -20475,7 +20641,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-essential-skinny-fit-stretch-washed-jeans",
     name: "Essential Skinny Fit Stretch Washed Jeans",
     brand: "boohooman",
-    category: "jeans",
+    category: "mens-clothing",
     subcategory: "Skinny Jeans",
     gender: "men",
     description: "boohooMAN Essential Skinny Fit Stretch Washed Jeans — skinny jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20486,9 +20652,9 @@ export const generatedProducts: Product[] = [
       "jeans",
       "skinny-jeans"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 147,
-    views: 0,
+    views: 602,
     offers: [
       {
         store: "boohooman-store",
@@ -20507,7 +20673,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-ecru-oversized-monaco-racing-t-shirt",
     name: "Ecru Oversized Monaco Racing T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN Ecru Oversized Monaco Racing T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20518,9 +20684,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 707,
     offers: [
       {
         store: "boohooman-store",
@@ -20539,7 +20705,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-ecru-regular-fit-stencil-landscape-hoodie",
     name: "Ecru Regular Fit Stencil Landscape Hoodie",
     brand: "boohooman",
-    category: "hoodies-sweatshirts",
+    category: "mens-clothing",
     subcategory: "Printed Hoodie",
     gender: "men",
     description: "boohooMAN Ecru Regular Fit Stencil Landscape Hoodie — printed hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20550,9 +20716,9 @@ export const generatedProducts: Product[] = [
       "hoodies-sweatshirts",
       "printed-hoodie"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 720,
     offers: [
       {
         store: "boohooman-store",
@@ -20571,7 +20737,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-oversized-marvel-spider-man-t-shirt",
     name: "Oversized Marvel Spider-Man T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Licensed T-Shirt",
     gender: "men",
     description: "boohooMAN Oversized Marvel Spider-Man T-Shirt — licensed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20582,9 +20748,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "licensed-t-shirt"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 71,
-    views: 0,
+    views: 4362,
     offers: [
       {
         store: "boohooman-store",
@@ -20603,20 +20769,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-white-oversized-interlock-monaco-car-t-shirt",
     name: "White Oversized Interlock Monaco Car T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN White Oversized Interlock Monaco Car T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/cmm26949_white_xl",
-    colors: [],
+    colors: [
+      "White"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "boohooman-store",
@@ -20635,7 +20803,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-essential-elasticated-twill-cargo-shorts",
     name: "Essential Elasticated Twill Cargo Shorts",
     brand: "boohooman",
-    category: "shorts",
+    category: "mens-clothing",
     subcategory: "Cargo Shorts",
     gender: "men",
     description: "boohooMAN Essential Elasticated Twill Cargo Shorts — cargo shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20646,9 +20814,9 @@ export const generatedProducts: Product[] = [
       "shorts",
       "cargo-shorts"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 168,
     offers: [
       {
         store: "boohooman-store",
@@ -20667,20 +20835,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-white-oversized-monaco-racing-print-t-shirt",
     name: "White Oversized Monaco Racing Print T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN White Oversized Monaco Racing Print T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/cmm26528_white_xl",
-    colors: [],
+    colors: [
+      "White"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 2357,
     offers: [
       {
         store: "boohooman-store",
@@ -20699,20 +20869,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-essential-relaxed-fit-denim-jorts",
     name: "Essential Relaxed Fit Denim Jorts",
     brand: "boohooman",
-    category: "shorts",
+    category: "mens-clothing",
     subcategory: "Jorts",
     gender: "men",
     description: "boohooMAN Essential Relaxed Fit Denim Jorts — jorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/cmm23292_stonewash_xl",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "shorts",
       "jorts"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 195,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "boohooman-store",
@@ -20731,20 +20903,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-oversized-boxy-floral-puff-print-hoodie",
     name: "Oversized Boxy Floral Puff Print Hoodie",
     brand: "boohooman",
-    category: "hoodies-sweatshirts",
+    category: "mens-clothing",
     subcategory: "Printed Hoodie",
     gender: "men",
     description: "boohooMAN Oversized Boxy Floral Puff Print Hoodie — printed hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/bmm93186_taupe_xl",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "hoodies-sweatshirts",
       "printed-hoodie"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 214,
-    views: 0,
+    views: 7439,
     offers: [
       {
         store: "boohooman-store",
@@ -20763,7 +20937,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-relaxed-rhinestone-camo-cargo-trousers",
     name: "Relaxed Rhinestone Camo Cargo Trousers",
     brand: "boohooman",
-    category: "trousers",
+    category: "mens-clothing",
     subcategory: "Cargo Trousers",
     gender: "men",
     description: "boohooMAN Relaxed Rhinestone Camo Cargo Trousers — cargo trousers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20774,9 +20948,9 @@ export const generatedProducts: Product[] = [
       "trousers",
       "cargo-trousers"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "boohooman-store",
@@ -20795,7 +20969,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-essential-slim-fit-crew-neck-t-shirt",
     name: "Essential Slim Fit Crew Neck T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Basic T-Shirt",
     gender: "men",
     description: "boohooMAN Essential Slim Fit Crew Neck T-Shirt — basic t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20808,7 +20982,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 52,
-    views: 0,
+    views: 1193,
     offers: [
       {
         store: "boohooman-store",
@@ -20827,7 +21001,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-essential-bm-signature-regular-fit-jogger",
     name: "Essential BM Signature Regular Fit Jogger",
     brand: "boohooman",
-    category: "joggers",
+    category: "mens-sportswear",
     subcategory: "Basic Joggers",
     gender: "men",
     description: "boohooMAN Essential BM Signature Regular Fit Jogger — basic joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20838,9 +21012,9 @@ export const generatedProducts: Product[] = [
       "joggers",
       "basic-joggers"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 3618,
     offers: [
       {
         store: "boohooman-store",
@@ -20859,20 +21033,22 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-oversized-floral-photo-back-print-t-shirt",
     name: "Oversized Floral Photo Back Print T-Shirt",
     brand: "boohooman",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "Printed T-Shirt",
     gender: "men",
     description: "boohooMAN Oversized Floral Photo Back Print T-Shirt — printed t-shirt tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://mediahub.boohoo.com/mzz28644_black_xl",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "t-shirts",
       "printed-t-shirt"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 6403,
     offers: [
       {
         store: "boohooman-store",
@@ -20891,7 +21067,7 @@ export const generatedProducts: Product[] = [
     slug: "boohooman-oversized-boxy-bonded-scuba-hooded-tracksuit",
     name: "Oversized Boxy Bonded Scuba Hooded Tracksuit",
     brand: "boohooman",
-    category: "tracksuits",
+    category: "mens-sportswear",
     subcategory: "Plain Long Tracksuit",
     gender: "men",
     description: "boohooMAN Oversized Boxy Bonded Scuba Hooded Tracksuit — plain long tracksuit tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20904,7 +21080,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 66,
-    views: 0,
+    views: 4149,
     offers: [
       {
         store: "boohooman-store",
@@ -20923,7 +21099,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-100-cotton-crew-tee",
     name: "100% Cotton Crew Tee",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 100% Cotton Crew Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20934,9 +21110,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 47,
-    views: 0,
+    views: 6086,
     offers: [
       {
         store: "forever-21-store",
@@ -20955,7 +21131,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-100-cotton-crew-tee-2",
     name: "100% Cotton Crew Tee (2)",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 100% Cotton Crew Tee (2) — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20966,9 +21142,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 104,
-    views: 0,
+    views: 5147,
     offers: [
       {
         store: "forever-21-store",
@@ -20987,7 +21163,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-100-cotton-v-neck-tee",
     name: "100% Cotton V-Neck Tee",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 100% Cotton V-Neck Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -20998,9 +21174,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 85,
-    views: 0,
+    views: 5384,
     offers: [
       {
         store: "forever-21-store",
@@ -21019,7 +21195,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-100-cotton-v-neck-tee-2",
     name: "100% Cotton V-Neck Tee (2)",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 100% Cotton V-Neck Tee (2) — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21030,9 +21206,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 190,
-    views: 0,
+    views: 7361,
     offers: [
       {
         store: "forever-21-store",
@@ -21051,20 +21227,22 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-1970-graphic-cropped-tank-top",
     name: "1970 Graphic Cropped Tank Top",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 1970 Graphic Cropped Tank Top — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0702/7847/9906/files/Large-01287482-01-1_front.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 171,
-    views: 0,
+    views: 2662,
     offers: [
       {
         store: "forever-21-store",
@@ -21083,7 +21261,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-1984-varsity-bomber-jacket",
     name: "1984 Varsity Bomber Jacket",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 1984 Varsity Bomber Jacket — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21094,9 +21272,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 228,
-    views: 0,
+    views: 4839,
     offers: [
       {
         store: "forever-21-store",
@@ -21115,7 +21293,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-1991-nyc-graphic-raglan-tee",
     name: "1991 NYC Graphic Raglan Tee",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 1991 NYC Graphic Raglan Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21126,9 +21304,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 209,
-    views: 0,
+    views: 6500,
     offers: [
       {
         store: "forever-21-store",
@@ -21147,7 +21325,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-28-off-the-shoulder-sweater",
     name: "28 Off-the-Shoulder Sweater",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 28 Off-the-Shoulder Sweater — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21158,9 +21336,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 7629,
     offers: [
       {
         store: "forever-21-store",
@@ -21179,7 +21357,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-72-ringer-baby-tee",
     name: "72 Ringer Baby Tee",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 72 Ringer Baby Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21190,9 +21368,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 5294,
     offers: [
       {
         store: "forever-21-store",
@@ -21211,7 +21389,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-8-varsity-cropped-sweater",
     name: "8 Varsity Cropped Sweater",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 8 Varsity Cropped Sweater — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21222,9 +21400,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 57,
-    views: 0,
+    views: 7956,
     offers: [
       {
         store: "forever-21-store",
@@ -21243,7 +21421,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-84-graphic-pullover",
     name: "84 Graphic Pullover",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 84 Graphic Pullover — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21254,9 +21432,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 76,
-    views: 0,
+    views: 3287,
     offers: [
       {
         store: "forever-21-store",
@@ -21275,7 +21453,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-89-turtleneck-sweater",
     name: "89 Turtleneck Sweater",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 89 Turtleneck Sweater — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21286,9 +21464,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 219,
-    views: 0,
+    views: 5398,
     offers: [
       {
         store: "forever-21-store",
@@ -21307,7 +21485,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-90s-fit-high-rise-jeans",
     name: "90s-Fit High-Rise Jeans",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 90s-Fit High-Rise Jeans — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21318,9 +21496,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 238,
-    views: 0,
+    views: 5823,
     offers: [
       {
         store: "forever-21-store",
@@ -21339,7 +21517,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-90s-fit-high-rise-straight-jeans",
     name: "90s-Fit High-Rise Straight Jeans",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 90s-Fit High-Rise Straight Jeans — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21350,9 +21528,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 133,
-    views: 0,
+    views: 2232,
     offers: [
       {
         store: "forever-21-store",
@@ -21371,7 +21549,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-90s-fit-snap-button-jeans",
     name: "90s-Fit Snap-Button Jeans",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 90s-Fit Snap-Button Jeans — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21382,9 +21560,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 152,
-    views: 0,
+    views: 6117,
     offers: [
       {
         store: "forever-21-store",
@@ -21403,7 +21581,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-a-tribe-called-quest-graphic-tee",
     name: "A Tribe Called Quest Graphic Tee",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 A Tribe Called Quest Graphic Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21414,9 +21592,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 1878,
     offers: [
       {
         store: "forever-21-store",
@@ -21435,7 +21613,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-a-line-mini-skirt",
     name: "A-Line Mini Skirt",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 A-Line Mini Skirt — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21446,9 +21624,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 3851,
     offers: [
       {
         store: "forever-21-store",
@@ -21467,7 +21645,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-a-line-mini-skirt-2",
     name: "A-Line Mini Skirt (2)",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 A-Line Mini Skirt (2) — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21478,9 +21656,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 105,
-    views: 0,
+    views: 4044,
     offers: [
       {
         store: "forever-21-store",
@@ -21499,7 +21677,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-aaliyah-graphic-baby-tee",
     name: "Aaliyah Graphic Baby Tee",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 Aaliyah Graphic Baby Tee — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21510,9 +21688,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 124,
-    views: 0,
+    views: 3809,
     offers: [
       {
         store: "forever-21-store",
@@ -21531,7 +21709,7 @@ export const generatedProducts: Product[] = [
     slug: "forever-21-aaliyah-graphic-hoodie",
     name: "Aaliyah Graphic Hoodie",
     brand: "forever-21",
-    category: "tops-bottoms",
+    category: "clothing",
     subcategory: "Tops & Bottoms",
     gender: "women",
     description: "Forever 21 Aaliyah Graphic Hoodie — tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21542,9 +21720,9 @@ export const generatedProducts: Product[] = [
       "tops-bottoms",
       "tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 68,
-    views: 0,
+    views: 5601,
     offers: [
       {
         store: "forever-21-store",
@@ -21563,7 +21741,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-oversized-crop-t-shirt",
     name: "Knit Oversized Crop T-Shirt",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Oversized Crop T-Shirt — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21574,9 +21752,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 89,
-    views: 0,
+    views: 5028,
     offers: [
       {
         store: "gap-store",
@@ -21595,7 +21773,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-oversized-crop-t-shirt-2",
     name: "Knit Oversized Crop T-Shirt (2)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Oversized Crop T-Shirt (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21606,9 +21784,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 70,
-    views: 0,
+    views: 4937,
     offers: [
       {
         store: "gap-store",
@@ -21627,7 +21805,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-oversized-crop-t-shirt-3",
     name: "Knit Oversized Crop T-Shirt (3)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Oversized Crop T-Shirt (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21638,9 +21816,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 51,
-    views: 0,
+    views: 8066,
     offers: [
       {
         store: "gap-store",
@@ -21659,7 +21837,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-oversized-crop-t-shirt-4",
     name: "Knit Oversized Crop T-Shirt (4)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Oversized Crop T-Shirt (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21670,9 +21848,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 192,
-    views: 0,
+    views: 1325,
     offers: [
       {
         store: "gap-store",
@@ -21691,7 +21869,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-oversized-crop-t-shirt-5",
     name: "Knit Oversized Crop T-Shirt (5)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Oversized Crop T-Shirt (5) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21702,9 +21880,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 211,
-    views: 0,
+    views: 6928,
     offers: [
       {
         store: "gap-store",
@@ -21723,7 +21901,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-100-cotton-oversized-crop-sweater",
     name: "100% Cotton Oversized Crop Sweater",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap 100% Cotton Oversized Crop Sweater — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21734,9 +21912,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 230,
-    views: 0,
+    views: 5501,
     offers: [
       {
         store: "gap-store",
@@ -21755,7 +21933,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-100-cotton-oversized-crop-sweater-2",
     name: "100% Cotton Oversized Crop Sweater (2)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap 100% Cotton Oversized Crop Sweater (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21766,9 +21944,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 49,
-    views: 0,
+    views: 638,
     offers: [
       {
         store: "gap-store",
@@ -21787,7 +21965,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-100-cotton-oversized-crop-sweater-3",
     name: "100% Cotton Oversized Crop Sweater (3)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap 100% Cotton Oversized Crop Sweater (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21798,9 +21976,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 1623,
     offers: [
       {
         store: "gap-store",
@@ -21819,7 +21997,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-100-cotton-oversized-crop-sweater-4",
     name: "100% Cotton Oversized Crop Sweater (4)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap 100% Cotton Oversized Crop Sweater (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21830,9 +22008,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 3540,
     offers: [
       {
         store: "gap-store",
@@ -21851,7 +22029,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-100-cotton-oversized-crop-sweater-5",
     name: "100% Cotton Oversized Crop Sweater (5)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap 100% Cotton Oversized Crop Sweater (5) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21862,9 +22040,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 99,
-    views: 0,
+    views: 8082,
     offers: [
       {
         store: "gap-store",
@@ -21883,7 +22061,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-relaxed-track-pants",
     name: "Knit Relaxed Track Pants",
     brand: "gap",
-    category: "petite-clothing",
+    category: "sportswear",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Relaxed Track Pants — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21894,9 +22072,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 118,
-    views: 0,
+    views: 313,
     offers: [
       {
         store: "gap-store",
@@ -21915,7 +22093,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-relaxed-track-pants-2",
     name: "Knit Relaxed Track Pants (2)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "sportswear",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Relaxed Track Pants (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21926,9 +22104,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 137,
-    views: 0,
+    views: 828,
     offers: [
       {
         store: "gap-store",
@@ -21947,7 +22125,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-relaxed-track-pants-3",
     name: "Knit Relaxed Track Pants (3)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "sportswear",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Relaxed Track Pants (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21958,9 +22136,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 156,
-    views: 0,
+    views: 7921,
     offers: [
       {
         store: "gap-store",
@@ -21979,7 +22157,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-knit-relaxed-track-pants-4",
     name: "Knit Relaxed Track Pants (4)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "sportswear",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Knit Relaxed Track Pants (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -21990,9 +22168,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 175,
-    views: 0,
+    views: 6414,
     offers: [
       {
         store: "gap-store",
@@ -22011,7 +22189,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt",
     name: "Organic Cotton Oversized Crop Oxford Shirt",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Organic Cotton Oversized Crop Oxford Shirt — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22024,7 +22202,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 194,
-    views: 0,
+    views: 899,
     offers: [
       {
         store: "gap-store",
@@ -22043,7 +22221,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-2",
     name: "Organic Cotton Oversized Crop Oxford Shirt (2)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Organic Cotton Oversized Crop Oxford Shirt (2) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22054,9 +22232,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 163,
-    views: 0,
+    views: 7856,
     offers: [
       {
         store: "gap-store",
@@ -22075,7 +22253,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-3",
     name: "Organic Cotton Oversized Crop Oxford Shirt (3)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Organic Cotton Oversized Crop Oxford Shirt (3) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22088,7 +22266,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 144,
-    views: 0,
+    views: 7923,
     offers: [
       {
         store: "gap-store",
@@ -22107,7 +22285,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-4",
     name: "Organic Cotton Oversized Crop Oxford Shirt (4)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Organic Cotton Oversized Crop Oxford Shirt (4) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22118,9 +22296,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 125,
-    views: 0,
+    views: 4294,
     offers: [
       {
         store: "gap-store",
@@ -22139,7 +22317,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-5",
     name: "Organic Cotton Oversized Crop Oxford Shirt (5)",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap Organic Cotton Oversized Crop Oxford Shirt (5) — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22150,9 +22328,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 106,
-    views: 0,
+    views: 1039,
     offers: [
       {
         store: "gap-store",
@@ -22171,7 +22349,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-100-linen-oversized-shirt",
     name: "100% Linen Oversized Shirt",
     brand: "gap",
-    category: "petite-clothing",
+    category: "clothing",
     subcategory: "Petite Tops & Bottoms",
     gender: "women",
     description: "Gap 100% Linen Oversized Shirt — petite tops & bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22182,9 +22360,9 @@ export const generatedProducts: Product[] = [
       "petite-clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 94,
-    views: 0,
+    views: 6105,
     offers: [
       {
         store: "gap-store",
@@ -22214,9 +22392,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 75,
-    views: 0,
+    views: 702,
     offers: [
       {
         store: "puma-store",
@@ -22246,9 +22424,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 132,
-    views: 0,
+    views: 7377,
     offers: [
       {
         store: "puma-store",
@@ -22272,15 +22450,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "Puma PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (White) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/314156/03/sv01/fnd/PNA/fmt/png/PUMA-x-HYROX-Deviate-NITROâ¢-Elite-4-Men's-Shoes",
-    colors: [],
+    colors: [
+      "White"
+    ],
     sizes: [],
     tags: [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 113,
-    views: 0,
+    views: 8084,
     offers: [
       {
         store: "puma-store",
@@ -22310,9 +22490,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 206,
-    views: 0,
+    views: 4259,
     offers: [
       {
         store: "puma-store",
@@ -22336,15 +22516,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "Puma Speedcat OG Sneakers (Shadow Gray) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/398846/64/sv01/fnd/PNA/fmt/png/Speedcat-OG-Sneakers",
-    colors: [],
+    colors: [
+      "Gray"
+    ],
     sizes: [],
     tags: [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 151,
-    views: 0,
+    views: 3842,
     offers: [
       {
         store: "puma-store",
@@ -22374,9 +22556,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 168,
-    views: 0,
+    views: 7069,
     offers: [
       {
         store: "puma-store",
@@ -22400,15 +22582,17 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "Puma FAST-R NITRO Elite 3 Men's Road Running Shoes (White) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312060/14/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Men's-Road-Running-Shoes",
-    colors: [],
+    colors: [
+      "White"
+    ],
     sizes: [],
     tags: [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 187,
-    views: 0,
+    views: 7312,
     offers: [
       {
         store: "puma-store",
@@ -22440,7 +22624,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 130,
-    views: 0,
+    views: 5295,
     offers: [
       {
         store: "puma-store",
@@ -22470,9 +22654,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 149,
-    views: 0,
+    views: 1062,
     offers: [
       {
         store: "puma-store",
@@ -22502,9 +22686,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 83,
-    views: 0,
+    views: 4712,
     offers: [
       {
         store: "puma-store",
@@ -22528,7 +22712,9 @@ export const generatedProducts: Product[] = [
     gender: "men",
     description: "Puma FAST-R NITRO Elite 3 Men's Road Running Shoes (Red) — men's shoes and sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/312060/11/sv01/fnd/PNA/fmt/png/FAST-R-NITROâ¢-Elite-3-Men's-Road-Running-Shoes",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "mens-shoes",
@@ -22536,7 +22722,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 64,
-    views: 0,
+    views: 6523,
     offers: [
       {
         store: "puma-store",
@@ -22566,9 +22752,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 121,
-    views: 0,
+    views: 4006,
     offers: [
       {
         store: "puma-store",
@@ -22598,9 +22784,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 102,
-    views: 0,
+    views: 981,
     offers: [
       {
         store: "puma-store",
@@ -22630,9 +22816,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 159,
-    views: 0,
+    views: 1580,
     offers: [
       {
         store: "puma-store",
@@ -22662,9 +22848,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 140,
-    views: 0,
+    views: 6215,
     offers: [
       {
         store: "puma-store",
@@ -22694,9 +22880,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 197,
-    views: 0,
+    views: 4742,
     offers: [
       {
         store: "puma-store",
@@ -22726,9 +22912,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 178,
-    views: 0,
+    views: 591,
     offers: [
       {
         store: "puma-store",
@@ -22758,9 +22944,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 235,
-    views: 0,
+    views: 7408,
     offers: [
       {
         store: "puma-store",
@@ -22790,9 +22976,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 216,
-    views: 0,
+    views: 371,
     offers: [
       {
         store: "puma-store",
@@ -22822,9 +23008,9 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3156,
     offers: [
       {
         store: "puma-store",
@@ -22854,9 +23040,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5151,
     offers: [
       {
         store: "reebok-store",
@@ -22886,9 +23072,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 6450,
     offers: [
       {
         store: "reebok-store",
@@ -22912,15 +23098,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Reebok Club C 85 Vintage Shoes (Green) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000317_SLC_eCom_s_large.jpg",
-    colors: [],
+    colors: [
+      "Green"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 7193,
     offers: [
       {
         store: "reebok-store",
@@ -22939,7 +23127,7 @@ export const generatedProducts: Product[] = [
     slug: "reebok-reebok-x-g-unit-g6-men-s-shoes",
     name: "Reebok x G-Unit G6 Men's Shoes",
     brand: "reebok",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Reebok Reebok x G-Unit G6 Men's Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -22950,9 +23138,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 4384,
     offers: [
       {
         store: "reebok-store",
@@ -22984,7 +23172,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 8029,
     offers: [
       {
         store: "reebok-store",
@@ -23008,15 +23196,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Reebok Club C 85 Vintage Shoes (Blue) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100007794_SLC_eCom_large.jpg",
-    colors: [],
+    colors: [
+      "Blue"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 7406,
     offers: [
       {
         store: "reebok-store",
@@ -23046,9 +23236,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "reebok-store",
@@ -23078,9 +23268,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 4388,
     offers: [
       {
         store: "reebok-store",
@@ -23104,15 +23294,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Reebok Nano X5 Training Shoes (Red) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100225445_SLC_eCom_f2ab9bd0-2df2-4c4b-882c-12c9b6b21084_large.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 5513,
     offers: [
       {
         store: "reebok-store",
@@ -23142,9 +23334,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 102,
-    views: 0,
+    views: 4509,
     offers: [
       {
         store: "reebok-store",
@@ -23174,9 +23366,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 121,
-    views: 0,
+    views: 3218,
     offers: [
       {
         store: "reebok-store",
@@ -23206,9 +23398,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 64,
-    views: 0,
+    views: 3533,
     offers: [
       {
         store: "reebok-store",
@@ -23238,9 +23430,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 83,
-    views: 0,
+    views: 5936,
     offers: [
       {
         store: "reebok-store",
@@ -23270,9 +23462,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 178,
-    views: 0,
+    views: 7815,
     offers: [
       {
         store: "reebok-store",
@@ -23302,9 +23494,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 197,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "reebok-store",
@@ -23334,9 +23526,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 140,
-    views: 0,
+    views: 2479,
     offers: [
       {
         store: "reebok-store",
@@ -23366,9 +23558,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 159,
-    views: 0,
+    views: 2692,
     offers: [
       {
         store: "reebok-store",
@@ -23400,7 +23592,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 150,
-    views: 0,
+    views: 5573,
     offers: [
       {
         store: "reebok-store",
@@ -23424,15 +23616,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Reebok Nano X4 Training Shoes (Grey) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100254234_SLC_eCom_8817039e-5f24-44dd-a4aa-add2015e023b_large.jpg",
-    colors: [],
+    colors: [
+      "Grey"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 169,
-    views: 0,
+    views: 6586,
     offers: [
       {
         store: "reebok-store",
@@ -23462,9 +23656,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 93,
-    views: 0,
+    views: 4166,
     offers: [
       {
         store: "reebok-store",
@@ -23494,9 +23688,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "new-balance-store",
@@ -23526,9 +23720,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "new-balance-store",
@@ -23558,9 +23752,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "new-balance-store",
@@ -23590,9 +23784,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "new-balance-store",
@@ -23624,7 +23818,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "new-balance-store",
@@ -23654,9 +23848,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "new-balance-store",
@@ -23686,9 +23880,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "new-balance-store",
@@ -23712,15 +23906,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance Youth Adversary 2 Pant Piped Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://nb.scene7.com/is/image/NB/bbp316wk_nb_01_i?$pdpflexf2$",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "new-balance-store",
@@ -23744,15 +23940,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance Youth Adversary 2 Pant Solid Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://nb.scene7.com/is/image/NB/bbp332gr_nb_01_i?$pdpflexf2$",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "new-balance-store",
@@ -23782,9 +23980,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "new-balance-store",
@@ -23814,9 +24012,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "new-balance-store",
@@ -23840,15 +24038,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance Adversary 2 Pant Piped Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://nb.scene7.com/is/image/NB/bmp316wn_nb_01_i?$pdpflexf2$",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "new-balance-store",
@@ -23872,15 +24072,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "New Balance Adversary 2 Pant Solid Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://nb.scene7.com/is/image/NB/bmp332wt_nb_70_i?$pdpflexf2$",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "new-balance-store",
@@ -23910,9 +24112,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "new-balance-store",
@@ -23942,9 +24144,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "new-balance-store",
@@ -23974,9 +24176,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "new-balance-store",
@@ -24006,9 +24208,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "new-balance-store",
@@ -24040,7 +24242,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "new-balance-store",
@@ -24070,9 +24272,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "new-balance-store",
@@ -24102,9 +24304,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "new-balance-store",
@@ -24123,7 +24325,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-lululemon-align-high-rise-pant-28",
     name: "lululemon Align High-Rise Pant 28\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon lululemon Align High-Rise Pant 28\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24134,9 +24336,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 228,
-    views: 0,
+    views: 2503,
     offers: [
       {
         store: "lululemon-store",
@@ -24155,7 +24357,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-lululemon-align-high-rise-pant-25",
     name: "lululemon Align High-Rise Pant 25\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon lululemon Align High-Rise Pant 25\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24166,9 +24368,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 171,
-    views: 0,
+    views: 1030,
     offers: [
       {
         store: "lululemon-store",
@@ -24187,20 +24389,22 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-groove-nulu-high-rise-flared-pant-regular",
     name: "Groove Nulu High-Rise Flared Pant Regular",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon Groove Nulu High-Rise Flared Pant Regular — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.lululemon.com/is/image/lululemon/LW5HD8R_077066_1",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 190,
-    views: 0,
+    views: 3937,
     offers: [
       {
         store: "lululemon-store",
@@ -24219,7 +24423,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-lululemon-align-no-line-high-rise-pant-28",
     name: "lululemon Align No Line High-Rise Pant 28\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon lululemon Align No Line High-Rise Pant 28\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24230,9 +24434,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 85,
-    views: 0,
+    views: 6536,
     offers: [
       {
         store: "lululemon-store",
@@ -24251,7 +24455,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-lululemon-align-high-rise-pant-31",
     name: "lululemon Align High-Rise Pant 31\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon lululemon Align High-Rise Pant 31\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24262,9 +24466,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 104,
-    views: 0,
+    views: 4725,
     offers: [
       {
         store: "lululemon-store",
@@ -24283,20 +24487,22 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-groove-nulu-high-rise-flared-pant-short",
     name: "Groove Nulu High-Rise Flared Pant Short",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon Groove Nulu High-Rise Flared Pant Short — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://images.lululemon.com/is/image/lululemon/LW5IS9S_077066_1",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 7718,
     offers: [
       {
         store: "lululemon-store",
@@ -24315,7 +24521,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-wunder-train-no-line-high-rise-tight-25",
     name: "Wunder Train No Line High-Rise Tight 25\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon Wunder Train No Line High-Rise Tight 25\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24326,9 +24532,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2267,
     offers: [
       {
         store: "lululemon-store",
@@ -24347,7 +24553,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-lululemon-glow-up-super-high-rise-tight-25",
     name: "lululemon Glow Up Super-High-Rise Tight 25\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon lululemon Glow Up Super-High-Rise Tight 25\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24358,9 +24564,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 57,
-    views: 0,
+    views: 5564,
     offers: [
       {
         store: "lululemon-store",
@@ -24379,7 +24585,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-unrestricted-power-high-rise-tight-25",
     name: "Unrestricted Power High-Rise Tight 25\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon Unrestricted Power High-Rise Tight 25\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24390,9 +24596,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 76,
-    views: 0,
+    views: 3185,
     offers: [
       {
         store: "lululemon-store",
@@ -24411,7 +24617,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-lululemon-align-high-rise-pant-with-pockets-28",
     name: "lululemon Align High-Rise Pant with Pockets 28\"",
     brand: "lululemon",
-    category: "leggings",
+    category: "sportswear",
     subcategory: "Women's Leggings",
     gender: "women",
     description: "Lululemon lululemon Align High-Rise Pant with Pockets 28\" — women's leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24422,9 +24628,9 @@ export const generatedProducts: Product[] = [
       "leggings",
       "women-s-leggings"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 218,
-    views: 0,
+    views: 6475,
     offers: [
       {
         store: "lululemon-store",
@@ -24443,7 +24649,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-sojourn-jacket",
     name: "Sojourn Jacket",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Sojourn Jacket — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24454,9 +24660,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 199,
-    views: 0,
+    views: 3482,
     offers: [
       {
         store: "lululemon-store",
@@ -24475,7 +24681,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-define-jacket-nulu",
     name: "Define Jacket Nulu",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Define Jacket Nulu — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24486,9 +24692,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 56,
-    views: 0,
+    views: 869,
     offers: [
       {
         store: "lululemon-store",
@@ -24507,7 +24713,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-define-jacket-luon",
     name: "Define Jacket Luon",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Define Jacket Luon — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24518,9 +24724,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 237,
-    views: 0,
+    views: 2680,
     offers: [
       {
         store: "lululemon-store",
@@ -24539,7 +24745,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-sleek-city-jacket",
     name: "Sleek City Jacket",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Sleek City Jacket — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24550,9 +24756,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 142,
-    views: 0,
+    views: 5361,
     offers: [
       {
         store: "lululemon-store",
@@ -24571,7 +24777,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-define-cropped-jacket-nulu",
     name: "Define Cropped Jacket Nulu",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Define Cropped Jacket Nulu — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24582,9 +24788,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 123,
-    views: 0,
+    views: 5718,
     offers: [
       {
         store: "lululemon-store",
@@ -24603,7 +24809,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-breathable-lightweight-training-jacket",
     name: "Breathable Lightweight Training Jacket",
     brand: "lululemon",
-    category: "jackets",
+    category: "sportswear",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Breathable Lightweight Training Jacket — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24616,7 +24822,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 180,
-    views: 0,
+    views: 6359,
     offers: [
       {
         store: "lululemon-store",
@@ -24635,7 +24841,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-women-s-cross-chill-performance-jacket",
     name: "Women's Cross Chill Performance Jacket",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Women's Cross Chill Performance Jacket — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24646,9 +24852,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 161,
-    views: 0,
+    views: 276,
     offers: [
       {
         store: "lululemon-store",
@@ -24667,7 +24873,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-court-rival-tennis-track-jacket",
     name: "Court Rival Tennis Track Jacket",
     brand: "lululemon",
-    category: "jackets",
+    category: "sportswear",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Court Rival Tennis Track Jacket — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24678,9 +24884,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2237,
     offers: [
       {
         store: "lululemon-store",
@@ -24699,7 +24905,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-scuba-windbreaker",
     name: "Scuba Windbreaker",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Scuba Windbreaker — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24710,9 +24916,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 3902,
     offers: [
       {
         store: "lululemon-store",
@@ -24731,7 +24937,7 @@ export const generatedProducts: Product[] = [
     slug: "lululemon-daydrift-jacket",
     name: "Daydrift Jacket",
     brand: "lululemon",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Jackets & Outerwear",
     gender: "women",
     description: "Lululemon Daydrift Jacket — jackets & outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24742,9 +24948,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "jackets-outerwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 223,
-    views: 0,
+    views: 2550,
     offers: [
       {
         store: "lululemon-store",
@@ -24763,7 +24969,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-vital-seamless-midi-zip-2-0-pullover",
     name: "Vital Seamless Midi Zip 2.0 Pullover",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Track Top",
     gender: "women",
     description: "Gymshark Vital Seamless Midi Zip 2.0 Pullover — track top tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24774,9 +24980,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "track-top"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 42,
-    views: 0,
+    views: 3973,
     offers: [
       {
         store: "gymshark-store",
@@ -24795,7 +25001,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-vital-regular-leggings",
     name: "Vital Regular Leggings",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Full Length",
     gender: "women",
     description: "Gymshark Vital Regular Leggings — full length tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24806,9 +25012,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "full-length"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 7384,
     offers: [
       {
         store: "gymshark-store",
@@ -24827,7 +25033,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-vital-sports-bra",
     name: "Vital Sports Bra",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Scoop Neck",
     gender: "women",
     description: "Gymshark Vital Sports Bra — scoop neck tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24838,9 +25044,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "scoop-neck"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6123,
     offers: [
       {
         store: "gymshark-store",
@@ -24859,20 +25065,22 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-vital-tank-with-shelf",
     name: "Vital Tank With Shelf",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Tanks",
     gender: "women",
     description: "Gymshark Vital Tank With Shelf — tanks tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0156/6146/files/images-VitalSeamlessTankWithShelfBlackMarlB4C6D_BBF3_1428_V1.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "activewear",
       "tanks"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 147,
-    views: 0,
+    views: 7798,
     offers: [
       {
         store: "gymshark-store",
@@ -24891,7 +25099,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-soft-sculpt-leggings",
     name: "Soft Sculpt Leggings",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Full Length",
     gender: "women",
     description: "Gymshark Soft Sculpt Leggings — full length tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24904,7 +25112,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 166,
-    views: 0,
+    views: 2321,
     offers: [
       {
         store: "gymshark-store",
@@ -24923,7 +25131,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-training-oversized-boxy-sweatshirt",
     name: "Training Oversized Boxy Sweatshirt",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Crew",
     gender: "women",
     description: "Gymshark Training Oversized Boxy Sweatshirt — crew tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24934,9 +25142,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "crew"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 185,
-    views: 0,
+    views: 2356,
     offers: [
       {
         store: "gymshark-store",
@@ -24955,7 +25163,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-vital-sweetheart-neck-crop-top",
     name: "Vital Sweetheart Neck Crop Top",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Crop Top",
     gender: "women",
     description: "Gymshark Vital Sweetheart Neck Crop Top — crop top tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24966,9 +25174,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "crop-top"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 204,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "gymshark-store",
@@ -24987,7 +25195,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-cosy-luxe-straight-leg-regular-joggers",
     name: "Cosy Luxe Straight Leg Regular Joggers",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Joggers",
     gender: "women",
     description: "Gymshark Cosy Luxe Straight Leg Regular Joggers — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -24998,9 +25206,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "joggers"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 71,
-    views: 0,
+    views: 1618,
     offers: [
       {
         store: "gymshark-store",
@@ -25019,7 +25227,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-washed-pastel-baby-tee",
     name: "Washed Pastel Baby Tee",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Crew Neck",
     gender: "women",
     description: "Gymshark Washed Pastel Baby Tee — crew neck tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25030,9 +25238,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "crew-neck"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 90,
-    views: 0,
+    views: 4627,
     offers: [
       {
         store: "gymshark-store",
@@ -25051,7 +25259,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-twist-front-sports-bra",
     name: "Twist Front Sports Bra",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Scoop Neck",
     gender: "women",
     description: "Gymshark Twist Front Sports Bra — scoop neck tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25064,7 +25272,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 232,
-    views: 0,
+    views: 5051,
     offers: [
       {
         store: "gymshark-store",
@@ -25083,7 +25291,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-lift-seamless-high-rise-shorts",
     name: "Lift Seamless High-Rise Shorts",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Tight",
     gender: "women",
     description: "Gymshark Lift Seamless High-Rise Shorts — tight tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25094,9 +25302,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "tight"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 213,
-    views: 0,
+    views: 3240,
     offers: [
       {
         store: "gymshark-store",
@@ -25115,7 +25323,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-soft-sculpt-zip-up-jacket",
     name: "Soft Sculpt Zip Up Jacket",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Track Top",
     gender: "women",
     description: "Gymshark Soft Sculpt Zip Up Jacket — track top tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25126,9 +25334,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "track-top"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 194,
-    views: 0,
+    views: 7509,
     offers: [
       {
         store: "gymshark-store",
@@ -25147,20 +25355,22 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-featherform-tank",
     name: "FeatherForm Tank",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Tanks",
     gender: "women",
     description: "Gymshark FeatherForm Tank — tanks tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0156/6146/files/images-40GGPerfectTankGSSoftWhiteB5C7U_WCMY_0818_V1.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "activewear",
       "tanks"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 175,
-    views: 0,
+    views: 2058,
     offers: [
       {
         store: "gymshark-store",
@@ -25179,7 +25389,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-vital-seamless-shorts",
     name: "Vital Seamless Shorts",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Tight",
     gender: "women",
     description: "Gymshark Vital Seamless Shorts — tight tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25190,9 +25400,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "tight"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 156,
-    views: 0,
+    views: 3497,
     offers: [
       {
         store: "gymshark-store",
@@ -25211,7 +25421,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-soft-sculpt-shorts",
     name: "Soft Sculpt Shorts",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Tight",
     gender: "women",
     description: "Gymshark Soft Sculpt Shorts — tight tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25222,9 +25432,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "tight"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 137,
-    views: 0,
+    views: 4484,
     offers: [
       {
         store: "gymshark-store",
@@ -25243,20 +25453,22 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-training-oversized-boxy-sweatshirt-purple",
     name: "Training Oversized Boxy Sweatshirt (Purple)",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Crew",
     gender: "women",
     description: "Gymshark Training Oversized Boxy Sweatshirt (Purple) — crew tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0156/6146/files/TrainingBoxyPulloverGSCherryPurpleB7B6C_PCDS_05611.jpg",
-    colors: [],
+    colors: [
+      "Purple"
+    ],
     sizes: [],
     tags: [
       "activewear",
       "crew"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 118,
-    views: 0,
+    views: 5473,
     offers: [
       {
         store: "gymshark-store",
@@ -25275,20 +25487,22 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-lift-seamless-tank-with-shelf",
     name: "Lift Seamless Tank with Shelf",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Sleeveless",
     gender: "women",
     description: "Gymshark Lift Seamless Tank with Shelf — sleeveless tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn.shopify.com/s/files/1/0156/6146/files/images-LiftSeamlessMidiTankwithShelfGSBlackGSBlackMarlB6B8Q_BCPV_0934_V2.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "activewear",
       "sleeveless"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 99,
-    views: 0,
+    views: 4970,
     offers: [
       {
         store: "gymshark-store",
@@ -25307,7 +25521,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-cosy-luxe-hoodie",
     name: "Cosy Luxe Hoodie",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Hoodie",
     gender: "women",
     description: "Gymshark Cosy Luxe Hoodie — hoodie tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25318,9 +25532,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "hoodie"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6899,
     offers: [
       {
         store: "gymshark-store",
@@ -25339,7 +25553,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-flutter-woven-shorts",
     name: "Flutter Woven Shorts",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Loose",
     gender: "women",
     description: "Gymshark Flutter Woven Shorts — loose tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25350,9 +25564,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "loose"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 6656,
     offers: [
       {
         store: "gymshark-store",
@@ -25371,7 +25585,7 @@ export const generatedProducts: Product[] = [
     slug: "gymshark-blush-seamless-light-support-sports-bra",
     name: "Blush Seamless Light Support Sports Bra",
     brand: "gymshark",
-    category: "activewear",
+    category: "sportswear",
     subcategory: "Square Neck",
     gender: "women",
     description: "Gymshark Blush Seamless Light Support Sports Bra — square neck tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25382,9 +25596,9 @@ export const generatedProducts: Product[] = [
       "activewear",
       "square-neck"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 107,
-    views: 0,
+    views: 4768,
     offers: [
       {
         store: "gymshark-store",
@@ -25403,7 +25617,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-timber-meadow-mtr-fleece-half-zip-women-s",
     name: "Timber Meadow MTR Fleece Half-Zip - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Timber Meadow MTR Fleece Half-Zip - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25414,9 +25628,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 88,
-    views: 0,
+    views: 4781,
     offers: [
       {
         store: "rei",
@@ -25435,7 +25649,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-hikebound-ii-rain-jacket-women-s",
     name: "Hikebound II Rain Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Hikebound II Rain Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25446,9 +25660,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 145,
-    views: 0,
+    views: 4158,
     offers: [
       {
         store: "rei",
@@ -25467,7 +25681,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-hikebound-ii-jacket-men-s",
     name: "Hikebound II Jacket - Men's",
     brand: "columbia",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "Columbia Hikebound II Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25478,9 +25692,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 126,
-    views: 0,
+    views: 5491,
     offers: [
       {
         store: "rei",
@@ -25499,7 +25713,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-spirevalley-cropped-wind-jacket-women-s",
     name: "SpireValley Cropped Wind Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia SpireValley Cropped Wind Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25510,9 +25724,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 332,
     offers: [
       {
         store: "rei",
@@ -25531,7 +25745,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-hikebound-ii-long-jacket-women-s",
     name: "Hikebound II Long Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Hikebound II Long Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25544,7 +25758,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 7521,
     offers: [
       {
         store: "rei",
@@ -25563,7 +25777,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-benton-springs-full-zip-fleece-jacket-women-s",
     name: "Benton Springs Full-Zip Fleece Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Benton Springs Full-Zip Fleece Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25574,9 +25788,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 221,
-    views: 0,
+    views: 7362,
     offers: [
       {
         store: "rei",
@@ -25595,7 +25809,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-iris-canyon-2-in-1-adapt-jacket-women-s",
     name: "Iris Canyon 2-in-1 Adapt Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Iris Canyon 2-in-1 Adapt Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25606,9 +25820,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 202,
-    views: 0,
+    views: 3337,
     offers: [
       {
         store: "rei",
@@ -25627,7 +25841,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-watertight-ii-jacket-boys",
     name: "Watertight II Jacket - Boys'",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "Columbia Watertight II Jacket - Boys' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25638,9 +25852,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 155,
-    views: 0,
+    views: 6520,
     offers: [
       {
         store: "rei",
@@ -25659,7 +25873,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-ampli-dry-ii-shell-jacket-women-s",
     name: "Ampli-Dry II Shell Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Ampli-Dry II Shell Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25670,9 +25884,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 136,
-    views: 0,
+    views: 1829,
     offers: [
       {
         store: "rei",
@@ -25691,7 +25905,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-trailborne-wind-jacket-men-s",
     name: "Trailborne Wind Jacket - Men's",
     brand: "columbia",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "Columbia Trailborne Wind Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25704,7 +25918,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 98,
-    views: 0,
+    views: 3649,
     offers: [
       {
         store: "rei",
@@ -25723,7 +25937,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-explorers-edge-ii-insulated-jacket-women-s",
     name: "Explorers Edge II Insulated Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Explorers Edge II Insulated Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25734,9 +25948,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 117,
-    views: 0,
+    views: 6950,
     offers: [
       {
         store: "rei",
@@ -25755,7 +25969,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-steens-mt-ii-fleece-jacket-boys",
     name: "Steens Mt II Fleece Jacket - Boys'",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "Columbia Steens Mt II Fleece Jacket - Boys' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25766,9 +25980,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 60,
-    views: 0,
+    views: 1127,
     offers: [
       {
         store: "rei",
@@ -25787,7 +26001,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-fire-side-ii-sherpa-fleece-full-zip-jacket-women-s",
     name: "Fire Side II Sherpa Fleece Full-Zip Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Fire Side II Sherpa Fleece Full-Zip Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25798,9 +26012,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 79,
-    views: 0,
+    views: 4748,
     offers: [
       {
         store: "rei",
@@ -25819,7 +26033,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-northwest-explorer-3l-shell-jacket-men-s",
     name: "Northwest Explorer 3L Shell Jacket - Men's",
     brand: "columbia",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "Columbia Northwest Explorer 3L Shell Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25830,9 +26044,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 222,
-    views: 0,
+    views: 7099,
     offers: [
       {
         store: "rei",
@@ -25851,7 +26065,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-pike-lake-ii-hooded-insulated-jacket-kids",
     name: "Pike Lake II Hooded Insulated Jacket - Kids'",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "Columbia Pike Lake II Hooded Insulated Jacket - Kids' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25862,9 +26076,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 41,
-    views: 0,
+    views: 1798,
     offers: [
       {
         store: "rei",
@@ -25883,7 +26097,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-arcadia-ii-jacket-girls",
     name: "Arcadia II Jacket - Girls'",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "Columbia Arcadia II Jacket - Girls' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25894,9 +26108,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 184,
-    views: 0,
+    views: 1435,
     offers: [
       {
         store: "rei",
@@ -25915,7 +26129,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-hikebound-ii-jacket-boys",
     name: "Hikebound II Jacket - Boys'",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "Columbia Hikebound II Jacket - Boys' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25926,9 +26140,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 203,
-    views: 0,
+    views: 1672,
     offers: [
       {
         store: "rei",
@@ -25947,7 +26161,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-mountain-croo-iii-mid-down-jacket-women-s",
     name: "Mountain Croo III Mid Down Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Mountain Croo III Mid Down Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25958,9 +26172,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 50,
-    views: 0,
+    views: 5593,
     offers: [
       {
         store: "rei",
@@ -25979,7 +26193,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-northwest-explorer-3l-shell-jacket-women-s",
     name: "Northwest Explorer 3L Shell Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Northwest Explorer 3L Shell Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -25990,9 +26204,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 69,
-    views: 0,
+    views: 190,
     offers: [
       {
         store: "rei",
@@ -26011,7 +26225,7 @@ export const generatedProducts: Product[] = [
     slug: "columbia-trailborne-insulated-jacket-women-s",
     name: "Trailborne Insulated Jacket - Women's",
     brand: "columbia",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "Columbia Trailborne Insulated Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26022,9 +26236,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 4058,
     offers: [
       {
         store: "rei",
@@ -26043,7 +26257,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-antora-rain-hoodie-women-s",
     name: "Antora Rain Hoodie - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Antora Rain Hoodie - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26054,9 +26268,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 4415,
     offers: [
       {
         store: "rei",
@@ -26075,7 +26289,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-antora-rain-hoodie-men-s",
     name: "Antora Rain Hoodie - Men's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "The North Face Antora Rain Hoodie - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26086,9 +26300,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 1500,
     offers: [
       {
         store: "rei",
@@ -26107,7 +26321,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-hydrenalite-down-hoodie-women-s",
     name: "Hydrenalite Down Hoodie - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Hydrenalite Down Hoodie - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26118,9 +26332,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 3417,
     offers: [
       {
         store: "rei",
@@ -26139,7 +26353,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-yumiori-off-peak-full-zip-jacket-women-s",
     name: "Yumiori Off Peak Full-Zip Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Yumiori Off Peak Full-Zip Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26150,9 +26364,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 6294,
     offers: [
       {
         store: "rei",
@@ -26171,7 +26385,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-alta-vista-rain-jacket-women-s",
     name: "Alta Vista Rain Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Alta Vista Rain Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26182,9 +26396,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 7525,
     offers: [
       {
         store: "rei",
@@ -26203,7 +26417,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-alta-vista-rain-jacket-men-s",
     name: "Alta Vista Rain Jacket - Men's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "The North Face Alta Vista Rain Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26214,9 +26428,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 3320,
     offers: [
       {
         store: "rei",
@@ -26235,7 +26449,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-yumiori-off-peak-half-zip-jacket-women-s",
     name: "Yumiori Off Peak Half-Zip Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Yumiori Off Peak Half-Zip Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26248,7 +26462,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 5131,
     offers: [
       {
         store: "rei",
@@ -26267,7 +26481,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-retro-denali-jacket-men-s",
     name: "Retro Denali Jacket - Men's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "The North Face Retro Denali Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26278,9 +26492,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 43,
-    views: 0,
+    views: 2670,
     offers: [
       {
         store: "rei",
@@ -26299,7 +26513,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-tnf-range-down-hooded-jacket-women-s",
     name: "TNF Range Down Hooded Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face TNF Range Down Hooded Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26312,7 +26526,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 62,
-    views: 0,
+    views: 8103,
     offers: [
       {
         store: "rei",
@@ -26331,7 +26545,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-tek-approach-jacket-men-s",
     name: "Tek Approach Jacket - Men's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "The North Face Tek Approach Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26342,9 +26556,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 1993,
     offers: [
       {
         store: "rei",
@@ -26363,7 +26577,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-tek-approach-jacket-women-s",
     name: "Tek Approach Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Tek Approach Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26374,9 +26588,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 740,
     offers: [
       {
         store: "rei",
@@ -26395,7 +26609,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-antora-rain-jacket-girls",
     name: "Antora Rain Jacket - Girls'",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "The North Face Antora Rain Jacket - Girls' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26406,9 +26620,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 166,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "rei",
@@ -26427,7 +26641,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-cedar-trail-grid-fleece-quarter-zip-pullover-men-s",
     name: "Cedar Trail Grid Fleece Quarter-Zip Pullover - Men's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "The North Face Cedar Trail Grid Fleece Quarter-Zip Pullover - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26438,9 +26652,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 147,
-    views: 0,
+    views: 5798,
     offers: [
       {
         store: "rei",
@@ -26459,7 +26673,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-thermoball-hooded-jacket-kids",
     name: "ThermoBall Hooded Jacket - Kids'",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "The North Face ThermoBall Hooded Jacket - Kids' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26470,9 +26684,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 80,
-    views: 0,
+    views: 1557,
     offers: [
       {
         store: "rei",
@@ -26491,7 +26705,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-valley-view-jacket-men-s",
     name: "Valley View Jacket - Men's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "mens-clothing",
     subcategory: "Outerwear",
     gender: "men",
     description: "The North Face Valley View Jacket - Men's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26502,9 +26716,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 61,
-    views: 0,
+    views: 4520,
     offers: [
       {
         store: "rei",
@@ -26523,7 +26737,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-reversible-perrito-hooded-insulated-jacket-boys",
     name: "Reversible Perrito Hooded Insulated Jacket - Boys'",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "The North Face Reversible Perrito Hooded Insulated Jacket - Boys' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26534,9 +26748,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 42,
-    views: 0,
+    views: 251,
     offers: [
       {
         store: "rei",
@@ -26555,7 +26769,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-thermoball-hooded-insulated-jacket-kids",
     name: "ThermoBall Hooded Insulated Jacket - Kids'",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "unisex",
     description: "The North Face ThermoBall Hooded Insulated Jacket - Kids' — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26566,9 +26780,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 223,
-    views: 0,
+    views: 5766,
     offers: [
       {
         store: "rei",
@@ -26587,7 +26801,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-lhotse-lt-insulated-jacket-women-s",
     name: "Lhotse LT Insulated Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Lhotse LT Insulated Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26598,9 +26812,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5599,
     offers: [
       {
         store: "rei",
@@ -26619,7 +26833,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-hikesteller-parka-women-s",
     name: "Hikesteller Parka - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Hikesteller Parka - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26630,9 +26844,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3348,
     offers: [
       {
         store: "rei",
@@ -26651,7 +26865,7 @@ export const generatedProducts: Product[] = [
     slug: "the-north-face-quest-mono-jacket-women-s",
     name: "Quest Mono Jacket - Women's",
     brand: "the-north-face",
-    category: "jackets",
+    category: "clothing",
     subcategory: "Outerwear",
     gender: "women",
     description: "The North Face Quest Mono Jacket - Women's — outerwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26662,9 +26876,9 @@ export const generatedProducts: Product[] = [
       "jackets",
       "outerwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 62,
-    views: 0,
+    views: 1617,
     offers: [
       {
         store: "rei",
@@ -26683,20 +26897,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-polo-black-eau-de-toilette-spray",
     name: "Polo Black Eau de Toilette Spray",
     brand: "ralph-lauren",
-    category: "fragrance",
+    category: "beauty",
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ralph Lauren Polo Black Eau de Toilette Spray — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/939790c6-1af1-4205-97a9-070a590c52a8.jpeg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "fragrance",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 43,
-    views: 0,
+    views: 4858,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26715,7 +26931,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-3-pack-slim-fit-crewneck-t-shirt",
     name: "3-Pack Slim Fit Crewneck T-Shirt",
     brand: "ralph-lauren",
-    category: "t-shirts",
+    category: "mens-clothing",
     subcategory: "T-Shirts",
     gender: "men",
     description: "Ralph Lauren 3-Pack Slim Fit Crewneck T-Shirt — t-shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26726,9 +26942,9 @@ export const generatedProducts: Product[] = [
       "t-shirts",
       "t-shirts"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 100,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26747,20 +26963,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-floral-mesh-polo",
     name: "Floral Mesh Polo",
     brand: "ralph-lauren",
-    category: "polos",
+    category: "mens-clothing",
     subcategory: "Polos",
     gender: "men",
     description: "Ralph Lauren Floral Mesh Polo — polos tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/e9eae822-5ab1-403d-9173-9ed98c8eb4f5.jpeg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "polos",
       "polos"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 81,
-    views: 0,
+    views: 2300,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26779,7 +26997,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-sailboat-print-camp-shirt",
     name: "Sailboat Print Camp Shirt",
     brand: "ralph-lauren",
-    category: "shirts",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Ralph Lauren Sailboat Print Camp Shirt — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26790,9 +27008,9 @@ export const generatedProducts: Product[] = [
       "shirts",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 645,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26811,20 +27029,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-stripe-cutoff-denim-carpenter-shorts",
     name: "Stripe Cutoff Denim Carpenter Shorts",
     brand: "ralph-lauren",
-    category: "shorts",
+    category: "mens-clothing",
     subcategory: "Shorts",
     gender: "men",
     description: "Ralph Lauren Stripe Cutoff Denim Carpenter Shorts — shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/6b0b0eb2-9e1b-4368-819a-c8da31c6266f.jpeg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "shorts",
       "shorts"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 7034,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26843,20 +27063,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-sullivan-slim-tapered-leg-knit-pants",
     name: "Sullivan Slim Tapered Leg Knit Pants",
     brand: "ralph-lauren",
-    category: "pants",
+    category: "mens-clothing",
     subcategory: "Pants",
     gender: "men",
     description: "Ralph Lauren Sullivan Slim Tapered Leg Knit Pants — pants tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/e4496ad0-5b6e-4e78-af24-4f0c69b99ce7.jpeg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "pants",
       "pants"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 176,
-    views: 0,
+    views: 3499,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26875,20 +27097,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-relaxed-tapered-ankle-jeans",
     name: "Relaxed Tapered Ankle Jeans",
     brand: "ralph-lauren",
-    category: "jeans",
+    category: "clothing",
     subcategory: "Jeans",
     gender: "women",
     description: "Ralph Lauren Relaxed Tapered Ankle Jeans — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/a4cf957d-aa42-4596-952e-e11ee37d9677.jpeg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "jeans",
       "jeans"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 157,
-    views: 0,
+    views: 1688,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26907,7 +27131,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-polo-earth-eau-de-toilette-set",
     name: "Polo Earth Eau de Toilette Set",
     brand: "ralph-lauren",
-    category: "fragrance",
+    category: "beauty",
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ralph Lauren Polo Earth Eau de Toilette Set — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26918,9 +27142,9 @@ export const generatedProducts: Product[] = [
       "fragrance",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 110,
-    views: 0,
+    views: 1735,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26939,7 +27163,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-mercerized-cotton-sleep-t-shirt",
     name: "Mercerized Cotton Sleep T-Shirt",
     brand: "ralph-lauren",
-    category: "sleepwear",
+    category: "mens-clothing",
     subcategory: "Sleepwear",
     gender: "men",
     description: "Ralph Lauren Mercerized Cotton Sleep T-Shirt — sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26950,9 +27174,9 @@ export const generatedProducts: Product[] = [
       "sleepwear",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 91,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "nordstrom-rack",
@@ -26971,7 +27195,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-classic-fit-plaid-cotton-oxford-button-down-shirt",
     name: "Classic Fit Plaid Cotton Oxford Button-Down Shirt",
     brand: "ralph-lauren",
-    category: "shirts",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Ralph Lauren Classic Fit Plaid Cotton Oxford Button-Down Shirt — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -26982,9 +27206,9 @@ export const generatedProducts: Product[] = [
       "shirts",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 59,
-    views: 0,
+    views: 2464,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27003,20 +27227,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-floral-mesh-polo-2",
     name: "Floral Mesh Polo (2)",
     brand: "ralph-lauren",
-    category: "polos",
+    category: "mens-clothing",
     subcategory: "Polos",
     gender: "men",
     description: "Ralph Lauren Floral Mesh Polo (2) — polos tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/39b44839-801f-4430-bde9-a5558637a4ec.jpeg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "polos",
       "polos"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27035,7 +27261,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-sailboat-print-camp-shirt-2",
     name: "Sailboat Print Camp Shirt (2)",
     brand: "ralph-lauren",
-    category: "shirts",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Ralph Lauren Sailboat Print Camp Shirt (2) — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27046,9 +27272,9 @@ export const generatedProducts: Product[] = [
       "shirts",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 97,
-    views: 0,
+    views: 2158,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27067,12 +27293,14 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-stripe-cutoff-denim-carpenter-shorts-2",
     name: "Stripe Cutoff Denim Carpenter Shorts (2)",
     brand: "ralph-lauren",
-    category: "shorts",
+    category: "mens-clothing",
     subcategory: "Shorts",
     gender: "men",
     description: "Ralph Lauren Stripe Cutoff Denim Carpenter Shorts (2) — shorts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/e156f439-8708-40b6-aabc-a3b5588a1151.jpeg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "shorts",
@@ -27080,7 +27308,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 78,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27099,20 +27327,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-sullivan-slim-tapered-leg-knit-pants-2",
     name: "Sullivan Slim Tapered Leg Knit Pants (2)",
     brand: "ralph-lauren",
-    category: "pants",
+    category: "mens-clothing",
     subcategory: "Pants",
     gender: "men",
     description: "Ralph Lauren Sullivan Slim Tapered Leg Knit Pants (2) — pants tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/79ac1dca-2094-4d7d-941d-38fd46ff90b4.jpeg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "pants",
       "pants"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 1692,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27131,7 +27361,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-stretch-cotton-rib-triangle-bralette",
     name: "Stretch Cotton Rib Triangle Bralette",
     brand: "ralph-lauren",
-    category: "intimates",
+    category: "clothing",
     subcategory: "Intimates",
     gender: "women",
     description: "Ralph Lauren Stretch Cotton Rib Triangle Bralette — intimates tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27142,9 +27372,9 @@ export const generatedProducts: Product[] = [
       "intimates",
       "intimates"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 2399,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27163,7 +27393,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-classic-fit-plaid-cotton-oxford-button-down-shirt-2",
     name: "Classic Fit Plaid Cotton Oxford Button-Down Shirt (2)",
     brand: "ralph-lauren",
-    category: "shirts",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Ralph Lauren Classic Fit Plaid Cotton Oxford Button-Down Shirt (2) — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27174,9 +27404,9 @@ export const generatedProducts: Product[] = [
       "shirts",
       "shirts"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 173,
-    views: 0,
+    views: 5298,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27195,7 +27425,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-classic-fit-plaid-cotton-twill-button-down-shirt",
     name: "Classic Fit Plaid Cotton Twill Button-Down Shirt",
     brand: "ralph-lauren",
-    category: "shirts",
+    category: "mens-clothing",
     subcategory: "Shirts",
     gender: "men",
     description: "Ralph Lauren Classic Fit Plaid Cotton Twill Button-Down Shirt — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27206,9 +27436,9 @@ export const generatedProducts: Product[] = [
       "shirts",
       "shirts"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 154,
-    views: 0,
+    views: 7895,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27227,20 +27457,22 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-kids-floral-smocked-romper",
     name: "Kids' Floral Smocked Romper",
     brand: "ralph-lauren",
-    category: "kids",
+    category: "kids-clothing",
     subcategory: "Kids",
     gender: "unisex",
     description: "Ralph Lauren Kids' Floral Smocked Romper — kids tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/7d222c90-a147-41e3-810a-027c6a6bfc9b.jpeg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "kids",
       "kids"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 107,
-    views: 0,
+    views: 520,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27259,7 +27491,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-rustic-twill-cargo-pants",
     name: "Rustic Twill Cargo Pants",
     brand: "ralph-lauren",
-    category: "pants",
+    category: "mens-clothing",
     subcategory: "Pants",
     gender: "men",
     description: "Ralph Lauren Rustic Twill Cargo Pants — pants tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27270,9 +27502,9 @@ export const generatedProducts: Product[] = [
       "pants",
       "pants"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 88,
-    views: 0,
+    views: 3483,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27291,7 +27523,7 @@ export const generatedProducts: Product[] = [
     slug: "ralph-lauren-wrap-tech-jersey-athletic-joggers",
     name: "Wrap Tech Jersey Athletic Joggers",
     brand: "ralph-lauren",
-    category: "joggers",
+    category: "mens-sportswear",
     subcategory: "Joggers",
     gender: "men",
     description: "Ralph Lauren Wrap Tech Jersey Athletic Joggers — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27302,9 +27534,9 @@ export const generatedProducts: Product[] = [
       "joggers",
       "joggers"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 80,
-    views: 0,
+    views: 3659,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27323,20 +27555,22 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-twill-tailored-suit-separate-pants",
     name: "Twill Tailored Suit Separate Pants",
     brand: "tommy-hilfiger",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Tommy Hilfiger Twill Tailored Suit Separate Pants — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/2af9c48d-6da7-4311-ab09-07749efbbc28.jpeg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 61,
-    views: 0,
+    views: 3768,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27355,7 +27589,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-crew-neck-lounge-t-shirt",
     name: "Crew Neck Lounge T-Shirt",
     brand: "tommy-hilfiger",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Tommy Hilfiger Crew Neck Lounge T-Shirt — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27366,9 +27600,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 42,
-    views: 0,
+    views: 5925,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27398,9 +27632,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 223,
-    views: 0,
+    views: 7898,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27430,9 +27664,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 204,
-    views: 0,
+    views: 2713,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27462,9 +27696,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 185,
-    views: 0,
+    views: 6044,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27494,9 +27728,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 166,
-    views: 0,
+    views: 3953,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27526,9 +27760,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 147,
-    views: 0,
+    views: 602,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27547,7 +27781,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-lendar-sneaker",
     name: "Lendar Sneaker",
     brand: "tommy-hilfiger",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Tommy Hilfiger Lendar Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27558,9 +27792,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 707,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27579,20 +27813,22 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-zeghora-floral-sleeveless-dress",
     name: "Zeghora Floral Sleeveless Dress",
     brand: "tommy-hilfiger",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Tommy Hilfiger Zeghora Floral Sleeveless Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/944e515f-1991-4161-b014-8172e868c3fd.jpeg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 720,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27611,7 +27847,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-kozal-slip-on-sneaker",
     name: "Kozal Slip-On Sneaker",
     brand: "tommy-hilfiger",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Tommy Hilfiger Kozal Slip-On Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27622,9 +27858,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 71,
-    views: 0,
+    views: 4362,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27654,9 +27890,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27686,9 +27922,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 168,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27707,7 +27943,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-sesame-chelsea-boot",
     name: "Sesame Chelsea Boot",
     brand: "tommy-hilfiger",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Tommy Hilfiger Sesame Chelsea Boot — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27718,9 +27954,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 2357,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27739,7 +27975,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-slim-fit-non-iron-dress-shirt",
     name: "Slim Fit Non-Iron Dress Shirt",
     brand: "tommy-hilfiger",
-    category: "dresses",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Tommy Hilfiger Slim Fit Non-Iron Dress Shirt — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27750,9 +27986,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 195,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27771,7 +28007,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-slim-fit-non-iron-cotton-dress-shirt",
     name: "Slim Fit Non-Iron Cotton Dress Shirt",
     brand: "tommy-hilfiger",
-    category: "dresses",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Tommy Hilfiger Slim Fit Non-Iron Cotton Dress Shirt — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27782,9 +28018,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 214,
-    views: 0,
+    views: 7439,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27803,7 +28039,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-ribby-low-top-sneaker",
     name: "Ribby Low Top Sneaker",
     brand: "tommy-hilfiger",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Tommy Hilfiger Ribby Low Top Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27814,9 +28050,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27835,7 +28071,7 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-mixed-media-high-low-dress",
     name: "Mixed Media High-Low Dress",
     brand: "tommy-hilfiger",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Tommy Hilfiger Mixed Media High-Low Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27848,7 +28084,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 52,
-    views: 0,
+    views: 1193,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27867,20 +28103,22 @@ export const generatedProducts: Product[] = [
     slug: "tommy-hilfiger-regular-fit-wrinkle-resistant-cotton-dress-shirt",
     name: "Regular Fit Wrinkle Resistant Cotton Dress Shirt",
     brand: "tommy-hilfiger",
-    category: "dresses",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Tommy Hilfiger Regular Fit Wrinkle Resistant Cotton Dress Shirt — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/0788fbfb-beeb-455b-a197-70c925da3755.jpeg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 3618,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27910,9 +28148,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 6403,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27944,7 +28182,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 66,
-    views: 0,
+    views: 4149,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27963,7 +28201,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-convertible-strap-lightly-lined-demi-bra",
     name: "Convertible Strap Lightly Lined Demi Bra",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "clothing",
     subcategory: "Underwear",
     gender: "women",
     description: "Calvin Klein Convertible Strap Lightly Lined Demi Bra — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -27974,9 +28212,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 47,
-    views: 0,
+    views: 6086,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27995,7 +28233,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-sleeveless-sheath-dress",
     name: "Sleeveless Sheath Dress",
     brand: "calvin-klein",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Calvin Klein Sleeveless Sheath Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28006,9 +28244,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 104,
-    views: 0,
+    views: 5147,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28027,7 +28265,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-boxer-briefs-pack-of-3",
     name: "Boxer Briefs - Pack of 3",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "mens-clothing",
     subcategory: "Underwear",
     gender: "men",
     description: "Calvin Klein Boxer Briefs - Pack of 3 — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28038,9 +28276,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 85,
-    views: 0,
+    views: 5384,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28059,7 +28297,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-3-pack-cotton-crewneck-undershirts",
     name: "3-Pack Cotton Crewneck Undershirts",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "mens-clothing",
     subcategory: "Underwear",
     gender: "men",
     description: "Calvin Klein 3-Pack Cotton Crewneck Undershirts — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28070,9 +28308,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 190,
-    views: 0,
+    views: 7361,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28091,7 +28329,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-push-up-underwire-plunge-bra",
     name: "Push-up Underwire Plunge Bra",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "clothing",
     subcategory: "Underwear",
     gender: "women",
     description: "Calvin Klein Push-up Underwire Plunge Bra — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28102,9 +28340,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 171,
-    views: 0,
+    views: 2662,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28123,7 +28361,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-3-pack-cotton-v-neck-t-shirt",
     name: "3-Pack Cotton V-Neck T-Shirt",
     brand: "calvin-klein",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Calvin Klein 3-Pack Cotton V-Neck T-Shirt — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28134,9 +28372,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 228,
-    views: 0,
+    views: 4839,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28155,7 +28393,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-two-button-short-jacket",
     name: "Two Button Short Jacket",
     brand: "calvin-klein",
-    category: "apparel",
+    category: "clothing",
     subcategory: "Apparel",
     gender: "women",
     description: "Calvin Klein Two Button Short Jacket — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28166,9 +28404,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 209,
-    views: 0,
+    views: 6500,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28187,7 +28425,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-wide-leg-pants",
     name: "Wide Leg Pants",
     brand: "calvin-klein",
-    category: "apparel",
+    category: "clothing",
     subcategory: "Apparel",
     gender: "women",
     description: "Calvin Klein Wide Leg Pants — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28198,9 +28436,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 7629,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28219,7 +28457,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-cotton-classic-fit-brief-pack-of-4",
     name: "Cotton Classic Fit Brief - Pack of 4",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "mens-clothing",
     subcategory: "Underwear",
     gender: "men",
     description: "Calvin Klein Cotton Classic Fit Brief - Pack of 4 — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28230,9 +28468,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 5294,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28251,7 +28489,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-boxer-briefs-pack-of-3-2",
     name: "Boxer Briefs - Pack of 3 (2)",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "mens-clothing",
     subcategory: "Underwear",
     gender: "men",
     description: "Calvin Klein Boxer Briefs - Pack of 3 (2) — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28262,9 +28500,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 57,
-    views: 0,
+    views: 7956,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28283,7 +28521,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-motive-cotton-boyshorts-pack-of-3",
     name: "Motive Cotton Boyshorts - Pack of 3",
     brand: "calvin-klein",
-    category: "apparel",
+    category: "clothing",
     subcategory: "Apparel",
     gender: "women",
     description: "Calvin Klein Motive Cotton Boyshorts - Pack of 3 — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28294,9 +28532,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 76,
-    views: 0,
+    views: 3287,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28315,7 +28553,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-logo-assorted-thongs-pack-of-3",
     name: "Logo Assorted Thongs - Pack of 3",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "clothing",
     subcategory: "Underwear",
     gender: "women",
     description: "Calvin Klein Logo Assorted Thongs - Pack of 3 — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28326,9 +28564,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 219,
-    views: 0,
+    views: 5398,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28347,7 +28585,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-carousel-3-pack-bikini-panty-set",
     name: "Carousel 3-Pack Bikini Panty Set",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "clothing",
     subcategory: "Underwear",
     gender: "women",
     description: "Calvin Klein Carousel 3-Pack Bikini Panty Set — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28358,9 +28596,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 238,
-    views: 0,
+    views: 5823,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28379,7 +28617,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-logo-bikini-pack-of-5",
     name: "Logo Bikini - Pack of 5",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "clothing",
     subcategory: "Underwear",
     gender: "women",
     description: "Calvin Klein Logo Bikini - Pack of 5 — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28390,9 +28628,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 133,
-    views: 0,
+    views: 2232,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28411,7 +28649,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-comfort-mid-rise-hipster-pack-of-3",
     name: "Comfort Mid Rise Hipster - Pack of 3",
     brand: "calvin-klein",
-    category: "underwear",
+    category: "clothing",
     subcategory: "Underwear",
     gender: "women",
     description: "Calvin Klein Comfort Mid Rise Hipster - Pack of 3 — underwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28422,9 +28660,9 @@ export const generatedProducts: Product[] = [
       "underwear",
       "underwear"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 152,
-    views: 0,
+    views: 6117,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28443,7 +28681,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-stretch-cotton-camisole-shorts-pajamas",
     name: "Stretch Cotton Camisole & Shorts Pajamas",
     brand: "calvin-klein",
-    category: "sleepwear",
+    category: "clothing",
     subcategory: "Sleepwear",
     gender: "women",
     description: "Calvin Klein Stretch Cotton Camisole & Shorts Pajamas — sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28454,9 +28692,9 @@ export const generatedProducts: Product[] = [
       "sleepwear",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 1878,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28486,9 +28724,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 3851,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28518,9 +28756,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 105,
-    views: 0,
+    views: 4044,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28550,9 +28788,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 124,
-    views: 0,
+    views: 3809,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28571,7 +28809,7 @@ export const generatedProducts: Product[] = [
     slug: "calvin-klein-v-neck-t-shirt-shorts-2-piece-pajama-set",
     name: "V-Neck T-Shirt & Shorts 2-Piece Pajama Set",
     brand: "calvin-klein",
-    category: "sleepwear",
+    category: "clothing",
     subcategory: "Sleepwear",
     gender: "women",
     description: "Calvin Klein V-Neck T-Shirt & Shorts 2-Piece Pajama Set — sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28582,9 +28820,9 @@ export const generatedProducts: Product[] = [
       "sleepwear",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 68,
-    views: 0,
+    views: 5601,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28603,7 +28841,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-12-12-chronograph-silicone-strap-watch-44mm",
     name: "12.12 Chronograph Silicone Strap Watch, 44mm",
     brand: "lacoste",
-    category: "accessories",
+    category: "mens-watches",
     subcategory: "Accessories",
     gender: "men",
     description: "Lacoste 12.12 Chronograph Silicone Strap Watch, 44mm — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28614,9 +28852,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 89,
-    views: 0,
+    views: 5028,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28635,7 +28873,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-relaxed-twill-drawstring-shorts",
     name: "Relaxed Twill Drawstring Shorts",
     brand: "lacoste",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Lacoste Relaxed Twill Drawstring Shorts — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28646,9 +28884,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 70,
-    views: 0,
+    views: 4937,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28667,7 +28905,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-slim-fit-joggers",
     name: "Slim Fit Joggers",
     brand: "lacoste",
-    category: "apparel",
+    category: "mens-sportswear",
     subcategory: "Apparel",
     gender: "men",
     description: "Lacoste Slim Fit Joggers — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28678,9 +28916,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 51,
-    views: 0,
+    views: 8066,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28699,7 +28937,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-logo-embossed-sweatpants",
     name: "Logo Embossed Sweatpants",
     brand: "lacoste",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Lacoste Logo Embossed Sweatpants — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28710,9 +28948,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 192,
-    views: 0,
+    views: 1325,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28731,7 +28969,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-x-bandier-slim-fit-piqu-polo",
     name: "x BANDIER Slim Fit Piqué Polo",
     brand: "lacoste",
-    category: "apparel",
+    category: "clothing",
     subcategory: "Apparel",
     gender: "women",
     description: "Lacoste x BANDIER Slim Fit Piqué Polo — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28742,9 +28980,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 211,
-    views: 0,
+    views: 6928,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28763,7 +29001,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-libson-bracelet-watch-42mm",
     name: "Libson Bracelet Watch, 42mm",
     brand: "lacoste",
-    category: "accessories",
+    category: "jewelry",
     subcategory: "Accessories",
     gender: "men",
     description: "Lacoste Libson Bracelet Watch, 42mm — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28774,9 +29012,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 230,
-    views: 0,
+    views: 5501,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28795,20 +29033,22 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-touch-of-pink-eau-de-toilette",
     name: "Touch of Pink Eau de Toilette",
     brand: "lacoste",
-    category: "fragrance",
+    category: "beauty",
     subcategory: "Fragrance",
     gender: "women",
     description: "Lacoste Touch of Pink Eau de Toilette — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://n.nordstrommedia.com/it/512e2699-e366-4894-aa38-6e3bd0fe174f.jpeg",
-    colors: [],
+    colors: [
+      "Pink"
+    ],
     sizes: [],
     tags: [
       "fragrance",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 49,
-    views: 0,
+    views: 638,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28827,7 +29067,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-regular-fit-performance-golf-short-sleeve-button-up-shirt",
     name: "Regular Fit Performance Golf Short Sleeve Button-Up Shirt",
     brand: "lacoste",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Lacoste Regular Fit Performance Golf Short Sleeve Button-Up Shirt — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28838,9 +29078,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 1623,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28859,7 +29099,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-relaxed-cotton-twill-shorts",
     name: "Relaxed Cotton Twill Shorts",
     brand: "lacoste",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Lacoste Relaxed Cotton Twill Shorts — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28870,9 +29110,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 3540,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28891,7 +29131,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-low-top-sneaker",
     name: "Low Top Sneaker",
     brand: "lacoste",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Lacoste Low Top Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28902,9 +29142,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 99,
-    views: 0,
+    views: 8082,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28923,7 +29163,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-low-top-sneaker-2",
     name: "Low Top Sneaker (2)",
     brand: "lacoste",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Lacoste Low Top Sneaker (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28934,9 +29174,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 118,
-    views: 0,
+    views: 313,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28955,7 +29195,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-low-top-court-sneaker",
     name: "Low Top Court Sneaker",
     brand: "lacoste",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Lacoste Low Top Court Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28966,9 +29206,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 137,
-    views: 0,
+    views: 828,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28987,7 +29227,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-low-top-sneaker-3",
     name: "Low Top Sneaker (3)",
     brand: "lacoste",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Lacoste Low Top Sneaker (3) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -28998,9 +29238,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 156,
-    views: 0,
+    views: 7921,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29019,7 +29259,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-double-face-organic-cotton-blend-piqu-sweatpants",
     name: "Double Face Organic Cotton Blend Piqué Sweatpants",
     brand: "lacoste",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Lacoste Double Face Organic Cotton Blend Piqué Sweatpants — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29030,9 +29270,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 175,
-    views: 0,
+    views: 6414,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29051,7 +29291,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-relaxed-fit-cotton-sweatpants",
     name: "Relaxed Fit Cotton Sweatpants",
     brand: "lacoste",
-    category: "apparel",
+    category: "clothing",
     subcategory: "Apparel",
     gender: "unisex",
     description: "Lacoste Relaxed Fit Cotton Sweatpants — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29064,7 +29304,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 194,
-    views: 0,
+    views: 899,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29083,7 +29323,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-mainsail-chronograph-bracelet-watch-43mm",
     name: "Mainsail Chronograph Bracelet Watch, 43mm",
     brand: "lacoste",
-    category: "accessories",
+    category: "jewelry",
     subcategory: "Accessories",
     gender: "men",
     description: "Lacoste Mainsail Chronograph Bracelet Watch, 43mm — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29094,9 +29334,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 163,
-    views: 0,
+    views: 7856,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29115,7 +29355,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-everett-mesh-strap-watch-40mm",
     name: "Everett Mesh Strap Watch, 40mm",
     brand: "lacoste",
-    category: "accessories",
+    category: "mens-watches",
     subcategory: "Accessories",
     gender: "men",
     description: "Lacoste Everett Mesh Strap Watch, 40mm — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29128,7 +29368,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 144,
-    views: 0,
+    views: 7923,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29147,7 +29387,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-club-mesh-strap-watch-42mm",
     name: "Club Mesh Strap Watch, 42mm",
     brand: "lacoste",
-    category: "accessories",
+    category: "mens-watches",
     subcategory: "Accessories",
     gender: "men",
     description: "Lacoste Club Mesh Strap Watch, 42mm — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29158,9 +29398,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 125,
-    views: 0,
+    views: 4294,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29179,7 +29419,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-eau-blanc-eau-de-parfum",
     name: "Eau Blanc Eau de Parfum",
     brand: "lacoste",
-    category: "fragrance",
+    category: "grooming",
     subcategory: "Fragrance",
     gender: "men",
     description: "Lacoste Eau Blanc Eau de Parfum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29190,9 +29430,9 @@ export const generatedProducts: Product[] = [
       "fragrance",
       "fragrance"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 106,
-    views: 0,
+    views: 1039,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29211,7 +29451,7 @@ export const generatedProducts: Product[] = [
     slug: "lacoste-serve-slide-sandal",
     name: "Serve Slide Sandal",
     brand: "lacoste",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Lacoste Serve Slide Sandal — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29222,9 +29462,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 94,
-    views: 0,
+    views: 6105,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29243,7 +29483,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-piro-solid-polo",
     name: "Piro Solid Polo",
     brand: "hugo-boss",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Hugo Boss Piro Solid Polo — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29254,9 +29494,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 75,
-    views: 0,
+    views: 702,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29275,7 +29515,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-bay-slide-sandal",
     name: "Bay Slide Sandal",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Bay Slide Sandal — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29286,9 +29526,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 132,
-    views: 0,
+    views: 7377,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29307,7 +29547,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-men-s-ease-pajama-shorts",
     name: "Men's Ease Pajama Shorts",
     brand: "hugo-boss",
-    category: "sleepwear",
+    category: "mens-clothing",
     subcategory: "Sleepwear",
     gender: "men",
     description: "Hugo Boss Men's Ease Pajama Shorts — sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29318,9 +29558,9 @@ export const generatedProducts: Product[] = [
       "sleepwear",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 113,
-    views: 0,
+    views: 8084,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29339,7 +29579,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-men-s-ease-pajama-joggers",
     name: "Men's Ease Pajama Joggers",
     brand: "hugo-boss",
-    category: "sleepwear",
+    category: "mens-sportswear",
     subcategory: "Sleepwear",
     gender: "men",
     description: "Hugo Boss Men's Ease Pajama Joggers — sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29350,9 +29590,9 @@ export const generatedProducts: Product[] = [
       "sleepwear",
       "sleepwear"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 206,
-    views: 0,
+    views: 4259,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29371,7 +29611,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-men-s-ease-track-jacket",
     name: "Men's Ease Track Jacket",
     brand: "hugo-boss",
-    category: "apparel",
+    category: "mens-sportswear",
     subcategory: "Apparel",
     gender: "men",
     description: "Hugo Boss Men's Ease Track Jacket — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29382,9 +29622,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 151,
-    views: 0,
+    views: 3842,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29403,7 +29643,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-umbe-casual-leather-belt",
     name: "Umbe Casual Leather Belt",
     brand: "hugo-boss",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Hugo Boss Umbe Casual Leather Belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29414,9 +29654,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 168,
-    views: 0,
+    views: 7069,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29435,7 +29675,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-uland-leather-belt",
     name: "Uland Leather Belt",
     brand: "hugo-boss",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Hugo Boss Uland Leather Belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29446,9 +29686,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 187,
-    views: 0,
+    views: 7312,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29467,7 +29707,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-uran-leather-belt",
     name: "Uran Leather Belt",
     brand: "hugo-boss",
-    category: "accessories",
+    category: "mens-accessories",
     subcategory: "Accessories",
     gender: "men",
     description: "Hugo Boss Uran Leather Belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29480,7 +29720,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 130,
-    views: 0,
+    views: 5295,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29499,7 +29739,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-tenore-quarter-zip-sweater",
     name: "Tenore Quarter Zip Sweater",
     brand: "hugo-boss",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Hugo Boss Tenore Quarter Zip Sweater — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29510,9 +29750,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 149,
-    views: 0,
+    views: 1062,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29531,7 +29771,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-cotton-curved-logo-t-shirt",
     name: "Cotton Curved Logo T-Shirt",
     brand: "hugo-boss",
-    category: "apparel",
+    category: "mens-clothing",
     subcategory: "Apparel",
     gender: "men",
     description: "Hugo Boss Cotton Curved Logo T-Shirt — apparel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29542,9 +29782,9 @@ export const generatedProducts: Product[] = [
       "apparel",
       "apparel"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 83,
-    views: 0,
+    views: 4712,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29563,7 +29803,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-colyn-hybrid-leather-sneaker",
     name: "Colyn Hybrid Leather Sneaker",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Colyn Hybrid Leather Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29576,7 +29816,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 64,
-    views: 0,
+    views: 6523,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29595,7 +29835,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-colby-leather-derby",
     name: "Colby Leather Derby",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Colby Leather Derby — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29606,9 +29846,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 121,
-    views: 0,
+    views: 4006,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29627,7 +29867,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-grady-driving-loafer",
     name: "Grady Driving Loafer",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Grady Driving Loafer — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29638,9 +29878,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 102,
-    views: 0,
+    views: 981,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29659,7 +29899,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-sean-slide-sandal",
     name: "Sean Slide Sandal",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Sean Slide Sandal — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29670,9 +29910,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 159,
-    views: 0,
+    views: 1580,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29691,7 +29931,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-parkour-runner-sneaker",
     name: "Parkour Runner Sneaker",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Parkour Runner Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29702,9 +29942,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 140,
-    views: 0,
+    views: 6215,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29723,7 +29963,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-stiven-sneaker",
     name: "Stiven Sneaker",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Stiven Sneaker — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29734,9 +29974,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 197,
-    views: 0,
+    views: 4742,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29755,7 +29995,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-kirk-slide-sandal",
     name: "Kirk Slide Sandal",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Kirk Slide Sandal — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29766,9 +30006,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 178,
-    views: 0,
+    views: 591,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29787,7 +30027,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-max-kent-sharp-fit-cotton-dress-shirt",
     name: "Max Kent Sharp Fit Cotton Dress Shirt",
     brand: "hugo-boss",
-    category: "dresses",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Hugo Boss Max Kent Sharp Fit Cotton Dress Shirt — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29798,9 +30038,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 235,
-    views: 0,
+    views: 7408,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29819,7 +30059,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-kent-sharp-fit-cotton-dress-shirt",
     name: "Kent Sharp Fit Cotton Dress Shirt",
     brand: "hugo-boss",
-    category: "dresses",
+    category: "mens-clothing",
     subcategory: "Dresses",
     gender: "men",
     description: "Hugo Boss Kent Sharp Fit Cotton Dress Shirt — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29830,9 +30070,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 216,
-    views: 0,
+    views: 371,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29851,7 +30091,7 @@ export const generatedProducts: Product[] = [
     slug: "hugo-boss-colby-loafer",
     name: "Colby Loafer",
     brand: "hugo-boss",
-    category: "shoes",
+    category: "mens-shoes",
     subcategory: "Shoes",
     gender: "men",
     description: "Hugo Boss Colby Loafer — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -29862,9 +30102,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3156,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29894,9 +30134,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "farfetch-store",
@@ -29926,9 +30166,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "farfetch-store",
@@ -29958,9 +30198,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "farfetch-store",
@@ -29990,9 +30230,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "farfetch-store",
@@ -30024,7 +30264,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "farfetch-store",
@@ -30054,9 +30294,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "farfetch-store",
@@ -30086,9 +30326,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "farfetch-store",
@@ -30118,9 +30358,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "farfetch-store",
@@ -30139,7 +30379,7 @@ export const generatedProducts: Product[] = [
     slug: "michael-kors-ruched-mini-dress",
     name: "Ruched mini dress",
     brand: "michael-kors",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Ruched mini dress — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -30150,9 +30390,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "farfetch-store",
@@ -30182,9 +30422,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "farfetch-store",
@@ -30214,9 +30454,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "farfetch-store",
@@ -30246,9 +30486,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "farfetch-store",
@@ -30278,9 +30518,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "farfetch-store",
@@ -30299,20 +30539,22 @@ export const generatedProducts: Product[] = [
     slug: "michael-kors-smocked-tiered-midi-dress",
     name: "Smocked tiered midi dress",
     brand: "michael-kors",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Smocked tiered midi dress — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/75/64/54/36756454_69441690_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "women-s-clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "farfetch-store",
@@ -30342,9 +30584,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "farfetch-store",
@@ -30374,9 +30616,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "farfetch-store",
@@ -30406,9 +30648,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "farfetch-store",
@@ -30440,7 +30682,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "farfetch-store",
@@ -30470,9 +30712,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "farfetch-store",
@@ -30502,9 +30744,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "farfetch-store",
@@ -30534,9 +30776,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 228,
-    views: 0,
+    views: 2503,
     offers: [
       {
         store: "farfetch-store",
@@ -30555,7 +30797,7 @@ export const generatedProducts: Product[] = [
     slug: "coach-logo-plaque-stud-earrings",
     name: "logo-plaque stud earrings",
     brand: "coach",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach logo-plaque stud earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -30566,9 +30808,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "farfetch-store",
@@ -30587,7 +30829,7 @@ export const generatedProducts: Product[] = [
     slug: "coach-logo-plaque-bracelet",
     name: "logo-plaque bracelet",
     brand: "coach",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach logo-plaque bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -30598,9 +30840,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "farfetch-store",
@@ -30630,9 +30872,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "farfetch-store",
@@ -30651,7 +30893,7 @@ export const generatedProducts: Product[] = [
     slug: "coach-logo-pendant-pearl-detail-necklace",
     name: "logo-pendant pearl-detail necklace",
     brand: "coach",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach logo-pendant pearl-detail necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -30662,9 +30904,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "farfetch-store",
@@ -30696,7 +30938,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "farfetch-store",
@@ -30726,9 +30968,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "farfetch-store",
@@ -30758,9 +31000,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "farfetch-store",
@@ -30790,9 +31032,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "farfetch-store",
@@ -30822,9 +31064,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "farfetch-store",
@@ -30854,9 +31096,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "farfetch-store",
@@ -30886,9 +31128,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "farfetch-store",
@@ -30918,9 +31160,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "farfetch-store",
@@ -30950,9 +31192,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "farfetch-store",
@@ -30971,20 +31213,22 @@ export const generatedProducts: Product[] = [
     slug: "coach-heart-floral-charm-necklace",
     name: "heart floral charm necklace",
     brand: "coach",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach heart floral charm necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/33/24/01/83/33240183_64382242_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "farfetch-store",
@@ -31014,9 +31258,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "farfetch-store",
@@ -31046,9 +31290,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "farfetch-store",
@@ -31078,9 +31322,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "farfetch-store",
@@ -31112,7 +31356,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "farfetch-store",
@@ -31142,9 +31386,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "farfetch-store",
@@ -31174,9 +31418,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "farfetch-store",
@@ -31195,7 +31439,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-crystal-embellished-huggie-earrings",
     name: "crystal-embellished huggie earrings",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade crystal-embellished huggie earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31206,9 +31450,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 228,
-    views: 0,
+    views: 2503,
     offers: [
       {
         store: "farfetch-store",
@@ -31238,9 +31482,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 171,
-    views: 0,
+    views: 1030,
     offers: [
       {
         store: "farfetch-store",
@@ -31270,9 +31514,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 190,
-    views: 0,
+    views: 3937,
     offers: [
       {
         store: "farfetch-store",
@@ -31291,7 +31535,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-safety-pin-besties-bracelets",
     name: "safety-pin besties bracelets",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade safety-pin besties bracelets — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31302,9 +31546,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 85,
-    views: 0,
+    views: 6536,
     offers: [
       {
         store: "farfetch-store",
@@ -31323,7 +31567,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-summer-daze-fish-motif-necklace",
     name: "Summer Daze fish-motif necklace",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade Summer Daze fish-motif necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31334,9 +31578,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 104,
-    views: 0,
+    views: 4725,
     offers: [
       {
         store: "farfetch-store",
@@ -31366,9 +31610,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 7718,
     offers: [
       {
         store: "farfetch-store",
@@ -31398,9 +31642,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2267,
     offers: [
       {
         store: "farfetch-store",
@@ -31419,7 +31663,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-crystal-embellished-clover-earrings",
     name: "crystal-embellished clover earrings",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade crystal-embellished clover earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31430,9 +31674,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 57,
-    views: 0,
+    views: 5564,
     offers: [
       {
         store: "farfetch-store",
@@ -31462,9 +31706,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 76,
-    views: 0,
+    views: 3185,
     offers: [
       {
         store: "farfetch-store",
@@ -31494,9 +31738,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 218,
-    views: 0,
+    views: 6475,
     offers: [
       {
         store: "farfetch-store",
@@ -31526,9 +31770,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 199,
-    views: 0,
+    views: 3482,
     offers: [
       {
         store: "farfetch-store",
@@ -31558,9 +31802,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 56,
-    views: 0,
+    views: 869,
     offers: [
       {
         store: "farfetch-store",
@@ -31579,7 +31823,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-clover-embellished-bangle-bracelet",
     name: "clover-embellished bangle bracelet",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade clover-embellished bangle bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31590,9 +31834,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 237,
-    views: 0,
+    views: 2680,
     offers: [
       {
         store: "farfetch-store",
@@ -31622,9 +31866,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 142,
-    views: 0,
+    views: 5361,
     offers: [
       {
         store: "farfetch-store",
@@ -31654,9 +31898,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 123,
-    views: 0,
+    views: 5718,
     offers: [
       {
         store: "farfetch-store",
@@ -31675,7 +31919,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-precious-delights-hoop-earrings",
     name: "Precious Delights hoop earrings",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade Precious Delights hoop earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31688,7 +31932,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 180,
-    views: 0,
+    views: 6359,
     offers: [
       {
         store: "farfetch-store",
@@ -31718,9 +31962,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 161,
-    views: 0,
+    views: 276,
     offers: [
       {
         store: "farfetch-store",
@@ -31750,9 +31994,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2237,
     offers: [
       {
         store: "farfetch-store",
@@ -31771,7 +32015,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-safety-pin-engraved-logo-bracelet",
     name: "safety-pin engraved-logo bracelet",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade safety-pin engraved-logo bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31782,9 +32026,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 3902,
     offers: [
       {
         store: "farfetch-store",
@@ -31803,7 +32047,7 @@ export const generatedProducts: Product[] = [
     slug: "kate-spade-harmony-stud-earrings",
     name: "Harmony stud earrings",
     brand: "kate-spade",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade Harmony stud earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -31814,9 +32058,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 223,
-    views: 0,
+    views: 2550,
     offers: [
       {
         store: "farfetch-store",
@@ -31846,9 +32090,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 42,
-    views: 0,
+    views: 3973,
     offers: [
       {
         store: "farfetch-store",
@@ -31878,9 +32122,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 7384,
     offers: [
       {
         store: "farfetch-store",
@@ -31910,9 +32154,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6123,
     offers: [
       {
         store: "farfetch-store",
@@ -31942,9 +32186,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 147,
-    views: 0,
+    views: 7798,
     offers: [
       {
         store: "farfetch-store",
@@ -31976,7 +32220,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 166,
-    views: 0,
+    views: 2321,
     offers: [
       {
         store: "farfetch-store",
@@ -32006,9 +32250,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 185,
-    views: 0,
+    views: 2356,
     offers: [
       {
         store: "farfetch-store",
@@ -32038,9 +32282,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 204,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "farfetch-store",
@@ -32070,9 +32314,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 71,
-    views: 0,
+    views: 1618,
     offers: [
       {
         store: "farfetch-store",
@@ -32102,9 +32346,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 90,
-    views: 0,
+    views: 4627,
     offers: [
       {
         store: "farfetch-store",
@@ -32136,7 +32380,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 232,
-    views: 0,
+    views: 5051,
     offers: [
       {
         store: "farfetch-store",
@@ -32155,20 +32399,22 @@ export const generatedProducts: Product[] = [
     slug: "marc-jacobs-black-midi-dress",
     name: "Black Midi Dress",
     brand: "marc-jacobs",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Marc Jacobs Black Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/33/83/93/28/33839328_64635201_480.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 213,
-    views: 0,
+    views: 3240,
     offers: [
       {
         store: "farfetch-store",
@@ -32192,15 +32438,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Marc Jacobs Layered Satin Slip Skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/13/54/21/37135421_70897682_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 194,
-    views: 0,
+    views: 7509,
     offers: [
       {
         store: "farfetch-store",
@@ -32230,9 +32478,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 175,
-    views: 0,
+    views: 2058,
     offers: [
       {
         store: "farfetch-store",
@@ -32262,9 +32510,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 156,
-    views: 0,
+    views: 3497,
     offers: [
       {
         store: "farfetch-store",
@@ -32288,15 +32536,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Marc Jacobs Oversized Bow Floral Canvas Medium Tote Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/13/55/07/37135507_70797838_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 137,
-    views: 0,
+    views: 4484,
     offers: [
       {
         store: "farfetch-store",
@@ -32326,9 +32576,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 118,
-    views: 0,
+    views: 5473,
     offers: [
       {
         store: "farfetch-store",
@@ -32358,9 +32608,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 99,
-    views: 0,
+    views: 4970,
     offers: [
       {
         store: "farfetch-store",
@@ -32390,9 +32640,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6899,
     offers: [
       {
         store: "farfetch-store",
@@ -32422,9 +32672,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 6656,
     offers: [
       {
         store: "farfetch-store",
@@ -32443,7 +32693,7 @@ export const generatedProducts: Product[] = [
     slug: "marc-jacobs-polka-dot-cut-out-dress",
     name: "Polka Dot Cut-Out Dress",
     brand: "marc-jacobs",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Marc Jacobs Polka Dot Cut-Out Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -32454,9 +32704,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 107,
-    views: 0,
+    views: 4768,
     offers: [
       {
         store: "farfetch-store",
@@ -32486,9 +32736,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 88,
-    views: 0,
+    views: 4781,
     offers: [
       {
         store: "farfetch-store",
@@ -32518,9 +32768,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 145,
-    views: 0,
+    views: 4158,
     offers: [
       {
         store: "farfetch-store",
@@ -32550,9 +32800,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 126,
-    views: 0,
+    views: 5491,
     offers: [
       {
         store: "farfetch-store",
@@ -32582,9 +32832,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 332,
     offers: [
       {
         store: "farfetch-store",
@@ -32616,7 +32866,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 7521,
     offers: [
       {
         store: "farfetch-store",
@@ -32646,9 +32896,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 221,
-    views: 0,
+    views: 7362,
     offers: [
       {
         store: "farfetch-store",
@@ -32678,9 +32928,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 202,
-    views: 0,
+    views: 3337,
     offers: [
       {
         store: "farfetch-store",
@@ -32699,7 +32949,7 @@ export const generatedProducts: Product[] = [
     slug: "tory-burch-reva-travel-ballet-flats",
     name: "Reva Travel ballet flats",
     brand: "tory-burch",
-    category: "shoes",
+    category: "travel",
     subcategory: "Shoes",
     gender: "women",
     description: "Tory Burch Reva Travel ballet flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -32710,9 +32960,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 155,
-    views: 0,
+    views: 6520,
     offers: [
       {
         store: "farfetch-store",
@@ -32742,9 +32992,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 136,
-    views: 0,
+    views: 1829,
     offers: [
       {
         store: "farfetch-store",
@@ -32776,7 +33026,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 98,
-    views: 0,
+    views: 3649,
     offers: [
       {
         store: "farfetch-store",
@@ -32806,9 +33056,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 117,
-    views: 0,
+    views: 6950,
     offers: [
       {
         store: "farfetch-store",
@@ -32838,9 +33088,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 60,
-    views: 0,
+    views: 1127,
     offers: [
       {
         store: "farfetch-store",
@@ -32870,9 +33120,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 79,
-    views: 0,
+    views: 4748,
     offers: [
       {
         store: "farfetch-store",
@@ -32902,9 +33152,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 222,
-    views: 0,
+    views: 7099,
     offers: [
       {
         store: "farfetch-store",
@@ -32934,9 +33184,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 41,
-    views: 0,
+    views: 1798,
     offers: [
       {
         store: "farfetch-store",
@@ -32966,9 +33216,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 184,
-    views: 0,
+    views: 1435,
     offers: [
       {
         store: "farfetch-store",
@@ -32998,9 +33248,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 203,
-    views: 0,
+    views: 1672,
     offers: [
       {
         store: "farfetch-store",
@@ -33030,9 +33280,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 50,
-    views: 0,
+    views: 5593,
     offers: [
       {
         store: "farfetch-store",
@@ -33062,9 +33312,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 69,
-    views: 0,
+    views: 190,
     offers: [
       {
         store: "farfetch-store",
@@ -33094,9 +33344,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 4058,
     offers: [
       {
         store: "farfetch-store",
@@ -33115,20 +33365,22 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-jonora-dress-with-balloon-sleeves-and-floral-print",
     name: "Jonora dress with balloon sleeves and floral print",
     brand: "ted-baker",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Jonora dress with balloon sleeves and floral print — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/61/15/22/36611522_68651624_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 4415,
     offers: [
       {
         store: "farfetch-store",
@@ -33147,7 +33399,7 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-jolyye-24mm-watch",
     name: "Jolyye 24mm watch",
     brand: "ted-baker",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker Jolyye 24mm watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33158,9 +33410,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 1500,
     offers: [
       {
         store: "farfetch-store",
@@ -33190,9 +33442,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 3417,
     offers: [
       {
         store: "farfetch-store",
@@ -33222,9 +33474,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 6294,
     offers: [
       {
         store: "farfetch-store",
@@ -33254,9 +33506,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 7525,
     offers: [
       {
         store: "farfetch-store",
@@ -33286,9 +33538,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 3320,
     offers: [
       {
         store: "farfetch-store",
@@ -33320,7 +33572,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 5131,
     offers: [
       {
         store: "farfetch-store",
@@ -33339,20 +33591,22 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-aracely-short-dress-with-floral-motif",
     name: "Aracely short dress with floral motif",
     brand: "ted-baker",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Aracely short dress with floral motif — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/38/44/97/85/38449785_71718731_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 43,
-    views: 0,
+    views: 2670,
     offers: [
       {
         store: "farfetch-store",
@@ -33371,7 +33625,7 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-lileey-16mm-watch",
     name: "Lileey 16mm watch",
     brand: "ted-baker",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker Lileey 16mm watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33384,7 +33638,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 62,
-    views: 0,
+    views: 8103,
     offers: [
       {
         store: "farfetch-store",
@@ -33414,9 +33668,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 1993,
     offers: [
       {
         store: "farfetch-store",
@@ -33440,15 +33694,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Ted Baker Louannn floral print t-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/38/27/01/36/38270136_71388327_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 740,
     offers: [
       {
         store: "farfetch-store",
@@ -33478,9 +33734,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 166,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "farfetch-store",
@@ -33499,7 +33755,7 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-long-dress-with-lace-up-detail",
     name: "Long dress with lace-up detail",
     brand: "ted-baker",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Long dress with lace-up detail — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33510,9 +33766,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 147,
-    views: 0,
+    views: 5798,
     offers: [
       {
         store: "farfetch-store",
@@ -33531,7 +33787,7 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-35-5mm-stainless-steel-watch",
     name: "35.5mm stainless steel watch",
     brand: "ted-baker",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker 35.5mm stainless steel watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33542,9 +33798,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 80,
-    views: 0,
+    views: 1557,
     offers: [
       {
         store: "farfetch-store",
@@ -33574,9 +33830,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 61,
-    views: 0,
+    views: 4520,
     offers: [
       {
         store: "farfetch-store",
@@ -33595,20 +33851,22 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-midi-dress-with-floral-print",
     name: "Midi dress with floral print",
     brand: "ted-baker",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Midi dress with floral print — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/44/85/06/37448506_70194711_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 42,
-    views: 0,
+    views: 251,
     offers: [
       {
         store: "farfetch-store",
@@ -33627,7 +33885,7 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-ammy-hearts-34mm-bracelet-and-bracelet-set",
     name: "Ammy Hearts 34mm bracelet and bracelet set",
     brand: "ted-baker",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker Ammy Hearts 34mm bracelet and bracelet set — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33638,9 +33896,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 223,
-    views: 0,
+    views: 5766,
     offers: [
       {
         store: "farfetch-store",
@@ -33670,9 +33928,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5599,
     offers: [
       {
         store: "farfetch-store",
@@ -33691,7 +33949,7 @@ export const generatedProducts: Product[] = [
     slug: "ted-baker-sannii-midi-dress",
     name: "Sannii midi dress",
     brand: "ted-baker",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Sannii midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33702,9 +33960,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3348,
     offers: [
       {
         store: "farfetch-store",
@@ -33734,9 +33992,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 62,
-    views: 0,
+    views: 1617,
     offers: [
       {
         store: "farfetch-store",
@@ -33766,9 +34024,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 43,
-    views: 0,
+    views: 4858,
     offers: [
       {
         store: "farfetch-store",
@@ -33798,9 +34056,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 100,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "farfetch-store",
@@ -33830,9 +34088,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 81,
-    views: 0,
+    views: 2300,
     offers: [
       {
         store: "farfetch-store",
@@ -33862,9 +34120,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 645,
     offers: [
       {
         store: "farfetch-store",
@@ -33883,7 +34141,7 @@ export const generatedProducts: Product[] = [
     slug: "prada-compact-printed-dress",
     name: "compact printed dress",
     brand: "prada",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Prada compact printed dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -33894,9 +34152,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 7034,
     offers: [
       {
         store: "farfetch-store",
@@ -33926,9 +34184,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 176,
-    views: 0,
+    views: 3499,
     offers: [
       {
         store: "farfetch-store",
@@ -33947,20 +34205,22 @@ export const generatedProducts: Product[] = [
     slug: "prada-embroidered-silk-dress",
     name: "embroidered silk dress",
     brand: "prada",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Prada embroidered silk dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/77/14/06/37771406_70630267_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 157,
-    views: 0,
+    views: 1688,
     offers: [
       {
         store: "farfetch-store",
@@ -33990,9 +34250,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 110,
-    views: 0,
+    views: 1735,
     offers: [
       {
         store: "farfetch-store",
@@ -34022,9 +34282,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 91,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "farfetch-store",
@@ -34054,9 +34314,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 59,
-    views: 0,
+    views: 2464,
     offers: [
       {
         store: "farfetch-store",
@@ -34086,9 +34346,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "farfetch-store",
@@ -34118,9 +34378,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 97,
-    views: 0,
+    views: 2158,
     offers: [
       {
         store: "farfetch-store",
@@ -34152,7 +34412,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 78,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "farfetch-store",
@@ -34182,9 +34442,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 1692,
     offers: [
       {
         store: "farfetch-store",
@@ -34203,7 +34463,7 @@ export const generatedProducts: Product[] = [
     slug: "prada-devore-satin-dress",
     name: "devore satin dress",
     brand: "prada",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Prada devore satin dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -34214,9 +34474,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 2399,
     offers: [
       {
         store: "farfetch-store",
@@ -34246,9 +34506,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 173,
-    views: 0,
+    views: 5298,
     offers: [
       {
         store: "farfetch-store",
@@ -34278,9 +34538,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 154,
-    views: 0,
+    views: 7895,
     offers: [
       {
         store: "farfetch-store",
@@ -34310,9 +34570,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 107,
-    views: 0,
+    views: 520,
     offers: [
       {
         store: "farfetch-store",
@@ -34342,9 +34602,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 88,
-    views: 0,
+    views: 3483,
     offers: [
       {
         store: "farfetch-store",
@@ -34374,9 +34634,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 80,
-    views: 0,
+    views: 3659,
     offers: [
       {
         store: "farfetch-store",
@@ -34406,9 +34666,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 61,
-    views: 0,
+    views: 3768,
     offers: [
       {
         store: "farfetch-store",
@@ -34438,9 +34698,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 42,
-    views: 0,
+    views: 5925,
     offers: [
       {
         store: "farfetch-store",
@@ -34470,9 +34730,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 223,
-    views: 0,
+    views: 7898,
     offers: [
       {
         store: "farfetch-store",
@@ -34502,9 +34762,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 204,
-    views: 0,
+    views: 2713,
     offers: [
       {
         store: "farfetch-store",
@@ -34534,9 +34794,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 185,
-    views: 0,
+    views: 6044,
     offers: [
       {
         store: "farfetch-store",
@@ -34555,7 +34815,7 @@ export const generatedProducts: Product[] = [
     slug: "burberry-crochet-cotton-blend-dress",
     name: "crochet cotton blend dress",
     brand: "burberry",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Burberry crochet cotton blend dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -34566,9 +34826,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 166,
-    views: 0,
+    views: 3953,
     offers: [
       {
         store: "farfetch-store",
@@ -34598,9 +34858,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 147,
-    views: 0,
+    views: 602,
     offers: [
       {
         store: "farfetch-store",
@@ -34619,7 +34879,7 @@ export const generatedProducts: Product[] = [
     slug: "burberry-cotton-pique-tennis-dress",
     name: "cotton pique tennis dress",
     brand: "burberry",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Burberry cotton pique tennis dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -34630,9 +34890,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 707,
     offers: [
       {
         store: "farfetch-store",
@@ -34662,9 +34922,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 720,
     offers: [
       {
         store: "farfetch-store",
@@ -34694,9 +34954,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 71,
-    views: 0,
+    views: 4362,
     offers: [
       {
         store: "farfetch-store",
@@ -34726,9 +34986,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "farfetch-store",
@@ -34758,9 +35018,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 168,
     offers: [
       {
         store: "farfetch-store",
@@ -34790,9 +35050,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 2357,
     offers: [
       {
         store: "farfetch-store",
@@ -34822,9 +35082,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 195,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "farfetch-store",
@@ -34854,9 +35114,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 214,
-    views: 0,
+    views: 7439,
     offers: [
       {
         store: "farfetch-store",
@@ -34886,9 +35146,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "farfetch-store",
@@ -34920,7 +35180,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 52,
-    views: 0,
+    views: 1193,
     offers: [
       {
         store: "farfetch-store",
@@ -34950,9 +35210,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 3618,
     offers: [
       {
         store: "farfetch-store",
@@ -34982,9 +35242,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 6403,
     offers: [
       {
         store: "farfetch-store",
@@ -35016,7 +35276,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 66,
-    views: 0,
+    views: 4149,
     offers: [
       {
         store: "farfetch-store",
@@ -35035,7 +35295,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-printed-silk-twill-mini-dress",
     name: "printed silk twill mini dress",
     brand: "versace",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Versace printed silk twill mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35046,9 +35306,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 47,
-    views: 0,
+    views: 6086,
     offers: [
       {
         store: "farfetch-store",
@@ -35067,7 +35327,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-sea-frames-necklace",
     name: "sea frames necklace",
     brand: "versace",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Versace sea frames necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35078,9 +35338,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 104,
-    views: 0,
+    views: 5147,
     offers: [
       {
         store: "farfetch-store",
@@ -35099,7 +35359,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-lace-trim-silk-cady-satin-mini-dress",
     name: "lace-trim silk cady satin mini dress",
     brand: "versace",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Versace lace-trim silk cady satin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35110,9 +35370,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 85,
-    views: 0,
+    views: 5384,
     offers: [
       {
         store: "farfetch-store",
@@ -35142,9 +35402,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 190,
-    views: 0,
+    views: 7361,
     offers: [
       {
         store: "farfetch-store",
@@ -35174,9 +35434,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 171,
-    views: 0,
+    views: 2662,
     offers: [
       {
         store: "farfetch-store",
@@ -35195,7 +35455,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-greca-print-graphic-pattern-dress",
     name: "Greca-print graphic-pattern dress",
     brand: "versace",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Versace Greca-print graphic-pattern dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35206,9 +35466,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 228,
-    views: 0,
+    views: 4839,
     offers: [
       {
         store: "farfetch-store",
@@ -35238,9 +35498,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 209,
-    views: 0,
+    views: 6500,
     offers: [
       {
         store: "farfetch-store",
@@ -35259,20 +35519,22 @@ export const generatedProducts: Product[] = [
     slug: "versace-embroidered-silk-cady-satin-mini-dress",
     name: "embroidered silk cady satin mini dress",
     brand: "versace",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Versace embroidered silk cady satin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/35/03/93/73/35039373_67938141_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 7629,
     offers: [
       {
         store: "farfetch-store",
@@ -35302,9 +35564,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 5294,
     offers: [
       {
         store: "farfetch-store",
@@ -35334,9 +35596,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 57,
-    views: 0,
+    views: 7956,
     offers: [
       {
         store: "farfetch-store",
@@ -35366,9 +35628,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 76,
-    views: 0,
+    views: 3287,
     offers: [
       {
         store: "farfetch-store",
@@ -35398,9 +35660,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 219,
-    views: 0,
+    views: 5398,
     offers: [
       {
         store: "farfetch-store",
@@ -35419,7 +35681,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-irradia-earrings",
     name: "Irradia earrings",
     brand: "versace",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Versace Irradia earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35430,9 +35692,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 238,
-    views: 0,
+    views: 5823,
     offers: [
       {
         store: "farfetch-store",
@@ -35451,7 +35713,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-printed-silk-duchesse-mini-dress",
     name: "printed silk duchesse mini dress",
     brand: "versace",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Versace printed silk duchesse mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35462,9 +35724,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 133,
-    views: 0,
+    views: 2232,
     offers: [
       {
         store: "farfetch-store",
@@ -35494,9 +35756,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 152,
-    views: 0,
+    views: 6117,
     offers: [
       {
         store: "farfetch-store",
@@ -35515,7 +35777,7 @@ export const generatedProducts: Product[] = [
     slug: "versace-cotton-poplin-mini-dress",
     name: "cotton-poplin mini dress",
     brand: "versace",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Versace cotton-poplin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35526,9 +35788,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 1878,
     offers: [
       {
         store: "farfetch-store",
@@ -35558,9 +35820,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 3851,
     offers: [
       {
         store: "farfetch-store",
@@ -35590,9 +35852,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 105,
-    views: 0,
+    views: 4044,
     offers: [
       {
         store: "farfetch-store",
@@ -35616,15 +35878,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Versace embroidered-logo bikini bottoms — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/35/03/94/01/35039401_68695524_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 124,
-    views: 0,
+    views: 3809,
     offers: [
       {
         store: "farfetch-store",
@@ -35654,9 +35918,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 68,
-    views: 0,
+    views: 5601,
     offers: [
       {
         store: "farfetch-store",
@@ -35686,9 +35950,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 89,
-    views: 0,
+    views: 5028,
     offers: [
       {
         store: "farfetch-store",
@@ -35718,9 +35982,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 70,
-    views: 0,
+    views: 4937,
     offers: [
       {
         store: "farfetch-store",
@@ -35750,9 +36014,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 51,
-    views: 0,
+    views: 8066,
     offers: [
       {
         store: "farfetch-store",
@@ -35782,9 +36046,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 192,
-    views: 0,
+    views: 1325,
     offers: [
       {
         store: "farfetch-store",
@@ -35814,9 +36078,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 211,
-    views: 0,
+    views: 6928,
     offers: [
       {
         store: "farfetch-store",
@@ -35846,9 +36110,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 230,
-    views: 0,
+    views: 5501,
     offers: [
       {
         store: "farfetch-store",
@@ -35878,9 +36142,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 49,
-    views: 0,
+    views: 638,
     offers: [
       {
         store: "farfetch-store",
@@ -35910,9 +36174,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 1623,
     offers: [
       {
         store: "farfetch-store",
@@ -35942,9 +36206,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 3540,
     offers: [
       {
         store: "farfetch-store",
@@ -35974,9 +36238,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 99,
-    views: 0,
+    views: 8082,
     offers: [
       {
         store: "farfetch-store",
@@ -36006,9 +36270,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 118,
-    views: 0,
+    views: 313,
     offers: [
       {
         store: "farfetch-store",
@@ -36038,9 +36302,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 137,
-    views: 0,
+    views: 828,
     offers: [
       {
         store: "farfetch-store",
@@ -36070,9 +36334,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 156,
-    views: 0,
+    views: 7921,
     offers: [
       {
         store: "farfetch-store",
@@ -36102,9 +36366,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 175,
-    views: 0,
+    views: 6414,
     offers: [
       {
         store: "farfetch-store",
@@ -36136,7 +36400,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 194,
-    views: 0,
+    views: 899,
     offers: [
       {
         store: "farfetch-store",
@@ -36166,9 +36430,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 163,
-    views: 0,
+    views: 7856,
     offers: [
       {
         store: "farfetch-store",
@@ -36200,7 +36464,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 144,
-    views: 0,
+    views: 7923,
     offers: [
       {
         store: "farfetch-store",
@@ -36230,9 +36494,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 125,
-    views: 0,
+    views: 4294,
     offers: [
       {
         store: "farfetch-store",
@@ -36262,9 +36526,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 106,
-    views: 0,
+    views: 1039,
     offers: [
       {
         store: "farfetch-store",
@@ -36294,9 +36558,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 94,
-    views: 0,
+    views: 6105,
     offers: [
       {
         store: "farfetch-store",
@@ -36326,9 +36590,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "farfetch-store",
@@ -36358,9 +36622,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "farfetch-store",
@@ -36379,20 +36643,22 @@ export const generatedProducts: Product[] = [
     slug: "balenciaga-draped-glittered-mini-dress",
     name: "draped glittered mini dress",
     brand: "balenciaga",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Balenciaga draped glittered mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/21/72/91/98/21729198_54176121_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "farfetch-store",
@@ -36422,9 +36688,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "farfetch-store",
@@ -36456,7 +36722,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "farfetch-store",
@@ -36480,15 +36746,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Balenciaga Gaeta wedge thong sandals in black — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/75/96/69/37759669_70624418_480.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "farfetch-store",
@@ -36507,7 +36775,7 @@ export const generatedProducts: Product[] = [
     slug: "balenciaga-logo-print-panelled-leggings",
     name: "logo-print panelled leggings",
     brand: "balenciaga",
-    category: "clothing",
+    category: "sportswear",
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga logo-print panelled leggings — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -36518,9 +36786,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "farfetch-store",
@@ -36544,15 +36812,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Balenciaga twisted seam jeans in bleach light blue — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/37/21/07/37372107_70054351_480.jpg",
-    colors: [],
+    colors: [
+      "Blue"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "farfetch-store",
@@ -36576,15 +36846,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Balenciaga techwear short long sleeve bodysuit in black — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/31/31/87/37313187_69952397_480.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "farfetch-store",
@@ -36614,9 +36886,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "farfetch-store",
@@ -36640,15 +36912,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Balenciaga Le City bag medium in black — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/34/27/65/21/34276521_71572511_480.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "farfetch-store",
@@ -36678,9 +36952,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "farfetch-store",
@@ -36710,9 +36984,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "farfetch-store",
@@ -36731,20 +37005,22 @@ export const generatedProducts: Product[] = [
     slug: "balenciaga-track-trainers-in-black",
     name: "track trainers in black",
     brand: "balenciaga",
-    category: "clothing",
+    category: "sportswear",
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga track trainers in black — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/13/40/79/41/13407941_54383264_480.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "farfetch-store",
@@ -36774,9 +37050,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "farfetch-store",
@@ -36795,20 +37071,22 @@ export const generatedProducts: Product[] = [
     slug: "balenciaga-los-angeles-city-print-layered-dress",
     name: "Los Angeles city print layered dress",
     brand: "balenciaga",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Balenciaga Los Angeles city print layered dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/31/02/20/69/31022069_60182283_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "farfetch-store",
@@ -36838,9 +37116,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "farfetch-store",
@@ -36872,7 +37150,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "farfetch-store",
@@ -36902,9 +37180,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "farfetch-store",
@@ -36928,15 +37206,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Balenciaga Cagole thong sandal in black — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/22/98/30/73/22983073_54150608_480.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "farfetch-store",
@@ -36966,9 +37246,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 228,
-    views: 0,
+    views: 2503,
     offers: [
       {
         store: "farfetch-store",
@@ -36998,9 +37278,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 171,
-    views: 0,
+    views: 1030,
     offers: [
       {
         store: "farfetch-store",
@@ -37030,9 +37310,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 190,
-    views: 0,
+    views: 3937,
     offers: [
       {
         store: "farfetch-store",
@@ -37062,9 +37342,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 85,
-    views: 0,
+    views: 6536,
     offers: [
       {
         store: "farfetch-store",
@@ -37094,9 +37374,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 104,
-    views: 0,
+    views: 4725,
     offers: [
       {
         store: "farfetch-store",
@@ -37126,9 +37406,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 7718,
     offers: [
       {
         store: "farfetch-store",
@@ -37158,9 +37438,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2267,
     offers: [
       {
         store: "farfetch-store",
@@ -37190,9 +37470,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 57,
-    views: 0,
+    views: 5564,
     offers: [
       {
         store: "farfetch-store",
@@ -37222,9 +37502,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 76,
-    views: 0,
+    views: 3185,
     offers: [
       {
         store: "farfetch-store",
@@ -37254,9 +37534,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 218,
-    views: 0,
+    views: 6475,
     offers: [
       {
         store: "farfetch-store",
@@ -37275,7 +37555,7 @@ export const generatedProducts: Product[] = [
     slug: "saint-laurent-cassandre-metal-and-rhinestone-bracelet",
     name: "Cassandre metal and rhinestone bracelet",
     brand: "saint-laurent",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Saint Laurent Cassandre metal and rhinestone bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -37286,9 +37566,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 199,
-    views: 0,
+    views: 3482,
     offers: [
       {
         store: "farfetch-store",
@@ -37318,9 +37598,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 56,
-    views: 0,
+    views: 869,
     offers: [
       {
         store: "farfetch-store",
@@ -37350,9 +37630,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 237,
-    views: 0,
+    views: 2680,
     offers: [
       {
         store: "farfetch-store",
@@ -37382,9 +37662,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 142,
-    views: 0,
+    views: 5361,
     offers: [
       {
         store: "farfetch-store",
@@ -37414,9 +37694,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 123,
-    views: 0,
+    views: 5718,
     offers: [
       {
         store: "farfetch-store",
@@ -37448,7 +37728,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 180,
-    views: 0,
+    views: 6359,
     offers: [
       {
         store: "farfetch-store",
@@ -37478,9 +37758,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 161,
-    views: 0,
+    views: 276,
     offers: [
       {
         store: "farfetch-store",
@@ -37510,9 +37790,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2237,
     offers: [
       {
         store: "farfetch-store",
@@ -37542,9 +37822,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 3902,
     offers: [
       {
         store: "farfetch-store",
@@ -37563,7 +37843,7 @@ export const generatedProducts: Product[] = [
     slug: "saint-laurent-earrings-with-monogram",
     name: "earrings with monogram",
     brand: "saint-laurent",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Saint Laurent earrings with monogram — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -37574,9 +37854,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 223,
-    views: 0,
+    views: 2550,
     offers: [
       {
         store: "farfetch-store",
@@ -37606,9 +37886,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 42,
-    views: 0,
+    views: 3973,
     offers: [
       {
         store: "farfetch-store",
@@ -37638,9 +37918,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 7384,
     offers: [
       {
         store: "farfetch-store",
@@ -37670,9 +37950,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6123,
     offers: [
       {
         store: "farfetch-store",
@@ -37702,9 +37982,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 147,
-    views: 0,
+    views: 7798,
     offers: [
       {
         store: "farfetch-store",
@@ -37736,7 +38016,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 166,
-    views: 0,
+    views: 2321,
     offers: [
       {
         store: "farfetch-store",
@@ -37766,9 +38046,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 185,
-    views: 0,
+    views: 2356,
     offers: [
       {
         store: "farfetch-store",
@@ -37798,9 +38078,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 204,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "farfetch-store",
@@ -37819,7 +38099,7 @@ export const generatedProducts: Product[] = [
     slug: "valentino-vlogo-signature-earrings-with-swarovski-crystals",
     name: "VLogo Signature earrings with Swarovski crystals",
     brand: "valentino",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Valentino VLogo Signature earrings with Swarovski crystals — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -37830,9 +38110,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 71,
-    views: 0,
+    views: 1618,
     offers: [
       {
         store: "farfetch-store",
@@ -37862,9 +38142,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 90,
-    views: 0,
+    views: 4627,
     offers: [
       {
         store: "farfetch-store",
@@ -37896,7 +38176,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 232,
-    views: 0,
+    views: 5051,
     offers: [
       {
         store: "farfetch-store",
@@ -37920,15 +38200,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Valentino small embroidered Locò shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/61/23/27/36612327_68683629_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 213,
-    views: 0,
+    views: 3240,
     offers: [
       {
         store: "farfetch-store",
@@ -37952,15 +38234,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Valentino blanket top with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/61/91/59/36619159_68656172_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 194,
-    views: 0,
+    views: 7509,
     offers: [
       {
         store: "farfetch-store",
@@ -37990,9 +38274,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 175,
-    views: 0,
+    views: 2058,
     offers: [
       {
         store: "farfetch-store",
@@ -38016,15 +38300,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Valentino blanket midi skirt with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/61/93/87/36619387_68655673_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 156,
-    views: 0,
+    views: 3497,
     offers: [
       {
         store: "farfetch-store",
@@ -38048,15 +38334,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Valentino embroidered Couture linen top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/61/93/89/36619389_68655588_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 137,
-    views: 0,
+    views: 4484,
     offers: [
       {
         store: "farfetch-store",
@@ -38080,15 +38368,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Valentino embroidered Couture linen shorts — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/62/00/02/36620002_68655596_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 118,
-    views: 0,
+    views: 5473,
     offers: [
       {
         store: "farfetch-store",
@@ -38118,9 +38408,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 99,
-    views: 0,
+    views: 4970,
     offers: [
       {
         store: "farfetch-store",
@@ -38150,9 +38440,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6899,
     offers: [
       {
         store: "farfetch-store",
@@ -38182,9 +38472,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 6656,
     offers: [
       {
         store: "farfetch-store",
@@ -38208,15 +38498,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Valentino short blanket skirt with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/61/88/20/36618820_68655986_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 107,
-    views: 0,
+    views: 4768,
     offers: [
       {
         store: "farfetch-store",
@@ -38246,9 +38538,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 88,
-    views: 0,
+    views: 4781,
     offers: [
       {
         store: "farfetch-store",
@@ -38278,9 +38570,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 145,
-    views: 0,
+    views: 4158,
     offers: [
       {
         store: "farfetch-store",
@@ -38310,9 +38602,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 126,
-    views: 0,
+    views: 5491,
     offers: [
       {
         store: "farfetch-store",
@@ -38336,15 +38628,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Dolce & Gabbana five-pocket denim jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/35/85/39/88/35853988_70287269_480.jpg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 332,
     offers: [
       {
         store: "farfetch-store",
@@ -38376,7 +38670,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 7521,
     offers: [
       {
         store: "farfetch-store",
@@ -38395,7 +38689,7 @@ export const generatedProducts: Product[] = [
     slug: "dolce-gabbana-rose-print-charmeuse-midi-dress",
     name: "rose-print charmeuse midi dress",
     brand: "dolce-gabbana",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Dolce & Gabbana rose-print charmeuse midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -38406,9 +38700,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 221,
-    views: 0,
+    views: 7362,
     offers: [
       {
         store: "farfetch-store",
@@ -38427,7 +38721,7 @@ export const generatedProducts: Product[] = [
     slug: "dolce-gabbana-exclusive-lace-midi-dress",
     name: "EXCLUSIVE lace midi dress",
     brand: "dolce-gabbana",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Dolce & Gabbana EXCLUSIVE lace midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -38438,9 +38732,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 202,
-    views: 0,
+    views: 3337,
     offers: [
       {
         store: "farfetch-store",
@@ -38470,9 +38764,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 155,
-    views: 0,
+    views: 6520,
     offers: [
       {
         store: "farfetch-store",
@@ -38502,9 +38796,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 136,
-    views: 0,
+    views: 1829,
     offers: [
       {
         store: "farfetch-store",
@@ -38536,7 +38830,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 98,
-    views: 0,
+    views: 3649,
     offers: [
       {
         store: "farfetch-store",
@@ -38566,9 +38860,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 117,
-    views: 0,
+    views: 6950,
     offers: [
       {
         store: "farfetch-store",
@@ -38587,7 +38881,7 @@ export const generatedProducts: Product[] = [
     slug: "dolce-gabbana-exclusive-leo-print-sheer-dress",
     name: "EXCLUSIVE leo-print sheer dress",
     brand: "dolce-gabbana",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Dolce & Gabbana EXCLUSIVE leo-print sheer dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -38598,9 +38892,9 @@ export const generatedProducts: Product[] = [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 60,
-    views: 0,
+    views: 1127,
     offers: [
       {
         store: "farfetch-store",
@@ -38630,9 +38924,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 79,
-    views: 0,
+    views: 4748,
     offers: [
       {
         store: "farfetch-store",
@@ -38651,7 +38945,7 @@ export const generatedProducts: Product[] = [
     slug: "dolce-gabbana-dg-logo-clip-earrings",
     name: "DG-logo clip earrings",
     brand: "dolce-gabbana",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Dolce & Gabbana DG-logo clip earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -38662,9 +38956,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 222,
-    views: 0,
+    views: 7099,
     offers: [
       {
         store: "farfetch-store",
@@ -38694,9 +38988,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 41,
-    views: 0,
+    views: 1798,
     offers: [
       {
         store: "farfetch-store",
@@ -38726,9 +39020,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 184,
-    views: 0,
+    views: 1435,
     offers: [
       {
         store: "farfetch-store",
@@ -38758,9 +39052,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 203,
-    views: 0,
+    views: 1672,
     offers: [
       {
         store: "farfetch-store",
@@ -38790,9 +39084,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 50,
-    views: 0,
+    views: 5593,
     offers: [
       {
         store: "farfetch-store",
@@ -38822,9 +39116,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 69,
-    views: 0,
+    views: 190,
     offers: [
       {
         store: "farfetch-store",
@@ -38854,9 +39148,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 4058,
     offers: [
       {
         store: "farfetch-store",
@@ -38886,9 +39180,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 4415,
     offers: [
       {
         store: "farfetch-store",
@@ -38918,9 +39212,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 1500,
     offers: [
       {
         store: "farfetch-store",
@@ -38950,9 +39244,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 3417,
     offers: [
       {
         store: "farfetch-store",
@@ -38976,15 +39270,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Armani embroidered cotton jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/44/99/92/37449992_70196355_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 6294,
     offers: [
       {
         store: "farfetch-store",
@@ -39003,7 +39299,7 @@ export const generatedProducts: Product[] = [
     slug: "armani-fringed-sequin-blouse",
     name: "fringed sequin blouse",
     brand: "armani",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani fringed sequin blouse — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -39014,9 +39310,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 7525,
     offers: [
       {
         store: "farfetch-store",
@@ -39046,9 +39342,9 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 3320,
     offers: [
       {
         store: "farfetch-store",
@@ -39067,7 +39363,7 @@ export const generatedProducts: Product[] = [
     slug: "armani-keyring-with-logo-plaque",
     name: "keyring with logo plaque",
     brand: "armani",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani keyring with logo plaque — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -39080,7 +39376,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 5131,
     offers: [
       {
         store: "farfetch-store",
@@ -39110,9 +39406,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 43,
-    views: 0,
+    views: 2670,
     offers: [
       {
         store: "farfetch-store",
@@ -39131,7 +39427,7 @@ export const generatedProducts: Product[] = [
     slug: "armani-midi-dress-with-twisted-detail",
     name: "midi dress with twisted detail",
     brand: "armani",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Armani midi dress with twisted detail — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -39144,7 +39440,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 62,
-    views: 0,
+    views: 8103,
     offers: [
       {
         store: "farfetch-store",
@@ -39174,9 +39470,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 1993,
     offers: [
       {
         store: "farfetch-store",
@@ -39206,9 +39502,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 740,
     offers: [
       {
         store: "farfetch-store",
@@ -39238,9 +39534,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 166,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "farfetch-store",
@@ -39259,20 +39555,22 @@ export const generatedProducts: Product[] = [
     slug: "armani-gathered-midi-dress-with-tied-collar",
     name: "gathered midi dress with tied collar",
     brand: "armani",
-    category: "dresses",
+    category: "clothing",
     subcategory: "Dresses",
     gender: "women",
     description: "Armani gathered midi dress with tied collar — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/37/66/96/17/37669617_70558539_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "dresses",
       "dresses"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 147,
-    views: 0,
+    views: 5798,
     offers: [
       {
         store: "farfetch-store",
@@ -39302,9 +39600,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 80,
-    views: 0,
+    views: 1557,
     offers: [
       {
         store: "farfetch-store",
@@ -39334,9 +39632,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 61,
-    views: 0,
+    views: 4520,
     offers: [
       {
         store: "farfetch-store",
@@ -39366,9 +39664,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 42,
-    views: 0,
+    views: 251,
     offers: [
       {
         store: "farfetch-store",
@@ -39387,20 +39685,22 @@ export const generatedProducts: Product[] = [
     slug: "armani-fringed-crew-neck-tank-top",
     name: "fringed crew-neck tank top",
     brand: "armani",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani fringed crew-neck tank top — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/33/29/28/72/33292872_65200663_480.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 223,
-    views: 0,
+    views: 5766,
     offers: [
       {
         store: "farfetch-store",
@@ -39430,9 +39730,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5599,
     offers: [
       {
         store: "farfetch-store",
@@ -39451,7 +39751,7 @@ export const generatedProducts: Product[] = [
     slug: "armani-earrings-with-crystal-application",
     name: "earrings with crystal application",
     brand: "armani",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani earrings with crystal application — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -39462,9 +39762,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3348,
     offers: [
       {
         store: "farfetch-store",
@@ -39483,7 +39783,7 @@ export const generatedProducts: Product[] = [
     slug: "armani-pendant-earrings",
     name: "pendant earrings",
     brand: "armani",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani pendant earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -39494,9 +39794,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 62,
-    views: 0,
+    views: 1617,
     offers: [
       {
         store: "farfetch-store",
@@ -39526,9 +39826,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 43,
-    views: 0,
+    views: 4858,
     offers: [
       {
         store: "farfetch-store",
@@ -39558,9 +39858,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 100,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "farfetch-store",
@@ -39590,9 +39890,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 81,
-    views: 0,
+    views: 2300,
     offers: [
       {
         store: "farfetch-store",
@@ -39622,9 +39922,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 645,
     offers: [
       {
         store: "farfetch-store",
@@ -39654,9 +39954,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 7034,
     offers: [
       {
         store: "farfetch-store",
@@ -39686,9 +39986,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 176,
-    views: 0,
+    views: 3499,
     offers: [
       {
         store: "farfetch-store",
@@ -39718,9 +40018,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 157,
-    views: 0,
+    views: 1688,
     offers: [
       {
         store: "farfetch-store",
@@ -39750,9 +40050,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 110,
-    views: 0,
+    views: 1735,
     offers: [
       {
         store: "farfetch-store",
@@ -39782,9 +40082,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 91,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "farfetch-store",
@@ -39814,9 +40114,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 59,
-    views: 0,
+    views: 2464,
     offers: [
       {
         store: "farfetch-store",
@@ -39846,9 +40146,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "farfetch-store",
@@ -39878,9 +40178,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 97,
-    views: 0,
+    views: 2158,
     offers: [
       {
         store: "farfetch-store",
@@ -39904,7 +40204,9 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Givenchy multi-pocket top-handle belt bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/31/52/50/84/31525084_61037702_480.jpg",
-    colors: [],
+    colors: [
+      "Multi"
+    ],
     sizes: [],
     tags: [
       "bags",
@@ -39912,7 +40214,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 78,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "farfetch-store",
@@ -39942,9 +40244,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 1692,
     offers: [
       {
         store: "farfetch-store",
@@ -39968,15 +40270,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Givenchy Nano Facet logo-embroidered raffia-effect tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/36/00/72/39/36007239_67831007_480.jpg",
-    colors: [],
+    colors: [
+      "Red"
+    ],
     sizes: [],
     tags: [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 2399,
     offers: [
       {
         store: "farfetch-store",
@@ -40006,9 +40310,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 173,
-    views: 0,
+    views: 5298,
     offers: [
       {
         store: "farfetch-store",
@@ -40038,9 +40342,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 154,
-    views: 0,
+    views: 7895,
     offers: [
       {
         store: "farfetch-store",
@@ -40070,9 +40374,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 107,
-    views: 0,
+    views: 520,
     offers: [
       {
         store: "farfetch-store",
@@ -40102,9 +40406,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 88,
-    views: 0,
+    views: 3483,
     offers: [
       {
         store: "farfetch-store",
@@ -40134,9 +40438,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 80,
-    views: 0,
+    views: 3659,
     offers: [
       {
         store: "farfetch-store",
@@ -40166,9 +40470,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 61,
-    views: 0,
+    views: 3768,
     offers: [
       {
         store: "farfetch-store",
@@ -40198,9 +40502,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 42,
-    views: 0,
+    views: 5925,
     offers: [
       {
         store: "farfetch-store",
@@ -40230,9 +40534,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 223,
-    views: 0,
+    views: 7898,
     offers: [
       {
         store: "farfetch-store",
@@ -40262,9 +40566,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 204,
-    views: 0,
+    views: 2713,
     offers: [
       {
         store: "farfetch-store",
@@ -40294,9 +40598,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 185,
-    views: 0,
+    views: 6044,
     offers: [
       {
         store: "farfetch-store",
@@ -40326,9 +40630,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 166,
-    views: 0,
+    views: 3953,
     offers: [
       {
         store: "farfetch-store",
@@ -40358,9 +40662,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 147,
-    views: 0,
+    views: 602,
     offers: [
       {
         store: "farfetch-store",
@@ -40390,9 +40694,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 707,
     offers: [
       {
         store: "farfetch-store",
@@ -40422,9 +40726,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 720,
     offers: [
       {
         store: "farfetch-store",
@@ -40454,9 +40758,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 71,
-    views: 0,
+    views: 4362,
     offers: [
       {
         store: "farfetch-store",
@@ -40486,9 +40790,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "farfetch-store",
@@ -40518,9 +40822,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 168,
     offers: [
       {
         store: "farfetch-store",
@@ -40544,15 +40848,17 @@ export const generatedProducts: Product[] = [
     gender: "women",
     description: "Moncler short-sleeve top with floral motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://cdn-images.farfetch-contents.com/33/18/55/63/33185563_63873275_480.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 2357,
     offers: [
       {
         store: "farfetch-store",
@@ -40582,9 +40888,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 195,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "farfetch-store",
@@ -40603,7 +40909,7 @@ export const generatedProducts: Product[] = [
     slug: "moncler-drawstring-waist-trousers",
     name: "drawstring-waist trousers",
     brand: "moncler",
-    category: "jewelry-accessories",
+    category: "jewelry",
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Moncler drawstring-waist trousers — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -40614,9 +40920,9 @@ export const generatedProducts: Product[] = [
       "jewelry-accessories",
       "jewelry-accessories"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 214,
-    views: 0,
+    views: 7439,
     offers: [
       {
         store: "farfetch-store",
@@ -40646,9 +40952,9 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "farfetch-store",
@@ -40680,7 +40986,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 52,
-    views: 0,
+    views: 1193,
     offers: [
       {
         store: "farfetch-store",
@@ -40710,9 +41016,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 3618,
     offers: [
       {
         store: "farfetch-store",
@@ -40742,9 +41048,9 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 6403,
     offers: [
       {
         store: "farfetch-store",
@@ -40776,7 +41082,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 66,
-    views: 0,
+    views: 4149,
     offers: [
       {
         store: "farfetch-store",
@@ -40795,20 +41101,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-freeform-hardside-carry-on-luggage-electric-yellow",
     name: "Freeform Hardside Carry-On Luggage - Electric Yellow",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Freeform Hardside Carry-On Luggage - Electric Yellow — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/61UNg1GdHDL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Electric Yellow"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 106,
-    views: 0,
+    views: 6983,
     offers: [
       {
         store: "amazon",
@@ -40827,20 +41135,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-hardside-2-piece-set-icy-lilac",
     name: "Omni 2 Hardside 2 Piece Set - Icy Lilac",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Hardside 2 Piece Set - Icy Lilac — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/91wWuKpW7WL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Icy Lilac"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 87,
-    views: 0,
+    views: 300,
     offers: [
       {
         store: "amazon",
@@ -40859,20 +41169,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-centric-2-hardside-expandable-luggage-3-piece-set-black",
     name: "Centric 2 Hardside Expandable Luggage 3-Piece Set - Black",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Centric 2 Hardside Expandable Luggage 3-Piece Set - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/71vF7oZFuKL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 68,
-    views: 0,
+    views: 1025,
     offers: [
       {
         store: "amazon",
@@ -40891,20 +41203,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-andante-2-wheeled-duffel-bag-all-black",
     name: "Andante 2 Wheeled Duffel Bag - All Black",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Andante 2 Wheeled Duffel Bag - All Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/81vZ3E+MhlL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "All Black"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 49,
-    views: 0,
+    views: 466,
     offers: [
       {
         store: "amazon",
@@ -40923,12 +41237,14 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-domestic-carry-on-luggage-nova-teal",
     name: "Omni 2 Domestic Carry-On Luggage - Nova Teal",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Domestic Carry-On Luggage - Nova Teal — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/81CISS6f9UL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Nova Teal"
+    ],
     sizes: [],
     tags: [
       "luggage",
@@ -40936,7 +41252,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 230,
-    views: 0,
+    views: 5341,
     offers: [
       {
         store: "amazon",
@@ -40955,20 +41271,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-pro-hardside-expandable-luggage-midnight-black",
     name: "Omni 2 Pro Hardside Expandable Luggage - Midnight Black",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Pro Hardside Expandable Luggage - Midnight Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/71LSTZPyTKL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Midnight Black"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 211,
-    views: 0,
+    views: 6064,
     offers: [
       {
         store: "amazon",
@@ -40987,20 +41305,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-saire-lte-softside-expandable-luggage-3pc-set-olive-green",
     name: "Saire LTE Softside Expandable Luggage 3PC Set - Olive Green",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Saire LTE Softside Expandable Luggage 3PC Set - Olive Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/71ejwDiBkoL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Olive Green"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 192,
-    views: 0,
+    views: 3299,
     offers: [
       {
         store: "amazon",
@@ -41019,20 +41339,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-hardside-expandable-luggage-3-piece-set-emerald-green",
     name: "Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/81KD5bb+31L._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Emerald Green"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 2106,
     offers: [
       {
         store: "amazon",
@@ -41051,7 +41373,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-scure-spinner-75-28-hardside-suitcase",
     name: "Scure Spinner 75/28 Hardside Suitcase",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Scure Spinner 75/28 Hardside Suitcase — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41062,9 +41384,9 @@ export const generatedProducts: Product[] = [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 4369,
     offers: [
       {
         store: "amazon",
@@ -41083,20 +41405,22 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-scure-renewed-classic-hardside-suitcase-black",
     name: "Scure Renewed Classic Hardside Suitcase - Black",
     brand: "samsonite",
-    category: "luggage",
+    category: "travel",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Scure Renewed Classic Hardside Suitcase - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/61ddE8PAs2L._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Black"
+    ],
     sizes: [],
     tags: [
       "luggage",
       "luggage-travel-bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 116,
-    views: 0,
+    views: 6897,
     offers: [
       {
         store: "amazon",
@@ -41115,7 +41439,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-just-in-case-tote-packable-travel-tote-bag",
     name: "Just In Case Tote - Packable Travel Tote Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Just In Case Tote - Packable Travel Tote Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41126,9 +41450,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 135,
-    views: 0,
+    views: 1460,
     offers: [
       {
         store: "amazon",
@@ -41147,7 +41471,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tyler-crossbody-women-s-nylon-crossbody-bag",
     name: "Tyler Crossbody - Women's Nylon Crossbody Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Tyler Crossbody - Women's Nylon Crossbody Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41158,9 +41482,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 154,
-    views: 0,
+    views: 6265,
     offers: [
       {
         store: "amazon",
@@ -41179,7 +41503,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-contine-weekender-women-s-travel-weekend-bag",
     name: "Contine Weekender - Women's Travel Weekend Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Contine Weekender - Women's Travel Weekend Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41190,9 +41514,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 173,
-    views: 0,
+    views: 4638,
     offers: [
       {
         store: "amazon",
@@ -41211,7 +41535,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-valetta-tote-women-s-carryall-bag",
     name: "Voyageur Valetta Tote - Women's Carryall Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Valetta Tote - Women's Carryall Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41222,9 +41546,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 40,
-    views: 0,
+    views: 2995,
     offers: [
       {
         store: "amazon",
@@ -41243,7 +41567,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-persia-crossbody-nylon-travel-shoulder-bag",
     name: "Persia Crossbody - Nylon Travel Shoulder Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Persia Crossbody - Nylon Travel Shoulder Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41254,9 +41578,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 59,
-    views: 0,
+    views: 2160,
     offers: [
       {
         store: "amazon",
@@ -41275,7 +41599,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-bravo-esports-pro-sling-bag",
     name: "Alpha Bravo Esports Pro Sling Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Esports Pro Sling Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41286,9 +41610,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 78,
-    views: 0,
+    views: 3885,
     offers: [
       {
         store: "amazon",
@@ -41307,7 +41631,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-bravo-search-backpack",
     name: "Alpha Bravo Search Backpack",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Search Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41318,9 +41642,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 97,
-    views: 0,
+    views: 1870,
     offers: [
       {
         store: "amazon",
@@ -41339,7 +41663,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-celina-backpack-unisex",
     name: "Voyageur Celina Backpack - Unisex",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Celina Backpack - Unisex — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41352,7 +41676,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 1095,
     offers: [
       {
         store: "amazon",
@@ -41371,7 +41695,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-unisex-double-expansion-duffel",
     name: "Unisex Double Expansion Duffel",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Unisex Double Expansion Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41382,9 +41706,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 3332,
     offers: [
       {
         store: "amazon",
@@ -41403,7 +41727,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-large-17-laptop-briefcase",
     name: "Alpha Large 17\" Laptop Briefcase",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Large 17\" Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41414,9 +41738,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 209,
-    views: 0,
+    views: 5292,
     offers: [
       {
         store: "amazon",
@@ -41435,7 +41759,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-halsey-backpack",
     name: "Voyageur Halsey Backpack",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Halsey Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41446,9 +41770,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 228,
-    views: 0,
+    views: 2503,
     offers: [
       {
         store: "amazon",
@@ -41467,7 +41791,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-just-in-case-foldable-backpack",
     name: "Just In Case Foldable Backpack",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Just In Case Foldable Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41478,9 +41802,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 171,
-    views: 0,
+    views: 1030,
     offers: [
       {
         store: "amazon",
@@ -41499,7 +41823,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-bravo-academy-brief-compact-laptop-briefcase",
     name: "Alpha Bravo Academy Brief - Compact Laptop Briefcase",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Academy Brief - Compact Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41510,9 +41834,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 190,
-    views: 0,
+    views: 3937,
     offers: [
       {
         store: "amazon",
@@ -41531,7 +41855,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-medium-crossbody",
     name: "Alpha Medium Crossbody",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Medium Crossbody — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41542,9 +41866,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 85,
-    views: 0,
+    views: 6536,
     offers: [
       {
         store: "amazon",
@@ -41563,7 +41887,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-travel-kit-toiletry-bag",
     name: "Alpha Travel Kit - Toiletry Bag",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Travel Kit - Toiletry Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41574,9 +41898,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 104,
-    views: 0,
+    views: 4725,
     offers: [
       {
         store: "amazon",
@@ -41595,7 +41919,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-q-tote-lightweight-travel-tote",
     name: "Voyageur Q Tote - Lightweight Travel Tote",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Q Tote - Lightweight Travel Tote — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41606,9 +41930,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 7718,
     offers: [
       {
         store: "amazon",
@@ -41627,7 +41951,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-unisex-rhys-expandable-duffel",
     name: "Unisex Rhys Expandable Duffel",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Unisex Rhys Expandable Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41638,9 +41962,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2267,
     offers: [
       {
         store: "amazon",
@@ -41659,7 +41983,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-tri-fold-garment-bag-carry-on",
     name: "Alpha Tri-Fold Garment Bag Carry-On",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Tri-Fold Garment Bag Carry-On — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41670,9 +41994,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 57,
-    views: 0,
+    views: 5564,
     offers: [
       {
         store: "amazon",
@@ -41691,7 +42015,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-east-west-sling",
     name: "Alpha East West Sling",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha East West Sling — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41702,9 +42026,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 76,
-    views: 0,
+    views: 3185,
     offers: [
       {
         store: "amazon",
@@ -41723,7 +42047,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-large-dual-access-expandable-carry-on-luggage",
     name: "Alpha Large Dual Access Expandable Carry-On Luggage",
     brand: "tumi",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Large Dual Access Expandable Carry-On Luggage — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41734,9 +42058,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags-travel"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 218,
-    views: 0,
+    views: 6475,
     offers: [
       {
         store: "amazon",
@@ -41766,9 +42090,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 199,
-    views: 0,
+    views: 3482,
     offers: [
       {
         store: "farfetch-store",
@@ -41798,9 +42122,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 56,
-    views: 0,
+    views: 869,
     offers: [
       {
         store: "farfetch-store",
@@ -41830,9 +42154,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 237,
-    views: 0,
+    views: 2680,
     offers: [
       {
         store: "farfetch-store",
@@ -41862,9 +42186,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 142,
-    views: 0,
+    views: 5361,
     offers: [
       {
         store: "farfetch-store",
@@ -41894,9 +42218,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 123,
-    views: 0,
+    views: 5718,
     offers: [
       {
         store: "farfetch-store",
@@ -41915,7 +42239,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-l",
     name: "Travel Bag Le Pliage One L",
     brand: "longchamp",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -41928,7 +42252,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 180,
-    views: 0,
+    views: 6359,
     offers: [
       {
         store: "farfetch-store",
@@ -41958,9 +42282,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 161,
-    views: 0,
+    views: 276,
     offers: [
       {
         store: "farfetch-store",
@@ -41990,9 +42314,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 66,
-    views: 0,
+    views: 2237,
     offers: [
       {
         store: "farfetch-store",
@@ -42011,7 +42335,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-s",
     name: "Travel Bag Le Pliage One S",
     brand: "longchamp",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One S — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42022,9 +42346,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 47,
-    views: 0,
+    views: 3902,
     offers: [
       {
         store: "farfetch-store",
@@ -42043,7 +42367,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-l-2",
     name: "Travel Bag Le Pliage One L (2)",
     brand: "longchamp",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42054,9 +42378,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 223,
-    views: 0,
+    views: 2550,
     offers: [
       {
         store: "farfetch-store",
@@ -42086,9 +42410,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 42,
-    views: 0,
+    views: 3973,
     offers: [
       {
         store: "farfetch-store",
@@ -42118,9 +42442,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 7384,
     offers: [
       {
         store: "farfetch-store",
@@ -42150,9 +42474,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6123,
     offers: [
       {
         store: "farfetch-store",
@@ -42182,9 +42506,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 147,
-    views: 0,
+    views: 7798,
     offers: [
       {
         store: "farfetch-store",
@@ -42203,7 +42527,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-xl",
     name: "Travel Bag Le Pliage One XL",
     brand: "longchamp",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One XL — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42216,7 +42540,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 166,
-    views: 0,
+    views: 2321,
     offers: [
       {
         store: "farfetch-store",
@@ -42246,9 +42570,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 185,
-    views: 0,
+    views: 2356,
     offers: [
       {
         store: "farfetch-store",
@@ -42278,9 +42602,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 204,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "farfetch-store",
@@ -42299,7 +42623,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-xl-2",
     name: "Travel Bag Le Pliage One XL (2)",
     brand: "longchamp",
-    category: "bags",
+    category: "travel",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One XL (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42310,9 +42634,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 71,
-    views: 0,
+    views: 1618,
     offers: [
       {
         store: "farfetch-store",
@@ -42342,9 +42666,9 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 90,
-    views: 0,
+    views: 4627,
     offers: [
       {
         store: "farfetch-store",
@@ -42376,7 +42700,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 232,
-    views: 0,
+    views: 5051,
     offers: [
       {
         store: "farfetch-store",
@@ -42406,9 +42730,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 213,
-    views: 0,
+    views: 3240,
     offers: [
       {
         store: "amazon",
@@ -42438,9 +42762,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 194,
-    views: 0,
+    views: 7509,
     offers: [
       {
         store: "amazon",
@@ -42470,9 +42794,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 175,
-    views: 0,
+    views: 2058,
     offers: [
       {
         store: "amazon",
@@ -42502,9 +42826,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 156,
-    views: 0,
+    views: 3497,
     offers: [
       {
         store: "amazon",
@@ -42534,9 +42858,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 137,
-    views: 0,
+    views: 4484,
     offers: [
       {
         store: "amazon",
@@ -42566,9 +42890,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 118,
-    views: 0,
+    views: 5473,
     offers: [
       {
         store: "amazon",
@@ -42598,9 +42922,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 99,
-    views: 0,
+    views: 4970,
     offers: [
       {
         store: "amazon",
@@ -42630,9 +42954,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 80,
-    views: 0,
+    views: 6899,
     offers: [
       {
         store: "amazon",
@@ -42662,9 +42986,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 61,
-    views: 0,
+    views: 6656,
     offers: [
       {
         store: "amazon",
@@ -42694,9 +43018,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 107,
-    views: 0,
+    views: 4768,
     offers: [
       {
         store: "amazon",
@@ -42726,9 +43050,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 88,
-    views: 0,
+    views: 4781,
     offers: [
       {
         store: "amazon",
@@ -42758,9 +43082,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 145,
-    views: 0,
+    views: 4158,
     offers: [
       {
         store: "amazon",
@@ -42790,9 +43114,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 126,
-    views: 0,
+    views: 5491,
     offers: [
       {
         store: "amazon",
@@ -42822,9 +43146,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 183,
-    views: 0,
+    views: 332,
     offers: [
       {
         store: "amazon",
@@ -42856,7 +43180,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 164,
-    views: 0,
+    views: 7521,
     offers: [
       {
         store: "amazon",
@@ -42886,9 +43210,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 221,
-    views: 0,
+    views: 7362,
     offers: [
       {
         store: "amazon",
@@ -42918,9 +43242,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 202,
-    views: 0,
+    views: 3337,
     offers: [
       {
         store: "amazon",
@@ -42950,9 +43274,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 155,
-    views: 0,
+    views: 6520,
     offers: [
       {
         store: "amazon",
@@ -42982,9 +43306,9 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 136,
-    views: 0,
+    views: 1829,
     offers: [
       {
         store: "amazon",
@@ -43016,7 +43340,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 98,
-    views: 0,
+    views: 3649,
     offers: [
       {
         store: "amazon",
@@ -43035,7 +43359,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-kids-aquatic-water-sports-sandals",
     name: "Kids' Aquatic Water Sports Sandals",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "kids-shoes",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Kids' Aquatic Water Sports Sandals — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43046,9 +43370,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 117,
-    views: 0,
+    views: 6950,
     offers: [
       {
         store: "amazon",
@@ -43067,7 +43391,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls",
     name: "Baby Boys World's Best Overalls",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43078,9 +43402,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 60,
-    views: 0,
+    views: 1127,
     offers: [
       {
         store: "amazon",
@@ -43110,9 +43434,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 79,
-    views: 0,
+    views: 4748,
     offers: [
       {
         store: "amazon",
@@ -43131,7 +43455,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-2",
     name: "Baby Boys World's Best Overalls (2)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43142,9 +43466,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 222,
-    views: 0,
+    views: 7099,
     offers: [
       {
         store: "amazon",
@@ -43174,9 +43498,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 41,
-    views: 0,
+    views: 1798,
     offers: [
       {
         store: "amazon",
@@ -43195,7 +43519,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-3",
     name: "Baby Boys World's Best Overalls (3)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (3) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43206,9 +43530,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 184,
-    views: 0,
+    views: 1435,
     offers: [
       {
         store: "amazon",
@@ -43227,20 +43551,22 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-floral",
     name: "Baby Girls World's Best Overalls (Floral)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls World's Best Overalls (Floral) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/71Nhp6AM54L._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Floral"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 203,
-    views: 0,
+    views: 1672,
     offers: [
       {
         store: "amazon",
@@ -43259,7 +43585,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-girls-athletic-shoes-sneaker",
     name: "Girls Athletic Shoes Sneaker",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "kids-shoes",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Girls Athletic Shoes Sneaker — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43270,9 +43596,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 50,
-    views: 0,
+    views: 5593,
     offers: [
       {
         store: "amazon",
@@ -43291,7 +43617,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-hickory",
     name: "Baby Girls World's Best Overalls (Hickory)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls World's Best Overalls (Hickory) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43302,9 +43628,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 69,
-    views: 0,
+    views: 190,
     offers: [
       {
         store: "amazon",
@@ -43323,20 +43649,22 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-denim",
     name: "Baby Girls World's Best Overalls (Denim)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls World's Best Overalls (Denim) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/81JAp5LMscL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 195,
-    views: 0,
+    views: 4058,
     offers: [
       {
         store: "amazon",
@@ -43355,20 +43683,22 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-olive",
     name: "Baby Boys World's Best Overalls (Olive)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (Olive) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/81FTDambRtL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Olive"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 214,
-    views: 0,
+    views: 4415,
     offers: [
       {
         store: "amazon",
@@ -43398,9 +43728,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 1500,
     offers: [
       {
         store: "amazon",
@@ -43419,7 +43749,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-girls-dress",
     name: "Baby Girls' Dress",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls' Dress — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43430,9 +43760,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 3417,
     offers: [
       {
         store: "amazon",
@@ -43462,9 +43792,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 71,
-    views: 0,
+    views: 6294,
     offers: [
       {
         store: "amazon",
@@ -43483,7 +43813,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-boys-bruno-shoes",
     name: "Boys' Bruno Shoes",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "kids-shoes",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boys' Bruno Shoes — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43494,9 +43824,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 90,
-    views: 0,
+    views: 7525,
     offers: [
       {
         store: "amazon",
@@ -43526,9 +43856,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 109,
-    views: 0,
+    views: 3320,
     offers: [
       {
         store: "amazon",
@@ -43547,12 +43877,14 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-green",
     name: "Baby Boys World's Best Overalls (Green)",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (Green) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/81AE+B3nvrL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Green"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
@@ -43560,7 +43892,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 128,
-    views: 0,
+    views: 5131,
     offers: [
       {
         store: "amazon",
@@ -43579,7 +43911,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-boys-putney-sneaker",
     name: "Boys' Putney Sneaker",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "kids-shoes",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boys' Putney Sneaker — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43590,9 +43922,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 43,
-    views: 0,
+    views: 2670,
     offers: [
       {
         store: "amazon",
@@ -43611,7 +43943,7 @@ export const generatedProducts: Product[] = [
     slug: "oshkosh-bgosh-kids-marie-casual-sandals",
     name: "Kids' Marie Casual Sandals",
     brand: "oshkosh-bgosh",
-    category: "kids-clothing",
+    category: "kids-shoes",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Kids' Marie Casual Sandals — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43624,7 +43956,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 62,
-    views: 0,
+    views: 8103,
     offers: [
       {
         store: "amazon",
@@ -43654,9 +43986,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 204,
-    views: 0,
+    views: 1993,
     offers: [
       {
         store: "amazon",
@@ -43680,15 +44012,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "The Children's Place Girls 2-Piece Tankini Swimsuit — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/71sagIhazWL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Tan"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 185,
-    views: 0,
+    views: 740,
     offers: [
       {
         store: "amazon",
@@ -43718,9 +44052,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 166,
-    views: 0,
+    views: 559,
     offers: [
       {
         store: "amazon",
@@ -43744,15 +44078,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "The Children's Place Boys' Pull on Cargo Pants, Multipacks — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/61r1xiZt9VL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Multi"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 147,
-    views: 0,
+    views: 5798,
     offers: [
       {
         store: "amazon",
@@ -43782,9 +44118,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 80,
-    views: 0,
+    views: 1557,
     offers: [
       {
         store: "amazon",
@@ -43803,7 +44139,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-baby-girls-and-toddler-graphic-t-shirts-4-pack",
     name: "Baby Girls' and Toddler Graphic T-Shirts, 4 Pack",
     brand: "the-childrens-place",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby Girls' and Toddler Graphic T-Shirts, 4 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43814,9 +44150,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 61,
-    views: 0,
+    views: 4520,
     offers: [
       {
         store: "amazon",
@@ -43835,20 +44171,22 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-baby-girls-and-toddler-assorted-solid-leggings-multipacks",
     name: "Baby Girls and Toddler Assorted Solid Leggings, Multipacks",
     brand: "the-childrens-place",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby Girls and Toddler Assorted Solid Leggings, Multipacks — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/61yj7ziiH7L._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Multi"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 42,
-    views: 0,
+    views: 251,
     offers: [
       {
         store: "amazon",
@@ -43867,7 +44205,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-girls-assorted-cartwheel-shorts",
     name: "Girls Assorted Cartwheel Shorts",
     brand: "the-childrens-place",
-    category: "kids-clothing",
+    category: "kids-shoes",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls Assorted Cartwheel Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43878,9 +44216,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 223,
-    views: 0,
+    views: 5766,
     offers: [
       {
         store: "amazon",
@@ -43910,9 +44248,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 52,
-    views: 0,
+    views: 5599,
     offers: [
       {
         store: "amazon",
@@ -43942,9 +44280,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 233,
-    views: 0,
+    views: 3348,
     offers: [
       {
         store: "amazon",
@@ -43974,9 +44312,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 62,
-    views: 0,
+    views: 1617,
     offers: [
       {
         store: "amazon",
@@ -44006,9 +44344,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 43,
-    views: 0,
+    views: 4858,
     offers: [
       {
         store: "amazon",
@@ -44038,9 +44376,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 100,
-    views: 0,
+    views: 439,
     offers: [
       {
         store: "amazon",
@@ -44059,7 +44397,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-baby-and-toddler-stretch-straight-chino-pants",
     name: "Baby and Toddler Stretch Straight Chino Pants",
     brand: "the-childrens-place",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby and Toddler Stretch Straight Chino Pants — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -44070,9 +44408,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 81,
-    views: 0,
+    views: 2300,
     offers: [
       {
         store: "amazon",
@@ -44091,7 +44429,7 @@ export const generatedProducts: Product[] = [
     slug: "the-childrens-place-baby-girls-and-toddler-pull-on-chambray-shorts",
     name: "Baby Girls' and Toddler Pull on Chambray Shorts",
     brand: "the-childrens-place",
-    category: "kids-clothing",
+    category: "baby-clothing",
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby Girls' and Toddler Pull on Chambray Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -44102,9 +44440,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 645,
     offers: [
       {
         store: "amazon",
@@ -44134,9 +44472,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 7034,
     offers: [
       {
         store: "amazon",
@@ -44166,9 +44504,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 176,
-    views: 0,
+    views: 3499,
     offers: [
       {
         store: "amazon",
@@ -44198,9 +44536,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 157,
-    views: 0,
+    views: 1688,
     offers: [
       {
         store: "amazon",
@@ -44230,9 +44568,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 110,
-    views: 0,
+    views: 1735,
     offers: [
       {
         store: "amazon",
@@ -44262,9 +44600,9 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 91,
-    views: 0,
+    views: 3342,
     offers: [
       {
         store: "amazon",
@@ -44288,15 +44626,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "The Children's Place Girls' Denim Bermuda Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/91J7TysMwqL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Denim"
+    ],
     sizes: [],
     tags: [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 59,
-    views: 0,
+    views: 2464,
     offers: [
       {
         store: "amazon",
@@ -44326,9 +44666,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 40,
-    views: 0,
+    views: 2707,
     offers: [
       {
         store: "amazon",
@@ -44352,15 +44692,17 @@ export const generatedProducts: Product[] = [
     gender: "unisex",
     description: "Fossil Women's Riley Quartz Stainless Steel Multifunction Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
     image: "https://m.media-amazon.com/images/I/71HAooNcaYL._AC_UL320_.jpg",
-    colors: [],
+    colors: [
+      "Multi"
+    ],
     sizes: [],
     tags: [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 97,
-    views: 0,
+    views: 2158,
     offers: [
       {
         store: "amazon",
@@ -44392,7 +44734,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 78,
-    views: 0,
+    views: 5517,
     offers: [
       {
         store: "amazon",
@@ -44422,9 +44764,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 135,
-    views: 0,
+    views: 1692,
     offers: [
       {
         store: "amazon",
@@ -44454,9 +44796,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 116,
-    views: 0,
+    views: 2399,
     offers: [
       {
         store: "amazon",
@@ -44486,9 +44828,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 173,
-    views: 0,
+    views: 5298,
     offers: [
       {
         store: "amazon",
@@ -44518,9 +44860,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 154,
-    views: 0,
+    views: 7895,
     offers: [
       {
         store: "amazon",
@@ -44550,9 +44892,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 107,
-    views: 0,
+    views: 520,
     offers: [
       {
         store: "amazon",
@@ -44582,9 +44924,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 88,
-    views: 0,
+    views: 3483,
     offers: [
       {
         store: "amazon",
@@ -44614,9 +44956,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 80,
-    views: 0,
+    views: 3659,
     offers: [
       {
         store: "amazon",
@@ -44646,9 +44988,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 61,
-    views: 0,
+    views: 3768,
     offers: [
       {
         store: "amazon",
@@ -44678,9 +45020,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 42,
-    views: 0,
+    views: 5925,
     offers: [
       {
         store: "amazon",
@@ -44710,9 +45052,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 223,
-    views: 0,
+    views: 7898,
     offers: [
       {
         store: "amazon",
@@ -44742,9 +45084,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 204,
-    views: 0,
+    views: 2713,
     offers: [
       {
         store: "amazon",
@@ -44774,9 +45116,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 185,
-    views: 0,
+    views: 6044,
     offers: [
       {
         store: "amazon",
@@ -44795,7 +45137,7 @@ export const generatedProducts: Product[] = [
     slug: "fossil-women-s-carlie-watch-and-bracelet-set",
     name: "Women's Carlie Watch and Bracelet Set",
     brand: "fossil",
-    category: "watches",
+    category: "jewelry",
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Women's Carlie Watch and Bracelet Set — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -44806,9 +45148,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 166,
-    views: 0,
+    views: 3953,
     offers: [
       {
         store: "amazon",
@@ -44838,9 +45180,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 147,
-    views: 0,
+    views: 602,
     offers: [
       {
         store: "amazon",
@@ -44870,9 +45212,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 707,
     offers: [
       {
         store: "amazon",
@@ -44902,9 +45244,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 720,
     offers: [
       {
         store: "amazon",
@@ -44934,9 +45276,9 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 71,
-    views: 0,
+    views: 4362,
     offers: [
       {
         store: "amazon",
@@ -44955,7 +45297,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-rib-t-shirt",
     name: "Kids Rib T-Shirt",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Rib T-Shirt — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -44966,9 +45308,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 90,
-    views: 0,
+    views: 3605,
     offers: [
       {
         store: "gap-kids-store",
@@ -44987,7 +45329,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-rib-t-shirt-2",
     name: "Kids Rib T-Shirt (2)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Rib T-Shirt (2) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -44998,9 +45340,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 109,
-    views: 0,
+    views: 168,
     offers: [
       {
         store: "gap-kids-store",
@@ -45019,7 +45361,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-rib-t-shirt-3",
     name: "Kids Rib T-Shirt (3)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Rib T-Shirt (3) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45030,9 +45372,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 4.6,
     reviews: 128,
-    views: 0,
+    views: 2357,
     offers: [
       {
         store: "gap-kids-store",
@@ -45051,7 +45393,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-rib-t-shirt-4",
     name: "Kids Rib T-Shirt (4)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Rib T-Shirt (4) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45062,9 +45404,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 195,
-    views: 0,
+    views: 6918,
     offers: [
       {
         store: "gap-kids-store",
@@ -45083,7 +45425,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-rib-t-shirt-5",
     name: "Kids Rib T-Shirt (5)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Rib T-Shirt (5) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45094,9 +45436,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 214,
-    views: 0,
+    views: 7439,
     offers: [
       {
         store: "gap-kids-store",
@@ -45115,7 +45457,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-square-neck-t-shirt",
     name: "Kids Square-Neck T-Shirt",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Square-Neck T-Shirt — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45126,9 +45468,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 233,
-    views: 0,
+    views: 580,
     offers: [
       {
         store: "gap-kids-store",
@@ -45147,7 +45489,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-square-neck-t-shirt-2",
     name: "Kids Square-Neck T-Shirt (2)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Square-Neck T-Shirt (2) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45160,7 +45502,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 52,
-    views: 0,
+    views: 1193,
     offers: [
       {
         store: "gap-kids-store",
@@ -45179,7 +45521,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-square-neck-t-shirt-3",
     name: "Kids Square-Neck T-Shirt (3)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Square-Neck T-Shirt (3) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45190,9 +45532,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 4.7,
     reviews: 119,
-    views: 0,
+    views: 3618,
     offers: [
       {
         store: "gap-kids-store",
@@ -45211,7 +45553,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-square-neck-t-shirt-4",
     name: "Kids Square-Neck T-Shirt (4)",
     brand: "gap-kids",
-    category: "girls-short-sleeved-tees",
+    category: "kids-clothing",
     subcategory: "Girls Short-Sleeved Tees",
     gender: "unisex",
     description: "GAP Kids Kids Square-Neck T-Shirt (4) — girls short-sleeved tees tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45222,9 +45564,9 @@ export const generatedProducts: Product[] = [
       "girls-short-sleeved-tees",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
+    rating: 3.8,
     reviews: 138,
-    views: 0,
+    views: 6403,
     offers: [
       {
         store: "gap-kids-store",
@@ -45243,7 +45585,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set",
     brand: "gap-kids",
-    category: "baby-sleepwear",
+    category: "baby-clothing",
     subcategory: "Baby Sleepwear",
     gender: "unisex",
     description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45256,7 +45598,7 @@ export const generatedProducts: Product[] = [
     ],
     rating: 4,
     reviews: 66,
-    views: 0,
+    views: 4149,
     offers: [
       {
         store: "gap-kids-store",
@@ -45275,7 +45617,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-2",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (2)",
     brand: "gap-kids",
-    category: "baby-sleepwear",
+    category: "baby-clothing",
     subcategory: "Baby Sleepwear",
     gender: "unisex",
     description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set (2) — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45286,9 +45628,9 @@ export const generatedProducts: Product[] = [
       "baby-sleepwear",
       "baby-sleepwear"
     ],
-    rating: 4,
+    rating: 4.9,
     reviews: 47,
-    views: 0,
+    views: 6086,
     offers: [
       {
         store: "gap-kids-store",
@@ -45307,7 +45649,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-3",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (3)",
     brand: "gap-kids",
-    category: "baby-sleepwear",
+    category: "baby-clothing",
     subcategory: "Baby Sleepwear",
     gender: "unisex",
     description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set (3) — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45318,9 +45660,9 @@ export const generatedProducts: Product[] = [
       "baby-sleepwear",
       "baby-sleepwear"
     ],
-    rating: 4,
+    rating: 3.6,
     reviews: 104,
-    views: 0,
+    views: 5147,
     offers: [
       {
         store: "gap-kids-store",
@@ -45339,7 +45681,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-4",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (4)",
     brand: "gap-kids",
-    category: "baby-sleepwear",
+    category: "baby-clothing",
     subcategory: "Baby Sleepwear",
     gender: "unisex",
     description: "GAP Kids Kids & Baby Organic Brushed Cotton Gingham PJ Set (4) — baby sleepwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45350,9 +45692,9 @@ export const generatedProducts: Product[] = [
       "baby-sleepwear",
       "baby-sleepwear"
     ],
-    rating: 4,
+    rating: 4.5,
     reviews: 85,
-    views: 0,
+    views: 5384,
     offers: [
       {
         store: "gap-kids-store",
@@ -45371,7 +45713,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans",
     name: "Kids Low Rise Stride Wide-Leg Jeans",
     brand: "gap-kids",
-    category: "girls-jeans",
+    category: "kids-clothing",
     subcategory: "Girls Jeans",
     gender: "unisex",
     description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45382,9 +45724,9 @@ export const generatedProducts: Product[] = [
       "girls-jeans",
       "girls-jeans"
     ],
-    rating: 4,
+    rating: 4.8,
     reviews: 190,
-    views: 0,
+    views: 7361,
     offers: [
       {
         store: "gap-kids-store",
@@ -45403,7 +45745,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-2",
     name: "Kids Low Rise Stride Wide-Leg Jeans (2)",
     brand: "gap-kids",
-    category: "girls-jeans",
+    category: "kids-clothing",
     subcategory: "Girls Jeans",
     gender: "unisex",
     description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (2) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45414,9 +45756,9 @@ export const generatedProducts: Product[] = [
       "girls-jeans",
       "girls-jeans"
     ],
-    rating: 4,
+    rating: 4.3,
     reviews: 171,
-    views: 0,
+    views: 2662,
     offers: [
       {
         store: "gap-kids-store",
@@ -45435,7 +45777,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-3",
     name: "Kids Low Rise Stride Wide-Leg Jeans (3)",
     brand: "gap-kids",
-    category: "girls-jeans",
+    category: "kids-clothing",
     subcategory: "Girls Jeans",
     gender: "unisex",
     description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (3) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45446,9 +45788,9 @@ export const generatedProducts: Product[] = [
       "girls-jeans",
       "girls-jeans"
     ],
-    rating: 4,
+    rating: 4.4,
     reviews: 228,
-    views: 0,
+    views: 4839,
     offers: [
       {
         store: "gap-kids-store",
@@ -45467,7 +45809,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-4",
     name: "Kids Low Rise Stride Wide-Leg Jeans (4)",
     brand: "gap-kids",
-    category: "girls-jeans",
+    category: "kids-clothing",
     subcategory: "Girls Jeans",
     gender: "unisex",
     description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (4) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45478,9 +45820,9 @@ export const generatedProducts: Product[] = [
       "girls-jeans",
       "girls-jeans"
     ],
-    rating: 4,
+    rating: 3.9,
     reviews: 209,
-    views: 0,
+    views: 6500,
     offers: [
       {
         store: "gap-kids-store",
@@ -45499,7 +45841,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-5",
     name: "Kids Low Rise Stride Wide-Leg Jeans (5)",
     brand: "gap-kids",
-    category: "girls-jeans",
+    category: "kids-clothing",
     subcategory: "Girls Jeans",
     gender: "unisex",
     description: "GAP Kids Kids Low Rise Stride Wide-Leg Jeans (5) — girls jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45510,9 +45852,9 @@ export const generatedProducts: Product[] = [
       "girls-jeans",
       "girls-jeans"
     ],
-    rating: 4,
+    rating: 4.2,
     reviews: 114,
-    views: 0,
+    views: 7629,
     offers: [
       {
         store: "gap-kids-store",
@@ -45531,7 +45873,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-flare-leggings",
     name: "Kids Flare Leggings",
     brand: "gap-kids",
-    category: "girls-active-bottoms",
+    category: "kids-clothing",
     subcategory: "Girls Active Bottoms",
     gender: "unisex",
     description: "GAP Kids Kids Flare Leggings — girls active bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45542,9 +45884,9 @@ export const generatedProducts: Product[] = [
       "girls-active-bottoms",
       "girls-active-bottoms"
     ],
-    rating: 4,
+    rating: 3.7,
     reviews: 95,
-    views: 0,
+    views: 5294,
     offers: [
       {
         store: "gap-kids-store",
@@ -45563,7 +45905,7 @@ export const generatedProducts: Product[] = [
     slug: "gap-kids-kids-flare-leggings-2",
     name: "Kids Flare Leggings (2)",
     brand: "gap-kids",
-    category: "girls-active-bottoms",
+    category: "kids-clothing",
     subcategory: "Girls Active Bottoms",
     gender: "unisex",
     description: "GAP Kids Kids Flare Leggings (2) — girls active bottoms tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -45574,9 +45916,9 @@ export const generatedProducts: Product[] = [
       "girls-active-bottoms",
       "girls-active-bottoms"
     ],
-    rating: 4,
+    rating: 4.1,
     reviews: 57,
-    views: 0,
+    views: 7956,
     offers: [
       {
         store: "gap-kids-store",

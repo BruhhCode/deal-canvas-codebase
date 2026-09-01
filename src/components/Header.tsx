@@ -1,6 +1,6 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { ChevronDown, Heart, Menu, User, X } from "lucide-react";
+import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, User, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
 import { cn } from "@/lib/utils";
 
@@ -24,26 +24,27 @@ const departmentNav = deptOrder
 
 export function Header() {
   const [open, setOpen] = useState(false);
-  const [openDept, setOpenDept] = useState<string | null>(null);
+  const [catMenuOpen, setCatMenuOpen] = useState(false);
+  const [hoveredDept, setHoveredDept] = useState<string>(departmentNav[0]?.slug ?? "");
   const [openDeptMobile, setOpenDeptMobile] = useState<string | null>(null);
-  const closeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const catMenuRef = useRef<HTMLLIElement>(null);
 
-  // The dropdown panel sits below the trigger with a visual gap; closing on
-  // mouseleave the instant the cursor exits the trigger meant moving down
-  // toward the panel crossed that gap while nothing was hovered, closing the
-  // menu before a click could land. A short delay gives that transit time.
-  const scheduleClose = (slug: string) => {
-    if (closeTimeout.current) clearTimeout(closeTimeout.current);
-    closeTimeout.current = setTimeout(() => {
-      setOpenDept((v) => (v === slug ? null : v));
-    }, 250);
-  };
-  const cancelClose = () => {
-    if (closeTimeout.current) {
-      clearTimeout(closeTimeout.current);
-      closeTimeout.current = null;
-    }
-  };
+  // Close the categories mega-menu on outside click or Escape.
+  useEffect(() => {
+    if (!catMenuOpen) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (catMenuRef.current && !catMenuRef.current.contains(e.target as Node)) setCatMenuOpen(false);
+    };
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setCatMenuOpen(false);
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [catMenuOpen]);
 
   return (
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur">
@@ -74,49 +75,63 @@ export function Header() {
 
       <nav className="hidden border-t lg:block">
         <ul className="mx-auto flex max-w-7xl items-center gap-6 px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em]">
-          {departmentNav.map((d) => (
-            <li
-              key={d.slug}
-              className="relative"
-              onMouseEnter={() => {
-                cancelClose();
-                setOpenDept(d.slug);
-              }}
-              onMouseLeave={() => scheduleClose(d.slug)}
+          <li ref={catMenuRef} className="relative">
+            <button
+              type="button"
+              onClick={() => setCatMenuOpen((v) => !v)}
+              aria-expanded={catMenuOpen}
+              className={cn("flex items-center gap-1.5 hover:text-clay", catMenuOpen && "text-clay")}
             >
-              <button
-                type="button"
-                onClick={() => setOpenDept((v) => (v === d.slug ? null : d.slug))}
-                aria-expanded={openDept === d.slug}
-                className={cn(
-                  "flex items-center gap-1 hover:text-clay",
-                  openDept === d.slug && "text-clay",
-                )}
-              >
-                {d.name}
-                <ChevronDown className="h-3 w-3" />
-              </button>
-              {openDept === d.slug ? (
-                <div
-                  onMouseEnter={cancelClose}
-                  onMouseLeave={() => scheduleClose(d.slug)}
-                  className="absolute left-0 top-full z-50 mt-1 w-56 rounded-sm border bg-card p-2 pt-3 normal-case shadow-lg before:absolute before:inset-x-0 before:-top-2 before:h-2 before:content-['']"
-                >
-                  {categoriesByDepartment(d.slug).map((c) => (
-                    <Link
-                      key={c.slug}
-                      to="/shop"
-                      search={{ q: "", category: c.slug, department: d.slug, view: "", store: "" }}
-                      onClick={() => setOpenDept(null)}
-                      className="block rounded-sm px-3 py-2 text-sm font-normal tracking-normal hover:bg-cream hover:text-clay"
-                    >
-                      {c.name}
-                    </Link>
-                  ))}
-                </div>
-              ) : null}
-            </li>
-          ))}
+              <LayoutGrid className="h-3.5 w-3.5" />
+              Categories
+            </button>
+
+            {/* Always rendered (not conditionally mounted) so opening/closing animates via
+                opacity/scale/translate instead of an abrupt pop. Two-pane layout: the left
+                column only ever lists the 4 sections, and hovering one swaps the right pane
+                to its categories — instead of dumping every category for every section on
+                screen at once. */}
+            <div
+              className={cn(
+                "absolute left-0 top-full z-50 mt-1 flex h-72 w-[34rem] rounded-sm border bg-card normal-case shadow-lg transition-all duration-150 ease-out",
+                catMenuOpen
+                  ? "translate-y-0 opacity-100"
+                  : "pointer-events-none -translate-y-1 opacity-0",
+              )}
+            >
+              <div className="w-44 shrink-0 border-r p-2">
+                {departmentNav.map((d) => (
+                  <Link
+                    key={d.slug}
+                    to="/shop"
+                    search={{ q: "", category: "", department: d.slug, view: "", store: "" }}
+                    onMouseEnter={() => setHoveredDept(d.slug)}
+                    onClick={() => setCatMenuOpen(false)}
+                    className={cn(
+                      "flex items-center justify-between rounded-sm px-3 py-2.5 text-xs font-semibold uppercase tracking-[0.14em] hover:bg-cream hover:text-clay",
+                      hoveredDept === d.slug && "bg-cream text-clay",
+                    )}
+                  >
+                    {d.name}
+                    <ChevronRight className="h-3.5 w-3.5" />
+                  </Link>
+                ))}
+              </div>
+              <div className="flex-1 space-y-1 overflow-y-auto p-3">
+                {categoriesByDepartment(hoveredDept).map((c) => (
+                  <Link
+                    key={c.slug}
+                    to="/shop"
+                    search={{ q: "", category: c.slug, department: hoveredDept, view: "", store: "" }}
+                    onClick={() => setCatMenuOpen(false)}
+                    className="block rounded-sm px-3 py-2 text-sm font-normal normal-case tracking-normal text-muted-foreground hover:bg-cream hover:text-clay"
+                  >
+                    {c.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </li>
           {nav.map((n) => (
             <li key={n.label}>
               <Link

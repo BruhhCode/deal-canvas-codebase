@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductSearch } from "@/components/ProductSearch";
-import { brandName, brands } from "@/data/catalog";
+import { brands } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import {
   allColors,
@@ -13,7 +13,6 @@ import {
   filterProducts,
   categoriesByDepartment,
   categoryName,
-  popularSearches,
   searchProducts,
   sortOptions,
   sortProducts,
@@ -22,6 +21,7 @@ import {
 } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { useCurrency } from "@/lib/currency";
+import { seededShuffle } from "@/lib/seeded-shuffle";
 
 export const Route = createFileRoute("/shop")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -31,6 +31,13 @@ export const Route = createFileRoute("/shop")({
     view: String(search["view"] ?? ""),
     store: String(search["store"] ?? ""),
   }),
+  // staleTime: 0 forces this loader to re-run on every navigation to /shop
+  // (including a hard refresh) rather than reusing a cached result, so the
+  // default "Recommended" browse order gets a fresh shuffle each time
+  // instead of always leading with the exact same page 1 — see how `seed`
+  // is used below.
+  staleTime: 0,
+  loader: () => ({ seed: `${Date.now()}-${Math.random()}` }),
   head: () => ({
     meta: [
       { title: "Shop & Compare Fashion Products Across Stores | DealCanvas" },
@@ -50,16 +57,24 @@ export const Route = createFileRoute("/shop")({
 
 const PAGE_SIZE = 24;
 
+/**
+ * `key`-ed on the URL's category/department/store/view below so that a nav
+ * link changing any of them (e.g. clicking "Trending" after "Sale") remounts
+ * this component instead of reusing the existing instance — TanStack Router
+ * only re-runs `useSearch()` on a same-route navigation, it doesn't remount
+ * the component, so a plain `useState(() => seedFromUrl())` would only ever
+ * seed once. Remounting also means these seeded values are correct on the
+ * very first server-rendered paint, not just after a client-only effect.
+ */
 function ShopPage() {
+  const { category, department, view, store } = Route.useSearch();
+  return <ShopView key={`${category}|${department}|${store}|${view}`} />;
+}
+
+function ShopView() {
   const { format } = useCurrency();
   const { q, category, department, view, store } = Route.useSearch();
-  // The URL's category/department/view/store only seed the initial filter
-  // state — once the page has mounted, the sidebar chips are the single
-  // source of truth. Re-deriving these from the URL on every render (as
-  // this used to) meant that arriving at /shop with e.g. ?category=sneakers
-  // permanently pinned that category: clicking a different Category chip
-  // updated local state, but the URL value silently overrode it back on the
-  // very next render, making the filter look broken.
+  const { seed } = Route.useLoaderData();
   const [filters, setFilters] = useState<ProductFilters>(() => ({
     ...(category ? { category } : {}),
     ...(department ? { department } : {}),
@@ -75,10 +90,22 @@ function ShopPage() {
 
   const active: ProductFilters = filters;
 
-  const results = useMemo(
-    () => sortProducts(filterProducts(searchProducts(q), active), sort),
-    [q, JSON.stringify(active), sort],
-  );
+  const results = useMemo(() => {
+    const matched = filterProducts(searchProducts(q), active);
+    if (sort !== "recommended") return sortProducts(matched, sort);
+
+    // The default "Recommended" order is score-based (discount + rating),
+    // and real ties in that score are rare — shuffling before that sort
+    // barely changes anything, since the same handful of highest-score
+    // products still wins every time. So instead: rank everything, shuffle
+    // *within* a generous top slice each time this page loads, and leave
+    // the (less relevant) remainder in its normal order. That's what
+    // actually makes page 1 show different products on repeat visits while
+    // still only ever surfacing well-scoring items.
+    const ranked = sortProducts(matched, "recommended");
+    const poolSize = Math.min(ranked.length, 300);
+    return [...seededShuffle(ranked.slice(0, poolSize), seed), ...ranked.slice(poolSize)];
+  }, [q, JSON.stringify(active), sort, seed]);
 
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
@@ -232,18 +259,6 @@ function ShopPage() {
           {results.length} products from {stores.length} stores
         </p>
         <ProductSearch className="mt-5" size="sm" initial={q} />
-        <div className="mt-3 flex flex-wrap gap-2">
-          {popularSearches.slice(0, 6).map((t) => (
-            <Link
-              key={t.slug}
-              to="/shop"
-              search={{ q: t.name, category: "", department: "", view: "", store: "" }}
-              className="rounded-full border px-3 py-1 text-xs hover:border-clay hover:text-clay"
-            >
-              {t.name}
-            </Link>
-          ))}
-        </div>
       </div>
 
       <div className="grid gap-10 lg:grid-cols-[240px_1fr]">

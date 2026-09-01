@@ -341,16 +341,82 @@ export const brandUrl = (slug: string) => `https://www.${brandDomains[slug] ?? `
  */
 const brandLogoOverrides: Record<string, string> = {
   zara: "https://api.iconify.design/simple-icons:zara.svg?height=1024",
-  uniqlo: "https://api.iconify.design/simple-icons:uniqlo.svg?height=1024",
   nike: "https://api.iconify.design/simple-icons:nike.svg?height=1024",
   adidas: "https://api.iconify.design/simple-icons:adidas.svg?height=1024",
   puma: "https://api.iconify.design/simple-icons:puma.svg?height=1024",
-  "under-armour": "https://api.iconify.design/simple-icons:underarmour.svg?height=1024",
-  reebok: "https://api.iconify.design/simple-icons:reebok.svg?height=1024",
-  "new-balance": "https://api.iconify.design/simple-icons:newbalance.svg?height=1024",
-  "the-north-face": "https://api.iconify.design/simple-icons:thenorthface.svg?height=1024",
   farfetch: "https://api.iconify.design/simple-icons:farfetch.svg?height=1024",
+  // Verified direct worldvectorlogo.com CDN links (each checked for a real
+  // 200 response with genuine, brand-matching SVG content — not just that
+  // the URL resolves).
+  hm: "https://cdn.worldvectorlogo.com/logos/h-m.svg",
+  mango: "https://cdn.worldvectorlogo.com/logos/mango-4.svg",
+  gap: "https://cdn.worldvectorlogo.com/logos/gap.svg",
+  uniqlo: "https://cdn.worldvectorlogo.com/logos/uniqlo.svg",
+  asos: "https://cdn.worldvectorlogo.com/logos/asos-com.svg",
+  shein: "https://cdn.worldvectorlogo.com/logos/shein-1.svg",
+  "forever-21": "https://cdn.worldvectorlogo.com/logos/forever-21-logo.svg",
+  // These three replace previously-broken Simple Icons entries (the API was
+  // returning "Not found" for all three, silently falling through to the
+  // favicon anyway).
+  "under-armour": "https://cdn.worldvectorlogo.com/logos/under-armour-5.svg",
+  "new-balance": "https://cdn.worldvectorlogo.com/logos/new-balance.svg",
+  "the-north-face": "https://cdn.worldvectorlogo.com/logos/the-north-face-1.svg",
+  // Upgrades a working-but-flattened-to-black Simple Icons mark to Reebok's
+  // real blue/red/white vector flag.
+  reebok: "https://cdn.worldvectorlogo.com/logos/reebok.svg",
+  lululemon: "https://cdn.worldvectorlogo.com/logos/lululemon-1.svg",
+  gymshark: "https://cdn.worldvectorlogo.com/logos/gymshark.svg",
+  columbia: "https://cdn.worldvectorlogo.com/logos/columbia-sportswear-co-1.svg",
+  "ralph-lauren": "https://cdn.worldvectorlogo.com/logos/ralph-laurent.svg",
+  "tommy-hilfiger": "https://cdn.worldvectorlogo.com/logos/tommy-hilfiger-3.svg",
+  "calvin-klein": "https://cdn.worldvectorlogo.com/logos/calvin-klein-1.svg",
+  lacoste: "https://cdn.worldvectorlogo.com/logos/lacoste.svg",
+  "hugo-boss": "https://cdn.worldvectorlogo.com/logos/hugo-boss.svg",
+  "michael-kors": "https://cdn.worldvectorlogo.com/logos/michael-kors.svg",
+  coach: "https://cdn.worldvectorlogo.com/logos/coach-1.svg",
+  "kate-spade": "https://cdn.worldvectorlogo.com/logos/kate-spade-wordmark.svg",
+  "tory-burch": "https://cdn.worldvectorlogo.com/logos/tory-burch.svg",
+  "ted-baker": "https://cdn.worldvectorlogo.com/logos/ted-baker.svg",
+  gucci: "https://cdn.worldvectorlogo.com/logos/gucci.svg",
+  prada: "https://cdn.worldvectorlogo.com/logos/prada.svg",
+  burberry: "https://cdn.worldvectorlogo.com/logos/burberry.svg",
+  versace: "https://cdn.worldvectorlogo.com/logos/versace-3.svg",
+  balenciaga: "https://cdn.worldvectorlogo.com/logos/balenciaga-4.svg",
+  "saint-laurent": "https://cdn.worldvectorlogo.com/logos/yves-saint-laurent-1.svg",
+  valentino: "https://cdn.worldvectorlogo.com/logos/valentino.svg",
+  "dolce-gabbana": "https://cdn.worldvectorlogo.com/logos/dolce-gabbana-1.svg",
+  armani: "https://cdn.worldvectorlogo.com/logos/armani.svg",
+  givenchy: "https://cdn.worldvectorlogo.com/logos/givenchy.svg",
+  moncler: "https://cdn.worldvectorlogo.com/logos/moncler.svg",
+  "el-corte-ingles": "https://cdn.worldvectorlogo.com/logos/el-corte-ingles.svg",
+  selfridges: "https://cdn.worldvectorlogo.com/logos/selfridges-co.svg",
+  harrods: "https://cdn.worldvectorlogo.com/logos/harrods.svg",
+  fossil: "https://cdn.worldvectorlogo.com/logos/fossil.svg",
+  samsonite: "https://cdn.worldvectorlogo.com/logos/samsonite-1.svg",
+  tumi: "https://cdn.worldvectorlogo.com/logos/tumi-3.svg",
+  "oshkosh-bgosh": "https://cdn.worldvectorlogo.com/logos/oshkosh-b-gosh-3.svg",
+  "the-childrens-place": "https://cdn.worldvectorlogo.com/logos/the-childrens-place.svg",
+  "gap-kids": "https://cdn.worldvectorlogo.com/logos/gap-kids.svg",
+  // Resolved myself via Wikimedia Commons' Special:FilePath redirect (the
+  // csv only had the wiki page, not the actual file) — confirmed genuine
+  // Longchamp wordmark SVG.
+  longchamp: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Longchamp_logo.svg",
+  amazon: "https://cdn.worldvectorlogo.com/logos/amazon-com.svg",
+  bata: "https://cdn.worldvectorlogo.com/logos/bata.svg",
+  decathlon: "https://cdn.worldvectorlogo.com/logos/decathlon-logo-2024.svg",
+  expedia: "https://cdn.worldvectorlogo.com/logos/expedia.svg",
+  levis: "https://cdn.worldvectorlogo.com/logos/levis-1.svg",
+  nordstrom: "https://cdn.worldvectorlogo.com/logos/nordstrom-logo-2019.svg",
+  sephora: "https://cdn.worldvectorlogo.com/logos/sephora-com.svg",
 };
+// Sub-brands whose own logo is just their parent brand's wordmark (Jordan is
+// Nike's basketball line, Adidas Originals/ASOS DESIGN/H&M Kids reuse the
+// parent's mark) — reuse the parent's already-verified sharp logo instead of
+// falling back to a blurry favicon for these.
+brandLogoOverrides["jordan"] = brandLogoOverrides["nike"]!;
+brandLogoOverrides["adidas-originals"] = brandLogoOverrides["adidas"]!;
+brandLogoOverrides["hm-kids"] = brandLogoOverrides["hm"]!;
+brandLogoOverrides["asos-design"] = brandLogoOverrides["asos"]!;
 
 /** The brand's logo — a verified vector logo where available, otherwise a favicon sourced from its real domain. */
 export const brandLogo = (slug: string) =>

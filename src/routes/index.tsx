@@ -11,6 +11,7 @@ import { brandName, brands } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
 import { stores, storeName } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
+import { approxCount } from "@/lib/utils";
 import {
   bestOffer,
   biggestDiscounts,
@@ -71,7 +72,7 @@ function Home() {
         <HeroCarousel />
         <div className="relative mx-auto max-w-3xl px-4 py-12 text-center md:px-6 md:py-16">
           <p className="editorial-eyebrow text-background/80">
-            {products.length} products · {stores.length} stores · updated hourly
+            {approxCount(products.length)} products · {approxCount(stores.length)} stores · updated hourly
           </p>
           <h1 className="mt-4 text-4xl leading-[1.05] text-background md:text-6xl">
             Find What You Love.

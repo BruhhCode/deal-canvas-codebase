@@ -160,10 +160,14 @@ export const popularSearches = [
 ];
 
 export const searchPlaceholders = [
-  "Search sneakers...",
-  "Search Nike...",
-  "Search handbags...",
-  "Search skincare...",
+  "Search for Nike...",
+  "Search for sneakers...",
+  "Search for shoes...",
+  "Search for handbags...",
+  "Search for skincare...",
+  "Search for watches...",
+  "Search for jewelry...",
+  "Search for Zara...",
 ];
 
 /* ---------------- search, filter, sort ---------------- */

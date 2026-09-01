@@ -17,12 +17,38 @@ export function StoreMark({
   className,
 }: {
   slug: string;
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "free";
   className?: string;
 }) {
   const [stage, setStage] = useState<"primary" | "fallback" | "failed">("primary");
   const store = getStore(slug);
   const name = store?.name ?? slug;
+
+  // "free" drops the fixed square tile — the logo keeps its own aspect
+  // ratio and sizes itself up to a max height, bounded only by whatever
+  // flex container/padding it's placed in, instead of being squeezed into
+  // a small locked box.
+  if (size === "free") {
+    return stage === "failed" ? (
+      <span
+        className={cn(
+          "inline-flex h-10 items-center justify-center px-2 text-sm font-semibold tracking-tight text-foreground",
+          className,
+        )}
+      >
+        {initials(name)}
+      </span>
+    ) : (
+      <img
+        key={stage}
+        src={stage === "primary" ? storeLogo(slug) : storeLogoFallback(slug)}
+        alt={`${name} logo`}
+        loading="lazy"
+        className={cn("h-10 w-auto max-w-full object-contain sm:h-12", className)}
+        onError={() => setStage((s) => (s === "primary" ? "fallback" : "failed"))}
+      />
+    );
+  }
 
   return (
     <span

@@ -10,10 +10,10 @@ import { BrandMark } from "@/components/BrandMark";
 import { brandName, brands } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
 import { stores, storeName } from "@/data/stores";
+import { seededShuffle } from "@/lib/seeded-shuffle";
 import {
   bestOffer,
   biggestDiscounts,
-  categoryName,
   newArrivals,
   offersSorted,
   popularSearches,
@@ -24,6 +24,11 @@ import {
 } from "@/data/products";
 
 export const Route = createFileRoute("/")({
+  // Re-runs on every navigation to "/" (including a hard refresh), so the
+  // homepage's rotating sections pick a fresh set of products each time —
+  // computed here rather than with client-only randomness so the server-
+  // rendered HTML and the client's initial hydration always agree.
+  loader: () => ({ seed: `${Date.now()}-${Math.random()}` }),
   head: () => ({
     meta: [
       { title: "Search & Compare Fashion Prices Across Stores | DealCanvas" },
@@ -54,26 +59,32 @@ const todaysSales = saleEvents.filter((e) => e.window === "today" || e.window ==
 
 function Home() {
   const { format } = useCurrency();
+  const { seed } = Route.useLoaderData();
+
+  const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 8);
+  const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 8);
+  const newInPicks = seededShuffle(newArrivals, `${seed}-new`).slice(0, 4);
+
   return (
     <>
       <section className="relative isolate overflow-hidden border-b">
         <HeroCarousel />
-        <div className="relative mx-auto max-w-3xl px-4 py-20 text-center md:px-6 md:py-28">
+        <div className="relative mx-auto max-w-3xl px-4 py-12 text-center md:px-6 md:py-16">
           <p className="editorial-eyebrow text-background/80">
             {products.length} products · {stores.length} stores · updated hourly
           </p>
-          <h1 className="mt-5 text-5xl leading-[1.05] text-background md:text-7xl">
+          <h1 className="mt-4 text-4xl leading-[1.05] text-background md:text-6xl">
             Find What You Love.
             <br />
             Shop It for Less.
           </h1>
-          <p className="mx-auto mt-6 max-w-xl text-base text-background/85">
+          <p className="mx-auto mt-4 max-w-xl text-base text-background/85">
             Discover fashion, beauty and lifestyle products from your favourite stores — all in one place.
           </p>
 
-          <ProductSearch className="mx-auto mt-9 max-w-2xl" />
+          <ProductSearch className="mx-auto mt-6 max-w-2xl" />
 
-          <div className="mt-7">
+          <div className="mt-5">
             <p className="editorial-eyebrow text-background/80">Popular searches</p>
             <div className="mt-3 flex flex-wrap justify-center gap-2">
               {popularSearches.map((t) => (
@@ -99,7 +110,7 @@ function Home() {
           href="/shop"
         />
         <div className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4">
-          {trendingProducts.slice(0, 8).map((p) => (
+          {trendingPicks.map((p) => (
             <ProductCard key={p.id} product={p} />
           ))}
         </div>
@@ -114,7 +125,7 @@ function Home() {
             </div>
             <Link
               to="/shop"
-              search={{ q: "", category: "", department: "", view: "" }}
+              search={{ q: "", category: "", department: "", view: "", store: "" }}
               className="text-xs font-semibold uppercase tracking-[0.16em] text-background underline underline-offset-4"
             >
               Compare everything
@@ -168,7 +179,7 @@ function Home() {
           href="/shop"
         />
         <div className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4">
-          {biggestDiscounts.slice(0, 8).map((p) => (
+          {discountPicks.map((p) => (
             <ProductCard key={p.id} product={p} />
           ))}
         </div>
@@ -201,11 +212,11 @@ function Home() {
         </div>
       </section>
 
-      {newArrivals.length ? (
+      {newInPicks.length ? (
         <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
           <SectionHeading eyebrow="New in" title="Just Landed" href="/shop" />
           <div className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4">
-            {newArrivals.slice(0, 4).map((p) => (
+            {newInPicks.map((p) => (
               <ProductCard key={p.id} product={p} />
             ))}
           </div>
@@ -229,7 +240,7 @@ function Home() {
                 params={{ slug: s.slug }}
                 className="flex flex-col items-center gap-3 bg-card px-4 py-8 transition-colors hover:bg-cream"
               >
-                <StoreMark slug={s.slug} size="lg" />
+                <StoreMark slug={s.slug} size="free" />
                 <span className="text-center text-xs font-semibold uppercase tracking-[0.14em]">{s.name}</span>
               </Link>
             ))}
@@ -251,22 +262,6 @@ function Home() {
               {b.name}
             </Link>
           ))}
-        </div>
-
-        <div className="mt-14 rounded-lg border bg-cream p-8">
-          <p className="editorial-eyebrow">Popular categories</p>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {["sneakers", "bags", "watches", "clothing", "beauty", "fitness", "travel", "jewelry"].map((c) => (
-              <Link
-                key={c}
-                to="/shop"
-                search={{ q: "", category: c, department: "", view: "" }}
-                className="rounded-full border bg-card px-4 py-2 text-sm transition-colors hover:border-clay hover:text-clay"
-              >
-                {categoryName(c)}
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 

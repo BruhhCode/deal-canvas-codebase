@@ -5,7 +5,7 @@ export const Route = createFileRoute("/search")({
   beforeLoad: ({ search }) => {
     throw redirect({
       to: "/shop",
-      search: { q: search.q, category: "", department: "", view: "" },
+      search: { q: search.q, category: "", department: "", view: "", store: "" },
     });
   },
 });

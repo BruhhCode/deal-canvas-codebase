@@ -34,7 +34,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0082",
@@ -66,7 +67,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0083",
@@ -100,7 +102,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0084",
@@ -132,7 +135,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0085",
@@ -166,7 +170,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0086",
@@ -198,7 +203,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0087",
@@ -230,7 +236,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0088",
@@ -262,7 +269,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0089",
@@ -296,7 +304,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0090",
@@ -330,7 +339,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0091",
@@ -362,7 +372,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0092",
@@ -394,7 +405,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0093",
@@ -426,7 +438,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0094",
@@ -458,7 +471,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0095",
@@ -492,7 +506,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0096",
@@ -524,7 +539,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0097",
@@ -556,7 +572,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0098",
@@ -588,7 +605,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0099",
@@ -620,7 +638,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0100",
@@ -654,7 +673,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0101",
@@ -686,7 +706,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0102",
@@ -718,7 +739,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0103",
@@ -752,7 +774,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0104",
@@ -784,7 +807,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0105",
@@ -818,7 +842,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0106",
@@ -850,7 +875,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0107",
@@ -882,7 +908,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0108",
@@ -914,7 +941,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0109",
@@ -948,7 +976,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0110",
@@ -982,7 +1011,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0111",
@@ -1014,7 +1044,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0112",
@@ -1046,7 +1077,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0113",
@@ -1078,7 +1110,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0114",
@@ -1110,7 +1143,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0115",
@@ -1144,7 +1178,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0116",
@@ -1176,7 +1211,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0117",
@@ -1208,7 +1244,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0118",
@@ -1240,7 +1277,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0119",
@@ -1272,7 +1310,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0120",
@@ -1306,7 +1345,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0121",
@@ -1338,7 +1378,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0122",
@@ -1370,7 +1411,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0123",
@@ -1404,7 +1446,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0124",
@@ -1436,7 +1479,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0125",
@@ -1470,7 +1514,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0126",
@@ -1502,7 +1547,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0127",
@@ -1534,7 +1580,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0128",
@@ -1566,7 +1613,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0129",
@@ -1600,7 +1648,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0130",
@@ -1634,7 +1683,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0131",
@@ -1666,7 +1716,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0132",
@@ -1698,7 +1749,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0133",
@@ -1730,7 +1782,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0134",
@@ -1762,7 +1815,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0135",
@@ -1796,7 +1850,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0136",
@@ -1828,7 +1883,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0137",
@@ -1860,7 +1916,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0138",
@@ -1892,7 +1949,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0139",
@@ -1924,7 +1982,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0140",
@@ -1958,7 +2017,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0161",
@@ -2032,7 +2092,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0162",
@@ -2104,7 +2165,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0163",
@@ -2176,7 +2238,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0164",
@@ -2250,7 +2313,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0185",
@@ -2282,7 +2346,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0186",
@@ -2314,7 +2379,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0187",
@@ -2346,7 +2412,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0188",
@@ -2378,7 +2445,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0189",
@@ -2410,7 +2478,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0190",
@@ -2442,7 +2511,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0191",
@@ -2474,7 +2544,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0192",
@@ -2506,7 +2577,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0193",
@@ -2538,7 +2610,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0194",
@@ -2570,7 +2643,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0195",
@@ -2602,7 +2676,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0196",
@@ -2634,7 +2709,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0197",
@@ -2666,7 +2742,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0198",
@@ -2698,7 +2775,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0199",
@@ -2730,7 +2808,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0200",
@@ -2762,7 +2841,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0201",
@@ -2794,7 +2874,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0202",
@@ -2826,7 +2907,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0203",
@@ -2858,7 +2940,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0204",
@@ -2890,7 +2973,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0205",
@@ -2922,7 +3006,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0206",
@@ -2954,7 +3039,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0207",
@@ -2986,7 +3072,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0208",
@@ -3018,7 +3105,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0209",
@@ -3050,7 +3138,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0210",
@@ -3082,7 +3171,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0211",
@@ -3114,7 +3204,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0212",
@@ -3146,7 +3237,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0213",
@@ -3178,7 +3270,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0214",
@@ -3210,7 +3303,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0215",
@@ -3242,7 +3336,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0216",
@@ -3274,7 +3369,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0217",
@@ -3306,7 +3402,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0218",
@@ -3338,7 +3435,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0219",
@@ -3370,7 +3468,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0220",
@@ -3402,7 +3501,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0221",
@@ -3434,7 +3534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0222",
@@ -3466,7 +3567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0223",
@@ -3498,7 +3600,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0224",
@@ -3530,7 +3633,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0225",
@@ -3602,7 +3706,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0226",
@@ -3674,7 +3779,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0227",
@@ -3746,7 +3852,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0228",
@@ -3818,7 +3925,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0229",
@@ -3852,7 +3960,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0230",
@@ -3884,7 +3993,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0231",
@@ -3916,7 +4026,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0232",
@@ -3948,7 +4059,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0233",
@@ -3982,7 +4094,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0234",
@@ -4014,7 +4127,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0235",
@@ -4046,7 +4160,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0236",
@@ -4078,7 +4193,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0237",
@@ -4112,7 +4228,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0238",
@@ -4144,7 +4261,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0239",
@@ -4176,7 +4294,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0240",
@@ -4208,7 +4327,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0241",
@@ -4242,7 +4362,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0242",
@@ -4274,7 +4395,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0243",
@@ -4306,7 +4428,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0244",
@@ -4338,7 +4461,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0245",
@@ -4372,7 +4496,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0246",
@@ -4404,7 +4529,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0247",
@@ -4436,7 +4562,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0248",
@@ -4468,7 +4595,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0289",
@@ -4542,7 +4670,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0290",
@@ -4614,7 +4743,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0291",
@@ -4686,7 +4816,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0292",
@@ -4758,7 +4889,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0293",
@@ -4820,7 +4952,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0294",
@@ -4882,7 +5015,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0295",
@@ -4944,7 +5078,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0296",
@@ -5006,7 +5141,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0297",
@@ -5068,7 +5204,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0482",
@@ -5100,7 +5237,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0483",
@@ -5132,7 +5270,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0484",
@@ -5164,7 +5303,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0485",
@@ -5196,7 +5336,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0486",
@@ -5228,7 +5369,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0487",
@@ -5260,7 +5402,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0488",
@@ -5292,7 +5435,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0489",
@@ -5324,7 +5468,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0490",
@@ -5356,7 +5501,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0491",
@@ -5388,7 +5534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0492",
@@ -5420,7 +5567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0493",
@@ -5452,7 +5600,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0494",
@@ -5484,7 +5633,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0495",
@@ -5516,7 +5666,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0496",
@@ -5548,7 +5699,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0497",
@@ -5580,7 +5732,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0498",
@@ -5612,7 +5765,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0499",
@@ -5644,7 +5798,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0500",
@@ -5676,7 +5831,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0501",
@@ -5708,7 +5864,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0786",
@@ -5750,7 +5907,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0787",
@@ -5792,7 +5950,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0788",
@@ -5834,7 +5993,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0789",
@@ -5876,7 +6036,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0790",
@@ -5918,7 +6079,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0791",
@@ -5960,7 +6122,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0792",
@@ -6002,7 +6165,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0793",
@@ -6044,7 +6208,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0794",
@@ -6076,7 +6241,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0795",
@@ -6108,7 +6274,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0796",
@@ -6140,7 +6307,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0797",
@@ -6172,7 +6340,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0798",
@@ -6206,7 +6375,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0799",
@@ -6238,7 +6408,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0800",
@@ -6270,7 +6441,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0801",
@@ -6302,7 +6474,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0802",
@@ -6336,7 +6509,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0803",
@@ -6368,7 +6542,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0804",
@@ -6400,7 +6575,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0805",
@@ -6432,7 +6608,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0806",
@@ -6466,7 +6643,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0807",
@@ -6498,7 +6676,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0808",
@@ -6530,7 +6709,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0809",
@@ -6562,7 +6742,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0810",
@@ -6596,7 +6777,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0811",
@@ -6628,7 +6810,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0812",
@@ -6660,7 +6843,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0813",
@@ -6692,7 +6876,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0814",
@@ -6726,7 +6911,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0815",
@@ -6758,7 +6944,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0816",
@@ -6790,7 +6977,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0817",
@@ -6822,7 +7010,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0978",
@@ -6854,7 +7043,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0979",
@@ -6886,7 +7076,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0980",
@@ -6920,7 +7111,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0981",
@@ -6952,7 +7144,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0982",
@@ -6986,7 +7179,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0983",
@@ -7018,7 +7212,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0984",
@@ -7050,7 +7245,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0985",
@@ -7082,7 +7278,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0986",
@@ -7116,7 +7313,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0987",
@@ -7150,7 +7348,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0988",
@@ -7182,7 +7381,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0989",
@@ -7214,7 +7414,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0990",
@@ -7246,7 +7447,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0991",
@@ -7278,7 +7480,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0992",
@@ -7312,7 +7515,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0993",
@@ -7344,7 +7548,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0994",
@@ -7376,7 +7581,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0995",
@@ -7408,7 +7614,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0996",
@@ -7440,7 +7647,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0997",
@@ -7474,7 +7682,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0998",
@@ -7506,7 +7715,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0999",
@@ -7538,7 +7748,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1000",
@@ -7570,7 +7781,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1001",
@@ -7602,7 +7814,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1002",
@@ -7634,7 +7847,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1003",
@@ -7666,7 +7880,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1004",
@@ -7698,7 +7913,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1005",
@@ -7730,7 +7946,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1006",
@@ -7762,7 +7979,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1007",
@@ -7794,7 +8012,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1008",
@@ -7826,7 +8045,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1009",
@@ -7858,7 +8078,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1010",
@@ -7890,7 +8111,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1011",
@@ -7922,7 +8144,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1012",
@@ -7954,7 +8177,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1013",
@@ -7986,7 +8210,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1014",
@@ -8018,7 +8243,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1015",
@@ -8050,7 +8276,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1016",
@@ -8082,7 +8309,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1017",
@@ -8114,7 +8342,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1018",
@@ -8146,7 +8375,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1019",
@@ -8178,7 +8408,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1020",
@@ -8210,7 +8441,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1021",
@@ -8242,7 +8474,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1022",
@@ -8274,7 +8507,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1023",
@@ -8306,7 +8540,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1024",
@@ -8338,7 +8573,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1025",
@@ -8370,7 +8606,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1026",
@@ -8402,7 +8639,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1027",
@@ -8434,7 +8672,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1028",
@@ -8466,7 +8705,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1029",
@@ -8498,7 +8738,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1030",
@@ -8530,7 +8771,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1031",
@@ -8562,7 +8804,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1032",
@@ -8594,7 +8837,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1033",
@@ -8626,7 +8870,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1034",
@@ -8658,7 +8903,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1035",
@@ -8690,7 +8936,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1036",
@@ -8722,7 +8969,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1037",
@@ -8754,7 +9002,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1038",
@@ -8786,7 +9035,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1039",
@@ -8818,7 +9068,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1040",
@@ -8850,7 +9101,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1041",
@@ -8882,7 +9134,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1042",
@@ -8914,7 +9167,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1043",
@@ -8946,7 +9200,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1044",
@@ -8978,7 +9233,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1045",
@@ -9010,7 +9266,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1046",
@@ -9042,7 +9299,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1047",
@@ -9074,7 +9332,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1048",
@@ -9106,7 +9365,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1049",
@@ -9138,7 +9398,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1050",
@@ -9170,7 +9431,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1051",
@@ -9202,7 +9464,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1052",
@@ -9234,7 +9497,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1053",
@@ -9266,7 +9530,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1054",
@@ -9298,7 +9563,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1055",
@@ -9330,7 +9596,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1056",
@@ -9362,7 +9629,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1057",
@@ -9394,7 +9662,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1058",
@@ -9426,7 +9695,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1059",
@@ -9458,7 +9728,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1060",
@@ -9492,7 +9763,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1061",
@@ -9524,7 +9796,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1062",
@@ -9558,7 +9831,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1063",
@@ -9590,7 +9864,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1064",
@@ -9622,7 +9897,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1065",
@@ -9654,7 +9930,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1066",
@@ -9688,7 +9965,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1067",
@@ -9722,7 +10000,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1068",
@@ -9754,7 +10033,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1069",
@@ -9786,7 +10066,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1070",
@@ -9818,7 +10099,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1071",
@@ -9850,7 +10132,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1072",
@@ -9884,7 +10167,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1073",
@@ -9916,7 +10200,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1074",
@@ -9948,7 +10233,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1075",
@@ -9980,7 +10266,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1076",
@@ -10012,7 +10299,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1077",
@@ -10046,7 +10334,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1078",
@@ -10120,7 +10409,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1079",
@@ -10192,7 +10482,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1080",
@@ -10264,7 +10555,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1081",
@@ -10338,7 +10630,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1082",
@@ -10370,7 +10663,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1083",
@@ -10402,7 +10696,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1084",
@@ -10434,7 +10729,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1085",
@@ -10466,7 +10762,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1086",
@@ -10498,7 +10795,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1087",
@@ -10530,7 +10828,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1088",
@@ -10562,7 +10861,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1089",
@@ -10594,7 +10894,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1090",
@@ -10626,7 +10927,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1091",
@@ -10658,7 +10960,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1092",
@@ -10690,7 +10993,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1093",
@@ -10722,7 +11026,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1094",
@@ -10754,7 +11059,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1095",
@@ -10786,7 +11092,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1096",
@@ -10818,7 +11125,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1097",
@@ -10850,7 +11158,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1098",
@@ -10882,7 +11191,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1099",
@@ -10914,7 +11224,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1100",
@@ -10946,7 +11257,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1101",
@@ -10978,7 +11290,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1102",
@@ -11010,7 +11323,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1103",
@@ -11042,7 +11356,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1104",
@@ -11074,7 +11389,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1105",
@@ -11106,7 +11422,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1106",
@@ -11138,7 +11455,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1107",
@@ -11170,7 +11488,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1108",
@@ -11202,7 +11521,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1109",
@@ -11234,7 +11554,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1110",
@@ -11266,7 +11587,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1111",
@@ -11298,7 +11620,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1112",
@@ -11330,7 +11653,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1113",
@@ -11362,7 +11686,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1114",
@@ -11394,7 +11719,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1115",
@@ -11426,7 +11752,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1116",
@@ -11458,7 +11785,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1117",
@@ -11490,7 +11818,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1118",
@@ -11522,7 +11851,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1119",
@@ -11554,7 +11884,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1120",
@@ -11586,7 +11917,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1121",
@@ -11618,7 +11950,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1122",
@@ -11650,7 +11983,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1123",
@@ -11682,7 +12016,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1124",
@@ -11714,7 +12049,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1125",
@@ -11746,7 +12082,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1126",
@@ -11778,7 +12115,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1127",
@@ -11810,7 +12148,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1128",
@@ -11842,7 +12181,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1129",
@@ -11874,7 +12214,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1130",
@@ -11906,7 +12247,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1131",
@@ -11938,7 +12280,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1132",
@@ -11970,7 +12313,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1133",
@@ -12002,7 +12346,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1134",
@@ -12034,7 +12379,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1135",
@@ -12066,7 +12412,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1136",
@@ -12098,7 +12445,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1137",
@@ -12130,7 +12478,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1138",
@@ -12162,7 +12511,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1139",
@@ -12194,7 +12544,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1140",
@@ -12226,7 +12577,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1141",
@@ -12258,7 +12610,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1142",
@@ -12290,7 +12643,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1143",
@@ -12322,7 +12676,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1144",
@@ -12354,7 +12709,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1145",
@@ -12386,7 +12742,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1146",
@@ -12418,7 +12775,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1147",
@@ -12450,7 +12808,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1148",
@@ -12482,7 +12841,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1149",
@@ -12514,7 +12874,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1150",
@@ -12546,7 +12907,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1151",
@@ -12578,7 +12940,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1152",
@@ -12610,7 +12973,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1153",
@@ -12642,7 +13006,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1154",
@@ -12674,7 +13039,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1155",
@@ -12706,7 +13072,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1156",
@@ -12738,7 +13105,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1157",
@@ -12770,7 +13138,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1158",
@@ -12802,7 +13171,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1159",
@@ -12834,7 +13204,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1160",
@@ -12866,7 +13237,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1161",
@@ -12898,7 +13270,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1162",
@@ -12960,7 +13333,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1163",
@@ -13022,7 +13396,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1164",
@@ -13084,7 +13459,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1165",
@@ -13146,7 +13522,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1166",
@@ -13208,7 +13585,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1167",
@@ -13270,7 +13648,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1168",
@@ -13332,7 +13711,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1169",
@@ -13394,7 +13774,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1170",
@@ -13456,7 +13837,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1171",
@@ -13518,7 +13900,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1172",
@@ -13580,7 +13963,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1173",
@@ -13642,7 +14026,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1174",
@@ -13704,7 +14089,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1175",
@@ -13766,7 +14152,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1176",
@@ -13830,7 +14217,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1177",
@@ -13892,7 +14280,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1178",
@@ -13954,7 +14343,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1179",
@@ -14016,7 +14406,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1180",
@@ -14078,7 +14469,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1181",
@@ -14142,7 +14534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1182",
@@ -14204,7 +14597,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1183",
@@ -14266,7 +14660,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1184",
@@ -14328,7 +14723,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1185",
@@ -14390,7 +14786,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1186",
@@ -14454,7 +14851,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-1187",
@@ -14516,7 +14914,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1188",
@@ -14578,7 +14977,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1189",
@@ -14640,7 +15040,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1190",
@@ -14702,7 +15103,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1191",
@@ -14766,7 +15168,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1192",
@@ -14828,7 +15231,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1193",
@@ -14890,7 +15294,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1194",
@@ -14952,7 +15357,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1195",
@@ -15014,7 +15420,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-1196",
@@ -15078,7 +15485,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -15110,7 +15518,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -15152,7 +15561,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -15194,7 +15604,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -15256,7 +15667,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -15298,7 +15710,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -15340,7 +15753,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -15372,7 +15786,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -15404,7 +15819,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -15436,7 +15852,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -15468,7 +15885,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -15510,7 +15928,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -15542,7 +15961,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -15614,7 +16034,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -15646,7 +16067,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -15680,7 +16102,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -15712,7 +16135,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -15824,7 +16248,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -15856,7 +16281,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -15898,7 +16324,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -15932,7 +16359,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -15966,7 +16394,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -16000,7 +16429,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -16034,7 +16464,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -16068,7 +16499,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -16102,7 +16534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -16134,7 +16567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -16166,7 +16600,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -16198,7 +16633,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -16232,7 +16668,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -16266,7 +16703,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -16300,7 +16738,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -16334,7 +16773,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -16368,7 +16808,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -16402,7 +16843,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -16436,7 +16878,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -16468,7 +16911,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -16502,7 +16946,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -16536,7 +16981,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -16570,7 +17016,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -16602,7 +17049,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -16634,7 +17082,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -16666,7 +17115,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -16698,7 +17148,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -16730,7 +17181,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -16762,7 +17214,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -16794,7 +17247,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -16826,7 +17280,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -16858,7 +17313,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -16890,7 +17346,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -16922,7 +17379,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -16954,7 +17412,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -16986,7 +17445,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -17018,7 +17478,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -17050,7 +17511,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -17082,7 +17544,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -17116,7 +17579,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -17148,7 +17612,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -17180,7 +17645,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -17214,7 +17680,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0021",
@@ -17246,7 +17713,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0022",
@@ -17278,7 +17746,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0023",
@@ -17310,7 +17779,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0024",
@@ -17342,7 +17812,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0025",
@@ -17374,7 +17845,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0026",
@@ -17406,7 +17878,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0027",
@@ -17438,7 +17911,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0028",
@@ -17470,7 +17944,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0029",
@@ -17502,7 +17977,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0030",
@@ -17534,7 +18010,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0031",
@@ -17566,7 +18043,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0032",
@@ -17598,7 +18076,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0033",
@@ -17630,7 +18109,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0034",
@@ -17662,7 +18142,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0035",
@@ -17694,7 +18175,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0036",
@@ -17726,7 +18208,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0037",
@@ -17758,7 +18241,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0038",
@@ -17790,7 +18274,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0039",
@@ -17822,7 +18307,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0040",
@@ -17854,7 +18340,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0041",
@@ -17886,7 +18373,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0042",
@@ -17918,7 +18406,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0043",
@@ -17950,7 +18439,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0044",
@@ -17982,7 +18472,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0045",
@@ -18014,7 +18505,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0046",
@@ -18046,7 +18538,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0047",
@@ -18078,7 +18571,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0048",
@@ -18110,7 +18604,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0049",
@@ -18142,7 +18637,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0050",
@@ -18174,7 +18670,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0051",
@@ -18206,7 +18703,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0052",
@@ -18238,7 +18736,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0053",
@@ -18270,7 +18769,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0054",
@@ -18302,7 +18802,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0055",
@@ -18334,7 +18835,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0056",
@@ -18366,7 +18868,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0057",
@@ -18398,7 +18901,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0058",
@@ -18430,7 +18934,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0059",
@@ -18462,7 +18967,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0060",
@@ -18494,7 +19000,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0061",
@@ -18526,7 +19033,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0062",
@@ -18558,7 +19066,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0063",
@@ -18590,7 +19099,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0064",
@@ -18622,7 +19132,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0065",
@@ -18654,7 +19165,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0066",
@@ -18688,7 +19200,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0067",
@@ -18720,7 +19233,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0068",
@@ -18752,7 +19266,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0069",
@@ -18784,7 +19299,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0070",
@@ -18816,7 +19332,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0071",
@@ -18848,7 +19365,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0072",
@@ -18880,7 +19398,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0073",
@@ -18912,7 +19431,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0074",
@@ -18944,7 +19464,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0075",
@@ -18976,7 +19497,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0076",
@@ -19008,7 +19530,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0077",
@@ -19040,7 +19563,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0078",
@@ -19072,7 +19596,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0079",
@@ -19104,7 +19629,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0080",
@@ -19136,7 +19662,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0081",
@@ -19168,7 +19695,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0082",
@@ -19202,7 +19730,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0083",
@@ -19234,7 +19763,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0084",
@@ -19266,7 +19796,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0085",
@@ -19298,7 +19829,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0086",
@@ -19330,7 +19862,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0087",
@@ -19362,7 +19895,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0088",
@@ -19396,7 +19930,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0089",
@@ -19430,7 +19965,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0090",
@@ -19464,7 +20000,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0091",
@@ -19498,7 +20035,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0092",
@@ -19530,7 +20068,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0093",
@@ -19564,7 +20103,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0094",
@@ -19596,7 +20136,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0095",
@@ -19630,7 +20171,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0096",
@@ -19664,7 +20206,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0097",
@@ -19696,7 +20239,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0098",
@@ -19728,7 +20272,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0099",
@@ -19760,7 +20305,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0100",
@@ -19792,7 +20338,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0101",
@@ -19824,7 +20371,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0102",
@@ -19856,7 +20404,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0103",
@@ -19888,7 +20437,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0104",
@@ -19920,7 +20470,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0105",
@@ -19952,7 +20503,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0106",
@@ -19984,7 +20536,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0107",
@@ -20018,7 +20571,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0108",
@@ -20052,7 +20606,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0109",
@@ -20084,7 +20639,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0110",
@@ -20116,7 +20672,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0111",
@@ -20148,7 +20705,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0112",
@@ -20180,7 +20738,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0113",
@@ -20212,7 +20771,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0114",
@@ -20244,7 +20804,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0115",
@@ -20276,7 +20837,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0116",
@@ -20308,7 +20870,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0117",
@@ -20340,7 +20903,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0118",
@@ -20372,7 +20936,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0119",
@@ -20404,7 +20969,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0120",
@@ -20438,7 +21004,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0121",
@@ -20472,7 +21039,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0122",
@@ -20504,7 +21072,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0123",
@@ -20536,7 +21105,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0124",
@@ -20570,7 +21140,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0125",
@@ -20602,7 +21173,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0126",
@@ -20634,7 +21206,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0127",
@@ -20666,7 +21239,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0128",
@@ -20698,7 +21272,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0129",
@@ -20730,7 +21305,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0130",
@@ -20762,7 +21338,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0131",
@@ -20796,7 +21373,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0132",
@@ -20828,7 +21406,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0133",
@@ -20862,7 +21441,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0134",
@@ -20896,7 +21476,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0135",
@@ -20930,7 +21511,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0136",
@@ -20962,7 +21544,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0137",
@@ -20994,7 +21577,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0138",
@@ -21026,7 +21610,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0139",
@@ -21060,7 +21645,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0140",
@@ -21092,7 +21678,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0141",
@@ -21124,7 +21711,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0142",
@@ -21156,7 +21744,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0143",
@@ -21188,7 +21777,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0144",
@@ -21220,7 +21810,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0145",
@@ -21254,7 +21845,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0146",
@@ -21286,7 +21878,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0147",
@@ -21318,7 +21911,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0148",
@@ -21350,7 +21944,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0149",
@@ -21382,7 +21977,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0150",
@@ -21414,7 +22010,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0151",
@@ -21446,7 +22043,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0152",
@@ -21478,7 +22076,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0153",
@@ -21510,7 +22109,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0154",
@@ -21542,7 +22142,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0155",
@@ -21574,7 +22175,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0156",
@@ -21606,7 +22208,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0157",
@@ -21638,7 +22241,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0158",
@@ -21670,7 +22274,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0159",
@@ -21702,7 +22307,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0160",
@@ -21734,7 +22340,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0161",
@@ -21766,7 +22373,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0162",
@@ -21798,7 +22406,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0163",
@@ -21830,7 +22439,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0164",
@@ -21862,7 +22472,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0165",
@@ -21894,7 +22505,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0166",
@@ -21926,7 +22538,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0167",
@@ -21958,7 +22571,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0168",
@@ -21990,7 +22604,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0169",
@@ -22022,7 +22637,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0170",
@@ -22054,7 +22670,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0171",
@@ -22086,7 +22703,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0172",
@@ -22118,7 +22736,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0173",
@@ -22150,7 +22769,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0174",
@@ -22182,7 +22802,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0175",
@@ -22214,7 +22835,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0176",
@@ -22246,7 +22868,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0177",
@@ -22278,7 +22901,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0178",
@@ -22310,7 +22934,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0179",
@@ -22342,7 +22967,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0180",
@@ -22374,7 +23000,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0181",
@@ -22406,7 +23033,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0182",
@@ -22438,7 +23066,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0183",
@@ -22472,7 +23101,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0184",
@@ -22504,7 +23134,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0185",
@@ -22538,7 +23169,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0186",
@@ -22570,7 +23202,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0187",
@@ -22604,7 +23237,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0188",
@@ -22636,7 +23270,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0189",
@@ -22668,7 +23303,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0190",
@@ -22700,7 +23336,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0191",
@@ -22734,7 +23371,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0192",
@@ -22766,7 +23404,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0193",
@@ -22798,7 +23437,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0194",
@@ -22830,7 +23470,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0195",
@@ -22862,7 +23503,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0196",
@@ -22894,7 +23536,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0197",
@@ -22926,7 +23569,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0198",
@@ -22958,7 +23602,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0199",
@@ -22990,7 +23635,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0200",
@@ -23022,7 +23668,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0201",
@@ -23054,7 +23701,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0202",
@@ -23086,7 +23734,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0203",
@@ -23120,7 +23769,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0204",
@@ -23152,7 +23802,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0205",
@@ -23184,7 +23835,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0206",
@@ -23218,7 +23870,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0207",
@@ -23250,7 +23903,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0208",
@@ -23282,7 +23936,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0209",
@@ -23316,7 +23971,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0210",
@@ -23348,7 +24004,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0211",
@@ -23380,7 +24037,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0212",
@@ -23412,7 +24070,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0213",
@@ -23444,7 +24103,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0214",
@@ -23476,7 +24136,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0215",
@@ -23508,7 +24169,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0216",
@@ -23540,7 +24202,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0217",
@@ -23572,7 +24235,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0218",
@@ -23604,7 +24268,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0219",
@@ -23638,7 +24303,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0220",
@@ -23670,7 +24336,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0001",
@@ -23702,7 +24369,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -23734,7 +24402,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -23766,7 +24435,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -23798,7 +24468,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -23830,7 +24501,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -23862,7 +24534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -23894,7 +24567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -23928,7 +24602,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -23962,7 +24637,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -23994,7 +24670,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -24026,7 +24703,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -24060,7 +24738,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -24094,7 +24773,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -24126,7 +24806,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -24158,7 +24839,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -24190,7 +24872,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -24222,7 +24905,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -24254,7 +24938,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -24286,7 +24971,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -24318,7 +25004,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0021",
@@ -24350,7 +25037,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0022",
@@ -24382,7 +25070,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0023",
@@ -24416,7 +25105,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0024",
@@ -24448,7 +25138,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0025",
@@ -24480,7 +25171,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0026",
@@ -24514,7 +25206,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0027",
@@ -24546,7 +25239,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0028",
@@ -24578,7 +25272,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0029",
@@ -24610,7 +25305,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0030",
@@ -24642,7 +25338,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0031",
@@ -24674,7 +25371,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0032",
@@ -24706,7 +25404,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0033",
@@ -24738,7 +25437,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0034",
@@ -24770,7 +25470,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0035",
@@ -24802,7 +25503,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0036",
@@ -24834,7 +25536,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0037",
@@ -24866,7 +25569,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0038",
@@ -24898,7 +25602,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0039",
@@ -24930,7 +25635,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0040",
@@ -24962,7 +25668,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0041",
@@ -24994,7 +25701,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0042",
@@ -25026,7 +25734,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0043",
@@ -25058,7 +25767,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0044",
@@ -25092,7 +25802,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0045",
@@ -25124,7 +25835,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0046",
@@ -25156,7 +25868,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0047",
@@ -25188,7 +25901,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0048",
@@ -25220,7 +25934,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0049",
@@ -25252,7 +25967,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0050",
@@ -25284,7 +26000,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0051",
@@ -25316,7 +26033,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0052",
@@ -25348,7 +26066,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0053",
@@ -25382,7 +26101,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0054",
@@ -25414,7 +26134,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0055",
@@ -25446,7 +26167,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0056",
@@ -25480,7 +26202,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0057",
@@ -25514,7 +26237,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0058",
@@ -25546,7 +26270,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0059",
@@ -25578,7 +26303,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0060",
@@ -25610,7 +26336,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0061",
@@ -25642,7 +26369,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0062",
@@ -25674,7 +26402,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0063",
@@ -25706,7 +26435,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0064",
@@ -25738,7 +26468,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0065",
@@ -25770,7 +26501,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0066",
@@ -25802,7 +26534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0067",
@@ -25834,7 +26567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0068",
@@ -25866,7 +26600,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0069",
@@ -25898,7 +26633,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0070",
@@ -25930,7 +26666,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0071",
@@ -25962,7 +26699,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0072",
@@ -25994,7 +26732,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0073",
@@ -26026,7 +26765,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0074",
@@ -26058,7 +26798,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0075",
@@ -26090,7 +26831,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0076",
@@ -26122,7 +26864,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0077",
@@ -26154,7 +26897,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0078",
@@ -26186,7 +26930,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0079",
@@ -26218,7 +26963,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0080",
@@ -26250,7 +26996,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0081",
@@ -26282,7 +27029,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0082",
@@ -26314,7 +27062,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0083",
@@ -26346,7 +27095,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0084",
@@ -26378,7 +27128,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0085",
@@ -26410,7 +27161,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0086",
@@ -26442,7 +27194,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0087",
@@ -26474,7 +27227,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0088",
@@ -26506,7 +27260,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0089",
@@ -26538,7 +27293,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0090",
@@ -26570,7 +27326,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0091",
@@ -26602,7 +27359,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0092",
@@ -26634,7 +27392,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0093",
@@ -26666,7 +27425,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0094",
@@ -26698,7 +27458,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0095",
@@ -26730,7 +27491,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0096",
@@ -26762,7 +27524,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0097",
@@ -26794,7 +27557,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0098",
@@ -26826,7 +27590,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0099",
@@ -26858,7 +27623,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0100",
@@ -26890,7 +27656,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0101",
@@ -26924,7 +27691,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0102",
@@ -26956,7 +27724,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0103",
@@ -26990,7 +27759,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0104",
@@ -27022,7 +27792,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0105",
@@ -27056,7 +27827,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0106",
@@ -27090,7 +27862,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0107",
@@ -27124,7 +27897,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0108",
@@ -27156,7 +27930,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0109",
@@ -27188,7 +27963,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0110",
@@ -27220,7 +27996,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0111",
@@ -27254,7 +28031,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0112",
@@ -27286,7 +28064,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0113",
@@ -27320,7 +28099,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0114",
@@ -27354,7 +28134,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0115",
@@ -27386,7 +28167,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0116",
@@ -27418,7 +28200,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0117",
@@ -27450,7 +28233,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0118",
@@ -27484,7 +28268,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0119",
@@ -27516,7 +28301,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0120",
@@ -27548,7 +28334,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0121",
@@ -27582,7 +28369,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0122",
@@ -27614,7 +28402,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0123",
@@ -27646,7 +28435,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0124",
@@ -27678,7 +28468,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0125",
@@ -27710,7 +28501,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0126",
@@ -27742,7 +28534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0127",
@@ -27774,7 +28567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0128",
@@ -27806,7 +28600,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0129",
@@ -27840,7 +28635,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0130",
@@ -27872,7 +28668,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0131",
@@ -27904,7 +28701,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0132",
@@ -27936,7 +28734,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0133",
@@ -27968,7 +28767,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0134",
@@ -28000,7 +28800,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0135",
@@ -28032,7 +28833,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0136",
@@ -28064,7 +28866,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0137",
@@ -28096,7 +28899,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0138",
@@ -28130,7 +28934,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0139",
@@ -28162,7 +28967,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0140",
@@ -28194,7 +29000,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0141",
@@ -28226,7 +29033,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0142",
@@ -28258,7 +29066,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0143",
@@ -28290,7 +29099,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0144",
@@ -28322,7 +29132,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0145",
@@ -28354,7 +29165,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0146",
@@ -28386,7 +29198,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0147",
@@ -28418,7 +29231,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0148",
@@ -28450,7 +29264,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0149",
@@ -28482,7 +29297,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0150",
@@ -28514,7 +29330,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0151",
@@ -28546,7 +29363,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0152",
@@ -28578,7 +29396,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0153",
@@ -28610,7 +29429,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0154",
@@ -28642,7 +29462,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0155",
@@ -28674,7 +29495,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0156",
@@ -28706,7 +29528,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0157",
@@ -28738,7 +29561,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0158",
@@ -28770,7 +29594,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0159",
@@ -28802,7 +29627,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0160",
@@ -28834,7 +29660,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0161",
@@ -28866,7 +29693,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0162",
@@ -28898,7 +29726,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0163",
@@ -28930,7 +29759,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0164",
@@ -28962,7 +29792,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0165",
@@ -28994,7 +29825,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0166",
@@ -29026,7 +29858,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0167",
@@ -29060,7 +29893,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0168",
@@ -29092,7 +29926,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0169",
@@ -29124,7 +29959,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0170",
@@ -29156,7 +29992,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0171",
@@ -29188,7 +30025,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0172",
@@ -29220,7 +30058,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0173",
@@ -29252,7 +30091,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0174",
@@ -29284,7 +30124,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0175",
@@ -29316,7 +30157,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0176",
@@ -29348,7 +30190,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0177",
@@ -29380,7 +30223,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0178",
@@ -29412,7 +30256,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0179",
@@ -29444,7 +30289,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0180",
@@ -29476,7 +30322,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0181",
@@ -29508,7 +30355,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0182",
@@ -29540,7 +30388,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0183",
@@ -29572,7 +30421,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0184",
@@ -29604,7 +30454,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0185",
@@ -29636,7 +30487,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0186",
@@ -29668,7 +30520,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0187",
@@ -29700,7 +30553,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0188",
@@ -29732,7 +30586,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0189",
@@ -29764,7 +30619,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0190",
@@ -29796,7 +30652,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0191",
@@ -29828,7 +30685,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0192",
@@ -29860,7 +30718,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0193",
@@ -29892,7 +30751,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0194",
@@ -29924,7 +30784,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0195",
@@ -29956,7 +30817,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0196",
@@ -29988,7 +30850,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0197",
@@ -30020,7 +30883,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0198",
@@ -30052,7 +30916,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0199",
@@ -30084,7 +30949,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0200",
@@ -30116,7 +30982,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -30148,7 +31015,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -30180,7 +31048,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -30212,7 +31081,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -30244,7 +31114,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -30276,7 +31147,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -30308,7 +31180,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -30340,7 +31213,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -30372,7 +31246,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -30404,7 +31279,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -30436,7 +31312,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -30468,7 +31345,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -30500,7 +31378,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -30532,7 +31411,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -30566,7 +31446,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -30598,7 +31479,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -30630,7 +31512,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -30662,7 +31545,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -30694,7 +31578,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -30726,7 +31611,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -30758,7 +31644,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0021",
@@ -30790,7 +31677,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -30822,7 +31710,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -30854,7 +31743,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -30886,7 +31776,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -30918,7 +31809,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -30950,7 +31842,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -30982,7 +31875,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -31014,7 +31908,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -31046,7 +31941,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -31078,7 +31974,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -31110,7 +32007,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -31142,7 +32040,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -31174,7 +32073,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -31206,7 +32106,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -31240,7 +32141,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -31272,7 +32174,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -31304,7 +32207,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -31336,7 +32240,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -31368,7 +32273,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -31400,7 +32306,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -31432,7 +32339,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0021",
@@ -31464,7 +32372,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0022",
@@ -31496,7 +32405,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0023",
@@ -31528,7 +32438,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0024",
@@ -31560,7 +32471,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0025",
@@ -31592,7 +32504,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0026",
@@ -31624,7 +32537,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0027",
@@ -31656,7 +32570,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0028",
@@ -31688,7 +32603,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0029",
@@ -31720,7 +32636,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0030",
@@ -31752,7 +32669,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0031",
@@ -31784,7 +32702,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0032",
@@ -31816,7 +32735,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0033",
@@ -31848,7 +32768,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0034",
@@ -31880,7 +32801,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0035",
@@ -31912,7 +32834,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0036",
@@ -31944,7 +32867,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0037",
@@ -31976,7 +32900,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0038",
@@ -32008,7 +32933,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0039",
@@ -32040,7 +32966,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0040",
@@ -32072,7 +32999,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0041",
@@ -32104,7 +33032,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0042",
@@ -32136,7 +33065,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0043",
@@ -32168,7 +33098,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0044",
@@ -32200,7 +33131,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0045",
@@ -32232,7 +33164,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0046",
@@ -32264,7 +33197,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0047",
@@ -32296,7 +33230,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0048",
@@ -32328,7 +33263,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0049",
@@ -32360,7 +33296,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0050",
@@ -32392,7 +33329,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0051",
@@ -32426,7 +33364,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0052",
@@ -32460,7 +33399,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0053",
@@ -32492,7 +33432,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0054",
@@ -32524,7 +33465,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0055",
@@ -32558,7 +33500,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0056",
@@ -32590,7 +33533,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0057",
@@ -32622,7 +33566,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0058",
@@ -32654,7 +33599,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0059",
@@ -32686,7 +33632,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0060",
@@ -32718,7 +33665,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0061",
@@ -32750,7 +33698,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0062",
@@ -32782,7 +33731,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0063",
@@ -32814,7 +33764,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0064",
@@ -32846,7 +33797,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0065",
@@ -32878,7 +33830,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0066",
@@ -32910,7 +33863,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0067",
@@ -32942,7 +33896,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0068",
@@ -32974,7 +33929,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0069",
@@ -33006,7 +33962,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0070",
@@ -33038,7 +33995,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0071",
@@ -33070,7 +34028,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0072",
@@ -33102,7 +34061,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0073",
@@ -33134,7 +34094,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0074",
@@ -33166,7 +34127,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0075",
@@ -33198,7 +34160,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0076",
@@ -33230,7 +34193,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0077",
@@ -33262,7 +34226,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0078",
@@ -33294,7 +34259,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0079",
@@ -33326,7 +34292,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0080",
@@ -33358,7 +34325,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0081",
@@ -33392,7 +34360,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0082",
@@ -33424,7 +34393,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0083",
@@ -33456,7 +34426,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0084",
@@ -33488,7 +34459,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0085",
@@ -33520,7 +34492,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0086",
@@ -33552,7 +34525,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0087",
@@ -33584,7 +34558,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0088",
@@ -33618,7 +34593,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0089",
@@ -33650,7 +34626,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0090",
@@ -33682,7 +34659,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0091",
@@ -33716,7 +34694,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0092",
@@ -33748,7 +34727,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0093",
@@ -33780,7 +34760,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0094",
@@ -33812,7 +34793,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0095",
@@ -33844,7 +34826,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0096",
@@ -33878,7 +34861,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0097",
@@ -33910,7 +34894,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0098",
@@ -33942,7 +34927,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0099",
@@ -33974,7 +34960,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0100",
@@ -34006,7 +34993,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0101",
@@ -34038,7 +35026,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0102",
@@ -34070,7 +35059,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0103",
@@ -34102,7 +35092,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0104",
@@ -34134,7 +35125,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0105",
@@ -34166,7 +35158,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0106",
@@ -34198,7 +35191,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0107",
@@ -34232,7 +35226,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0108",
@@ -34264,7 +35259,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0109",
@@ -34296,7 +35292,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0110",
@@ -34328,7 +35325,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0111",
@@ -34360,7 +35358,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0112",
@@ -34392,7 +35391,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0113",
@@ -34424,7 +35424,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0114",
@@ -34456,7 +35457,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0115",
@@ -34488,7 +35490,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0116",
@@ -34520,7 +35523,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0117",
@@ -34552,7 +35556,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0118",
@@ -34584,7 +35589,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0119",
@@ -34616,7 +35622,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0120",
@@ -34648,7 +35655,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0121",
@@ -34680,7 +35688,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0122",
@@ -34712,7 +35721,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0123",
@@ -34744,7 +35754,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0124",
@@ -34776,7 +35787,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0125",
@@ -34808,7 +35820,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0126",
@@ -34840,7 +35853,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0127",
@@ -34872,7 +35886,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0128",
@@ -34904,7 +35919,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0129",
@@ -34936,7 +35952,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0130",
@@ -34968,7 +35985,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0131",
@@ -35000,7 +36018,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0132",
@@ -35032,7 +36051,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0133",
@@ -35064,7 +36084,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0134",
@@ -35096,7 +36117,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0135",
@@ -35128,7 +36150,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0136",
@@ -35160,7 +36183,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0137",
@@ -35192,7 +36216,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0138",
@@ -35224,7 +36249,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0139",
@@ -35256,7 +36282,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0140",
@@ -35288,7 +36315,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0141",
@@ -35320,7 +36348,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0142",
@@ -35352,7 +36381,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0143",
@@ -35384,7 +36414,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0144",
@@ -35416,7 +36447,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0145",
@@ -35448,7 +36480,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0146",
@@ -35480,7 +36513,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0147",
@@ -35512,7 +36546,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0148",
@@ -35546,7 +36581,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0149",
@@ -35578,7 +36614,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0150",
@@ -35610,7 +36647,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0151",
@@ -35642,7 +36680,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0152",
@@ -35674,7 +36713,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0153",
@@ -35706,7 +36746,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0154",
@@ -35738,7 +36779,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0155",
@@ -35770,7 +36812,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0156",
@@ -35802,7 +36845,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0157",
@@ -35834,7 +36878,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0158",
@@ -35866,7 +36911,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0159",
@@ -35900,7 +36946,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0160",
@@ -35932,7 +36979,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0161",
@@ -35964,7 +37012,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0162",
@@ -35996,7 +37045,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0163",
@@ -36028,7 +37078,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0164",
@@ -36060,7 +37111,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0165",
@@ -36092,7 +37144,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0166",
@@ -36124,7 +37177,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0167",
@@ -36156,7 +37210,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0168",
@@ -36188,7 +37243,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0169",
@@ -36220,7 +37276,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0170",
@@ -36252,7 +37309,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0171",
@@ -36284,7 +37342,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0172",
@@ -36316,7 +37375,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0173",
@@ -36348,7 +37408,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0174",
@@ -36380,7 +37441,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0175",
@@ -36412,7 +37474,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0176",
@@ -36444,7 +37507,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0177",
@@ -36476,7 +37540,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0178",
@@ -36508,7 +37573,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0179",
@@ -36540,7 +37606,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0180",
@@ -36572,7 +37639,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -36604,7 +37672,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -36636,7 +37705,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -36670,7 +37740,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -36702,7 +37773,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -36734,7 +37806,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -36768,7 +37841,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -36800,7 +37874,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -36834,7 +37909,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -36868,7 +37944,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -36900,7 +37977,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -36934,7 +38012,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -36966,7 +38045,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -36998,7 +38078,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -37032,7 +38113,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -37064,7 +38146,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -37098,7 +38181,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -37130,7 +38214,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -37162,7 +38247,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -37194,7 +38280,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -37228,7 +38315,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0021",
@@ -37260,7 +38348,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0022",
@@ -37292,7 +38381,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0023",
@@ -37324,7 +38414,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0024",
@@ -37356,7 +38447,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0025",
@@ -37388,7 +38480,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0026",
@@ -37420,7 +38513,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0027",
@@ -37452,7 +38546,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0028",
@@ -37484,7 +38579,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0029",
@@ -37516,7 +38612,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0030",
@@ -37548,7 +38645,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0031",
@@ -37580,7 +38678,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0032",
@@ -37612,7 +38711,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0033",
@@ -37644,7 +38744,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0034",
@@ -37676,7 +38777,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0035",
@@ -37708,7 +38810,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0036",
@@ -37740,7 +38843,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0037",
@@ -37772,7 +38876,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0038",
@@ -37804,7 +38909,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0039",
@@ -37836,7 +38942,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0040",
@@ -37868,7 +38975,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0041",
@@ -37900,7 +39008,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0042",
@@ -37932,7 +39041,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0043",
@@ -37964,7 +39074,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0044",
@@ -37996,7 +39107,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0045",
@@ -38028,7 +39140,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0046",
@@ -38060,7 +39173,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0047",
@@ -38092,7 +39206,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0048",
@@ -38124,7 +39239,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0049",
@@ -38156,7 +39272,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0050",
@@ -38188,7 +39305,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0051",
@@ -38222,7 +39340,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0052",
@@ -38256,7 +39375,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0053",
@@ -38288,7 +39408,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0054",
@@ -38322,7 +39443,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0055",
@@ -38356,7 +39478,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0056",
@@ -38390,7 +39513,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0057",
@@ -38422,7 +39546,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0058",
@@ -38454,7 +39579,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0059",
@@ -38486,7 +39612,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0060",
@@ -38520,7 +39647,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0061",
@@ -38552,7 +39680,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0062",
@@ -38584,7 +39713,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0063",
@@ -38616,7 +39746,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0064",
@@ -38650,7 +39781,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0065",
@@ -38682,7 +39814,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0066",
@@ -38714,7 +39847,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0067",
@@ -38746,7 +39880,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0068",
@@ -38778,7 +39913,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0069",
@@ -38810,7 +39946,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0070",
@@ -38842,7 +39979,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0071",
@@ -38874,7 +40012,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0072",
@@ -38906,7 +40045,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0073",
@@ -38938,7 +40078,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0074",
@@ -38970,7 +40111,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0075",
@@ -39002,7 +40144,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0076",
@@ -39034,7 +40177,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0077",
@@ -39066,7 +40210,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0078",
@@ -39098,7 +40243,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0079",
@@ -39130,7 +40276,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0080",
@@ -39162,7 +40309,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0081",
@@ -39194,7 +40342,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0082",
@@ -39226,7 +40375,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0083",
@@ -39258,7 +40408,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0084",
@@ -39292,7 +40443,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0085",
@@ -39324,7 +40476,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0086",
@@ -39356,7 +40509,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0087",
@@ -39388,7 +40542,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0088",
@@ -39420,7 +40575,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0089",
@@ -39452,7 +40608,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0090",
@@ -39484,7 +40641,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0091",
@@ -39516,7 +40674,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0092",
@@ -39548,7 +40707,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0093",
@@ -39582,7 +40742,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0094",
@@ -39614,7 +40775,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0095",
@@ -39646,7 +40808,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0096",
@@ -39678,7 +40841,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0097",
@@ -39712,7 +40876,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0098",
@@ -39744,7 +40909,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0099",
@@ -39776,7 +40942,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0100",
@@ -39808,7 +40975,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0101",
@@ -39840,7 +41008,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0102",
@@ -39872,7 +41041,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0103",
@@ -39904,7 +41074,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0104",
@@ -39936,7 +41107,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0105",
@@ -39968,7 +41140,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0106",
@@ -40000,7 +41173,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0107",
@@ -40032,7 +41206,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0108",
@@ -40064,7 +41239,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0109",
@@ -40096,7 +41272,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0110",
@@ -40128,7 +41305,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0111",
@@ -40160,7 +41338,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0112",
@@ -40192,7 +41371,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0113",
@@ -40226,7 +41406,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0114",
@@ -40258,7 +41439,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0115",
@@ -40292,7 +41474,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0116",
@@ -40324,7 +41507,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0117",
@@ -40356,7 +41540,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0118",
@@ -40388,7 +41573,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0119",
@@ -40420,7 +41606,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0120",
@@ -40452,7 +41639,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0121",
@@ -40484,7 +41672,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0122",
@@ -40516,7 +41705,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0123",
@@ -40548,7 +41738,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0124",
@@ -40580,7 +41771,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0125",
@@ -40612,7 +41804,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0126",
@@ -40644,7 +41837,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0127",
@@ -40676,7 +41870,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0128",
@@ -40708,7 +41903,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0129",
@@ -40740,7 +41936,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0130",
@@ -40772,7 +41969,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0131",
@@ -40804,7 +42002,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0132",
@@ -40836,7 +42035,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0133",
@@ -40870,7 +42070,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0134",
@@ -40902,7 +42103,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0135",
@@ -40934,7 +42136,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0136",
@@ -40966,7 +42169,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0137",
@@ -40998,7 +42202,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0138",
@@ -41030,7 +42235,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0139",
@@ -41062,7 +42268,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0140",
@@ -41094,7 +42301,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0001",
@@ -41128,7 +42336,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0002",
@@ -41162,7 +42371,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0003",
@@ -41196,7 +42406,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0004",
@@ -41230,7 +42441,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0005",
@@ -41264,7 +42476,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0006",
@@ -41298,7 +42511,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0007",
@@ -41332,7 +42546,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0008",
@@ -41366,7 +42581,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0009",
@@ -41398,7 +42614,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0010",
@@ -41432,7 +42649,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0011",
@@ -41464,7 +42682,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0012",
@@ -41496,7 +42715,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0013",
@@ -41528,7 +42748,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0014",
@@ -41560,7 +42781,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0015",
@@ -41592,7 +42814,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0016",
@@ -41624,7 +42847,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0017",
@@ -41656,7 +42880,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0018",
@@ -41688,7 +42913,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0019",
@@ -41720,7 +42946,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0020",
@@ -41752,7 +42979,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0021",
@@ -41784,7 +43012,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0022",
@@ -41816,7 +43045,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0023",
@@ -41848,7 +43078,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0024",
@@ -41880,7 +43111,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0025",
@@ -41912,7 +43144,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0026",
@@ -41944,7 +43177,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0027",
@@ -41976,7 +43210,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0028",
@@ -42008,7 +43243,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0029",
@@ -42040,7 +43276,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0030",
@@ -42072,7 +43309,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0031",
@@ -42104,7 +43342,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0032",
@@ -42136,7 +43375,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0033",
@@ -42168,7 +43408,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0034",
@@ -42200,7 +43441,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0035",
@@ -42232,7 +43474,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0036",
@@ -42264,7 +43507,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0037",
@@ -42296,7 +43540,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0038",
@@ -42328,7 +43573,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0039",
@@ -42360,7 +43606,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0040",
@@ -42392,7 +43639,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0041",
@@ -42424,7 +43672,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0042",
@@ -42456,7 +43705,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0043",
@@ -42488,7 +43738,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0044",
@@ -42520,7 +43771,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0045",
@@ -42552,7 +43804,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0046",
@@ -42584,7 +43837,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0047",
@@ -42616,7 +43870,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0048",
@@ -42648,7 +43903,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0049",
@@ -42680,7 +43936,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0050",
@@ -42712,7 +43969,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0051",
@@ -42744,7 +44002,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0052",
@@ -42776,7 +44035,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0053",
@@ -42808,7 +44068,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0054",
@@ -42840,7 +44101,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0055",
@@ -42872,7 +44134,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0056",
@@ -42904,7 +44167,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0057",
@@ -42936,7 +44200,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0058",
@@ -42968,7 +44233,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0059",
@@ -43000,7 +44266,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0060",
@@ -43032,7 +44299,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0061",
@@ -43064,7 +44332,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0062",
@@ -43096,7 +44365,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0063",
@@ -43128,7 +44398,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0064",
@@ -43160,7 +44431,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0065",
@@ -43192,7 +44464,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0066",
@@ -43224,7 +44497,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0067",
@@ -43256,7 +44530,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0068",
@@ -43288,7 +44563,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0069",
@@ -43320,7 +44596,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0070",
@@ -43352,7 +44629,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0071",
@@ -43384,7 +44662,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0072",
@@ -43416,7 +44695,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0073",
@@ -43448,7 +44728,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0074",
@@ -43480,7 +44761,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0075",
@@ -43512,7 +44794,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0076",
@@ -43544,7 +44827,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0077",
@@ -43578,7 +44862,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0078",
@@ -43610,7 +44895,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0079",
@@ -43642,7 +44928,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0080",
@@ -43676,7 +44963,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0081",
@@ -43710,7 +44998,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0082",
@@ -43742,7 +45031,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0083",
@@ -43774,7 +45064,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0084",
@@ -43806,7 +45097,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0085",
@@ -43838,7 +45130,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0086",
@@ -43870,7 +45163,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0087",
@@ -43904,7 +45198,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0088",
@@ -43936,7 +45231,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0089",
@@ -43968,7 +45264,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0090",
@@ -44000,7 +45297,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0091",
@@ -44034,7 +45332,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0092",
@@ -44066,7 +45365,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0093",
@@ -44100,7 +45400,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0094",
@@ -44132,7 +45433,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0095",
@@ -44164,7 +45466,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0096",
@@ -44198,7 +45501,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0097",
@@ -44230,7 +45534,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0098",
@@ -44262,7 +45567,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0099",
@@ -44294,7 +45600,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0100",
@@ -44326,7 +45633,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0101",
@@ -44358,7 +45666,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0102",
@@ -44390,7 +45699,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0103",
@@ -44422,7 +45732,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0104",
@@ -44454,7 +45765,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0105",
@@ -44486,7 +45798,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0106",
@@ -44518,7 +45831,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0107",
@@ -44550,7 +45864,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0108",
@@ -44582,7 +45897,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0109",
@@ -44614,7 +45930,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0110",
@@ -44648,7 +45965,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0111",
@@ -44680,7 +45998,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0112",
@@ -44714,7 +46033,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0113",
@@ -44746,7 +46066,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0114",
@@ -44778,7 +46099,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0115",
@@ -44810,7 +46132,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0116",
@@ -44842,7 +46165,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0117",
@@ -44874,7 +46198,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0118",
@@ -44906,7 +46231,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0119",
@@ -44938,7 +46264,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0120",
@@ -44970,7 +46297,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0121",
@@ -45002,7 +46330,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0122",
@@ -45034,7 +46363,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0123",
@@ -45066,7 +46396,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0124",
@@ -45098,7 +46429,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0125",
@@ -45130,7 +46462,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0126",
@@ -45162,7 +46495,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0127",
@@ -45194,7 +46528,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0128",
@@ -45226,7 +46561,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0129",
@@ -45258,7 +46594,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0130",
@@ -45290,7 +46627,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0131",
@@ -45322,7 +46660,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0132",
@@ -45354,7 +46693,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0133",
@@ -45386,7 +46726,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0134",
@@ -45418,7 +46759,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0135",
@@ -45450,7 +46792,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0136",
@@ -45482,7 +46825,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0137",
@@ -45514,7 +46858,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0138",
@@ -45546,7 +46891,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0139",
@@ -45578,7 +46924,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0140",
@@ -45610,7 +46957,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0141",
@@ -45642,7 +46990,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0142",
@@ -45674,7 +47023,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0143",
@@ -45706,7 +47056,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0144",
@@ -45738,7 +47089,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0145",
@@ -45770,7 +47122,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0146",
@@ -45802,7 +47155,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0147",
@@ -45834,7 +47188,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0148",
@@ -45866,7 +47221,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: false
   },
   {
     id: "PI-0149",
@@ -45898,7 +47254,8 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   },
   {
     id: "PI-0150",
@@ -45930,6 +47287,7 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ]
+    ],
+    newIn: true
   }
 ];

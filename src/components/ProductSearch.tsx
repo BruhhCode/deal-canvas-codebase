@@ -4,6 +4,53 @@ import { Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { searchPlaceholders } from "@/data/products";
 
+const TYPE_SPEED_MS = 55;
+const DELETE_SPEED_MS = 30;
+const HOLD_MS = 1400;
+const GAP_MS = 400;
+
+/** Cycles through `phrases`, typing each one in and deleting it back out, one character at a time. */
+function useTypewriter(phrases: readonly string[]) {
+  const [text, setText] = useState("");
+
+  useEffect(() => {
+    if (!phrases.length) return;
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+    let timeout: ReturnType<typeof setTimeout>;
+
+    const tick = () => {
+      const phrase = phrases[phraseIndex]!;
+      if (!deleting) {
+        charIndex++;
+        setText(phrase.slice(0, charIndex));
+        if (charIndex === phrase.length) {
+          deleting = true;
+          timeout = setTimeout(tick, HOLD_MS);
+          return;
+        }
+        timeout = setTimeout(tick, TYPE_SPEED_MS);
+      } else {
+        charIndex--;
+        setText(phrase.slice(0, charIndex));
+        if (charIndex === 0) {
+          deleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          timeout = setTimeout(tick, GAP_MS);
+          return;
+        }
+        timeout = setTimeout(tick, DELETE_SPEED_MS);
+      }
+    };
+
+    timeout = setTimeout(tick, TYPE_SPEED_MS);
+    return () => clearTimeout(timeout);
+  }, [phrases]);
+
+  return text;
+}
+
 export function ProductSearch({
   size = "lg",
   className,
@@ -14,20 +61,15 @@ export function ProductSearch({
   initial?: string;
 }) {
   const [q, setQ] = useState(initial);
-  const [idx, setIdx] = useState(0);
+  const typed = useTypewriter(searchPlaceholders);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const id = setInterval(() => setIdx((v) => (v + 1) % searchPlaceholders.length), 3000);
-    return () => clearInterval(id);
-  }, []);
 
   return (
     <form
       role="search"
       onSubmit={(e) => {
         e.preventDefault();
-        navigate({ to: "/shop", search: { q: q.trim(), category: "", department: "", view: "" } });
+        navigate({ to: "/shop", search: { q: q.trim(), category: "", department: "", view: "", store: "" } });
       }}
       className={cn("w-full", className)}
     >
@@ -42,7 +84,7 @@ export function ProductSearch({
           value={q}
           onChange={(e) => setQ(e.target.value)}
           aria-label="Search for products, brands or stores"
-          placeholder={size === "lg" ? "Search for products, brands or stores..." : searchPlaceholders[idx]}
+          placeholder={typed}
           className={cn(
             "w-full bg-transparent outline-none placeholder:text-muted-foreground",
             size === "lg" ? "text-base" : "text-sm",

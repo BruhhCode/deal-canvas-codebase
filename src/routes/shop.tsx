@@ -29,6 +29,7 @@ export const Route = createFileRoute("/shop")({
     category: String(search["category"] ?? ""),
     department: String(search["department"] ?? ""),
     view: String(search["view"] ?? ""),
+    store: String(search["store"] ?? ""),
   }),
   head: () => ({
     meta: [
@@ -51,17 +52,18 @@ const PAGE_SIZE = 24;
 
 function ShopPage() {
   const { format } = useCurrency();
-  const { q, category, department, view } = Route.useSearch();
-  // The URL's category/department/view only seed the initial filter state —
-  // once the page has mounted, the sidebar chips are the single source of
-  // truth. Re-deriving these from the URL on every render (as this used to)
-  // meant that arriving at /shop with e.g. ?category=sneakers permanently
-  // pinned that category: clicking a different Category chip updated local
-  // state, but the URL value silently overrode it back on the very next
-  // render, making the filter look broken.
+  const { q, category, department, view, store } = Route.useSearch();
+  // The URL's category/department/view/store only seed the initial filter
+  // state — once the page has mounted, the sidebar chips are the single
+  // source of truth. Re-deriving these from the URL on every render (as
+  // this used to) meant that arriving at /shop with e.g. ?category=sneakers
+  // permanently pinned that category: clicking a different Category chip
+  // updated local state, but the URL value silently overrode it back on the
+  // very next render, making the filter look broken.
   const [filters, setFilters] = useState<ProductFilters>(() => ({
     ...(category ? { category } : {}),
     ...(department ? { department } : {}),
+    ...(store ? { store } : {}),
     ...(view === "new" ? { newIn: true } : {}),
     ...(view === "sale" ? { sale: true } : {}),
   }));
@@ -235,7 +237,7 @@ function ShopPage() {
             <Link
               key={t.slug}
               to="/shop"
-              search={{ q: t.name, category: "", department: "", view: "" }}
+              search={{ q: t.name, category: "", department: "", view: "", store: "" }}
               className="rounded-full border px-3 py-1 text-xs hover:border-clay hover:text-clay"
             >
               {t.name}

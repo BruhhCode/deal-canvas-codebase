@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ChevronDown, Heart, Menu, User, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
@@ -26,6 +26,24 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [openDept, setOpenDept] = useState<string | null>(null);
   const [openDeptMobile, setOpenDeptMobile] = useState<string | null>(null);
+  const closeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // The dropdown panel sits below the trigger with a visual gap; closing on
+  // mouseleave the instant the cursor exits the trigger meant moving down
+  // toward the panel crossed that gap while nothing was hovered, closing the
+  // menu before a click could land. A short delay gives that transit time.
+  const scheduleClose = (slug: string) => {
+    if (closeTimeout.current) clearTimeout(closeTimeout.current);
+    closeTimeout.current = setTimeout(() => {
+      setOpenDept((v) => (v === slug ? null : v));
+    }, 250);
+  };
+  const cancelClose = () => {
+    if (closeTimeout.current) {
+      clearTimeout(closeTimeout.current);
+      closeTimeout.current = null;
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur">
@@ -60,8 +78,11 @@ export function Header() {
             <li
               key={d.slug}
               className="relative"
-              onMouseEnter={() => setOpenDept(d.slug)}
-              onMouseLeave={() => setOpenDept((v) => (v === d.slug ? null : v))}
+              onMouseEnter={() => {
+                cancelClose();
+                setOpenDept(d.slug);
+              }}
+              onMouseLeave={() => scheduleClose(d.slug)}
             >
               <button
                 type="button"
@@ -76,12 +97,16 @@ export function Header() {
                 <ChevronDown className="h-3 w-3" />
               </button>
               {openDept === d.slug ? (
-                <div className="absolute left-0 top-full z-50 mt-3 w-56 rounded-sm border bg-card p-2 normal-case shadow-lg">
+                <div
+                  onMouseEnter={cancelClose}
+                  onMouseLeave={() => scheduleClose(d.slug)}
+                  className="absolute left-0 top-full z-50 mt-1 w-56 rounded-sm border bg-card p-2 pt-3 normal-case shadow-lg before:absolute before:inset-x-0 before:-top-2 before:h-2 before:content-['']"
+                >
                   {categoriesByDepartment(d.slug).map((c) => (
                     <Link
                       key={c.slug}
                       to="/shop"
-                      search={{ q: "", category: c.slug, department: d.slug, view: "" }}
+                      search={{ q: "", category: c.slug, department: d.slug, view: "", store: "" }}
                       onClick={() => setOpenDept(null)}
                       className="block rounded-sm px-3 py-2 text-sm font-normal tracking-normal hover:bg-cream hover:text-clay"
                     >
@@ -129,7 +154,7 @@ export function Header() {
                       <Link
                         key={c.slug}
                         to="/shop"
-                        search={{ q: "", category: c.slug, department: d.slug, view: "" }}
+                        search={{ q: "", category: c.slug, department: d.slug, view: "", store: "" }}
                         onClick={() => {
                           setOpen(false);
                           setOpenDeptMobile(null);

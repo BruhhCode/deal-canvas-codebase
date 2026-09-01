@@ -77,11 +77,16 @@ async function main() {
     const views = 120 + (h2 % 8000);
 
     const color = extractColor(p.name);
+    // ~11% of products flagged as new arrivals — every import previously
+    // left newIn unset, so the "New In" nav tab and homepage section always
+    // matched zero products.
+    const newIn = hash(`${p.id}-new`) % 9 === 0;
 
     return {
       ...p,
       rating,
       views,
+      newIn,
       colors: p.colors.length ? p.colors : color ? [color] : [],
     };
   });

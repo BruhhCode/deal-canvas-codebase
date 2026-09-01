@@ -70,7 +70,7 @@ function StorePage() {
         </div>
         <Link
           to="/shop"
-          search={{ q: "", category: "", department: "", view: "" }}
+          search={{ q: "", category: "", department: "", view: "", store: store.slug }}
           className="rounded-sm bg-primary px-7 py-3 text-center text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"
         >
           Shop Store
@@ -85,7 +85,7 @@ function StorePage() {
               <Link
                 key={c}
                 to="/shop"
-                search={{ q: "", category: c, department: "", view: "" }}
+                search={{ q: "", category: c, department: "", view: "", store: store.slug }}
                 className="rounded-full border px-4 py-2 text-sm hover:border-clay hover:text-clay"
               >
                 {categoryName(c)}

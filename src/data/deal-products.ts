@@ -10,6 +10,7 @@
 import { brandName, type Badge, type Deal } from "./catalog";
 import { stores } from "./stores";
 import { bestOffer, productDiscount, products, type Product } from "./products";
+import { seededShuffle } from "@/lib/seeded-shuffle";
 
 /** Deterministically picks a real product of the same brand as the deal (stable across renders). */
 function productForDeal(deal: Deal): Product | undefined {
@@ -42,20 +43,6 @@ export function dealAffiliateUrl(deal: Deal): string {
   } catch {
     return merchantUrl;
   }
-}
-
-/** Simple seeded PRNG so a given `seed` always produces the same shuffle (stable across renders/SSR). */
-function seededShuffle<T>(list: T[], seed: string): T[] {
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
-  const rand = () => {
-    h = (Math.imul(h, 1103515245) + 12345) | 0;
-    return (h >>> 0) / 4294967296;
-  };
-  return list
-    .map((item) => ({ item, k: rand() }))
-    .sort((a, b) => a.k - b.k)
-    .map(({ item }) => item);
 }
 
 /** Synthesizes Deal-shaped cards straight from real products, for sections that need more inventory than the seed list provides. */

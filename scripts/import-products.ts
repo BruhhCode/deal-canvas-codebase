@@ -362,6 +362,7 @@ function buildProduct(group: Group, index: number): Product {
     rating: Math.round((3.6 + (hash(id) % 14) * 0.1) * 10) / 10,
     reviews: 40 + (hash(id) % 200),
     views: 120 + (hash(`${id}-views`) % 8000),
+    newIn: hash(`${id}-new`) % 9 === 0,
     offers: group.rows.map(buildOffer),
   };
 }

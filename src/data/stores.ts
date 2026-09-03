@@ -1,4 +1,4 @@
-import type { AffiliateNetwork } from "./catalog";
+import { brandLogo, brands, type AffiliateNetwork } from "./catalog";
 
 export interface Store {
   slug: string;
@@ -864,8 +864,24 @@ export const stores: Store[] = [
 const bySlug = new Map(stores.map((s) => [s.slug, s]));
 export const getStore = (slug: string) => bySlug.get(slug);
 
-/** The store's icon, sourced from its real domain — used as a logo image wherever a store is displayed. */
+const brandSlugs = new Set(brands.map((b) => b.slug));
+
+// Most stores here are a single brand's own storefront (e.g. "nike-store" /
+// "gucci-store"), so they share that brand's already-verified sharp logo
+// instead of a blurry favicon. A handful are genuine multi-brand retailers
+// with no brand counterpart — those get their own verified vector logo.
+const storeLogoOverrides: Record<string, string> = {
+  rei: "https://cdn.worldvectorlogo.com/logos/rei.svg",
+  "nordstrom-rack": "https://cdn.worldvectorlogo.com/logos/nordstrom-rack.svg",
+  footlocker: "https://cdn.worldvectorlogo.com/logos/foot-locker-1.svg",
+  "neiman-marcus": "https://cdn.worldvectorlogo.com/logos/neiman-marcus.svg",
+};
+
+/** The store's logo — the matching brand's verified mark, a verified retailer logo, or a favicon fallback. */
 export const storeLogo = (slug: string) => {
+  const brandSlug = slug.replace(/-store$/, "");
+  if (brandSlugs.has(brandSlug)) return brandLogo(brandSlug);
+  if (storeLogoOverrides[slug]) return storeLogoOverrides[slug];
   const domain = bySlug.get(slug)?.domain ?? `${slug.replace(/-/g, "")}.com`;
   return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
 };

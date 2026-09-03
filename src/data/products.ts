@@ -82,6 +82,8 @@ export interface Product {
   gender: Gender;
   description: string;
   image: string;
+  /** Additional angles/views beyond `image`, when the source has them. */
+  images?: string[] | undefined;
   colors: string[];
   sizes: string[];
   tags: string[];

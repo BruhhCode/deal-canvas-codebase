@@ -16035,7 +16035,13 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: false
+    newIn: false,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a42a5d53-2f99-4e78-a081-9d07a2d0774a/AIR+FORCE+1+%2707.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/deec30c7-92b4-46c9-8a7f-39a73eccdffa/AIR+FORCE+1+%2707.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6363d086-10e5-4892-adf0-182acd58d116/AIR+FORCE+1+%2707.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f65792df-0c9a-45a6-a54a-0f5e9ba2396f/AIR+FORCE+1+%2707.png"
+    ]
   },
   {
     id: "PI-0002",
@@ -16068,7 +16074,13 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: false
+    newIn: false,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/525c15c8-ff31-4a90-b77f-259e4fecbc96/W+NIKE+ZOOM+VOMERO+5.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6056f431-2fa2-4d3e-9fdc-a83fcc36f32d/W+NIKE+ZOOM+VOMERO+5.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4e029ef7-4b61-493c-a9b4-591fe367cebc/W+NIKE+ZOOM+VOMERO+5.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/017a9453-4c27-47a9-890d-afc27483dc2b/W+NIKE+ZOOM+VOMERO+5.png"
+    ]
   },
   {
     id: "PI-0003",
@@ -16103,7 +16115,13 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: false
+    newIn: false,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88e1020e-4f52-4000-b44c-b421c73b9db1/AIR+JORDAN+3+RETRO+OG.png",
+      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9f0dd42c-599c-48ad-8698-04a146a5794a/AIR+JORDAN+3+RETRO+OG.png",
+      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c757495b-affe-430c-a241-96fc1ef17f24/AIR+JORDAN+3+RETRO+OG.png",
+      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3f1487e6-5ffa-479c-9967-075fe3c9c13f/AIR+JORDAN+3+RETRO+OG.png"
+    ]
   },
   {
     id: "PI-0004",
@@ -16136,7 +16154,10 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: false
+    newIn: false,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png"
+    ]
   },
   {
     id: "PI-0005",
@@ -16249,7 +16270,13 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: false
+    newIn: false,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/mcdrf7uxgwnem8l0sv0q/NIKE+P-6000.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ccmr1ghy91q9q5gfq0qf/NIKE+P-6000.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/jgvui3yzwr9ev3qwjs36/NIKE+P-6000.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/pjlv3ybri5npgoe58vbk/NIKE+P-6000.png"
+    ]
   },
   {
     id: "PI-0006",
@@ -16282,7 +16309,13 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: true
+    newIn: true,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8710354e-ed8a-4a8e-bddb-6bff5caca2cc/NIKE+P-6000.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/17eb5284-f81e-4b40-8471-49d556093f93/NIKE+P-6000.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2ff1cc0f-e7fa-4a7b-9f3b-f5c0f54b90bd/NIKE+P-6000.png",
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0b296a0b-3c73-41b6-b8d5-1b704e091157/NIKE+P-6000.png"
+    ]
   },
   {
     id: "PI-0007",
@@ -16325,7 +16358,10 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ],
-    newIn: false
+    newIn: false,
+    images: [
+      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/47690382-3d0c-4aa4-b968-a4876e5bcf4c/NIKE+P-6000+SE+LOS.png"
+    ]
   },
   {
     id: "PI-0001",

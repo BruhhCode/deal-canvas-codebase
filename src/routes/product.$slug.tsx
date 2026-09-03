@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Clock, Eye, Star } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BrandMark } from "@/components/BrandMark";
+import { ProductGallery } from "@/components/ProductGallery";
 import { PriceCompare } from "@/components/PriceCompare";
 import { PriceAlert } from "@/components/PriceAlert";
 import { ProductCard } from "@/components/ProductCard";
@@ -92,16 +93,11 @@ function ProductPage() {
       />
 
       <div className="grid gap-10 lg:grid-cols-2">
-        <div className="relative overflow-hidden rounded-lg bg-cream">
-          <img
-            src={product.image}
-            alt={`${brandName(product.brand)} ${product.name}`}
-            width={900}
-            height={900}
-            className="aspect-square w-full object-cover"
-          />
-          <WishlistButton id={product.id} className="absolute right-4 top-4" />
-        </div>
+        <ProductGallery
+          images={product.images?.length ? product.images : [product.image]}
+          alt={`${brandName(product.brand)} ${product.name}`}
+          badge={<WishlistButton id={product.id} className="absolute right-4 top-4" />}
+        />
 
         <div>
           <Link

@@ -199,8 +199,8 @@ function Home() {
             {todaysSales.map((e) => (
               <Link
                 key={e.id}
-                to="/store/$slug"
-                params={{ slug: e.store }}
+                to="/shop"
+                search={{ q: "", category: "", department: "", view: "sale", store: e.store }}
                 className="rounded-lg border bg-card p-5 transition-colors hover:border-clay"
               >
                 <p className="editorial-eyebrow">{e.window === "today" ? "Today" : "Tomorrow"}</p>

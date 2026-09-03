@@ -78,8 +78,8 @@ function SalesCalendar() {
                   {events.map((e) => (
                     <Link
                       key={e.id}
-                      to="/store/$slug"
-                      params={{ slug: e.store }}
+                      to="/shop"
+                      search={{ q: "", category: "", department: "", view: "sale", store: e.store }}
                       className="group rounded-lg border bg-card p-5 transition-colors hover:border-clay"
                     >
                       <div className="flex items-center gap-3">

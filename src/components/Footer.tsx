@@ -38,7 +38,6 @@ export function Footer() {
             <li><Link to="/flash-deals" className="hover:text-clay">Flash Deals</Link></li>
             <li><Link to="/brands" className="hover:text-clay">All Brands</Link></li>
             <li><Link to="/guides" className="hover:text-clay">Shopping Guides</Link></li>
-            <li><Link to="/admin" className="hover:text-clay">Admin Dashboard</Link></li>
           </ul>
         </div>
 

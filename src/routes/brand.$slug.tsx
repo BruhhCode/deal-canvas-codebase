@@ -18,10 +18,10 @@ export const Route = createFileRoute("/brand/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Brand not found | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Brand not found | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const { brand } = loaderData;
-    const title = `${brand.name} Deals, Coupons & Offers — Save Today | DealCanvas`;
+    const title = `${brand.name} Deals, Coupons & Offers — Save Today | DealsCanvas`;
     const description = `Live ${brand.name} deals, discount codes and current sales, verified daily. ${brand.description}`;
     return {
       meta: [

@@ -9,13 +9,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/sales-calendar")({
   head: () => ({
     meta: [
-      { title: "Sales Calendar — Live & Upcoming Store Sales | DealCanvas" },
+      { title: "Sales Calendar — Live & Upcoming Store Sales | DealsCanvas" },
       {
         name: "description",
         content:
           "See which fashion and lifestyle sales are live today, starting tomorrow or landing this month across Nike, Adidas, Nordstrom, Revolve, Zara, Ulta Beauty and more.",
       },
-      { property: "og:title", content: "Sales Calendar | DealCanvas" },
+      { property: "og:title", content: "Sales Calendar | DealsCanvas" },
       { property: "og:description", content: "Plan your shopping around every upcoming sale window." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

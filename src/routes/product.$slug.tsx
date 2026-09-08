@@ -29,7 +29,7 @@ export const Route = createFileRoute("/product/$slug")({
   },
   head: ({ loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Product unavailable | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Product unavailable | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const p = loaderData.product;
     const best = bestOffer(p);
@@ -184,7 +184,7 @@ function ProductPage() {
             <p className="mt-2">
               Prices come from merchant feeds and are refreshed through the day. We show the cheapest
               in-stock listing first and mark stores that have run out. Clicking through supports
-              DealCanvas through affiliate commission — it never changes your price.
+              DealsCanvas through affiliate commission — it never changes your price.
             </p>
           </div>
         </div>

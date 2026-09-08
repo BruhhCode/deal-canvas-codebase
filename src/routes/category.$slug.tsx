@@ -14,10 +14,10 @@ export const Route = createFileRoute("/category/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Category not found | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Category not found | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const { category } = loaderData;
-    const title = `${category.name} Deals & Discounts — Today's Best Offers | DealCanvas`;
+    const title = `${category.name} Deals & Discounts — Today's Best Offers | DealsCanvas`;
     const description = `${category.tagline} Compare live ${category.name.toLowerCase()} deals, coupons and sales from top brands, updated daily.`;
     return {
       meta: [

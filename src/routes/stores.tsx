@@ -8,13 +8,13 @@ import { productsByStore } from "@/data/products";
 export const Route = createFileRoute("/stores")({
   head: () => ({
     meta: [
-      { title: "All Stores We Track — Compare Prices | DealCanvas" },
+      { title: "All Stores We Track — Compare Prices | DealsCanvas" },
       {
         name: "description",
         content:
-          "Browse every retailer DealCanvas tracks — Nordstrom, Revolve, Nike, Adidas, Amazon Fashion, Ulta Beauty, Zara and more — with live product counts and store-wide offers.",
+          "Browse every retailer DealsCanvas tracks — Nordstrom, Revolve, Nike, Adidas, Amazon Fashion, Ulta Beauty, Zara and more — with live product counts and store-wide offers.",
       },
-      { property: "og:title", content: "All Stores | DealCanvas" },
+      { property: "og:title", content: "All Stores | DealsCanvas" },
       { property: "og:description", content: "Every store we compare prices across, in one directory." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

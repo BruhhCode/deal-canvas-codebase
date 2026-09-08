@@ -13,12 +13,12 @@ export const Route = createFileRoute("/guides/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Guide not found | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Guide not found | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const { guide } = loaderData;
     return {
       meta: [
-        { title: `${guide.title} | DealCanvas` },
+        { title: `${guide.title} | DealsCanvas` },
         { name: "description", content: guide.excerpt },
         { property: "og:title", content: guide.title },
         { property: "og:description", content: guide.excerpt },
@@ -35,7 +35,7 @@ export const Route = createFileRoute("/guides/$slug")({
             headline: guide.title,
             description: guide.excerpt,
             datePublished: guide.published,
-            author: { "@type": "Organization", name: "DealCanvas" },
+            author: { "@type": "Organization", name: "DealsCanvas" },
           }),
         },
         {

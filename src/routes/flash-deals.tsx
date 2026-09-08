@@ -9,9 +9,9 @@ import { productsAsDeals } from "@/data/deal-products";
 export const Route = createFileRoute("/flash-deals")({
   head: () => ({
     meta: [
-      { title: "Flash Deals — Limited Time Fashion Offers | DealCanvas" },
+      { title: "Flash Deals — Limited Time Fashion Offers | DealsCanvas" },
       { name: "description", content: "Short-window flash sales, midnight deals and 24-hour offers with live countdown timers." },
-      { property: "og:title", content: "Flash Deals | DealCanvas" },
+      { property: "og:title", content: "Flash Deals | DealsCanvas" },
       { property: "og:description", content: "Limited-time offers ending within hours." },
       { property: "og:url", content: "/flash-deals" },
     ],

@@ -7,13 +7,13 @@ import { coupons } from "@/data/catalog";
 export const Route = createFileRoute("/coupons")({
   head: () => ({
     meta: [
-      { title: "Coupons & Promo Codes — Verified Fashion Discount Codes | DealCanvas" },
+      { title: "Coupons & Promo Codes — Verified Fashion Discount Codes | DealsCanvas" },
       {
         name: "description",
         content:
           "Working coupons and promo codes for Nordstrom, Nike, Revolve, Zara, Ulta Beauty, Levi's and more. Reveal the code, copy it and shop the discount.",
       },
-      { property: "og:title", content: "Coupons & Promo Codes | DealCanvas" },
+      { property: "og:title", content: "Coupons & Promo Codes | DealsCanvas" },
       { property: "og:description", content: "Verified discount codes from top fashion brands." },
       { property: "og:url", content: "/coupons" },
     ],

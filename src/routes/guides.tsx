@@ -5,13 +5,13 @@ import { guides } from "@/data/catalog";
 export const Route = createFileRoute("/guides")({
   head: () => ({
     meta: [
-      { title: "Shopping Guides — What to Buy and When | DealCanvas" },
+      { title: "Shopping Guides — What to Buy and When | DealsCanvas" },
       {
         name: "description",
         content:
           "Editor-written shopping guides on the best sneakers, fashion sales, beauty bundles and luxury discounts — each linked to live, verified deals.",
       },
-      { property: "og:title", content: "Shopping Guides | DealCanvas" },
+      { property: "og:title", content: "Shopping Guides | DealsCanvas" },
       { property: "og:description", content: "What to buy, when to buy it, and where it's cheapest." },
       { property: "og:url", content: "/guides" },
     ],

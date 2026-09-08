@@ -8,13 +8,13 @@ import { useCurrency } from "@/lib/currency";
 export const Route = createFileRoute("/deals")({
   head: () => ({
     meta: [
-      { title: "All Deals — Fashion, Beauty & Lifestyle Offers | DealCanvas" },
+      { title: "All Deals — Fashion, Beauty & Lifestyle Offers | DealsCanvas" },
       {
         name: "description",
         content:
           "Browse every live fashion, beauty, shoes, accessories, lifestyle and travel deal. Filter by brand, category, discount and deal type.",
       },
-      { property: "og:title", content: "All Deals | DealCanvas" },
+      { property: "og:title", content: "All Deals | DealsCanvas" },
       { property: "og:description", content: "Every live deal, filterable by brand and discount." },
       { property: "og:url", content: "/deals" },
     ],

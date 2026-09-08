@@ -23,10 +23,10 @@ export const Route = createFileRoute("/deal/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Deal not found | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Deal not found | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const { deal } = loaderData;
-    const title = `${deal.title} | DealCanvas`;
+    const title = `${deal.title} | DealsCanvas`;
     const description = `${brandName(deal.brand)} ${deal.product} at ${formatUsd(deal.price)} (was ${formatUsd(
       deal.originalPrice,
     )}) — ${discountPct(deal)}% off.${deal.code ? ` Use code ${deal.code}.` : ""}`;

@@ -59,7 +59,7 @@ export function Header() {
         </button>
 
         <Link to="/" className="font-serif text-xl tracking-tight md:text-2xl">
-          Deal<span className="text-clay">Canvas</span>
+          Deals<span className="text-clay">Canvas</span>
         </Link>
 
         <div className="ml-auto flex items-center gap-4">

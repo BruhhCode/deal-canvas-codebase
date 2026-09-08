@@ -8,13 +8,13 @@ import { brands } from "@/data/catalog";
 export const Route = createFileRoute("/brands")({
   head: () => ({
     meta: [
-      { title: "All Brands — Browse Fashion & Lifestyle Stores A–Z | DealCanvas" },
+      { title: "All Brands — Browse Fashion & Lifestyle Stores A–Z | DealsCanvas" },
       {
         name: "description",
         content:
           "Browse every brand we track alphabetically, from Adidas and Asos to Zara. Each brand page lists live deals, coupons and current sales.",
       },
-      { property: "og:title", content: "All Brands A–Z | DealCanvas" },
+      { property: "og:title", content: "All Brands A–Z | DealsCanvas" },
       { property: "og:description", content: "Every store we track, with live deals and coupons." },
       { property: "og:url", content: "/brands" },
     ],

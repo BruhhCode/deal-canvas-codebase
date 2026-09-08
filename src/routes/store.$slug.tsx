@@ -21,10 +21,10 @@ export const Route = createFileRoute("/store/$slug")({
   },
   head: ({ loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Store unavailable | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Store unavailable | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const s = loaderData.store;
-    const title = `${s.name} Deals, Offers & Price Comparison | DealCanvas`;
+    const title = `${s.name} Deals, Offers & Price Comparison | DealsCanvas`;
     const description = `${s.description} Compare ${s.name} prices against every other store we track and shop the lowest current price.`;
     return {
       meta: [

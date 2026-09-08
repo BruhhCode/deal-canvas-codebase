@@ -9,7 +9,7 @@ import { useWishlist } from "@/components/WishlistButton";
 export const Route = createFileRoute("/account")({
   head: () => ({
     meta: [
-      { title: "My Account — Saved Deals & Wishlist | DealCanvas" },
+      { title: "My Account — Saved Deals & Wishlist | DealsCanvas" },
       { name: "description", content: "Your saved deals, favourite brands and newsletter preferences." },
       { name: "robots", content: "noindex, nofollow" },
     ],

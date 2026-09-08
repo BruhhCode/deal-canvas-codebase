@@ -40,13 +40,13 @@ export const Route = createFileRoute("/shop")({
   loader: () => ({ seed: `${Date.now()}-${Math.random()}` }),
   head: () => ({
     meta: [
-      { title: "Shop & Compare Fashion Products Across Stores | DealCanvas" },
+      { title: "Shop & Compare Fashion Products Across Stores | DealsCanvas" },
       {
         name: "description",
         content:
           "Search thousands of fashion, beauty and lifestyle products, compare live prices across Nordstrom, Revolve, Nike, Adidas, Amazon and more, and shop at the lowest price.",
       },
-      { property: "og:title", content: "Shop & Compare | DealCanvas" },
+      { property: "og:title", content: "Shop & Compare | DealsCanvas" },
       { property: "og:description", content: "One search. Every store. The best current price." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

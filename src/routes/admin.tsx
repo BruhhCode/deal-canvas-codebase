@@ -18,7 +18,7 @@ import { useCurrency } from "@/lib/currency";
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "Deal Management Dashboard | DealCanvas Admin" },
+      { title: "Deal Management Dashboard | DealsCanvas Admin" },
       { name: "description", content: "Internal dashboard for managing deals, coupons, affiliate tracking and performance analytics." },
       { name: "robots", content: "noindex, nofollow" },
     ],

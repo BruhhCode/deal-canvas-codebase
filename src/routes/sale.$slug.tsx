@@ -12,10 +12,10 @@ export const Route = createFileRoute("/sale/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Sale not found | DealCanvas" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Sale not found | DealsCanvas" }, { name: "robots", content: "noindex" }] };
     }
     const { sale } = loaderData;
-    const title = `${sale.name} — Best Offers Across Brands | DealCanvas`;
+    const title = `${sale.name} — Best Offers Across Brands | DealsCanvas`;
     return {
       meta: [
         { title },

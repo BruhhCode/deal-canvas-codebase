@@ -1,4 +1,4 @@
-import { brandName } from "./catalog";
+import { brandName, brandUrl } from "./catalog";
 import { stores, storeName } from "./stores";
 import { generatedProducts } from "./products.generated";
 
@@ -280,6 +280,7 @@ export const allSizes = Array.from(new Set(products.flatMap((p) => p.sizes))).so
 export function offerAffiliateUrl(product: Product, offer: Offer) {
   const store = stores.find((s) => s.slug === offer.store);
   try {
+    if (!offer.productUrl) throw new Error("no product url");
     const target = new URL(offer.productUrl);
     target.searchParams.set("utm_source", "dealcanvas");
     target.searchParams.set("utm_medium", "affiliate");
@@ -287,7 +288,8 @@ export function offerAffiliateUrl(product: Product, offer: Offer) {
     target.searchParams.set("dc_click", `${product.id}-${offer.store}`);
     return target.toString();
   } catch {
-    return offer.productUrl;
+    // Dead or malformed link — send shoppers to the brand's real homepage instead of a broken page.
+    return brandUrl(product.brand);
   }
 }
 

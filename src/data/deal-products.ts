@@ -7,7 +7,7 @@
  * real products for sections (like Flash Deals) that need more inventory
  * than the hand-written seed list provides.
  */
-import { brandName, type Badge, type Deal } from "./catalog";
+import { brandName, brandUrl, type Badge, type Deal } from "./catalog";
 import { stores } from "./stores";
 import { bestOffer, productDiscount, products, type Product } from "./products";
 import { seededShuffle } from "@/lib/seeded-shuffle";
@@ -34,6 +34,7 @@ function dealMerchantUrl(deal: Deal): string {
 export function dealAffiliateUrl(deal: Deal): string {
   const merchantUrl = dealMerchantUrl(deal);
   try {
+    if (!merchantUrl) throw new Error("no merchant url");
     const target = new URL(merchantUrl);
     target.searchParams.set("utm_source", "dealcanvas");
     target.searchParams.set("utm_medium", "affiliate");
@@ -41,7 +42,8 @@ export function dealAffiliateUrl(deal: Deal): string {
     target.searchParams.set("dc_click", deal.id);
     return target.toString();
   } catch {
-    return merchantUrl;
+    // Dead or malformed link — send shoppers to the brand's real homepage instead of a broken page.
+    return brandUrl(deal.brand);
   }
 }
 

@@ -3,7 +3,6 @@ import catBeauty from "@/assets/cat-beauty.jpg";
 import catShoes from "@/assets/cat-shoes.jpg";
 import catAccessories from "@/assets/cat-accessories.jpg";
 import catLifestyle from "@/assets/cat-lifestyle.jpg";
-import catTravel from "@/assets/cat-travel.jpg";
 
 export type DealStatus = "ACTIVE" | "UPCOMING" | "EXPIRED" | "SOLD OUT" | "PAUSED";
 
@@ -133,13 +132,6 @@ export const categories: Category[] = [
     image: catLifestyle,
     children: ["Home", "Fitness", "Gadgets", "Experiences", "Food"],
   },
-  {
-    slug: "travel",
-    name: "Travel",
-    tagline: "Flights, stays, luggage and holiday offers.",
-    image: catTravel,
-    children: ["Flights", "Hotels", "Luggage", "Holidays"],
-  },
 ];
 
 export const brands: Brand[] = [
@@ -160,7 +152,7 @@ export const brands: Brand[] = [
   { slug: "burberry", name: "Burberry", category: "Luxury", network: "Awin", description: "British luxury house known for trench coats, check scarves and outerwear." },
   { slug: "armani", name: "Armani", category: "Luxury", network: "Awin", description: "Italian luxury tailoring, watches and fragrance." },
   { slug: "decathlon", name: "Decathlon", category: "Lifestyle", network: "Admitad", description: "Sports and fitness gear at accessible prices across 60+ in-house brands." },
-  { slug: "expedia", name: "Expedia", category: "Travel", network: "Admitad", description: "Flights, hotels and holiday packages with frequent member-price discounting." },
+  { slug: "expedia", name: "Expedia", category: "Lifestyle", network: "Admitad", description: "Flights, hotels and holiday packages with frequent member-price discounting." },
   { slug: "mango", name: "Mango", category: "Fashion", network: "Impact", featured: true, description: "Mediterranean-inspired womenswear and tailoring with frequent capsule-collection markdowns." },
   { slug: "uniqlo", name: "Uniqlo", category: "Fashion", network: "Awin", featured: true, description: "Japanese basics and technical essentials like Heattech and Airism, often bundled in seasonal sales." },
   { slug: "columbia", name: "Columbia", category: "Lifestyle", network: "CJ Affiliate", description: "Outdoor and performance wear built for hiking, cold weather and trail use." },
@@ -223,8 +215,8 @@ export const brands: Brand[] = [
   { slug: "harrods", name: "Harrods", category: "Shopping", network: "Admitad", description: "London luxury department store carrying fashion, beauty and homeware." },
 
   // travel / luggage
-  { slug: "samsonite", name: "Samsonite", category: "Travel", network: "CJ Affiliate", description: "Hard-case and soft-case luggage brand built for frequent travelers." },
-  { slug: "tumi", name: "TUMI", category: "Travel", network: "Admitad", description: "Premium travel and business bags known for durability and lifetime warranty repairs." },
+  { slug: "samsonite", name: "Samsonite", category: "Lifestyle", network: "CJ Affiliate", description: "Hard-case and soft-case luggage brand built for frequent travelers." },
+  { slug: "tumi", name: "TUMI", category: "Lifestyle", network: "Admitad", description: "Premium travel and business bags known for durability and lifetime warranty repairs." },
 
   // kids
   { slug: "carters", name: "Carter's", category: "Fashion", network: "Awin", description: "Baby and young children's clothing brand known for everyday basics and sleepwear." },
@@ -466,7 +458,7 @@ const seeds: Seed[] = [
   { t: "Burberry Check Scarf — Members Only Price", p: "Classic Check Cashmere Scarf", b: "burberry", c: "accessories", op: 42000, np: 33600, type: "Exclusive Offer", badges: ["EXCLUSIVE", "LIMITED TIME"], h: 26, tags: ["luxury", "scarf"], clicks: 640 },
   { t: "Bata Formal Shoes Starting $16", p: "Leather Derby Shoes", b: "bata", c: "shoes", sub: "Formal", op: 2599, np: 1299, code: "BATA50", type: "Coupon Deal", badges: ["COUPON", "BEST PRICE"], h: 110, tags: ["formal", "men", "under-3000"], clicks: 1560 },
   { t: "Decathlon Fitness Gear — Flat 30% Off", p: "Home Gym Essentials", b: "decathlon", c: "lifestyle", sub: "Fitness", op: 4499, np: 3149, type: "Store Sale", badges: ["BEST PRICE"], h: 140, tags: ["fitness", "home"], clicks: 1105 },
-  { t: "Expedia Hotel Bookings — Extra 20% Off", p: "US Hotel Bookings", b: "expedia", c: "travel", sub: "Hotels", op: 10000, np: 8000, code: "STAY20", type: "Coupon Deal", badges: ["COUPON"], h: 300, tags: ["travel", "hotels"], clicks: 2044 },
+  { t: "Expedia Hotel Bookings — Extra 20% Off", p: "US Hotel Bookings", b: "expedia", c: "lifestyle", sub: "Hotels", op: 10000, np: 8000, code: "STAY20", type: "Coupon Deal", badges: ["COUPON"], h: 300, tags: ["travel", "hotels"], clicks: 2044 },
   { t: "Amazon Lightning Deal — Fashion Under $12", p: "Fashion Under $12 Store", b: "amazon", c: "fashion", op: 1999, np: 899, type: "Flash Sale", badges: ["FLASH SALE"], h: 5, tags: ["flash", "budget"], flash: true, clicks: 6033 },
   { t: "Nike Dri-FIT Training Tees — 2 for $36", p: "Dri-FIT Training Tee", b: "nike", c: "fashion", sub: "Men's Fashion", op: 4598, np: 2999, type: "Bundle Offer", badges: ["BEST PRICE"], h: 72, tags: ["activewear", "men"], clicks: 1732 },
   { t: "Adidas Originals Track Jacket 50% Off", p: "Firebird Track Jacket", b: "adidas", c: "fashion", sub: "Streetwear", op: 5999, np: 2999, code: "TRACK50", type: "Coupon Deal", badges: ["COUPON", "HOT DEAL"], h: 22, tags: ["streetwear", "jacket"], flash: true, clicks: 2870 },
@@ -479,9 +471,9 @@ const seeds: Seed[] = [
   { t: "Sephora Fragrance Week — 20% Off Sitewide", p: "Fragrance Week", b: "sephora", c: "beauty", sub: "Fragrances", op: 5999, np: 4799, code: "SCENT20", type: "Seasonal Sale", badges: ["COUPON", "LIMITED TIME"], h: 12, tags: ["fragrance"], flash: true, clicks: 1610 },
   { t: "Ulta Haircare Bundles — Flat 40% Off", p: "Haircare Repair Bundle", b: "ulta", c: "beauty", sub: "Haircare", op: 2499, np: 1499, type: "Bundle Offer", badges: ["BEST PRICE"], h: 100, tags: ["haircare"], clicks: 930 },
   { t: "Charles & Keith Sale Footwear Extra 20% Off", p: "Sale Heels & Loafers", b: "charles-keith", c: "shoes", sub: "Heels", op: 5499, np: 3299, code: "CK20", type: "Coupon Deal", badges: ["COUPON"], h: 34, tags: ["heels", "women"], clicks: 1044 },
-  { t: "Decathlon Travel Backpacks From $18", p: "40L Travel Backpack", b: "decathlon", c: "travel", sub: "Luggage", op: 2999, np: 1499, type: "Store Sale", badges: ["BEST PRICE"], h: 190, tags: ["travel", "luggage"], clicks: 860 },
+  { t: "Decathlon Travel Backpacks From $18", p: "40L Travel Backpack", b: "decathlon", c: "lifestyle", sub: "Luggage", op: 2999, np: 1499, type: "Store Sale", badges: ["BEST PRICE"], h: 190, tags: ["travel", "luggage"], clicks: 860 },
   { t: "Amazon Fashion Festival — Partner Offer", p: "Fashion Festival Store", b: "amazon", c: "fashion", op: 4999, np: 2499, type: "Sponsored", badges: ["SPONSORED", "HOT DEAL"], h: 58, tags: ["festival", "sale"], sponsored: true, featured: true, clicks: 5309 },
-  { t: "Expedia Flight Sale — Flat $18 Off", p: "US Domestic Flights", b: "expedia", c: "travel", sub: "Flights", op: 6500, np: 5000, code: "FLY1500", type: "Coupon Deal", badges: ["COUPON"], h: 250, tags: ["flights", "travel"], clicks: 1780 },
+  { t: "Expedia Flight Sale — Flat $18 Off", p: "US Domestic Flights", b: "expedia", c: "lifestyle", sub: "Flights", op: 6500, np: 5000, code: "FLY1500", type: "Coupon Deal", badges: ["COUPON"], h: 250, tags: ["flights", "travel"], clicks: 1780 },
   { t: "Nike Pegasus 40 — Holiday Sale Price", p: "Pegasus 40", b: "nike", c: "shoes", sub: "Running", op: 11999, np: 7799, type: "Holiday Offer", badges: ["LIMITED TIME"], h: -20, status: "EXPIRED", tags: ["running", "holiday"], clicks: 3311 },
   { t: "Zara Winter Coats — Early Access", p: "Wool Blend Coat", b: "zara", c: "fashion", sub: "Women's Fashion", op: 9999, np: 6999, type: "Upcoming Sale", badges: ["EXCLUSIVE"], h: 400, status: "UPCOMING", tags: ["winter", "coats"], clicks: 210 },
   { t: "Burberry Trench Coat Archive Sale", p: "Kensington Trench Coat", b: "burberry", c: "fashion", sub: "Luxury Fashion", op: 185000, np: 129500, type: "Clearance", badges: ["EXCLUSIVE"], h: -60, status: "EXPIRED", tags: ["luxury", "outerwear"], clicks: 540 },
@@ -654,7 +646,6 @@ export const trendingSearches = [
   "Men's Clothing Sale",
   "Luxury Discounts",
   "Beauty Offers",
-  "Travel Deals",
   "Zara End of Season",
   "Nordstrom Coupons",
   "Watches Under $120",

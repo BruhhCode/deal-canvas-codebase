@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, ImageOff } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function ProductGallery({
-  images,
+  images: rawImages,
   alt,
   badge,
 }: {
@@ -11,10 +11,20 @@ export function ProductGallery({
   alt: string;
   badge?: React.ReactNode;
 }) {
+  const images = rawImages.filter(Boolean);
   const [active, setActive] = useState(0);
   const current = Math.min(active, images.length - 1);
 
   const go = (delta: number) => setActive((i) => (i + delta + images.length) % images.length);
+
+  if (!images.length) {
+    return (
+      <div className="relative flex aspect-square items-center justify-center rounded-lg bg-cream text-muted-foreground/50">
+        <ImageOff className="h-10 w-10" />
+        {badge}
+      </div>
+    );
+  }
 
   return (
     <div className="flex gap-3">

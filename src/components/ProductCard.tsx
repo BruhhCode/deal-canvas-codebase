@@ -13,6 +13,7 @@ import {
 import { WishlistButton } from "./WishlistButton";
 import { StoreMark } from "./StoreMark";
 import { BrandMark } from "./BrandMark";
+import { ProductImage } from "./ProductImage";
 
 export function ProductCard({ product, className }: { product: Product; className?: string }) {
   const offer = bestOffer(product);
@@ -33,12 +34,9 @@ export function ProductCard({ product, className }: { product: Product; classNam
         params={{ slug: product.slug }}
         className="relative block aspect-square overflow-hidden rounded-lg bg-cream"
       >
-        <img
+        <ProductImage
           src={product.image}
           alt={`${brandName(product.brand)} ${product.name}`}
-          loading="lazy"
-          width={900}
-          height={900}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
         />
         {discount >= 20 ? (

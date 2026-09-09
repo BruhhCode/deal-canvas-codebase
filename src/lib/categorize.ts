@@ -43,7 +43,7 @@ export function canonicalCategory(input: {
   if (/\bwatch/.test(text)) return isMen ? "mens-watches" : "watches";
   if (/fragrance|perfume|cologne/.test(text)) return isMen ? "grooming" : "beauty";
   if (/makeup|skincare|hair\s*care|\bbeauty\b/.test(text)) return isMen ? "grooming" : "beauty";
-  if (/luggage|suitcase|\btravel\b/.test(text)) return "travel";
+  if (/luggage|suitcase|\btravel\b/.test(text)) return "lifestyle-accessories";
   if (/fitness|gym equipment/.test(text)) return "fitness";
   if (/\bbag|handbag|backpack|\btote|crossbody|wallet|clutch/.test(text)) return isMen ? "mens-bags" : "bags";
   if (FOOTWEAR.test(text)) return isMen ? "mens-shoes" : "shoes";

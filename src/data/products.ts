@@ -38,7 +38,6 @@ export const shopCategories: ShopCategory[] = [
   { slug: "home", name: "Home", department: "lifestyle" },
   { slug: "electronics", name: "Electronics", department: "lifestyle" },
   { slug: "fitness", name: "Fitness", department: "lifestyle" },
-  { slug: "travel", name: "Travel", department: "lifestyle" },
   { slug: "beauty-lifestyle", name: "Beauty", department: "lifestyle" },
   { slug: "lifestyle-accessories", name: "Lifestyle Accessories", department: "lifestyle" },
 ];

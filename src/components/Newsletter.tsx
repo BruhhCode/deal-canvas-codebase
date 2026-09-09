@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { toast } from "sonner";
 
-const segments = ["Fashion", "Beauty", "Lifestyle", "Travel", "Deals", "Coupons"];
+const segments = ["Fashion", "Beauty", "Lifestyle", "Deals", "Coupons"];
 
 export function Newsletter() {
   const [email, setEmail] = useState("");

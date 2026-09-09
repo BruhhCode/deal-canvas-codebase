@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Discover today's best fashion, beauty, lifestyle and travel deals, coupons and promo codes from the brands you love — all in one place.",
+          "Discover today's best fashion, beauty and lifestyle deals, coupons and promo codes from the brands you love — all in one place.",
       },
       { property: "og:site_name", content: "DealsCanvas" },
       { property: "og:type", content: "website" },

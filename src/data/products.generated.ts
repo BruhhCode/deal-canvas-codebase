@@ -13,7 +13,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Nordstrom Nordstrom Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-1-classic-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -26,8 +26,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 451520,
-        originalPrice: 564400,
+        price: 66400,
+        originalPrice: 83000,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-1-classic-blazer",
@@ -46,7 +46,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Nordstrom Nordstrom Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-2-relaxed-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -59,8 +59,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 435750,
-        originalPrice: 871500,
+        price: 79680,
+        originalPrice: 159360,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-2-relaxed-shirt-dress",
@@ -79,7 +79,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "Nordstrom Nordstrom Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-3-slim-fit-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -94,8 +94,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 906360,
-        originalPrice: 1510600,
+        price: 74700,
+        originalPrice: 124500,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-3-slim-fit-denim-jacket",
@@ -114,7 +114,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "Nordstrom Nordstrom Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-4-oversized-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -127,8 +127,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 705500,
-        originalPrice: 1411000,
+        price: 141100,
+        originalPrice: 282200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-4-oversized-knit-sweater",
@@ -147,7 +147,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "Nordstrom Nordstrom Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-5-tailored-trench-coat/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -162,8 +162,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 423300,
-        originalPrice: 564400,
+        price: 78020,
+        originalPrice: 104027,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-5-tailored-trench-coat",
@@ -182,7 +182,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "unisex",
     description: "Nordstrom Nordstrom Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-6-classic-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -195,8 +195,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 578510,
-        originalPrice: 680600,
+        price: 81340,
+        originalPrice: 95694,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-6-classic-midi-dress",
@@ -215,7 +215,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "women",
     description: "Nordstrom Nordstrom Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-7-relaxed-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -228,8 +228,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 1195200,
-        originalPrice: 1593600,
+        price: 73040,
+        originalPrice: 97387,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-7-relaxed-blazer",
@@ -248,7 +248,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "Nordstrom Nordstrom Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-8-slim-fit-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -261,8 +261,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 975250,
-        originalPrice: 1950500,
+        price: 89640,
+        originalPrice: 179280,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-8-slim-fit-shirt-dress",
@@ -281,7 +281,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "unisex",
     description: "Nordstrom Nordstrom Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-9-oversized-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -296,8 +296,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 964875,
-        originalPrice: 1286500,
+        price: 157700,
+        originalPrice: 210267,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-9-oversized-denim-jacket",
@@ -316,7 +316,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "women",
     description: "Nordstrom Nordstrom Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-10-tailored-knit-sweater/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -331,8 +331,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 585565,
-        originalPrice: 688900,
+        price: 69720,
+        originalPrice: 82024,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-10-tailored-knit-sweater",
@@ -351,7 +351,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "men",
     description: "Nordstrom Nordstrom Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-11-classic-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -364,8 +364,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 460650,
-        originalPrice: 614200,
+        price: 146080,
+        originalPrice: 194773,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-11-classic-trench-coat",
@@ -384,7 +384,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "unisex",
     description: "Nordstrom Nordstrom Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-12-relaxed-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -397,8 +397,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 604157,
-        originalPrice: 863200,
+        price: 87980,
+        originalPrice: 125703,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-12-relaxed-midi-dress",
@@ -417,7 +417,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "women",
     description: "Nordstrom Nordstrom Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-13-slim-fit-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -430,8 +430,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 593450,
-        originalPrice: 913000,
+        price: 126160,
+        originalPrice: 194092,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-13-slim-fit-blazer",
@@ -450,7 +450,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "Nordstrom Nordstrom Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-14-oversized-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -463,8 +463,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 1155360,
-        originalPrice: 1925600,
+        price: 84660,
+        originalPrice: 141100,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-14-oversized-shirt-dress",
@@ -483,7 +483,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "unisex",
     description: "Nordstrom Nordstrom Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-15-tailored-denim-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -498,8 +498,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 1101825,
-        originalPrice: 1469100,
+        price: 137780,
+        originalPrice: 183707,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-15-tailored-denim-jacket",
@@ -518,7 +518,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Nordstrom Nordstrom Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-16-classic-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -531,8 +531,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 647400,
-        originalPrice: 1294800,
+        price: 66400,
+        originalPrice: 132800,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-16-classic-knit-sweater",
@@ -551,7 +551,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Nordstrom Nordstrom Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-17-relaxed-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -564,8 +564,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 954085,
-        originalPrice: 1734700,
+        price: 71380,
+        originalPrice: 129782,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-17-relaxed-trench-coat",
@@ -584,7 +584,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "Nordstrom Nordstrom Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-18-slim-fit-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -597,8 +597,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 1269900,
-        originalPrice: 1693200,
+        price: 69720,
+        originalPrice: 92960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-18-slim-fit-midi-dress",
@@ -617,7 +617,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "Nordstrom Nordstrom Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-19-oversized-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -630,8 +630,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 1495660,
-        originalPrice: 1759600,
+        price: 79680,
+        originalPrice: 93741,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-19-oversized-blazer",
@@ -650,7 +650,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "Nordstrom Nordstrom Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/nordstrom-20-tailored-shirt-dress/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -665,8 +665,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "nordstrom",
-        price: 705500,
-        originalPrice: 830000,
+        price: 66400,
+        originalPrice: 78118,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.nordstrom.com/p/nordstrom-20-tailored-shirt-dress",
@@ -685,7 +685,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Revolve Revolve Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-1-classic-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -698,8 +698,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 554025,
-        originalPrice: 738700,
+        price: 106240,
+        originalPrice: 141653,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-1-classic-blazer",
@@ -718,7 +718,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Revolve Revolve Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-2-relaxed-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -731,8 +731,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 1613520,
-        originalPrice: 2016900,
+        price: 144420,
+        originalPrice: 180525,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-2-relaxed-shirt-dress",
@@ -751,7 +751,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "Revolve Revolve Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-3-slim-fit-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -766,8 +766,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 610050,
-        originalPrice: 1220100,
+        price: 69720,
+        originalPrice: 139440,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-3-slim-fit-denim-jacket",
@@ -786,7 +786,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "Revolve Revolve Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-4-oversized-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -799,8 +799,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 529125,
-        originalPrice: 622500,
+        price: 144420,
+        originalPrice: 169906,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-4-oversized-knit-sweater",
@@ -819,7 +819,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "Revolve Revolve Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-5-tailored-trench-coat/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -834,8 +834,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 924205,
-        originalPrice: 1087300,
+        price: 149400,
+        originalPrice: 175765,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-5-tailored-trench-coat",
@@ -854,7 +854,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "unisex",
     description: "Revolve Revolve Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-6-classic-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -867,8 +867,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 854900,
-        originalPrice: 1709800,
+        price: 87980,
+        originalPrice: 175960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-6-classic-midi-dress",
@@ -887,7 +887,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "women",
     description: "Revolve Revolve Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-7-relaxed-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -900,8 +900,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 253150,
-        originalPrice: 506300,
+        price: 121180,
+        originalPrice: 242360,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-7-relaxed-blazer",
@@ -920,7 +920,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "Revolve Revolve Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-8-slim-fit-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -933,8 +933,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 1196777,
-        originalPrice: 1709800,
+        price: 117860,
+        originalPrice: 168383,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-8-slim-fit-shirt-dress",
@@ -953,7 +953,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "unisex",
     description: "Revolve Revolve Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-9-oversized-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -968,8 +968,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 780200,
-        originalPrice: 1560400,
+        price: 94620,
+        originalPrice: 189240,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-9-oversized-denim-jacket",
@@ -988,7 +988,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "women",
     description: "Revolve Revolve Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-10-tailored-knit-sweater/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -1003,8 +1003,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 652795,
-        originalPrice: 1004300,
+        price: 117860,
+        originalPrice: 181323,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.revolve.com/p/revolve-10-tailored-knit-sweater",
@@ -1023,7 +1023,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "men",
     description: "Revolve Revolve Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-11-classic-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1036,8 +1036,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 439900,
-        originalPrice: 879800,
+        price: 94620,
+        originalPrice: 189240,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-11-classic-trench-coat",
@@ -1056,7 +1056,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "unisex",
     description: "Revolve Revolve Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-12-relaxed-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1069,8 +1069,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 365200,
-        originalPrice: 664000,
+        price: 107900,
+        originalPrice: 196182,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-12-relaxed-midi-dress",
@@ -1089,7 +1089,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "women",
     description: "Revolve Revolve Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-13-slim-fit-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1102,8 +1102,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 371840,
-        originalPrice: 531200,
+        price: 106240,
+        originalPrice: 151771,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-13-slim-fit-blazer",
@@ -1122,7 +1122,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "Revolve Revolve Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-14-oversized-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1135,8 +1135,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 593450,
-        originalPrice: 913000,
+        price: 146080,
+        originalPrice: 224738,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-14-oversized-shirt-dress",
@@ -1155,7 +1155,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "unisex",
     description: "Revolve Revolve Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-15-tailored-denim-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -1170,8 +1170,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 453180,
-        originalPrice: 755300,
+        price: 166000,
+        originalPrice: 276667,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-15-tailored-denim-jacket",
@@ -1190,7 +1190,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Revolve Revolve Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-16-classic-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1203,8 +1203,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 352750,
-        originalPrice: 705500,
+        price: 162680,
+        originalPrice: 325360,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-16-classic-knit-sweater",
@@ -1223,7 +1223,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Revolve Revolve Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-17-relaxed-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1236,8 +1236,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 324115,
-        originalPrice: 589300,
+        price: 101260,
+        originalPrice: 184109,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.revolve.com/p/revolve-17-relaxed-trench-coat",
@@ -1256,7 +1256,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "Revolve Revolve Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-18-slim-fit-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1269,8 +1269,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 540330,
-        originalPrice: 771900,
+        price: 87980,
+        originalPrice: 125686,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-18-slim-fit-midi-dress",
@@ -1289,7 +1289,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "Revolve Revolve Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-19-oversized-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1302,8 +1302,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 826265,
-        originalPrice: 1502300,
+        price: 151060,
+        originalPrice: 274655,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-19-oversized-blazer",
@@ -1322,7 +1322,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "Revolve Revolve Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/revolve-20-tailored-shirt-dress/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -1337,8 +1337,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "revolve",
-        price: 517920,
-        originalPrice: 863200,
+        price: 142760,
+        originalPrice: 237933,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.revolve.com/p/revolve-20-tailored-shirt-dress",
@@ -1357,7 +1357,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Amazon Fashion Amazon Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-1-classic-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1370,8 +1370,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "amazon",
-        price: 169320,
-        originalPrice: 282200,
+        price: 134460,
+        originalPrice: 224100,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.amazon.com/p/amazon-1-classic-blazer",
@@ -1390,7 +1390,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Amazon Fashion Amazon Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-2-relaxed-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1423,7 +1423,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "Amazon Fashion Amazon Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-3-slim-fit-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -1458,7 +1458,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "Amazon Fashion Amazon Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-4-oversized-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1491,7 +1491,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "Amazon Fashion Amazon Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-5-tailored-trench-coat/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -1526,7 +1526,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "unisex",
     description: "Amazon Fashion Amazon Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-6-classic-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1559,7 +1559,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "women",
     description: "Amazon Fashion Amazon Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-7-relaxed-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1592,7 +1592,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "Amazon Fashion Amazon Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-8-slim-fit-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1625,7 +1625,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "unisex",
     description: "Amazon Fashion Amazon Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-9-oversized-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -1660,7 +1660,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "women",
     description: "Amazon Fashion Amazon Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-10-tailored-knit-sweater/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -1695,7 +1695,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "men",
     description: "Amazon Fashion Amazon Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-11-classic-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1728,7 +1728,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "unisex",
     description: "Amazon Fashion Amazon Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-12-relaxed-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1741,8 +1741,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "amazon",
-        price: 199200,
-        originalPrice: 265600,
+        price: 134460,
+        originalPrice: 179280,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.amazon.com/p/amazon-12-relaxed-midi-dress",
@@ -1761,7 +1761,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "women",
     description: "Amazon Fashion Amazon Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-13-slim-fit-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1794,7 +1794,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "Amazon Fashion Amazon Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-14-oversized-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1807,8 +1807,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "amazon",
-        price: 199200,
-        originalPrice: 249000,
+        price: 119520,
+        originalPrice: 149400,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.amazon.com/p/amazon-14-oversized-shirt-dress",
@@ -1827,7 +1827,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "unisex",
     description: "Amazon Fashion Amazon Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-15-tailored-denim-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -1862,7 +1862,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Amazon Fashion Amazon Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-16-classic-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1895,7 +1895,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Amazon Fashion Amazon Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-17-relaxed-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1928,7 +1928,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "Amazon Fashion Amazon Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-18-slim-fit-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1961,7 +1961,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "Amazon Fashion Amazon Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-19-oversized-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -1974,8 +1974,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "amazon",
-        price: 191730,
-        originalPrice: 273900,
+        price: 114540,
+        originalPrice: 163629,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.amazon.com/p/amazon-19-oversized-blazer",
@@ -1994,7 +1994,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "Amazon Fashion Amazon Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/amazon-20-tailored-shirt-dress/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -2029,7 +2029,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "Levi's Levis Slim Fit Denim Jeans — shirts tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/levis-1-slim-fit-denim-jeans/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -2044,8 +2044,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "levis-store",
-        price: 184260,
-        originalPrice: 307100,
+        price: 162680,
+        originalPrice: 271133,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-1-slim-fit-denim-jeans",
@@ -2054,8 +2054,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 371840,
-        originalPrice: 531200,
+        price: 122840,
+        originalPrice: 175486,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-5-slim-fit-denim-jeans",
@@ -2064,8 +2064,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 188825,
-        originalPrice: 290500,
+        price: 117860,
+        originalPrice: 181323,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-9-slim-fit-denim-jeans",
@@ -2074,8 +2074,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 429525,
-        originalPrice: 572700,
+        price: 111220,
+        originalPrice: 148293,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-13-slim-fit-denim-jeans",
@@ -2084,8 +2084,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 336897,
-        originalPrice: 481400,
+        price: 152720,
+        originalPrice: 218225,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-17-slim-fit-denim-jeans",
@@ -2104,7 +2104,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "Levi's Levis Classic Oxford Shirt — jeans tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/levis-2-classic-oxford-shirt/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2117,8 +2117,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "levis-store",
-        price: 480155,
-        originalPrice: 738700,
+        price: 78020,
+        originalPrice: 120031,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-2-classic-oxford-shirt",
@@ -2127,8 +2127,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 522070,
-        originalPrice: 614200,
+        price: 87980,
+        originalPrice: 103506,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-6-classic-oxford-shirt",
@@ -2147,8 +2147,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 356070,
-        originalPrice: 647400,
+        price: 139440,
+        originalPrice: 253527,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-14-classic-oxford-shirt",
@@ -2177,7 +2177,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "Levi's Levis Relaxed Chino Trousers — jackets tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/levis-3-relaxed-chino-trousers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2190,8 +2190,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "levis-store",
-        price: 176375,
-        originalPrice: 207500,
+        price: 146080,
+        originalPrice: 171859,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-3-relaxed-chino-trousers",
@@ -2200,8 +2200,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 511280,
-        originalPrice: 639100,
+        price: 159360,
+        originalPrice: 199200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-7-relaxed-chino-trousers",
@@ -2210,8 +2210,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 314985,
-        originalPrice: 572700,
+        price: 131140,
+        originalPrice: 238436,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-11-relaxed-chino-trousers",
@@ -2220,8 +2220,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 479325,
-        originalPrice: 639100,
+        price: 86320,
+        originalPrice: 115093,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.levi.com/p/levis-15-relaxed-chino-trousers",
@@ -2230,8 +2230,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 590960,
-        originalPrice: 738700,
+        price: 137780,
+        originalPrice: 172225,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-19-relaxed-chino-trousers",
@@ -2250,7 +2250,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Chinos",
     gender: "men",
     description: "Levi's Levis Tailored Bomber Jacket — chinos tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/levis-4-tailored-bomber-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -2275,8 +2275,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 409190,
-        originalPrice: 481400,
+        price: 141100,
+        originalPrice: 166000,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-8-tailored-bomber-jacket",
@@ -2285,8 +2285,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 286350,
-        originalPrice: 572700,
+        price: 147740,
+        originalPrice: 295480,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-12-tailored-bomber-jacket",
@@ -2295,8 +2295,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 507960,
-        originalPrice: 597600,
+        price: 104580,
+        originalPrice: 123035,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.levi.com/p/levis-16-tailored-bomber-jacket",
@@ -2305,8 +2305,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "levis-store",
-        price: 331585,
-        originalPrice: 390100,
+        price: 106240,
+        originalPrice: 124988,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.levi.com/p/levis-20-tailored-bomber-jacket",
@@ -2325,7 +2325,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Ulta Beauty Ulta Hydrating Serum — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-1-hydrating-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2338,8 +2338,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 369350,
-        originalPrice: 738700,
+        price: 11371,
+        originalPrice: 22742,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.ulta.com/p/ulta-1-hydrating-serum",
@@ -2358,7 +2358,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Ulta Beauty Ulta Matte Foundation — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-2-matte-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2371,8 +2371,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 244020,
-        originalPrice: 348600,
+        price: 6142,
+        originalPrice: 8774,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.ulta.com/p/ulta-2-matte-foundation",
@@ -2391,7 +2391,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ulta Beauty Ulta Radiant Eau de Parfum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-3-radiant-eau-de-parfum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2404,8 +2404,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 499660,
-        originalPrice: 713800,
+        price: 11952,
+        originalPrice: 17074,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-3-radiant-eau-de-parfum",
@@ -2424,7 +2424,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Ulta Beauty Ulta Nourishing Shampoo — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-4-nourishing-shampoo/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2437,8 +2437,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 105825,
-        originalPrice: 141100,
+        price: 10458,
+        originalPrice: 13944,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-4-nourishing-shampoo",
@@ -2457,7 +2457,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Ulta Beauty Ulta Long-Lasting Lip Kit — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-5-long-lasting-lip-kit/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2470,8 +2470,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 154380,
-        originalPrice: 257300,
+        price: 5727,
+        originalPrice: 9545,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-5-long-lasting-lip-kit",
@@ -2490,7 +2490,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Ulta Beauty Ulta Hydrating Moisturizer — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-6-hydrating-moisturizer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2503,8 +2503,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 415415,
-        originalPrice: 639100,
+        price: 5644,
+        originalPrice: 8683,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.ulta.com/p/ulta-6-hydrating-moisturizer",
@@ -2523,7 +2523,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ulta Beauty Ulta Matte Serum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-7-matte-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2536,8 +2536,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 338640,
-        originalPrice: 564400,
+        price: 8881,
+        originalPrice: 14802,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-7-matte-serum",
@@ -2556,7 +2556,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Ulta Beauty Ulta Radiant Foundation — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-8-radiant-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2569,8 +2569,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 348600,
-        originalPrice: 697200,
+        price: 11122,
+        originalPrice: 22244,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-8-radiant-foundation",
@@ -2589,7 +2589,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Ulta Beauty Ulta Nourishing Eau de Parfum — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-9-nourishing-eau-de-parfum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2602,8 +2602,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 162265,
-        originalPrice: 190900,
+        price: 11371,
+        originalPrice: 13378,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.ulta.com/p/ulta-9-nourishing-eau-de-parfum",
@@ -2622,7 +2622,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Ulta Beauty Ulta Long-Lasting Shampoo — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-10-long-lasting-shampoo/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2635,8 +2635,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 273900,
-        originalPrice: 547800,
+        price: 6972,
+        originalPrice: 13944,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-10-long-lasting-shampoo",
@@ -2655,7 +2655,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ulta Beauty Ulta Hydrating Lip Kit — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-11-hydrating-lip-kit/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2668,8 +2668,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 435750,
-        originalPrice: 581000,
+        price: 6474,
+        originalPrice: 8632,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-11-hydrating-lip-kit",
@@ -2688,7 +2688,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Ulta Beauty Ulta Matte Moisturizer — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-12-matte-moisturizer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2701,8 +2701,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 204180,
-        originalPrice: 340300,
+        price: 7636,
+        originalPrice: 12727,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-12-matte-moisturizer",
@@ -2721,7 +2721,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Ulta Beauty Ulta Radiant Serum — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-13-radiant-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2734,8 +2734,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 261035,
-        originalPrice: 307100,
+        price: 4980,
+        originalPrice: 5859,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-13-radiant-serum",
@@ -2754,7 +2754,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Ulta Beauty Ulta Nourishing Foundation — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-14-nourishing-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2767,8 +2767,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 173470,
-        originalPrice: 315400,
+        price: 9379,
+        originalPrice: 17053,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-14-nourishing-foundation",
@@ -2787,7 +2787,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ulta Beauty Ulta Long-Lasting Eau de Parfum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-15-long-lasting-eau-de-parfum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2800,8 +2800,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 499660,
-        originalPrice: 713800,
+        price: 5893,
+        originalPrice: 8419,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-15-long-lasting-eau-de-parfum",
@@ -2820,7 +2820,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Ulta Beauty Ulta Hydrating Shampoo — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-16-hydrating-shampoo/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2833,8 +2833,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 453180,
-        originalPrice: 697200,
+        price: 9462,
+        originalPrice: 14557,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-16-hydrating-shampoo",
@@ -2853,7 +2853,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Ulta Beauty Ulta Matte Lip Kit — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-17-matte-lip-kit/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2866,8 +2866,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 68475,
-        originalPrice: 124500,
+        price: 4980,
+        originalPrice: 9055,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-17-matte-lip-kit",
@@ -2886,7 +2886,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Ulta Beauty Ulta Radiant Moisturizer — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-18-radiant-moisturizer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2899,8 +2899,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 537840,
-        originalPrice: 672300,
+        price: 6889,
+        originalPrice: 8611,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-18-radiant-moisturizer",
@@ -2919,7 +2919,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Ulta Beauty Ulta Nourishing Serum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-19-nourishing-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2932,8 +2932,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 242775,
-        originalPrice: 373500,
+        price: 5727,
+        originalPrice: 8811,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.ulta.com/p/ulta-19-nourishing-serum",
@@ -2952,7 +2952,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Ulta Beauty Ulta Long-Lasting Foundation — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ulta-20-long-lasting-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2965,8 +2965,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ulta",
-        price: 219120,
-        originalPrice: 273900,
+        price: 6640,
+        originalPrice: 8300,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ulta.com/p/ulta-20-long-lasting-foundation",
@@ -2985,7 +2985,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Sephora Sephora Hydrating Serum — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-1-hydrating-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -2998,8 +2998,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 345280,
-        originalPrice: 531200,
+        price: 5146,
+        originalPrice: 7917,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-1-hydrating-serum",
@@ -3018,7 +3018,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Sephora Sephora Matte Foundation — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-2-matte-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3031,8 +3031,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 127820,
-        originalPrice: 182600,
+        price: 9628,
+        originalPrice: 13754,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.sephora.com/p/sephora-2-matte-foundation",
@@ -3051,7 +3051,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Sephora Sephora Radiant Eau de Parfum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-3-radiant-eau-de-parfum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3064,8 +3064,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 229080,
-        originalPrice: 381800,
+        price: 7387,
+        originalPrice: 12312,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-3-radiant-eau-de-parfum",
@@ -3084,7 +3084,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Sephora Sephora Nourishing Shampoo — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-4-nourishing-shampoo/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3097,8 +3097,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 187165,
-        originalPrice: 340300,
+        price: 5478,
+        originalPrice: 9960,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.sephora.com/p/sephora-4-nourishing-shampoo",
@@ -3117,7 +3117,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Sephora Sephora Long-Lasting Lip Kit — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-5-long-lasting-lip-kit/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3130,8 +3130,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 346940,
-        originalPrice: 630800,
+        price: 8881,
+        originalPrice: 16147,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.sephora.com/p/sephora-5-long-lasting-lip-kit",
@@ -3150,7 +3150,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Sephora Sephora Hydrating Moisturizer — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-6-hydrating-moisturizer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3163,8 +3163,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 505470,
-        originalPrice: 722100,
+        price: 8549,
+        originalPrice: 12213,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-6-hydrating-moisturizer",
@@ -3183,7 +3183,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Sephora Sephora Matte Serum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-7-matte-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3196,8 +3196,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 63910,
-        originalPrice: 116200,
+        price: 6723,
+        originalPrice: 12224,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-7-matte-serum",
@@ -3216,7 +3216,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Sephora Sephora Radiant Foundation — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-8-radiant-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3229,8 +3229,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 448200,
-        originalPrice: 597600,
+        price: 9711,
+        originalPrice: 12948,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-8-radiant-foundation",
@@ -3249,7 +3249,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Sephora Sephora Nourishing Eau de Parfum — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-9-nourishing-eau-de-parfum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3262,8 +3262,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 136950,
-        originalPrice: 273900,
+        price: 6972,
+        originalPrice: 13944,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-9-nourishing-eau-de-parfum",
@@ -3282,7 +3282,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Sephora Sephora Long-Lasting Shampoo — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-10-long-lasting-shampoo/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3295,8 +3295,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 535350,
-        originalPrice: 713800,
+        price: 6640,
+        originalPrice: 8853,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-10-long-lasting-shampoo",
@@ -3315,7 +3315,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Sephora Sephora Hydrating Lip Kit — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-11-hydrating-lip-kit/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3328,8 +3328,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 219120,
-        originalPrice: 365200,
+        price: 7387,
+        originalPrice: 12312,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-11-hydrating-lip-kit",
@@ -3348,7 +3348,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Sephora Sephora Matte Moisturizer — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-12-matte-moisturizer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3361,8 +3361,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 167245,
-        originalPrice: 257300,
+        price: 5644,
+        originalPrice: 8683,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-12-matte-moisturizer",
@@ -3381,7 +3381,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Sephora Sephora Radiant Serum — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-13-radiant-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3394,8 +3394,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 161850,
-        originalPrice: 249000,
+        price: 11454,
+        originalPrice: 17622,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-13-radiant-serum",
@@ -3414,7 +3414,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Sephora Sephora Nourishing Foundation — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-14-nourishing-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3427,8 +3427,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 296725,
-        originalPrice: 539500,
+        price: 6225,
+        originalPrice: 11318,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-14-nourishing-foundation",
@@ -3447,7 +3447,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Sephora Sephora Long-Lasting Eau de Parfum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-15-long-lasting-eau-de-parfum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3460,8 +3460,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 392175,
-        originalPrice: 522900,
+        price: 5229,
+        originalPrice: 6972,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-15-long-lasting-eau-de-parfum",
@@ -3480,7 +3480,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Sephora Sephora Hydrating Shampoo — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-16-hydrating-shampoo/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3493,8 +3493,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 211650,
-        originalPrice: 423300,
+        price: 6391,
+        originalPrice: 12782,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-16-hydrating-shampoo",
@@ -3513,7 +3513,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Skincare",
     gender: "unisex",
     description: "Sephora Sephora Matte Lip Kit — skincare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-17-matte-lip-kit/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3526,8 +3526,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 234060,
-        originalPrice: 390100,
+        price: 8964,
+        originalPrice: 14940,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.sephora.com/p/sephora-17-matte-lip-kit",
@@ -3546,7 +3546,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Makeup",
     gender: "women",
     description: "Sephora Sephora Radiant Moisturizer — makeup tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-18-radiant-moisturizer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3559,8 +3559,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 214555,
-        originalPrice: 390100,
+        price: 10956,
+        originalPrice: 19920,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-18-radiant-moisturizer",
@@ -3579,7 +3579,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fragrance",
     gender: "unisex",
     description: "Sephora Sephora Nourishing Serum — fragrance tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-19-nourishing-serum/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3592,8 +3592,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 150977,
-        originalPrice: 215800,
+        price: 7470,
+        originalPrice: 10677,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-19-nourishing-serum",
@@ -3612,7 +3612,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Haircare",
     gender: "women",
     description: "Sephora Sephora Long-Lasting Foundation — haircare tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/sephora-20-long-lasting-foundation/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3625,8 +3625,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "sephora",
-        price: 252320,
-        originalPrice: 315400,
+        price: 10458,
+        originalPrice: 13072,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.sephora.com/p/sephora-20-long-lasting-foundation",
@@ -3645,7 +3645,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Formal Shoes",
     gender: "men",
     description: "Bata Bata Leather Derby Shoes — formal shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/bata-1-leather-derby-shoes/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3658,8 +3658,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "bata-store",
-        price: 102505,
-        originalPrice: 157700,
+        price: 30876,
+        originalPrice: 47502,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.bata.com/p/bata-1-leather-derby-shoes",
@@ -3668,8 +3668,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 126990,
-        originalPrice: 149400,
+        price: 41832,
+        originalPrice: 49214,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-5-leather-derby-shoes",
@@ -3678,8 +3678,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 100430,
-        originalPrice: 182600,
+        price: 28884,
+        originalPrice: 52516,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.bata.com/p/bata-9-leather-derby-shoes",
@@ -3688,8 +3688,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 107900,
-        originalPrice: 215800,
+        price: 43824,
+        originalPrice: 87648,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.bata.com/p/bata-13-leather-derby-shoes",
@@ -3718,7 +3718,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sandals",
     gender: "women",
     description: "Bata Bata Classic Loafers — sandals tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/bata-2-classic-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3731,8 +3731,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "bata-store",
-        price: 84660,
-        originalPrice: 99600,
+        price: 33366,
+        originalPrice: 39254,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-2-classic-loafers",
@@ -3741,8 +3741,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 139440,
-        originalPrice: 232400,
+        price: 23904,
+        originalPrice: 39840,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-6-classic-loafers",
@@ -3761,8 +3761,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 92960,
-        originalPrice: 116200,
+        price: 31374,
+        originalPrice: 39218,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-14-classic-loafers",
@@ -3771,8 +3771,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 98770,
-        originalPrice: 116200,
+        price: 42828,
+        originalPrice: 50386,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-18-classic-loafers",
@@ -3791,7 +3791,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Casual Shoes",
     gender: "unisex",
     description: "Bata Bata Comfort-Fit Sandals — casual shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/bata-3-comfort-fit-sandals/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3804,8 +3804,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "bata-store",
-        price: 95865,
-        originalPrice: 174300,
+        price: 49800,
+        originalPrice: 90545,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-3-comfort-fit-sandals",
@@ -3814,8 +3814,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 145250,
-        originalPrice: 207500,
+        price: 48306,
+        originalPrice: 69009,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-7-comfort-fit-sandals",
@@ -3824,8 +3824,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 136950,
-        originalPrice: 273900,
+        price: 34362,
+        originalPrice: 68724,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.bata.com/p/bata-11-comfort-fit-sandals",
@@ -3834,8 +3834,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 66400,
-        originalPrice: 83000,
+        price: 33366,
+        originalPrice: 41707,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.bata.com/p/bata-15-comfort-fit-sandals",
@@ -3844,8 +3844,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 99600,
-        originalPrice: 132800,
+        price: 44322,
+        originalPrice: 59096,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-19-comfort-fit-sandals",
@@ -3864,7 +3864,7 @@ export const generatedProducts: Product[] = [
     subcategory: "School Shoes",
     gender: "men",
     description: "Bata Bata Everyday Sneakers — school shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/bata-4-everyday-sneakers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3877,8 +3877,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "bata-store",
-        price: 145250,
-        originalPrice: 207500,
+        price: 43824,
+        originalPrice: 62606,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-4-everyday-sneakers",
@@ -3887,8 +3887,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 63910,
-        originalPrice: 116200,
+        price: 39342,
+        originalPrice: 71531,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-8-everyday-sneakers",
@@ -3897,8 +3897,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 169320,
-        originalPrice: 199200,
+        price: 26394,
+        originalPrice: 31052,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-12-everyday-sneakers",
@@ -3907,8 +3907,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 141100,
-        originalPrice: 282200,
+        price: 39342,
+        originalPrice: 78684,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-16-everyday-sneakers",
@@ -3917,8 +3917,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "bata-store",
-        price: 118690,
-        originalPrice: 215800,
+        price: 21414,
+        originalPrice: 38935,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.bata.com/p/bata-20-everyday-sneakers",
@@ -3937,7 +3937,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Charles & Keith Charles Keith Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-1-structured-tote-bag/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -3972,7 +3972,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Charles & Keith Charles Keith Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-2-compact-crossbody-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -3985,8 +3985,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "charles-keith-store",
-        price: 307847,
-        originalPrice: 439900,
+        price: 189240,
+        originalPrice: 270416,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.charleskeith.com/p/charles-keith-2-compact-crossbody-bag",
@@ -4005,7 +4005,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "unisex",
     description: "Charles & Keith Charles Keith Signature Wallet — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-3-signature-wallet/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4038,7 +4038,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "women",
     description: "Charles & Keith Charles Keith Pebbled Leather Clutch — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-4-pebbled-leather-clutch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4071,7 +4071,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Charles & Keith Charles Keith Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-5-structured-shoulder-bag/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -4106,7 +4106,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "unisex",
     description: "Charles & Keith Charles Keith Compact Tote Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-6-compact-tote-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4139,7 +4139,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "women",
     description: "Charles & Keith Charles Keith Signature Crossbody Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-7-signature-crossbody-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4172,7 +4172,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "men",
     description: "Charles & Keith Charles Keith Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-8-pebbled-leather-wallet/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4205,7 +4205,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Charles & Keith Charles Keith Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-9-structured-clutch/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -4220,8 +4220,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "charles-keith-store",
-        price: 287595,
-        originalPrice: 522900,
+        price: 161850,
+        originalPrice: 294273,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.charleskeith.com/p/charles-keith-9-structured-clutch",
@@ -4240,7 +4240,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "women",
     description: "Charles & Keith Charles Keith Compact Shoulder Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-10-compact-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4273,7 +4273,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "men",
     description: "Charles & Keith Charles Keith Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-11-signature-tote-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4306,7 +4306,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "unisex",
     description: "Charles & Keith Charles Keith Pebbled Leather Crossbody Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-12-pebbled-leather-crossbody-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4339,7 +4339,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Charles & Keith Charles Keith Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-13-structured-wallet/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -4374,7 +4374,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Charles & Keith Charles Keith Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-14-compact-clutch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4407,7 +4407,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "unisex",
     description: "Charles & Keith Charles Keith Signature Shoulder Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-15-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4420,8 +4420,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "charles-keith-store",
-        price: 517090,
-        originalPrice: 738700,
+        price: 201690,
+        originalPrice: 288129,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.charleskeith.com/p/charles-keith-15-signature-shoulder-bag",
@@ -4440,7 +4440,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "women",
     description: "Charles & Keith Charles Keith Pebbled Leather Tote Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-16-pebbled-leather-tote-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4453,8 +4453,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "charles-keith-store",
-        price: 447370,
-        originalPrice: 639100,
+        price: 171810,
+        originalPrice: 245443,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.charleskeith.com/p/charles-keith-16-pebbled-leather-tote-bag",
@@ -4473,7 +4473,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Charles & Keith Charles Keith Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-17-structured-crossbody-bag/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -4508,7 +4508,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "unisex",
     description: "Charles & Keith Charles Keith Compact Wallet — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-18-compact-wallet/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4541,7 +4541,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "women",
     description: "Charles & Keith Charles Keith Signature Clutch — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-19-signature-clutch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4554,8 +4554,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "charles-keith-store",
-        price: 317475,
-        originalPrice: 423300,
+        price: 107070,
+        originalPrice: 142760,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.charleskeith.com/p/charles-keith-19-signature-clutch",
@@ -4574,7 +4574,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "men",
     description: "Charles & Keith Charles Keith Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/charles-keith-20-pebbled-leather-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4607,7 +4607,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fitness Equipment",
     gender: "unisex",
     description: "Decathlon Decathlon Compact Resistance Bands — fitness equipment tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/decathlon-1-compact-resistance-bands/600/600",
+    image: "",
     colors: [
       "Tan"
     ],
@@ -4622,8 +4622,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "decathlon",
-        price: 298800,
-        originalPrice: 373500,
+        price: 15189,
+        originalPrice: 18986,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-1-compact-resistance-bands",
@@ -4632,8 +4632,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 95865,
-        originalPrice: 174300,
+        price: 20418,
+        originalPrice: 37124,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-5-compact-resistance-bands",
@@ -4642,8 +4642,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 159360,
-        originalPrice: 265600,
+        price: 11952,
+        originalPrice: 19920,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-9-compact-resistance-bands",
@@ -4652,8 +4652,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 226590,
-        originalPrice: 348600,
+        price: 21663,
+        originalPrice: 33328,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-13-compact-resistance-bands",
@@ -4662,8 +4662,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 447370,
-        originalPrice: 639100,
+        price: 21663,
+        originalPrice: 30947,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-17-compact-resistance-bands",
@@ -4682,7 +4682,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Activewear",
     gender: "unisex",
     description: "Decathlon Decathlon Adjustable Yoga Mat — activewear tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/decathlon-2-adjustable-yoga-mat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4695,8 +4695,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "decathlon",
-        price: 212480,
-        originalPrice: 265600,
+        price: 12201,
+        originalPrice: 15251,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-2-adjustable-yoga-mat",
@@ -4705,8 +4705,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 482230,
-        originalPrice: 688900,
+        price: 14442,
+        originalPrice: 20631,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-6-adjustable-yoga-mat",
@@ -4715,8 +4715,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 180110,
-        originalPrice: 257300,
+        price: 11952,
+        originalPrice: 17074,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-10-adjustable-yoga-mat",
@@ -4725,8 +4725,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 302037,
-        originalPrice: 431600,
+        price: 20916,
+        originalPrice: 29888,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-14-adjustable-yoga-mat",
@@ -4735,8 +4735,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 423300,
-        originalPrice: 705500,
+        price: 17928,
+        originalPrice: 29880,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-18-adjustable-yoga-mat",
@@ -4755,7 +4755,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Decathlon Decathlon Everyday Training Shoes — footwear tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/decathlon-3-everyday-training-shoes/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4768,8 +4768,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "decathlon",
-        price: 182600,
-        originalPrice: 365200,
+        price: 21912,
+        originalPrice: 43824,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-3-everyday-training-shoes",
@@ -4778,8 +4778,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 524560,
-        originalPrice: 655700,
+        price: 12948,
+        originalPrice: 16185,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-7-everyday-training-shoes",
@@ -4788,8 +4788,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 145250,
-        originalPrice: 207500,
+        price: 15189,
+        originalPrice: 21699,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-11-everyday-training-shoes",
@@ -4798,8 +4798,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 74700,
-        originalPrice: 149400,
+        price: 11205,
+        originalPrice: 22410,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-15-everyday-training-shoes",
@@ -4808,8 +4808,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 197540,
-        originalPrice: 282200,
+        price: 14940,
+        originalPrice: 21343,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-19-everyday-training-shoes",
@@ -4828,7 +4828,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Fitness Equipment",
     gender: "unisex",
     description: "Decathlon Decathlon Performance Water Bottle — fitness equipment tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/decathlon-4-performance-water-bottle/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4841,8 +4841,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "decathlon",
-        price: 373500,
-        originalPrice: 747000,
+        price: 16683,
+        originalPrice: 33366,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-4-performance-water-bottle",
@@ -4851,8 +4851,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 183430,
-        originalPrice: 282200,
+        price: 15438,
+        originalPrice: 23751,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-8-performance-water-bottle",
@@ -4861,8 +4861,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 191730,
-        originalPrice: 273900,
+        price: 10458,
+        originalPrice: 14940,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-12-performance-water-bottle",
@@ -4871,8 +4871,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 126990,
-        originalPrice: 149400,
+        price: 10956,
+        originalPrice: 12889,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-16-performance-water-bottle",
@@ -4881,8 +4881,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "decathlon",
-        price: 150977,
-        originalPrice: 215800,
+        price: 19422,
+        originalPrice: 27761,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.decathlon.com/p/decathlon-20-performance-water-bottle",
@@ -4897,11 +4897,11 @@ export const generatedProducts: Product[] = [
     slug: "expedia-expedia-hardshell-suitcase",
     name: "Expedia Hardshell Suitcase",
     brand: "expedia",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Check-In Luggage",
     gender: "unisex",
     description: "Expedia Expedia Hardshell Suitcase — check-in luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/expedia-1-hardshell-suitcase/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4914,8 +4914,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "expedia-store",
-        price: 1008450,
-        originalPrice: 1344600,
+        price: 61752,
+        originalPrice: 82336,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-1-hardshell-suitcase",
@@ -4924,8 +4924,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 754885,
-        originalPrice: 888100,
+        price: 49136,
+        originalPrice: 57807,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.expedia.com/p/expedia-6-hardshell-suitcase",
@@ -4934,8 +4934,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 604240,
-        originalPrice: 755300,
+        price: 55776,
+        originalPrice: 69720,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-11-hardshell-suitcase",
@@ -4944,8 +4944,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 923790,
-        originalPrice: 1319700,
+        price: 65072,
+        originalPrice: 92960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-16-hardshell-suitcase",
@@ -4960,11 +4960,11 @@ export const generatedProducts: Product[] = [
     slug: "expedia-expedia-lightweight-spinner-case",
     name: "Expedia Lightweight Spinner Case",
     brand: "expedia",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Cabin Luggage",
     gender: "unisex",
     description: "Expedia Expedia Lightweight Spinner Case — cabin luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/expedia-2-lightweight-spinner-case/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -4977,8 +4977,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "expedia-store",
-        price: 881875,
-        originalPrice: 1037500,
+        price: 65072,
+        originalPrice: 76555,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-2-lightweight-spinner-case",
@@ -4987,8 +4987,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 866520,
-        originalPrice: 1444200,
+        price: 60424,
+        originalPrice: 100707,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-7-lightweight-spinner-case",
@@ -4997,8 +4997,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 917150,
-        originalPrice: 1411000,
+        price: 42496,
+        originalPrice: 65378,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-12-lightweight-spinner-case",
@@ -5007,8 +5007,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 1005130,
-        originalPrice: 1435900,
+        price: 36520,
+        originalPrice: 52171,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.expedia.com/p/expedia-17-lightweight-spinner-case",
@@ -5023,11 +5023,11 @@ export const generatedProducts: Product[] = [
     slug: "expedia-expedia-expandable-duffel-bag",
     name: "Expedia Expandable Duffel Bag",
     brand: "expedia",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Travel Packages",
     gender: "unisex",
     description: "Expedia Expedia Expandable Duffel Bag — travel packages tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/expedia-3-expandable-duffel-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5040,8 +5040,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "expedia-store",
-        price: 1170300,
-        originalPrice: 1950500,
+        price: 51128,
+        originalPrice: 85213,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-3-expandable-duffel-bag",
@@ -5050,8 +5050,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 942880,
-        originalPrice: 1178600,
+        price: 45816,
+        originalPrice: 57270,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-8-expandable-duffel-bag",
@@ -5060,8 +5060,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 717535,
-        originalPrice: 1103900,
+        price: 63080,
+        originalPrice: 97046,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-13-expandable-duffel-bag",
@@ -5070,8 +5070,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 1132950,
-        originalPrice: 1510600,
+        price: 46480,
+        originalPrice: 61973,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-18-expandable-duffel-bag",
@@ -5086,11 +5086,11 @@ export const generatedProducts: Product[] = [
     slug: "expedia-expedia-all-inclusive-getaway-package",
     name: "Expedia All-Inclusive Getaway Package",
     brand: "expedia",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Backpacks",
     gender: "unisex",
     description: "Expedia Expedia All-Inclusive Getaway Package — backpacks tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/expedia-4-all-inclusive-getaway-package/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5103,8 +5103,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "expedia-store",
-        price: 801780,
-        originalPrice: 1336300,
+        price: 33864,
+        originalPrice: 56440,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-4-all-inclusive-getaway-package",
@@ -5113,8 +5113,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 838300,
-        originalPrice: 1676600,
+        price: 44488,
+        originalPrice: 88976,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-9-all-inclusive-getaway-package",
@@ -5123,8 +5123,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 307515,
-        originalPrice: 473100,
+        price: 34528,
+        originalPrice: 53120,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-14-all-inclusive-getaway-package",
@@ -5133,8 +5133,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 319550,
-        originalPrice: 581000,
+        price: 55112,
+        originalPrice: 100204,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-19-all-inclusive-getaway-package",
@@ -5149,11 +5149,11 @@ export const generatedProducts: Product[] = [
     slug: "expedia-expedia-3-night-hotel-booking",
     name: "Expedia 3-Night Hotel Booking",
     brand: "expedia",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Check-In Luggage",
     gender: "unisex",
     description: "Expedia Expedia 3-Night Hotel Booking — check-in luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/expedia-5-3-night-hotel-booking/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5166,8 +5166,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "expedia-store",
-        price: 577265,
-        originalPrice: 888100,
+        price: 55776,
+        originalPrice: 85809,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-5-3-night-hotel-booking",
@@ -5176,8 +5176,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 333245,
-        originalPrice: 605900,
+        price: 49800,
+        originalPrice: 90545,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-10-3-night-hotel-booking",
@@ -5186,8 +5186,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 716705,
-        originalPrice: 1303100,
+        price: 35192,
+        originalPrice: 63985,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-15-3-night-hotel-booking",
@@ -5196,8 +5196,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "expedia-store",
-        price: 664000,
-        originalPrice: 1328000,
+        price: 49136,
+        originalPrice: 98272,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.expedia.com/p/expedia-20-3-night-hotel-booking",
@@ -5216,7 +5216,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Activewear",
     gender: "men",
     description: "Under Armour Under Armour Seamless Leggings — activewear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-1-seamless-leggings/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5229,8 +5229,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 104580,
-        originalPrice: 174300,
+        price: 22659,
+        originalPrice: 37765,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-1-seamless-leggings",
@@ -5249,7 +5249,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Leggings",
     gender: "women",
     description: "Under Armour Under Armour Performance Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-2-performance-joggers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5262,8 +5262,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 77605,
-        originalPrice: 91300,
+        price: 13944,
+        originalPrice: 16405,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-2-performance-joggers",
@@ -5282,7 +5282,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Training Tops",
     gender: "unisex",
     description: "Under Armour Under Armour Lightweight Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-3-lightweight-training-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5295,8 +5295,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 86320,
-        originalPrice: 132800,
+        price: 11454,
+        originalPrice: 17622,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-3-lightweight-training-tee",
@@ -5315,7 +5315,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Joggers",
     gender: "men",
     description: "Under Armour Under Armour Breathable Sports Bra — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-4-breathable-sports-bra/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5328,8 +5328,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 112050,
-        originalPrice: 149400,
+        price: 21414,
+        originalPrice: 28552,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-4-breathable-sports-bra",
@@ -5348,7 +5348,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sports Bras",
     gender: "women",
     description: "Under Armour Under Armour Seamless Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-5-seamless-track-jacket/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5361,8 +5361,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 103750,
-        originalPrice: 207500,
+        price: 17679,
+        originalPrice: 35358,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-5-seamless-track-jacket",
@@ -5381,7 +5381,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Activewear",
     gender: "unisex",
     description: "Under Armour Under Armour Performance Leggings — activewear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-6-performance-leggings/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5394,8 +5394,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 127820,
-        originalPrice: 182600,
+        price: 10707,
+        originalPrice: 15296,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-6-performance-leggings",
@@ -5414,7 +5414,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Leggings",
     gender: "men",
     description: "Under Armour Under Armour Lightweight Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-7-lightweight-joggers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5427,8 +5427,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 466875,
-        originalPrice: 622500,
+        price: 10956,
+        originalPrice: 14608,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-7-lightweight-joggers",
@@ -5447,7 +5447,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Training Tops",
     gender: "women",
     description: "Under Armour Under Armour Breathable Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-8-breathable-training-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5460,8 +5460,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 438240,
-        originalPrice: 547800,
+        price: 13446,
+        originalPrice: 16808,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-8-breathable-training-tee",
@@ -5480,7 +5480,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Joggers",
     gender: "unisex",
     description: "Under Armour Under Armour Seamless Sports Bra — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-9-seamless-sports-bra/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5493,8 +5493,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 447785,
-        originalPrice: 688900,
+        price: 23904,
+        originalPrice: 36775,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-9-seamless-sports-bra",
@@ -5513,7 +5513,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sports Bras",
     gender: "men",
     description: "Under Armour Under Armour Performance Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-10-performance-track-jacket/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5526,8 +5526,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 389270,
-        originalPrice: 556100,
+        price: 22161,
+        originalPrice: 31659,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-10-performance-track-jacket",
@@ -5546,7 +5546,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Activewear",
     gender: "women",
     description: "Under Armour Under Armour Lightweight Leggings — activewear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-11-lightweight-leggings/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5559,8 +5559,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 294650,
-        originalPrice: 589300,
+        price: 22659,
+        originalPrice: 45318,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-11-lightweight-leggings",
@@ -5579,7 +5579,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Leggings",
     gender: "unisex",
     description: "Under Armour Under Armour Breathable Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-12-breathable-joggers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5592,8 +5592,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 132800,
-        originalPrice: 166000,
+        price: 13695,
+        originalPrice: 17119,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-12-breathable-joggers",
@@ -5612,7 +5612,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Training Tops",
     gender: "men",
     description: "Under Armour Under Armour Seamless Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-13-seamless-training-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5625,8 +5625,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 180525,
-        originalPrice: 240700,
+        price: 23157,
+        originalPrice: 30876,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-13-seamless-training-tee",
@@ -5645,7 +5645,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Joggers",
     gender: "women",
     description: "Under Armour Under Armour Performance Sports Bra — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-14-performance-sports-bra/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5658,8 +5658,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 395080,
-        originalPrice: 464800,
+        price: 22410,
+        originalPrice: 26365,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-14-performance-sports-bra",
@@ -5678,7 +5678,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sports Bras",
     gender: "unisex",
     description: "Under Armour Under Armour Lightweight Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-15-lightweight-track-jacket/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5691,8 +5691,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 522900,
-        originalPrice: 697200,
+        price: 24900,
+        originalPrice: 33200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-15-lightweight-track-jacket",
@@ -5711,7 +5711,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Activewear",
     gender: "men",
     description: "Under Armour Under Armour Breathable Leggings — activewear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-16-breathable-leggings/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5724,8 +5724,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 124500,
-        originalPrice: 249000,
+        price: 20169,
+        originalPrice: 40338,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-16-breathable-leggings",
@@ -5744,7 +5744,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Leggings",
     gender: "women",
     description: "Under Armour Under Armour Seamless Joggers — leggings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-17-seamless-joggers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5757,8 +5757,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 416245,
-        originalPrice: 489700,
+        price: 13695,
+        originalPrice: 16112,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-17-seamless-joggers",
@@ -5777,7 +5777,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Training Tops",
     gender: "unisex",
     description: "Under Armour Under Armour Performance Training Tee — training tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-18-performance-training-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5790,8 +5790,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 149400,
-        originalPrice: 298800,
+        price: 13695,
+        originalPrice: 27390,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-18-performance-training-tee",
@@ -5810,7 +5810,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Joggers",
     gender: "men",
     description: "Under Armour Under Armour Lightweight Sports Bra — joggers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-19-lightweight-sports-bra/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5823,8 +5823,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 275145,
-        originalPrice: 423300,
+        price: 20169,
+        originalPrice: 31029,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-19-lightweight-sports-bra",
@@ -5843,7 +5843,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sports Bras",
     gender: "women",
     description: "Under Armour Under Armour Breathable Track Jacket — sports bras tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/under-armour-20-breathable-track-jacket/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5856,8 +5856,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "under-armour-store",
-        price: 187165,
-        originalPrice: 340300,
+        price: 12948,
+        originalPrice: 23542,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.underarmour.com/p/under-armour-20-breathable-track-jacket",
@@ -5876,7 +5876,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "men",
     description: "Fossil Fossil Classic Watch — watches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-1-classic-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5889,8 +5889,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 906360,
-        originalPrice: 1294800,
+        price: 114125,
+        originalPrice: 163036,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-1-classic-watch",
@@ -5899,8 +5899,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 504640,
-        originalPrice: 630800,
+        price: 180525,
+        originalPrice: 225656,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-13-classic-watch",
@@ -5919,7 +5919,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Smartwatches",
     gender: "women",
     description: "Fossil Fossil Minimalist Chronograph Watch — smartwatches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-2-minimalist-chronograph-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5932,8 +5932,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 947030,
-        originalPrice: 1352900,
+        price: 118275,
+        originalPrice: 168964,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-2-minimalist-chronograph-watch",
@@ -5942,8 +5942,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 852410,
-        originalPrice: 1311400,
+        price: 116200,
+        originalPrice: 178769,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-14-minimalist-chronograph-watch",
@@ -5962,7 +5962,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Fossil Chronograph Leather Strap Watch — watches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-3-chronograph-leather-strap-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -5975,8 +5975,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 1138760,
-        originalPrice: 1626800,
+        price: 85075,
+        originalPrice: 121536,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-3-chronograph-leather-strap-watch",
@@ -5985,8 +5985,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 942880,
-        originalPrice: 1178600,
+        price: 109975,
+        originalPrice: 137469,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-15-chronograph-leather-strap-watch",
@@ -6005,7 +6005,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Smartwatches",
     gender: "men",
     description: "Fossil Fossil Stainless Steel Watch — smartwatches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-4-stainless-steel-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6018,8 +6018,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 1170300,
-        originalPrice: 1560400,
+        price: 118275,
+        originalPrice: 157700,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.fossil.com/p/fossil-4-stainless-steel-watch",
@@ -6028,8 +6028,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 369765,
-        originalPrice: 672300,
+        price: 195050,
+        originalPrice: 354636,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-16-stainless-steel-watch",
@@ -6048,7 +6048,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "women",
     description: "Fossil Fossil Classic Chronograph Watch — watches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-5-classic-chronograph-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6061,8 +6061,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 518750,
-        originalPrice: 1037500,
+        price: 163925,
+        originalPrice: 327850,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-5-classic-chronograph-watch",
@@ -6071,8 +6071,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 713800,
-        originalPrice: 1427600,
+        price: 97525,
+        originalPrice: 195050,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-17-classic-chronograph-watch",
@@ -6091,7 +6091,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Smartwatches",
     gender: "unisex",
     description: "Fossil Fossil Minimalist Leather Strap Watch — smartwatches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-6-minimalist-leather-strap-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6104,8 +6104,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 935410,
-        originalPrice: 1336300,
+        price: 126575,
+        originalPrice: 180821,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-6-minimalist-leather-strap-watch",
@@ -6114,8 +6114,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 1531350,
-        originalPrice: 2041800,
+        price: 188825,
+        originalPrice: 251767,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.fossil.com/p/fossil-18-minimalist-leather-strap-watch",
@@ -6134,7 +6134,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "men",
     description: "Fossil Fossil Chronograph Watch — watches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-7-chronograph-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6147,8 +6147,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 1202587,
-        originalPrice: 1718100,
+        price: 114125,
+        originalPrice: 163047,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-7-chronograph-watch",
@@ -6157,8 +6157,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 691390,
-        originalPrice: 813400,
+        price: 190900,
+        originalPrice: 224588,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-19-chronograph-watch",
@@ -6177,7 +6177,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Smartwatches",
     gender: "women",
     description: "Fossil Fossil Stainless Steel Chronograph Watch — smartwatches tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-8-stainless-steel-chronograph-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6190,8 +6190,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 531200,
-        originalPrice: 664000,
+        price: 89225,
+        originalPrice: 111531,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-8-stainless-steel-chronograph-watch",
@@ -6200,8 +6200,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "fossil-store",
-        price: 707575,
-        originalPrice: 1286500,
+        price: 157700,
+        originalPrice: 286727,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-20-stainless-steel-chronograph-watch",
@@ -6220,7 +6220,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Fossil Classic Leather Strap Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-9-classic-leather-strap-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6233,8 +6233,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 588885,
-        originalPrice: 1070700,
+        price: 118275,
+        originalPrice: 215045,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-9-classic-leather-strap-watch",
@@ -6253,7 +6253,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Smartwatches",
     gender: "men",
     description: "Fossil Fossil Minimalist Watch — smartwatches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-10-minimalist-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6266,8 +6266,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 1406850,
-        originalPrice: 1875800,
+        price: 99600,
+        originalPrice: 132800,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-10-minimalist-watch",
@@ -6286,7 +6286,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "women",
     description: "Fossil Fossil Chronograph Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-11-chronograph-chronograph-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6299,8 +6299,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 1115520,
-        originalPrice: 1394400,
+        price: 139025,
+        originalPrice: 173781,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-11-chronograph-chronograph-watch",
@@ -6319,7 +6319,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Smartwatches",
     gender: "unisex",
     description: "Fossil Fossil Stainless Steel Leather Strap Watch — smartwatches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/fossil-12-stainless-steel-leather-strap-watch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6332,8 +6332,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "fossil-store",
-        price: 577680,
-        originalPrice: 962800,
+        price: 87150,
+        originalPrice: 145250,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.fossil.com/p/fossil-12-stainless-steel-leather-strap-watch",
@@ -6352,7 +6352,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Longchamp Longchamp Structured Tote Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-1-structured-tote-bag/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -6367,8 +6367,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 4656300,
-        originalPrice: 9312600,
+        price: 112050,
+        originalPrice: 224100,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-1-structured-tote-bag",
@@ -6387,7 +6387,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Longchamp Longchamp Compact Crossbody Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-2-compact-crossbody-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6400,8 +6400,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 5980150,
-        originalPrice: 10873000,
+        price: 204180,
+        originalPrice: 371236,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-2-compact-crossbody-bag",
@@ -6420,7 +6420,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "unisex",
     description: "Longchamp Longchamp Signature Wallet — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-3-signature-wallet/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6433,8 +6433,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 6799360,
-        originalPrice: 8499200,
+        price: 234060,
+        originalPrice: 292575,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-3-signature-wallet",
@@ -6453,7 +6453,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "women",
     description: "Longchamp Longchamp Pebbled Leather Clutch — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-4-pebbled-leather-clutch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6466,8 +6466,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 1893645,
-        originalPrice: 2913300,
+        price: 241530,
+        originalPrice: 371585,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-4-pebbled-leather-clutch",
@@ -6486,7 +6486,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Longchamp Longchamp Structured Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-5-structured-shoulder-bag/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -6501,8 +6501,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 6751220,
-        originalPrice: 9644600,
+        price: 169320,
+        originalPrice: 241886,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-5-structured-shoulder-bag",
@@ -6521,7 +6521,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "unisex",
     description: "Longchamp Longchamp Compact Tote Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-6-compact-tote-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6534,8 +6534,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 1154945,
-        originalPrice: 2099900,
+        price: 99600,
+        originalPrice: 181091,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-6-compact-tote-bag",
@@ -6554,7 +6554,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "women",
     description: "Longchamp Longchamp Signature Crossbody Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-7-signature-crossbody-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6567,8 +6567,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 1880780,
-        originalPrice: 3419600,
+        price: 179280,
+        originalPrice: 325964,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-7-signature-crossbody-bag",
@@ -6587,7 +6587,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "men",
     description: "Longchamp Longchamp Pebbled Leather Wallet — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-8-pebbled-leather-wallet/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6600,8 +6600,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 3716325,
-        originalPrice: 4955100,
+        price: 236550,
+        originalPrice: 315400,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-8-pebbled-leather-wallet",
@@ -6620,7 +6620,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Longchamp Longchamp Structured Clutch — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-9-structured-clutch/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -6635,8 +6635,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 1354145,
-        originalPrice: 2083300,
+        price: 122010,
+        originalPrice: 187708,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-9-structured-clutch",
@@ -6655,7 +6655,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "women",
     description: "Longchamp Longchamp Compact Shoulder Bag — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-10-compact-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6668,8 +6668,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 8926650,
-        originalPrice: 11902200,
+        price: 99600,
+        originalPrice: 132800,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-10-compact-shoulder-bag",
@@ -6688,7 +6688,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "men",
     description: "Longchamp Longchamp Signature Tote Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-11-signature-tote-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6701,8 +6701,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 2066700,
-        originalPrice: 4133400,
+        price: 146910,
+        originalPrice: 293820,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-11-signature-tote-bag",
@@ -6721,7 +6721,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "unisex",
     description: "Longchamp Longchamp Pebbled Leather Crossbody Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-12-pebbled-leather-crossbody-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6734,8 +6734,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 2437710,
-        originalPrice: 4432200,
+        price: 176790,
+        originalPrice: 321436,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-12-pebbled-leather-crossbody-bag",
@@ -6754,7 +6754,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Longchamp Longchamp Structured Wallet — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-13-structured-wallet/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -6769,8 +6769,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 4750920,
-        originalPrice: 7918200,
+        price: 234060,
+        originalPrice: 390100,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-13-structured-wallet",
@@ -6789,7 +6789,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "men",
     description: "Longchamp Longchamp Compact Clutch — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-14-compact-clutch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6802,8 +6802,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 1872065,
-        originalPrice: 2880100,
+        price: 226590,
+        originalPrice: 348600,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-14-compact-clutch",
@@ -6822,7 +6822,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "unisex",
     description: "Longchamp Longchamp Signature Shoulder Bag — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-15-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6835,8 +6835,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 9503085,
-        originalPrice: 11180100,
+        price: 209160,
+        originalPrice: 246071,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-15-signature-shoulder-bag",
@@ -6855,7 +6855,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "women",
     description: "Longchamp Longchamp Pebbled Leather Tote Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-16-pebbled-leather-tote-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6868,8 +6868,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 7257520,
-        originalPrice: 9071900,
+        price: 216630,
+        originalPrice: 270788,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-16-pebbled-leather-tote-bag",
@@ -6888,7 +6888,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Longchamp Longchamp Structured Crossbody Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-17-structured-crossbody-bag/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -6903,8 +6903,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 3590580,
-        originalPrice: 5129400,
+        price: 199200,
+        originalPrice: 284571,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-17-structured-crossbody-bag",
@@ -6923,7 +6923,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Crossbody Bags",
     gender: "unisex",
     description: "Longchamp Longchamp Compact Wallet — crossbody bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-18-compact-wallet/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6936,8 +6936,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 4335920,
-        originalPrice: 5419900,
+        price: 122010,
+        originalPrice: 152513,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-18-compact-wallet",
@@ -6956,7 +6956,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Totes",
     gender: "women",
     description: "Longchamp Longchamp Signature Clutch — totes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-19-signature-clutch/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -6969,8 +6969,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 5363875,
-        originalPrice: 9752500,
+        price: 239040,
+        originalPrice: 434618,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-19-signature-clutch",
@@ -6989,7 +6989,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Wallets",
     gender: "men",
     description: "Longchamp Longchamp Pebbled Leather Shoulder Bag — wallets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/longchamp-20-pebbled-leather-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7002,8 +7002,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "longchamp-store",
-        price: 5850670,
-        originalPrice: 8358100,
+        price: 174300,
+        originalPrice: 249000,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.longchamp.com/p/longchamp-20-pebbled-leather-shoulder-bag",
@@ -7022,7 +7022,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-1-classic-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7035,8 +7035,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1037085,
-        originalPrice: 1220100,
+        price: 124500,
+        originalPrice: 146471,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-1-classic-blazer",
@@ -7055,7 +7055,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-2-relaxed-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7068,8 +7068,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 861540,
-        originalPrice: 1435900,
+        price: 157700,
+        originalPrice: 262833,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-2-relaxed-shirt-dress",
@@ -7088,7 +7088,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-3-slim-fit-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -7103,8 +7103,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1241680,
-        originalPrice: 1460800,
+        price: 117860,
+        originalPrice: 138659,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-3-slim-fit-denim-jacket",
@@ -7123,7 +7123,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-4-oversized-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7136,8 +7136,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1200180,
-        originalPrice: 2000300,
+        price: 162680,
+        originalPrice: 271133,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-4-oversized-knit-sweater",
@@ -7156,7 +7156,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-5-tailored-trench-coat/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -7171,8 +7171,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1077340,
-        originalPrice: 1958800,
+        price: 89640,
+        originalPrice: 162982,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-5-tailored-trench-coat",
@@ -7191,7 +7191,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-6-classic-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7204,8 +7204,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1354560,
-        originalPrice: 1593600,
+        price: 132800,
+        originalPrice: 156235,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-6-classic-midi-dress",
@@ -7224,7 +7224,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-7-relaxed-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7237,8 +7237,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 717120,
-        originalPrice: 1195200,
+        price: 111220,
+        originalPrice: 185367,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-7-relaxed-blazer",
@@ -7257,7 +7257,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-8-slim-fit-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7270,8 +7270,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1200180,
-        originalPrice: 2000300,
+        price: 134460,
+        originalPrice: 224100,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-8-slim-fit-shirt-dress",
@@ -7290,7 +7290,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-9-oversized-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -7305,8 +7305,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 286350,
-        originalPrice: 381800,
+        price: 157700,
+        originalPrice: 210267,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-9-oversized-denim-jacket",
@@ -7325,7 +7325,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-10-tailored-knit-sweater/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -7340,8 +7340,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1414320,
-        originalPrice: 1767900,
+        price: 136120,
+        originalPrice: 170150,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-10-tailored-knit-sweater",
@@ -7360,7 +7360,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-11-classic-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7373,8 +7373,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 725835,
-        originalPrice: 1319700,
+        price: 129480,
+        originalPrice: 235418,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-11-classic-trench-coat",
@@ -7393,7 +7393,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-12-relaxed-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7406,8 +7406,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1450425,
-        originalPrice: 1933900,
+        price: 114540,
+        originalPrice: 152720,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-12-relaxed-midi-dress",
@@ -7426,7 +7426,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-13-slim-fit-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7439,8 +7439,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1180260,
-        originalPrice: 1967100,
+        price: 101260,
+        originalPrice: 168767,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-13-slim-fit-blazer",
@@ -7459,7 +7459,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-14-oversized-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7472,8 +7472,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1310985,
-        originalPrice: 2016900,
+        price: 66400,
+        originalPrice: 102154,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-14-oversized-shirt-dress",
@@ -7492,7 +7492,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-15-tailored-denim-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -7507,8 +7507,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 1382780,
-        originalPrice: 1626800,
+        price: 119520,
+        originalPrice: 140612,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-15-tailored-denim-jacket",
@@ -7527,7 +7527,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-16-classic-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7540,8 +7540,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 585150,
-        originalPrice: 1170300,
+        price: 154380,
+        originalPrice: 308760,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-16-classic-knit-sweater",
@@ -7560,7 +7560,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-17-relaxed-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7573,8 +7573,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 852410,
-        originalPrice: 1311400,
+        price: 144420,
+        originalPrice: 222185,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-17-relaxed-trench-coat",
@@ -7593,7 +7593,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "El Corte Inglés El Corte Ingles Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-18-slim-fit-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7606,8 +7606,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 178450,
-        originalPrice: 356900,
+        price: 104580,
+        originalPrice: 209160,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-18-slim-fit-midi-dress",
@@ -7626,7 +7626,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "El Corte Inglés El Corte Ingles Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-19-oversized-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7639,8 +7639,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 989775,
-        originalPrice: 1319700,
+        price: 81340,
+        originalPrice: 108453,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-19-oversized-blazer",
@@ -7659,7 +7659,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "El Corte Inglés El Corte Ingles Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/el-corte-ingles-20-tailored-shirt-dress/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -7674,8 +7674,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "el-corte-ingles-store",
-        price: 524975,
-        originalPrice: 954500,
+        price: 107900,
+        originalPrice: 196182,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.elcorteingles.es/p/el-corte-ingles-20-tailored-shirt-dress",
@@ -7694,7 +7694,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Primeriti Primeriti Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7707,8 +7707,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 486795,
-        originalPrice: 572700,
+        price: 231570,
+        originalPrice: 272435,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-1-signature-shoulder-bag",
@@ -7727,7 +7727,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Primeriti Primeriti Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7740,8 +7740,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 564400,
-        originalPrice: 664000,
+        price: 41168,
+        originalPrice: 48433,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-2-monogram-silk-scarf",
@@ -7760,7 +7760,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Primeriti Primeriti Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7773,8 +7773,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 666075,
-        originalPrice: 888100,
+        price: 36852,
+        originalPrice: 49136,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-3-limited-edition-leather-loafers",
@@ -7793,7 +7793,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Primeriti Primeriti Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7806,8 +7806,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 1190220,
-        originalPrice: 1983700,
+        price: 29216,
+        originalPrice: 48693,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-4-runway-sunglasses",
@@ -7826,7 +7826,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Primeriti Primeriti Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7839,8 +7839,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 610050,
-        originalPrice: 813400,
+        price: 191730,
+        originalPrice: 255640,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-5-heritage-wool-coat",
@@ -7859,7 +7859,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Primeriti Primeriti Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7872,8 +7872,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 900550,
-        originalPrice: 1286500,
+        price: 104580,
+        originalPrice: 149400,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-6-signature-tote",
@@ -7892,7 +7892,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Primeriti Primeriti Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7905,8 +7905,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 1179430,
-        originalPrice: 1684900,
+        price: 236550,
+        originalPrice: 337929,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-7-monogram-shoulder-bag",
@@ -7925,7 +7925,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Primeriti Primeriti Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7938,8 +7938,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 698445,
-        originalPrice: 1269900,
+        price: 33200,
+        originalPrice: 60364,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-8-limited-edition-silk-scarf",
@@ -7958,7 +7958,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Primeriti Primeriti Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -7971,8 +7971,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 1030030,
-        originalPrice: 1211800,
+        price: 214140,
+        originalPrice: 251929,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-9-runway-leather-loafers",
@@ -7991,7 +7991,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Primeriti Primeriti Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8004,8 +8004,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 298800,
-        originalPrice: 373500,
+        price: 31208,
+        originalPrice: 39010,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-10-heritage-sunglasses",
@@ -8024,7 +8024,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "Primeriti Primeriti Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8037,8 +8037,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 856560,
-        originalPrice: 1427600,
+        price: 19920,
+        originalPrice: 33200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-11-signature-wool-coat",
@@ -8057,7 +8057,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "Primeriti Primeriti Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8070,8 +8070,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 1027125,
-        originalPrice: 1867500,
+        price: 124500,
+        originalPrice: 226364,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-12-monogram-tote",
@@ -8090,7 +8090,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Primeriti Primeriti Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8103,8 +8103,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 947030,
-        originalPrice: 1352900,
+        price: 151890,
+        originalPrice: 216986,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-13-limited-edition-shoulder-bag",
@@ -8123,7 +8123,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Primeriti Primeriti Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8136,8 +8136,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 253565,
-        originalPrice: 390100,
+        price: 35192,
+        originalPrice: 54142,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-14-runway-silk-scarf",
@@ -8156,7 +8156,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Primeriti Primeriti Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8169,8 +8169,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 691390,
-        originalPrice: 987700,
+        price: 48804,
+        originalPrice: 69720,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-15-heritage-leather-loafers",
@@ -8189,7 +8189,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Primeriti Primeriti Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8202,8 +8202,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 671055,
-        originalPrice: 1220100,
+        price: 43160,
+        originalPrice: 78473,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-16-signature-sunglasses",
@@ -8222,7 +8222,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Primeriti Primeriti Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8235,8 +8235,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 572700,
-        originalPrice: 1145400,
+        price: 246510,
+        originalPrice: 493020,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-17-monogram-wool-coat",
@@ -8255,7 +8255,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Primeriti Primeriti Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8268,8 +8268,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 1413075,
-        originalPrice: 1884100,
+        price: 129480,
+        originalPrice: 172640,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-18-limited-edition-tote",
@@ -8288,7 +8288,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Primeriti Primeriti Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8301,8 +8301,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 796800,
-        originalPrice: 1062400,
+        price: 191730,
+        originalPrice: 255640,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-19-runway-shoulder-bag",
@@ -8321,7 +8321,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Primeriti Primeriti Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/primeriti-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8334,8 +8334,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "primeriti-store",
-        price: 883120,
-        originalPrice: 1103900,
+        price: 42496,
+        originalPrice: 53120,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.primeriti.es/p/primeriti-20-heritage-silk-scarf",
@@ -8354,7 +8354,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "FARFETCH Farfetch Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8367,8 +8367,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 4857077,
-        originalPrice: 6938800,
+        price: 124500,
+        originalPrice: 177860,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-1-signature-shoulder-bag",
@@ -8387,7 +8387,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "FARFETCH Farfetch Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8400,8 +8400,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 4544250,
-        originalPrice: 9088500,
+        price: 27224,
+        originalPrice: 54448,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-2-monogram-silk-scarf",
@@ -8420,7 +8420,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "FARFETCH Farfetch Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8433,8 +8433,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 1557080,
-        originalPrice: 2224400,
+        price: 37350,
+        originalPrice: 53357,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-3-limited-edition-leather-loafers",
@@ -8453,7 +8453,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "FARFETCH Farfetch Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8466,8 +8466,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 5796720,
-        originalPrice: 9661200,
+        price: 31208,
+        originalPrice: 52013,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-4-runway-sunglasses",
@@ -8486,7 +8486,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "FARFETCH Farfetch Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8499,8 +8499,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 5038100,
-        originalPrice: 10076200,
+        price: 144420,
+        originalPrice: 288840,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-5-heritage-wool-coat",
@@ -8519,7 +8519,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "FARFETCH Farfetch Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8532,8 +8532,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 8291700,
-        originalPrice: 11055600,
+        price: 144420,
+        originalPrice: 192560,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-6-signature-tote",
@@ -8552,7 +8552,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "FARFETCH Farfetch Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8565,8 +8565,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 4162450,
-        originalPrice: 4897000,
+        price: 234060,
+        originalPrice: 275365,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-7-monogram-shoulder-bag",
@@ -8585,7 +8585,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "FARFETCH Farfetch Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8598,8 +8598,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 2814945,
-        originalPrice: 3311700,
+        price: 46480,
+        originalPrice: 54682,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-8-limited-edition-silk-scarf",
@@ -8618,7 +8618,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "FARFETCH Farfetch Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8631,8 +8631,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 3716325,
-        originalPrice: 4955100,
+        price: 239040,
+        originalPrice: 318720,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-9-runway-leather-loafers",
@@ -8651,7 +8651,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "FARFETCH Farfetch Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8664,8 +8664,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 4389040,
-        originalPrice: 5486300,
+        price: 45816,
+        originalPrice: 57270,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-10-heritage-sunglasses",
@@ -8684,7 +8684,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "FARFETCH Farfetch Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8697,8 +8697,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 3693085,
-        originalPrice: 6714700,
+        price: 25896,
+        originalPrice: 47084,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-11-signature-wool-coat",
@@ -8717,7 +8717,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "FARFETCH Farfetch Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8730,8 +8730,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 2944425,
-        originalPrice: 5353500,
+        price: 131970,
+        originalPrice: 239945,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-12-monogram-tote",
@@ -8750,7 +8750,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "FARFETCH Farfetch Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8763,8 +8763,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 10469620,
-        originalPrice: 12317200,
+        price: 109560,
+        originalPrice: 128894,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-13-limited-edition-shoulder-bag",
@@ -8783,7 +8783,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "FARFETCH Farfetch Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8796,8 +8796,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 3273520,
-        originalPrice: 3851200,
+        price: 63080,
+        originalPrice: 74212,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-14-runway-silk-scarf",
@@ -8816,7 +8816,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "FARFETCH Farfetch Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8829,8 +8829,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 5008137,
-        originalPrice: 7154600,
+        price: 37848,
+        originalPrice: 54069,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-15-heritage-leather-loafers",
@@ -8849,7 +8849,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "FARFETCH Farfetch Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8862,8 +8862,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 7403600,
-        originalPrice: 9254500,
+        price: 35856,
+        originalPrice: 44820,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-16-signature-sunglasses",
@@ -8882,7 +8882,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "FARFETCH Farfetch Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8895,8 +8895,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 1309740,
-        originalPrice: 2182900,
+        price: 109560,
+        originalPrice: 182600,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-17-monogram-wool-coat",
@@ -8915,7 +8915,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "FARFETCH Farfetch Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8928,8 +8928,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 2290800,
-        originalPrice: 2863500,
+        price: 196710,
+        originalPrice: 245888,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-18-limited-edition-tote",
@@ -8948,7 +8948,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "FARFETCH Farfetch Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8961,8 +8961,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 9163200,
-        originalPrice: 12217600,
+        price: 129480,
+        originalPrice: 172640,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-19-runway-shoulder-bag",
@@ -8981,7 +8981,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "FARFETCH Farfetch Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/farfetch-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -8994,8 +8994,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 1263675,
-        originalPrice: 1684900,
+        price: 35192,
+        originalPrice: 46923,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/p/farfetch-20-heritage-silk-scarf",
@@ -9014,7 +9014,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "SSENSE Ssense Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9027,8 +9027,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 5652300,
-        originalPrice: 7536400,
+        price: 211650,
+        originalPrice: 282200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-1-signature-shoulder-bag",
@@ -9047,7 +9047,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "SSENSE Ssense Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9060,8 +9060,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 6075600,
-        originalPrice: 7594500,
+        price: 37848,
+        originalPrice: 47310,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-2-monogram-silk-scarf",
@@ -9080,7 +9080,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "SSENSE Ssense Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9093,8 +9093,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 5395000,
-        originalPrice: 10790000,
+        price: 21912,
+        originalPrice: 43824,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.ssense.com/p/ssense-3-limited-edition-leather-loafers",
@@ -9113,7 +9113,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "SSENSE Ssense Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9126,8 +9126,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 1498980,
-        originalPrice: 2498300,
+        price: 41168,
+        originalPrice: 68613,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.ssense.com/p/ssense-4-runway-sunglasses",
@@ -9146,7 +9146,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "SSENSE Ssense Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9159,8 +9159,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 7657580,
-        originalPrice: 10939400,
+        price: 144420,
+        originalPrice: 206314,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-5-heritage-wool-coat",
@@ -9179,7 +9179,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "SSENSE Ssense Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9192,8 +9192,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 3473550,
-        originalPrice: 4631400,
+        price: 194220,
+        originalPrice: 258960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-6-signature-tote",
@@ -9212,7 +9212,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "SSENSE Ssense Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9225,8 +9225,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 3671920,
-        originalPrice: 4589900,
+        price: 149400,
+        originalPrice: 186750,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.ssense.com/p/ssense-7-monogram-shoulder-bag",
@@ -9245,7 +9245,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "SSENSE Ssense Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9258,8 +9258,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 3224135,
-        originalPrice: 3793100,
+        price: 52456,
+        originalPrice: 61713,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-8-limited-edition-silk-scarf",
@@ -9278,7 +9278,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "SSENSE Ssense Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9291,8 +9291,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 4631400,
-        originalPrice: 7719000,
+        price: 221610,
+        originalPrice: 369350,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-9-runway-leather-loafers",
@@ -9311,7 +9311,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "SSENSE Ssense Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9324,8 +9324,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 4423485,
-        originalPrice: 5204100,
+        price: 27224,
+        originalPrice: 32028,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-10-heritage-sunglasses",
@@ -9344,7 +9344,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "SSENSE Ssense Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9357,8 +9357,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 4925635,
-        originalPrice: 7577900,
+        price: 41334,
+        originalPrice: 63591,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-11-signature-wool-coat",
@@ -9377,7 +9377,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "SSENSE Ssense Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9390,8 +9390,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 5044325,
-        originalPrice: 9171500,
+        price: 229080,
+        originalPrice: 416509,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.ssense.com/p/ssense-12-monogram-tote",
@@ -9410,7 +9410,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "SSENSE Ssense Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9423,8 +9423,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 7261670,
-        originalPrice: 11171800,
+        price: 117030,
+        originalPrice: 180046,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-13-limited-edition-shoulder-bag",
@@ -9443,7 +9443,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "SSENSE Ssense Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9456,8 +9456,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 2816605,
-        originalPrice: 5121100,
+        price: 42496,
+        originalPrice: 77265,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-14-runway-silk-scarf",
@@ -9476,7 +9476,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "SSENSE Ssense Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9489,8 +9489,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 1816870,
-        originalPrice: 3303400,
+        price: 49800,
+        originalPrice: 90545,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-15-heritage-leather-loafers",
@@ -9509,7 +9509,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "SSENSE Ssense Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9522,8 +9522,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 6190140,
-        originalPrice: 11254800,
+        price: 58432,
+        originalPrice: 106240,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.ssense.com/p/ssense-16-signature-sunglasses",
@@ -9542,7 +9542,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "SSENSE Ssense Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9555,8 +9555,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 9714735,
-        originalPrice: 11429100,
+        price: 169320,
+        originalPrice: 199200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-17-monogram-wool-coat",
@@ -9575,7 +9575,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "SSENSE Ssense Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9588,8 +9588,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 4623515,
-        originalPrice: 7113100,
+        price: 149400,
+        originalPrice: 229846,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-18-limited-edition-tote",
@@ -9608,7 +9608,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "SSENSE Ssense Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9621,8 +9621,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 5281705,
-        originalPrice: 9603100,
+        price: 216630,
+        originalPrice: 393873,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.ssense.com/p/ssense-19-runway-shoulder-bag",
@@ -9641,7 +9641,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "SSENSE Ssense Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/ssense-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9654,8 +9654,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "ssense-store",
-        price: 7448420,
-        originalPrice: 10640600,
+        price: 59760,
+        originalPrice: 85371,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.ssense.com/p/ssense-20-heritage-silk-scarf",
@@ -9674,7 +9674,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Classic Blazer — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-1-classic-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9687,8 +9687,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 2215270,
-        originalPrice: 2606200,
+        price: 66400,
+        originalPrice: 78118,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-1-classic-blazer",
@@ -9707,7 +9707,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Relaxed Shirt Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-2-relaxed-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9720,8 +9720,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 1209725,
-        originalPrice: 2199500,
+        price: 126160,
+        originalPrice: 229382,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-2-relaxed-shirt-dress",
@@ -9740,7 +9740,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Slim Fit Denim Jacket — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-3-slim-fit-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -9755,8 +9755,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 2593750,
-        originalPrice: 5187500,
+        price: 119520,
+        originalPrice: 239040,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-3-slim-fit-denim-jacket",
@@ -9775,7 +9775,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Oversized Knit Sweater — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-4-oversized-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9788,8 +9788,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 2548100,
-        originalPrice: 5096200,
+        price: 154380,
+        originalPrice: 308760,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-4-oversized-knit-sweater",
@@ -9808,7 +9808,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Tailored Trench Coat — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-5-tailored-trench-coat/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -9823,8 +9823,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 834150,
-        originalPrice: 1668300,
+        price: 147740,
+        originalPrice: 295480,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-5-tailored-trench-coat",
@@ -9843,7 +9843,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Classic Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-6-classic-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9856,8 +9856,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 5473850,
-        originalPrice: 10947700,
+        price: 164340,
+        originalPrice: 328680,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-6-classic-midi-dress",
@@ -9876,7 +9876,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Relaxed Blazer — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-7-relaxed-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9889,8 +9889,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 4455440,
-        originalPrice: 8100800,
+        price: 87980,
+        originalPrice: 159964,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-7-relaxed-blazer",
@@ -9909,7 +9909,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Slim Fit Shirt Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-8-slim-fit-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -9922,8 +9922,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 4679125,
-        originalPrice: 8507500,
+        price: 89640,
+        originalPrice: 162982,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-8-slim-fit-shirt-dress",
@@ -9942,7 +9942,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Oversized Denim Jacket — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-9-oversized-denim-jacket/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -9957,8 +9957,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 1296460,
-        originalPrice: 2357200,
+        price: 121180,
+        originalPrice: 220327,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-9-oversized-denim-jacket",
@@ -9977,7 +9977,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Tailored Knit Sweater — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-10-tailored-knit-sweater/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -9992,8 +9992,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 2734020,
-        originalPrice: 4556700,
+        price: 136120,
+        originalPrice: 226867,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-10-tailored-knit-sweater",
@@ -10012,7 +10012,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Classic Trench Coat — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-11-classic-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10025,8 +10025,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 7233450,
-        originalPrice: 10333500,
+        price: 78020,
+        originalPrice: 111457,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-11-classic-trench-coat",
@@ -10045,7 +10045,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Relaxed Midi Dress — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-12-relaxed-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10058,8 +10058,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 6490185,
-        originalPrice: 9984900,
+        price: 117860,
+        originalPrice: 181323,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-12-relaxed-midi-dress",
@@ -10078,7 +10078,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Slim Fit Blazer — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-13-slim-fit-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10091,8 +10091,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 5403300,
-        originalPrice: 10806600,
+        price: 114540,
+        originalPrice: 229080,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-13-slim-fit-blazer",
@@ -10111,7 +10111,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Oversized Shirt Dress — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-14-oversized-shirt-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10124,8 +10124,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 2722400,
-        originalPrice: 5444800,
+        price: 157700,
+        originalPrice: 315400,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-14-oversized-shirt-dress",
@@ -10144,7 +10144,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Tailored Denim Jacket — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-15-tailored-denim-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -10159,8 +10159,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 2563040,
-        originalPrice: 3203800,
+        price: 147740,
+        originalPrice: 184675,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-15-tailored-denim-jacket",
@@ -10179,7 +10179,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Classic Knit Sweater — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-16-classic-knit-sweater/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10192,8 +10192,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 4447140,
-        originalPrice: 7411900,
+        price: 111220,
+        originalPrice: 185367,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-16-classic-knit-sweater",
@@ -10212,7 +10212,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Relaxed Trench Coat — jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-17-relaxed-trench-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10225,8 +10225,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 5546475,
-        originalPrice: 7395300,
+        price: 154380,
+        originalPrice: 205840,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-17-relaxed-trench-coat",
@@ -10245,7 +10245,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "unisex",
     description: "NET-A-PORTER Net A Porter Slim Fit Midi Dress — jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-18-slim-fit-midi-dress/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10258,8 +10258,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 3193425,
-        originalPrice: 4257900,
+        price: 126160,
+        originalPrice: 168213,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-18-slim-fit-midi-dress",
@@ -10278,7 +10278,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "women",
     description: "NET-A-PORTER Net A Porter Oversized Blazer — shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-19-oversized-blazer/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10291,8 +10291,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 4428050,
-        originalPrice: 8856100,
+        price: 141100,
+        originalPrice: 282200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-19-oversized-blazer",
@@ -10311,7 +10311,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sweaters",
     gender: "men",
     description: "NET-A-PORTER Net A Porter Tailored Shirt Dress — sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/net-a-porter-20-tailored-shirt-dress/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -10326,8 +10326,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "net-a-porter-store",
-        price: 10173310,
-        originalPrice: 11968600,
+        price: 106240,
+        originalPrice: 124988,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.net-a-porter.com/p/net-a-porter-20-tailored-shirt-dress",
@@ -10346,7 +10346,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shirts",
     gender: "men",
     description: "MR PORTER Mr Porter Slim Fit Denim Jeans — shirts tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mr-porter-1-slim-fit-denim-jeans/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -10361,8 +10361,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mr-porter-store",
-        price: 3076810,
-        originalPrice: 5594200,
+        price: 164340,
+        originalPrice: 298800,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-1-slim-fit-denim-jeans",
@@ -10371,8 +10371,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 1699425,
-        originalPrice: 2614500,
+        price: 81340,
+        originalPrice: 125138,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-5-slim-fit-denim-jeans",
@@ -10381,8 +10381,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 2826150,
-        originalPrice: 5652300,
+        price: 74700,
+        originalPrice: 149400,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-9-slim-fit-denim-jeans",
@@ -10391,8 +10391,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 3809700,
-        originalPrice: 4482000,
+        price: 84660,
+        originalPrice: 99600,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-13-slim-fit-denim-jeans",
@@ -10401,8 +10401,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 5624080,
-        originalPrice: 7030100,
+        price: 129480,
+        originalPrice: 161850,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-17-slim-fit-denim-jeans",
@@ -10421,7 +10421,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jeans",
     gender: "men",
     description: "MR PORTER Mr Porter Classic Oxford Shirt — jeans tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mr-porter-2-classic-oxford-shirt/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10434,8 +10434,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mr-porter-store",
-        price: 2168790,
-        originalPrice: 3336600,
+        price: 117860,
+        originalPrice: 181323,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-2-classic-oxford-shirt",
@@ -10444,8 +10444,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 5212400,
-        originalPrice: 6515500,
+        price: 101260,
+        originalPrice: 126575,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-6-classic-oxford-shirt",
@@ -10454,8 +10454,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 2544780,
-        originalPrice: 4241300,
+        price: 102920,
+        originalPrice: 171533,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-10-classic-oxford-shirt",
@@ -10464,8 +10464,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 3247790,
-        originalPrice: 4996600,
+        price: 141100,
+        originalPrice: 217077,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-14-classic-oxford-shirt",
@@ -10474,8 +10474,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 4073225,
-        originalPrice: 6266500,
+        price: 66400,
+        originalPrice: 102154,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-18-classic-oxford-shirt",
@@ -10494,7 +10494,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jackets",
     gender: "men",
     description: "MR PORTER Mr Porter Relaxed Chino Trousers — jackets tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mr-porter-3-relaxed-chino-trousers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10507,8 +10507,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mr-porter-store",
-        price: 3376440,
-        originalPrice: 5627400,
+        price: 124500,
+        originalPrice: 207500,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-3-relaxed-chino-trousers",
@@ -10517,8 +10517,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 5148075,
-        originalPrice: 6864100,
+        price: 166000,
+        originalPrice: 221333,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-7-relaxed-chino-trousers",
@@ -10527,8 +10527,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 5710815,
-        originalPrice: 10383300,
+        price: 104580,
+        originalPrice: 190145,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-11-relaxed-chino-trousers",
@@ -10537,8 +10537,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 3108350,
-        originalPrice: 4440500,
+        price: 119520,
+        originalPrice: 170743,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-15-relaxed-chino-trousers",
@@ -10547,8 +10547,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 4846785,
-        originalPrice: 5702100,
+        price: 87980,
+        originalPrice: 103506,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-19-relaxed-chino-trousers",
@@ -10567,7 +10567,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Chinos",
     gender: "men",
     description: "MR PORTER Mr Porter Tailored Bomber Jacket — chinos tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mr-porter-4-tailored-bomber-jacket/600/600",
+    image: "",
     colors: [
       "Red"
     ],
@@ -10582,8 +10582,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mr-porter-store",
-        price: 4774575,
-        originalPrice: 7345500,
+        price: 122840,
+        originalPrice: 188985,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-4-tailored-bomber-jacket",
@@ -10592,8 +10592,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 2793780,
-        originalPrice: 3286800,
+        price: 71380,
+        originalPrice: 83976,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-8-tailored-bomber-jacket",
@@ -10602,8 +10602,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 5397407,
-        originalPrice: 7710700,
+        price: 78020,
+        originalPrice: 111459,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-12-tailored-bomber-jacket",
@@ -10612,8 +10612,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 5139360,
-        originalPrice: 6424200,
+        price: 83000,
+        originalPrice: 103750,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-16-tailored-bomber-jacket",
@@ -10622,8 +10622,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "mr-porter-store",
-        price: 3446160,
-        originalPrice: 5743600,
+        price: 112880,
+        originalPrice: 188133,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mrporter.com/p/mr-porter-20-tailored-bomber-jacket",
@@ -10642,7 +10642,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Mytheresa Mytheresa Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10655,8 +10655,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 6403865,
-        originalPrice: 9852100,
+        price: 176790,
+        originalPrice: 271985,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-1-signature-shoulder-bag",
@@ -10675,7 +10675,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Mytheresa Mytheresa Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10688,8 +10688,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 4127175,
-        originalPrice: 6349500,
+        price: 33864,
+        originalPrice: 52098,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-2-monogram-silk-scarf",
@@ -10708,7 +10708,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10721,8 +10721,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 4388625,
-        originalPrice: 5851500,
+        price: 24402,
+        originalPrice: 32536,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-3-limited-edition-leather-loafers",
@@ -10741,7 +10741,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Mytheresa Mytheresa Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10754,8 +10754,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 2245980,
-        originalPrice: 3743300,
+        price: 55112,
+        originalPrice: 91853,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-4-runway-sunglasses",
@@ -10774,7 +10774,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Mytheresa Mytheresa Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10787,8 +10787,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 2320680,
-        originalPrice: 3867800,
+        price: 171810,
+        originalPrice: 286350,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-5-heritage-wool-coat",
@@ -10807,7 +10807,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10820,8 +10820,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 1265750,
-        originalPrice: 2531500,
+        price: 164340,
+        originalPrice: 328680,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-6-signature-tote",
@@ -10840,7 +10840,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Mytheresa Mytheresa Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10853,8 +10853,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 4058285,
-        originalPrice: 7378700,
+        price: 149400,
+        originalPrice: 271636,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-7-monogram-shoulder-bag",
@@ -10873,7 +10873,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Mytheresa Mytheresa Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10886,8 +10886,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 9742955,
-        originalPrice: 11462300,
+        price: 37848,
+        originalPrice: 44527,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-8-limited-edition-silk-scarf",
@@ -10906,7 +10906,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Mytheresa Mytheresa Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10919,8 +10919,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 3896850,
-        originalPrice: 7793700,
+        price: 179280,
+        originalPrice: 358560,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-9-runway-leather-loafers",
@@ -10939,7 +10939,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Mytheresa Mytheresa Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10952,8 +10952,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 5108235,
-        originalPrice: 9287700,
+        price: 55776,
+        originalPrice: 101411,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-10-heritage-sunglasses",
@@ -10972,7 +10972,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "Mytheresa Mytheresa Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -10985,8 +10985,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 5110725,
-        originalPrice: 6814300,
+        price: 37350,
+        originalPrice: 49800,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-11-signature-wool-coat",
@@ -11005,7 +11005,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "Mytheresa Mytheresa Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11018,8 +11018,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 3542440,
-        originalPrice: 6440800,
+        price: 224100,
+        originalPrice: 407455,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-12-monogram-tote",
@@ -11038,7 +11038,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Mytheresa Mytheresa Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11051,8 +11051,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 6144905,
-        originalPrice: 7229300,
+        price: 179280,
+        originalPrice: 210918,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-13-limited-edition-shoulder-bag",
@@ -11071,7 +11071,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Mytheresa Mytheresa Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11084,8 +11084,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 6803510,
-        originalPrice: 9719300,
+        price: 54448,
+        originalPrice: 77783,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-14-runway-silk-scarf",
@@ -11104,7 +11104,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11117,8 +11117,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 1364935,
-        originalPrice: 2099900,
+        price: 43824,
+        originalPrice: 67422,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-15-heritage-leather-loafers",
@@ -11137,7 +11137,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Mytheresa Mytheresa Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11150,8 +11150,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 5514520,
-        originalPrice: 10026400,
+        price: 39840,
+        originalPrice: 72436,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-16-signature-sunglasses",
@@ -11170,7 +11170,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Mytheresa Mytheresa Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11183,8 +11183,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 2357200,
-        originalPrice: 2946500,
+        price: 166830,
+        originalPrice: 208538,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-17-monogram-wool-coat",
@@ -11203,7 +11203,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Mytheresa Mytheresa Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11216,8 +11216,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 2123555,
-        originalPrice: 2498300,
+        price: 131970,
+        originalPrice: 155259,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-18-limited-edition-tote",
@@ -11236,7 +11236,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Mytheresa Mytheresa Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11249,8 +11249,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 1835960,
-        originalPrice: 2622800,
+        price: 164340,
+        originalPrice: 234771,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-19-runway-shoulder-bag",
@@ -11269,7 +11269,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Mytheresa Mytheresa Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/mytheresa-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11282,8 +11282,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "mytheresa-store",
-        price: 1580320,
-        originalPrice: 2257600,
+        price: 34528,
+        originalPrice: 49326,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.mytheresa.com/p/mytheresa-20-heritage-silk-scarf",
@@ -11302,7 +11302,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11315,8 +11315,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 5876815,
-        originalPrice: 6913900,
+        price: 151890,
+        originalPrice: 178694,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-1-signature-shoulder-bag",
@@ -11335,7 +11335,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11348,8 +11348,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 5386700,
-        originalPrice: 9794000,
+        price: 29216,
+        originalPrice: 53120,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-2-monogram-silk-scarf",
@@ -11368,7 +11368,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11381,8 +11381,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 1752960,
-        originalPrice: 3187200,
+        price: 31872,
+        originalPrice: 57949,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-3-limited-edition-leather-loafers",
@@ -11401,7 +11401,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11414,8 +11414,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 8360175,
-        originalPrice: 11146900,
+        price: 27888,
+        originalPrice: 37184,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-4-runway-sunglasses",
@@ -11434,7 +11434,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11447,8 +11447,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 3167695,
-        originalPrice: 3726700,
+        price: 164340,
+        originalPrice: 193341,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-5-heritage-wool-coat",
@@ -11467,7 +11467,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11480,8 +11480,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 4887870,
-        originalPrice: 7519800,
+        price: 221610,
+        originalPrice: 340938,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-6-signature-tote",
@@ -11500,7 +11500,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11513,8 +11513,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 1563720,
-        originalPrice: 2606200,
+        price: 201690,
+        originalPrice: 336150,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-7-monogram-shoulder-bag",
@@ -11533,7 +11533,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11546,8 +11546,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 5772650,
-        originalPrice: 8881000,
+        price: 33864,
+        originalPrice: 52098,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-8-limited-edition-silk-scarf",
@@ -11566,7 +11566,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11579,8 +11579,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 3971550,
-        originalPrice: 7221000,
+        price: 149400,
+        originalPrice: 271636,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-9-runway-leather-loafers",
@@ -11599,7 +11599,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11612,8 +11612,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 3247790,
-        originalPrice: 4996600,
+        price: 46480,
+        originalPrice: 71508,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-10-heritage-sunglasses",
@@ -11632,7 +11632,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11645,8 +11645,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 3186370,
-        originalPrice: 5793400,
+        price: 40836,
+        originalPrice: 74247,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-11-signature-wool-coat",
@@ -11665,7 +11665,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11678,8 +11678,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 2897115,
-        originalPrice: 4457100,
+        price: 134460,
+        originalPrice: 206862,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-12-monogram-tote",
@@ -11698,7 +11698,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11711,8 +11711,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 1557080,
-        originalPrice: 2224400,
+        price: 144420,
+        originalPrice: 206314,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-13-limited-edition-shoulder-bag",
@@ -11731,7 +11731,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11744,8 +11744,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 2863500,
-        originalPrice: 5727000,
+        price: 46480,
+        originalPrice: 92960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-14-runway-silk-scarf",
@@ -11764,7 +11764,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11777,8 +11777,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 7034250,
-        originalPrice: 9379000,
+        price: 25896,
+        originalPrice: 34528,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-15-heritage-leather-loafers",
@@ -11797,7 +11797,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11810,8 +11810,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 6225000,
-        originalPrice: 10375000,
+        price: 44488,
+        originalPrice: 74147,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-16-signature-sunglasses",
@@ -11830,7 +11830,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11843,8 +11843,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 9912275,
-        originalPrice: 11661500,
+        price: 144420,
+        originalPrice: 169906,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-17-monogram-wool-coat",
@@ -11863,7 +11863,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Luisaviaroma Luisaviaroma Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11876,8 +11876,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 1401040,
-        originalPrice: 1751300,
+        price: 241530,
+        originalPrice: 301913,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-18-limited-edition-tote",
@@ -11896,7 +11896,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Luisaviaroma Luisaviaroma Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11909,8 +11909,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 4681200,
-        originalPrice: 7802000,
+        price: 234060,
+        originalPrice: 390100,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-19-runway-shoulder-bag",
@@ -11929,7 +11929,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Luisaviaroma Luisaviaroma Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/luisaviaroma-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11942,8 +11942,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "luisaviaroma-store",
-        price: 2025200,
-        originalPrice: 4050400,
+        price: 42496,
+        originalPrice: 84992,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.luisaviaroma.com/p/luisaviaroma-20-heritage-silk-scarf",
@@ -11962,7 +11962,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Selfridges Selfridges Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -11975,8 +11975,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 6571110,
-        originalPrice: 9387300,
+        price: 211650,
+        originalPrice: 302357,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-1-signature-shoulder-bag",
@@ -11995,7 +11995,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Selfridges Selfridges Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12008,8 +12008,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 4050400,
-        originalPrice: 8100800,
+        price: 54448,
+        originalPrice: 108896,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-2-monogram-silk-scarf",
@@ -12028,7 +12028,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Selfridges Selfridges Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12041,8 +12041,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 4789100,
-        originalPrice: 9578200,
+        price: 23904,
+        originalPrice: 47808,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-3-limited-edition-leather-loafers",
@@ -12061,7 +12061,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Selfridges Selfridges Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12074,8 +12074,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 3287630,
-        originalPrice: 3867800,
+        price: 55776,
+        originalPrice: 65619,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-4-runway-sunglasses",
@@ -12094,7 +12094,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Selfridges Selfridges Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12107,8 +12107,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 8798000,
-        originalPrice: 10997500,
+        price: 214140,
+        originalPrice: 267675,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-5-heritage-wool-coat",
@@ -12127,7 +12127,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Selfridges Selfridges Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12140,8 +12140,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 8837840,
-        originalPrice: 11047300,
+        price: 169320,
+        originalPrice: 211650,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-6-signature-tote",
@@ -12160,7 +12160,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Selfridges Selfridges Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12173,8 +12173,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 5303700,
-        originalPrice: 7071600,
+        price: 226590,
+        originalPrice: 302120,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-7-monogram-shoulder-bag",
@@ -12193,7 +12193,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Selfridges Selfridges Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12206,8 +12206,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 7127625,
-        originalPrice: 9503500,
+        price: 47144,
+        originalPrice: 62859,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-8-limited-edition-silk-scarf",
@@ -12226,7 +12226,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Selfridges Selfridges Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12239,8 +12239,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 5842785,
-        originalPrice: 8988900,
+        price: 196710,
+        originalPrice: 302631,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-9-runway-leather-loafers",
@@ -12259,7 +12259,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Selfridges Selfridges Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12272,8 +12272,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 5602500,
-        originalPrice: 7470000,
+        price: 33864,
+        originalPrice: 45152,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-10-heritage-sunglasses",
@@ -12292,7 +12292,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "Selfridges Selfridges Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12305,8 +12305,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 8151430,
-        originalPrice: 11644900,
+        price: 38346,
+        originalPrice: 54780,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-11-signature-wool-coat",
@@ -12325,7 +12325,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "Selfridges Selfridges Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12338,8 +12338,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 5378400,
-        originalPrice: 6723000,
+        price: 249000,
+        originalPrice: 311250,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-12-monogram-tote",
@@ -12358,7 +12358,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Selfridges Selfridges Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12371,8 +12371,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 2257600,
-        originalPrice: 2656000,
+        price: 219120,
+        originalPrice: 257788,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-13-limited-edition-shoulder-bag",
@@ -12391,7 +12391,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Selfridges Selfridges Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12404,8 +12404,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 5740280,
-        originalPrice: 8831200,
+        price: 30544,
+        originalPrice: 46991,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-14-runway-silk-scarf",
@@ -12424,7 +12424,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Selfridges Selfridges Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12437,8 +12437,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 3560700,
-        originalPrice: 6474000,
+        price: 38346,
+        originalPrice: 69720,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-15-heritage-leather-loafers",
@@ -12457,7 +12457,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Selfridges Selfridges Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12470,8 +12470,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 1705650,
-        originalPrice: 2274200,
+        price: 44488,
+        originalPrice: 59317,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-16-signature-sunglasses",
@@ -12490,7 +12490,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Selfridges Selfridges Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12503,8 +12503,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 5378400,
-        originalPrice: 10756800,
+        price: 196710,
+        originalPrice: 393420,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-17-monogram-wool-coat",
@@ -12523,7 +12523,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Selfridges Selfridges Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12536,8 +12536,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 2514900,
-        originalPrice: 4191500,
+        price: 171810,
+        originalPrice: 286350,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-18-limited-edition-tote",
@@ -12556,7 +12556,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Selfridges Selfridges Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12569,8 +12569,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 7115175,
-        originalPrice: 9486900,
+        price: 229080,
+        originalPrice: 305440,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-19-runway-shoulder-bag",
@@ -12589,7 +12589,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Selfridges Selfridges Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/selfridges-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12602,8 +12602,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "selfridges-store",
-        price: 2679240,
-        originalPrice: 4465400,
+        price: 63080,
+        originalPrice: 105133,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.selfridges.com/p/selfridges-20-heritage-silk-scarf",
@@ -12622,7 +12622,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Harrods Harrods Signature Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-1-signature-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12635,8 +12635,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 2994225,
-        originalPrice: 3992300,
+        price: 174300,
+        originalPrice: 232400,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.harrods.com/p/harrods-1-signature-shoulder-bag",
@@ -12655,7 +12655,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Harrods Harrods Monogram Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-2-monogram-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12668,8 +12668,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 6228320,
-        originalPrice: 8897600,
+        price: 61088,
+        originalPrice: 87269,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-2-monogram-silk-scarf",
@@ -12688,7 +12688,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Harrods Harrods Limited Edition Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-3-limited-edition-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12701,8 +12701,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 1210140,
-        originalPrice: 2016900,
+        price: 37848,
+        originalPrice: 63080,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-3-limited-edition-leather-loafers",
@@ -12721,7 +12721,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Harrods Harrods Runway Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-4-runway-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12734,8 +12734,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 5610800,
-        originalPrice: 8632000,
+        price: 29880,
+        originalPrice: 45969,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-4-runway-sunglasses",
@@ -12754,7 +12754,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Harrods Harrods Heritage Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-5-heritage-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12767,8 +12767,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 6075600,
-        originalPrice: 7594500,
+        price: 239040,
+        originalPrice: 298800,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-5-heritage-wool-coat",
@@ -12787,7 +12787,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Harrods Harrods Signature Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-6-signature-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12800,8 +12800,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 2458875,
-        originalPrice: 3278500,
+        price: 146910,
+        originalPrice: 195880,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-6-signature-tote",
@@ -12820,7 +12820,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Harrods Harrods Monogram Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-7-monogram-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12833,8 +12833,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 4975850,
-        originalPrice: 9047000,
+        price: 171810,
+        originalPrice: 312382,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-7-monogram-shoulder-bag",
@@ -12853,7 +12853,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Harrods Harrods Limited Edition Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-8-limited-edition-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12866,8 +12866,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 6404280,
-        originalPrice: 10673800,
+        price: 38512,
+        originalPrice: 64187,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-8-limited-edition-silk-scarf",
@@ -12886,7 +12886,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "unisex",
     description: "Harrods Harrods Runway Leather Loafers — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-9-runway-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12899,8 +12899,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 8192100,
-        originalPrice: 11703000,
+        price: 186750,
+        originalPrice: 266786,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.harrods.com/p/harrods-9-runway-leather-loafers",
@@ -12919,7 +12919,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "men",
     description: "Harrods Harrods Heritage Sunglasses — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-10-heritage-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12932,8 +12932,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 9501840,
-        originalPrice: 11877300,
+        price: 59096,
+        originalPrice: 73870,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-10-heritage-sunglasses",
@@ -12952,7 +12952,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "women",
     description: "Harrods Harrods Signature Wool Coat — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-11-signature-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12965,8 +12965,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 4628080,
-        originalPrice: 5444800,
+        price: 31872,
+        originalPrice: 37496,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-11-signature-wool-coat",
@@ -12985,7 +12985,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "unisex",
     description: "Harrods Harrods Monogram Tote — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-12-monogram-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -12998,8 +12998,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 5650640,
-        originalPrice: 7063300,
+        price: 219120,
+        originalPrice: 273900,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-12-monogram-tote",
@@ -13018,7 +13018,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "men",
     description: "Harrods Harrods Limited Edition Shoulder Bag — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-13-limited-edition-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13031,8 +13031,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 3058965,
-        originalPrice: 4706100,
+        price: 234060,
+        originalPrice: 360092,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-13-limited-edition-shoulder-bag",
@@ -13051,7 +13051,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "women",
     description: "Harrods Harrods Runway Silk Scarf — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-14-runway-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13064,8 +13064,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 6035760,
-        originalPrice: 7544700,
+        price: 43824,
+        originalPrice: 54780,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-14-runway-silk-scarf",
@@ -13084,7 +13084,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "unisex",
     description: "Harrods Harrods Heritage Leather Loafers — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-15-heritage-leather-loafers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13097,8 +13097,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 4407715,
-        originalPrice: 6781100,
+        price: 49800,
+        originalPrice: 76615,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-15-heritage-leather-loafers",
@@ -13117,7 +13117,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "men",
     description: "Harrods Harrods Signature Sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-16-signature-sunglasses/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13130,8 +13130,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 6989430,
-        originalPrice: 9984900,
+        price: 51128,
+        originalPrice: 73040,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-16-signature-sunglasses",
@@ -13150,7 +13150,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Handbags",
     gender: "women",
     description: "Harrods Harrods Monogram Wool Coat — handbags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-17-monogram-wool-coat/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13163,8 +13163,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 4183615,
-        originalPrice: 4921900,
+        price: 204180,
+        originalPrice: 240212,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-17-monogram-wool-coat",
@@ -13183,7 +13183,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Ready-to-Wear",
     gender: "unisex",
     description: "Harrods Harrods Limited Edition Tote — ready-to-wear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-18-limited-edition-tote/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13196,8 +13196,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 2342260,
-        originalPrice: 2755600,
+        price: 211650,
+        originalPrice: 249000,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-18-limited-edition-tote",
@@ -13216,7 +13216,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Footwear",
     gender: "men",
     description: "Harrods Harrods Runway Shoulder Bag — footwear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-19-runway-shoulder-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13229,8 +13229,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 8951550,
-        originalPrice: 11935400,
+        price: 114540,
+        originalPrice: 152720,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-19-runway-shoulder-bag",
@@ -13249,7 +13249,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Harrods Harrods Heritage Silk Scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/harrods-20-heritage-silk-scarf/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13262,8 +13262,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "harrods-store",
-        price: 1655850,
-        originalPrice: 2207800,
+        price: 42496,
+        originalPrice: 56661,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.harrods.com/p/harrods-20-heritage-silk-scarf",
@@ -13278,11 +13278,11 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-samsonite-hardshell-suitcase",
     name: "Samsonite Hardshell Suitcase",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Check-In Luggage",
     gender: "unisex",
     description: "Samsonite Samsonite Hardshell Suitcase — check-in luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/samsonite-1-hardshell-suitcase/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13295,8 +13295,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "samsonite-store",
-        price: 776050,
-        originalPrice: 1552100,
+        price: 46480,
+        originalPrice: 92960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-1-hardshell-suitcase",
@@ -13305,8 +13305,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 1347505,
-        originalPrice: 1585300,
+        price: 53120,
+        originalPrice: 62494,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-6-hardshell-suitcase",
@@ -13315,8 +13315,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 343620,
-        originalPrice: 572700,
+        price: 50464,
+        originalPrice: 84107,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-11-hardshell-suitcase",
@@ -13325,8 +13325,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 753225,
-        originalPrice: 1004300,
+        price: 29216,
+        originalPrice: 38955,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-16-hardshell-suitcase",
@@ -13341,11 +13341,11 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-samsonite-lightweight-spinner-case",
     name: "Samsonite Lightweight Spinner Case",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Cabin Luggage",
     gender: "unisex",
     description: "Samsonite Samsonite Lightweight Spinner Case — cabin luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/samsonite-2-lightweight-spinner-case/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13358,8 +13358,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "samsonite-store",
-        price: 989775,
-        originalPrice: 1319700,
+        price: 36520,
+        originalPrice: 48693,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-2-lightweight-spinner-case",
@@ -13368,8 +13368,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 1381120,
-        originalPrice: 1726400,
+        price: 51128,
+        originalPrice: 63910,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-7-lightweight-spinner-case",
@@ -13378,8 +13378,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 1062815,
-        originalPrice: 1635100,
+        price: 63080,
+        originalPrice: 97046,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-12-lightweight-spinner-case",
@@ -13388,8 +13388,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 291330,
-        originalPrice: 448200,
+        price: 36520,
+        originalPrice: 56185,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-17-lightweight-spinner-case",
@@ -13404,11 +13404,11 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-samsonite-expandable-duffel-bag",
     name: "Samsonite Expandable Duffel Bag",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Travel Packages",
     gender: "unisex",
     description: "Samsonite Samsonite Expandable Duffel Bag — travel packages tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/samsonite-3-expandable-duffel-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13421,8 +13421,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "samsonite-store",
-        price: 916320,
-        originalPrice: 1145400,
+        price: 45816,
+        originalPrice: 57270,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-3-expandable-duffel-bag",
@@ -13431,8 +13431,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 378895,
-        originalPrice: 688900,
+        price: 43824,
+        originalPrice: 79680,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-8-expandable-duffel-bag",
@@ -13441,8 +13441,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 471440,
-        originalPrice: 589300,
+        price: 41168,
+        originalPrice: 51460,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-13-expandable-duffel-bag",
@@ -13451,8 +13451,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 566475,
-        originalPrice: 871500,
+        price: 48472,
+        originalPrice: 74572,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-18-expandable-duffel-bag",
@@ -13467,11 +13467,11 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-samsonite-all-inclusive-getaway-package",
     name: "Samsonite All-Inclusive Getaway Package",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Backpacks",
     gender: "unisex",
     description: "Samsonite Samsonite All-Inclusive Getaway Package — backpacks tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/samsonite-4-all-inclusive-getaway-package/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13484,8 +13484,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "samsonite-store",
-        price: 1254960,
-        originalPrice: 1568700,
+        price: 39840,
+        originalPrice: 49800,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-4-all-inclusive-getaway-package",
@@ -13494,8 +13494,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 1035840,
-        originalPrice: 1294800,
+        price: 56440,
+        originalPrice: 70550,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-9-all-inclusive-getaway-package",
@@ -13504,8 +13504,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 485550,
-        originalPrice: 647400,
+        price: 63744,
+        originalPrice: 84992,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-14-all-inclusive-getaway-package",
@@ -13514,8 +13514,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 666075,
-        originalPrice: 888100,
+        price: 58432,
+        originalPrice: 77909,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-19-all-inclusive-getaway-package",
@@ -13530,11 +13530,11 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-samsonite-3-night-hotel-booking",
     name: "Samsonite 3-Night Hotel Booking",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Check-In Luggage",
     gender: "unisex",
     description: "Samsonite Samsonite 3-Night Hotel Booking — check-in luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/samsonite-5-3-night-hotel-booking/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13547,8 +13547,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "samsonite-store",
-        price: 479325,
-        originalPrice: 639100,
+        price: 52456,
+        originalPrice: 69941,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-5-3-night-hotel-booking",
@@ -13557,8 +13557,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 468120,
-        originalPrice: 780200,
+        price: 35856,
+        originalPrice: 59760,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-10-3-night-hotel-booking",
@@ -13567,8 +13567,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 1434240,
-        originalPrice: 1792800,
+        price: 65736,
+        originalPrice: 82170,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-15-3-night-hotel-booking",
@@ -13577,8 +13577,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "samsonite-store",
-        price: 1249067,
-        originalPrice: 1784500,
+        price: 40504,
+        originalPrice: 57867,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.samsonite.com/p/samsonite-20-3-night-hotel-booking",
@@ -13593,11 +13593,11 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tumi-hardshell-suitcase",
     name: "Tumi Hardshell Suitcase",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Check-In Luggage",
     gender: "unisex",
     description: "TUMI Tumi Hardshell Suitcase — check-in luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tumi-1-hardshell-suitcase/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13610,8 +13610,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "tumi-store",
-        price: 1460800,
-        originalPrice: 1826000,
+        price: 55112,
+        originalPrice: 68890,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.tumi.com/p/tumi-1-hardshell-suitcase",
@@ -13620,8 +13620,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 1855880,
-        originalPrice: 2855200,
+        price: 62416,
+        originalPrice: 96025,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-6-hardshell-suitcase",
@@ -13630,8 +13630,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 1475740,
-        originalPrice: 2108200,
+        price: 62416,
+        originalPrice: 89166,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-11-hardshell-suitcase",
@@ -13640,8 +13640,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 1606880,
-        originalPrice: 2008600,
+        price: 64408,
+        originalPrice: 80510,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-16-hardshell-suitcase",
@@ -13656,11 +13656,11 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tumi-lightweight-spinner-case",
     name: "Tumi Lightweight Spinner Case",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Cabin Luggage",
     gender: "unisex",
     description: "TUMI Tumi Lightweight Spinner Case — cabin luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tumi-2-lightweight-spinner-case/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13673,8 +13673,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "tumi-store",
-        price: 4880317,
-        originalPrice: 6972000,
+        price: 53120,
+        originalPrice: 75887,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-2-lightweight-spinner-case",
@@ -13683,8 +13683,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 2377120,
-        originalPrice: 2971400,
+        price: 29216,
+        originalPrice: 36520,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-7-lightweight-spinner-case",
@@ -13693,8 +13693,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 6891075,
-        originalPrice: 9188100,
+        price: 39840,
+        originalPrice: 53120,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.tumi.com/p/tumi-12-lightweight-spinner-case",
@@ -13703,8 +13703,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 2452650,
-        originalPrice: 3270200,
+        price: 35192,
+        originalPrice: 46923,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-17-lightweight-spinner-case",
@@ -13719,11 +13719,11 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tumi-expandable-duffel-bag",
     name: "Tumi Expandable Duffel Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Travel Packages",
     gender: "unisex",
     description: "TUMI Tumi Expandable Duffel Bag — travel packages tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tumi-3-expandable-duffel-bag/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13736,8 +13736,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "tumi-store",
-        price: 3320000,
-        originalPrice: 4150000,
+        price: 47144,
+        originalPrice: 58930,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-3-expandable-duffel-bag",
@@ -13746,8 +13746,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 2817850,
-        originalPrice: 4025500,
+        price: 47808,
+        originalPrice: 68297,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-8-expandable-duffel-bag",
@@ -13756,8 +13756,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 4302720,
-        originalPrice: 5378400,
+        price: 45152,
+        originalPrice: 56440,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.tumi.com/p/tumi-13-expandable-duffel-bag",
@@ -13766,8 +13766,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 4052475,
-        originalPrice: 5403300,
+        price: 38512,
+        originalPrice: 51349,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-18-expandable-duffel-bag",
@@ -13782,11 +13782,11 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tumi-all-inclusive-getaway-package",
     name: "Tumi All-Inclusive Getaway Package",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Backpacks",
     gender: "unisex",
     description: "TUMI Tumi All-Inclusive Getaway Package — backpacks tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tumi-4-all-inclusive-getaway-package/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13799,8 +13799,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "tumi-store",
-        price: 2163395,
-        originalPrice: 3328300,
+        price: 42496,
+        originalPrice: 65378,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.tumi.com/p/tumi-4-all-inclusive-getaway-package",
@@ -13809,8 +13809,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 8578880,
-        originalPrice: 10092800,
+        price: 44488,
+        originalPrice: 52339,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.tumi.com/p/tumi-9-all-inclusive-getaway-package",
@@ -13819,8 +13819,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 5011125,
-        originalPrice: 6681500,
+        price: 45152,
+        originalPrice: 60203,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-14-all-inclusive-getaway-package",
@@ -13829,8 +13829,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 8203720,
-        originalPrice: 11719600,
+        price: 36520,
+        originalPrice: 52171,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-19-all-inclusive-getaway-package",
@@ -13845,11 +13845,11 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tumi-3-night-hotel-booking",
     name: "Tumi 3-Night Hotel Booking",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Check-In Luggage",
     gender: "unisex",
     description: "TUMI Tumi 3-Night Hotel Booking — check-in luggage tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/tumi-5-3-night-hotel-booking/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13862,8 +13862,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "tumi-store",
-        price: 3451140,
-        originalPrice: 6274800,
+        price: 27888,
+        originalPrice: 50705,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-5-3-night-hotel-booking",
@@ -13872,8 +13872,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 1474080,
-        originalPrice: 2456800,
+        price: 61752,
+        originalPrice: 102920,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.tumi.com/p/tumi-10-3-night-hotel-booking",
@@ -13882,8 +13882,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 6537080,
-        originalPrice: 11885600,
+        price: 31208,
+        originalPrice: 56742,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.tumi.com/p/tumi-15-3-night-hotel-booking",
@@ -13892,8 +13892,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "tumi-store",
-        price: 7496560,
-        originalPrice: 9370700,
+        price: 40504,
+        originalPrice: 50630,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.tumi.com/p/tumi-20-3-night-hotel-booking",
@@ -13912,7 +13912,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Carters Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/carters-1-soft-cotton-onesie-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13925,8 +13925,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "carters-store",
-        price: 169320,
-        originalPrice: 199200,
+        price: 4482,
+        originalPrice: 5273,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-1-soft-cotton-onesie-set",
@@ -13935,8 +13935,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 112050,
-        originalPrice: 149400,
+        price: 6308,
+        originalPrice: 8411,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.carters.com/p/carters-6-soft-cotton-onesie-set",
@@ -13945,8 +13945,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 161850,
-        originalPrice: 249000,
+        price: 4482,
+        originalPrice: 6895,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-11-soft-cotton-onesie-set",
@@ -13955,8 +13955,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 99600,
-        originalPrice: 166000,
+        price: 7802,
+        originalPrice: 13003,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.carters.com/p/carters-16-soft-cotton-onesie-set",
@@ -13975,7 +13975,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "Carter's Carters Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/carters-2-organic-graphic-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -13988,8 +13988,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "carters-store",
-        price: 119520,
-        originalPrice: 149400,
+        price: 4980,
+        originalPrice: 6225,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-2-organic-graphic-tee",
@@ -13998,8 +13998,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 99600,
-        originalPrice: 199200,
+        price: 11122,
+        originalPrice: 22244,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-7-organic-graphic-tee",
@@ -14008,8 +14008,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 185920,
-        originalPrice: 232400,
+        price: 11371,
+        originalPrice: 14214,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-12-organic-graphic-tee",
@@ -14018,8 +14018,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 139440,
-        originalPrice: 174300,
+        price: 11703,
+        originalPrice: 14629,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-17-organic-graphic-tee",
@@ -14038,7 +14038,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "Carter's Carters Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/carters-3-printed-sneakers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14051,8 +14051,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "carters-store",
-        price: 199200,
-        originalPrice: 249000,
+        price: 7387,
+        originalPrice: 9234,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-3-printed-sneakers",
@@ -14061,8 +14061,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 172640,
-        originalPrice: 265600,
+        price: 12367,
+        originalPrice: 19026,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.carters.com/p/carters-8-printed-sneakers",
@@ -14071,8 +14071,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 81257,
-        originalPrice: 116200,
+        price: 11454,
+        originalPrice: 16380,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-13-printed-sneakers",
@@ -14081,8 +14081,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 159360,
-        originalPrice: 265600,
+        price: 8881,
+        originalPrice: 14802,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-18-printed-sneakers",
@@ -14101,7 +14101,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "Carter's Carters Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/carters-4-everyday-pajama-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14114,8 +14114,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "carters-store",
-        price: 211650,
-        originalPrice: 249000,
+        price: 11454,
+        originalPrice: 13475,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.carters.com/p/carters-4-everyday-pajama-set",
@@ -14124,8 +14124,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 141100,
-        originalPrice: 282200,
+        price: 10209,
+        originalPrice: 20418,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.carters.com/p/carters-9-everyday-pajama-set",
@@ -14134,8 +14134,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 116200,
-        originalPrice: 232400,
+        price: 10707,
+        originalPrice: 21414,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-14-everyday-pajama-set",
@@ -14144,8 +14144,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 113295,
-        originalPrice: 174300,
+        price: 9130,
+        originalPrice: 14046,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-19-everyday-pajama-set",
@@ -14164,7 +14164,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Carters Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/carters-5-cozy-denim-overalls/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -14179,8 +14179,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "carters-store",
-        price: 139440,
-        originalPrice: 174300,
+        price: 5810,
+        originalPrice: 7263,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-5-cozy-denim-overalls",
@@ -14189,8 +14189,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 199200,
-        originalPrice: 265600,
+        price: 8217,
+        originalPrice: 10956,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-10-cozy-denim-overalls",
@@ -14199,8 +14199,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 169320,
-        originalPrice: 199200,
+        price: 4648,
+        originalPrice: 5468,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.carters.com/p/carters-15-cozy-denim-overalls",
@@ -14209,8 +14209,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "carters-store",
-        price: 169320,
-        originalPrice: 199200,
+        price: 3652,
+        originalPrice: 4296,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.carters.com/p/carters-20-cozy-denim-overalls",
@@ -14229,7 +14229,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/oshkosh-bgosh-1-soft-cotton-onesie-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14242,8 +14242,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "oshkosh-bgosh-store",
-        price: 104995,
-        originalPrice: 190900,
+        price: 3735,
+        originalPrice: 6791,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-1-soft-cotton-onesie-set",
@@ -14252,8 +14252,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 93375,
-        originalPrice: 124500,
+        price: 3652,
+        originalPrice: 4869,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-6-soft-cotton-onesie-set",
@@ -14262,8 +14262,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 49800,
-        originalPrice: 83000,
+        price: 5976,
+        originalPrice: 9960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-11-soft-cotton-onesie-set",
@@ -14272,8 +14272,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 58100,
-        originalPrice: 116200,
+        price: 7885,
+        originalPrice: 15770,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-16-soft-cotton-onesie-set",
@@ -14292,7 +14292,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/oshkosh-bgosh-2-organic-graphic-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14305,8 +14305,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "oshkosh-bgosh-store",
-        price: 66400,
-        originalPrice: 132800,
+        price: 6640,
+        originalPrice: 13280,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-2-organic-graphic-tee",
@@ -14315,8 +14315,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 100430,
-        originalPrice: 182600,
+        price: 5146,
+        originalPrice: 9356,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-7-organic-graphic-tee",
@@ -14325,8 +14325,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 82170,
-        originalPrice: 149400,
+        price: 8964,
+        originalPrice: 16298,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-12-organic-graphic-tee",
@@ -14335,8 +14335,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 167245,
-        originalPrice: 257300,
+        price: 7968,
+        originalPrice: 12258,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-17-organic-graphic-tee",
@@ -14355,7 +14355,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/oshkosh-bgosh-3-printed-sneakers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14368,8 +14368,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "oshkosh-bgosh-store",
-        price: 150977,
-        originalPrice: 215800,
+        price: 8466,
+        originalPrice: 12101,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-3-printed-sneakers",
@@ -14378,8 +14378,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 92960,
-        originalPrice: 116200,
+        price: 11454,
+        originalPrice: 14318,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-8-printed-sneakers",
@@ -14388,8 +14388,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 98770,
-        originalPrice: 141100,
+        price: 6391,
+        originalPrice: 9130,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-13-printed-sneakers",
@@ -14398,8 +14398,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 212480,
-        originalPrice: 265600,
+        price: 6889,
+        originalPrice: 8611,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-18-printed-sneakers",
@@ -14418,7 +14418,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/oshkosh-bgosh-4-everyday-pajama-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14431,8 +14431,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "oshkosh-bgosh-store",
-        price: 83000,
-        originalPrice: 166000,
+        price: 9213,
+        originalPrice: 18426,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-4-everyday-pajama-set",
@@ -14441,8 +14441,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 211650,
-        originalPrice: 249000,
+        price: 5644,
+        originalPrice: 6640,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-9-everyday-pajama-set",
@@ -14451,8 +14451,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 50215,
-        originalPrice: 91300,
+        price: 5478,
+        originalPrice: 9960,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-14-everyday-pajama-set",
@@ -14461,8 +14461,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 155210,
-        originalPrice: 282200,
+        price: 11371,
+        originalPrice: 20675,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-19-everyday-pajama-set",
@@ -14481,7 +14481,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Oshkosh Bgosh Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/oshkosh-bgosh-5-cozy-denim-overalls/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -14496,8 +14496,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "oshkosh-bgosh-store",
-        price: 79680,
-        originalPrice: 132800,
+        price: 7885,
+        originalPrice: 13142,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-5-cozy-denim-overalls",
@@ -14506,8 +14506,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 54780,
-        originalPrice: 99600,
+        price: 4399,
+        originalPrice: 7998,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-10-cozy-denim-overalls",
@@ -14516,8 +14516,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 24900,
-        originalPrice: 33200,
+        price: 5644,
+        originalPrice: 7525,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-15-cozy-denim-overalls",
@@ -14526,8 +14526,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "oshkosh-bgosh-store",
-        price: 188825,
-        originalPrice: 290500,
+        price: 6225,
+        originalPrice: 9577,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.oshkosh.com/p/oshkosh-bgosh-20-cozy-denim-overalls",
@@ -14546,7 +14546,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/the-childrens-place-1-soft-cotton-onesie-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14559,8 +14559,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "the-childrens-place-store",
-        price: 34860,
-        originalPrice: 58100,
+        price: 3569,
+        originalPrice: 5948,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-1-soft-cotton-onesie-set",
@@ -14569,8 +14569,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 35275,
-        originalPrice: 41500,
+        price: 4316,
+        originalPrice: 5078,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-6-soft-cotton-onesie-set",
@@ -14579,8 +14579,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 93375,
-        originalPrice: 124500,
+        price: 5229,
+        originalPrice: 6972,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-11-soft-cotton-onesie-set",
@@ -14589,8 +14589,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 139440,
-        originalPrice: 174300,
+        price: 7304,
+        originalPrice: 9130,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-16-soft-cotton-onesie-set",
@@ -14609,7 +14609,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/the-childrens-place-2-organic-graphic-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14622,8 +14622,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "the-childrens-place-store",
-        price: 79680,
-        originalPrice: 132800,
+        price: 10375,
+        originalPrice: 17292,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-2-organic-graphic-tee",
@@ -14632,8 +14632,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 212480,
-        originalPrice: 265600,
+        price: 8383,
+        originalPrice: 10479,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-7-organic-graphic-tee",
@@ -14642,8 +14642,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 197540,
-        originalPrice: 232400,
+        price: 11703,
+        originalPrice: 13768,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-12-organic-graphic-tee",
@@ -14652,8 +14652,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 146080,
-        originalPrice: 265600,
+        price: 8134,
+        originalPrice: 14789,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-17-organic-graphic-tee",
@@ -14672,7 +14672,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/the-childrens-place-3-printed-sneakers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14685,8 +14685,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "the-childrens-place-store",
-        price: 150645,
-        originalPrice: 273900,
+        price: 10956,
+        originalPrice: 19920,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-3-printed-sneakers",
@@ -14695,8 +14695,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 118690,
-        originalPrice: 182600,
+        price: 5727,
+        originalPrice: 8811,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-8-printed-sneakers",
@@ -14705,8 +14705,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 59345,
-        originalPrice: 91300,
+        price: 4980,
+        originalPrice: 7662,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-13-printed-sneakers",
@@ -14715,8 +14715,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 164340,
-        originalPrice: 273900,
+        price: 7470,
+        originalPrice: 12450,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-18-printed-sneakers",
@@ -14735,7 +14735,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/the-childrens-place-4-everyday-pajama-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14748,8 +14748,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "the-childrens-place-store",
-        price: 225760,
-        originalPrice: 265600,
+        price: 6640,
+        originalPrice: 7812,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-4-everyday-pajama-set",
@@ -14758,8 +14758,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 41500,
-        originalPrice: 83000,
+        price: 7221,
+        originalPrice: 14442,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-9-everyday-pajama-set",
@@ -14768,8 +14768,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 75530,
-        originalPrice: 116200,
+        price: 6889,
+        originalPrice: 10598,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-14-everyday-pajama-set",
@@ -14778,8 +14778,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 74700,
-        originalPrice: 124500,
+        price: 6640,
+        originalPrice: 11067,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-19-everyday-pajama-set",
@@ -14798,7 +14798,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "The Children's Place The Childrens Place Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/the-childrens-place-5-cozy-denim-overalls/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -14813,8 +14813,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "the-childrens-place-store",
-        price: 99600,
-        originalPrice: 199200,
+        price: 5893,
+        originalPrice: 11786,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-5-cozy-denim-overalls",
@@ -14823,8 +14823,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 70550,
-        originalPrice: 141100,
+        price: 5727,
+        originalPrice: 11454,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-10-cozy-denim-overalls",
@@ -14833,8 +14833,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 22825,
-        originalPrice: 41500,
+        price: 3652,
+        originalPrice: 6640,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-15-cozy-denim-overalls",
@@ -14843,8 +14843,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "the-childrens-place-store",
-        price: 116200,
-        originalPrice: 232400,
+        price: 6225,
+        originalPrice: 12450,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.childrensplace.com/p/the-childrens-place-20-cozy-denim-overalls",
@@ -14863,7 +14863,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "GAP Kids Gap Kids Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-kids-1-soft-cotton-onesie-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14876,8 +14876,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "gap-kids-store",
-        price: 129480,
-        originalPrice: 215800,
+        price: 3984,
+        originalPrice: 6640,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-1-soft-cotton-onesie-set",
@@ -14886,8 +14886,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 133630,
-        originalPrice: 190900,
+        price: 8300,
+        originalPrice: 11857,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-6-soft-cotton-onesie-set",
@@ -14896,8 +14896,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 130725,
-        originalPrice: 174300,
+        price: 5976,
+        originalPrice: 7968,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-11-soft-cotton-onesie-set",
@@ -14906,8 +14906,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 107900,
-        originalPrice: 166000,
+        price: 5561,
+        originalPrice: 8555,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-16-soft-cotton-onesie-set",
@@ -14926,7 +14926,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "GAP Kids Gap Kids Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-kids-2-organic-graphic-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -14939,8 +14939,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "gap-kids-store",
-        price: 84660,
-        originalPrice: 99600,
+        price: 5478,
+        originalPrice: 6445,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-2-organic-graphic-tee",
@@ -14949,8 +14949,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 100430,
-        originalPrice: 182600,
+        price: 8134,
+        originalPrice: 14789,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-7-organic-graphic-tee",
@@ -14959,8 +14959,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 119935,
-        originalPrice: 141100,
+        price: 7968,
+        originalPrice: 9374,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-12-organic-graphic-tee",
@@ -14969,8 +14969,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 48555,
-        originalPrice: 74700,
+        price: 6391,
+        originalPrice: 9832,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-17-organic-graphic-tee",
@@ -14989,7 +14989,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "GAP Kids Gap Kids Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-kids-3-printed-sneakers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -15002,8 +15002,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "gap-kids-store",
-        price: 211650,
-        originalPrice: 282200,
+        price: 7387,
+        originalPrice: 9849,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-3-printed-sneakers",
@@ -15012,8 +15012,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 74700,
-        originalPrice: 124500,
+        price: 7138,
+        originalPrice: 11897,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-8-printed-sneakers",
@@ -15022,8 +15022,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 145250,
-        originalPrice: 290500,
+        price: 7138,
+        originalPrice: 14276,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-13-printed-sneakers",
@@ -15032,8 +15032,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 28220,
-        originalPrice: 33200,
+        price: 11620,
+        originalPrice: 13671,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-18-printed-sneakers",
@@ -15052,7 +15052,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "GAP Kids Gap Kids Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-kids-4-everyday-pajama-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -15065,8 +15065,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "gap-kids-store",
-        price: 32370,
-        originalPrice: 49800,
+        price: 10956,
+        originalPrice: 16855,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-4-everyday-pajama-set",
@@ -15075,8 +15075,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 83000,
-        originalPrice: 166000,
+        price: 7138,
+        originalPrice: 14276,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-9-everyday-pajama-set",
@@ -15085,8 +15085,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 141515,
-        originalPrice: 257300,
+        price: 6474,
+        originalPrice: 11771,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-14-everyday-pajama-set",
@@ -15095,8 +15095,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 178035,
-        originalPrice: 273900,
+        price: 6391,
+        originalPrice: 9832,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-19-everyday-pajama-set",
@@ -15115,7 +15115,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "GAP Kids Gap Kids Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/gap-kids-5-cozy-denim-overalls/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -15130,8 +15130,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "gap-kids-store",
-        price: 118275,
-        originalPrice: 157700,
+        price: 4814,
+        originalPrice: 6419,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-5-cozy-denim-overalls",
@@ -15140,8 +15140,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 49800,
-        originalPrice: 99600,
+        price: 6723,
+        originalPrice: 13446,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-10-cozy-denim-overalls",
@@ -15150,8 +15150,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 68475,
-        originalPrice: 124500,
+        price: 4897,
+        originalPrice: 8904,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-15-cozy-denim-overalls",
@@ -15160,8 +15160,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "gap-kids-store",
-        price: 102505,
-        originalPrice: 157700,
+        price: 6142,
+        originalPrice: 9449,
         currency: "USD",
         availability: "OUT OF STOCK",
         productUrl: "https://www.gap.com/p/gap-kids-20-cozy-denim-overalls",
@@ -15180,7 +15180,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "H&M Kids Hm Kids Soft Cotton Onesie Set — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-kids-1-soft-cotton-onesie-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -15213,8 +15213,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "hm-kids-store",
-        price: 212480,
-        originalPrice: 265600,
+        price: 156040,
+        originalPrice: 195050,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-11-soft-cotton-onesie-set",
@@ -15223,8 +15223,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "hm-kids-store",
-        price: 180110,
-        originalPrice: 257300,
+        price: 159360,
+        originalPrice: 227657,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-16-soft-cotton-onesie-set",
@@ -15243,7 +15243,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Toddler Clothing",
     gender: "unisex",
     description: "H&M Kids Hm Kids Organic Graphic Tee — toddler clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-kids-2-organic-graphic-tee/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -15306,7 +15306,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids Shoes",
     gender: "unisex",
     description: "H&M Kids Hm Kids Printed Sneakers — kids shoes tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-kids-3-printed-sneakers/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -15319,8 +15319,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "hm-kids-store",
-        price: 219120,
-        originalPrice: 273900,
+        price: 20916,
+        originalPrice: 26145,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-3-printed-sneakers",
@@ -15329,8 +15329,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "hm-kids-store",
-        price: 74700,
-        originalPrice: 99600,
+        price: 25896,
+        originalPrice: 34528,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-8-printed-sneakers",
@@ -15339,8 +15339,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "hm-kids-store",
-        price: 180110,
-        originalPrice: 257300,
+        price: 46812,
+        originalPrice: 66874,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-13-printed-sneakers",
@@ -15349,8 +15349,8 @@ export const generatedProducts: Product[] = [
       },
       {
         store: "hm-kids-store",
-        price: 141515,
-        originalPrice: 257300,
+        price: 19920,
+        originalPrice: 36218,
         currency: "USD",
         availability: "LOW STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-18-printed-sneakers",
@@ -15369,7 +15369,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sleepwear",
     gender: "unisex",
     description: "H&M Kids Hm Kids Everyday Pajama Set — sleepwear tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-kids-4-everyday-pajama-set/600/600",
+    image: "",
     colors: [],
     sizes: [],
     tags: [
@@ -15432,7 +15432,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "H&M Kids Hm Kids Cozy Denim Overalls — baby clothing tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://picsum.photos/seed/hm-kids-5-cozy-denim-overalls/600/600",
+    image: "",
     colors: [
       "Denim"
     ],
@@ -15447,8 +15447,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "hm-kids-store",
-        price: 199200,
-        originalPrice: 249000,
+        price: 149400,
+        originalPrice: 186750,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.hm.com/p/hm-kids-5-cozy-denim-overalls",
@@ -33940,7 +33940,7 @@ export const generatedProducts: Product[] = [
     slug: "tory-burch-reva-travel-ballet-flats",
     name: "Reva Travel ballet flats",
     brand: "tory-burch",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Shoes",
     gender: "women",
     description: "Tory Burch Reva Travel ballet flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -35054,8 +35054,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 392590,
-        originalPrice: 392590,
+        price: 159360,
+        originalPrice: 159360,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-de-hombro-pequena-con-detalle-de-hebilla-item-37655631.aspx",
@@ -35087,8 +35087,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 187580,
-        originalPrice: 187580,
+        price: 144420,
+        originalPrice: 144420,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-falda-de-saten-item-37696532.aspx",
@@ -35120,8 +35120,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 151060,
-        originalPrice: 151060,
+        price: 20916,
+        originalPrice: 20916,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-zapatillas-de-piel-con-tira-trasera-item-37352644.aspx",
@@ -35153,8 +35153,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 132800,
-        originalPrice: 132800,
+        price: 43326,
+        originalPrice: 43326,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-zapatillas-de-gamuza-con-tira-trasera-item-37607998.aspx",
@@ -35186,8 +35186,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 365200,
-        originalPrice: 365200,
+        price: 149400,
+        originalPrice: 149400,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-vestido-compacto-estampado-item-38040481.aspx",
@@ -35219,8 +35219,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 392590,
-        originalPrice: 392590,
+        price: 131970,
+        originalPrice: 131970,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-de-piel-buckle-pequena-item-36943343.aspx",
@@ -35254,8 +35254,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 547800,
-        originalPrice: 547800,
+        price: 121180,
+        originalPrice: 121180,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-vestido-de-seda-con-bordado-item-37771406.aspx",
@@ -35287,8 +35287,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 483890,
-        originalPrice: 483890,
+        price: 117860,
+        originalPrice: 117860,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-chaqueta-con-motivo-pied-de-poule-y-piel-item-38040503.aspx",
@@ -35320,8 +35320,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 181770,
-        originalPrice: 181770,
+        price: 94620,
+        originalPrice: 94620,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-camisa-de-popelina-item-37390101.aspx",
@@ -35353,8 +35353,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 273900,
-        originalPrice: 273900,
+        price: 176790,
+        originalPrice: 176790,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-bonnie-mini-de-piel-item-37467796.aspx",
@@ -35386,8 +35386,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 219120,
-        originalPrice: 219120,
+        price: 94620,
+        originalPrice: 94620,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-pants-compactos-con-gabardina-item-37839161.aspx",
@@ -35452,8 +35452,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 337810,
-        originalPrice: 337810,
+        price: 106240,
+        originalPrice: 106240,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-abrigo-con-botones-item-38039903.aspx",
@@ -35485,8 +35485,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 132800,
-        originalPrice: 132800,
+        price: 43824,
+        originalPrice: 43824,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-zapatillas-de-piel-con-tira-trasera-item-37839180.aspx",
@@ -35518,8 +35518,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 721270,
-        originalPrice: 721270,
+        price: 166000,
+        originalPrice: 166000,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-vestido-de-saten-devore-item-37696494.aspx",
@@ -35551,8 +35551,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 255640,
-        originalPrice: 255640,
+        price: 162680,
+        originalPrice: 162680,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-cardigan-con-cierre-item-37390075.aspx",
@@ -35584,8 +35584,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 333660,
-        originalPrice: 333660,
+        price: 151890,
+        originalPrice: 151890,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-bolsa-de-hombro-con-placa-del-logo-item-37272756.aspx",
@@ -35683,8 +35683,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 136120,
-        originalPrice: 136120,
+        price: 42828,
+        originalPrice: 42828,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/prada-flats-de-piel-item-37839193.aspx",
@@ -35815,8 +35815,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 76360,
-        originalPrice: 76360,
+        price: 32370,
+        originalPrice: 32370,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/burberry-nylon-suede-and-leather-eclipse-sneakers-item-36753319.aspx",
@@ -35914,8 +35914,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 60590,
-        originalPrice: 60590,
+        price: 28884,
+        originalPrice: 28884,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/burberry-check-trim-leather-robin-ballerinas-item-36762022.aspx",
@@ -35980,8 +35980,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 331170,
-        originalPrice: 331170,
+        price: 162680,
+        originalPrice: 162680,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/burberry-long-silk-cotton-foxfield-trench-coat-item-35253803.aspx",
@@ -36079,8 +36079,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 63080,
-        originalPrice: 63080,
+        price: 40338,
+        originalPrice: 40338,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/burberry-cavalier-check-detail-boots-item-37687481.aspx",
@@ -36145,8 +36145,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 57685,
-        originalPrice: 57685,
+        price: 35856,
+        originalPrice: 35856,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/burberry-check-canvas-highgate-ballerinas-item-37688265.aspx",
@@ -36376,8 +36376,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 179861,
-        originalPrice: 179861,
+        price: 81340,
+        originalPrice: 81340,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-printed-silk-twill-mini-dress-item-35039337.aspx",
@@ -36442,8 +36442,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 367607,
-        originalPrice: 367607,
+        price: 109560,
+        originalPrice: 109560,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-lace-trim-silk-cady-satin-mini-dress-item-35039342.aspx",
@@ -36475,8 +36475,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 89557,
-        originalPrice: 89557,
+        price: 38346,
+        originalPrice: 38346,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-nyx-buckle-detail-sandals-item-37165094.aspx",
@@ -36574,8 +36574,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 89972,
-        originalPrice: 89972,
+        price: 24900,
+        originalPrice: 24900,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-gianni-nappa-mules-55-mm-item-35043740.aspx",
@@ -36609,8 +36609,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 692801,
-        originalPrice: 692801,
+        price: 107900,
+        originalPrice: 107900,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-embroidered-silk-cady-satin-mini-dress-item-35039373.aspx",
@@ -36708,8 +36708,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 270746,
-        originalPrice: 270746,
+        price: 166000,
+        originalPrice: 166000,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-nappa-shorts-item-35043504.aspx",
@@ -36741,8 +36741,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 99102,
-        originalPrice: 99102,
+        price: 46314,
+        originalPrice: 46314,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-marisa-leather-sandals-item-34561449.aspx",
@@ -36807,8 +36807,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 452516,
-        originalPrice: 452516,
+        price: 91300,
+        originalPrice: 91300,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-printed-silk-duchesse-mini-dress-item-35043712.aspx",
@@ -36840,8 +36840,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 106240,
-        originalPrice: 106240,
+        price: 42828,
+        originalPrice: 42828,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/versace-gianni-nappa-pumps-90-mm-item-35039369.aspx",
@@ -37469,8 +37469,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 261630,
-        originalPrice: 261630,
+        price: 119520,
+        originalPrice: 119520,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/gucci-medium-dionysus-shoulder-bag-item-37689033.aspx",
@@ -37535,8 +37535,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 369891,
-        originalPrice: 369891,
+        price: 159360,
+        originalPrice: 159360,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/gucci-bamboo-1947-cross-body-bag-item-37690025.aspx",
@@ -37601,8 +37601,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 261630,
-        originalPrice: 261630,
+        price: 124500,
+        originalPrice: 124500,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/gucci-dionysus-goat-shoulder-bag-item-37690023.aspx",
@@ -37733,8 +37733,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 57785,
-        originalPrice: 73124,
+        price: 24402,
+        originalPrice: 30879,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/balenciaga-cagole-mules-item-24177787.aspx",
@@ -37801,8 +37801,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 79428,
-        originalPrice: 129333,
+        price: 20916,
+        originalPrice: 34058,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/balenciaga-cagole-110mm-leather-sandals-item-23389563.aspx",
@@ -37869,8 +37869,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 61777,
-        originalPrice: 61777,
+        price: 47310,
+        originalPrice: 47310,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/balenciaga-gaeta-wedge-thong-sandals-in-black-item-37759669.aspx",
@@ -37902,8 +37902,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 65770,
-        originalPrice: 65770,
+        price: 23157,
+        originalPrice: 23157,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/balenciaga-logo-print-panelled-leggings-item-36624912.aspx",
@@ -38141,8 +38141,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 75120,
-        originalPrice: 75120,
+        price: 12201,
+        originalPrice: 12201,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/balenciaga-track-trainers-in-black-item-13407941.aspx",
@@ -38275,8 +38275,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 73439,
-        originalPrice: 73439,
+        price: 43824,
+        originalPrice: 43824,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/balenciaga-gaeta-leopard-print-wedge-sandals-item-37173783.aspx",
@@ -38508,8 +38508,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 80745,
-        originalPrice: 80745,
+        price: 44820,
+        originalPrice: 44820,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-le-loafer-schuhe-aus-glattem-leder-item-37418940.aspx",
@@ -38574,8 +38574,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 101043,
-        originalPrice: 101043,
+        price: 34362,
+        originalPrice: 34362,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-opyum-sandalen-mit-logo-absatz-item-21992960.aspx",
@@ -38739,8 +38739,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 80745,
-        originalPrice: 80745,
+        price: 30876,
+        originalPrice: 30876,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-loafer-mit-logo-schild-item-32043126.aspx",
@@ -38805,8 +38805,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 87150,
-        originalPrice: 87150,
+        price: 32868,
+        originalPrice: 32868,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-babylone-mules-aus-glattem-leder-item-30108825.aspx",
@@ -38970,8 +38970,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 87872,
-        originalPrice: 87872,
+        price: 29880,
+        originalPrice: 29880,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/saint-laurent-geraffte-loafer-mit-logo-schild-item-33136763.aspx",
@@ -39036,8 +39036,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 174300,
-        originalPrice: 174300,
+        price: 91300,
+        originalPrice: 91300,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-body-de-encaje-item-35649254.aspx",
@@ -39069,8 +39069,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 315400,
-        originalPrice: 315400,
+        price: 199200,
+        originalPrice: 199200,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-bolsa-de-hombro-panthea-mediana-item-35662898.aspx",
@@ -39102,8 +39102,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 90553,
-        originalPrice: 90553,
+        price: 31872,
+        originalPrice: 31872,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-zapatillas-rockstud-con-tacon-de-100mm-item-35649457.aspx",
@@ -39300,8 +39300,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 172640,
-        originalPrice: 172640,
+        price: 71380,
+        originalPrice: 71380,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-falda-midi-de-encaje-item-35836108.aspx",
@@ -39333,8 +39333,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 95450,
-        originalPrice: 95450,
+        price: 31872,
+        originalPrice: 31872,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-sandalias-rockstud-de-piel-item-34450037.aspx",
@@ -39368,8 +39368,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 356900,
-        originalPrice: 356900,
+        price: 246510,
+        originalPrice: 246510,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-bolsa-de-hombro-loco-pequena-con-bordado-item-36612327.aspx",
@@ -39436,8 +39436,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 73870,
-        originalPrice: 73870,
+        price: 29382,
+        originalPrice: 29382,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-zapatos-resort-con-cuna-de-75mm-item-36620000.aspx",
@@ -39471,8 +39471,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 298800,
-        originalPrice: 298800,
+        price: 159360,
+        originalPrice: 159360,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-falda-midi-en-frazada-con-sellos-florales-item-36619387.aspx",
@@ -39506,8 +39506,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 348600,
-        originalPrice: 348600,
+        price: 104580,
+        originalPrice: 104580,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-embroidered-couture-linen-top-item-36619389.aspx",
@@ -39541,8 +39541,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 215800,
-        originalPrice: 215800,
+        price: 156040,
+        originalPrice: 156040,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-embroidered-couture-linen-shorts-item-36620002.aspx",
@@ -39574,8 +39574,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 81340,
-        originalPrice: 81340,
+        price: 26892,
+        originalPrice: 26892,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/valentino-garavani-sandalias-rockstud-de-45mm-item-35659807.aspx",
@@ -39708,8 +39708,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 335735,
-        originalPrice: 335735,
+        price: 147740,
+        originalPrice: 147740,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-exclusive-linda-double-breasted-jacket-item-35853576.aspx",
@@ -39741,8 +39741,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 323285,
-        originalPrice: 323285,
+        price: 191730,
+        originalPrice: 191730,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-medium-my-sicily-handbag-in-split-calfskin-item-37681574.aspx",
@@ -39774,8 +39774,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 219535,
-        originalPrice: 219535,
+        price: 73040,
+        originalPrice: 73040,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-cashmere-serafino-pullover-item-35855046.aspx",
@@ -39842,8 +39842,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 397985,
-        originalPrice: 397985,
+        price: 164340,
+        originalPrice: 164340,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-medium-sicily-rose-print-crystal-embellished-tote-bag-item-36920250.aspx",
@@ -39875,8 +39875,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 348185,
-        originalPrice: 348185,
+        price: 166000,
+        originalPrice: 166000,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-rose-print-charmeuse-midi-dress-item-35853716.aspx",
@@ -39908,8 +39908,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 290085,
-        originalPrice: 290085,
+        price: 106240,
+        originalPrice: 106240,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-exclusive-lace-midi-dress-item-35853712.aspx",
@@ -39941,8 +39941,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 211235,
-        originalPrice: 211235,
+        price: 21912,
+        originalPrice: 21912,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-satin-sandals-with-flower-item-35853299.aspx",
@@ -40040,8 +40040,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 144835,
-        originalPrice: 144835,
+        price: 45816,
+        originalPrice: 45816,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-leo-kid-leather-slingbacks-item-35853217.aspx",
@@ -40073,8 +40073,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 406285,
-        originalPrice: 406285,
+        price: 157700,
+        originalPrice: 157700,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-exclusive-leo-print-sheer-dress-item-35853671.aspx",
@@ -40106,8 +40106,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 348185,
-        originalPrice: 348185,
+        price: 114540,
+        originalPrice: 114540,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-double-breasted-pinstripe-wool-jacket-item-35853561.aspx",
@@ -40205,8 +40205,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 90885,
-        originalPrice: 90885,
+        price: 47310,
+        originalPrice: 47310,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-logo-detail-pointed-toe-pumps-item-35853223.aspx",
@@ -40238,8 +40238,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 323285,
-        originalPrice: 323285,
+        price: 78020,
+        originalPrice: 78020,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-turlington-single-breasted-jacket-in-pinstripe-wool-item-35853542.aspx",
@@ -40271,8 +40271,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 169735,
-        originalPrice: 169735,
+        price: 117860,
+        originalPrice: 117860,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-bow-detail-long-sleeve-sweater-item-35855073.aspx",
@@ -40304,8 +40304,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 76775,
-        originalPrice: 76775,
+        price: 39840,
+        originalPrice: 39840,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/dolce-gabbana-lace-flat-slides-item-35853272.aspx",
@@ -40370,8 +40370,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 255364,
-        originalPrice: 255364,
+        price: 99600,
+        originalPrice: 99600,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-bolsa-tote-com-alca-de-ombro-item-15492634.aspx",
@@ -40403,8 +40403,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 255364,
-        originalPrice: 255364,
+        price: 119520,
+        originalPrice: 119520,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-bolsa-tiracolo-com-logo-item-15203758.aspx",
@@ -40436,8 +40436,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 255364,
-        originalPrice: 255364,
+        price: 112050,
+        originalPrice: 112050,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-bolsa-tiracolo-com-logo-item-15127609.aspx",
@@ -40471,8 +40471,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 390684,
-        originalPrice: 390684,
+        price: 141100,
+        originalPrice: 141100,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-jaqueta-de-algodao-com-bordado-item-37449992.aspx",
@@ -40537,8 +40537,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 95250,
-        originalPrice: 95250,
+        price: 32536,
+        originalPrice: 32536,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-felted-wool-fedora-hat-item-38414126.aspx",
@@ -40636,8 +40636,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 217660,
-        originalPrice: 217660,
+        price: 157700,
+        originalPrice: 157700,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-vestido-midi-com-detalhe-torcido-item-37765116.aspx",
@@ -40735,8 +40735,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 371149,
-        originalPrice: 371149,
+        price: 87980,
+        originalPrice: 87980,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-jaqueta-slim-com-padronagem-chevron-item-37465512.aspx",
@@ -40770,8 +40770,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 214878,
-        originalPrice: 214878,
+        price: 126160,
+        originalPrice: 126160,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-vestido-midi-franzido-com-no-na-gola-item-37669617.aspx",
@@ -40836,8 +40836,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 192391,
-        originalPrice: 192391,
+        price: 41334,
+        originalPrice: 41334,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-calca-jeans-bootcut-de-cintura-alta-item-28604097.aspx",
@@ -40869,8 +40869,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 382169,
-        originalPrice: 382169,
+        price: 66400,
+        originalPrice: 66400,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-colete-com-acabamento-de-corrente-e-abotoamento-duplo-item-37760016.aspx",
@@ -40904,8 +40904,8 @@ export const generatedProducts: Product[] = [
     offers: [
       {
         store: "farfetch-store",
-        price: 384628,
-        originalPrice: 384628,
+        price: 89225,
+        originalPrice: 89225,
         currency: "USD",
         availability: "IN STOCK",
         productUrl: "https://www.farfetch.com/shopping/women/giorgio-armani-regata-decote-careca-com-franjas-item-33292872.aspx",
@@ -42345,7 +42345,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-freeform-hardside-carry-on-luggage-electric-yellow",
     name: "Freeform Hardside Carry-On Luggage - Electric Yellow",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Freeform Hardside Carry-On Luggage - Electric Yellow — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42380,7 +42380,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-hardside-2-piece-set-icy-lilac",
     name: "Omni 2 Hardside 2 Piece Set - Icy Lilac",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Hardside 2 Piece Set - Icy Lilac — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42415,7 +42415,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-centric-2-hardside-expandable-luggage-3-piece-set-black",
     name: "Centric 2 Hardside Expandable Luggage 3-Piece Set - Black",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Centric 2 Hardside Expandable Luggage 3-Piece Set - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42450,7 +42450,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-andante-2-wheeled-duffel-bag-all-black",
     name: "Andante 2 Wheeled Duffel Bag - All Black",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Andante 2 Wheeled Duffel Bag - All Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42485,7 +42485,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-domestic-carry-on-luggage-nova-teal",
     name: "Omni 2 Domestic Carry-On Luggage - Nova Teal",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Domestic Carry-On Luggage - Nova Teal — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42520,7 +42520,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-pro-hardside-expandable-luggage-midnight-black",
     name: "Omni 2 Pro Hardside Expandable Luggage - Midnight Black",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Pro Hardside Expandable Luggage - Midnight Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42555,7 +42555,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-saire-lte-softside-expandable-luggage-3pc-set-olive-green",
     name: "Saire LTE Softside Expandable Luggage 3PC Set - Olive Green",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Saire LTE Softside Expandable Luggage 3PC Set - Olive Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42590,7 +42590,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-omni-2-hardside-expandable-luggage-3-piece-set-emerald-green",
     name: "Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42625,7 +42625,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-scure-spinner-75-28-hardside-suitcase",
     name: "Scure Spinner 75/28 Hardside Suitcase",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Scure Spinner 75/28 Hardside Suitcase — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42658,7 +42658,7 @@ export const generatedProducts: Product[] = [
     slug: "samsonite-scure-renewed-classic-hardside-suitcase-black",
     name: "Scure Renewed Classic Hardside Suitcase - Black",
     brand: "samsonite",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Scure Renewed Classic Hardside Suitcase - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42693,7 +42693,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-just-in-case-tote-packable-travel-tote-bag",
     name: "Just In Case Tote - Packable Travel Tote Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Just In Case Tote - Packable Travel Tote Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42726,7 +42726,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-tyler-crossbody-women-s-nylon-crossbody-bag",
     name: "Tyler Crossbody - Women's Nylon Crossbody Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Tyler Crossbody - Women's Nylon Crossbody Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42759,7 +42759,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-contine-weekender-women-s-travel-weekend-bag",
     name: "Contine Weekender - Women's Travel Weekend Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Contine Weekender - Women's Travel Weekend Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42792,7 +42792,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-valetta-tote-women-s-carryall-bag",
     name: "Voyageur Valetta Tote - Women's Carryall Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Valetta Tote - Women's Carryall Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42825,7 +42825,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-persia-crossbody-nylon-travel-shoulder-bag",
     name: "Persia Crossbody - Nylon Travel Shoulder Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Persia Crossbody - Nylon Travel Shoulder Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42858,7 +42858,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-bravo-esports-pro-sling-bag",
     name: "Alpha Bravo Esports Pro Sling Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Esports Pro Sling Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42891,7 +42891,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-bravo-search-backpack",
     name: "Alpha Bravo Search Backpack",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Search Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42924,7 +42924,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-celina-backpack-unisex",
     name: "Voyageur Celina Backpack - Unisex",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Celina Backpack - Unisex — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42957,7 +42957,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-unisex-double-expansion-duffel",
     name: "Unisex Double Expansion Duffel",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Unisex Double Expansion Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -42990,7 +42990,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-large-17-laptop-briefcase",
     name: "Alpha Large 17\" Laptop Briefcase",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Large 17\" Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43023,7 +43023,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-halsey-backpack",
     name: "Voyageur Halsey Backpack",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Halsey Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43056,7 +43056,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-just-in-case-foldable-backpack",
     name: "Just In Case Foldable Backpack",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Just In Case Foldable Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43089,7 +43089,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-bravo-academy-brief-compact-laptop-briefcase",
     name: "Alpha Bravo Academy Brief - Compact Laptop Briefcase",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Academy Brief - Compact Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43122,7 +43122,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-medium-crossbody",
     name: "Alpha Medium Crossbody",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Medium Crossbody — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43155,7 +43155,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-travel-kit-toiletry-bag",
     name: "Alpha Travel Kit - Toiletry Bag",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Travel Kit - Toiletry Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43188,7 +43188,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-voyageur-q-tote-lightweight-travel-tote",
     name: "Voyageur Q Tote - Lightweight Travel Tote",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Q Tote - Lightweight Travel Tote — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43221,7 +43221,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-unisex-rhys-expandable-duffel",
     name: "Unisex Rhys Expandable Duffel",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Unisex Rhys Expandable Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43254,7 +43254,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-tri-fold-garment-bag-carry-on",
     name: "Alpha Tri-Fold Garment Bag Carry-On",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Tri-Fold Garment Bag Carry-On — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43287,7 +43287,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-east-west-sling",
     name: "Alpha East West Sling",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha East West Sling — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43320,7 +43320,7 @@ export const generatedProducts: Product[] = [
     slug: "tumi-alpha-large-dual-access-expandable-carry-on-luggage",
     name: "Alpha Large Dual Access Expandable Carry-On Luggage",
     brand: "tumi",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Large Dual Access Expandable Carry-On Luggage — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43518,7 +43518,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-l",
     name: "Travel Bag Le Pliage One L",
     brand: "longchamp",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43617,7 +43617,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-s",
     name: "Travel Bag Le Pliage One S",
     brand: "longchamp",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One S — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43650,7 +43650,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-l-2",
     name: "Travel Bag Le Pliage One L (2)",
     brand: "longchamp",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43815,7 +43815,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-xl",
     name: "Travel Bag Le Pliage One XL",
     brand: "longchamp",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One XL — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -43914,7 +43914,7 @@ export const generatedProducts: Product[] = [
     slug: "longchamp-travel-bag-le-pliage-one-xl-2",
     name: "Travel Bag Le Pliage One XL (2)",
     brand: "longchamp",
-    category: "travel",
+    category: "lifestyle-accessories",
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One XL (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",

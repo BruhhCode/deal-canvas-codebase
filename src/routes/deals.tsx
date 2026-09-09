@@ -12,7 +12,7 @@ export const Route = createFileRoute("/deals")({
       {
         name: "description",
         content:
-          "Browse every live fashion, beauty, shoes, accessories, lifestyle and travel deal. Filter by brand, category, discount and deal type.",
+          "Browse every live fashion, beauty, shoes, accessories and lifestyle deal. Filter by brand, category, discount and deal type.",
       },
       { property: "og:title", content: "All Deals | DealsCanvas" },
       { property: "og:description", content: "Every live deal, filterable by brand and discount." },
@@ -91,8 +91,8 @@ function DealsPage() {
         <p className="editorial-eyebrow">Deal directory</p>
         <h1 className="mt-3 text-4xl md:text-5xl">All Deals</h1>
         <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-          Every live offer we track across fashion, beauty, footwear, accessories, lifestyle and
-          travel. Filter, sort and click straight through to the merchant.
+          Every live offer we track across fashion, beauty, footwear, accessories and lifestyle.
+          Filter, sort and click straight through to the merchant.
         </p>
       </header>
 

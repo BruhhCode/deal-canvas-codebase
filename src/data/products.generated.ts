@@ -47355,5 +47355,38 @@ export const generatedProducts: Product[] = [
         updatedHoursAgo: 1
       }
     ]
+  },
+  {
+    id: "PI-1360",
+    slug: "adidas-adizero-evo-sl-shoes",
+    name: "Adizero EVO SL Shoes",
+    brand: "adidas",
+    category: "mens-shoes",
+    subcategory: "shoes",
+    gender: "men",
+    description: "Adidas Adizero EVO SL Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/b40f570a26144541bd73e1ee967ce5b1_9366/Adizero_EVO_SL_Shoes_White_JH6206_HM1.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "shoes"
+    ],
+    rating: 4.9,
+    reviews: 75,
+    views: 3792,
+    newIn: false,
+    offers: [
+      {
+        store: "adidas-store",
+        price: 12450,
+        originalPrice: 12450,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.adidas.com/us/adizero-evo-sl-shoes/JH6206.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
   }
 ];

@@ -14,6 +14,7 @@ import {
 } from "@/data/catalog";
 import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/deal/$slug")({
   loader: ({ params }) => {
@@ -80,6 +81,7 @@ export const Route = createFileRoute("/deal/$slug")({
 function DealPage() {
   const { deal } = Route.useLoaderData();
   const { format } = useCurrency();
+  useCatalogVersion();
   const expired = deal.status === "EXPIRED";
   const sameBrand = deals.filter((d) => d.brand === deal.brand && d.id !== deal.id && d.status === "ACTIVE");
   const similar = deals

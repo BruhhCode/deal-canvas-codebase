@@ -12,6 +12,7 @@ import { useCurrency } from "@/lib/currency";
 import { stores, storeName } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
 import { approxCount } from "@/lib/utils";
+import { useCatalogVersion } from "@/lib/live-catalog";
 import {
   bestOffer,
   biggestDiscounts,
@@ -61,6 +62,7 @@ const todaysSales = saleEvents.filter((e) => e.window === "today" || e.window ==
 function Home() {
   const { format } = useCurrency();
   const { seed } = Route.useLoaderData();
+  useCatalogVersion();
 
   const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 8);
   const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 8);

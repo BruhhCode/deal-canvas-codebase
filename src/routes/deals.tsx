@@ -4,6 +4,7 @@ import { DealCard } from "@/components/DealCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { brands, categories, deals, discountPct, type Deal } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/deals")({
   head: () => ({
@@ -57,6 +58,7 @@ function sortDeals(list: Deal[], sort: (typeof sorts)[number]) {
 
 function DealsPage() {
   const { format } = useCurrency();
+  const version = useCatalogVersion();
   const [category, setCategory] = useState("all");
   const [brand, setBrand] = useState("all");
   const [minDiscount, setMinDiscount] = useState(0);
@@ -78,7 +80,7 @@ function DealsPage() {
         (type === "all" || d.dealType === type),
     );
     return sortDeals(filtered, sort);
-  }, [category, brand, minDiscount, maxPrice, type, includeExpired, sort]);
+  }, [category, brand, minDiscount, maxPrice, type, includeExpired, sort, version]);
 
   const select =
     "w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay";

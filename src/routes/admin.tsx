@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
+import { toast } from "sonner";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DealBadge } from "@/components/DealBadge";
-import { brandName, brands, coupons, deals, discountPct } from "@/data/catalog";
+import { brandName, brands, coupons, deals, discountPct, type Deal, type DealStatus } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import {
   bestOffer,
@@ -12,8 +13,12 @@ import {
   products,
   productsByStore,
   saleEvents,
+  type Offer,
+  type Product,
 } from "@/data/products";
-import { useCurrency } from "@/lib/currency";
+import { fromUsd, toUsd, useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
+import { supabase } from "@/lib/supabase";
 
 export const Route = createFileRoute("/admin")({
   head: () => ({
@@ -27,11 +32,14 @@ export const Route = createFileRoute("/admin")({
 });
 
 const tabs = ["Products", "Stores", "Deals", "Sales", "Analytics", "Networks"] as const;
+const availabilityOptions: Offer["availability"][] = ["IN STOCK", "LOW STOCK", "OUT OF STOCK"];
+const dealStatusOptions: DealStatus[] = ["ACTIVE", "UPCOMING", "EXPIRED", "SOLD OUT", "PAUSED"];
 
 function AdminPage() {
   const [tab, setTab] = useState<(typeof tabs)[number]>("Products");
   const [q, setQ] = useState("");
   const { format } = useCurrency();
+  useCatalogVersion();
 
   const rows = useMemo(
     () => deals.filter((d) => (d.title + brandName(d.brand)).toLowerCase().includes(q.toLowerCase())),
@@ -110,7 +118,7 @@ function AdminPage() {
             </div>
           </div>
           <div className="overflow-x-auto rounded-lg border">
-            <table className="w-full min-w-[860px] text-left text-sm">
+            <table className="w-full min-w-[980px] text-left text-sm">
               <thead className="bg-cream text-xs uppercase tracking-[0.14em] text-muted-foreground">
                 <tr>
                   <th className="px-4 py-3">Product</th>
@@ -118,8 +126,10 @@ function AdminPage() {
                   <th className="px-4 py-3">Category</th>
                   <th className="px-4 py-3">Stores</th>
                   <th className="px-4 py-3">Best price</th>
+                  <th className="px-4 py-3">Availability</th>
                   <th className="px-4 py-3">Discount</th>
                   <th className="px-4 py-3">Freshness</th>
+                  <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody className="divide-y">
@@ -127,15 +137,7 @@ function AdminPage() {
                   .filter((p) => (p.name + brandName(p.brand)).toLowerCase().includes(q.toLowerCase()))
                   .slice(0, 30)
                   .map((p) => (
-                    <tr key={p.id}>
-                      <td className="px-4 py-3">{p.name}</td>
-                      <td className="px-4 py-3">{brandName(p.brand)}</td>
-                      <td className="px-4 py-3">{categoryName(p.category)}</td>
-                      <td className="px-4 py-3">{p.offers.length}</td>
-                      <td className="px-4 py-3">{format(bestOffer(p).price)}</td>
-                      <td className="px-4 py-3">{productDiscount(p)}%</td>
-                      <td className="px-4 py-3 text-muted-foreground">{lastUpdatedLabel(p)}</td>
-                    </tr>
+                    <ProductRow key={p.id} product={p} />
                   ))}
               </tbody>
             </table>
@@ -233,17 +235,7 @@ function AdminPage() {
               </thead>
               <tbody>
                 {rows.map((d) => (
-                  <tr key={d.id} className="border-t">
-                    <td className="px-4 py-3">{d.product}</td>
-                    <td className="px-4 py-3">{brandName(d.brand)}</td>
-                    <td className="px-4 py-3 whitespace-nowrap">{format(d.price)}</td>
-                    <td className="px-4 py-3">{discountPct(d)}%</td>
-                    <td className="px-4 py-3 font-mono text-xs">{d.code ?? "—"}</td>
-                    <td className="px-4 py-3 text-xs">{d.network}</td>
-                    <td className="px-4 py-3">{d.clicks.toLocaleString("en-US")}</td>
-                    <td className="px-4 py-3"><DealBadge badge={d.status} /></td>
-                    <td className="px-4 py-3 text-xs text-muted-foreground">Edit · Pause · Expire</td>
-                  </tr>
+                  <DealRow key={d.id} deal={d} />
                 ))}
               </tbody>
             </table>
@@ -335,5 +327,150 @@ function AdminPage() {
         </div>
       ) : null}
     </div>
+  );
+}
+
+/** Editable row: edits the product's best offer (price + availability) and writes straight to Supabase. */
+function ProductRow({ product: p }: { product: Product }) {
+  const offer = bestOffer(p);
+  const [price, setPrice] = useState(toUsd(offer.price).toFixed(2));
+  const [availability, setAvailability] = useState<Offer["availability"]>(offer.availability);
+  const [saving, setSaving] = useState(false);
+  const dirty = Number(price) !== Math.round(toUsd(offer.price) * 100) / 100 || availability !== offer.availability;
+
+  const save = async () => {
+    if (!supabase) {
+      toast.error("Supabase isn't configured — set VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY.");
+      return;
+    }
+    const nextPriceUsd = Number(price);
+    if (!Number.isFinite(nextPriceUsd) || nextPriceUsd < 0) {
+      toast.error("Enter a valid price.");
+      return;
+    }
+    setSaving(true);
+    const { error } = await supabase
+      .from("offers")
+      .update({ price: fromUsd(nextPriceUsd), availability })
+      .eq("product_slug", p.slug)
+      .eq("store", offer.store);
+    setSaving(false);
+    if (error) toast.error(`Couldn't save: ${error.message}`);
+    else toast.success(`${p.name} updated — live on the site now.`);
+  };
+
+  return (
+    <tr>
+      <td className="px-4 py-3">{p.name}</td>
+      <td className="px-4 py-3">{brandName(p.brand)}</td>
+      <td className="px-4 py-3">{categoryName(p.category)}</td>
+      <td className="px-4 py-3">{p.offers.length}</td>
+      <td className="px-4 py-3">
+        <div className="flex items-center gap-1">
+          <span className="text-muted-foreground">$</span>
+          <input
+            type="number"
+            min={0}
+            step="0.01"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+            className="w-20 rounded-sm border bg-card px-2 py-1 text-sm outline-none focus:border-clay"
+          />
+        </div>
+      </td>
+      <td className="px-4 py-3">
+        <select
+          value={availability}
+          onChange={(e) => setAvailability(e.target.value as Offer["availability"])}
+          className="rounded-sm border bg-card px-2 py-1 text-xs outline-none focus:border-clay"
+        >
+          {availabilityOptions.map((a) => (
+            <option key={a} value={a}>{a}</option>
+          ))}
+        </select>
+      </td>
+      <td className="px-4 py-3">{productDiscount(p)}%</td>
+      <td className="px-4 py-3 text-muted-foreground">{lastUpdatedLabel(p)}</td>
+      <td className="px-4 py-3">
+        <button
+          type="button"
+          disabled={!dirty || saving}
+          onClick={save}
+          className="rounded-sm border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] hover:border-clay disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-input"
+        >
+          {saving ? "Saving…" : "Save"}
+        </button>
+      </td>
+    </tr>
+  );
+}
+
+/** Editable row: edits the deal's price + status and writes straight to Supabase. */
+function DealRow({ deal: d }: { deal: Deal }) {
+  const [price, setPrice] = useState(toUsd(d.price).toFixed(2));
+  const [status, setStatus] = useState<DealStatus>(d.status);
+  const [saving, setSaving] = useState(false);
+  const dirty = Number(price) !== Math.round(toUsd(d.price) * 100) / 100 || status !== d.status;
+
+  const save = async () => {
+    if (!supabase) {
+      toast.error("Supabase isn't configured — set VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY.");
+      return;
+    }
+    const nextPriceUsd = Number(price);
+    if (!Number.isFinite(nextPriceUsd) || nextPriceUsd < 0) {
+      toast.error("Enter a valid price.");
+      return;
+    }
+    setSaving(true);
+    const { error } = await supabase.from("deals").update({ price: fromUsd(nextPriceUsd), status }).eq("id", d.id);
+    setSaving(false);
+    if (error) toast.error(`Couldn't save: ${error.message}`);
+    else toast.success(`${d.title} updated — live on the site now.`);
+  };
+
+  return (
+    <tr className="border-t">
+      <td className="px-4 py-3">{d.product}</td>
+      <td className="px-4 py-3">{brandName(d.brand)}</td>
+      <td className="px-4 py-3">
+        <div className="flex items-center gap-1">
+          <span className="text-muted-foreground">$</span>
+          <input
+            type="number"
+            min={0}
+            step="0.01"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+            className="w-20 rounded-sm border bg-card px-2 py-1 text-sm outline-none focus:border-clay"
+          />
+        </div>
+      </td>
+      <td className="px-4 py-3">{discountPct(d)}%</td>
+      <td className="px-4 py-3 font-mono text-xs">{d.code ?? "—"}</td>
+      <td className="px-4 py-3 text-xs">{d.network}</td>
+      <td className="px-4 py-3">{d.clicks.toLocaleString("en-US")}</td>
+      <td className="px-4 py-3">
+        <select
+          value={status}
+          onChange={(e) => setStatus(e.target.value as DealStatus)}
+          className="rounded-sm border bg-card px-2 py-1 text-xs outline-none focus:border-clay"
+        >
+          {dealStatusOptions.map((s) => (
+            <option key={s} value={s}>{s}</option>
+          ))}
+        </select>
+      </td>
+      <td className="px-4 py-3">
+        <button
+          type="button"
+          disabled={!dirty || saving}
+          onClick={save}
+          className="rounded-sm border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] hover:border-clay disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-input"
+        >
+          {saving ? "Saving…" : "Save"}
+        </button>
+      </td>
+    </tr>
   );
 }

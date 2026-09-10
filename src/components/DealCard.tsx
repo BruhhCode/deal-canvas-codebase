@@ -8,6 +8,7 @@ import {
 } from "@/data/catalog";
 import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
 import { BrandMark } from "./BrandMark";
 import { DealBadge } from "./DealBadge";
 import { CopyCode } from "./CopyCode";
@@ -15,6 +16,7 @@ import { WishlistButton } from "./WishlistButton";
 import { ProductImage } from "./ProductImage";
 
 export function DealCard({ deal, className }: { deal: Deal; className?: string }) {
+  useCatalogVersion();
   const expired = deal.status === "EXPIRED";
   const { format } = useCurrency();
 

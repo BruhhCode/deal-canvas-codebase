@@ -5,6 +5,7 @@ import { StoreMark } from "@/components/StoreMark";
 import { storeName } from "@/data/stores";
 import { saleEvents, saleWindows } from "@/data/products";
 import { cn } from "@/lib/utils";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/sales-calendar")({
   head: () => ({
@@ -25,6 +26,7 @@ export const Route = createFileRoute("/sales-calendar")({
 });
 
 function SalesCalendar() {
+  useCatalogVersion();
   const [win, setWin] = useState<string>("");
   const list = win ? saleEvents.filter((e) => e.window === win) : saleEvents;
 

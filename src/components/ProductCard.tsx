@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { brandName } from "@/data/catalog";
 import { storeName } from "@/data/stores";
 import { useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
 import {
   bestOffer,
   productDiscount,
@@ -16,6 +17,7 @@ import { BrandMark } from "./BrandMark";
 import { ProductImage } from "./ProductImage";
 
 export function ProductCard({ product, className }: { product: Product; className?: string }) {
+  useCatalogVersion();
   const offer = bestOffer(product);
   const discount = productDiscount(product);
   const stores = product.offers.length;

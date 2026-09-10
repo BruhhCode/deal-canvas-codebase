@@ -7,9 +7,11 @@ import {
 } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
 import { StoreMark } from "./StoreMark";
 
 export function PriceCompare({ product }: { product: Product }) {
+  useCatalogVersion();
   const best = bestOffer(product);
   const offers = offersSorted(product);
   const { format } = useCurrency();

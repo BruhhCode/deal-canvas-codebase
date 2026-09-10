@@ -5,7 +5,40 @@ import type { Product } from "./products";
 
 export const generatedProducts: Product[] = [
   {
-    id: "PI-0081",
+    id: "PI-0009",
+    slug: "adidas-samba-og-shoes-2",
+    name: "Samba OG Shoes",
+    brand: "adidas",
+    category: "shoes",
+    subcategory: "Originals",
+    gender: "unisex",
+    description: "Adidas Samba OG Shoes — originals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/9b983d5bc09a4d4aba39a8bf011869ba_9366/samba-og-shoes.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "originals"
+    ],
+    rating: 4.8,
+    reviews: 154,
+    views: 4369,
+    offers: [
+      {
+        store: "adidas-store",
+        price: 8300,
+        originalPrice: 8300,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.adidas.com/us/samba-og-shoes/B75806.html",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ],
+    newIn: false
+  },
+  {
+    id: "PI-0001",
     slug: "nordstrom-nordstrom-classic-blazer",
     name: "Nordstrom Classic Blazer",
     brand: "nordstrom",
@@ -20,9 +53,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 3.8,
-    reviews: 214,
-    views: 4415,
+    rating: 4.6,
+    reviews: 106,
+    views: 6983,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -34,11 +68,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0082",
+    id: "PI-0002",
     slug: "nordstrom-nordstrom-relaxed-shirt-dress",
     name: "Nordstrom Relaxed Shirt Dress",
     brand: "nordstrom",
@@ -50,12 +83,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 1500,
+    rating: 4.1,
+    reviews: 87,
+    views: 300,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -67,11 +101,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0083",
+    id: "PI-0003",
     slug: "nordstrom-nordstrom-slim-fit-denim-jacket",
     name: "Nordstrom Slim Fit Denim Jacket",
     brand: "nordstrom",
@@ -88,9 +121,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 3417,
+    rating: 3.6,
+    reviews: 68,
+    views: 1025,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -102,11 +136,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0084",
+    id: "PI-0004",
     slug: "nordstrom-nordstrom-oversized-knit-sweater",
     name: "Nordstrom Oversized Knit Sweater",
     brand: "nordstrom",
@@ -121,9 +154,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 6294,
+    rating: 4.5,
+    reviews: 49,
+    views: 466,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -135,11 +169,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0085",
+    id: "PI-0005",
     slug: "nordstrom-nordstrom-tailored-trench-coat",
     name: "Nordstrom Tailored Trench Coat",
     brand: "nordstrom",
@@ -153,12 +186,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 7525,
+    rating: 4,
+    reviews: 230,
+    views: 5341,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -170,11 +204,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0086",
+    id: "PI-0006",
     slug: "nordstrom-nordstrom-classic-midi-dress",
     name: "Nordstrom Classic Midi Dress",
     brand: "nordstrom",
@@ -190,8 +223,9 @@ export const generatedProducts: Product[] = [
       "dresses"
     ],
     rating: 4.9,
-    reviews: 109,
-    views: 3320,
+    reviews: 211,
+    views: 6064,
+    newIn: true,
     offers: [
       {
         store: "nordstrom",
@@ -203,11 +237,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0087",
+    id: "PI-0007",
     slug: "nordstrom-nordstrom-relaxed-blazer",
     name: "Nordstrom Relaxed Blazer",
     brand: "nordstrom",
@@ -222,9 +255,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 5131,
+    rating: 4.4,
+    reviews: 192,
+    views: 3299,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -236,11 +270,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0088",
+    id: "PI-0008",
     slug: "nordstrom-nordstrom-slim-fit-shirt-dress",
     name: "Nordstrom Slim Fit Shirt Dress",
     brand: "nordstrom",
@@ -252,12 +285,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jeans"
     ],
-    rating: 4.9,
-    reviews: 43,
-    views: 2670,
+    rating: 3.9,
+    reviews: 173,
+    views: 2106,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -269,11 +303,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0089",
+    id: "PI-0009",
     slug: "nordstrom-nordstrom-oversized-denim-jacket",
     name: "Nordstrom Oversized Denim Jacket",
     brand: "nordstrom",
@@ -290,9 +323,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4,
-    reviews: 62,
-    views: 8103,
+    rating: 4.8,
+    reviews: 154,
+    views: 4369,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -304,11 +338,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0090",
+    id: "PI-0010",
     slug: "nordstrom-nordstrom-tailored-knit-sweater",
     name: "Nordstrom Tailored Knit Sweater",
     brand: "nordstrom",
@@ -325,9 +358,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 1993,
+    rating: 3.8,
+    reviews: 116,
+    views: 6897,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -339,11 +373,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0091",
+    id: "PI-0011",
     slug: "nordstrom-nordstrom-classic-trench-coat",
     name: "Nordstrom Classic Trench Coat",
     brand: "nordstrom",
@@ -355,12 +388,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 740,
+    rating: 4.3,
+    reviews: 135,
+    views: 1460,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -372,11 +406,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0092",
+    id: "PI-0012",
     slug: "nordstrom-nordstrom-relaxed-midi-dress",
     name: "Nordstrom Relaxed Midi Dress",
     brand: "nordstrom",
@@ -391,9 +424,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 3.6,
-    reviews: 166,
-    views: 559,
+    rating: 4.8,
+    reviews: 154,
+    views: 6265,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -405,11 +439,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0093",
+    id: "PI-0013",
     slug: "nordstrom-nordstrom-slim-fit-blazer",
     name: "Nordstrom Slim Fit Blazer",
     brand: "nordstrom",
@@ -424,9 +457,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.5,
-    reviews: 147,
-    views: 5798,
+    rating: 3.9,
+    reviews: 173,
+    views: 4638,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -438,11 +472,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0094",
+    id: "PI-0014",
     slug: "nordstrom-nordstrom-oversized-shirt-dress",
     name: "Nordstrom Oversized Shirt Dress",
     brand: "nordstrom",
@@ -454,12 +487,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 3.8,
-    reviews: 80,
-    views: 1557,
+    rating: 4.6,
+    reviews: 40,
+    views: 2995,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -471,11 +505,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0095",
+    id: "PI-0015",
     slug: "nordstrom-nordstrom-tailored-denim-jacket",
     name: "Nordstrom Tailored Denim Jacket",
     brand: "nordstrom",
@@ -492,9 +525,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.7,
-    reviews: 61,
-    views: 4520,
+    rating: 3.7,
+    reviews: 59,
+    views: 2160,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -506,11 +540,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0096",
+    id: "PI-0016",
     slug: "nordstrom-nordstrom-classic-knit-sweater",
     name: "Nordstrom Classic Knit Sweater",
     brand: "nordstrom",
@@ -526,8 +559,9 @@ export const generatedProducts: Product[] = [
       "dresses"
     ],
     rating: 4.2,
-    reviews: 42,
-    views: 251,
+    reviews: 78,
+    views: 3885,
+    newIn: true,
     offers: [
       {
         store: "nordstrom",
@@ -539,11 +573,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0097",
+    id: "PI-0017",
     slug: "nordstrom-nordstrom-relaxed-trench-coat",
     name: "Nordstrom Relaxed Trench Coat",
     brand: "nordstrom",
@@ -555,12 +588,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 3.7,
-    reviews: 223,
-    views: 5766,
+    rating: 4.7,
+    reviews: 97,
+    views: 1870,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -572,11 +606,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0098",
+    id: "PI-0018",
     slug: "nordstrom-nordstrom-slim-fit-midi-dress",
     name: "Nordstrom Slim Fit Midi Dress",
     brand: "nordstrom",
@@ -591,9 +624,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5599,
+    rating: 4,
+    reviews: 164,
+    views: 1095,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -605,11 +639,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0099",
+    id: "PI-0019",
     slug: "nordstrom-nordstrom-oversized-blazer",
     name: "Nordstrom Oversized Blazer",
     brand: "nordstrom",
@@ -624,9 +657,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3348,
+    rating: 4.5,
+    reviews: 183,
+    views: 3332,
+    newIn: true,
     offers: [
       {
         store: "nordstrom",
@@ -638,11 +672,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0100",
+    id: "PI-0020",
     slug: "nordstrom-nordstrom-tailored-shirt-dress",
     name: "Nordstrom Tailored Shirt Dress",
     brand: "nordstrom",
@@ -656,12 +689,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4.6,
-    reviews: 62,
-    views: 1617,
+    rating: 3.7,
+    reviews: 209,
+    views: 5292,
+    newIn: false,
     offers: [
       {
         store: "nordstrom",
@@ -673,11 +707,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0101",
+    id: "PI-0021",
     slug: "revolve-revolve-classic-blazer",
     name: "Revolve Classic Blazer",
     brand: "revolve",
@@ -692,9 +725,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.1,
-    reviews: 43,
-    views: 4858,
+    rating: 4.2,
+    reviews: 228,
+    views: 2503,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -706,11 +740,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0102",
+    id: "PI-0022",
     slug: "revolve-revolve-relaxed-shirt-dress",
     name: "Revolve Relaxed Shirt Dress",
     brand: "revolve",
@@ -722,12 +755,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4.2,
-    reviews: 100,
-    views: 439,
+    rating: 4.1,
+    reviews: 171,
+    views: 1030,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -739,11 +773,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0103",
+    id: "PI-0023",
     slug: "revolve-revolve-slim-fit-denim-jacket",
     name: "Revolve Slim Fit Denim Jacket",
     brand: "revolve",
@@ -760,9 +793,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 3.7,
-    reviews: 81,
-    views: 2300,
+    rating: 4.6,
+    reviews: 190,
+    views: 3937,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -774,11 +808,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0104",
+    id: "PI-0024",
     slug: "revolve-revolve-oversized-knit-sweater",
     name: "Revolve Oversized Knit Sweater",
     brand: "revolve",
@@ -793,9 +826,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 645,
+    rating: 4.3,
+    reviews: 85,
+    views: 6536,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -807,11 +841,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0105",
+    id: "PI-0025",
     slug: "revolve-revolve-tailored-trench-coat",
     name: "Revolve Tailored Trench Coat",
     brand: "revolve",
@@ -825,12 +858,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 7034,
+    rating: 4.8,
+    reviews: 104,
+    views: 4725,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -842,11 +876,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0106",
+    id: "PI-0026",
     slug: "revolve-revolve-classic-midi-dress",
     name: "Revolve Classic Midi Dress",
     brand: "revolve",
@@ -861,9 +894,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.8,
-    reviews: 176,
-    views: 3499,
+    rating: 4.7,
+    reviews: 47,
+    views: 7718,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -875,11 +909,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0107",
+    id: "PI-0027",
     slug: "revolve-revolve-relaxed-blazer",
     name: "Revolve Relaxed Blazer",
     brand: "revolve",
@@ -894,9 +927,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4.3,
-    reviews: 157,
-    views: 1688,
+    rating: 3.8,
+    reviews: 66,
+    views: 2267,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -908,11 +942,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0108",
+    id: "PI-0028",
     slug: "revolve-revolve-slim-fit-shirt-dress",
     name: "Revolve Slim Fit Shirt Dress",
     brand: "revolve",
@@ -924,12 +957,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jeans"
     ],
-    rating: 4.8,
-    reviews: 110,
-    views: 1735,
+    rating: 3.9,
+    reviews: 57,
+    views: 5564,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -941,11 +975,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0109",
+    id: "PI-0029",
     slug: "revolve-revolve-oversized-denim-jacket",
     name: "Revolve Oversized Denim Jacket",
     brand: "revolve",
@@ -962,9 +995,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.3,
-    reviews: 91,
-    views: 3342,
+    rating: 4.4,
+    reviews: 76,
+    views: 3185,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -976,11 +1010,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0110",
+    id: "PI-0030",
     slug: "revolve-revolve-tailored-knit-sweater",
     name: "Revolve Tailored Knit Sweater",
     brand: "revolve",
@@ -997,9 +1030,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.9,
-    reviews: 59,
-    views: 2464,
+    rating: 3.6,
+    reviews: 218,
+    views: 6475,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1011,11 +1045,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0111",
+    id: "PI-0031",
     slug: "revolve-revolve-classic-trench-coat",
     name: "Revolve Classic Trench Coat",
     brand: "revolve",
@@ -1027,12 +1060,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 4.4,
-    reviews: 40,
-    views: 2707,
+    rating: 4.5,
+    reviews: 199,
+    views: 3482,
+    newIn: true,
     offers: [
       {
         store: "revolve",
@@ -1044,11 +1078,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0112",
+    id: "PI-0032",
     slug: "revolve-revolve-relaxed-midi-dress",
     name: "Revolve Relaxed Midi Dress",
     brand: "revolve",
@@ -1063,9 +1096,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4.5,
-    reviews: 97,
-    views: 2158,
+    rating: 4.6,
+    reviews: 56,
+    views: 869,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1077,11 +1111,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0113",
+    id: "PI-0033",
     slug: "revolve-revolve-slim-fit-blazer",
     name: "Revolve Slim Fit Blazer",
     brand: "revolve",
@@ -1096,9 +1129,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4,
-    reviews: 78,
-    views: 5517,
+    rating: 4.1,
+    reviews: 237,
+    views: 2680,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1110,11 +1144,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0114",
+    id: "PI-0034",
     slug: "revolve-revolve-oversized-shirt-dress",
     name: "Revolve Oversized Shirt Dress",
     brand: "revolve",
@@ -1126,12 +1159,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 1692,
+    rating: 4.4,
+    reviews: 142,
+    views: 5361,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1143,11 +1177,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0115",
+    id: "PI-0035",
     slug: "revolve-revolve-tailored-denim-jacket",
     name: "Revolve Tailored Denim Jacket",
     brand: "revolve",
@@ -1164,9 +1197,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 2399,
+    rating: 3.9,
+    reviews: 123,
+    views: 5718,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1178,11 +1212,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0116",
+    id: "PI-0036",
     slug: "revolve-revolve-classic-knit-sweater",
     name: "Revolve Classic Knit Sweater",
     brand: "revolve",
@@ -1197,9 +1230,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 3.7,
-    reviews: 173,
-    views: 5298,
+    rating: 4,
+    reviews: 180,
+    views: 6359,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1211,11 +1245,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0117",
+    id: "PI-0037",
     slug: "revolve-revolve-relaxed-trench-coat",
     name: "Revolve Relaxed Trench Coat",
     brand: "revolve",
@@ -1227,12 +1260,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4.6,
-    reviews: 154,
-    views: 7895,
+    rating: 4.9,
+    reviews: 161,
+    views: 276,
+    newIn: true,
     offers: [
       {
         store: "revolve",
@@ -1244,11 +1278,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0118",
+    id: "PI-0038",
     slug: "revolve-revolve-slim-fit-midi-dress",
     name: "Revolve Slim Fit Midi Dress",
     brand: "revolve",
@@ -1263,9 +1296,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 3.7,
-    reviews: 107,
-    views: 520,
+    rating: 3.8,
+    reviews: 66,
+    views: 2237,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1277,11 +1311,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0119",
+    id: "PI-0039",
     slug: "revolve-revolve-oversized-blazer",
     name: "Revolve Oversized Blazer",
     brand: "revolve",
@@ -1296,9 +1329,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.6,
-    reviews: 88,
-    views: 3483,
+    rating: 4.7,
+    reviews: 47,
+    views: 3902,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1310,11 +1344,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0120",
+    id: "PI-0040",
     slug: "revolve-revolve-tailored-shirt-dress",
     name: "Revolve Tailored Shirt Dress",
     brand: "revolve",
@@ -1328,12 +1361,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4.4,
-    reviews: 80,
-    views: 3659,
+    rating: 4.1,
+    reviews: 223,
+    views: 2550,
+    newIn: false,
     offers: [
       {
         store: "revolve",
@@ -1345,11 +1379,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0121",
+    id: "PI-0041",
     slug: "amazon-amazon-classic-blazer",
     name: "Amazon Classic Blazer",
     brand: "amazon",
@@ -1364,9 +1397,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 3.9,
-    reviews: 61,
-    views: 3768,
+    rating: 4.6,
+    reviews: 42,
+    views: 3973,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1378,11 +1412,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0122",
+    id: "PI-0042",
     slug: "amazon-amazon-relaxed-shirt-dress",
     name: "Amazon Relaxed Shirt Dress",
     brand: "amazon",
@@ -1394,12 +1427,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4.8,
-    reviews: 42,
-    views: 5925,
+    rating: 3.7,
+    reviews: 61,
+    views: 7384,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1411,11 +1445,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0123",
+    id: "PI-0043",
     slug: "amazon-amazon-slim-fit-denim-jacket",
     name: "Amazon Slim Fit Denim Jacket",
     brand: "amazon",
@@ -1432,9 +1465,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.3,
-    reviews: 223,
-    views: 7898,
+    rating: 4.2,
+    reviews: 80,
+    views: 6123,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -1446,11 +1480,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0124",
+    id: "PI-0044",
     slug: "amazon-amazon-oversized-knit-sweater",
     name: "Amazon Oversized Knit Sweater",
     brand: "amazon",
@@ -1465,9 +1498,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 3.8,
-    reviews: 204,
-    views: 2713,
+    rating: 4.9,
+    reviews: 147,
+    views: 7798,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1479,11 +1513,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0125",
+    id: "PI-0045",
     slug: "amazon-amazon-tailored-trench-coat",
     name: "Amazon Tailored Trench Coat",
     brand: "amazon",
@@ -1497,12 +1530,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4.7,
-    reviews: 185,
-    views: 6044,
+    rating: 4,
+    reviews: 166,
+    views: 2321,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1514,11 +1548,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0126",
+    id: "PI-0046",
     slug: "amazon-amazon-classic-midi-dress",
     name: "Amazon Classic Midi Dress",
     brand: "amazon",
@@ -1533,9 +1566,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.2,
-    reviews: 166,
-    views: 3953,
+    rating: 4.5,
+    reviews: 185,
+    views: 2356,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1547,11 +1581,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0127",
+    id: "PI-0047",
     slug: "amazon-amazon-relaxed-blazer",
     name: "Amazon Relaxed Blazer",
     brand: "amazon",
@@ -1566,9 +1599,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 3.7,
-    reviews: 147,
-    views: 602,
+    rating: 3.6,
+    reviews: 204,
+    views: 439,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -1580,11 +1614,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0128",
+    id: "PI-0048",
     slug: "amazon-amazon-slim-fit-shirt-dress",
     name: "Amazon Slim Fit Shirt Dress",
     brand: "amazon",
@@ -1596,12 +1629,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jeans"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 707,
+    rating: 4.3,
+    reviews: 71,
+    views: 1618,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1613,11 +1647,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0129",
+    id: "PI-0049",
     slug: "amazon-amazon-oversized-denim-jacket",
     name: "Amazon Oversized Denim Jacket",
     brand: "amazon",
@@ -1634,9 +1667,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 720,
+    rating: 4.8,
+    reviews: 90,
+    views: 4627,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1648,11 +1682,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0130",
+    id: "PI-0050",
     slug: "amazon-amazon-tailored-knit-sweater",
     name: "Amazon Tailored Knit Sweater",
     brand: "amazon",
@@ -1669,9 +1702,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.5,
-    reviews: 71,
-    views: 4362,
+    rating: 4,
+    reviews: 232,
+    views: 5051,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1683,11 +1717,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0131",
+    id: "PI-0051",
     slug: "amazon-amazon-classic-trench-coat",
     name: "Amazon Classic Trench Coat",
     brand: "amazon",
@@ -1699,12 +1732,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 3.6,
-    reviews: 90,
-    views: 3605,
+    rating: 4.9,
+    reviews: 213,
+    views: 3240,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1716,11 +1750,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0132",
+    id: "PI-0052",
     slug: "amazon-amazon-relaxed-midi-dress",
     name: "Amazon Relaxed Midi Dress",
     brand: "amazon",
@@ -1735,9 +1768,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 168,
+    rating: 4.4,
+    reviews: 194,
+    views: 7509,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1749,11 +1783,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0133",
+    id: "PI-0053",
     slug: "amazon-amazon-slim-fit-blazer",
     name: "Amazon Slim Fit Blazer",
     brand: "amazon",
@@ -1768,9 +1801,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 2357,
+    rating: 3.9,
+    reviews: 175,
+    views: 2058,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1782,11 +1816,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0134",
+    id: "PI-0054",
     slug: "amazon-amazon-oversized-shirt-dress",
     name: "Amazon Oversized Shirt Dress",
     brand: "amazon",
@@ -1798,12 +1831,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 3.9,
-    reviews: 195,
-    views: 6918,
+    rating: 4.8,
+    reviews: 156,
+    views: 3497,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1815,11 +1849,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0135",
+    id: "PI-0055",
     slug: "amazon-amazon-tailored-denim-jacket",
     name: "Amazon Tailored Denim Jacket",
     brand: "amazon",
@@ -1836,9 +1869,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.4,
-    reviews: 214,
-    views: 7439,
+    rating: 4.3,
+    reviews: 137,
+    views: 4484,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1850,11 +1884,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0136",
+    id: "PI-0056",
     slug: "amazon-amazon-classic-knit-sweater",
     name: "Amazon Classic Knit Sweater",
     brand: "amazon",
@@ -1869,9 +1902,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.9,
-    reviews: 233,
-    views: 580,
+    rating: 3.8,
+    reviews: 118,
+    views: 5473,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1883,11 +1917,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0137",
+    id: "PI-0057",
     slug: "amazon-amazon-relaxed-trench-coat",
     name: "Amazon Relaxed Trench Coat",
     brand: "amazon",
@@ -1899,12 +1932,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4,
-    reviews: 52,
-    views: 1193,
+    rating: 4.7,
+    reviews: 99,
+    views: 4970,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1916,11 +1950,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0138",
+    id: "PI-0058",
     slug: "amazon-amazon-slim-fit-midi-dress",
     name: "Amazon Slim Fit Midi Dress",
     brand: "amazon",
@@ -1935,9 +1968,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 3618,
+    rating: 4.2,
+    reviews: 80,
+    views: 6899,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1949,11 +1983,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0139",
+    id: "PI-0059",
     slug: "amazon-amazon-oversized-blazer",
     name: "Amazon Oversized Blazer",
     brand: "amazon",
@@ -1968,9 +2001,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 6403,
+    rating: 3.7,
+    reviews: 61,
+    views: 6656,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -1982,11 +2016,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0140",
+    id: "PI-0060",
     slug: "amazon-amazon-tailored-shirt-dress",
     name: "Amazon Tailored Shirt Dress",
     brand: "amazon",
@@ -2000,12 +2033,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4,
-    reviews: 66,
-    views: 4149,
+    rating: 3.9,
+    reviews: 107,
+    views: 4768,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -2017,11 +2051,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0161",
+    id: "PI-0061",
     slug: "levis-levis-slim-fit-denim-jeans",
     name: "Levis Slim Fit Denim Jeans",
     brand: "levis",
@@ -2038,9 +2071,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "shirts"
     ],
-    rating: 3.7,
-    reviews: 89,
-    views: 5028,
+    rating: 4.8,
+    reviews: 88,
+    views: 4781,
+    newIn: false,
     offers: [
       {
         store: "levis-store",
@@ -2092,11 +2126,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0162",
+    id: "PI-0062",
     slug: "levis-levis-classic-oxford-shirt",
     name: "Levis Classic Oxford Shirt",
     brand: "levis",
@@ -2111,9 +2144,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jeans"
     ],
-    rating: 4.6,
-    reviews: 70,
-    views: 4937,
+    rating: 4.9,
+    reviews: 145,
+    views: 4158,
+    newIn: true,
     offers: [
       {
         store: "levis-store",
@@ -2165,11 +2199,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0163",
+    id: "PI-0063",
     slug: "levis-levis-relaxed-chino-trousers",
     name: "Levis Relaxed Chino Trousers",
     brand: "levis",
@@ -2184,9 +2217,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jackets"
     ],
-    rating: 4.1,
-    reviews: 51,
-    views: 8066,
+    rating: 4.4,
+    reviews: 126,
+    views: 5491,
+    newIn: false,
     offers: [
       {
         store: "levis-store",
@@ -2238,11 +2272,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0164",
+    id: "PI-0064",
     slug: "levis-levis-tailored-bomber-jacket",
     name: "Levis Tailored Bomber Jacket",
     brand: "levis",
@@ -2259,9 +2292,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "chinos"
     ],
-    rating: 4.2,
-    reviews: 192,
-    views: 1325,
+    rating: 4.5,
+    reviews: 183,
+    views: 332,
+    newIn: false,
     offers: [
       {
         store: "levis-store",
@@ -2313,11 +2347,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0185",
+    id: "PI-0065",
     slug: "ulta-ulta-hydrating-serum",
     name: "Ulta Hydrating Serum",
     brand: "ulta",
@@ -2332,9 +2365,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 3.9,
-    reviews: 151,
-    views: 3842,
+    rating: 4,
+    reviews: 164,
+    views: 7521,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2346,11 +2380,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0186",
+    id: "PI-0066",
     slug: "ulta-ulta-matte-foundation",
     name: "Ulta Matte Foundation",
     brand: "ulta",
@@ -2365,9 +2398,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 3.6,
-    reviews: 168,
-    views: 7069,
+    rating: 4.1,
+    reviews: 221,
+    views: 7362,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2379,11 +2413,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0187",
+    id: "PI-0067",
     slug: "ulta-ulta-radiant-eau-de-parfum",
     name: "Ulta Radiant Eau de Parfum",
     brand: "ulta",
@@ -2398,9 +2431,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4.1,
-    reviews: 187,
-    views: 7312,
+    rating: 3.6,
+    reviews: 202,
+    views: 3337,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2412,11 +2446,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0188",
+    id: "PI-0068",
     slug: "ulta-ulta-nourishing-shampoo",
     name: "Ulta Nourishing Shampoo",
     brand: "ulta",
@@ -2431,9 +2464,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4,
-    reviews: 130,
-    views: 5295,
+    rating: 4.1,
+    reviews: 155,
+    views: 6520,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2445,11 +2479,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0189",
+    id: "PI-0069",
     slug: "ulta-ulta-long-lasting-lip-kit",
     name: "Ulta Long-Lasting Lip Kit",
     brand: "ulta",
@@ -2464,9 +2497,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4.5,
-    reviews: 149,
-    views: 1062,
+    rating: 3.6,
+    reviews: 136,
+    views: 1829,
+    newIn: true,
     offers: [
       {
         store: "ulta",
@@ -2478,11 +2512,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0190",
+    id: "PI-0070",
     slug: "ulta-ulta-hydrating-moisturizer",
     name: "Ulta Hydrating Moisturizer",
     brand: "ulta",
@@ -2497,9 +2530,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4.5,
-    reviews: 83,
-    views: 4712,
+    rating: 4,
+    reviews: 98,
+    views: 3649,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2511,11 +2545,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0191",
+    id: "PI-0071",
     slug: "ulta-ulta-matte-serum",
     name: "Ulta Matte Serum",
     brand: "ulta",
@@ -2530,9 +2563,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4,
-    reviews: 64,
-    views: 6523,
+    rating: 4.5,
+    reviews: 117,
+    views: 6950,
+    newIn: true,
     offers: [
       {
         store: "ulta",
@@ -2544,11 +2578,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0192",
+    id: "PI-0072",
     slug: "ulta-ulta-radiant-foundation",
     name: "Ulta Radiant Foundation",
     brand: "ulta",
@@ -2563,9 +2596,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.1,
-    reviews: 121,
-    views: 4006,
+    rating: 4.4,
+    reviews: 60,
+    views: 1127,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2577,11 +2611,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0193",
+    id: "PI-0073",
     slug: "ulta-ulta-nourishing-eau-de-parfum",
     name: "Ulta Nourishing Eau de Parfum",
     brand: "ulta",
@@ -2596,9 +2629,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 3.6,
-    reviews: 102,
-    views: 981,
+    rating: 4.9,
+    reviews: 79,
+    views: 4748,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2610,11 +2644,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0194",
+    id: "PI-0074",
     slug: "ulta-ulta-long-lasting-shampoo",
     name: "Ulta Long-Lasting Shampoo",
     brand: "ulta",
@@ -2629,9 +2662,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 3.7,
-    reviews: 159,
-    views: 1580,
+    rating: 4.8,
+    reviews: 222,
+    views: 7099,
+    newIn: true,
     offers: [
       {
         store: "ulta",
@@ -2643,11 +2677,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0195",
+    id: "PI-0075",
     slug: "ulta-ulta-hydrating-lip-kit",
     name: "Ulta Hydrating Lip Kit",
     brand: "ulta",
@@ -2662,9 +2695,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4.6,
-    reviews: 140,
-    views: 6215,
+    rating: 3.9,
+    reviews: 41,
+    views: 1798,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2676,11 +2710,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0196",
+    id: "PI-0076",
     slug: "ulta-ulta-matte-moisturizer",
     name: "Ulta Matte Moisturizer",
     brand: "ulta",
@@ -2695,9 +2728,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.7,
-    reviews: 197,
-    views: 4742,
+    rating: 3.8,
+    reviews: 184,
+    views: 1435,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2709,11 +2743,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0197",
+    id: "PI-0077",
     slug: "ulta-ulta-radiant-serum",
     name: "Ulta Radiant Serum",
     brand: "ulta",
@@ -2728,9 +2761,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4.2,
-    reviews: 178,
-    views: 591,
+    rating: 4.3,
+    reviews: 203,
+    views: 1672,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2742,11 +2776,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0198",
+    id: "PI-0078",
     slug: "ulta-ulta-nourishing-foundation",
     name: "Ulta Nourishing Foundation",
     brand: "ulta",
@@ -2761,9 +2794,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4.3,
-    reviews: 235,
-    views: 7408,
+    rating: 3.8,
+    reviews: 50,
+    views: 5593,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2775,11 +2809,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0199",
+    id: "PI-0079",
     slug: "ulta-ulta-long-lasting-eau-de-parfum",
     name: "Ulta Long-Lasting Eau de Parfum",
     brand: "ulta",
@@ -2794,9 +2827,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 3.8,
-    reviews: 216,
-    views: 371,
+    rating: 4.3,
+    reviews: 69,
+    views: 190,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2808,11 +2842,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0200",
+    id: "PI-0080",
     slug: "ulta-ulta-hydrating-shampoo",
     name: "Ulta Hydrating Shampoo",
     brand: "ulta",
@@ -2827,9 +2860,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3156,
+    rating: 4.7,
+    reviews: 195,
+    views: 4058,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2841,11 +2875,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0201",
+    id: "PI-0081",
     slug: "ulta-ulta-matte-lip-kit",
     name: "Ulta Matte Lip Kit",
     brand: "ulta",
@@ -2860,9 +2893,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5151,
+    rating: 3.8,
+    reviews: 214,
+    views: 4415,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2874,11 +2908,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0202",
+    id: "PI-0082",
     slug: "ulta-ulta-radiant-moisturizer",
     name: "Ulta Radiant Moisturizer",
     brand: "ulta",
@@ -2893,9 +2926,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 6450,
+    rating: 4.3,
+    reviews: 233,
+    views: 1500,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2907,11 +2941,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0203",
+    id: "PI-0083",
     slug: "ulta-ulta-nourishing-serum",
     name: "Ulta Nourishing Serum",
     brand: "ulta",
@@ -2926,9 +2959,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 3.8,
-    reviews: 214,
-    views: 7193,
+    rating: 4.8,
+    reviews: 52,
+    views: 3417,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2940,11 +2974,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0204",
+    id: "PI-0084",
     slug: "ulta-ulta-long-lasting-foundation",
     name: "Ulta Long-Lasting Foundation",
     brand: "ulta",
@@ -2959,9 +2992,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 4384,
+    rating: 3.9,
+    reviews: 71,
+    views: 6294,
+    newIn: false,
     offers: [
       {
         store: "ulta",
@@ -2973,11 +3007,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0205",
+    id: "PI-0085",
     slug: "sephora-sephora-hydrating-serum",
     name: "Sephora Hydrating Serum",
     brand: "sephora",
@@ -2992,9 +3025,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 8029,
+    rating: 4.4,
+    reviews: 90,
+    views: 7525,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3006,11 +3040,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0206",
+    id: "PI-0086",
     slug: "sephora-sephora-matte-foundation",
     name: "Sephora Matte Foundation",
     brand: "sephora",
@@ -3025,9 +3058,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 7406,
+    rating: 4.9,
+    reviews: 109,
+    views: 3320,
+    newIn: true,
     offers: [
       {
         store: "sephora",
@@ -3039,11 +3073,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0207",
+    id: "PI-0087",
     slug: "sephora-sephora-radiant-eau-de-parfum",
     name: "Sephora Radiant Eau de Parfum",
     brand: "sephora",
@@ -3058,9 +3091,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 5517,
+    rating: 4,
+    reviews: 128,
+    views: 5131,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3072,11 +3106,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0208",
+    id: "PI-0088",
     slug: "sephora-sephora-nourishing-shampoo",
     name: "Sephora Nourishing Shampoo",
     brand: "sephora",
@@ -3091,9 +3124,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 4388,
+    rating: 4.9,
+    reviews: 43,
+    views: 2670,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3105,11 +3139,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0209",
+    id: "PI-0089",
     slug: "sephora-sephora-long-lasting-lip-kit",
     name: "Sephora Long-Lasting Lip Kit",
     brand: "sephora",
@@ -3124,9 +3157,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 5513,
+    rating: 4,
+    reviews: 62,
+    views: 8103,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3138,11 +3172,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0210",
+    id: "PI-0090",
     slug: "sephora-sephora-hydrating-moisturizer",
     name: "Sephora Hydrating Moisturizer",
     brand: "sephora",
@@ -3157,9 +3190,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 3.8,
-    reviews: 102,
-    views: 4509,
+    rating: 4.6,
+    reviews: 204,
+    views: 1993,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3171,11 +3205,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0211",
+    id: "PI-0091",
     slug: "sephora-sephora-matte-serum",
     name: "Sephora Matte Serum",
     brand: "sephora",
@@ -3190,9 +3223,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4.3,
-    reviews: 121,
-    views: 3218,
+    rating: 4.1,
+    reviews: 185,
+    views: 740,
+    newIn: true,
     offers: [
       {
         store: "sephora",
@@ -3204,11 +3238,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0212",
+    id: "PI-0092",
     slug: "sephora-sephora-radiant-foundation",
     name: "Sephora Radiant Foundation",
     brand: "sephora",
@@ -3223,9 +3256,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.2,
-    reviews: 64,
-    views: 3533,
+    rating: 3.6,
+    reviews: 166,
+    views: 559,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3237,11 +3271,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0213",
+    id: "PI-0093",
     slug: "sephora-sephora-nourishing-eau-de-parfum",
     name: "Sephora Nourishing Eau de Parfum",
     brand: "sephora",
@@ -3256,9 +3289,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4.7,
-    reviews: 83,
-    views: 5936,
+    rating: 4.5,
+    reviews: 147,
+    views: 5798,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3270,11 +3304,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0214",
+    id: "PI-0094",
     slug: "sephora-sephora-long-lasting-shampoo",
     name: "Sephora Long-Lasting Shampoo",
     brand: "sephora",
@@ -3289,9 +3322,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4.4,
-    reviews: 178,
-    views: 7815,
+    rating: 3.8,
+    reviews: 80,
+    views: 1557,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3303,11 +3337,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0215",
+    id: "PI-0095",
     slug: "sephora-sephora-hydrating-lip-kit",
     name: "Sephora Hydrating Lip Kit",
     brand: "sephora",
@@ -3322,9 +3355,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4.9,
-    reviews: 197,
-    views: 3342,
+    rating: 4.7,
+    reviews: 61,
+    views: 4520,
+    newIn: true,
     offers: [
       {
         store: "sephora",
@@ -3336,11 +3370,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0216",
+    id: "PI-0096",
     slug: "sephora-sephora-matte-moisturizer",
     name: "Sephora Matte Moisturizer",
     brand: "sephora",
@@ -3355,9 +3388,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.8,
-    reviews: 140,
-    views: 2479,
+    rating: 4.2,
+    reviews: 42,
+    views: 251,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3369,11 +3403,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0217",
+    id: "PI-0097",
     slug: "sephora-sephora-radiant-serum",
     name: "Sephora Radiant Serum",
     brand: "sephora",
@@ -3388,9 +3421,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 3.9,
-    reviews: 159,
-    views: 2692,
+    rating: 3.7,
+    reviews: 223,
+    views: 5766,
+    newIn: true,
     offers: [
       {
         store: "sephora",
@@ -3402,11 +3436,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0218",
+    id: "PI-0098",
     slug: "sephora-sephora-nourishing-foundation",
     name: "Sephora Nourishing Foundation",
     brand: "sephora",
@@ -3421,9 +3454,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4,
-    reviews: 150,
-    views: 5573,
+    rating: 4.8,
+    reviews: 52,
+    views: 5599,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3435,11 +3469,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0219",
+    id: "PI-0099",
     slug: "sephora-sephora-long-lasting-eau-de-parfum",
     name: "Sephora Long-Lasting Eau de Parfum",
     brand: "sephora",
@@ -3454,9 +3487,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 4.5,
-    reviews: 169,
-    views: 6586,
+    rating: 4.3,
+    reviews: 233,
+    views: 3348,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3468,11 +3502,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0220",
+    id: "PI-0100",
     slug: "sephora-sephora-hydrating-shampoo",
     name: "Sephora Hydrating Shampoo",
     brand: "sephora",
@@ -3487,9 +3520,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 3.9,
-    reviews: 93,
-    views: 4166,
+    rating: 4.6,
+    reviews: 62,
+    views: 1617,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3501,11 +3535,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0221",
+    id: "PI-0101",
     slug: "sephora-sephora-matte-lip-kit",
     name: "Sephora Matte Lip Kit",
     brand: "sephora",
@@ -3520,9 +3553,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "skincare"
     ],
-    rating: 4.8,
-    reviews: 74,
-    views: 7073,
+    rating: 4.1,
+    reviews: 43,
+    views: 4858,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3534,11 +3568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0222",
+    id: "PI-0102",
     slug: "sephora-sephora-radiant-moisturizer",
     name: "Sephora Radiant Moisturizer",
     brand: "sephora",
@@ -3553,9 +3586,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "makeup"
     ],
-    rating: 4.3,
-    reviews: 55,
-    views: 2156,
+    rating: 4.2,
+    reviews: 100,
+    views: 439,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3567,11 +3601,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0223",
+    id: "PI-0103",
     slug: "sephora-sephora-nourishing-serum",
     name: "Sephora Nourishing Serum",
     brand: "sephora",
@@ -3586,9 +3619,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "fragrance"
     ],
-    rating: 3.8,
-    reviews: 236,
-    views: 5639,
+    rating: 3.7,
+    reviews: 81,
+    views: 2300,
+    newIn: true,
     offers: [
       {
         store: "sephora",
@@ -3600,11 +3634,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0224",
+    id: "PI-0104",
     slug: "sephora-sephora-long-lasting-foundation",
     name: "Sephora Long-Lasting Foundation",
     brand: "sephora",
@@ -3619,9 +3652,10 @@ export const generatedProducts: Product[] = [
       "beauty",
       "haircare"
     ],
-    rating: 4.7,
-    reviews: 217,
-    views: 3658,
+    rating: 3.8,
+    reviews: 138,
+    views: 645,
+    newIn: false,
     offers: [
       {
         store: "sephora",
@@ -3633,11 +3667,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0225",
+    id: "PI-0105",
     slug: "bata-bata-leather-derby-shoes",
     name: "Bata Leather Derby Shoes",
     brand: "bata",
@@ -3649,12 +3682,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "formal-shoes"
     ],
-    rating: 4.2,
-    reviews: 198,
-    views: 7131,
+    rating: 4.7,
+    reviews: 119,
+    views: 7034,
+    newIn: false,
     offers: [
       {
         store: "bata-store",
@@ -3706,11 +3740,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0226",
+    id: "PI-0106",
     slug: "bata-bata-classic-loafers",
     name: "Bata Classic Loafers",
     brand: "bata",
@@ -3725,9 +3758,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sandals"
     ],
-    rating: 3.7,
-    reviews: 179,
-    views: 3400,
+    rating: 4.8,
+    reviews: 176,
+    views: 3499,
+    newIn: false,
     offers: [
       {
         store: "bata-store",
@@ -3779,11 +3813,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0227",
+    id: "PI-0107",
     slug: "bata-bata-comfort-fit-sandals",
     name: "Bata Comfort-Fit Sandals",
     brand: "bata",
@@ -3798,9 +3831,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "casual-shoes"
     ],
-    rating: 4.6,
-    reviews: 160,
-    views: 1589,
+    rating: 4.3,
+    reviews: 157,
+    views: 1688,
+    newIn: false,
     offers: [
       {
         store: "bata-store",
@@ -3852,11 +3886,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0228",
+    id: "PI-0108",
     slug: "bata-bata-everyday-sneakers",
     name: "Bata Everyday Sneakers",
     brand: "bata",
@@ -3868,12 +3901,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "school-shoes"
     ],
-    rating: 3.7,
-    reviews: 45,
-    views: 8030,
+    rating: 4.8,
+    reviews: 110,
+    views: 1735,
+    newIn: false,
     offers: [
       {
         store: "bata-store",
@@ -3925,11 +3959,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0229",
+    id: "PI-0109",
     slug: "charles-keith-charles-keith-structured-tote-bag",
     name: "Charles Keith Structured Tote Bag",
     brand: "charles-keith",
@@ -3946,9 +3979,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "handbags"
     ],
-    rating: 4.6,
-    reviews: 226,
-    views: 185,
+    rating: 4.3,
+    reviews: 91,
+    views: 3342,
+    newIn: true,
     offers: [
       {
         store: "charles-keith-store",
@@ -3960,11 +3994,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0230",
+    id: "PI-0110",
     slug: "charles-keith-charles-keith-compact-crossbody-bag",
     name: "Charles Keith Compact Crossbody Bag",
     brand: "charles-keith",
@@ -3976,12 +4009,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "crossbody-bags"
     ],
-    rating: 4,
-    reviews: 84,
-    views: 1495,
+    rating: 4.9,
+    reviews: 59,
+    views: 2464,
+    newIn: true,
     offers: [
       {
         store: "charles-keith-store",
@@ -3993,11 +4027,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0231",
+    id: "PI-0111",
     slug: "charles-keith-charles-keith-signature-wallet",
     name: "Charles Keith Signature Wallet",
     brand: "charles-keith",
@@ -4012,9 +4045,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4.5,
-    reviews: 103,
-    views: 4124,
+    rating: 4.4,
+    reviews: 40,
+    views: 2707,
+    newIn: true,
     offers: [
       {
         store: "charles-keith-store",
@@ -4026,11 +4060,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0232",
+    id: "PI-0112",
     slug: "charles-keith-charles-keith-pebbled-leather-clutch",
     name: "Charles Keith Pebbled Leather Clutch",
     brand: "charles-keith",
@@ -4045,9 +4078,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 3.6,
-    reviews: 122,
-    views: 497,
+    rating: 4.5,
+    reviews: 97,
+    views: 2158,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4059,11 +4093,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0233",
+    id: "PI-0113",
     slug: "charles-keith-charles-keith-structured-shoulder-bag",
     name: "Charles Keith Structured Shoulder Bag",
     brand: "charles-keith",
@@ -4077,12 +4110,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.1,
-    reviews: 141,
-    views: 6682,
+    rating: 4,
+    reviews: 78,
+    views: 5517,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4094,11 +4128,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0234",
+    id: "PI-0114",
     slug: "charles-keith-charles-keith-compact-tote-bag",
     name: "Charles Keith Compact Tote Bag",
     brand: "charles-keith",
@@ -4113,9 +4146,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 3.8,
-    reviews: 72,
-    views: 5733,
+    rating: 4.1,
+    reviews: 135,
+    views: 1692,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4127,11 +4161,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0235",
+    id: "PI-0115",
     slug: "charles-keith-charles-keith-signature-crossbody-bag",
     name: "Charles Keith Signature Crossbody Bag",
     brand: "charles-keith",
@@ -4146,9 +4179,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4.7,
-    reviews: 53,
-    views: 7544,
+    rating: 3.6,
+    reviews: 116,
+    views: 2399,
+    newIn: true,
     offers: [
       {
         store: "charles-keith-store",
@@ -4160,11 +4194,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0236",
+    id: "PI-0116",
     slug: "charles-keith-charles-keith-pebbled-leather-wallet",
     name: "Charles Keith Pebbled Leather Wallet",
     brand: "charles-keith",
@@ -4176,12 +4209,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "wallets"
     ],
-    rating: 4.2,
-    reviews: 234,
-    views: 3339,
+    rating: 3.7,
+    reviews: 173,
+    views: 5298,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4193,11 +4227,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0237",
+    id: "PI-0117",
     slug: "charles-keith-charles-keith-structured-clutch",
     name: "Charles Keith Structured Clutch",
     brand: "charles-keith",
@@ -4214,9 +4247,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "handbags"
     ],
-    rating: 4.9,
-    reviews: 65,
-    views: 6618,
+    rating: 4.6,
+    reviews: 154,
+    views: 7895,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4228,11 +4262,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0238",
+    id: "PI-0118",
     slug: "charles-keith-charles-keith-compact-shoulder-bag",
     name: "Charles Keith Compact Shoulder Bag",
     brand: "charles-keith",
@@ -4247,9 +4280,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 3.8,
-    reviews: 236,
-    views: 2511,
+    rating: 3.7,
+    reviews: 107,
+    views: 520,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4261,11 +4295,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0239",
+    id: "PI-0119",
     slug: "charles-keith-charles-keith-signature-tote-bag",
     name: "Charles Keith Signature Tote Bag",
     brand: "charles-keith",
@@ -4277,12 +4310,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "totes"
     ],
-    rating: 4.3,
-    reviews: 55,
-    views: 3084,
+    rating: 4.6,
+    reviews: 88,
+    views: 3483,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4294,11 +4328,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0240",
+    id: "PI-0120",
     slug: "charles-keith-charles-keith-pebbled-leather-crossbody-bag",
     name: "Charles Keith Pebbled Leather Crossbody Bag",
     brand: "charles-keith",
@@ -4313,9 +4346,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4.5,
-    reviews: 205,
-    views: 7144,
+    rating: 4.4,
+    reviews: 80,
+    views: 3659,
+    newIn: true,
     offers: [
       {
         store: "charles-keith-store",
@@ -4327,11 +4361,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0241",
+    id: "PI-0121",
     slug: "charles-keith-charles-keith-structured-wallet",
     name: "Charles Keith Structured Wallet",
     brand: "charles-keith",
@@ -4348,9 +4381,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "handbags"
     ],
-    rating: 3.6,
-    reviews: 224,
-    views: 3355,
+    rating: 3.9,
+    reviews: 61,
+    views: 3768,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4362,11 +4396,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0242",
+    id: "PI-0122",
     slug: "charles-keith-charles-keith-compact-clutch",
     name: "Charles Keith Compact Clutch",
     brand: "charles-keith",
@@ -4378,12 +4411,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "crossbody-bags"
     ],
-    rating: 4.9,
-    reviews: 167,
-    views: 7146,
+    rating: 4.8,
+    reviews: 42,
+    views: 5925,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4395,11 +4429,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0243",
+    id: "PI-0123",
     slug: "charles-keith-charles-keith-signature-shoulder-bag",
     name: "Charles Keith Signature Shoulder Bag",
     brand: "charles-keith",
@@ -4414,9 +4447,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
-    reviews: 186,
-    views: 2875,
+    rating: 4.3,
+    reviews: 223,
+    views: 7898,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4428,11 +4462,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0244",
+    id: "PI-0124",
     slug: "charles-keith-charles-keith-pebbled-leather-tote-bag",
     name: "Charles Keith Pebbled Leather Tote Bag",
     brand: "charles-keith",
@@ -4447,9 +4480,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 3.9,
-    reviews: 129,
-    views: 2124,
+    rating: 3.8,
+    reviews: 204,
+    views: 2713,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4461,11 +4495,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0245",
+    id: "PI-0125",
     slug: "charles-keith-charles-keith-structured-crossbody-bag",
     name: "Charles Keith Structured Crossbody Bag",
     brand: "charles-keith",
@@ -4479,12 +4512,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.4,
-    reviews: 148,
-    views: 4617,
+    rating: 4.7,
+    reviews: 185,
+    views: 6044,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4496,11 +4530,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0246",
+    id: "PI-0126",
     slug: "charles-keith-charles-keith-compact-wallet",
     name: "Charles Keith Compact Wallet",
     brand: "charles-keith",
@@ -4515,9 +4548,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 4.3,
-    reviews: 189,
-    views: 3174,
+    rating: 4.2,
+    reviews: 166,
+    views: 3953,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4529,11 +4563,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0247",
+    id: "PI-0127",
     slug: "charles-keith-charles-keith-signature-clutch",
     name: "Charles Keith Signature Clutch",
     brand: "charles-keith",
@@ -4548,9 +4581,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 3.8,
-    reviews: 170,
-    views: 4353,
+    rating: 3.7,
+    reviews: 147,
+    views: 602,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4562,11 +4596,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0248",
+    id: "PI-0128",
     slug: "charles-keith-charles-keith-pebbled-leather-shoulder-bag",
     name: "Charles Keith Pebbled Leather Shoulder Bag",
     brand: "charles-keith",
@@ -4578,12 +4611,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "wallets"
     ],
-    rating: 3.9,
-    reviews: 227,
-    views: 5200,
+    rating: 4.6,
+    reviews: 128,
+    views: 707,
+    newIn: false,
     offers: [
       {
         store: "charles-keith-store",
@@ -4595,11 +4629,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0289",
+    id: "PI-0129",
     slug: "decathlon-decathlon-compact-resistance-bands",
     name: "Decathlon Compact Resistance Bands",
     brand: "decathlon",
@@ -4616,9 +4649,10 @@ export const generatedProducts: Product[] = [
       "fitness",
       "fitness-equipment"
     ],
-    rating: 4.2,
-    reviews: 212,
-    views: 3521,
+    rating: 4.1,
+    reviews: 109,
+    views: 720,
+    newIn: false,
     offers: [
       {
         store: "decathlon",
@@ -4670,11 +4704,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0290",
+    id: "PI-0130",
     slug: "decathlon-decathlon-adjustable-yoga-mat",
     name: "Decathlon Adjustable Yoga Mat",
     brand: "decathlon",
@@ -4689,9 +4722,10 @@ export const generatedProducts: Product[] = [
       "fitness",
       "activewear"
     ],
-    rating: 3.6,
-    reviews: 210,
-    views: 2645,
+    rating: 4.5,
+    reviews: 71,
+    views: 4362,
+    newIn: false,
     offers: [
       {
         store: "decathlon",
@@ -4743,11 +4777,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0291",
+    id: "PI-0131",
     slug: "decathlon-decathlon-everyday-training-shoes",
     name: "Decathlon Everyday Training Shoes",
     brand: "decathlon",
@@ -4762,9 +4795,10 @@ export const generatedProducts: Product[] = [
       "fitness",
       "footwear"
     ],
-    rating: 4.5,
-    reviews: 191,
-    views: 2342,
+    rating: 3.6,
+    reviews: 90,
+    views: 3605,
+    newIn: false,
     offers: [
       {
         store: "decathlon",
@@ -4816,11 +4850,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0292",
+    id: "PI-0132",
     slug: "decathlon-decathlon-performance-water-bottle",
     name: "Decathlon Performance Water Bottle",
     brand: "decathlon",
@@ -4835,9 +4868,10 @@ export const generatedProducts: Product[] = [
       "fitness",
       "fitness-equipment"
     ],
-    rating: 4.6,
-    reviews: 48,
-    views: 187,
+    rating: 4.1,
+    reviews: 109,
+    views: 168,
+    newIn: false,
     offers: [
       {
         store: "decathlon",
@@ -4889,11 +4923,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0293",
+    id: "PI-0133",
     slug: "expedia-expedia-hardshell-suitcase",
     name: "Expedia Hardshell Suitcase",
     brand: "expedia",
@@ -4905,13 +4938,24 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "check-in-luggage"
     ],
-    rating: 4.1,
-    reviews: 229,
-    views: 6376,
+    rating: 4.6,
+    reviews: 128,
+    views: 2357,
+    newIn: false,
     offers: [
+      {
+        store: "expedia-store",
+        price: 65072,
+        originalPrice: 92960,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.expedia.com/p/expedia-16-hardshell-suitcase",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      },
       {
         store: "expedia-store",
         price: 61752,
@@ -4941,22 +4985,11 @@ export const generatedProducts: Product[] = [
         productUrl: "https://www.expedia.com/p/expedia-11-hardshell-suitcase",
         shipping: "Standard shipping",
         updatedHoursAgo: 1
-      },
-      {
-        store: "expedia-store",
-        price: 65072,
-        originalPrice: 92960,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.expedia.com/p/expedia-16-hardshell-suitcase",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0294",
+    id: "PI-0134",
     slug: "expedia-expedia-lightweight-spinner-case",
     name: "Expedia Lightweight Spinner Case",
     brand: "expedia",
@@ -4968,12 +5001,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "cabin-luggage"
     ],
-    rating: 4.2,
-    reviews: 146,
-    views: 6927,
+    rating: 3.9,
+    reviews: 195,
+    views: 6918,
+    newIn: false,
     offers: [
       {
         store: "expedia-store",
@@ -5015,11 +5049,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0295",
+    id: "PI-0135",
     slug: "expedia-expedia-expandable-duffel-bag",
     name: "Expedia Expandable Duffel Bag",
     brand: "expedia",
@@ -5031,12 +5064,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "travel-packages"
     ],
-    rating: 4.7,
-    reviews: 165,
-    views: 1834,
+    rating: 4.4,
+    reviews: 214,
+    views: 7439,
+    newIn: false,
     offers: [
       {
         store: "expedia-store",
@@ -5078,15 +5112,14 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0296",
+    id: "PI-0136",
     slug: "expedia-expedia-all-inclusive-getaway-package",
     name: "Expedia All-Inclusive Getaway Package",
     brand: "expedia",
-    category: "lifestyle-accessories",
+    category: "bags",
     subcategory: "Backpacks",
     gender: "unisex",
     description: "Expedia Expedia All-Inclusive Getaway Package — backpacks tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -5094,12 +5127,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "bags",
       "backpacks"
     ],
-    rating: 4,
-    reviews: 172,
-    views: 361,
+    rating: 4.9,
+    reviews: 233,
+    views: 580,
+    newIn: true,
     offers: [
       {
         store: "expedia-store",
@@ -5141,11 +5175,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0297",
+    id: "PI-0137",
     slug: "expedia-expedia-3-night-hotel-booking",
     name: "Expedia 3-Night Hotel Booking",
     brand: "expedia",
@@ -5157,12 +5190,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "check-in-luggage"
     ],
-    rating: 3.7,
-    reviews: 127,
-    views: 7620,
+    rating: 4,
+    reviews: 52,
+    views: 1193,
+    newIn: false,
     offers: [
       {
         store: "expedia-store",
@@ -5204,11 +5238,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0482",
+    id: "PI-0138",
     slug: "under-armour-under-armour-seamless-leggings",
     name: "Under Armour Seamless Leggings",
     brand: "under-armour",
@@ -5223,9 +5256,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "activewear"
     ],
-    rating: 4.1,
-    reviews: 131,
-    views: 6888,
+    rating: 4.7,
+    reviews: 119,
+    views: 3618,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5237,11 +5271,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0483",
+    id: "PI-0139",
     slug: "under-armour-under-armour-performance-joggers",
     name: "Under Armour Performance Joggers",
     brand: "under-armour",
@@ -5253,12 +5286,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "leggings"
     ],
-    rating: 3.6,
-    reviews: 112,
-    views: 699,
+    rating: 3.8,
+    reviews: 138,
+    views: 6403,
+    newIn: true,
     offers: [
       {
         store: "under-armour-store",
@@ -5270,11 +5304,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0484",
+    id: "PI-0140",
     slug: "under-armour-under-armour-lightweight-training-tee",
     name: "Under Armour Lightweight Training Tee",
     brand: "under-armour",
@@ -5286,12 +5319,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "training-tops"
     ],
-    rating: 4.3,
-    reviews: 45,
-    views: 6918,
+    rating: 4,
+    reviews: 66,
+    views: 4149,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5303,11 +5337,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0485",
+    id: "PI-0141",
     slug: "under-armour-under-armour-breathable-sports-bra",
     name: "Under Armour Breathable Sports Bra",
     brand: "under-armour",
@@ -5322,9 +5355,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "joggers"
     ],
-    rating: 3.8,
-    reviews: 226,
-    views: 6415,
+    rating: 4.9,
+    reviews: 47,
+    views: 6086,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5336,11 +5370,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0486",
+    id: "PI-0142",
     slug: "under-armour-under-armour-seamless-track-jacket",
     name: "Under Armour Seamless Track Jacket",
     brand: "under-armour",
@@ -5352,12 +5385,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "sports-bras"
     ],
-    rating: 4.7,
-    reviews: 207,
-    views: 7404,
+    rating: 3.6,
+    reviews: 104,
+    views: 5147,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5369,11 +5403,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0487",
+    id: "PI-0143",
     slug: "under-armour-under-armour-performance-leggings",
     name: "Under Armour Performance Leggings",
     brand: "under-armour",
@@ -5385,12 +5418,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "activewear"
     ],
-    rating: 4.2,
-    reviews: 188,
-    views: 391,
+    rating: 4.5,
+    reviews: 85,
+    views: 5384,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5402,11 +5436,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0488",
+    id: "PI-0144",
     slug: "under-armour-under-armour-lightweight-joggers",
     name: "Under Armour Lightweight Joggers",
     brand: "under-armour",
@@ -5421,9 +5454,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "leggings"
     ],
-    rating: 4.9,
-    reviews: 121,
-    views: 3790,
+    rating: 4.8,
+    reviews: 190,
+    views: 7361,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5435,11 +5469,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0489",
+    id: "PI-0145",
     slug: "under-armour-under-armour-breathable-training-tee",
     name: "Under Armour Breathable Training Tee",
     brand: "under-armour",
@@ -5451,12 +5484,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "training-tops"
     ],
-    rating: 4.4,
-    reviews: 102,
-    views: 6275,
+    rating: 4.3,
+    reviews: 171,
+    views: 2662,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5468,11 +5502,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0490",
+    id: "PI-0146",
     slug: "under-armour-under-armour-seamless-sports-bra",
     name: "Under Armour Seamless Sports Bra",
     brand: "under-armour",
@@ -5484,12 +5517,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "joggers"
     ],
-    rating: 3.8,
-    reviews: 160,
-    views: 4555,
+    rating: 4.4,
+    reviews: 228,
+    views: 4839,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5501,11 +5535,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0491",
+    id: "PI-0147",
     slug: "under-armour-under-armour-performance-track-jacket",
     name: "Under Armour Performance Track Jacket",
     brand: "under-armour",
@@ -5520,9 +5553,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "sports-bras"
     ],
-    rating: 4.3,
-    reviews: 179,
-    views: 2744,
+    rating: 3.9,
+    reviews: 209,
+    views: 6500,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5534,11 +5568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0492",
+    id: "PI-0148",
     slug: "under-armour-under-armour-lightweight-leggings",
     name: "Under Armour Lightweight Leggings",
     brand: "under-armour",
@@ -5550,12 +5583,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "activewear"
     ],
-    rating: 4.8,
-    reviews: 198,
-    views: 587,
+    rating: 4.2,
+    reviews: 114,
+    views: 7629,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5567,11 +5601,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0493",
+    id: "PI-0149",
     slug: "under-armour-under-armour-breathable-joggers",
     name: "Under Armour Breathable Joggers",
     brand: "under-armour",
@@ -5583,12 +5616,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "leggings"
     ],
-    rating: 3.9,
-    reviews: 217,
-    views: 6870,
+    rating: 3.7,
+    reviews: 95,
+    views: 5294,
+    newIn: true,
     offers: [
       {
         store: "under-armour-store",
@@ -5600,11 +5634,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0494",
+    id: "PI-0150",
     slug: "under-armour-under-armour-seamless-training-tee",
     name: "Under Armour Seamless Training Tee",
     brand: "under-armour",
@@ -5619,9 +5652,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "training-tops"
     ],
-    rating: 4.4,
-    reviews: 236,
-    views: 4247,
+    rating: 4.1,
+    reviews: 57,
+    views: 7956,
+    newIn: true,
     offers: [
       {
         store: "under-armour-store",
@@ -5633,11 +5667,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0495",
+    id: "PI-0151",
     slug: "under-armour-under-armour-performance-sports-bra",
     name: "Under Armour Performance Sports Bra",
     brand: "under-armour",
@@ -5649,12 +5682,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "joggers"
     ],
-    rating: 4.9,
-    reviews: 55,
-    views: 6164,
+    rating: 4.6,
+    reviews: 76,
+    views: 3287,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5666,11 +5700,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0496",
+    id: "PI-0152",
     slug: "under-armour-under-armour-lightweight-track-jacket",
     name: "Under Armour Lightweight Track Jacket",
     brand: "under-armour",
@@ -5682,12 +5715,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "sports-bras"
     ],
-    rating: 4,
-    reviews: 74,
-    views: 3249,
+    rating: 4.5,
+    reviews: 219,
+    views: 5398,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5699,11 +5733,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0497",
+    id: "PI-0153",
     slug: "under-armour-under-armour-breathable-leggings",
     name: "Under Armour Breathable Leggings",
     brand: "under-armour",
@@ -5718,9 +5751,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "activewear"
     ],
-    rating: 4.5,
-    reviews: 93,
-    views: 3606,
+    rating: 3.6,
+    reviews: 238,
+    views: 5823,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5732,11 +5766,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0498",
+    id: "PI-0154",
     slug: "under-armour-under-armour-seamless-joggers",
     name: "Under Armour Seamless Joggers",
     brand: "under-armour",
@@ -5748,12 +5781,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "leggings"
     ],
-    rating: 3.6,
-    reviews: 112,
-    views: 6701,
+    rating: 4.7,
+    reviews: 133,
+    views: 2232,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5765,11 +5799,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0499",
+    id: "PI-0155",
     slug: "under-armour-under-armour-performance-training-tee",
     name: "Under Armour Performance Training Tee",
     brand: "under-armour",
@@ -5781,12 +5814,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "training-tops"
     ],
-    rating: 4.1,
-    reviews: 131,
-    views: 1552,
+    rating: 3.8,
+    reviews: 152,
+    views: 6117,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5798,11 +5832,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0500",
+    id: "PI-0156",
     slug: "under-armour-under-armour-lightweight-sports-bra",
     name: "Under Armour Lightweight Sports Bra",
     brand: "under-armour",
@@ -5817,9 +5850,10 @@ export const generatedProducts: Product[] = [
       "mens-sportswear",
       "joggers"
     ],
-    rating: 4.8,
-    reviews: 138,
-    views: 3525,
+    rating: 3.7,
+    reviews: 95,
+    views: 1878,
+    newIn: true,
     offers: [
       {
         store: "under-armour-store",
@@ -5831,11 +5865,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0501",
+    id: "PI-0157",
     slug: "under-armour-under-armour-breathable-track-jacket",
     name: "Under Armour Breathable Track Jacket",
     brand: "under-armour",
@@ -5847,12 +5880,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "mens-sportswear",
+      "sportswear",
       "sports-bras"
     ],
-    rating: 4.3,
-    reviews: 119,
-    views: 4538,
+    rating: 4.2,
+    reviews: 114,
+    views: 3851,
+    newIn: false,
     offers: [
       {
         store: "under-armour-store",
@@ -5864,11 +5898,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0786",
+    id: "PI-0158",
     slug: "fossil-fossil-classic-watch",
     name: "Fossil Classic Watch",
     brand: "fossil",
@@ -5880,12 +5913,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "watches",
+      "mens-watches",
       "watches"
     ],
-    rating: 4.2,
-    reviews: 102,
-    views: 4649,
+    rating: 4.3,
+    reviews: 105,
+    views: 4044,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -5907,11 +5941,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0787",
+    id: "PI-0159",
     slug: "fossil-fossil-minimalist-chronograph-watch",
     name: "Fossil Minimalist Chronograph Watch",
     brand: "fossil",
@@ -5926,9 +5959,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 3.7,
-    reviews: 83,
-    views: 7970,
+    rating: 4.8,
+    reviews: 124,
+    views: 3809,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -5950,11 +5984,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0788",
+    id: "PI-0160",
     slug: "fossil-fossil-chronograph-leather-strap-watch",
     name: "Fossil Chronograph Leather Strap Watch",
     brand: "fossil",
@@ -5969,9 +6002,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.2,
-    reviews: 168,
-    views: 3589,
+    rating: 4.8,
+    reviews: 68,
+    views: 5601,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -5993,11 +6027,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0789",
+    id: "PI-0161",
     slug: "fossil-fossil-stainless-steel-watch",
     name: "Fossil Stainless Steel Watch",
     brand: "fossil",
@@ -6009,12 +6042,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "watches",
+      "mens-watches",
       "smartwatches"
     ],
     rating: 3.7,
-    reviews: 149,
-    views: 5208,
+    reviews: 89,
+    views: 5028,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6036,11 +6070,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0790",
+    id: "PI-0162",
     slug: "fossil-fossil-classic-chronograph-watch",
     name: "Fossil Classic Chronograph Watch",
     brand: "fossil",
@@ -6055,9 +6088,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 3.7,
-    reviews: 105,
-    views: 5058,
+    rating: 4.6,
+    reviews: 70,
+    views: 4937,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6079,11 +6113,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0791",
+    id: "PI-0163",
     slug: "fossil-fossil-minimalist-leather-strap-watch",
     name: "Fossil Minimalist Leather Strap Watch",
     brand: "fossil",
@@ -6098,9 +6131,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4.6,
-    reviews: 86,
-    views: 5795,
+    rating: 4.1,
+    reviews: 51,
+    views: 8066,
+    newIn: true,
     offers: [
       {
         store: "fossil-store",
@@ -6122,11 +6156,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0792",
+    id: "PI-0164",
     slug: "fossil-fossil-chronograph-watch",
     name: "Fossil Chronograph Watch",
     brand: "fossil",
@@ -6138,12 +6171,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "watches",
+      "mens-watches",
       "watches"
     ],
-    rating: 4.1,
-    reviews: 67,
-    views: 6928,
+    rating: 4.2,
+    reviews: 192,
+    views: 1325,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6165,11 +6199,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0793",
+    id: "PI-0165",
     slug: "fossil-fossil-stainless-steel-chronograph-watch",
     name: "Fossil Stainless Steel Chronograph Watch",
     brand: "fossil",
@@ -6184,9 +6217,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 3.6,
-    reviews: 48,
-    views: 4435,
+    rating: 4.7,
+    reviews: 211,
+    views: 6928,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6208,11 +6242,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0794",
+    id: "PI-0166",
     slug: "fossil-fossil-classic-leather-strap-watch",
     name: "Fossil Classic Leather Strap Watch",
     brand: "fossil",
@@ -6227,9 +6260,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.3,
-    reviews: 181,
-    views: 6014,
+    rating: 3.8,
+    reviews: 230,
+    views: 5501,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6241,11 +6275,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0795",
+    id: "PI-0167",
     slug: "fossil-fossil-minimalist-watch",
     name: "Fossil Minimalist Watch",
     brand: "fossil",
@@ -6257,12 +6290,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "watches",
+      "mens-watches",
       "smartwatches"
     ],
-    rating: 3.8,
-    reviews: 162,
-    views: 4119,
+    rating: 4.3,
+    reviews: 49,
+    views: 638,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6274,11 +6308,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0796",
+    id: "PI-0168",
     slug: "fossil-fossil-chronograph-chronograph-watch",
     name: "Fossil Chronograph Chronograph Watch",
     brand: "fossil",
@@ -6293,9 +6326,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.7,
-    reviews: 143,
-    views: 6228,
+    rating: 3.6,
+    reviews: 116,
+    views: 1623,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6307,11 +6341,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0797",
+    id: "PI-0169",
     slug: "fossil-fossil-stainless-steel-leather-strap-watch",
     name: "Fossil Stainless Steel Leather Strap Watch",
     brand: "fossil",
@@ -6326,9 +6359,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "smartwatches"
     ],
-    rating: 4.2,
-    reviews: 124,
-    views: 6161,
+    rating: 4.1,
+    reviews: 135,
+    views: 3540,
+    newIn: false,
     offers: [
       {
         store: "fossil-store",
@@ -6340,11 +6374,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0798",
+    id: "PI-0170",
     slug: "longchamp-longchamp-structured-tote-bag",
     name: "Longchamp Structured Tote Bag",
     brand: "longchamp",
@@ -6361,9 +6394,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "handbags"
     ],
-    rating: 3.9,
-    reviews: 153,
-    views: 4266,
+    rating: 4.3,
+    reviews: 99,
+    views: 8082,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6375,11 +6409,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0799",
+    id: "PI-0171",
     slug: "longchamp-longchamp-compact-crossbody-bag",
     name: "Longchamp Compact Crossbody Bag",
     brand: "longchamp",
@@ -6391,12 +6424,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "crossbody-bags"
     ],
     rating: 4.8,
-    reviews: 134,
-    views: 1275,
+    reviews: 118,
+    views: 313,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6408,11 +6442,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0800",
+    id: "PI-0172",
     slug: "longchamp-longchamp-signature-wallet",
     name: "Longchamp Signature Wallet",
     brand: "longchamp",
@@ -6427,9 +6460,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 3.7,
-    reviews: 131,
-    views: 3434,
+    rating: 3.9,
+    reviews: 137,
+    views: 828,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6441,11 +6475,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0801",
+    id: "PI-0173",
     slug: "longchamp-longchamp-pebbled-leather-clutch",
     name: "Longchamp Pebbled Leather Clutch",
     brand: "longchamp",
@@ -6460,9 +6493,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4.2,
-    reviews: 150,
-    views: 2255,
+    rating: 4.4,
+    reviews: 156,
+    views: 7921,
+    newIn: true,
     offers: [
       {
         store: "longchamp-store",
@@ -6474,11 +6508,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0802",
+    id: "PI-0174",
     slug: "longchamp-longchamp-structured-shoulder-bag",
     name: "Longchamp Structured Shoulder Bag",
     brand: "longchamp",
@@ -6492,12 +6525,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.7,
-    reviews: 169,
-    views: 1772,
+    rating: 4.9,
+    reviews: 175,
+    views: 6414,
+    newIn: true,
     offers: [
       {
         store: "longchamp-store",
@@ -6509,11 +6543,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0803",
+    id: "PI-0175",
     slug: "longchamp-longchamp-compact-tote-bag",
     name: "Longchamp Compact Tote Bag",
     brand: "longchamp",
@@ -6528,9 +6561,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 3.8,
-    reviews: 188,
-    views: 4231,
+    rating: 4,
+    reviews: 194,
+    views: 899,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6542,11 +6576,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0804",
+    id: "PI-0176",
     slug: "longchamp-longchamp-signature-crossbody-bag",
     name: "Longchamp Signature Crossbody Bag",
     brand: "longchamp",
@@ -6561,9 +6594,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4.3,
-    reviews: 207,
-    views: 5990,
+    rating: 4.5,
+    reviews: 163,
+    views: 7856,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6575,11 +6609,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0805",
+    id: "PI-0177",
     slug: "longchamp-longchamp-pebbled-leather-wallet",
     name: "Longchamp Pebbled Leather Wallet",
     brand: "longchamp",
@@ -6591,12 +6624,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "wallets"
     ],
-    rating: 4.8,
-    reviews: 226,
-    views: 6747,
+    rating: 4,
+    reviews: 144,
+    views: 7923,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6608,11 +6642,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0806",
+    id: "PI-0178",
     slug: "longchamp-longchamp-structured-clutch",
     name: "Longchamp Structured Clutch",
     brand: "longchamp",
@@ -6629,9 +6662,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "handbags"
     ],
-    rating: 3.9,
-    reviews: 45,
-    views: 2184,
+    rating: 4.9,
+    reviews: 125,
+    views: 4294,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6643,11 +6677,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0807",
+    id: "PI-0179",
     slug: "longchamp-longchamp-compact-shoulder-bag",
     name: "Longchamp Compact Shoulder Bag",
     brand: "longchamp",
@@ -6663,8 +6696,9 @@ export const generatedProducts: Product[] = [
       "crossbody-bags"
     ],
     rating: 4.4,
-    reviews: 64,
-    views: 3067,
+    reviews: 106,
+    views: 1039,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6676,11 +6710,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0808",
+    id: "PI-0180",
     slug: "longchamp-longchamp-signature-tote-bag",
     name: "Longchamp Signature Tote Bag",
     brand: "longchamp",
@@ -6692,12 +6725,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "totes"
     ],
-    rating: 3.9,
-    reviews: 179,
-    views: 7774,
+    rating: 3.8,
+    reviews: 94,
+    views: 6105,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6709,11 +6743,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0809",
+    id: "PI-0181",
     slug: "longchamp-longchamp-pebbled-leather-crossbody-bag",
     name: "Longchamp Pebbled Leather Crossbody Bag",
     brand: "longchamp",
@@ -6728,9 +6761,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4.4,
-    reviews: 198,
-    views: 1401,
+    rating: 4.7,
+    reviews: 75,
+    views: 702,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6742,11 +6776,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0810",
+    id: "PI-0182",
     slug: "longchamp-longchamp-structured-wallet",
     name: "Longchamp Structured Wallet",
     brand: "longchamp",
@@ -6763,9 +6796,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "handbags"
     ],
-    rating: 3.6,
-    reviews: 140,
-    views: 2711,
+    rating: 4.8,
+    reviews: 132,
+    views: 7377,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6777,11 +6811,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0811",
+    id: "PI-0183",
     slug: "longchamp-longchamp-compact-clutch",
     name: "Longchamp Compact Clutch",
     brand: "longchamp",
@@ -6793,12 +6826,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "crossbody-bags"
     ],
-    rating: 4.5,
-    reviews: 121,
-    views: 7380,
+    rating: 4.3,
+    reviews: 113,
+    views: 8084,
+    newIn: true,
     offers: [
       {
         store: "longchamp-store",
@@ -6810,11 +6844,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0812",
+    id: "PI-0184",
     slug: "longchamp-longchamp-signature-shoulder-bag",
     name: "Longchamp Signature Shoulder Bag",
     brand: "longchamp",
@@ -6829,9 +6862,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4,
-    reviews: 102,
-    views: 6399,
+    rating: 4.6,
+    reviews: 206,
+    views: 4259,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6843,11 +6877,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0813",
+    id: "PI-0185",
     slug: "longchamp-longchamp-pebbled-leather-tote-bag",
     name: "Longchamp Pebbled Leather Tote Bag",
     brand: "longchamp",
@@ -6862,9 +6895,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "wallets"
     ],
-    rating: 4.9,
-    reviews: 83,
-    views: 4822,
+    rating: 3.9,
+    reviews: 151,
+    views: 3842,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6876,11 +6910,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0814",
+    id: "PI-0186",
     slug: "longchamp-longchamp-structured-crossbody-bag",
     name: "Longchamp Structured Crossbody Bag",
     brand: "longchamp",
@@ -6894,12 +6927,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.2,
-    reviews: 216,
-    views: 843,
+    rating: 3.6,
+    reviews: 168,
+    views: 7069,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6911,11 +6945,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0815",
+    id: "PI-0187",
     slug: "longchamp-longchamp-compact-wallet",
     name: "Longchamp Compact Wallet",
     brand: "longchamp",
@@ -6930,9 +6963,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "crossbody-bags"
     ],
-    rating: 3.7,
-    reviews: 197,
-    views: 1656,
+    rating: 4.1,
+    reviews: 187,
+    views: 7312,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6944,11 +6978,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0816",
+    id: "PI-0188",
     slug: "longchamp-longchamp-signature-clutch",
     name: "Longchamp Signature Clutch",
     brand: "longchamp",
@@ -6963,9 +6996,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "totes"
     ],
-    rating: 4.6,
-    reviews: 178,
-    views: 4427,
+    rating: 4,
+    reviews: 130,
+    views: 5295,
+    newIn: false,
     offers: [
       {
         store: "longchamp-store",
@@ -6977,11 +7011,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0817",
+    id: "PI-0189",
     slug: "longchamp-longchamp-pebbled-leather-shoulder-bag",
     name: "Longchamp Pebbled Leather Shoulder Bag",
     brand: "longchamp",
@@ -6993,12 +7026,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "mens-bags",
       "wallets"
     ],
-    rating: 4.1,
-    reviews: 159,
-    views: 5082,
+    rating: 4.5,
+    reviews: 149,
+    views: 1062,
+    newIn: true,
     offers: [
       {
         store: "longchamp-store",
@@ -7010,11 +7044,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0978",
+    id: "PI-0190",
     slug: "el-corte-ingles-el-corte-ingles-classic-blazer",
     name: "El Corte Ingles Classic Blazer",
     brand: "el-corte-ingles",
@@ -7029,9 +7062,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.3,
-    reviews: 227,
-    views: 2606,
+    rating: 4.5,
+    reviews: 83,
+    views: 4712,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7043,11 +7077,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0979",
+    id: "PI-0191",
     slug: "el-corte-ingles-el-corte-ingles-relaxed-shirt-dress",
     name: "El Corte Ingles Relaxed Shirt Dress",
     brand: "el-corte-ingles",
@@ -7059,12 +7092,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4.8,
-    reviews: 46,
-    views: 167,
+    rating: 4,
+    reviews: 64,
+    views: 6523,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7076,11 +7110,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0980",
+    id: "PI-0192",
     slug: "el-corte-ingles-el-corte-ingles-slim-fit-denim-jacket",
     name: "El Corte Ingles Slim Fit Denim Jacket",
     brand: "el-corte-ingles",
@@ -7097,9 +7130,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.6,
-    reviews: 114,
-    views: 3585,
+    rating: 4.1,
+    reviews: 121,
+    views: 4006,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7111,11 +7145,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0981",
+    id: "PI-0193",
     slug: "el-corte-ingles-el-corte-ingles-oversized-knit-sweater",
     name: "El Corte Ingles Oversized Knit Sweater",
     brand: "el-corte-ingles",
@@ -7130,9 +7163,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 3.7,
-    reviews: 133,
-    views: 6886,
+    rating: 3.6,
+    reviews: 102,
+    views: 981,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7144,11 +7178,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0982",
+    id: "PI-0194",
     slug: "el-corte-ingles-el-corte-ingles-tailored-trench-coat",
     name: "El Corte Ingles Tailored Trench Coat",
     brand: "el-corte-ingles",
@@ -7162,12 +7195,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 3.6,
-    reviews: 76,
-    views: 1063,
+    rating: 3.7,
+    reviews: 159,
+    views: 1580,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7179,11 +7213,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0983",
+    id: "PI-0195",
     slug: "el-corte-ingles-el-corte-ingles-classic-midi-dress",
     name: "El Corte Ingles Classic Midi Dress",
     brand: "el-corte-ingles",
@@ -7198,9 +7231,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.1,
-    reviews: 95,
-    views: 4812,
+    rating: 4.6,
+    reviews: 140,
+    views: 6215,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7212,11 +7246,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0984",
+    id: "PI-0196",
     slug: "el-corte-ingles-el-corte-ingles-relaxed-blazer",
     name: "El Corte Ingles Relaxed Blazer",
     brand: "el-corte-ingles",
@@ -7231,9 +7264,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4,
-    reviews: 238,
-    views: 7163,
+    rating: 4.7,
+    reviews: 197,
+    views: 4742,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7245,11 +7279,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0985",
+    id: "PI-0197",
     slug: "el-corte-ingles-el-corte-ingles-slim-fit-shirt-dress",
     name: "El Corte Ingles Slim Fit Shirt Dress",
     brand: "el-corte-ingles",
@@ -7261,12 +7294,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jeans"
     ],
-    rating: 4.5,
-    reviews: 57,
-    views: 1862,
+    rating: 4.2,
+    reviews: 178,
+    views: 591,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7278,11 +7312,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0986",
+    id: "PI-0198",
     slug: "el-corte-ingles-el-corte-ingles-oversized-denim-jacket",
     name: "El Corte Ingles Oversized Denim Jacket",
     brand: "el-corte-ingles",
@@ -7299,9 +7332,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.4,
-    reviews: 200,
-    views: 6165,
+    rating: 4.3,
+    reviews: 235,
+    views: 7408,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7313,11 +7347,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0987",
+    id: "PI-0199",
     slug: "el-corte-ingles-el-corte-ingles-tailored-knit-sweater",
     name: "El Corte Ingles Tailored Knit Sweater",
     brand: "el-corte-ingles",
@@ -7334,9 +7367,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.9,
-    reviews: 219,
-    views: 1608,
+    rating: 3.8,
+    reviews: 216,
+    views: 371,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7348,11 +7382,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0988",
+    id: "PI-0200",
     slug: "el-corte-ingles-el-corte-ingles-classic-trench-coat",
     name: "El Corte Ingles Classic Trench Coat",
     brand: "el-corte-ingles",
@@ -7364,12 +7397,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 4.4,
-    reviews: 66,
-    views: 5529,
+    rating: 4.3,
+    reviews: 233,
+    views: 3156,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7381,11 +7415,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0989",
+    id: "PI-0201",
     slug: "el-corte-ingles-el-corte-ingles-relaxed-midi-dress",
     name: "El Corte Ingles Relaxed Midi Dress",
     brand: "el-corte-ingles",
@@ -7400,9 +7433,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4.9,
-    reviews: 85,
-    views: 126,
+    rating: 4.8,
+    reviews: 52,
+    views: 5151,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7414,11 +7448,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0990",
+    id: "PI-0202",
     slug: "el-corte-ingles-el-corte-ingles-slim-fit-blazer",
     name: "El Corte Ingles Slim Fit Blazer",
     brand: "el-corte-ingles",
@@ -7433,9 +7466,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.5,
-    reviews: 123,
-    views: 4832,
+    rating: 4.7,
+    reviews: 195,
+    views: 6450,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7447,11 +7481,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0991",
+    id: "PI-0203",
     slug: "el-corte-ingles-el-corte-ingles-oversized-shirt-dress",
     name: "El Corte Ingles Oversized Shirt Dress",
     brand: "el-corte-ingles",
@@ -7463,12 +7496,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 4,
-    reviews: 104,
-    views: 4845,
+    rating: 3.8,
+    reviews: 214,
+    views: 7193,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7480,11 +7514,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0992",
+    id: "PI-0204",
     slug: "el-corte-ingles-el-corte-ingles-tailored-denim-jacket",
     name: "El Corte Ingles Tailored Denim Jacket",
     brand: "el-corte-ingles",
@@ -7501,9 +7534,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 4.1,
-    reviews: 161,
-    views: 4222,
+    rating: 4.9,
+    reviews: 109,
+    views: 4384,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7515,11 +7549,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0993",
+    id: "PI-0205",
     slug: "el-corte-ingles-el-corte-ingles-classic-knit-sweater",
     name: "El Corte Ingles Classic Knit Sweater",
     brand: "el-corte-ingles",
@@ -7534,9 +7567,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 3.6,
-    reviews: 142,
-    views: 5555,
+    rating: 4,
+    reviews: 128,
+    views: 8029,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7548,11 +7582,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0994",
+    id: "PI-0206",
     slug: "el-corte-ingles-el-corte-ingles-relaxed-trench-coat",
     name: "El Corte Ingles Relaxed Trench Coat",
     brand: "el-corte-ingles",
@@ -7564,12 +7597,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 3.7,
-    reviews: 199,
-    views: 268,
+    rating: 3.9,
+    reviews: 71,
+    views: 7406,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7581,11 +7615,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0995",
+    id: "PI-0207",
     slug: "el-corte-ingles-el-corte-ingles-slim-fit-midi-dress",
     name: "El Corte Ingles Slim Fit Midi Dress",
     brand: "el-corte-ingles",
@@ -7600,9 +7633,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.6,
-    reviews: 180,
-    views: 7585,
+    rating: 4.4,
+    reviews: 90,
+    views: 5517,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7614,11 +7648,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0996",
+    id: "PI-0208",
     slug: "el-corte-ingles-el-corte-ingles-oversized-blazer",
     name: "El Corte Ingles Oversized Blazer",
     brand: "el-corte-ingles",
@@ -7633,9 +7666,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.7,
-    reviews: 237,
-    views: 7426,
+    rating: 4.1,
+    reviews: 185,
+    views: 4388,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7647,11 +7681,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0997",
+    id: "PI-0209",
     slug: "el-corte-ingles-el-corte-ingles-tailored-shirt-dress",
     name: "El Corte Ingles Tailored Shirt Dress",
     brand: "el-corte-ingles",
@@ -7665,12 +7698,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 4.2,
-    reviews: 218,
-    views: 3273,
+    rating: 4.6,
+    reviews: 204,
+    views: 5513,
+    newIn: false,
     offers: [
       {
         store: "el-corte-ingles-store",
@@ -7682,11 +7716,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0998",
+    id: "PI-0210",
     slug: "primeriti-primeriti-signature-shoulder-bag",
     name: "Primeriti Signature Shoulder Bag",
     brand: "primeriti",
@@ -7698,12 +7731,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.7,
-    reviews: 171,
-    views: 6456,
+    rating: 3.8,
+    reviews: 102,
+    views: 4509,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7715,11 +7749,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0999",
+    id: "PI-0211",
     slug: "primeriti-primeriti-monogram-silk-scarf",
     name: "Primeriti Monogram Silk Scarf",
     brand: "primeriti",
@@ -7734,9 +7767,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.2,
-    reviews: 152,
-    views: 1893,
+    rating: 4.3,
+    reviews: 121,
+    views: 3218,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7748,11 +7782,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1000",
+    id: "PI-0212",
     slug: "primeriti-primeriti-limited-edition-leather-loafers",
     name: "Primeriti Limited Edition Leather Loafers",
     brand: "primeriti",
@@ -7764,12 +7797,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4,
-    reviews: 68,
-    views: 247,
+    rating: 4.2,
+    reviews: 64,
+    views: 3533,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7781,11 +7815,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1001",
+    id: "PI-0213",
     slug: "primeriti-primeriti-runway-sunglasses",
     name: "Primeriti Runway Sunglasses",
     brand: "primeriti",
@@ -7797,12 +7830,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.5,
-    reviews: 87,
-    views: 2164,
+    rating: 4.7,
+    reviews: 83,
+    views: 5936,
+    newIn: true,
     offers: [
       {
         store: "primeriti-store",
@@ -7814,11 +7848,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1002",
+    id: "PI-0214",
     slug: "primeriti-primeriti-heritage-wool-coat",
     name: "Primeriti Heritage Wool Coat",
     brand: "primeriti",
@@ -7830,12 +7863,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.6,
-    reviews: 106,
-    views: 5407,
+    rating: 4.4,
+    reviews: 178,
+    views: 7815,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7847,11 +7881,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1003",
+    id: "PI-0215",
     slug: "primeriti-primeriti-signature-tote",
     name: "Primeriti Signature Tote",
     brand: "primeriti",
@@ -7863,12 +7896,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.1,
-    reviews: 125,
-    views: 7606,
+    rating: 4.9,
+    reviews: 197,
+    views: 3342,
+    newIn: true,
     offers: [
       {
         store: "primeriti-store",
@@ -7880,11 +7914,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1004",
+    id: "PI-0216",
     slug: "primeriti-primeriti-monogram-shoulder-bag",
     name: "Primeriti Monogram Shoulder Bag",
     brand: "primeriti",
@@ -7896,12 +7929,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
     rating: 4.8,
-    reviews: 192,
-    views: 5931,
+    reviews: 140,
+    views: 2479,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7913,11 +7947,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1005",
+    id: "PI-0217",
     slug: "primeriti-primeriti-limited-edition-silk-scarf",
     name: "Primeriti Limited Edition Silk Scarf",
     brand: "primeriti",
@@ -7933,8 +7966,9 @@ export const generatedProducts: Product[] = [
       "accessories"
     ],
     rating: 3.9,
-    reviews: 211,
-    views: 7192,
+    reviews: 159,
+    views: 2692,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7946,11 +7980,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1006",
+    id: "PI-0218",
     slug: "primeriti-primeriti-runway-leather-loafers",
     name: "Primeriti Runway Leather Loafers",
     brand: "primeriti",
@@ -7962,12 +7995,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.4,
-    reviews: 230,
-    views: 3781,
+    rating: 4,
+    reviews: 150,
+    views: 5573,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -7979,11 +8013,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1007",
+    id: "PI-0219",
     slug: "primeriti-primeriti-heritage-sunglasses",
     name: "Primeriti Heritage Sunglasses",
     brand: "primeriti",
@@ -7995,12 +8028,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
-    rating: 4.9,
-    reviews: 49,
-    views: 2742,
+    rating: 4.5,
+    reviews: 169,
+    views: 6586,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8012,11 +8046,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1008",
+    id: "PI-0220",
     slug: "primeriti-primeriti-signature-wool-coat",
     name: "Primeriti Signature Wool Coat",
     brand: "primeriti",
@@ -8028,12 +8061,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 3.8,
-    reviews: 220,
-    views: 6849,
+    rating: 3.9,
+    reviews: 93,
+    views: 4166,
+    newIn: true,
     offers: [
       {
         store: "primeriti-store",
@@ -8045,11 +8079,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1009",
+    id: "PI-0221",
     slug: "primeriti-primeriti-monogram-tote",
     name: "Primeriti Monogram Tote",
     brand: "primeriti",
@@ -8061,12 +8094,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 4.3,
-    reviews: 239,
-    views: 4484,
+    rating: 4.8,
+    reviews: 74,
+    views: 7073,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8078,11 +8112,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1010",
+    id: "PI-0222",
     slug: "primeriti-primeriti-limited-edition-shoulder-bag",
     name: "Primeriti Limited Edition Shoulder Bag",
     brand: "primeriti",
@@ -8094,12 +8127,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.1,
-    reviews: 67,
-    views: 6758,
+    rating: 4.3,
+    reviews: 55,
+    views: 2156,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8111,11 +8145,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1011",
+    id: "PI-0223",
     slug: "primeriti-primeriti-runway-silk-scarf",
     name: "Primeriti Runway Silk Scarf",
     brand: "primeriti",
@@ -8130,9 +8163,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.6,
-    reviews: 86,
-    views: 3457,
+    rating: 3.8,
+    reviews: 236,
+    views: 5639,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8144,11 +8178,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1012",
+    id: "PI-0224",
     slug: "primeriti-primeriti-heritage-leather-loafers",
     name: "Primeriti Heritage Leather Loafers",
     brand: "primeriti",
@@ -8160,12 +8193,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 3.7,
-    reviews: 105,
-    views: 4940,
+    rating: 4.7,
+    reviews: 217,
+    views: 3658,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8177,11 +8211,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1013",
+    id: "PI-0225",
     slug: "primeriti-primeriti-signature-sunglasses",
     name: "Primeriti Signature Sunglasses",
     brand: "primeriti",
@@ -8193,12 +8226,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
     rating: 4.2,
-    reviews: 124,
-    views: 935,
+    reviews: 198,
+    views: 7131,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8210,11 +8244,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1014",
+    id: "PI-0226",
     slug: "primeriti-primeriti-monogram-wool-coat",
     name: "Primeriti Monogram Wool Coat",
     brand: "primeriti",
@@ -8226,12 +8259,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.7,
-    reviews: 143,
-    views: 6250,
+    rating: 3.7,
+    reviews: 179,
+    views: 3400,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8243,11 +8277,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1015",
+    id: "PI-0227",
     slug: "primeriti-primeriti-limited-edition-tote",
     name: "Primeriti Limited Edition Tote",
     brand: "primeriti",
@@ -8259,12 +8292,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 3.8,
-    reviews: 162,
-    views: 7291,
+    rating: 4.6,
+    reviews: 160,
+    views: 1589,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8276,11 +8310,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1016",
+    id: "PI-0228",
     slug: "primeriti-primeriti-runway-shoulder-bag",
     name: "Primeriti Runway Shoulder Bag",
     brand: "primeriti",
@@ -8292,12 +8325,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 4.3,
-    reviews: 181,
-    views: 1480,
+    rating: 3.7,
+    reviews: 45,
+    views: 8030,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8309,11 +8343,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1017",
+    id: "PI-0229",
     slug: "primeriti-primeriti-heritage-silk-scarf",
     name: "Primeriti Heritage Silk Scarf",
     brand: "primeriti",
@@ -8328,9 +8361,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.8,
-    reviews: 200,
-    views: 6293,
+    rating: 4.6,
+    reviews: 226,
+    views: 185,
+    newIn: false,
     offers: [
       {
         store: "primeriti-store",
@@ -8342,11 +8376,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1018",
+    id: "PI-0230",
     slug: "farfetch-farfetch-signature-shoulder-bag",
     name: "Farfetch Signature Shoulder Bag",
     brand: "farfetch",
@@ -8358,12 +8391,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.3,
-    reviews: 115,
-    views: 7998,
+    rating: 4,
+    reviews: 84,
+    views: 1495,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8375,11 +8409,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1019",
+    id: "PI-0231",
     slug: "farfetch-farfetch-monogram-silk-scarf",
     name: "Farfetch Monogram Silk Scarf",
     brand: "farfetch",
@@ -8394,9 +8427,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.8,
-    reviews: 134,
-    views: 5401,
+    rating: 4.5,
+    reviews: 103,
+    views: 4124,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8408,11 +8442,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1020",
+    id: "PI-0232",
     slug: "farfetch-farfetch-limited-edition-leather-loafers",
     name: "Farfetch Limited Edition Leather Loafers",
     brand: "farfetch",
@@ -8424,12 +8457,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.2,
-    reviews: 58,
-    views: 2557,
+    rating: 3.6,
+    reviews: 122,
+    views: 497,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8441,11 +8475,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1021",
+    id: "PI-0233",
     slug: "farfetch-farfetch-runway-sunglasses",
     name: "Farfetch Runway Sunglasses",
     brand: "farfetch",
@@ -8457,12 +8490,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 3.7,
-    reviews: 239,
-    views: 4350,
+    rating: 4.1,
+    reviews: 141,
+    views: 6682,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8474,11 +8508,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1022",
+    id: "PI-0234",
     slug: "farfetch-farfetch-heritage-wool-coat",
     name: "Farfetch Heritage Wool Coat",
     brand: "farfetch",
@@ -8490,12 +8523,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
     rating: 3.8,
-    reviews: 96,
-    views: 4973,
+    reviews: 72,
+    views: 5733,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8507,11 +8541,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1023",
+    id: "PI-0235",
     slug: "farfetch-farfetch-signature-tote",
     name: "Farfetch Signature Tote",
     brand: "farfetch",
@@ -8523,12 +8556,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
     rating: 4.7,
-    reviews: 77,
-    views: 4960,
+    reviews: 53,
+    views: 7544,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8540,11 +8574,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1024",
+    id: "PI-0236",
     slug: "farfetch-farfetch-monogram-shoulder-bag",
     name: "Farfetch Monogram Shoulder Bag",
     brand: "farfetch",
@@ -8556,12 +8589,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 3.6,
-    reviews: 182,
-    views: 3145,
+    rating: 4.2,
+    reviews: 234,
+    views: 3339,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8573,11 +8607,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1025",
+    id: "PI-0237",
     slug: "farfetch-farfetch-limited-edition-silk-scarf",
     name: "Farfetch Limited Edition Silk Scarf",
     brand: "farfetch",
@@ -8592,9 +8625,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.5,
-    reviews: 163,
-    views: 7554,
+    rating: 4.9,
+    reviews: 65,
+    views: 6618,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8606,11 +8640,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1026",
+    id: "PI-0238",
     slug: "farfetch-farfetch-runway-leather-loafers",
     name: "Farfetch Runway Leather Loafers",
     brand: "farfetch",
@@ -8622,12 +8655,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.6,
-    reviews: 220,
-    views: 7713,
+    rating: 3.8,
+    reviews: 236,
+    views: 2511,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8639,11 +8673,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1027",
+    id: "PI-0239",
     slug: "farfetch-farfetch-heritage-sunglasses",
     name: "Farfetch Heritage Sunglasses",
     brand: "farfetch",
@@ -8655,12 +8688,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
-    rating: 4.1,
-    reviews: 201,
-    views: 140,
+    rating: 4.3,
+    reviews: 55,
+    views: 3084,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8672,11 +8706,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1028",
+    id: "PI-0240",
     slug: "farfetch-farfetch-signature-wool-coat",
     name: "Farfetch Signature Wool Coat",
     brand: "farfetch",
@@ -8688,12 +8721,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4,
-    reviews: 210,
-    views: 485,
+    rating: 4.5,
+    reviews: 205,
+    views: 7144,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8705,11 +8739,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1029",
+    id: "PI-0241",
     slug: "farfetch-farfetch-monogram-tote",
     name: "Farfetch Monogram Tote",
     brand: "farfetch",
@@ -8721,12 +8754,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 4.9,
-    reviews: 191,
-    views: 5782,
+    rating: 3.6,
+    reviews: 224,
+    views: 3355,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8738,11 +8772,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1030",
+    id: "PI-0242",
     slug: "farfetch-farfetch-limited-edition-shoulder-bag",
     name: "Farfetch Limited Edition Shoulder Bag",
     brand: "farfetch",
@@ -8754,12 +8787,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.3,
-    reviews: 49,
-    views: 1652,
+    rating: 4.9,
+    reviews: 167,
+    views: 7146,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8771,11 +8805,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1031",
+    id: "PI-0243",
     slug: "farfetch-farfetch-runway-silk-scarf",
     name: "Farfetch Runway Silk Scarf",
     brand: "farfetch",
@@ -8790,9 +8823,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.8,
-    reviews: 68,
-    views: 7089,
+    rating: 4,
+    reviews: 186,
+    views: 2875,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8804,11 +8838,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1032",
+    id: "PI-0244",
     slug: "farfetch-farfetch-heritage-leather-loafers",
     name: "Farfetch Heritage Leather Loafers",
     brand: "farfetch",
@@ -8820,12 +8853,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.7,
-    reviews: 211,
-    views: 4446,
+    rating: 3.9,
+    reviews: 129,
+    views: 2124,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8837,11 +8871,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1033",
+    id: "PI-0245",
     slug: "farfetch-farfetch-signature-sunglasses",
     name: "Farfetch Signature Sunglasses",
     brand: "farfetch",
@@ -8853,12 +8886,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 3.8,
-    reviews: 230,
-    views: 1463,
+    rating: 4.4,
+    reviews: 148,
+    views: 4617,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8870,11 +8904,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1034",
+    id: "PI-0246",
     slug: "farfetch-farfetch-monogram-wool-coat",
     name: "Farfetch Monogram Wool Coat",
     brand: "farfetch",
@@ -8886,12 +8919,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.9,
-    reviews: 125,
-    views: 2352,
+    rating: 4.3,
+    reviews: 189,
+    views: 3174,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8903,11 +8937,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1035",
+    id: "PI-0247",
     slug: "farfetch-farfetch-limited-edition-tote",
     name: "Farfetch Limited Edition Tote",
     brand: "farfetch",
@@ -8919,12 +8952,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4,
-    reviews: 144,
-    views: 2803,
+    rating: 3.8,
+    reviews: 170,
+    views: 4353,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8936,11 +8970,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1036",
+    id: "PI-0248",
     slug: "farfetch-farfetch-runway-shoulder-bag",
     name: "Farfetch Runway Shoulder Bag",
     brand: "farfetch",
@@ -8952,12 +8985,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
     rating: 3.9,
-    reviews: 87,
-    views: 2062,
+    reviews: 227,
+    views: 5200,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -8969,11 +9003,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1037",
+    id: "PI-0249",
     slug: "farfetch-farfetch-heritage-silk-scarf",
     name: "Farfetch Heritage Silk Scarf",
     brand: "farfetch",
@@ -8988,9 +9021,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.4,
-    reviews: 106,
-    views: 3843,
+    rating: 4.8,
+    reviews: 208,
+    views: 2579,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -9002,11 +9036,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1038",
+    id: "PI-0250",
     slug: "ssense-ssense-signature-shoulder-bag",
     name: "Ssense Signature Shoulder Bag",
     brand: "ssense",
@@ -9018,12 +9051,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.1,
-    reviews: 201,
-    views: 3140,
+    rating: 4.8,
+    reviews: 238,
+    views: 6135,
+    newIn: true,
     offers: [
       {
         store: "ssense-store",
@@ -9035,11 +9069,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1039",
+    id: "PI-0251",
     slug: "ssense-ssense-monogram-silk-scarf",
     name: "Ssense Monogram Silk Scarf",
     brand: "ssense",
@@ -9054,9 +9087,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.6,
-    reviews: 220,
-    views: 903,
+    rating: 4.3,
+    reviews: 219,
+    views: 7774,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9068,11 +9102,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1040",
+    id: "PI-0252",
     slug: "ssense-ssense-limited-edition-leather-loafers",
     name: "Ssense Limited Edition Leather Loafers",
     brand: "ssense",
@@ -9084,12 +9117,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.6,
-    reviews: 72,
-    views: 3197,
+    rating: 4.4,
+    reviews: 76,
+    views: 4479,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9101,11 +9135,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1041",
+    id: "PI-0253",
     slug: "ssense-ssense-runway-sunglasses",
     name: "Ssense Runway Sunglasses",
     brand: "ssense",
@@ -9117,12 +9150,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.1,
-    reviews: 53,
-    views: 7424,
+    rating: 3.9,
+    reviews: 57,
+    views: 6324,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9134,11 +9168,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1042",
+    id: "PI-0254",
     slug: "ssense-ssense-heritage-wool-coat",
     name: "Ssense Heritage Wool Coat",
     brand: "ssense",
@@ -9150,12 +9183,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.6,
-    reviews: 234,
-    views: 5933,
+    rating: 4,
+    reviews: 114,
+    views: 515,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9167,11 +9201,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1043",
+    id: "PI-0255",
     slug: "ssense-ssense-signature-tote",
     name: "Ssense Signature Tote",
     brand: "ssense",
@@ -9183,12 +9216,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.5,
-    reviews: 215,
-    views: 7714,
+    rating: 4.9,
+    reviews: 95,
+    views: 1506,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9200,11 +9234,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1044",
+    id: "PI-0256",
     slug: "ssense-ssense-monogram-shoulder-bag",
     name: "Ssense Monogram Shoulder Bag",
     brand: "ssense",
@@ -9216,12 +9249,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 4,
-    reviews: 196,
-    views: 2687,
+    rating: 3.6,
+    reviews: 152,
+    views: 6131,
+    newIn: true,
     offers: [
       {
         store: "ssense-store",
@@ -9233,11 +9267,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1045",
+    id: "PI-0257",
     slug: "ssense-ssense-limited-edition-silk-scarf",
     name: "Ssense Limited Edition Silk Scarf",
     brand: "ssense",
@@ -9252,9 +9285,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.9,
-    reviews: 177,
-    views: 124,
+    rating: 4.5,
+    reviews: 133,
+    views: 7024,
+    newIn: true,
     offers: [
       {
         store: "ssense-store",
@@ -9266,11 +9300,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1046",
+    id: "PI-0258",
     slug: "ssense-ssense-runway-leather-loafers",
     name: "Ssense Runway Leather Loafers",
     brand: "ssense",
@@ -9282,12 +9315,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.4,
-    reviews: 158,
-    views: 313,
+    rating: 4.6,
+    reviews: 190,
+    views: 5985,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9299,11 +9333,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1047",
+    id: "PI-0259",
     slug: "ssense-ssense-heritage-sunglasses",
     name: "Ssense Heritage Sunglasses",
     brand: "ssense",
@@ -9315,12 +9348,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
-    rating: 3.9,
-    reviews: 139,
-    views: 1554,
+    rating: 4.1,
+    reviews: 171,
+    views: 4806,
+    newIn: true,
     offers: [
       {
         store: "ssense-store",
@@ -9332,11 +9366,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1048",
+    id: "PI-0260",
     slug: "ssense-ssense-signature-wool-coat",
     name: "Ssense Signature Wool Coat",
     brand: "ssense",
@@ -9348,12 +9381,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.4,
-    reviews: 224,
-    views: 1979,
+    rating: 4.7,
+    reviews: 47,
+    views: 7218,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9365,11 +9399,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1049",
+    id: "PI-0261",
     slug: "ssense-ssense-monogram-tote",
     name: "Ssense Monogram Tote",
     brand: "ssense",
@@ -9381,12 +9414,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 3.9,
-    reviews: 205,
-    views: 4264,
+    rating: 3.8,
+    reviews: 66,
+    views: 5885,
+    newIn: true,
     offers: [
       {
         store: "ssense-store",
@@ -9398,11 +9432,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1050",
+    id: "PI-0262",
     slug: "ssense-ssense-limited-edition-shoulder-bag",
     name: "Ssense Limited Edition Shoulder Bag",
     brand: "ssense",
@@ -9414,12 +9447,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.7,
-    reviews: 63,
-    views: 5726,
+    rating: 4.3,
+    reviews: 85,
+    views: 6608,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9431,11 +9465,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1051",
+    id: "PI-0263",
     slug: "ssense-ssense-runway-silk-scarf",
     name: "Ssense Runway Silk Scarf",
     brand: "ssense",
@@ -9450,9 +9483,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 3.8,
-    reviews: 82,
-    views: 851,
+    rating: 4.8,
+    reviews: 104,
+    views: 6595,
+    newIn: true,
     offers: [
       {
         store: "ssense-store",
@@ -9464,11 +9498,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1052",
+    id: "PI-0264",
     slug: "ssense-ssense-heritage-leather-loafers",
     name: "Ssense Heritage Leather Loafers",
     brand: "ssense",
@@ -9480,12 +9513,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.3,
-    reviews: 101,
-    views: 128,
+    rating: 4.1,
+    reviews: 171,
+    views: 4226,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9497,11 +9531,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1053",
+    id: "PI-0265",
     slug: "ssense-ssense-signature-sunglasses",
     name: "Ssense Signature Sunglasses",
     brand: "ssense",
@@ -9513,12 +9546,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.8,
-    reviews: 120,
-    views: 2893,
+    rating: 4.6,
+    reviews: 190,
+    views: 6473,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9530,11 +9564,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1054",
+    id: "PI-0266",
     slug: "ssense-ssense-monogram-wool-coat",
     name: "Ssense Monogram Wool Coat",
     brand: "ssense",
@@ -9546,12 +9579,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.1,
-    reviews: 187,
-    views: 8098,
+    rating: 3.7,
+    reviews: 209,
+    views: 3468,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9563,11 +9597,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1055",
+    id: "PI-0267",
     slug: "ssense-ssense-limited-edition-tote",
     name: "Ssense Limited Edition Tote",
     brand: "ssense",
@@ -9579,12 +9612,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.6,
-    reviews: 206,
-    views: 2601,
+    rating: 4.2,
+    reviews: 228,
+    views: 4385,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9596,11 +9630,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1056",
+    id: "PI-0268",
     slug: "ssense-ssense-runway-shoulder-bag",
     name: "Ssense Runway Shoulder Bag",
     brand: "ssense",
@@ -9612,12 +9645,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 3.7,
-    reviews: 225,
-    views: 5892,
+    rating: 4.5,
+    reviews: 199,
+    views: 2454,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9629,11 +9663,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1057",
+    id: "PI-0269",
     slug: "ssense-ssense-heritage-silk-scarf",
     name: "Ssense Heritage Silk Scarf",
     brand: "ssense",
@@ -9648,9 +9681,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.2,
-    reviews: 44,
-    views: 559,
+    rating: 3.6,
+    reviews: 218,
+    views: 3813,
+    newIn: false,
     offers: [
       {
         store: "ssense-store",
@@ -9662,11 +9696,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1058",
+    id: "PI-0270",
     slug: "net-a-porter-net-a-porter-classic-blazer",
     name: "Net A Porter Classic Blazer",
     brand: "net-a-porter",
@@ -9681,9 +9714,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.5,
-    reviews: 215,
-    views: 3130,
+    rating: 4.6,
+    reviews: 56,
+    views: 1747,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9695,11 +9729,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1059",
+    id: "PI-0271",
     slug: "net-a-porter-net-a-porter-relaxed-shirt-dress",
     name: "Net A Porter Relaxed Shirt Dress",
     brand: "net-a-porter",
@@ -9711,12 +9744,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 3.6,
-    reviews: 234,
-    views: 4741,
+    rating: 4.1,
+    reviews: 237,
+    views: 1616,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9728,11 +9762,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1060",
+    id: "PI-0272",
     slug: "net-a-porter-net-a-porter-slim-fit-denim-jacket",
     name: "Net A Porter Slim Fit Denim Jacket",
     brand: "net-a-porter",
@@ -9749,9 +9782,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.8,
-    reviews: 58,
-    views: 4441,
+    rating: 3.6,
+    reviews: 218,
+    views: 483,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9763,11 +9797,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1061",
+    id: "PI-0273",
     slug: "net-a-porter-net-a-porter-oversized-knit-sweater",
     name: "Net A Porter Oversized Knit Sweater",
     brand: "net-a-porter",
@@ -9782,9 +9815,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 3.9,
-    reviews: 77,
-    views: 1202,
+    rating: 4.5,
+    reviews: 199,
+    views: 2370,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9796,11 +9830,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1062",
+    id: "PI-0274",
     slug: "net-a-porter-net-a-porter-tailored-trench-coat",
     name: "Net A Porter Tailored Trench Coat",
     brand: "net-a-porter",
@@ -9814,12 +9847,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 3.8,
-    reviews: 220,
-    views: 1041,
+    rating: 4,
+    reviews: 180,
+    views: 849,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9831,11 +9865,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1063",
+    id: "PI-0275",
     slug: "net-a-porter-net-a-porter-classic-midi-dress",
     name: "Net A Porter Classic Midi Dress",
     brand: "net-a-porter",
@@ -9850,9 +9883,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.3,
-    reviews: 239,
-    views: 5788,
+    rating: 4.9,
+    reviews: 161,
+    views: 6620,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9864,11 +9898,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1064",
+    id: "PI-0276",
     slug: "net-a-porter-net-a-porter-relaxed-blazer",
     name: "Net A Porter Relaxed Blazer",
     brand: "net-a-porter",
@@ -9883,9 +9916,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4.2,
-    reviews: 182,
-    views: 5923,
+    rating: 4.4,
+    reviews: 142,
+    views: 6807,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9897,11 +9931,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1065",
+    id: "PI-0277",
     slug: "net-a-porter-net-a-porter-slim-fit-shirt-dress",
     name: "Net A Porter Slim Fit Shirt Dress",
     brand: "net-a-porter",
@@ -9913,12 +9946,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jeans"
     ],
-    rating: 4.7,
-    reviews: 201,
-    views: 6062,
+    rating: 3.9,
+    reviews: 123,
+    views: 3326,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9930,11 +9964,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1066",
+    id: "PI-0278",
     slug: "net-a-porter-net-a-porter-oversized-denim-jacket",
     name: "Net A Porter Oversized Denim Jacket",
     brand: "net-a-porter",
@@ -9951,9 +9984,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.6,
-    reviews: 144,
-    views: 6803,
+    rating: 4.4,
+    reviews: 208,
+    views: 2965,
+    newIn: true,
     offers: [
       {
         store: "net-a-porter-store",
@@ -9965,11 +9999,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1067",
+    id: "PI-0279",
     slug: "net-a-porter-net-a-porter-tailored-knit-sweater",
     name: "Net A Porter Tailored Knit Sweater",
     brand: "net-a-porter",
@@ -9986,9 +10019,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 3.7,
-    reviews: 163,
-    views: 976,
+    rating: 3.9,
+    reviews: 189,
+    views: 2728,
+    newIn: true,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10000,11 +10034,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1068",
+    id: "PI-0280",
     slug: "net-a-porter-net-a-porter-classic-trench-coat",
     name: "Net A Porter Classic Trench Coat",
     brand: "net-a-porter",
@@ -10016,12 +10049,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 3.6,
-    reviews: 106,
-    views: 577,
+    rating: 4.9,
+    reviews: 79,
+    views: 2044,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10033,11 +10067,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1069",
+    id: "PI-0281",
     slug: "net-a-porter-net-a-porter-relaxed-midi-dress",
     name: "Net A Porter Relaxed Midi Dress",
     brand: "net-a-porter",
@@ -10052,9 +10085,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jackets"
     ],
-    rating: 4.1,
-    reviews: 125,
-    views: 842,
+    rating: 4.4,
+    reviews: 60,
+    views: 3575,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10066,11 +10100,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1070",
+    id: "PI-0282",
     slug: "net-a-porter-net-a-porter-slim-fit-blazer",
     name: "Net A Porter Slim Fit Blazer",
     brand: "net-a-porter",
@@ -10085,9 +10118,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.1,
-    reviews: 59,
-    views: 3048,
+    rating: 4.5,
+    reviews: 117,
+    views: 4602,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10099,11 +10133,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1071",
+    id: "PI-0283",
     slug: "net-a-porter-net-a-porter-oversized-shirt-dress",
     name: "Net A Porter Oversized Shirt Dress",
     brand: "net-a-porter",
@@ -10115,12 +10148,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 3.6,
-    reviews: 40,
-    views: 4859,
+    rating: 4,
+    reviews: 98,
+    views: 2079,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10132,11 +10166,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1072",
+    id: "PI-0284",
     slug: "net-a-porter-net-a-porter-tailored-denim-jacket",
     name: "Net A Porter Tailored Denim Jacket",
     brand: "net-a-porter",
@@ -10153,9 +10186,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sweaters"
     ],
-    rating: 3.7,
-    reviews: 97,
-    views: 5670,
+    rating: 4.3,
+    reviews: 77,
+    views: 2520,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10167,11 +10201,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1073",
+    id: "PI-0285",
     slug: "net-a-porter-net-a-porter-classic-knit-sweater",
     name: "Net A Porter Classic Knit Sweater",
     brand: "net-a-porter",
@@ -10186,9 +10219,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "dresses"
     ],
-    rating: 4.6,
-    reviews: 78,
-    views: 7317,
+    rating: 4.8,
+    reviews: 96,
+    views: 6277,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10200,11 +10234,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1074",
+    id: "PI-0286",
     slug: "net-a-porter-net-a-porter-relaxed-trench-coat",
     name: "Net A Porter Relaxed Trench Coat",
     brand: "net-a-porter",
@@ -10216,12 +10249,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "jackets"
     ],
-    rating: 4.7,
-    reviews: 135,
-    views: 4292,
+    rating: 3.9,
+    reviews: 41,
+    views: 7414,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10233,11 +10267,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1075",
+    id: "PI-0287",
     slug: "net-a-porter-net-a-porter-slim-fit-midi-dress",
     name: "Net A Porter Slim Fit Midi Dress",
     brand: "net-a-porter",
@@ -10252,9 +10285,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "jeans"
     ],
-    rating: 4.2,
-    reviews: 116,
-    views: 3689,
+    rating: 4.8,
+    reviews: 222,
+    views: 427,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10266,11 +10300,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1076",
+    id: "PI-0288",
     slug: "net-a-porter-net-a-porter-oversized-blazer",
     name: "Net A Porter Oversized Blazer",
     brand: "net-a-porter",
@@ -10285,9 +10318,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "shirts"
     ],
-    rating: 4.3,
-    reviews: 173,
-    views: 5162,
+    rating: 4.7,
+    reviews: 231,
+    views: 1156,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10299,11 +10333,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1077",
+    id: "PI-0289",
     slug: "net-a-porter-net-a-porter-tailored-shirt-dress",
     name: "Net A Porter Tailored Shirt Dress",
     brand: "net-a-porter",
@@ -10317,12 +10350,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "mens-clothing",
       "sweaters"
     ],
-    rating: 3.8,
-    reviews: 154,
-    views: 2255,
+    rating: 4.2,
+    reviews: 212,
+    views: 3521,
+    newIn: false,
     offers: [
       {
         store: "net-a-porter-store",
@@ -10334,11 +10368,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1078",
+    id: "PI-0290",
     slug: "mr-porter-mr-porter-slim-fit-denim-jeans",
     name: "Mr Porter Slim Fit Denim Jeans",
     brand: "mr-porter",
@@ -10355,9 +10388,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "shirts"
     ],
-    rating: 3.9,
-    reviews: 211,
-    views: 6464,
+    rating: 3.6,
+    reviews: 210,
+    views: 2645,
+    newIn: false,
     offers: [
       {
         store: "mr-porter-store",
@@ -10409,11 +10443,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1079",
+    id: "PI-0291",
     slug: "mr-porter-mr-porter-classic-oxford-shirt",
     name: "Mr Porter Classic Oxford Shirt",
     brand: "mr-porter",
@@ -10428,9 +10461,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jeans"
     ],
-    rating: 4.8,
-    reviews: 192,
-    views: 6707,
+    rating: 4.5,
+    reviews: 191,
+    views: 2342,
+    newIn: false,
     offers: [
       {
         store: "mr-porter-store",
@@ -10482,11 +10516,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1080",
+    id: "PI-0292",
     slug: "mr-porter-mr-porter-relaxed-chino-trousers",
     name: "Mr Porter Relaxed Chino Trousers",
     brand: "mr-porter",
@@ -10501,9 +10534,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "jackets"
     ],
-    rating: 4.4,
-    reviews: 44,
-    views: 271,
+    rating: 4.6,
+    reviews: 48,
+    views: 187,
+    newIn: false,
     offers: [
       {
         store: "mr-porter-store",
@@ -10555,11 +10589,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1081",
+    id: "PI-0293",
     slug: "mr-porter-mr-porter-tailored-bomber-jacket",
     name: "Mr Porter Tailored Bomber Jacket",
     brand: "mr-porter",
@@ -10576,9 +10609,10 @@ export const generatedProducts: Product[] = [
       "mens-clothing",
       "chinos"
     ],
-    rating: 4.9,
-    reviews: 63,
-    views: 844,
+    rating: 4.1,
+    reviews: 229,
+    views: 6376,
+    newIn: false,
     offers: [
       {
         store: "mr-porter-store",
@@ -10630,11 +10664,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1082",
+    id: "PI-0294",
     slug: "mytheresa-mytheresa-signature-shoulder-bag",
     name: "Mytheresa Signature Shoulder Bag",
     brand: "mytheresa",
@@ -10646,12 +10679,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4,
-    reviews: 82,
-    views: 4967,
+    rating: 4.2,
+    reviews: 146,
+    views: 6927,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10663,11 +10697,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1083",
+    id: "PI-0295",
     slug: "mytheresa-mytheresa-monogram-silk-scarf",
     name: "Mytheresa Monogram Silk Scarf",
     brand: "mytheresa",
@@ -10682,9 +10715,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.5,
-    reviews: 101,
-    views: 5806,
+    rating: 4.7,
+    reviews: 165,
+    views: 1834,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10696,11 +10730,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1084",
+    id: "PI-0296",
     slug: "mytheresa-mytheresa-limited-edition-leather-loafers",
     name: "Mytheresa Limited Edition Leather Loafers",
     brand: "mytheresa",
@@ -10712,12 +10745,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 3.8,
-    reviews: 168,
-    views: 2989,
+    rating: 4,
+    reviews: 172,
+    views: 361,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10729,11 +10763,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1085",
+    id: "PI-0297",
     slug: "mytheresa-mytheresa-runway-sunglasses",
     name: "Mytheresa Runway Sunglasses",
     brand: "mytheresa",
@@ -10745,12 +10778,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.3,
-    reviews: 187,
-    views: 2976,
+    rating: 3.7,
+    reviews: 127,
+    views: 7620,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10762,11 +10796,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1086",
+    id: "PI-0298",
     slug: "mytheresa-mytheresa-heritage-wool-coat",
     name: "Mytheresa Heritage Wool Coat",
     brand: "mytheresa",
@@ -10778,12 +10811,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
     rating: 4.8,
-    reviews: 206,
-    views: 4403,
+    reviews: 222,
+    views: 749,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10795,11 +10829,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1087",
+    id: "PI-0299",
     slug: "mytheresa-mytheresa-signature-tote",
     name: "Mytheresa Signature Tote",
     brand: "mytheresa",
@@ -10811,12 +10844,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
     rating: 3.9,
-    reviews: 225,
-    views: 5234,
+    reviews: 41,
+    views: 4302,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10828,11 +10862,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1088",
+    id: "PI-0300",
     slug: "mytheresa-mytheresa-monogram-shoulder-bag",
     name: "Mytheresa Monogram Shoulder Bag",
     brand: "mytheresa",
@@ -10844,12 +10877,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 4.6,
-    reviews: 92,
-    views: 281,
+    rating: 3.6,
+    reviews: 236,
+    views: 7975,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10861,11 +10895,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1089",
+    id: "PI-0301",
     slug: "mytheresa-mytheresa-limited-edition-silk-scarf",
     name: "Mytheresa Limited Edition Silk Scarf",
     brand: "mytheresa",
@@ -10880,9 +10913,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 3.7,
-    reviews: 111,
-    views: 6364,
+    rating: 4.1,
+    reviews: 55,
+    views: 5900,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10894,11 +10928,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1090",
+    id: "PI-0302",
     slug: "mytheresa-mytheresa-runway-leather-loafers",
     name: "Mytheresa Runway Leather Loafers",
     brand: "mytheresa",
@@ -10910,12 +10943,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.3,
-    reviews: 53,
-    views: 1746,
+    rating: 4.6,
+    reviews: 74,
+    views: 2497,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10927,11 +10961,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1091",
+    id: "PI-0303",
     slug: "mytheresa-mytheresa-heritage-sunglasses",
     name: "Mytheresa Heritage Sunglasses",
     brand: "mytheresa",
@@ -10943,12 +10976,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
-    rating: 3.8,
-    reviews: 234,
-    views: 1591,
+    rating: 3.7,
+    reviews: 93,
+    views: 5798,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10960,11 +10994,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1092",
+    id: "PI-0304",
     slug: "mytheresa-mytheresa-signature-wool-coat",
     name: "Mytheresa Signature Wool Coat",
     brand: "mytheresa",
@@ -10976,12 +11009,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.7,
-    reviews: 215,
-    views: 1076,
+    rating: 4.4,
+    reviews: 160,
+    views: 7253,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -10993,11 +11027,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1093",
+    id: "PI-0305",
     slug: "mytheresa-mytheresa-monogram-tote",
     name: "Mytheresa Monogram Tote",
     brand: "mytheresa",
@@ -11009,12 +11042,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 4.2,
-    reviews: 196,
-    views: 5951,
+    rating: 4.9,
+    reviews: 179,
+    views: 520,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11026,11 +11060,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1094",
+    id: "PI-0306",
     slug: "mytheresa-mytheresa-limited-edition-shoulder-bag",
     name: "Mytheresa Limited Edition Shoulder Bag",
     brand: "mytheresa",
@@ -11042,12 +11075,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 3.7,
-    reviews: 177,
-    views: 8078,
+    rating: 4,
+    reviews: 198,
+    views: 251,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11059,11 +11093,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1095",
+    id: "PI-0307",
     slug: "mytheresa-mytheresa-runway-silk-scarf",
     name: "Mytheresa Runway Silk Scarf",
     brand: "mytheresa",
@@ -11078,9 +11111,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.6,
-    reviews: 158,
-    views: 4973,
+    rating: 4.5,
+    reviews: 217,
+    views: 5290,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11092,11 +11126,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1096",
+    id: "PI-0308",
     slug: "mytheresa-mytheresa-heritage-leather-loafers",
     name: "Mytheresa Heritage Leather Loafers",
     brand: "mytheresa",
@@ -11108,12 +11141,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.1,
-    reviews: 139,
-    views: 6016,
+    rating: 4.8,
+    reviews: 188,
+    views: 5137,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11125,11 +11159,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1097",
+    id: "PI-0309",
     slug: "mytheresa-mytheresa-signature-sunglasses",
     name: "Mytheresa Signature Sunglasses",
     brand: "mytheresa",
@@ -11141,12 +11174,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 3.6,
-    reviews: 120,
-    views: 6259,
+    rating: 3.9,
+    reviews: 207,
+    views: 2332,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11158,11 +11192,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1098",
+    id: "PI-0310",
     slug: "mytheresa-mytheresa-monogram-wool-coat",
     name: "Mytheresa Monogram Wool Coat",
     brand: "mytheresa",
@@ -11174,12 +11207,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.5,
-    reviews: 101,
-    views: 5610,
+    rating: 4.9,
+    reviews: 45,
+    views: 534,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11191,11 +11225,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1099",
+    id: "PI-0311",
     slug: "mytheresa-mytheresa-limited-edition-tote",
     name: "Mytheresa Limited Edition Tote",
     brand: "mytheresa",
@@ -11207,12 +11240,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4,
-    reviews: 82,
-    views: 2703,
+    rating: 4.4,
+    reviews: 226,
+    views: 5553,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11224,11 +11258,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1100",
+    id: "PI-0312",
     slug: "mytheresa-mytheresa-runway-shoulder-bag",
     name: "Mytheresa Runway Shoulder Bag",
     brand: "mytheresa",
@@ -11240,12 +11273,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
     rating: 3.9,
-    reviews: 201,
-    views: 5804,
+    reviews: 207,
+    views: 3092,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11257,11 +11291,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1101",
+    id: "PI-0313",
     slug: "mytheresa-mytheresa-heritage-silk-scarf",
     name: "Mytheresa Heritage Silk Scarf",
     brand: "mytheresa",
@@ -11276,9 +11309,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.4,
-    reviews: 220,
-    views: 3439,
+    rating: 4.8,
+    reviews: 188,
+    views: 1113,
+    newIn: false,
     offers: [
       {
         store: "mytheresa-store",
@@ -11290,11 +11324,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1102",
+    id: "PI-0314",
     slug: "luisaviaroma-luisaviaroma-signature-shoulder-bag",
     name: "Luisaviaroma Signature Shoulder Bag",
     brand: "luisaviaroma",
@@ -11306,12 +11339,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
     rating: 4.3,
-    reviews: 163,
-    views: 4302,
+    reviews: 169,
+    views: 6742,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11323,11 +11357,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1103",
+    id: "PI-0315",
     slug: "luisaviaroma-luisaviaroma-monogram-silk-scarf",
     name: "Luisaviaroma Monogram Silk Scarf",
     brand: "luisaviaroma",
@@ -11342,9 +11375,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.8,
-    reviews: 182,
-    views: 6855,
+    rating: 3.8,
+    reviews: 150,
+    views: 7525,
+    newIn: true,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11356,11 +11390,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1104",
+    id: "PI-0316",
     slug: "luisaviaroma-luisaviaroma-limited-edition-leather-loafers",
     name: "Luisaviaroma Limited Edition Leather Loafers",
     brand: "luisaviaroma",
@@ -11372,12 +11405,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.5,
-    reviews: 77,
-    views: 6896,
+    rating: 4.7,
+    reviews: 131,
+    views: 5368,
+    newIn: true,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11389,11 +11423,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1105",
+    id: "PI-0317",
     slug: "luisaviaroma-luisaviaroma-runway-sunglasses",
     name: "Luisaviaroma Runway Sunglasses",
     brand: "luisaviaroma",
@@ -11405,12 +11438,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 3.6,
-    reviews: 96,
-    views: 2573,
+    rating: 4.2,
+    reviews: 112,
+    views: 2981,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11422,11 +11456,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1106",
+    id: "PI-0318",
     slug: "luisaviaroma-luisaviaroma-heritage-wool-coat",
     name: "Luisaviaroma Heritage Wool Coat",
     brand: "luisaviaroma",
@@ -11438,12 +11471,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.9,
-    reviews: 239,
-    views: 4178,
+    rating: 4.7,
+    reviews: 197,
+    views: 514,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11455,11 +11489,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1107",
+    id: "PI-0319",
     slug: "luisaviaroma-luisaviaroma-signature-tote",
     name: "Luisaviaroma Signature Tote",
     brand: "luisaviaroma",
@@ -11471,12 +11504,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4,
-    reviews: 58,
-    views: 5469,
+    rating: 4.2,
+    reviews: 178,
+    views: 2185,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11488,11 +11522,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1108",
+    id: "PI-0320",
     slug: "luisaviaroma-luisaviaroma-monogram-shoulder-bag",
     name: "Luisaviaroma Monogram Shoulder Bag",
     brand: "luisaviaroma",
@@ -11504,12 +11537,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 3.7,
-    reviews: 153,
-    views: 4916,
+    rating: 4.8,
+    reviews: 54,
+    views: 4803,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11521,11 +11555,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1109",
+    id: "PI-0321",
     slug: "luisaviaroma-luisaviaroma-limited-edition-silk-scarf",
     name: "Luisaviaroma Limited Edition Silk Scarf",
     brand: "luisaviaroma",
@@ -11540,9 +11573,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.2,
-    reviews: 172,
-    views: 5241,
+    rating: 3.9,
+    reviews: 73,
+    views: 3022,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11554,11 +11588,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1110",
+    id: "PI-0322",
     slug: "luisaviaroma-luisaviaroma-runway-leather-loafers",
     name: "Luisaviaroma Runway Leather Loafers",
     brand: "luisaviaroma",
@@ -11570,12 +11603,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
     rating: 3.8,
-    reviews: 210,
-    views: 8067,
+    reviews: 216,
+    views: 1843,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11587,11 +11621,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1111",
+    id: "PI-0323",
     slug: "luisaviaroma-luisaviaroma-heritage-sunglasses",
     name: "Luisaviaroma Heritage Sunglasses",
     brand: "luisaviaroma",
@@ -11603,12 +11636,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
-    rating: 4.7,
-    reviews: 191,
-    views: 2658,
+    rating: 4.3,
+    reviews: 235,
+    views: 3312,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11620,11 +11654,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1112",
+    id: "PI-0324",
     slug: "luisaviaroma-luisaviaroma-signature-wool-coat",
     name: "Luisaviaroma Signature Wool Coat",
     brand: "luisaviaroma",
@@ -11636,12 +11669,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.8,
-    reviews: 48,
-    views: 6781,
+    rating: 4,
+    reviews: 130,
+    views: 2423,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11653,11 +11687,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1113",
+    id: "PI-0325",
     slug: "luisaviaroma-luisaviaroma-monogram-tote",
     name: "Luisaviaroma Monogram Tote",
     brand: "luisaviaroma",
@@ -11669,12 +11702,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 4.3,
-    reviews: 229,
-    views: 1216,
+    rating: 4.5,
+    reviews: 149,
+    views: 3486,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11686,11 +11720,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1114",
+    id: "PI-0326",
     slug: "luisaviaroma-luisaviaroma-limited-edition-shoulder-bag",
     name: "Luisaviaroma Limited Edition Shoulder Bag",
     brand: "luisaviaroma",
@@ -11702,12 +11735,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.6,
-    reviews: 134,
-    views: 1145,
+    rating: 4.4,
+    reviews: 92,
+    views: 8049,
+    newIn: true,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11719,11 +11753,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1115",
+    id: "PI-0327",
     slug: "luisaviaroma-luisaviaroma-runway-silk-scarf",
     name: "Luisaviaroma Runway Silk Scarf",
     brand: "luisaviaroma",
@@ -11738,9 +11771,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 4.1,
-    reviews: 115,
-    views: 990,
+    rating: 4.9,
+    reviews: 111,
+    views: 2612,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11752,11 +11786,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1116",
+    id: "PI-0328",
     slug: "luisaviaroma-luisaviaroma-heritage-leather-loafers",
     name: "Luisaviaroma Heritage Leather Loafers",
     brand: "luisaviaroma",
@@ -11768,12 +11801,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.2,
-    reviews: 172,
-    views: 1151,
+    rating: 3.6,
+    reviews: 102,
+    views: 3035,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11785,11 +11819,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1117",
+    id: "PI-0329",
     slug: "luisaviaroma-luisaviaroma-signature-sunglasses",
     name: "Luisaviaroma Signature Sunglasses",
     brand: "luisaviaroma",
@@ -11801,12 +11834,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 3.7,
-    reviews: 153,
-    views: 1660,
+    rating: 4.1,
+    reviews: 121,
+    views: 5962,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11818,11 +11852,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1118",
+    id: "PI-0330",
     slug: "luisaviaroma-luisaviaroma-monogram-wool-coat",
     name: "Luisaviaroma Monogram Wool Coat",
     brand: "luisaviaroma",
@@ -11834,12 +11867,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.6,
-    reviews: 162,
-    views: 6171,
+    rating: 4.7,
+    reviews: 63,
+    views: 388,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11851,11 +11885,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1119",
+    id: "PI-0331",
     slug: "luisaviaroma-luisaviaroma-limited-edition-tote",
     name: "Luisaviaroma Limited Edition Tote",
     brand: "luisaviaroma",
@@ -11867,12 +11900,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.5,
-    reviews: 143,
-    views: 4618,
+    rating: 4.2,
+    reviews: 44,
+    views: 2177,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11884,11 +11918,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1120",
+    id: "PI-0332",
     slug: "luisaviaroma-luisaviaroma-runway-shoulder-bag",
     name: "Luisaviaroma Runway Shoulder Bag",
     brand: "luisaviaroma",
@@ -11900,12 +11933,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 3.7,
-    reviews: 219,
-    views: 5722,
+    rating: 4.3,
+    reviews: 101,
+    views: 4942,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11917,11 +11951,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1121",
+    id: "PI-0333",
     slug: "luisaviaroma-luisaviaroma-heritage-silk-scarf",
     name: "Luisaviaroma Heritage Silk Scarf",
     brand: "luisaviaroma",
@@ -11936,9 +11969,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.2,
-    reviews: 238,
-    views: 1457,
+    rating: 3.8,
+    reviews: 82,
+    views: 135,
+    newIn: false,
     offers: [
       {
         store: "luisaviaroma-store",
@@ -11950,11 +11984,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1122",
+    id: "PI-0334",
     slug: "selfridges-selfridges-signature-shoulder-bag",
     name: "Selfridges Signature Shoulder Bag",
     brand: "selfridges",
@@ -11966,12 +11999,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.7,
-    reviews: 57,
-    views: 3164,
+    rating: 4.1,
+    reviews: 187,
+    views: 4912,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -11983,11 +12017,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1123",
+    id: "PI-0335",
     slug: "selfridges-selfridges-monogram-silk-scarf",
     name: "Selfridges Monogram Silk Scarf",
     brand: "selfridges",
@@ -12002,9 +12035,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 3.8,
-    reviews: 76,
-    views: 2455,
+    rating: 3.6,
+    reviews: 168,
+    views: 2147,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12016,11 +12050,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1124",
+    id: "PI-0336",
     slug: "selfridges-selfridges-limited-edition-leather-loafers",
     name: "Selfridges Limited Edition Leather Loafers",
     brand: "selfridges",
@@ -12032,12 +12065,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.3,
-    reviews: 95,
-    views: 7578,
+    rating: 3.7,
+    reviews: 225,
+    views: 7314,
+    newIn: true,
     offers: [
       {
         store: "selfridges-store",
@@ -12049,11 +12083,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1125",
+    id: "PI-0337",
     slug: "selfridges-selfridges-runway-sunglasses",
     name: "Selfridges Runway Sunglasses",
     brand: "selfridges",
@@ -12065,12 +12098,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.8,
-    reviews: 114,
-    views: 2379,
+    rating: 4.6,
+    reviews: 206,
+    views: 4189,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12082,11 +12116,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1126",
+    id: "PI-0338",
     slug: "selfridges-selfridges-heritage-wool-coat",
     name: "Selfridges Heritage Wool Coat",
     brand: "selfridges",
@@ -12098,12 +12131,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.9,
-    reviews: 133,
-    views: 6584,
+    rating: 4.9,
+    reviews: 111,
+    views: 700,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12115,11 +12149,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1127",
+    id: "PI-0339",
     slug: "selfridges-selfridges-signature-tote",
     name: "Selfridges Signature Tote",
     brand: "selfridges",
@@ -12131,12 +12164,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
     rating: 4.4,
-    reviews: 152,
-    views: 4773,
+    reviews: 92,
+    views: 6201,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12148,11 +12182,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1128",
+    id: "PI-0340",
     slug: "selfridges-selfridges-monogram-shoulder-bag",
     name: "Selfridges Monogram Shoulder Bag",
     brand: "selfridges",
@@ -12164,12 +12197,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 3.9,
-    reviews: 67,
-    views: 7234,
+    rating: 4.4,
+    reviews: 40,
+    views: 3853,
+    newIn: true,
     offers: [
       {
         store: "selfridges-store",
@@ -12181,11 +12215,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1129",
+    id: "PI-0341",
     slug: "selfridges-selfridges-limited-edition-silk-scarf",
     name: "Selfridges Limited Edition Silk Scarf",
     brand: "selfridges",
@@ -12200,9 +12233,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.4,
-    reviews: 86,
-    views: 1767,
+    rating: 4.9,
+    reviews: 59,
+    views: 1088,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12214,11 +12248,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1130",
+    id: "PI-0342",
     slug: "selfridges-selfridges-runway-leather-loafers",
     name: "Selfridges Runway Leather Loafers",
     brand: "selfridges",
@@ -12230,12 +12263,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.6,
-    reviews: 228,
-    views: 3657,
+    rating: 4,
+    reviews: 78,
+    views: 1811,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12247,11 +12281,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1131",
+    id: "PI-0343",
     slug: "selfridges-selfridges-heritage-sunglasses",
     name: "Selfridges Heritage Sunglasses",
     brand: "selfridges",
@@ -12263,12 +12296,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
     rating: 4.5,
-    reviews: 209,
-    views: 1164,
+    reviews: 97,
+    views: 6686,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12280,11 +12314,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1132",
+    id: "PI-0344",
     slug: "selfridges-selfridges-signature-wool-coat",
     name: "Selfridges Signature Wool Coat",
     brand: "selfridges",
@@ -12296,12 +12329,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4,
-    reviews: 190,
-    views: 5313,
+    rating: 3.6,
+    reviews: 116,
+    views: 7599,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12313,11 +12347,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1133",
+    id: "PI-0345",
     slug: "selfridges-selfridges-monogram-tote",
     name: "Selfridges Monogram Tote",
     brand: "selfridges",
@@ -12329,12 +12362,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 4.9,
-    reviews: 171,
-    views: 4134,
+    rating: 4.1,
+    reviews: 135,
+    views: 1388,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12346,11 +12380,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1134",
+    id: "PI-0346",
     slug: "selfridges-selfridges-limited-edition-shoulder-bag",
     name: "Selfridges Limited Edition Shoulder Bag",
     brand: "selfridges",
@@ -12362,12 +12395,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.2,
-    reviews: 104,
-    views: 4315,
+    rating: 4.6,
+    reviews: 154,
+    views: 1641,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12379,11 +12413,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1135",
+    id: "PI-0347",
     slug: "selfridges-selfridges-runway-silk-scarf",
     name: "Selfridges Runway Silk Scarf",
     brand: "selfridges",
@@ -12399,8 +12432,9 @@ export const generatedProducts: Product[] = [
       "ready-to-wear"
     ],
     rating: 3.7,
-    reviews: 85,
-    views: 6184,
+    reviews: 173,
+    views: 1058,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12412,11 +12446,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1136",
+    id: "PI-0348",
     slug: "selfridges-selfridges-heritage-leather-loafers",
     name: "Selfridges Heritage Leather Loafers",
     brand: "selfridges",
@@ -12428,12 +12461,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
     rating: 4.6,
-    reviews: 66,
-    views: 1915,
+    reviews: 88,
+    views: 6635,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12445,11 +12479,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1137",
+    id: "PI-0349",
     slug: "selfridges-selfridges-signature-sunglasses",
     name: "Selfridges Signature Sunglasses",
     brand: "selfridges",
@@ -12461,12 +12494,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.1,
-    reviews: 47,
-    views: 8106,
+    rating: 3.7,
+    reviews: 107,
+    views: 4824,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12478,11 +12512,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1138",
+    id: "PI-0350",
     slug: "selfridges-selfridges-monogram-wool-coat",
     name: "Selfridges Monogram Wool Coat",
     brand: "selfridges",
@@ -12494,12 +12527,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.8,
-    reviews: 76,
-    views: 4305,
+    rating: 3.7,
+    reviews: 95,
+    views: 7022,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12511,11 +12545,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1139",
+    id: "PI-0351",
     slug: "selfridges-selfridges-limited-edition-tote",
     name: "Selfridges Limited Edition Tote",
     brand: "selfridges",
@@ -12527,12 +12560,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.7,
-    reviews: 57,
-    views: 2524,
+    rating: 4.2,
+    reviews: 114,
+    views: 6883,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12544,11 +12578,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1140",
+    id: "PI-0352",
     slug: "selfridges-selfridges-runway-shoulder-bag",
     name: "Selfridges Runway Shoulder Bag",
     brand: "selfridges",
@@ -12560,12 +12593,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 4.5,
-    reviews: 107,
-    views: 2520,
+    rating: 4.7,
+    reviews: 133,
+    views: 1936,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12577,11 +12611,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1141",
+    id: "PI-0353",
     slug: "selfridges-selfridges-heritage-silk-scarf",
     name: "Selfridges Heritage Silk Scarf",
     brand: "selfridges",
@@ -12596,9 +12629,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
-    reviews: 88,
-    views: 4331,
+    rating: 3.8,
+    reviews: 152,
+    views: 5843,
+    newIn: false,
     offers: [
       {
         store: "selfridges-store",
@@ -12610,11 +12644,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1142",
+    id: "PI-0354",
     slug: "harrods-harrods-signature-shoulder-bag",
     name: "Harrods Signature Shoulder Bag",
     brand: "harrods",
@@ -12626,12 +12659,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.1,
-    reviews: 145,
-    views: 7670,
+    rating: 4.5,
+    reviews: 219,
+    views: 2162,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12643,11 +12677,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1143",
+    id: "PI-0355",
     slug: "harrods-harrods-monogram-silk-scarf",
     name: "Harrods Monogram Silk Scarf",
     brand: "harrods",
@@ -12663,8 +12696,9 @@ export const generatedProducts: Product[] = [
       "ready-to-wear"
     ],
     rating: 3.6,
-    reviews: 126,
-    views: 1477,
+    reviews: 238,
+    views: 3481,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12676,11 +12710,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1144",
+    id: "PI-0356",
     slug: "harrods-harrods-limited-edition-leather-loafers",
     name: "Harrods Limited Edition Leather Loafers",
     brand: "harrods",
@@ -12692,12 +12725,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 3.7,
-    reviews: 183,
-    views: 6772,
+    rating: 4.1,
+    reviews: 57,
+    views: 4828,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12709,11 +12743,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1145",
+    id: "PI-0357",
     slug: "harrods-harrods-runway-sunglasses",
     name: "Harrods Runway Sunglasses",
     brand: "harrods",
@@ -12725,12 +12758,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
     rating: 4.6,
-    reviews: 164,
-    views: 1271,
+    reviews: 76,
+    views: 2001,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12742,11 +12776,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1146",
+    id: "PI-0358",
     slug: "harrods-harrods-heritage-wool-coat",
     name: "Harrods Heritage Wool Coat",
     brand: "harrods",
@@ -12758,12 +12791,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4.7,
-    reviews: 221,
-    views: 4214,
+    rating: 4.9,
+    reviews: 47,
+    views: 2410,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12775,11 +12809,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1147",
+    id: "PI-0359",
     slug: "harrods-harrods-signature-tote",
     name: "Harrods Signature Tote",
     brand: "harrods",
@@ -12791,12 +12824,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.2,
-    reviews: 202,
-    views: 5087,
+    rating: 4,
+    reviews: 66,
+    views: 7925,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12808,11 +12842,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1148",
+    id: "PI-0360",
     slug: "harrods-harrods-monogram-shoulder-bag",
     name: "Harrods Monogram Shoulder Bag",
     brand: "harrods",
@@ -12824,12 +12857,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 4.3,
-    reviews: 59,
-    views: 3392,
+    rating: 3.8,
+    reviews: 86,
+    views: 8073,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12841,11 +12875,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1149",
+    id: "PI-0361",
     slug: "harrods-harrods-limited-edition-silk-scarf",
     name: "Harrods Limited Edition Silk Scarf",
     brand: "harrods",
@@ -12860,9 +12893,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 3.8,
-    reviews: 40,
-    views: 2083,
+    rating: 4.7,
+    reviews: 67,
+    views: 4930,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12874,11 +12908,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1150",
+    id: "PI-0362",
     slug: "harrods-harrods-runway-leather-loafers",
     name: "Harrods Runway Leather Loafers",
     brand: "harrods",
@@ -12890,12 +12923,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 3.8,
-    reviews: 106,
-    views: 7433,
+    rating: 4.8,
+    reviews: 124,
+    views: 2465,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12907,11 +12941,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1151",
+    id: "PI-0363",
     slug: "harrods-harrods-heritage-sunglasses",
     name: "Harrods Heritage Sunglasses",
     brand: "harrods",
@@ -12923,12 +12956,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "ready-to-wear"
     ],
     rating: 4.3,
-    reviews: 125,
-    views: 3266,
+    reviews: 105,
+    views: 6348,
+    newIn: true,
     offers: [
       {
         store: "harrods-store",
@@ -12940,11 +12974,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1152",
+    id: "PI-0364",
     slug: "harrods-harrods-signature-wool-coat",
     name: "Harrods Signature Wool Coat",
     brand: "harrods",
@@ -12956,12 +12989,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
-    rating: 4.2,
-    reviews: 68,
-    views: 3425,
+    rating: 4.4,
+    reviews: 162,
+    views: 637,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -12973,11 +13007,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1153",
+    id: "PI-0365",
     slug: "harrods-harrods-monogram-tote",
     name: "Harrods Monogram Tote",
     brand: "harrods",
@@ -12989,12 +13022,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "accessories"
     ],
-    rating: 4.7,
-    reviews: 87,
-    views: 4428,
+    rating: 3.9,
+    reviews: 143,
+    views: 5502,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13006,11 +13040,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1154",
+    id: "PI-0366",
     slug: "harrods-harrods-limited-edition-shoulder-bag",
     name: "Harrods Limited Edition Shoulder Bag",
     brand: "harrods",
@@ -13022,12 +13055,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "handbags"
     ],
-    rating: 4.6,
-    reviews: 230,
-    views: 6845,
+    rating: 4,
+    reviews: 200,
+    views: 2051,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13039,11 +13073,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1155",
+    id: "PI-0367",
     slug: "harrods-harrods-runway-silk-scarf",
     name: "Harrods Runway Silk Scarf",
     brand: "harrods",
@@ -13058,9 +13091,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "ready-to-wear"
     ],
-    rating: 3.7,
-    reviews: 49,
-    views: 178,
+    rating: 4.9,
+    reviews: 181,
+    views: 2064,
+    newIn: true,
     offers: [
       {
         store: "harrods-store",
@@ -13072,11 +13106,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1156",
+    id: "PI-0368",
     slug: "harrods-harrods-heritage-leather-loafers",
     name: "Harrods Heritage Leather Loafers",
     brand: "harrods",
@@ -13088,12 +13121,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "shoes",
       "footwear"
     ],
     rating: 3.6,
-    reviews: 192,
-    views: 7555,
+    reviews: 238,
+    views: 3761,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13105,11 +13139,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1157",
+    id: "PI-0369",
     slug: "harrods-harrods-signature-sunglasses",
     name: "Harrods Signature Sunglasses",
     brand: "harrods",
@@ -13121,12 +13154,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.1,
-    reviews: 211,
-    views: 7568,
+    rating: 4.5,
+    reviews: 219,
+    views: 4118,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13138,11 +13172,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1158",
+    id: "PI-0370",
     slug: "harrods-harrods-monogram-wool-coat",
     name: "Harrods Monogram Wool Coat",
     brand: "harrods",
@@ -13154,12 +13187,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "handbags"
     ],
-    rating: 4,
-    reviews: 154,
-    views: 2801,
+    rating: 4.5,
+    reviews: 85,
+    views: 6232,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13171,11 +13205,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1159",
+    id: "PI-0371",
     slug: "harrods-harrods-limited-edition-tote",
     name: "Harrods Limited Edition Tote",
     brand: "harrods",
@@ -13187,12 +13220,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "bags",
       "ready-to-wear"
     ],
-    rating: 4.5,
-    reviews: 173,
-    views: 1754,
+    rating: 3.6,
+    reviews: 104,
+    views: 4971,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13204,11 +13238,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1160",
+    id: "PI-0372",
     slug: "harrods-harrods-runway-shoulder-bag",
     name: "Harrods Runway Shoulder Bag",
     brand: "harrods",
@@ -13220,12 +13253,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-bags",
       "footwear"
     ],
-    rating: 3.9,
-    reviews: 97,
-    views: 3330,
+    rating: 4.9,
+    reviews: 47,
+    views: 3702,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13237,11 +13271,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1161",
+    id: "PI-0373",
     slug: "harrods-harrods-heritage-silk-scarf",
     name: "Harrods Heritage Silk Scarf",
     brand: "harrods",
@@ -13256,9 +13289,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.8,
-    reviews: 78,
-    views: 8013,
+    rating: 4,
+    reviews: 66,
+    views: 2821,
+    newIn: false,
     offers: [
       {
         store: "harrods-store",
@@ -13270,11 +13304,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1162",
+    id: "PI-0374",
     slug: "samsonite-samsonite-hardshell-suitcase",
     name: "Samsonite Hardshell Suitcase",
     brand: "samsonite",
@@ -13286,12 +13319,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "check-in-luggage"
     ],
-    rating: 4.3,
-    reviews: 59,
-    views: 656,
+    rating: 3.9,
+    reviews: 209,
+    views: 1204,
+    newIn: false,
     offers: [
       {
         store: "samsonite-store",
@@ -13333,11 +13367,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1163",
+    id: "PI-0375",
     slug: "samsonite-samsonite-lightweight-spinner-case",
     name: "Samsonite Lightweight Spinner Case",
     brand: "samsonite",
@@ -13349,12 +13382,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "cabin-luggage"
     ],
-    rating: 3.8,
-    reviews: 40,
-    views: 2707,
+    rating: 4.4,
+    reviews: 228,
+    views: 7287,
+    newIn: false,
     offers: [
       {
         store: "samsonite-store",
@@ -13396,11 +13430,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1164",
+    id: "PI-0376",
     slug: "samsonite-samsonite-expandable-duffel-bag",
     name: "Samsonite Expandable Duffel Bag",
     brand: "samsonite",
@@ -13412,12 +13445,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "travel-packages"
     ],
-    rating: 4.5,
-    reviews: 173,
-    views: 4286,
+    rating: 4.3,
+    reviews: 171,
+    views: 6646,
+    newIn: false,
     offers: [
       {
         store: "samsonite-store",
@@ -13459,15 +13493,14 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1165",
+    id: "PI-0377",
     slug: "samsonite-samsonite-all-inclusive-getaway-package",
     name: "Samsonite All-Inclusive Getaway Package",
     brand: "samsonite",
-    category: "lifestyle-accessories",
+    category: "bags",
     subcategory: "Backpacks",
     gender: "unisex",
     description: "Samsonite Samsonite All-Inclusive Getaway Package — backpacks tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13475,12 +13508,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "bags",
       "backpacks"
     ],
-    rating: 4,
-    reviews: 154,
-    views: 1689,
+    rating: 4.8,
+    reviews: 190,
+    views: 6367,
+    newIn: false,
     offers: [
       {
         store: "samsonite-store",
@@ -13522,11 +13556,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1166",
+    id: "PI-0378",
     slug: "samsonite-samsonite-3-night-hotel-booking",
     name: "Samsonite 3-Night Hotel Booking",
     brand: "samsonite",
@@ -13538,12 +13571,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "check-in-luggage"
     ],
-    rating: 4.9,
-    reviews: 135,
-    views: 7580,
+    rating: 4.7,
+    reviews: 133,
+    views: 4352,
+    newIn: true,
     offers: [
       {
         store: "samsonite-store",
@@ -13585,11 +13619,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1167",
+    id: "PI-0379",
     slug: "tumi-tumi-hardshell-suitcase",
     name: "Tumi Hardshell Suitcase",
     brand: "tumi",
@@ -13601,12 +13634,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "check-in-luggage"
     ],
-    rating: 4.4,
-    reviews: 116,
-    views: 7889,
+    rating: 3.8,
+    reviews: 152,
+    views: 6285,
+    newIn: false,
     offers: [
       {
         store: "tumi-store",
@@ -13648,11 +13682,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1168",
+    id: "PI-0380",
     slug: "tumi-tumi-lightweight-spinner-case",
     name: "Tumi Lightweight Spinner Case",
     brand: "tumi",
@@ -13664,12 +13697,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "cabin-luggage"
     ],
-    rating: 4.1,
-    reviews: 145,
-    views: 2538,
+    rating: 4.2,
+    reviews: 100,
+    views: 4991,
+    newIn: false,
     offers: [
       {
         store: "tumi-store",
@@ -13711,11 +13745,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1169",
+    id: "PI-0381",
     slug: "tumi-tumi-expandable-duffel-bag",
     name: "Tumi Expandable Duffel Bag",
     brand: "tumi",
@@ -13727,12 +13760,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "travel-packages"
     ],
-    rating: 3.6,
-    reviews: 126,
-    views: 3003,
+    rating: 3.7,
+    reviews: 81,
+    views: 2036,
+    newIn: false,
     offers: [
       {
         store: "tumi-store",
@@ -13774,15 +13808,14 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1170",
+    id: "PI-0382",
     slug: "tumi-tumi-all-inclusive-getaway-package",
     name: "Tumi All-Inclusive Getaway Package",
     brand: "tumi",
-    category: "lifestyle-accessories",
+    category: "bags",
     subcategory: "Backpacks",
     gender: "unisex",
     description: "TUMI Tumi All-Inclusive Getaway Package — backpacks tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
@@ -13790,12 +13823,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "bags",
       "backpacks"
     ],
-    rating: 4.2,
-    reviews: 224,
-    views: 7203,
+    rating: 4.6,
+    reviews: 62,
+    views: 2551,
+    newIn: false,
     offers: [
       {
         store: "tumi-store",
@@ -13837,11 +13871,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1171",
+    id: "PI-0383",
     slug: "tumi-tumi-3-night-hotel-booking",
     name: "Tumi 3-Night Hotel Booking",
     brand: "tumi",
@@ -13853,12 +13886,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "travel",
+      "lifestyle-accessories",
       "check-in-luggage"
     ],
-    rating: 3.7,
-    reviews: 205,
-    views: 7104,
+    rating: 4.1,
+    reviews: 43,
+    views: 2706,
+    newIn: false,
     offers: [
       {
         store: "tumi-store",
@@ -13900,11 +13934,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1172",
+    id: "PI-0384",
     slug: "carters-carters-soft-cotton-onesie-set",
     name: "Carters Soft Cotton Onesie Set",
     brand: "carters",
@@ -13916,12 +13949,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.6,
-    reviews: 186,
-    views: 531,
+    rating: 4.8,
+    reviews: 176,
+    views: 5299,
+    newIn: false,
     offers: [
       {
         store: "carters-store",
@@ -13963,11 +13997,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1173",
+    id: "PI-0385",
     slug: "carters-carters-organic-graphic-tee",
     name: "Carters Organic Graphic Tee",
     brand: "carters",
@@ -13979,12 +14012,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "toddler-clothing"
     ],
-    rating: 4.1,
-    reviews: 167,
-    views: 1822,
+    rating: 4.3,
+    reviews: 157,
+    views: 5056,
+    newIn: false,
     offers: [
       {
         store: "carters-store",
@@ -14026,11 +14060,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1174",
+    id: "PI-0386",
     slug: "carters-carters-printed-sneakers",
     name: "Carters Printed Sneakers",
     brand: "carters",
@@ -14042,12 +14075,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-shoes",
       "kids-shoes"
     ],
-    rating: 3.6,
-    reviews: 148,
-    views: 2561,
+    rating: 3.8,
+    reviews: 138,
+    views: 4013,
+    newIn: false,
     offers: [
       {
         store: "carters-store",
@@ -14089,11 +14123,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1175",
+    id: "PI-0387",
     slug: "carters-carters-everyday-pajama-set",
     name: "Carters Everyday Pajama Set",
     brand: "carters",
@@ -14105,12 +14138,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "sleepwear"
     ],
-    rating: 4.5,
-    reviews: 129,
-    views: 196,
+    rating: 4.7,
+    reviews: 119,
+    views: 1038,
+    newIn: false,
     offers: [
       {
         store: "carters-store",
@@ -14152,11 +14186,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1176",
+    id: "PI-0388",
     slug: "carters-carters-cozy-denim-overalls",
     name: "Carters Cozy Denim Overalls",
     brand: "carters",
@@ -14170,12 +14203,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
     rating: 4,
-    reviews: 110,
-    views: 2921,
+    reviews: 52,
+    views: 5097,
+    newIn: false,
     offers: [
       {
         store: "carters-store",
@@ -14217,11 +14251,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1177",
+    id: "PI-0389",
     slug: "oshkosh-bgosh-oshkosh-bgosh-soft-cotton-onesie-set",
     name: "Oshkosh Bgosh Soft Cotton Onesie Set",
     brand: "oshkosh-bgosh",
@@ -14233,12 +14266,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
     rating: 4.9,
-    reviews: 91,
-    views: 1698,
+    reviews: 233,
+    views: 2884,
+    newIn: false,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -14280,11 +14314,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1178",
+    id: "PI-0390",
     slug: "oshkosh-bgosh-oshkosh-bgosh-organic-graphic-tee",
     name: "Oshkosh Bgosh Organic Graphic Tee",
     brand: "oshkosh-bgosh",
@@ -14296,12 +14329,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "toddler-clothing"
     ],
-    rating: 4,
-    reviews: 176,
-    views: 5317,
+    rating: 4.3,
+    reviews: 91,
+    views: 142,
+    newIn: false,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -14343,11 +14377,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1179",
+    id: "PI-0391",
     slug: "oshkosh-bgosh-oshkosh-bgosh-printed-sneakers",
     name: "Oshkosh Bgosh Printed Sneakers",
     brand: "oshkosh-bgosh",
@@ -14359,12 +14392,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-shoes",
       "kids-shoes"
     ],
-    rating: 4.9,
-    reviews: 157,
-    views: 3480,
+    rating: 4.8,
+    reviews: 110,
+    views: 5225,
+    newIn: false,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -14406,11 +14440,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1180",
+    id: "PI-0392",
     slug: "oshkosh-bgosh-oshkosh-bgosh-everyday-pajama-set",
     name: "Oshkosh Bgosh Everyday Pajama Set",
     brand: "oshkosh-bgosh",
@@ -14422,12 +14455,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "sleepwear"
     ],
-    rating: 4.1,
-    reviews: 233,
-    views: 580,
+    rating: 3.9,
+    reviews: 129,
+    views: 5892,
+    newIn: false,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -14469,11 +14503,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1181",
+    id: "PI-0393",
     slug: "oshkosh-bgosh-oshkosh-bgosh-cozy-denim-overalls",
     name: "Oshkosh Bgosh Cozy Denim Overalls",
     brand: "oshkosh-bgosh",
@@ -14487,12 +14520,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.6,
-    reviews: 52,
-    views: 7401,
+    rating: 4.4,
+    reviews: 148,
+    views: 257,
+    newIn: true,
     offers: [
       {
         store: "oshkosh-bgosh-store",
@@ -14534,11 +14568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1182",
+    id: "PI-0394",
     slug: "the-childrens-place-the-childrens-place-soft-cotton-onesie-set",
     name: "The Childrens Place Soft Cotton Onesie Set",
     brand: "the-childrens-place",
@@ -14550,12 +14583,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.5,
-    reviews: 195,
-    views: 874,
+    rating: 4.9,
+    reviews: 167,
+    views: 8018,
+    newIn: false,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14597,11 +14631,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1183",
+    id: "PI-0395",
     slug: "the-childrens-place-the-childrens-place-organic-graphic-tee",
     name: "The Childrens Place Organic Graphic Tee",
     brand: "the-childrens-place",
@@ -14613,12 +14646,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "toddler-clothing"
     ],
-    rating: 3.6,
-    reviews: 214,
-    views: 5967,
+    rating: 4,
+    reviews: 186,
+    views: 6227,
+    newIn: false,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14660,11 +14694,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1184",
+    id: "PI-0396",
     slug: "the-childrens-place-the-childrens-place-printed-sneakers",
     name: "The Childrens Place Printed Sneakers",
     brand: "the-childrens-place",
@@ -14676,12 +14709,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-shoes",
       "kids-shoes"
     ],
-    rating: 4.7,
-    reviews: 109,
-    views: 7336,
+    rating: 4.5,
+    reviews: 205,
+    views: 4800,
+    newIn: false,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14723,11 +14757,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1185",
+    id: "PI-0397",
     slug: "the-childrens-place-the-childrens-place-everyday-pajama-set",
     name: "The Childrens Place Everyday Pajama Set",
     brand: "the-childrens-place",
@@ -14739,12 +14772,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "sleepwear"
     ],
-    rating: 3.8,
-    reviews: 128,
-    views: 1147,
+    rating: 3.6,
+    reviews: 224,
+    views: 6733,
+    newIn: false,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14786,11 +14820,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1186",
+    id: "PI-0398",
     slug: "the-childrens-place-the-childrens-place-cozy-denim-overalls",
     name: "The Childrens Place Cozy Denim Overalls",
     brand: "the-childrens-place",
@@ -14804,12 +14837,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.7,
-    reviews: 71,
-    views: 1382,
+    rating: 4.1,
+    reviews: 43,
+    views: 6198,
+    newIn: true,
     offers: [
       {
         store: "the-childrens-place-store",
@@ -14851,11 +14885,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-1187",
+    id: "PI-0399",
     slug: "gap-kids-gap-kids-soft-cotton-onesie-set",
     name: "Gap Kids Soft Cotton Onesie Set",
     brand: "gap-kids",
@@ -14867,12 +14900,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.2,
-    reviews: 90,
-    views: 3605,
+    rating: 4.6,
+    reviews: 62,
+    views: 6815,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -14914,11 +14948,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1188",
+    id: "PI-0400",
     slug: "gap-kids-gap-kids-organic-graphic-tee",
     name: "Gap Kids Organic Graphic Tee",
     brand: "gap-kids",
@@ -14930,12 +14963,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "toddler-clothing"
     ],
-    rating: 4.3,
-    reviews: 81,
-    views: 4340,
+    rating: 3.9,
+    reviews: 201,
+    views: 3730,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -14977,11 +15011,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1189",
+    id: "PI-0401",
     slug: "gap-kids-gap-kids-printed-sneakers",
     name: "Gap Kids Printed Sneakers",
     brand: "gap-kids",
@@ -14993,12 +15026,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-shoes",
       "kids-shoes"
     ],
     rating: 4.8,
-    reviews: 100,
-    views: 2687,
+    reviews: 182,
+    views: 2515,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -15040,11 +15074,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1190",
+    id: "PI-0402",
     slug: "gap-kids-gap-kids-everyday-pajama-set",
     name: "Gap Kids Everyday Pajama Set",
     brand: "gap-kids",
@@ -15056,12 +15089,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "kids-clothing",
       "sleepwear"
     ],
-    rating: 4,
-    reviews: 42,
-    views: 7397,
+    rating: 4.3,
+    reviews: 163,
+    views: 1088,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -15103,11 +15137,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1191",
+    id: "PI-0403",
     slug: "gap-kids-gap-kids-cozy-denim-overalls",
     name: "Gap Kids Cozy Denim Overalls",
     brand: "gap-kids",
@@ -15121,12 +15154,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.9,
-    reviews: 223,
-    views: 6422,
+    rating: 3.8,
+    reviews: 144,
+    views: 3021,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -15168,11 +15202,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1192",
+    id: "PI-0404",
     slug: "hm-kids-hm-kids-soft-cotton-onesie-set",
     name: "Hm Kids Soft Cotton Onesie Set",
     brand: "hm-kids",
@@ -15187,9 +15220,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 3.6,
-    reviews: 80,
-    views: 5003,
+    rating: 4.5,
+    reviews: 77,
+    views: 3854,
+    newIn: false,
     offers: [
       {
         store: "hm-kids-store",
@@ -15231,11 +15265,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1193",
+    id: "PI-0405",
     slug: "hm-kids-hm-kids-organic-graphic-tee",
     name: "Hm Kids Organic Graphic Tee",
     brand: "hm-kids",
@@ -15250,9 +15283,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "toddler-clothing"
     ],
-    rating: 4.5,
-    reviews: 61,
-    views: 3192,
+    rating: 4,
+    reviews: 58,
+    views: 937,
+    newIn: false,
     offers: [
       {
         store: "hm-kids-store",
@@ -15294,11 +15328,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1194",
+    id: "PI-0406",
     slug: "hm-kids-hm-kids-printed-sneakers",
     name: "Hm Kids Printed Sneakers",
     brand: "hm-kids",
@@ -15310,12 +15343,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "shoes",
       "kids-shoes"
     ],
-    rating: 4.8,
-    reviews: 166,
-    views: 4543,
+    rating: 4.9,
+    reviews: 239,
+    views: 2180,
+    newIn: false,
     offers: [
       {
         store: "hm-kids-store",
@@ -15357,11 +15391,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1195",
+    id: "PI-0407",
     slug: "hm-kids-hm-kids-everyday-pajama-set",
     name: "Hm Kids Everyday Pajama Set",
     brand: "hm-kids",
@@ -15376,9 +15409,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "sleepwear"
     ],
-    rating: 4.3,
-    reviews: 147,
-    views: 4054,
+    rating: 4.4,
+    reviews: 220,
+    views: 2991,
+    newIn: false,
     offers: [
       {
         store: "hm-kids-store",
@@ -15420,11 +15454,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-1196",
+    id: "PI-0408",
     slug: "hm-kids-hm-kids-cozy-denim-overalls",
     name: "Hm Kids Cozy Denim Overalls",
     brand: "hm-kids",
@@ -15441,9 +15474,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "baby-clothing"
     ],
-    rating: 4.4,
-    reviews: 204,
-    views: 3545,
+    rating: 4.1,
+    reviews: 49,
+    views: 438,
+    newIn: false,
     offers: [
       {
         store: "hm-kids-store",
@@ -15485,11 +15519,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0409",
     slug: "adidas-pw-adistar-jellyfish-shoes",
     name: "PW Adistar Jellyfish Shoes",
     brand: "adidas",
@@ -15504,9 +15537,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 3.6,
+    reviews: 230,
+    views: 6085,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15518,11 +15552,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0410",
     slug: "adidas-billie-jean-king-shoes",
     name: "Billie Jean King Shoes",
     brand: "adidas",
@@ -15537,9 +15570,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 4,
+    reviews: 192,
+    views: 7229,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15561,11 +15595,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0411",
     slug: "adidas-samba-og-shoes",
     name: "Samba Og Shoes",
     brand: "adidas",
@@ -15580,9 +15613,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    rating: 4.5,
+    reviews: 211,
+    views: 768,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15604,11 +15638,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0412",
     slug: "adidas-samba-jane-shoes",
     name: "Samba Jane Shoes",
     brand: "adidas",
@@ -15623,9 +15656,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 3.6,
+    reviews: 230,
+    views: 7725,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15667,11 +15701,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0413",
     slug: "adidas-handball-spezial-shoes",
     name: "Handball Spezial Shoes",
     brand: "adidas",
@@ -15686,9 +15719,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.1,
+    reviews: 49,
+    views: 5326,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15710,11 +15744,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0414",
     slug: "adidas-campus-00s-shoes",
     name: "Campus 00s Shoes",
     brand: "adidas",
@@ -15729,9 +15762,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-originals"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 4.6,
+    reviews: 68,
+    views: 703,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15753,11 +15787,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0415",
     slug: "adidas-climacool-shoes",
     name: "Climacool Shoes",
     brand: "adidas",
@@ -15772,9 +15805,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sportswear"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 3.7,
+    reviews: 87,
+    views: 6324,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15786,11 +15820,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-0416",
     slug: "adidas-climacool-laced-shoes",
     name: "Climacool Laced Shoes",
     brand: "adidas",
@@ -15805,9 +15838,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sportswear"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    rating: 4.2,
+    reviews: 106,
+    views: 6839,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15819,11 +15853,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-0417",
     slug: "adidas-samba-og-shoes",
     name: "Samba OG Shoes",
     brand: "adidas",
@@ -15838,9 +15871,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 4.7,
+    reviews: 125,
+    views: 6994,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15852,11 +15886,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-0418",
     slug: "adidas-samba-og-shoes-kids",
     name: "Samba OG Shoes Kids",
     brand: "adidas",
@@ -15871,9 +15904,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "youth-originals"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 4.2,
+    reviews: 40,
+    views: 1077,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15885,11 +15919,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-0419",
     slug: "adidas-hyperboost-ephr-shoes",
     name: "Hyperboost Ephr Shoes",
     brand: "adidas",
@@ -15904,9 +15937,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 4.7,
+    reviews: 59,
+    views: 5352,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15928,11 +15962,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-0420",
     slug: "adidas-hyperboost-ephr-lt-shoes",
     name: "Hyperboost Ephr Lt Shoes",
     brand: "adidas",
@@ -15947,9 +15980,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "originals"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 4.9,
+    reviews: 133,
+    views: 7016,
+    newIn: false,
     offers: [
       {
         store: "adidas-store",
@@ -15961,11 +15995,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0421",
     slug: "nike-nike-air-force-1-07",
     name: "Nike Air Force 1 '07",
     brand: "nike",
@@ -15977,12 +16010,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "men-s-shoes"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 4,
+    reviews: 152,
+    views: 4731,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16034,17 +16068,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a42a5d53-2f99-4e78-a081-9d07a2d0774a/AIR+FORCE+1+%2707.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/deec30c7-92b4-46c9-8a7f-39a73eccdffa/AIR+FORCE+1+%2707.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6363d086-10e5-4892-adf0-182acd58d116/AIR+FORCE+1+%2707.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f65792df-0c9a-45a6-a54a-0f5e9ba2396f/AIR+FORCE+1+%2707.png"
     ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0422",
     slug: "nike-nike-zoom-vomero-5",
     name: "Nike Zoom Vomero 5",
     brand: "nike",
@@ -16059,9 +16086,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 3.9,
+    reviews: 95,
+    views: 4326,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16073,17 +16101,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/525c15c8-ff31-4a90-b77f-259e4fecbc96/W+NIKE+ZOOM+VOMERO+5.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6056f431-2fa2-4d3e-9fdc-a83fcc36f32d/W+NIKE+ZOOM+VOMERO+5.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4e029ef7-4b61-493c-a9b4-591fe367cebc/W+NIKE+ZOOM+VOMERO+5.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/017a9453-4c27-47a9-890d-afc27483dc2b/W+NIKE+ZOOM+VOMERO+5.png"
     ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0423",
     slug: "jordan-air-jordan-3-retro-true-blue",
     name: "Air Jordan 3 Retro \"True Blue\"",
     brand: "jordan",
@@ -16100,9 +16121,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    rating: 4.4,
+    reviews: 114,
+    views: 2453,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16114,17 +16136,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88e1020e-4f52-4000-b44c-b421c73b9db1/AIR+JORDAN+3+RETRO+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9f0dd42c-599c-48ad-8698-04a146a5794a/AIR+JORDAN+3+RETRO+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c757495b-affe-430c-a241-96fc1ef17f24/AIR+JORDAN+3+RETRO+OG.png",
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3f1487e6-5ffa-479c-9967-075fe3c9c13f/AIR+JORDAN+3+RETRO+OG.png"
     ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0424",
     slug: "jordan-air-jordan-3-world-s-best",
     name: "Air Jordan 3 \"World's Best\"",
     brand: "jordan",
@@ -16139,9 +16154,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 4.3,
+    reviews: 57,
+    views: 8108,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16153,14 +16169,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png"
     ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0425",
     slug: "nike-nike-p-6000",
     name: "Nike P-6000",
     brand: "nike",
@@ -16172,12 +16184,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.8,
+    reviews: 76,
+    views: 2345,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16269,17 +16282,45 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/mcdrf7uxgwnem8l0sv0q/NIKE+P-6000.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ccmr1ghy91q9q5gfq0qf/NIKE+P-6000.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/jgvui3yzwr9ev3qwjs36/NIKE+P-6000.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/pjlv3ybri5npgoe58vbk/NIKE+P-6000.png"
     ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0426",
+    slug: "asos-design-asos-design-draped-halter-neck-maxi-dress-with-knot-back-detail-in-floral-print",
+    name: "ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print",
+    brand: "asos-design",
+    category: "clothing",
+    subcategory: "Dress",
+    gender: "women",
+    description: "ASOS DESIGN ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "",
+    colors: [
+      "Floral"
+    ],
+    sizes: [],
+    tags: [
+      "clothing",
+      "dress"
+    ],
+    rating: 4.7,
+    reviews: 219,
+    views: 5766,
+    newIn: false,
+    offers: [
+      {
+        store: "asos-store",
+        price: 8299,
+        originalPrice: 8299,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.asos.com/us/asos-design/asos-design-draped-halter-neck-maxi-dress-with-knot-back-detail-in-floral-print/prd/210638152#colourWayId-210638154",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0427",
     slug: "nike-nike-p-6000-fade",
     name: "Nike P-6000 Fade",
     brand: "nike",
@@ -16294,9 +16335,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "men-s-shoes"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 3.8,
+    reviews: 238,
+    views: 591,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16308,17 +16350,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8710354e-ed8a-4a8e-bddb-6bff5caca2cc/NIKE+P-6000.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/17eb5284-f81e-4b40-8471-49d556093f93/NIKE+P-6000.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2ff1cc0f-e7fa-4a7b-9f3b-f5c0f54b90bd/NIKE+P-6000.png",
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0b296a0b-3c73-41b6-b8d5-1b704e091157/NIKE+P-6000.png"
     ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0428",
     slug: "nike-nike-p-6000-se",
     name: "Nike P-6000 SE",
     brand: "nike",
@@ -16330,12 +16365,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 3.7,
+    reviews: 181,
+    views: 2176,
+    newIn: false,
     offers: [
       {
         store: "nike-store",
@@ -16357,14 +16393,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false,
-    images: [
-      "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/47690382-3d0c-4aa4-b968-a4876e5bcf4c/NIKE+P-6000+SE+LOS.png"
     ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0429",
     slug: "asos-design-asos-design-boat-neck-waist-detail-midi-dress-in-chocolate",
     name: "ASOS DESIGN boat neck waist detail midi dress in chocolate",
     brand: "asos-design",
@@ -16378,12 +16410,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 4.2,
+    reviews: 200,
+    views: 445,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16395,11 +16428,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0430",
     slug: "asos-design-asos-design-polka-dot-high-neck-drop-waist-midi-dress-in-lemon-and-brown",
     name: "ASOS DESIGN polka dot high neck drop waist midi dress in lemon and brown",
     brand: "asos-design",
@@ -16413,12 +16445,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 4.2,
+    reviews: 134,
+    views: 7705,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16430,11 +16463,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0431",
     slug: "asos-design-asos-design-maxi-dress-with-draped-skirt-into-scarf-detailing-in-mono-black-and-white",
     name: "ASOS DESIGN maxi dress with draped skirt into scarf detailing in mono black and white",
     brand: "asos-design",
@@ -16448,12 +16480,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    rating: 3.7,
+    reviews: 115,
+    views: 2302,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16465,11 +16498,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0432",
     slug: "asos-design-asos-design-off-the-shoulder-wrap-bodice-detailing-maxi-dress-with-train-in-green",
     name: "ASOS DESIGN off the shoulder wrap bodice detailing maxi dress with train in green",
     brand: "asos-design",
@@ -16483,12 +16515,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 3.8,
+    reviews: 172,
+    views: 5663,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16500,11 +16533,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0433",
     slug: "asos-design-asos-design-mesh-maxi-dress-with-ruching-and-frill-details-in-pink",
     name: "ASOS DESIGN mesh maxi dress with ruching and frill details in pink",
     brand: "asos-design",
@@ -16518,12 +16550,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.7,
+    reviews: 153,
+    views: 5596,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16535,11 +16568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0434",
     slug: "asos-design-asos-design-twist-shoulder-with-lace-up-back-maxi-dress-in-black",
     name: "ASOS DESIGN twist shoulder with lace up back maxi dress in black",
     brand: "asos-design",
@@ -16553,12 +16585,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 4.8,
+    reviews: 210,
+    views: 6029,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16570,11 +16603,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0435",
     slug: "asos-design-asos-design-lace-appliqu-grown-on-sleeve-bias-cut-satin-midi-dress-in-plum",
     name: "ASOS DESIGN lace appliqué grown on sleeve bias cut satin midi dress in plum",
     brand: "asos-design",
@@ -16586,12 +16618,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 4.3,
+    reviews: 191,
+    views: 6894,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16603,11 +16636,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-0436",
     slug: "asos-design-asos-design-cut-out-detail-midaxi-dress-in-mono-polka-dot",
     name: "ASOS DESIGN cut-out detail midaxi dress in mono polka dot",
     brand: "asos-design",
@@ -16619,12 +16651,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    rating: 4.4,
+    reviews: 48,
+    views: 7517,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16636,11 +16669,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-0437",
     slug: "asos-design-asos-design-mesh-long-sleeve-maxi-dress-in-lemon",
     name: "ASOS DESIGN mesh long sleeve maxi dress in lemon",
     brand: "asos-design",
@@ -16652,12 +16684,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dress"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 3.9,
+    reviews: 229,
+    views: 4896,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16669,46 +16702,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
-    slug: "asos-design-asos-design-draped-halter-neck-maxi-dress-with-knot-back-detail-in-floral-print",
-    name: "ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print",
-    brand: "asos-design",
-    category: "clothing",
-    subcategory: "Dress",
-    gender: "women",
-    description: "ASOS DESIGN ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "",
-    colors: [
-      "Floral"
-    ],
-    sizes: [],
-    tags: [
-      "dresses",
-      "dress"
-    ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
-    offers: [
-      {
-        store: "asos-store",
-        price: 8299,
-        originalPrice: 8299,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.asos.com/us/asos-design/asos-design-draped-halter-neck-maxi-dress-with-knot-back-detail-in-floral-print/prd/210638152#colourWayId-210638154",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ],
-    newIn: false
-  },
-  {
-    id: "PI-0011",
+    id: "PI-0438",
     slug: "new-balance-new-balance-740-in-beige-and-brown-exclusive-to-asos",
     name: "New Balance 740 in beige and brown - Exclusive to ASOS",
     brand: "new-balance",
@@ -16725,9 +16722,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 4,
+    reviews: 86,
+    views: 5761,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16739,11 +16737,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-0439",
     slug: "new-balance-new-balance-9060-sneakers-with-ribbon-laces-in-beige-exclusive-to-asos",
     name: "New Balance 9060 sneakers with ribbon laces in beige - Exclusive to ASOS",
     brand: "new-balance",
@@ -16760,9 +16757,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 4.9,
+    reviews: 67,
+    views: 1062,
+    newIn: true,
     offers: [
       {
         store: "asos-store",
@@ -16774,11 +16772,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-0440",
     slug: "new-balance-new-balance-740-sneakers-in-beige-exclusive-to-asos",
     name: "New Balance 740 sneakers in beige - Exclusive to ASOS",
     brand: "new-balance",
@@ -16795,9 +16792,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    rating: 4.5,
+    reviews: 197,
+    views: 6090,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16809,11 +16807,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-0441",
     slug: "nike-nike-v5-rnr-sneakers-in-beige",
     name: "Nike V5 RNR sneakers in beige",
     brand: "nike",
@@ -16830,9 +16827,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 4,
+    reviews: 178,
+    views: 3329,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16844,11 +16842,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-0442",
     slug: "new-balance-new-balance-204l-sneakers-in-brown",
     name: "New Balance 204L sneakers in brown",
     brand: "new-balance",
@@ -16865,9 +16862,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    rating: 4.9,
+    reviews: 159,
+    views: 3148,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16879,11 +16877,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-0443",
     slug: "new-balance-new-balance-530-sneakers-with-ribbon-laces-in-silver-exclusive-to-asos",
     name: "New Balance 530 sneakers with ribbon laces in silver - Exclusive to ASOS",
     brand: "new-balance",
@@ -16900,9 +16897,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    rating: 4.4,
+    reviews: 140,
+    views: 1895,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16914,11 +16912,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-0444",
     slug: "adidas-originals-adidas-originals-samba-x-liberty-og-sneakers-in-burgundy-paisley-print",
     name: "adidas Originals Samba x Liberty OG sneakers in burgundy paisley print",
     brand: "adidas-originals",
@@ -16933,9 +16930,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    rating: 3.9,
+    reviews: 121,
+    views: 2118,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -16947,11 +16945,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-0445",
     slug: "adidas-originals-adidas-originals-samba-og-sneakers-in-navy-and-gray",
     name: "adidas Originals Samba OG sneakers in navy and gray",
     brand: "adidas-originals",
@@ -16968,9 +16965,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 4.8,
+    reviews: 102,
+    views: 3637,
+    newIn: true,
     offers: [
       {
         store: "asos-store",
@@ -16982,11 +16980,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-0446",
     slug: "new-balance-new-balance-530-sneakers-in-cream-and-brown",
     name: "New Balance 530 sneakers in cream and brown",
     brand: "new-balance",
@@ -17003,9 +17000,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    rating: 4.3,
+    reviews: 83,
+    views: 7368,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -17017,11 +17015,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-0447",
     slug: "nike-nike-air-rift-sneakers-in-beige",
     name: "Nike Air Rift sneakers in beige",
     brand: "nike",
@@ -17038,9 +17035,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "sneakers"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 3.8,
+    reviews: 64,
+    views: 2331,
+    newIn: false,
     offers: [
       {
         store: "asos-store",
@@ -17052,11 +17050,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0448",
     slug: "zara-mini-dress-with-pleated-sleeves",
     name: "MINI DRESS WITH PLEATED SLEEVES",
     brand: "zara",
@@ -17068,12 +17065,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 4.3,
+    reviews: 149,
+    views: 6450,
+    newIn: true,
     offers: [
       {
         store: "zara-store",
@@ -17085,11 +17083,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0449",
     slug: "zara-satin-mini-dress",
     name: "SATIN MINI DRESS",
     brand: "zara",
@@ -17101,12 +17098,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 3.8,
+    reviews: 130,
+    views: 7193,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17118,11 +17116,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0450",
     slug: "zara-shoulder-pad-romper",
     name: "SHOULDER PAD ROMPER",
     brand: "zara",
@@ -17134,12 +17131,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
     rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    reviews: 124,
+    views: 7287,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17151,11 +17149,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0451",
     slug: "zara-metallic-effect-cut-out-bodysuit",
     name: "METALLIC EFFECT CUT-OUT BODYSUIT",
     brand: "zara",
@@ -17167,12 +17164,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
     rating: 4.5,
-    reviews: 49,
-    views: 466,
+    reviews: 105,
+    views: 4788,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17184,11 +17182,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0452",
     slug: "zara-metallic-effect-halter-midi-dress",
     name: "METALLIC EFFECT HALTER MIDI DRESS",
     brand: "zara",
@@ -17200,12 +17197,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
     rating: 4,
-    reviews: 230,
-    views: 5341,
+    reviews: 86,
+    views: 7071,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17217,11 +17215,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0453",
     slug: "zara-shoulder-pad-short-jumpsuit",
     name: "SHOULDER PAD SHORT JUMPSUIT",
     brand: "zara",
@@ -17233,12 +17230,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
     rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    reviews: 67,
+    views: 2230,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17250,11 +17248,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0454",
     slug: "zara-shoulder-pad-romper-2",
     name: "SHOULDER PAD ROMPER (2)",
     brand: "zara",
@@ -17266,12 +17263,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 4.2,
+    reviews: 200,
+    views: 2347,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17283,11 +17281,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-0455",
     slug: "zara-shoulder-pad-seam-detail-mini-dress",
     name: "SHOULDER PAD SEAM DETAIL MINI DRESS",
     brand: "zara",
@@ -17299,12 +17296,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    rating: 3.7,
+    reviews: 181,
+    views: 536,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17316,11 +17314,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-0456",
     slug: "zara-animal-print-tulle-dress",
     name: "ANIMAL PRINT TULLE DRESS",
     brand: "zara",
@@ -17332,12 +17329,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 4.6,
+    reviews: 162,
+    views: 7493,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17349,11 +17347,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-0457",
     slug: "zara-satin-effect-midi-halter-dress",
     name: "SATIN EFFECT MIDI HALTER DRESS",
     brand: "zara",
@@ -17365,12 +17362,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 4.1,
+    reviews: 143,
+    views: 5882,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17382,11 +17380,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-0458",
     slug: "zara-ruched-cutout-midi-dress",
     name: "RUCHED CUTOUT MIDI DRESS",
     brand: "zara",
@@ -17398,12 +17395,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 3.8,
+    reviews: 172,
+    views: 3311,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17415,11 +17413,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-0459",
     slug: "zara-pleated-sleeve-mini-dress",
     name: "PLEATED SLEEVE MINI DRESS",
     brand: "zara",
@@ -17431,12 +17428,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 4.7,
+    reviews: 153,
+    views: 3140,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17448,11 +17446,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-0460",
     slug: "zara-crepe-midi-dress",
     name: "CREPE MIDI DRESS",
     brand: "zara",
@@ -17464,12 +17461,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    rating: 4.3,
+    reviews: 215,
+    views: 7676,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17481,11 +17479,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-0461",
     slug: "zara-100-leather-zip-up-mini-dress",
     name: "100% LEATHER ZIP-UP MINI DRESS",
     brand: "zara",
@@ -17497,12 +17494,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 3.8,
+    reviews: 196,
+    views: 1073,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17514,11 +17512,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-0462",
     slug: "zara-short-back-opening-dress",
     name: "SHORT BACK OPENING DRESS",
     brand: "zara",
@@ -17530,12 +17527,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    rating: 3.9,
+    reviews: 53,
+    views: 7006,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17547,11 +17545,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-0463",
     slug: "zara-sequin-open-back-dress",
     name: "SEQUIN OPEN-BACK DRESS",
     brand: "zara",
@@ -17563,12 +17560,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    rating: 4.8,
+    reviews: 234,
+    views: 7161,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17580,11 +17578,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-0464",
     slug: "zara-long-floral-print-dress",
     name: "LONG FLORAL PRINT DRESS",
     brand: "zara",
@@ -17598,12 +17595,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    rating: 3.7,
+    reviews: 139,
+    views: 1008,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17615,11 +17613,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-0465",
     slug: "zara-striped-belted-midi-shirt-dress",
     name: "STRIPED BELTED MIDI SHIRT DRESS",
     brand: "zara",
@@ -17631,12 +17628,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 4.6,
+    reviews: 120,
+    views: 765,
+    newIn: true,
     offers: [
       {
         store: "zara-store",
@@ -17648,11 +17646,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-0466",
     slug: "zara-striped-midi-shirt-dress-with-belt",
     name: "STRIPED MIDI SHIRT DRESS WITH BELT",
     brand: "zara",
@@ -17664,12 +17661,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    rating: 4.7,
+    reviews: 177,
+    views: 674,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17681,11 +17679,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-0467",
     slug: "zara-zw-collection-embroidered-fringe-dress",
     name: "ZW COLLECTION EMBROIDERED FRINGE DRESS",
     brand: "zara",
@@ -17699,12 +17696,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses-jumpsuits",
+      "clothing",
       "women-s-dresses-jumpsuits"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 4.2,
+    reviews: 158,
+    views: 2051,
+    newIn: false,
     offers: [
       {
         store: "zara-store",
@@ -17716,11 +17714,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0021",
+    id: "PI-0468",
     slug: "hm-collins-super-baggy-jeans",
     name: "Collins Super Baggy Jeans",
     brand: "hm",
@@ -17732,12 +17729,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.2,
-    reviews: 228,
-    views: 2503,
+    rating: 4.5,
+    reviews: 63,
+    views: 3180,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17749,11 +17747,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0022",
+    id: "PI-0469",
     slug: "hm-ultra-baggy-jeans",
     name: "Ultra Baggy Jeans",
     brand: "hm",
@@ -17765,12 +17762,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.1,
-    reviews: 171,
-    views: 1030,
+    rating: 4,
+    reviews: 44,
+    views: 4615,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17782,11 +17780,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0023",
+    id: "PI-0470",
     slug: "hm-regular-jeans",
     name: "Regular Jeans",
     brand: "hm",
@@ -17798,12 +17795,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-regular",
+      "mens-clothing",
       "men-s-jeans"
     ],
-    rating: 4.6,
-    reviews: 190,
-    views: 3937,
+    rating: 4.4,
+    reviews: 206,
+    views: 4349,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17815,11 +17813,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0024",
+    id: "PI-0471",
     slug: "hm-fairfax-baggy-jeans",
     name: "Fairfax Baggy Jeans",
     brand: "hm",
@@ -17831,12 +17828,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.3,
-    reviews: 85,
-    views: 6536,
+    rating: 4.9,
+    reviews: 225,
+    views: 1790,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17848,11 +17846,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0025",
+    id: "PI-0472",
     slug: "hm-loose-jeans",
     name: "Loose Jeans",
     brand: "hm",
@@ -17864,12 +17861,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-loose",
+      "mens-clothing",
       "men-s-jeans"
     ],
     rating: 4.8,
-    reviews: 104,
-    views: 4725,
+    reviews: 168,
+    views: 5763,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17881,11 +17879,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0026",
+    id: "PI-0473",
     slug: "hm-relaxed-jeans",
     name: "Relaxed Jeans",
     brand: "hm",
@@ -17897,12 +17894,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-relaxed",
+      "mens-clothing",
       "men-s-jeans"
     ],
-    rating: 4.7,
-    reviews: 47,
-    views: 7718,
+    rating: 3.9,
+    reviews: 187,
+    views: 5776,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17914,11 +17912,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0027",
+    id: "PI-0474",
     slug: "hm-slim-jeans",
     name: "Slim Jeans",
     brand: "hm",
@@ -17930,12 +17927,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-slim",
+      "mens-clothing",
       "men-s-jeans"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2267,
+    rating: 3.6,
+    reviews: 82,
+    views: 3785,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17947,11 +17945,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0028",
+    id: "PI-0475",
     slug: "hm-wide-leg-jeans",
     name: "Wide-Leg Jeans",
     brand: "hm",
@@ -17963,12 +17960,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-loose",
+      "mens-clothing",
       "men-s-jeans"
     ],
-    rating: 3.9,
-    reviews: 57,
-    views: 5564,
+    rating: 4.1,
+    reviews: 101,
+    views: 1218,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -17980,11 +17978,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0029",
+    id: "PI-0476",
     slug: "hm-collins-super-baggy-jeans-2",
     name: "Collins Super Baggy Jeans (2)",
     brand: "hm",
@@ -17996,12 +17993,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.4,
-    reviews: 76,
-    views: 3185,
+    rating: 4,
+    reviews: 44,
+    views: 6753,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18013,11 +18011,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0030",
+    id: "PI-0477",
     slug: "hm-collins-super-baggy-jeans-3",
     name: "Collins Super Baggy Jeans (3)",
     brand: "hm",
@@ -18029,12 +18026,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 3.6,
-    reviews: 218,
-    views: 6475,
+    rating: 4.5,
+    reviews: 63,
+    views: 6180,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18046,11 +18044,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0031",
+    id: "PI-0478",
     slug: "hm-baggy-jeans",
     name: "Baggy Jeans",
     brand: "hm",
@@ -18062,12 +18059,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.5,
-    reviews: 199,
-    views: 3482,
+    rating: 4.6,
+    reviews: 54,
+    views: 4363,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18079,11 +18077,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0032",
+    id: "PI-0479",
     slug: "hm-collins-super-baggy-jeans-4",
     name: "Collins Super Baggy Jeans (4)",
     brand: "hm",
@@ -18095,12 +18092,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.6,
-    reviews: 56,
-    views: 869,
+    rating: 3.7,
+    reviews: 73,
+    views: 5594,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18112,11 +18110,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0033",
+    id: "PI-0480",
     slug: "hm-baggy-barrel-leg-jeans",
     name: "Baggy Barrel-Leg Jeans",
     brand: "hm",
@@ -18128,12 +18125,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 4.1,
-    reviews: 237,
-    views: 2680,
+    rating: 3.7,
+    reviews: 169,
+    views: 1830,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18145,11 +18143,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0034",
+    id: "PI-0481",
     slug: "hm-relaxed-bootcut-jeans",
     name: "Relaxed Bootcut Jeans",
     brand: "hm",
@@ -18161,12 +18158,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-bootcut",
+      "mens-shoes",
       "men-s-jeans"
     ],
-    rating: 4.4,
-    reviews: 142,
-    views: 5361,
+    rating: 4.6,
+    reviews: 150,
+    views: 3157,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18178,11 +18176,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0035",
+    id: "PI-0482",
     slug: "hm-baggy-jeans-2",
     name: "Baggy Jeans (2)",
     brand: "hm",
@@ -18194,12 +18191,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
-    rating: 3.9,
-    reviews: 123,
-    views: 5718,
+    rating: 4.1,
+    reviews: 131,
+    views: 6888,
+    newIn: true,
     offers: [
       {
         store: "hm-store",
@@ -18211,11 +18209,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0036",
+    id: "PI-0483",
     slug: "hm-wide-leg-jeans-2",
     name: "Wide-Leg Jeans (2)",
     brand: "hm",
@@ -18227,12 +18224,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-loose",
+      "mens-clothing",
       "men-s-jeans"
     ],
-    rating: 4,
-    reviews: 180,
-    views: 6359,
+    rating: 3.6,
+    reviews: 112,
+    views: 699,
+    newIn: true,
     offers: [
       {
         store: "hm-store",
@@ -18244,11 +18242,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0037",
+    id: "PI-0484",
     slug: "hm-regular-jeans-2",
     name: "Regular Jeans (2)",
     brand: "hm",
@@ -18260,12 +18257,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-regular",
+      "mens-clothing",
       "men-s-jeans"
     ],
-    rating: 4.9,
-    reviews: 161,
-    views: 276,
+    rating: 4.3,
+    reviews: 45,
+    views: 6918,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18277,11 +18275,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0038",
+    id: "PI-0485",
     slug: "hm-baggy-darted-jeans",
     name: "Baggy Darted Jeans",
     brand: "hm",
@@ -18293,12 +18290,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-baggy",
+      "mens-bags",
       "men-s-jeans"
     ],
     rating: 3.8,
-    reviews: 66,
-    views: 2237,
+    reviews: 226,
+    views: 6415,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18310,11 +18308,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0039",
+    id: "PI-0486",
     slug: "hm-loose-fit-worker-jeans",
     name: "Loose-Fit Worker Jeans",
     brand: "hm",
@@ -18326,12 +18323,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-loose",
+      "mens-clothing",
       "men-s-jeans"
     ],
     rating: 4.7,
-    reviews: 47,
-    views: 3902,
+    reviews: 207,
+    views: 7404,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18343,11 +18341,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0040",
+    id: "PI-0487",
     slug: "hm-relaxed-bootcut-jeans-2",
     name: "Relaxed Bootcut Jeans (2)",
     brand: "hm",
@@ -18359,12 +18356,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "men-jeans-bootcut",
+      "mens-shoes",
       "men-s-jeans"
     ],
-    rating: 4.1,
-    reviews: 223,
-    views: 2550,
+    rating: 4.2,
+    reviews: 188,
+    views: 391,
+    newIn: false,
     offers: [
       {
         store: "hm-store",
@@ -18376,11 +18374,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0041",
+    id: "PI-0488",
     slug: "uniqlo-crew-neck-t-shirt",
     name: "Crew Neck T-Shirt",
     brand: "uniqlo",
@@ -18392,12 +18389,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.6,
-    reviews: 42,
-    views: 3973,
+    rating: 4.9,
+    reviews: 121,
+    views: 3790,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18409,11 +18407,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0042",
+    id: "PI-0489",
     slug: "uniqlo-mini-t-shirt",
     name: "Mini T-Shirt",
     brand: "uniqlo",
@@ -18425,12 +18422,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 7384,
+    rating: 4.4,
+    reviews: 102,
+    views: 6275,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18442,11 +18440,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0043",
+    id: "PI-0490",
     slug: "uniqlo-airism-cotton-t-shirt-striped",
     name: "AIRism Cotton T-Shirt | Striped",
     brand: "uniqlo",
@@ -18458,12 +18455,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6123,
+    rating: 3.8,
+    reviews: 160,
+    views: 4555,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18475,11 +18473,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0044",
+    id: "PI-0491",
     slug: "uniqlo-ultra-stretch-active-t-shirt",
     name: "Ultra Stretch Active T-Shirt",
     brand: "uniqlo",
@@ -18491,12 +18488,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "sportswear",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.9,
-    reviews: 147,
-    views: 7798,
+    rating: 4.3,
+    reviews: 179,
+    views: 2744,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18508,11 +18506,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0045",
+    id: "PI-0492",
     slug: "uniqlo-mini-t-shirt-striped",
     name: "Mini T-Shirt | Striped",
     brand: "uniqlo",
@@ -18524,12 +18521,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
-    reviews: 166,
-    views: 2321,
+    rating: 4.8,
+    reviews: 198,
+    views: 587,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18541,11 +18539,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0046",
+    id: "PI-0493",
     slug: "uniqlo-boat-neck-t-shirt",
     name: "Boat Neck T-Shirt",
     brand: "uniqlo",
@@ -18557,12 +18554,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.5,
-    reviews: 185,
-    views: 2356,
+    rating: 3.9,
+    reviews: 217,
+    views: 6870,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18574,11 +18572,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0047",
+    id: "PI-0494",
     slug: "uniqlo-airism-cotton-t-shirt",
     name: "AIRism Cotton T-Shirt",
     brand: "uniqlo",
@@ -18590,12 +18587,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 3.6,
-    reviews: 204,
-    views: 439,
+    rating: 4.4,
+    reviews: 236,
+    views: 4247,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18607,11 +18605,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0048",
+    id: "PI-0495",
     slug: "uniqlo-airism-cotton-t-shirt-2",
     name: "AIRism Cotton T-Shirt (2)",
     brand: "uniqlo",
@@ -18623,12 +18620,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.3,
-    reviews: 71,
-    views: 1618,
+    rating: 4.9,
+    reviews: 55,
+    views: 6164,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18640,11 +18638,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0049",
+    id: "PI-0496",
     slug: "uniqlo-boxy-knitted-t-shirt",
     name: "Boxy Knitted T-Shirt",
     brand: "uniqlo",
@@ -18656,12 +18653,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.8,
-    reviews: 90,
-    views: 4627,
+    rating: 4,
+    reviews: 74,
+    views: 3249,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18673,11 +18671,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0050",
+    id: "PI-0497",
     slug: "uniqlo-airism-camisole",
     name: "AIRism Camisole",
     brand: "uniqlo",
@@ -18689,12 +18686,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4,
-    reviews: 232,
-    views: 5051,
+    rating: 4.5,
+    reviews: 93,
+    views: 3606,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18706,11 +18704,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0051",
+    id: "PI-0498",
     slug: "uniqlo-shirring-boat-neck-sleeveless-t-shirt",
     name: "Shirring Boat Neck Sleeveless T-Shirt",
     brand: "uniqlo",
@@ -18722,12 +18719,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.9,
-    reviews: 213,
-    views: 3240,
+    rating: 3.6,
+    reviews: 112,
+    views: 6701,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18739,11 +18737,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0052",
+    id: "PI-0499",
     slug: "uniqlo-washable-knit-bra-top",
     name: "Washable Knit Bra Top",
     brand: "uniqlo",
@@ -18755,12 +18752,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.4,
-    reviews: 194,
-    views: 7509,
+    rating: 4.1,
+    reviews: 131,
+    views: 1552,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18772,11 +18770,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0053",
+    id: "PI-0500",
     slug: "uniqlo-ribbed-lace-v-neck-camisole",
     name: "Ribbed Lace V-Neck Camisole",
     brand: "uniqlo",
@@ -18788,12 +18785,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 3.9,
-    reviews: 175,
-    views: 2058,
+    rating: 4.8,
+    reviews: 138,
+    views: 3525,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18805,11 +18803,43 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0054",
+    id: "PI-0501",
+    slug: "mango-wool-blend-funnel-neck-coat",
+    name: "Wool-blend funnel-neck coat",
+    brand: "mango",
+    category: "clothing",
+    subcategory: "coats",
+    gender: "women",
+    description: "Mango Wool-blend funnel-neck coat — coats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://media.mango.com/is/image/punto/27051260-10-001",
+    colors: [],
+    sizes: [],
+    tags: [
+      "clothing",
+      "coats"
+    ],
+    rating: 4.3,
+    reviews: 119,
+    views: 4538,
+    newIn: false,
+    offers: [
+      {
+        store: "mango-store",
+        price: 9959,
+        originalPrice: 20749,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://shop.mango.com/us/en/p/women/coats/coats/wool-blend-funnel-neck-coat/27051260/10/00",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0502",
     slug: "uniqlo-racer-back-bra-top",
     name: "Racer Back Bra Top",
     brand: "uniqlo",
@@ -18821,12 +18851,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.8,
-    reviews: 156,
-    views: 3497,
+    rating: 4.4,
+    reviews: 176,
+    views: 2565,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18838,11 +18869,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0055",
+    id: "PI-0503",
     slug: "uniqlo-airism-bra-top",
     name: "AIRism Bra Top",
     brand: "uniqlo",
@@ -18854,12 +18884,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.3,
-    reviews: 137,
-    views: 4484,
+    rating: 3.9,
+    reviews: 157,
+    views: 1304,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18871,11 +18902,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0056",
+    id: "PI-0504",
     slug: "uniqlo-ribbed-cropped-bra-top",
     name: "Ribbed Cropped Bra Top",
     brand: "uniqlo",
@@ -18887,12 +18917,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 3.8,
-    reviews: 118,
-    views: 5473,
+    rating: 4.2,
+    reviews: 62,
+    views: 1873,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18904,11 +18935,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0057",
+    id: "PI-0505",
     slug: "uniqlo-cropped-square-neck-sleeveless-top",
     name: "Cropped Square Neck Sleeveless Top",
     brand: "uniqlo",
@@ -18920,12 +18950,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.7,
-    reviews: 99,
-    views: 4970,
+    rating: 3.7,
+    reviews: 43,
+    views: 7350,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18937,11 +18968,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0058",
+    id: "PI-0506",
     slug: "uniqlo-airism-sleeveless-top",
     name: "AIRism Sleeveless Top",
     brand: "uniqlo",
@@ -18953,12 +18983,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6899,
+    rating: 3.8,
+    reviews: 100,
+    views: 249,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -18970,11 +19001,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0059",
+    id: "PI-0507",
     slug: "uniqlo-pointelle-printed-camisole",
     name: "Pointelle Printed Camisole",
     brand: "uniqlo",
@@ -18986,12 +19016,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 6656,
+    rating: 4.7,
+    reviews: 81,
+    views: 6332,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -19003,11 +19034,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0060",
+    id: "PI-0508",
     slug: "uniqlo-ribbed-sleeveless-top-striped",
     name: "Ribbed Sleeveless Top | Striped",
     brand: "uniqlo",
@@ -19019,12 +19049,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts-sweats",
+      "clothing",
       "women-s-t-shirts-tops"
     ],
-    rating: 3.9,
-    reviews: 107,
-    views: 4768,
+    rating: 3.6,
+    reviews: 186,
+    views: 2461,
+    newIn: false,
     offers: [
       {
         store: "uniqlo-store",
@@ -19036,11 +19067,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0061",
+    id: "PI-0509",
     slug: "mango-suede-jacket-with-buttons",
     name: "Suede jacket with buttons",
     brand: "mango",
@@ -19052,12 +19082,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "leather"
     ],
-    rating: 4.8,
-    reviews: 88,
-    views: 4781,
+    rating: 4.5,
+    reviews: 167,
+    views: 1170,
+    newIn: true,
     offers: [
       {
         store: "mango-store",
@@ -19069,11 +19100,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0062",
+    id: "PI-0510",
     slug: "mango-leather-block-heel-sandals",
     name: "Leather block-heel sandals",
     brand: "mango",
@@ -19088,9 +19118,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "heeled-sandals"
     ],
-    rating: 4.9,
-    reviews: 145,
-    views: 4158,
+    rating: 4.7,
+    reviews: 183,
+    views: 2340,
+    newIn: true,
     offers: [
       {
         store: "mango-store",
@@ -19102,11 +19133,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0063",
+    id: "PI-0511",
     slug: "mango-wide-leg-studded-jeans",
     name: "Wide leg studded jeans",
     brand: "mango",
@@ -19118,12 +19148,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jeans",
+      "clothing",
       "wide-leg"
     ],
-    rating: 4.4,
-    reviews: 126,
-    views: 5491,
+    rating: 4.2,
+    reviews: 164,
+    views: 7561,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19135,11 +19166,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0064",
+    id: "PI-0512",
     slug: "mango-asymmetrical-satin-dress-with-fringes",
     name: "Asymmetrical satin dress with fringes",
     brand: "mango",
@@ -19151,12 +19181,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-and-jumpsuits",
+      "clothing",
       "dresses"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 332,
+    rating: 4.3,
+    reviews: 221,
+    views: 1738,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19168,11 +19199,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0065",
+    id: "PI-0513",
     slug: "mango-halter-jumpsuit-with-belt-detail",
     name: "Halter jumpsuit with belt detail",
     brand: "mango",
@@ -19184,12 +19214,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-and-jumpsuits",
+      "clothing",
       "halter"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 7521,
+    rating: 3.8,
+    reviews: 202,
+    views: 5039,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19201,11 +19232,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0066",
+    id: "PI-0514",
     slug: "mango-cotton-t-shirt-with-openwork-embroidered-detail",
     name: "Cotton T-shirt with openwork embroidered detail",
     brand: "mango",
@@ -19219,12 +19249,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "basics"
     ],
     rating: 4.1,
-    reviews: 221,
-    views: 7362,
+    reviews: 107,
+    views: 1224,
+    newIn: true,
     offers: [
       {
         store: "mango-store",
@@ -19236,11 +19267,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0067",
+    id: "PI-0515",
     slug: "mango-cross-back-linen-blend-romper",
     name: "Cross-back linen blend romper",
     brand: "mango",
@@ -19252,12 +19282,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-and-jumpsuits",
+      "clothing",
       "casual"
     ],
     rating: 3.6,
-    reviews: 202,
-    views: 3337,
+    reviews: 88,
+    views: 987,
+    newIn: true,
     offers: [
       {
         store: "mango-store",
@@ -19269,11 +19300,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0068",
+    id: "PI-0516",
     slug: "mango-vest-with-buttons-and-pockets",
     name: "Vest with buttons and pockets",
     brand: "mango",
@@ -19285,12 +19315,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops",
+      "clothing",
       "gilets"
     ],
-    rating: 4.1,
-    reviews: 155,
-    views: 6520,
+    rating: 3.7,
+    reviews: 145,
+    views: 2246,
+    newIn: true,
     offers: [
       {
         store: "mango-store",
@@ -19302,11 +19333,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0069",
+    id: "PI-0517",
     slug: "mango-leather-straps-sandals",
     name: "Leather straps sandals",
     brand: "mango",
@@ -19321,9 +19351,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "flat-sandals"
     ],
-    rating: 3.6,
-    reviews: 136,
-    views: 1829,
+    rating: 4.6,
+    reviews: 126,
+    views: 7989,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19335,11 +19366,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0070",
+    id: "PI-0518",
     slug: "mango-suit-jacket-with-fitted-waist",
     name: "Suit jacket with fitted waist",
     brand: "mango",
@@ -19351,12 +19381,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "blazers",
+      "clothing",
       "fitted"
     ],
-    rating: 4,
-    reviews: 98,
-    views: 3649,
+    rating: 4.5,
+    reviews: 135,
+    views: 5204,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19368,44 +19399,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0071",
-    slug: "mango-wool-blend-funnel-neck-coat",
-    name: "Wool-blend funnel-neck coat",
-    brand: "mango",
-    category: "clothing",
-    subcategory: "coats",
-    gender: "women",
-    description: "Mango Wool-blend funnel-neck coat — coats tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://media.mango.com/is/image/punto/27051260-10-001",
-    colors: [],
-    sizes: [],
-    tags: [
-      "coats",
-      "coats"
-    ],
-    rating: 4.5,
-    reviews: 117,
-    views: 6950,
-    offers: [
-      {
-        store: "mango-store",
-        price: 9959,
-        originalPrice: 20749,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://shop.mango.com/us/en/p/women/coats/coats/wool-blend-funnel-neck-coat/27051260/10/00",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ],
-    newIn: true
-  },
-  {
-    id: "PI-0072",
+    id: "PI-0519",
     slug: "mango-a-line-dress-with-stitching-details",
     name: "A-line dress with stitching details",
     brand: "mango",
@@ -19417,12 +19414,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-and-jumpsuits",
+      "clothing",
       "casual"
     ],
-    rating: 4.4,
-    reviews: 60,
-    views: 1127,
+    rating: 4,
+    reviews: 116,
+    views: 3103,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19434,11 +19432,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0073",
+    id: "PI-0520",
     slug: "mango-wedge-leather-sandals",
     name: "Wedge leather sandals",
     brand: "mango",
@@ -19453,9 +19450,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "heeled-sandals"
     ],
-    rating: 4.9,
-    reviews: 79,
-    views: 4748,
+    rating: 4,
+    reviews: 148,
+    views: 6239,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19467,11 +19465,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0074",
+    id: "PI-0521",
     slug: "mango-straight-mid-rise-bermuda-shorts",
     name: "Straight mid-rise Bermuda shorts",
     brand: "mango",
@@ -19483,12 +19480,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shorts-and-bermuda-shorts",
+      "clothing",
       "bermuda-shorts"
     ],
-    rating: 4.8,
-    reviews: 222,
-    views: 7099,
+    rating: 4.9,
+    reviews: 129,
+    views: 2708,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19500,11 +19498,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0075",
+    id: "PI-0522",
     slug: "mango-belt-linen-jumpsuit",
     name: "Belt linen jumpsuit",
     brand: "mango",
@@ -19516,12 +19513,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses-and-jumpsuits",
+      "clothing",
       "casual"
     ],
-    rating: 3.9,
-    reviews: 41,
-    views: 1798,
+    rating: 4.4,
+    reviews: 110,
+    views: 4055,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19533,11 +19531,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0076",
+    id: "PI-0523",
     slug: "mango-crocheted-ballet-flats-with-ankle-strap",
     name: "Crocheted ballet flats with ankle strap",
     brand: "mango",
@@ -19552,9 +19549,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "ballet-flats"
     ],
-    rating: 3.8,
-    reviews: 184,
-    views: 1435,
+    rating: 3.9,
+    reviews: 91,
+    views: 6078,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19566,11 +19564,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0077",
+    id: "PI-0524",
     slug: "mango-semi-sheer-shirt-with-beaded-belt",
     name: "Semi-sheer shirt with beaded belt",
     brand: "mango",
@@ -19582,12 +19579,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shirts-blouses",
+      "clothing",
       "long-sleeve"
     ],
-    rating: 4.3,
-    reviews: 203,
-    views: 1672,
+    rating: 4.6,
+    reviews: 224,
+    views: 1693,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19599,11 +19597,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0078",
+    id: "PI-0525",
     slug: "mango-knit-jacket-with-combined-fabrics",
     name: "Knit jacket with combined fabrics",
     brand: "mango",
@@ -19615,12 +19612,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "sweaters-and-cardigans",
+      "clothing",
       "cardigans"
     ],
-    rating: 3.8,
-    reviews: 50,
-    views: 5593,
+    rating: 4.1,
+    reviews: 205,
+    views: 6304,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19632,11 +19630,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0079",
+    id: "PI-0526",
     slug: "mango-turtleneck-knit-sweater",
     name: "Turtleneck knit sweater",
     brand: "mango",
@@ -19648,12 +19645,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "pyjamas",
+      "clothing",
       "knitwear"
     ],
-    rating: 4.3,
-    reviews: 69,
-    views: 190,
+    rating: 3.6,
+    reviews: 186,
+    views: 1357,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19665,11 +19663,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0080",
+    id: "PI-0527",
     slug: "mango-manteco-wool-coat-with-belt",
     name: "Manteco wool coat with belt",
     brand: "mango",
@@ -19681,12 +19678,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "coats",
+      "clothing",
       "coats"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 4058,
+    rating: 4.5,
+    reviews: 167,
+    views: 1218,
+    newIn: false,
     offers: [
       {
         store: "mango-store",
@@ -19698,11 +19696,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0081",
+    id: "PI-0528",
     slug: "shein-naizhu-1pair-flower-earrings-fashion-party-accessories",
     name: "NAIZHU 1pair Flower Earrings, Fashion Party Accessories",
     brand: "shein",
@@ -19714,12 +19711,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-dangle-earrings",
+      "jewelry",
       "women-dangle-earrings"
     ],
     rating: 3.8,
-    reviews: 214,
-    views: 4415,
+    reviews: 100,
+    views: 6887,
+    newIn: true,
     offers: [
       {
         store: "shein-store",
@@ -19731,11 +19729,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0082",
+    id: "PI-0529",
     slug: "shein-emery-rose-faux-denim-color-block-polo-long-sleeve-top",
     name: "EMERY ROSE Faux Denim Color Block Polo Long Sleeve Top",
     brand: "shein",
@@ -19749,12 +19746,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-t-shirts",
+      "clothing",
       "women-t-shirts"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 1500,
+    rating: 4.7,
+    reviews: 81,
+    views: 1380,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19766,11 +19764,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0083",
+    id: "PI-0530",
     slug: "shein-women-s-v-neck-knit-vest-button-front-cardigan",
     name: "Women's V-Neck Knit Vest, Button Front Cardigan",
     brand: "shein",
@@ -19782,12 +19779,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-sweater-vests",
+      "clothing",
       "women-sweater-vests"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 3417,
+    rating: 4.1,
+    reviews: 139,
+    views: 3310,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19799,11 +19797,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0084",
+    id: "PI-0531",
     slug: "shein-fashion-punk-gothic-elastic-beach-headband",
     name: "Fashion Punk Gothic Elastic Beach Headband",
     brand: "shein",
@@ -19815,12 +19812,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hair-bands",
+      "accessories",
       "hair-bands"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 6294,
+    rating: 4.6,
+    reviews: 158,
+    views: 7463,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19832,11 +19830,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0085",
+    id: "PI-0532",
     slug: "shein-women-s-lace-trim-satin-halter-neck-top",
     name: "Women's Lace Trim Satin Halter Neck Top",
     brand: "shein",
@@ -19848,12 +19845,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-tops",
+      "clothing",
       "women-tops"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 7525,
+    rating: 3.7,
+    reviews: 177,
+    views: 1188,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19865,11 +19863,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0086",
+    id: "PI-0533",
     slug: "shein-shein-essnce-long-sleeve-pleated-blazer",
     name: "SHEIN Essnce Long Sleeve Pleated Blazer",
     brand: "shein",
@@ -19881,12 +19878,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-jackets",
+      "clothing",
       "women-jackets"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 3320,
+    rating: 4.2,
+    reviews: 196,
+    views: 1761,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19898,11 +19896,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0087",
+    id: "PI-0534",
     slug: "shein-shein-boho-casual-loose-linen-shirt-blouse",
     name: "SHEIN Boho Casual Loose Linen Shirt Blouse",
     brand: "shein",
@@ -19914,12 +19911,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-blouses-shirts",
+      "clothing",
       "women-blouses-shirts"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 5131,
+    rating: 4.7,
+    reviews: 215,
+    views: 2738,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19931,11 +19929,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0088",
+    id: "PI-0535",
     slug: "shein-trnvie-halter-neck-circular-buckle-tank-top",
     name: "TRNVIE Halter Neck Circular Buckle Tank Top",
     brand: "shein",
@@ -19949,12 +19946,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-tank-tops-camis",
+      "clothing",
       "women-tank-tops-camis"
     ],
-    rating: 4.9,
-    reviews: 43,
-    views: 2670,
+    rating: 3.8,
+    reviews: 234,
+    views: 6899,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -19966,11 +19964,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0089",
+    id: "PI-0536",
     slug: "shein-romwe-leopard-floral-print-y2k-skinny-denim-shorts",
     name: "ROMWE Leopard & Floral Print Y2K Skinny Denim Shorts",
     brand: "shein",
@@ -19984,12 +19981,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-jeans",
+      "clothing",
       "women-jeans"
     ],
-    rating: 4,
-    reviews: 62,
-    views: 8103,
+    rating: 4.3,
+    reviews: 53,
+    views: 5472,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20001,11 +19999,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0090",
+    id: "PI-0537",
     slug: "shein-bohemian-woven-flared-a-line-long-skirt",
     name: "Bohemian Woven Flared A-Line Long Skirt",
     brand: "shein",
@@ -20019,12 +20016,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-skirts",
+      "clothing",
       "women-skirts"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 1993,
+    rating: 4.8,
+    reviews: 72,
+    views: 5485,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20036,11 +20034,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0091",
+    id: "PI-0538",
     slug: "shein-casual-denim-spliced-jacket-slim-fit-coat",
     name: "Casual Denim Spliced Jacket Slim-Fit Coat",
     brand: "shein",
@@ -20054,12 +20051,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-jackets",
+      "clothing",
       "women-jackets"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 740,
+    rating: 3.9,
+    reviews: 91,
+    views: 4822,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20071,11 +20069,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0092",
+    id: "PI-0539",
     slug: "shein-elenzga-v-neck-cinched-waist-jumpsuit",
     name: "Elenzga V-Neck Cinched Waist Jumpsuit",
     brand: "shein",
@@ -20087,12 +20084,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-jumpsuits",
+      "clothing",
       "women-jumpsuits"
     ],
-    rating: 3.6,
-    reviews: 166,
-    views: 559,
+    rating: 4.4,
+    reviews: 110,
+    views: 3775,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20104,11 +20102,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0093",
+    id: "PI-0540",
     slug: "shein-romwe-goth-floral-lace-underwire-triangle-cup-bra",
     name: "ROMWE Goth Floral Lace Underwire Triangle Cup Bra",
     brand: "shein",
@@ -20122,12 +20119,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-bras-bralettes",
+      "clothing",
       "women-bras-bralettes"
     ],
-    rating: 4.5,
-    reviews: 147,
-    views: 5798,
+    rating: 4.2,
+    reviews: 178,
+    views: 3937,
+    newIn: true,
     offers: [
       {
         store: "shein-store",
@@ -20139,11 +20137,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0094",
+    id: "PI-0541",
     slug: "shein-autumn-tiger-print-crew-neck-sweatshirt",
     name: "Autumn Tiger Print Crew Neck Sweatshirt",
     brand: "shein",
@@ -20155,12 +20152,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-sweatshirts-hoodies",
+      "clothing",
       "women-sweatshirts-hoodies"
     ],
-    rating: 3.8,
-    reviews: 80,
-    views: 1557,
+    rating: 4.7,
+    reviews: 197,
+    views: 2758,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20172,11 +20170,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0095",
+    id: "PI-0542",
     slug: "shein-balvessa-floral-print-wrap-v-neck-sweater",
     name: "Balvessa Floral Print Wrap V-Neck Sweater",
     brand: "shein",
@@ -20190,12 +20187,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-sweaters",
+      "clothing",
       "women-sweaters"
     ],
-    rating: 4.7,
-    reviews: 61,
-    views: 4520,
+    rating: 4.6,
+    reviews: 140,
+    views: 5353,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20207,11 +20205,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0096",
+    id: "PI-0543",
     slug: "shein-vixey-textured-asymmetrical-hem-waistcoat-top",
     name: "Vixey Textured Asymmetrical Hem Waistcoat Top",
     brand: "shein",
@@ -20225,12 +20222,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "women-tops",
+      "clothing",
       "women-tops"
     ],
-    rating: 4.2,
-    reviews: 42,
-    views: 251,
+    rating: 3.7,
+    reviews: 159,
+    views: 4420,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20242,11 +20240,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0097",
+    id: "PI-0544",
     slug: "shein-colorful-striped-ankle-socks-4-8-pairs",
     name: "Colorful Striped Ankle Socks (4/8 Pairs)",
     brand: "shein",
@@ -20258,12 +20255,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-over-the-calf-socks",
+      "clothing",
       "women-over-the-calf-socks"
     ],
-    rating: 3.7,
-    reviews: 223,
-    views: 5766,
+    rating: 3.6,
+    reviews: 102,
+    views: 795,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20275,11 +20273,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0098",
+    id: "PI-0545",
     slug: "shein-glyssa-backless-halter-neck-fitted-jumpsuit",
     name: "Glyssa Backless Halter Neck Fitted Jumpsuit",
     brand: "shein",
@@ -20291,12 +20288,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-jumpsuits",
+      "clothing",
       "women-jumpsuits"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5599,
+    rating: 4.1,
+    reviews: 121,
+    views: 202,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20308,11 +20306,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0099",
+    id: "PI-0546",
     slug: "shein-shein-cross-neck-3-4-sleeve-pleated-top",
     name: "SHEIN Cross Neck 3/4 Sleeve Pleated Top",
     brand: "shein",
@@ -20324,12 +20321,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-tops",
+      "clothing",
       "women-tops"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3348,
+    rating: 4,
+    reviews: 64,
+    views: 6517,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20341,11 +20339,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0100",
+    id: "PI-0547",
     slug: "shein-hauture-cowl-neck-mesh-backless-halter-top",
     name: "Hauture Cowl Neck Mesh Backless Halter Top",
     brand: "shein",
@@ -20357,12 +20354,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "women-tops",
+      "clothing",
       "women-tops"
     ],
-    rating: 4.6,
-    reviews: 62,
-    views: 1617,
+    rating: 4.5,
+    reviews: 83,
+    views: 4232,
+    newIn: false,
     offers: [
       {
         store: "shein-store",
@@ -20374,11 +20372,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0101",
+    id: "PI-0548",
     slug: "prettylittlething-shell-funnel-neck-jacket",
     name: "Shell Funnel Neck Jacket",
     brand: "prettylittlething",
@@ -20390,12 +20387,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets-coats",
+      "clothing",
       "windbreaker"
     ],
-    rating: 4.1,
-    reviews: 43,
-    views: 4858,
+    rating: 4,
+    reviews: 130,
+    views: 183,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20407,11 +20405,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0102",
+    id: "PI-0549",
     slug: "prettylittlething-shell-balloon-leg-track-pants",
     name: "Shell Balloon Leg Track Pants",
     brand: "prettylittlething",
@@ -20423,12 +20420,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "joggers",
+      "sportswear",
       "sports-joggers"
     ],
-    rating: 4.2,
-    reviews: 100,
-    views: 439,
+    rating: 4.5,
+    reviews: 149,
+    views: 5726,
+    newIn: true,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20440,11 +20438,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0103",
+    id: "PI-0550",
     slug: "prettylittlething-cotton-fleece-polo-button-sweatshirt",
     name: "Cotton Fleece Polo Button Sweatshirt",
     brand: "prettylittlething",
@@ -20456,12 +20453,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "clothing",
       "plain-sweatshirt"
     ],
-    rating: 3.7,
-    reviews: 81,
-    views: 2300,
+    rating: 4.1,
+    reviews: 187,
+    views: 7152,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20473,11 +20471,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0104",
+    id: "PI-0551",
     slug: "prettylittlething-sculpt-capri-leggings",
     name: "Sculpt Capri Leggings",
     brand: "prettylittlething",
@@ -20489,12 +20486,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "sports-leggings"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 645,
+    rating: 3.6,
+    reviews: 168,
+    views: 4387,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20506,11 +20504,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0105",
+    id: "PI-0552",
     slug: "prettylittlething-cropped-zip-sweat-hoodie",
     name: "Cropped Zip Sweat Hoodie",
     brand: "prettylittlething",
@@ -20522,12 +20519,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "clothing",
       "plain-hoodie"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 7034,
+    rating: 3.7,
+    reviews: 225,
+    views: 1554,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20539,11 +20537,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0106",
+    id: "PI-0553",
     slug: "prettylittlething-print-wide-leg-joggers",
     name: "Print Wide Leg Joggers",
     brand: "prettylittlething",
@@ -20555,12 +20552,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "joggers",
+      "sportswear",
       "sports-joggers"
     ],
-    rating: 4.8,
-    reviews: 176,
-    views: 3499,
+    rating: 4.6,
+    reviews: 206,
+    views: 6429,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20572,11 +20570,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0107",
+    id: "PI-0554",
     slug: "prettylittlething-paris-embroidered-full-zip-hoodie",
     name: "Paris Embroidered Full Zip Hoodie",
     brand: "prettylittlething",
@@ -20590,12 +20587,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "clothing",
       "plain-hoodie"
     ],
-    rating: 4.3,
-    reviews: 157,
-    views: 1688,
+    rating: 4.7,
+    reviews: 63,
+    views: 6148,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20607,11 +20605,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0108",
+    id: "PI-0555",
     slug: "prettylittlething-paris-embroidered-sweat-shorts",
     name: "Paris Embroidered Sweat Shorts",
     brand: "prettylittlething",
@@ -20625,12 +20622,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "shorts",
+      "sportswear",
       "sports-shorts"
     ],
-    rating: 4.8,
-    reviews: 110,
-    views: 1735,
+    rating: 4.2,
+    reviews: 44,
+    views: 7937,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20642,11 +20640,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0109",
+    id: "PI-0556",
     slug: "prettylittlething-button-front-sweatshirt",
     name: "Button Front Sweatshirt",
     brand: "prettylittlething",
@@ -20658,12 +20655,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "clothing",
       "plain-sweatshirt"
     ],
     rating: 4.3,
-    reviews: 91,
-    views: 3342,
+    reviews: 101,
+    views: 7182,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20675,11 +20673,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0110",
+    id: "PI-0557",
     slug: "prettylittlething-love-club-print-sweat-shorts",
     name: "Love Club Print Sweat Shorts",
     brand: "prettylittlething",
@@ -20691,12 +20688,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shorts",
+      "sportswear",
       "sports-shorts"
     ],
-    rating: 4.9,
-    reviews: 59,
-    views: 2464,
+    rating: 3.8,
+    reviews: 82,
+    views: 5895,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20708,11 +20706,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0111",
+    id: "PI-0558",
     slug: "prettylittlething-cropped-zip-sweat-hoodie-2",
     name: "Cropped Zip Sweat Hoodie (2)",
     brand: "prettylittlething",
@@ -20724,12 +20721,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "clothing",
       "plain-hoodie"
     ],
-    rating: 4.4,
-    reviews: 40,
-    views: 2707,
+    rating: 4.3,
+    reviews: 235,
+    views: 2712,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20741,11 +20739,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0112",
+    id: "PI-0559",
     slug: "prettylittlething-sugar-print-pullover-sweatshirt",
     name: "Sugar Print Pullover Sweatshirt",
     brand: "prettylittlething",
@@ -20757,12 +20754,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "clothing",
       "plain-sweatshirt"
     ],
-    rating: 4.5,
-    reviews: 97,
-    views: 2158,
+    rating: 3.8,
+    reviews: 216,
+    views: 901,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20774,11 +20772,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0113",
+    id: "PI-0560",
     slug: "prettylittlething-soft-cotton-quarter-sleeve-fitted-top",
     name: "Soft Cotton Quarter Sleeve Fitted Top",
     brand: "prettylittlething",
@@ -20790,12 +20787,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "t-shirt"
     ],
-    rating: 4,
-    reviews: 78,
-    views: 5517,
+    rating: 4.4,
+    reviews: 160,
+    views: 5013,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20807,11 +20805,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0114",
+    id: "PI-0561",
     slug: "prettylittlething-soft-rib-crew-neck-short-sleeve-top",
     name: "Soft Rib Crew Neck Short Sleeve Top",
     brand: "prettylittlething",
@@ -20823,12 +20820,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "t-shirt"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 1692,
+    rating: 4.9,
+    reviews: 179,
+    views: 2760,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20840,11 +20838,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0115",
+    id: "PI-0562",
     slug: "prettylittlething-soft-rib-crew-neck-long-sleeve-top",
     name: "Soft Rib Crew Neck Long Sleeve Top",
     brand: "prettylittlething",
@@ -20856,12 +20853,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "t-shirt"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 2399,
+    rating: 4,
+    reviews: 198,
+    views: 6011,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20873,11 +20871,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0116",
+    id: "PI-0563",
     slug: "prettylittlething-basic-soft-cotton-boat-neck-vest-top",
     name: "Basic Soft Cotton Boat Neck Vest Top",
     brand: "prettylittlething",
@@ -20889,12 +20886,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops",
+      "clothing",
       "vest"
     ],
-    rating: 3.7,
-    reviews: 173,
-    views: 5298,
+    rating: 4.5,
+    reviews: 217,
+    views: 7530,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20906,11 +20904,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0117",
+    id: "PI-0564",
     slug: "prettylittlething-soft-rib-high-neck-fitted-longline-t-shirt",
     name: "Soft Rib High Neck Fitted Longline T-Shirt",
     brand: "prettylittlething",
@@ -20922,12 +20919,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "t-shirt"
     ],
-    rating: 4.6,
-    reviews: 154,
-    views: 7895,
+    rating: 3.6,
+    reviews: 236,
+    views: 2215,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20939,11 +20937,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0118",
+    id: "PI-0565",
     slug: "prettylittlething-basic-soft-rib-backless-top",
     name: "Basic Soft Rib Backless Top",
     brand: "prettylittlething",
@@ -20955,12 +20952,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "t-shirt"
     ],
-    rating: 3.7,
-    reviews: 107,
-    views: 520,
+    rating: 4.1,
+    reviews: 55,
+    views: 3660,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -20972,11 +20970,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0119",
+    id: "PI-0566",
     slug: "prettylittlething-basic-soft-rib-racer-neck-vest-top",
     name: "Basic Soft Rib Racer Neck Vest Top",
     brand: "prettylittlething",
@@ -20988,12 +20985,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops",
+      "clothing",
       "vest"
     ],
     rating: 4.6,
-    reviews: 88,
-    views: 3483,
+    reviews: 74,
+    views: 4737,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -21005,11 +21003,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0120",
+    id: "PI-0567",
     slug: "prettylittlething-textured-burnout-slouchy-one-shoulder-t-shirt",
     name: "Textured Burnout Slouchy One Shoulder T-Shirt",
     brand: "prettylittlething",
@@ -21023,12 +21020,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "clothing",
       "t-shirt"
     ],
-    rating: 4.4,
-    reviews: 80,
-    views: 3659,
+    rating: 3.7,
+    reviews: 93,
+    views: 8038,
+    newIn: false,
     offers: [
       {
         store: "prettylittlething-store",
@@ -21040,11 +21038,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0121",
+    id: "PI-0568",
     slug: "boohooman-oversized-paris-floral-t-shirt",
     name: "Oversized Paris Floral T-Shirt",
     brand: "boohooman",
@@ -21058,12 +21055,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
-    rating: 3.9,
-    reviews: 61,
-    views: 3768,
+    rating: 4.2,
+    reviews: 112,
+    views: 7699,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21075,11 +21073,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0122",
+    id: "PI-0569",
     slug: "boohooman-fixed-waist-relaxed-fit-cargo-trouser",
     name: "Fixed Waist Relaxed Fit Cargo Trouser",
     brand: "boohooman",
@@ -21091,12 +21088,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "trousers",
+      "mens-clothing",
       "cargo-trousers"
     ],
-    rating: 4.8,
-    reviews: 42,
-    views: 5925,
+    rating: 4.7,
+    reviews: 131,
+    views: 3664,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21108,11 +21106,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0123",
+    id: "PI-0570",
     slug: "boohooman-melton-pu-applique-varsity-jacket",
     name: "Melton & PU Applique Varsity Jacket",
     brand: "boohooman",
@@ -21124,12 +21121,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets-coats",
+      "mens-clothing",
       "varsity-jacket"
     ],
     rating: 4.3,
-    reviews: 223,
-    views: 7898,
+    reviews: 169,
+    views: 4502,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21141,11 +21139,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0124",
+    id: "PI-0571",
     slug: "boohooman-white-oversized-tokyo-floral-print-t-shirt",
     name: "White Oversized Tokyo Floral Print T-Shirt",
     brand: "boohooman",
@@ -21159,12 +21156,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
     rating: 3.8,
-    reviews: 204,
-    views: 2713,
+    reviews: 150,
+    views: 1765,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21176,11 +21174,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0125",
+    id: "PI-0572",
     slug: "boohooman-essential-oversized-boxy-zip-through-hoodie",
     name: "Essential Oversized Boxy Zip Through Hoodie",
     brand: "boohooman",
@@ -21192,12 +21189,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "mens-clothing",
       "basic-hoodie"
     ],
     rating: 4.7,
-    reviews: 185,
-    views: 6044,
+    reviews: 131,
+    views: 7928,
+    newIn: true,
     offers: [
       {
         store: "boohooman-store",
@@ -21209,11 +21207,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0126",
+    id: "PI-0573",
     slug: "boohooman-oversized-boxy-limited-edition-t-shirt",
     name: "Oversized Boxy Limited Edition T-Shirt",
     brand: "boohooman",
@@ -21225,12 +21222,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
     rating: 4.2,
-    reviews: 166,
-    views: 3953,
+    reviews: 112,
+    views: 741,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21242,11 +21240,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0127",
+    id: "PI-0574",
     slug: "boohooman-essential-skinny-fit-stretch-washed-jeans",
     name: "Essential Skinny Fit Stretch Washed Jeans",
     brand: "boohooman",
@@ -21258,12 +21255,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jeans",
+      "mens-clothing",
       "skinny-jeans"
     ],
-    rating: 3.7,
-    reviews: 147,
-    views: 602,
+    rating: 4.9,
+    reviews: 45,
+    views: 2774,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21275,11 +21273,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0128",
+    id: "PI-0575",
     slug: "boohooman-ecru-oversized-monaco-racing-t-shirt",
     name: "Ecru Oversized Monaco Racing T-Shirt",
     brand: "boohooman",
@@ -21291,12 +21288,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 707,
+    rating: 4.4,
+    reviews: 226,
+    views: 7793,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21308,11 +21306,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0129",
+    id: "PI-0576",
     slug: "boohooman-ecru-regular-fit-stencil-landscape-hoodie",
     name: "Ecru Regular Fit Stencil Landscape Hoodie",
     brand: "boohooman",
@@ -21324,12 +21321,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "mens-clothing",
       "printed-hoodie"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 720,
+    rating: 3.9,
+    reviews: 207,
+    views: 5332,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21341,11 +21339,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0130",
+    id: "PI-0577",
     slug: "boohooman-oversized-marvel-spider-man-t-shirt",
     name: "Oversized Marvel Spider-Man T-Shirt",
     brand: "boohooman",
@@ -21357,12 +21354,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "licensed-t-shirt"
     ],
-    rating: 4.5,
-    reviews: 71,
-    views: 4362,
+    rating: 4.8,
+    reviews: 188,
+    views: 6873,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21374,11 +21372,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0131",
+    id: "PI-0578",
     slug: "boohooman-white-oversized-interlock-monaco-car-t-shirt",
     name: "White Oversized Interlock Monaco Car T-Shirt",
     brand: "boohooman",
@@ -21392,12 +21389,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
-    rating: 3.6,
-    reviews: 90,
-    views: 3605,
+    rating: 4.1,
+    reviews: 121,
+    views: 3070,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21409,11 +21407,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0132",
+    id: "PI-0579",
     slug: "boohooman-essential-elasticated-twill-cargo-shorts",
     name: "Essential Elasticated Twill Cargo Shorts",
     brand: "boohooman",
@@ -21425,12 +21422,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shorts",
+      "mens-clothing",
       "cargo-shorts"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 168,
+    rating: 3.6,
+    reviews: 102,
+    views: 3837,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21442,11 +21440,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0133",
+    id: "PI-0580",
     slug: "boohooman-white-oversized-monaco-racing-print-t-shirt",
     name: "White Oversized Monaco Racing Print T-Shirt",
     brand: "boohooman",
@@ -21460,12 +21457,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 2357,
+    rating: 3.6,
+    reviews: 206,
+    views: 6307,
+    newIn: true,
     offers: [
       {
         store: "boohooman-store",
@@ -21477,11 +21475,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0134",
+    id: "PI-0581",
     slug: "boohooman-essential-relaxed-fit-denim-jorts",
     name: "Essential Relaxed Fit Denim Jorts",
     brand: "boohooman",
@@ -21495,12 +21492,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "shorts",
+      "mens-clothing",
       "jorts"
     ],
-    rating: 3.9,
-    reviews: 195,
-    views: 6918,
+    rating: 4.1,
+    reviews: 225,
+    views: 4546,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21512,11 +21510,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0135",
+    id: "PI-0582",
     slug: "boohooman-oversized-boxy-floral-puff-print-hoodie",
     name: "Oversized Boxy Floral Puff Print Hoodie",
     brand: "boohooman",
@@ -21530,12 +21527,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "hoodies-sweatshirts",
+      "mens-clothing",
       "printed-hoodie"
     ],
-    rating: 4.4,
-    reviews: 214,
-    views: 7439,
+    rating: 4,
+    reviews: 168,
+    views: 3923,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21547,11 +21545,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0136",
+    id: "PI-0583",
     slug: "boohooman-relaxed-rhinestone-camo-cargo-trousers",
     name: "Relaxed Rhinestone Camo Cargo Trousers",
     brand: "boohooman",
@@ -21563,12 +21560,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "trousers",
+      "mens-clothing",
       "cargo-trousers"
     ],
-    rating: 4.9,
-    reviews: 233,
-    views: 580,
+    rating: 4.5,
+    reviews: 187,
+    views: 7440,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21580,11 +21578,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0137",
+    id: "PI-0584",
     slug: "boohooman-essential-slim-fit-crew-neck-t-shirt",
     name: "Essential Slim Fit Crew Neck T-Shirt",
     brand: "boohooman",
@@ -21596,12 +21593,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "basic-t-shirt"
     ],
-    rating: 4,
-    reviews: 52,
-    views: 1193,
+    rating: 4.2,
+    reviews: 82,
+    views: 4631,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21613,11 +21611,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0138",
+    id: "PI-0585",
     slug: "boohooman-essential-bm-signature-regular-fit-jogger",
     name: "Essential BM Signature Regular Fit Jogger",
     brand: "boohooman",
@@ -21629,12 +21626,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "joggers",
+      "mens-sportswear",
       "basic-joggers"
     ],
     rating: 4.7,
-    reviews: 119,
-    views: 3618,
+    reviews: 101,
+    views: 5502,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21646,11 +21644,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0139",
+    id: "PI-0586",
     slug: "boohooman-oversized-floral-photo-back-print-t-shirt",
     name: "Oversized Floral Photo Back Print T-Shirt",
     brand: "boohooman",
@@ -21664,12 +21661,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "printed-t-shirt"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 6403,
+    rating: 4.6,
+    reviews: 44,
+    views: 6673,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21681,11 +21679,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0140",
+    id: "PI-0587",
     slug: "boohooman-oversized-boxy-bonded-scuba-hooded-tracksuit",
     name: "Oversized Boxy Bonded Scuba Hooded Tracksuit",
     brand: "boohooman",
@@ -21697,12 +21694,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tracksuits",
+      "mens-sportswear",
       "plain-long-tracksuit"
     ],
-    rating: 4,
-    reviews: 66,
-    views: 4149,
+    rating: 3.7,
+    reviews: 63,
+    views: 796,
+    newIn: false,
     offers: [
       {
         store: "boohooman-store",
@@ -21714,11 +21712,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0141",
+    id: "PI-0588",
     slug: "forever-21-100-cotton-crew-tee",
     name: "100% Cotton Crew Tee",
     brand: "forever-21",
@@ -21730,12 +21727,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.9,
-    reviews: 47,
-    views: 6086,
+    rating: 3.8,
+    reviews: 54,
+    views: 1787,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21747,11 +21745,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0142",
+    id: "PI-0589",
     slug: "forever-21-100-cotton-crew-tee-2",
     name: "100% Cotton Crew Tee (2)",
     brand: "forever-21",
@@ -21763,12 +21760,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 3.6,
-    reviews: 104,
-    views: 5147,
+    rating: 4.3,
+    reviews: 73,
+    views: 3754,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21780,11 +21778,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0143",
+    id: "PI-0590",
     slug: "forever-21-100-cotton-v-neck-tee",
     name: "100% Cotton V-Neck Tee",
     brand: "forever-21",
@@ -21796,12 +21793,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.5,
-    reviews: 85,
-    views: 5384,
+    rating: 4.9,
+    reviews: 215,
+    views: 5644,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21813,11 +21811,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0144",
+    id: "PI-0591",
     slug: "forever-21-100-cotton-v-neck-tee-2",
     name: "100% Cotton V-Neck Tee (2)",
     brand: "forever-21",
@@ -21829,12 +21826,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.8,
-    reviews: 190,
-    views: 7361,
+    rating: 4.4,
+    reviews: 196,
+    views: 2209,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21846,11 +21844,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0145",
+    id: "PI-0592",
     slug: "forever-21-1970-graphic-cropped-tank-top",
     name: "1970 Graphic Cropped Tank Top",
     brand: "forever-21",
@@ -21864,12 +21861,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.3,
-    reviews: 171,
-    views: 2662,
+    rating: 4.5,
+    reviews: 53,
+    views: 2050,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21881,11 +21879,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0146",
+    id: "PI-0593",
     slug: "forever-21-1984-varsity-bomber-jacket",
     name: "1984 Varsity Bomber Jacket",
     brand: "forever-21",
@@ -21897,12 +21894,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.4,
-    reviews: 228,
-    views: 4839,
+    rating: 4,
+    reviews: 234,
+    views: 649,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21914,11 +21912,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0147",
+    id: "PI-0594",
     slug: "forever-21-1991-nyc-graphic-raglan-tee",
     name: "1991 NYC Graphic Raglan Tee",
     brand: "forever-21",
@@ -21930,12 +21927,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 3.9,
-    reviews: 209,
-    views: 6500,
+    rating: 4.3,
+    reviews: 139,
+    views: 784,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21947,11 +21945,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0148",
+    id: "PI-0595",
     slug: "forever-21-28-off-the-shoulder-sweater",
     name: "28 Off-the-Shoulder Sweater",
     brand: "forever-21",
@@ -21963,12 +21960,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.2,
-    reviews: 114,
-    views: 7629,
+    rating: 3.8,
+    reviews: 120,
+    views: 771,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -21980,11 +21978,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0149",
+    id: "PI-0596",
     slug: "forever-21-72-ringer-baby-tee",
     name: "72 Ringer Baby Tee",
     brand: "forever-21",
@@ -21996,12 +21993,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 3.7,
-    reviews: 95,
-    views: 5294,
+    rating: 3.9,
+    reviews: 177,
+    views: 1394,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22013,11 +22011,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0150",
+    id: "PI-0597",
     slug: "forever-21-8-varsity-cropped-sweater",
     name: "8 Varsity Cropped Sweater",
     brand: "forever-21",
@@ -22029,12 +22026,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.1,
-    reviews: 57,
-    views: 7956,
+    rating: 4.8,
+    reviews: 158,
+    views: 8061,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22046,11 +22044,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0151",
+    id: "PI-0598",
     slug: "forever-21-84-graphic-pullover",
     name: "84 Graphic Pullover",
     brand: "forever-21",
@@ -22062,12 +22059,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.6,
-    reviews: 76,
-    views: 3287,
+    rating: 3.7,
+    reviews: 63,
+    views: 5980,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22079,11 +22077,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0152",
+    id: "PI-0599",
     slug: "forever-21-89-turtleneck-sweater",
     name: "89 Turtleneck Sweater",
     brand: "forever-21",
@@ -22095,12 +22092,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.5,
-    reviews: 219,
-    views: 5398,
+    rating: 4.6,
+    reviews: 44,
+    views: 2649,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22112,11 +22110,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0153",
+    id: "PI-0600",
     slug: "forever-21-90s-fit-high-rise-jeans",
     name: "90s-Fit High-Rise Jeans",
     brand: "forever-21",
@@ -22128,12 +22125,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 3.6,
-    reviews: 238,
-    views: 5823,
+    rating: 3.7,
+    reviews: 139,
+    views: 6768,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22145,11 +22143,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0154",
+    id: "PI-0601",
     slug: "forever-21-90s-fit-high-rise-straight-jeans",
     name: "90s-Fit High-Rise Straight Jeans",
     brand: "forever-21",
@@ -22161,12 +22158,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.7,
-    reviews: 133,
-    views: 2232,
+    rating: 4.6,
+    reviews: 120,
+    views: 6525,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22178,11 +22176,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0155",
+    id: "PI-0602",
     slug: "forever-21-90s-fit-snap-button-jeans",
     name: "90s-Fit Snap-Button Jeans",
     brand: "forever-21",
@@ -22194,12 +22191,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 3.8,
-    reviews: 152,
-    views: 6117,
+    rating: 4.7,
+    reviews: 177,
+    views: 2914,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22211,11 +22209,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0156",
+    id: "PI-0603",
     slug: "forever-21-a-tribe-called-quest-graphic-tee",
     name: "A Tribe Called Quest Graphic Tee",
     brand: "forever-21",
@@ -22227,12 +22224,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 3.7,
-    reviews: 95,
-    views: 1878,
+    rating: 4.2,
+    reviews: 158,
+    views: 7811,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22244,11 +22242,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0157",
+    id: "PI-0604",
     slug: "forever-21-a-line-mini-skirt",
     name: "A-Line Mini Skirt",
     brand: "forever-21",
@@ -22260,12 +22257,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.2,
-    reviews: 114,
-    views: 3851,
+    rating: 4.3,
+    reviews: 215,
+    views: 1916,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22277,11 +22275,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0158",
+    id: "PI-0605",
     slug: "forever-21-a-line-mini-skirt-2",
     name: "A-Line Mini Skirt (2)",
     brand: "forever-21",
@@ -22293,12 +22290,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.3,
-    reviews: 105,
-    views: 4044,
+    rating: 3.8,
+    reviews: 196,
+    views: 6833,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22310,11 +22308,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0159",
+    id: "PI-0606",
     slug: "forever-21-aaliyah-graphic-baby-tee",
     name: "Aaliyah Graphic Baby Tee",
     brand: "forever-21",
@@ -22326,12 +22323,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
-    rating: 4.8,
-    reviews: 124,
-    views: 3809,
+    rating: 3.9,
+    reviews: 53,
+    views: 1246,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22343,11 +22341,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0160",
+    id: "PI-0607",
     slug: "forever-21-aaliyah-graphic-hoodie",
     name: "Aaliyah Graphic Hoodie",
     brand: "forever-21",
@@ -22359,12 +22356,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "tops-bottoms",
+      "clothing",
       "tops-bottoms"
     ],
     rating: 4.8,
-    reviews: 68,
-    views: 5601,
+    reviews: 234,
+    views: 1401,
+    newIn: false,
     offers: [
       {
         store: "forever-21-store",
@@ -22376,11 +22374,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0161",
+    id: "PI-0608",
     slug: "gap-knit-oversized-crop-t-shirt",
     name: "Knit Oversized Crop T-Shirt",
     brand: "gap",
@@ -22392,12 +22389,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 3.7,
-    reviews: 89,
-    views: 5028,
+    rating: 3.9,
+    reviews: 187,
+    views: 2184,
+    newIn: true,
     offers: [
       {
         store: "gap-store",
@@ -22409,11 +22407,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0162",
+    id: "PI-0609",
     slug: "gap-knit-oversized-crop-t-shirt-2",
     name: "Knit Oversized Crop T-Shirt (2)",
     brand: "gap",
@@ -22425,12 +22422,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.6,
-    reviews: 70,
-    views: 4937,
+    rating: 4.8,
+    reviews: 168,
+    views: 373,
+    newIn: true,
     offers: [
       {
         store: "gap-store",
@@ -22442,11 +22440,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0163",
+    id: "PI-0610",
     slug: "gap-knit-oversized-crop-t-shirt-3",
     name: "Knit Oversized Crop T-Shirt (3)",
     brand: "gap",
@@ -22458,12 +22455,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.1,
-    reviews: 51,
-    views: 8066,
+    rating: 3.8,
+    reviews: 130,
+    views: 1713,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22475,11 +22473,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0164",
+    id: "PI-0611",
     slug: "gap-knit-oversized-crop-t-shirt-4",
     name: "Knit Oversized Crop T-Shirt (4)",
     brand: "gap",
@@ -22491,12 +22488,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.2,
-    reviews: 192,
-    views: 1325,
+    rating: 4.3,
+    reviews: 149,
+    views: 2070,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22508,11 +22506,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0165",
+    id: "PI-0612",
     slug: "gap-knit-oversized-crop-t-shirt-5",
     name: "Knit Oversized Crop T-Shirt (5)",
     brand: "gap",
@@ -22524,12 +22521,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.7,
-    reviews: 211,
-    views: 6928,
+    rating: 4.2,
+    reviews: 92,
+    views: 2711,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22541,11 +22539,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0166",
+    id: "PI-0613",
     slug: "gap-100-cotton-oversized-crop-sweater",
     name: "100% Cotton Oversized Crop Sweater",
     brand: "gap",
@@ -22557,12 +22554,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 3.8,
-    reviews: 230,
-    views: 5501,
+    rating: 4.7,
+    reviews: 111,
+    views: 4628,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22574,11 +22572,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0167",
+    id: "PI-0614",
     slug: "gap-100-cotton-oversized-crop-sweater-2",
     name: "100% Cotton Oversized Crop Sweater (2)",
     brand: "gap",
@@ -22590,12 +22587,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.3,
-    reviews: 49,
-    views: 638,
+    rating: 4.6,
+    reviews: 54,
+    views: 2123,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22607,11 +22605,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0168",
+    id: "PI-0615",
     slug: "gap-100-cotton-oversized-crop-sweater-3",
     name: "100% Cotton Oversized Crop Sweater (3)",
     brand: "gap",
@@ -22623,12 +22620,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 1623,
+    rating: 3.7,
+    reviews: 73,
+    views: 7834,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22640,11 +22638,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0169",
+    id: "PI-0616",
     slug: "gap-100-cotton-oversized-crop-sweater-4",
     name: "100% Cotton Oversized Crop Sweater (4)",
     brand: "gap",
@@ -22656,12 +22653,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 3540,
+    rating: 3.6,
+    reviews: 216,
+    views: 4517,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22673,11 +22671,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0170",
+    id: "PI-0617",
     slug: "gap-100-cotton-oversized-crop-sweater-5",
     name: "100% Cotton Oversized Crop Sweater (5)",
     brand: "gap",
@@ -22689,12 +22686,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.3,
-    reviews: 99,
-    views: 8082,
+    rating: 4.1,
+    reviews: 235,
+    views: 6328,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22706,11 +22704,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0171",
+    id: "PI-0618",
     slug: "gap-knit-relaxed-track-pants",
     name: "Knit Relaxed Track Pants",
     brand: "gap",
@@ -22722,12 +22719,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "sportswear",
       "petite-tops-bottoms"
     ],
-    rating: 4.8,
-    reviews: 118,
-    views: 313,
+    rating: 3.6,
+    reviews: 82,
+    views: 6025,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22739,11 +22737,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0172",
+    id: "PI-0619",
     slug: "gap-knit-relaxed-track-pants-2",
     name: "Knit Relaxed Track Pants (2)",
     brand: "gap",
@@ -22755,12 +22752,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "sportswear",
       "petite-tops-bottoms"
     ],
-    rating: 3.9,
-    reviews: 137,
-    views: 828,
+    rating: 4.1,
+    reviews: 101,
+    views: 6978,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22772,11 +22770,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0173",
+    id: "PI-0620",
     slug: "gap-knit-relaxed-track-pants-3",
     name: "Knit Relaxed Track Pants (3)",
     brand: "gap",
@@ -22788,12 +22785,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "sportswear",
       "petite-tops-bottoms"
     ],
-    rating: 4.4,
-    reviews: 156,
-    views: 7921,
+    rating: 3.9,
+    reviews: 121,
+    views: 7878,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22805,11 +22803,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0174",
+    id: "PI-0621",
     slug: "gap-knit-relaxed-track-pants-4",
     name: "Knit Relaxed Track Pants (4)",
     brand: "gap",
@@ -22821,12 +22818,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "sportswear",
       "petite-tops-bottoms"
     ],
-    rating: 4.9,
-    reviews: 175,
-    views: 6414,
+    rating: 4.8,
+    reviews: 102,
+    views: 5877,
+    newIn: true,
     offers: [
       {
         store: "gap-store",
@@ -22838,11 +22836,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0175",
+    id: "PI-0622",
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt",
     name: "Organic Cotton Oversized Crop Oxford Shirt",
     brand: "gap",
@@ -22854,12 +22851,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
-    reviews: 194,
-    views: 899,
+    rating: 4.3,
+    reviews: 83,
+    views: 1608,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22871,11 +22869,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0176",
+    id: "PI-0623",
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-2",
     name: "Organic Cotton Oversized Crop Oxford Shirt (2)",
     brand: "gap",
@@ -22887,12 +22884,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.5,
-    reviews: 163,
-    views: 7856,
+    rating: 3.8,
+    reviews: 64,
+    views: 4571,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22904,11 +22902,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0177",
+    id: "PI-0624",
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-3",
     name: "Organic Cotton Oversized Crop Oxford Shirt (3)",
     brand: "gap",
@@ -22920,12 +22917,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4,
-    reviews: 144,
-    views: 7923,
+    rating: 4.5,
+    reviews: 197,
+    views: 3850,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22937,11 +22935,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0178",
+    id: "PI-0625",
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-4",
     name: "Organic Cotton Oversized Crop Oxford Shirt (4)",
     brand: "gap",
@@ -22953,12 +22950,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.9,
-    reviews: 125,
-    views: 4294,
+    rating: 4,
+    reviews: 178,
+    views: 5569,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -22970,11 +22968,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0179",
+    id: "PI-0626",
     slug: "gap-organic-cotton-oversized-crop-oxford-shirt-5",
     name: "Organic Cotton Oversized Crop Oxford Shirt (5)",
     brand: "gap",
@@ -22986,12 +22983,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 4.4,
-    reviews: 106,
-    views: 1039,
+    rating: 4.9,
+    reviews: 159,
+    views: 908,
+    newIn: false,
     offers: [
       {
         store: "gap-store",
@@ -23003,11 +23001,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0180",
+    id: "PI-0627",
     slug: "gap-100-linen-oversized-shirt",
     name: "100% Linen Oversized Shirt",
     brand: "gap",
@@ -23019,12 +23016,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "petite-clothing",
+      "clothing",
       "petite-tops-bottoms"
     ],
-    rating: 3.8,
-    reviews: 94,
-    views: 6105,
+    rating: 4.4,
+    reviews: 140,
+    views: 4135,
+    newIn: true,
     offers: [
       {
         store: "gap-store",
@@ -23036,11 +23034,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0181",
+    id: "PI-0628",
     slug: "puma-puma-x-hyrox-deviate-nitro-elite-4-men-s-shoes",
     name: "PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes",
     brand: "puma",
@@ -23055,9 +23052,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.7,
-    reviews: 75,
-    views: 702,
+    rating: 3.7,
+    reviews: 73,
+    views: 1070,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23069,11 +23067,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0182",
+    id: "PI-0629",
     slug: "puma-speedcat-og-sneakers",
     name: "Speedcat OG Sneakers",
     brand: "puma",
@@ -23088,9 +23085,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.8,
-    reviews: 132,
-    views: 7377,
+    rating: 4.6,
+    reviews: 54,
+    views: 6605,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23102,11 +23100,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0183",
+    id: "PI-0630",
     slug: "puma-puma-x-hyrox-deviate-nitro-elite-4-men-s-shoes-white",
     name: "PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (White)",
     brand: "puma",
@@ -23123,9 +23120,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.3,
-    reviews: 113,
-    views: 8084,
+    rating: 4.2,
+    reviews: 200,
+    views: 4587,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23137,11 +23135,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0184",
+    id: "PI-0631",
     slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes",
     name: "FAST-R NITRO Elite 3 Men's Road Running Shoes",
     brand: "puma",
@@ -23156,9 +23153,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.6,
-    reviews: 206,
-    views: 4259,
+    rating: 3.7,
+    reviews: 181,
+    views: 2776,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23170,11 +23168,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0185",
+    id: "PI-0632",
     slug: "puma-speedcat-og-sneakers-shadow-gray",
     name: "Speedcat OG Sneakers (Shadow Gray)",
     brand: "puma",
@@ -23191,9 +23188,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 3.9,
-    reviews: 151,
-    views: 3842,
+    rating: 4.6,
+    reviews: 162,
+    views: 1733,
+    newIn: true,
     offers: [
       {
         store: "puma-store",
@@ -23205,11 +23203,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0186",
+    id: "PI-0633",
     slug: "puma-puma-x-hyrox-deviate-nitro-elite-4-men-s-shoes-mint",
     name: "PUMA x HYROX Deviate NITRO Elite 4 Men's Shoes (Mint)",
     brand: "puma",
@@ -23224,9 +23221,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 3.6,
-    reviews: 168,
-    views: 7069,
+    rating: 4.1,
+    reviews: 143,
+    views: 122,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23238,11 +23236,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0187",
+    id: "PI-0634",
     slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes-white",
     name: "FAST-R NITRO Elite 3 Men's Road Running Shoes (White)",
     brand: "puma",
@@ -23259,9 +23256,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.1,
-    reviews: 187,
-    views: 7312,
+    rating: 3.6,
+    reviews: 124,
+    views: 1527,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23273,11 +23271,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0188",
+    id: "PI-0635",
     slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes-lavender",
     name: "FAST-R NITRO Elite 3 Men's Road Running Shoes (Lavender)",
     brand: "puma",
@@ -23292,9 +23289,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
-    reviews: 130,
-    views: 5295,
+    rating: 4.5,
+    reviews: 105,
+    views: 7028,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23306,11 +23304,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0189",
+    id: "PI-0636",
     slug: "puma-fast-r-nitro-elite-3-showtime-men-s-road-running-shoes",
     name: "FAST-R NITRO Elite 3 Showtime Men's Road Running Shoes",
     brand: "puma",
@@ -23325,9 +23322,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.5,
-    reviews: 149,
-    views: 1062,
+    rating: 4,
+    reviews: 86,
+    views: 4831,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23339,11 +23337,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0190",
+    id: "PI-0637",
     slug: "puma-suede-snake-print-sneakers",
     name: "Suede Snake Print Sneakers",
     brand: "puma",
@@ -23358,9 +23355,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.5,
-    reviews: 83,
-    views: 4712,
+    rating: 4.9,
+    reviews: 67,
+    views: 4470,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23372,11 +23370,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0191",
+    id: "PI-0638",
     slug: "puma-fast-r-nitro-elite-3-men-s-road-running-shoes-red",
     name: "FAST-R NITRO Elite 3 Men's Road Running Shoes (Red)",
     brand: "puma",
@@ -23393,9 +23390,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4,
-    reviews: 64,
-    views: 6523,
+    rating: 4.4,
+    reviews: 48,
+    views: 5901,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23407,11 +23405,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0192",
+    id: "PI-0639",
     slug: "puma-porsche-legacy-speedcat-pepita-sneakers",
     name: "Porsche Legacy Speedcat Pepita Sneakers",
     brand: "puma",
@@ -23426,9 +23423,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.1,
-    reviews: 121,
-    views: 4006,
+    rating: 3.9,
+    reviews: 229,
+    views: 3136,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23440,11 +23438,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0193",
+    id: "PI-0640",
     slug: "puma-suede-xl-sneakers",
     name: "Suede XL Sneakers",
     brand: "puma",
@@ -23459,9 +23456,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 3.6,
-    reviews: 102,
-    views: 981,
+    rating: 3.9,
+    reviews: 177,
+    views: 2748,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23473,11 +23471,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0194",
+    id: "PI-0641",
     slug: "puma-puma-x-saysky-deviate-nitro-elite-4-men-s-road-running-shoes",
     name: "PUMA x SAYSKY Deviate NITRO Elite 4 Men's Road Running Shoes",
     brand: "puma",
@@ -23492,9 +23489,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 3.7,
-    reviews: 159,
-    views: 1580,
+    rating: 4.4,
+    reviews: 196,
+    views: 249,
+    newIn: true,
     offers: [
       {
         store: "puma-store",
@@ -23506,11 +23504,43 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0195",
+    id: "PI-0642",
+    slug: "reebok-women-s-freestyle-hi-shoes",
+    name: "Women's Freestyle Hi Shoes",
+    brand: "reebok",
+    category: "shoes",
+    subcategory: "Shoes",
+    gender: "women",
+    description: "Reebok Women's Freestyle Hi Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000103_SLC_eCom_8611fee9-91f8-4f24-8807-4e3adaa9aa7c_large.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "shoes",
+      "shoes"
+    ],
+    rating: 4.3,
+    reviews: 139,
+    views: 5306,
+    newIn: false,
+    offers: [
+      {
+        store: "reebok-store",
+        price: 6640,
+        originalPrice: 6640,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.reebok.com/products/reebok-f-s-hi-womens-shoes-white-103475",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-0643",
     slug: "puma-beisser-disc-sneakers",
     name: "Beisser Disc Sneakers",
     brand: "puma",
@@ -23525,9 +23555,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.6,
-    reviews: 140,
-    views: 6215,
+    rating: 4.8,
+    reviews: 158,
+    views: 1169,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23539,11 +23570,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0196",
+    id: "PI-0644",
     slug: "puma-deviate-nitro-4-men-s-road-running-shoes",
     name: "Deviate NITRO 4 Men's Road Running Shoes",
     brand: "puma",
@@ -23558,9 +23588,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.7,
-    reviews: 197,
-    views: 4742,
+    rating: 4.5,
+    reviews: 53,
+    views: 7000,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23572,11 +23603,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0197",
+    id: "PI-0645",
     slug: "puma-suede-classic-sneakers",
     name: "Suede Classic Sneakers",
     brand: "puma",
@@ -23591,9 +23621,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.2,
-    reviews: 178,
-    views: 591,
+    rating: 3.6,
+    reviews: 72,
+    views: 5189,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23605,11 +23636,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0198",
+    id: "PI-0646",
     slug: "puma-king-20-ultimate-soccer-cleats",
     name: "KING 20 ULTIMATE Soccer Cleats",
     brand: "puma",
@@ -23624,9 +23654,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.3,
-    reviews: 235,
-    views: 7408,
+    rating: 4.9,
+    reviews: 215,
+    views: 1654,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23638,11 +23669,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0199",
+    id: "PI-0647",
     slug: "puma-puma-x-hyrox-deviate-nitro-4-men-s-shoes",
     name: "PUMA x HYROX Deviate NITRO 4 Men's Shoes",
     brand: "puma",
@@ -23657,9 +23687,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 3.8,
-    reviews: 216,
-    views: 371,
+    rating: 4,
+    reviews: 234,
+    views: 8043,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23671,11 +23702,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0200",
+    id: "PI-0648",
     slug: "puma-puma-x-nahmias-speedcat-sneakers",
     name: "PUMA x NAHMIAS Speedcat Sneakers",
     brand: "puma",
@@ -23690,9 +23720,10 @@ export const generatedProducts: Product[] = [
       "mens-shoes",
       "men-s-shoes-and-sneakers"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3156,
+    rating: 4.1,
+    reviews: 225,
+    views: 5100,
+    newIn: false,
     offers: [
       {
         store: "puma-store",
@@ -23704,11 +23735,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0201",
+    id: "PI-0649",
     slug: "reebok-club-c-revenge-vintage-shoes",
     name: "Club C Revenge Vintage Shoes",
     brand: "reebok",
@@ -23723,9 +23753,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5151,
+    rating: 4.6,
+    reviews: 44,
+    views: 4225,
+    newIn: true,
     offers: [
       {
         store: "reebok-store",
@@ -23737,11 +23768,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0202",
+    id: "PI-0650",
     slug: "reebok-club-c-85-vintage-shoes",
     name: "Club C 85 Vintage Shoes",
     brand: "reebok",
@@ -23756,9 +23786,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 6450,
+    rating: 3.8,
+    reviews: 186,
+    views: 5083,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -23770,11 +23801,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0203",
+    id: "PI-0651",
     slug: "reebok-club-c-85-vintage-shoes-green",
     name: "Club C 85 Vintage Shoes (Green)",
     brand: "reebok",
@@ -23791,9 +23821,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 214,
-    views: 7193,
+    rating: 4.7,
+    reviews: 167,
+    views: 3914,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -23805,11 +23836,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0204",
+    id: "PI-0652",
     slug: "reebok-reebok-x-g-unit-g6-men-s-shoes",
     name: "Reebok x G-Unit G6 Men's Shoes",
     brand: "reebok",
@@ -23821,12 +23851,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 4384,
+    rating: 4.8,
+    reviews: 224,
+    views: 2805,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -23838,11 +23869,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0205",
+    id: "PI-0653",
     slug: "reebok-nano-x5-training-shoes",
     name: "Nano X5 Training Shoes",
     brand: "reebok",
@@ -23857,9 +23887,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 8029,
+    rating: 4.3,
+    reviews: 205,
+    views: 520,
+    newIn: true,
     offers: [
       {
         store: "reebok-store",
@@ -23871,11 +23902,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0206",
+    id: "PI-0654",
     slug: "reebok-club-c-85-vintage-shoes-blue",
     name: "Club C 85 Vintage Shoes (Blue)",
     brand: "reebok",
@@ -23892,9 +23922,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 7406,
+    rating: 4.6,
+    reviews: 110,
+    views: 7649,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -23906,11 +23937,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0207",
+    id: "PI-0655",
     slug: "reebok-classic-leather-shoes-little-kids",
     name: "Classic Leather Shoes - Little Kids",
     brand: "reebok",
@@ -23925,9 +23955,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 5517,
+    rating: 4.1,
+    reviews: 91,
+    views: 1770,
+    newIn: true,
     offers: [
       {
         store: "reebok-store",
@@ -23939,11 +23970,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0208",
+    id: "PI-0656",
     slug: "reebok-angel-reese-1-basketball-shoes",
     name: "Angel Reese 1 Basketball Shoes",
     brand: "reebok",
@@ -23958,9 +23988,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 4388,
+    rating: 4.2,
+    reviews: 148,
+    views: 5895,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -23972,11 +24003,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0209",
+    id: "PI-0657",
     slug: "reebok-nano-x5-training-shoes-red",
     name: "Nano X5 Training Shoes (Red)",
     brand: "reebok",
@@ -23993,9 +24023,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 5513,
+    rating: 3.7,
+    reviews: 129,
+    views: 132,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24007,11 +24038,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0210",
+    id: "PI-0658",
     slug: "reebok-women-s-club-c-85-vintage-shoes",
     name: "Women's Club C 85 Vintage Shoes",
     brand: "reebok",
@@ -24026,9 +24056,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 102,
-    views: 4509,
+    rating: 4,
+    reviews: 234,
+    views: 6851,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24040,44 +24071,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0211",
-    slug: "reebok-women-s-freestyle-hi-shoes",
-    name: "Women's Freestyle Hi Shoes",
-    brand: "reebok",
-    category: "shoes",
-    subcategory: "Shoes",
-    gender: "women",
-    description: "Reebok Women's Freestyle Hi Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn.shopify.com/s/files/1/0862/7834/0912/files/100000103_SLC_eCom_8611fee9-91f8-4f24-8807-4e3adaa9aa7c_large.jpg",
-    colors: [],
-    sizes: [],
-    tags: [
-      "shoes",
-      "shoes"
-    ],
-    rating: 4.3,
-    reviews: 121,
-    views: 3218,
-    offers: [
-      {
-        store: "reebok-store",
-        price: 6640,
-        originalPrice: 6640,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.reebok.com/products/reebok-f-s-hi-womens-shoes-white-103475",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ],
-    newIn: false
-  },
-  {
-    id: "PI-0212",
+    id: "PI-0659",
     slug: "reebok-women-s-freestyle-hi-shoes-2",
     name: "Women's Freestyle Hi Shoes (2)",
     brand: "reebok",
@@ -24092,9 +24089,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.2,
-    reviews: 64,
-    views: 3533,
+    rating: 4.9,
+    reviews: 215,
+    views: 5070,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24106,11 +24104,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0213",
+    id: "PI-0660",
     slug: "reebok-nano-x4-training-shoes",
     name: "Nano X4 Training Shoes",
     brand: "reebok",
@@ -24125,9 +24122,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 83,
-    views: 5936,
+    rating: 4.5,
+    reviews: 187,
+    views: 5234,
+    newIn: true,
     offers: [
       {
         store: "reebok-store",
@@ -24139,11 +24137,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0214",
+    id: "PI-0661",
     slug: "reebok-club-c-85-vintage-shoes-gum",
     name: "Club C 85 Vintage Shoes (Gum)",
     brand: "reebok",
@@ -24158,9 +24155,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 178,
-    views: 7815,
+    rating: 3.6,
+    reviews: 206,
+    views: 7831,
+    newIn: true,
     offers: [
       {
         store: "reebok-store",
@@ -24172,11 +24170,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0215",
+    id: "PI-0662",
     slug: "reebok-club-c-85-shoes",
     name: "Club C 85 Shoes",
     brand: "reebok",
@@ -24191,9 +24188,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.9,
-    reviews: 197,
-    views: 3342,
+    rating: 4.1,
+    reviews: 225,
+    views: 1940,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24205,11 +24203,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0216",
+    id: "PI-0663",
     slug: "reebok-women-s-zig-dynamica-str-shoes",
     name: "Women's Zig Dynamica STR Shoes",
     brand: "reebok",
@@ -24224,9 +24221,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 140,
-    views: 2479,
+    rating: 4.6,
+    reviews: 44,
+    views: 6367,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24238,11 +24236,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0217",
+    id: "PI-0664",
     slug: "reebok-women-s-zig-dynamica-str-shoes-2",
     name: "Women's Zig Dynamica STR Shoes (2)",
     brand: "reebok",
@@ -24257,9 +24254,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 159,
-    views: 2692,
+    rating: 3.7,
+    reviews: 63,
+    views: 1346,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24271,11 +24269,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0218",
+    id: "PI-0665",
     slug: "reebok-nano-x5-edge-training-shoes",
     name: "Nano X5 Edge Training Shoes",
     brand: "reebok",
@@ -24290,9 +24287,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 150,
-    views: 5573,
+    rating: 4.2,
+    reviews: 82,
+    views: 1507,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24304,11 +24302,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0219",
+    id: "PI-0666",
     slug: "reebok-nano-x4-training-shoes-grey",
     name: "Nano X4 Training Shoes (Grey)",
     brand: "reebok",
@@ -24325,9 +24322,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.5,
-    reviews: 169,
-    views: 6586,
+    rating: 4.7,
+    reviews: 101,
+    views: 5600,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24339,11 +24337,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0220",
+    id: "PI-0667",
     slug: "reebok-women-s-nano-x4-training-shoes",
     name: "Women's Nano X4 Training Shoes",
     brand: "reebok",
@@ -24358,9 +24355,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 93,
-    views: 4166,
+    rating: 3.8,
+    reviews: 120,
+    views: 723,
+    newIn: false,
     offers: [
       {
         store: "reebok-store",
@@ -24372,11 +24370,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0668",
     slug: "new-balance-brighton-v2",
     name: "Brighton V2",
     brand: "new-balance",
@@ -24391,9 +24388,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 4.3,
+    reviews: 139,
+    views: 6474,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24405,11 +24403,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0669",
     slug: "new-balance-550-sl",
     name: "550 SL",
     brand: "new-balance",
@@ -24424,9 +24421,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 4.8,
+    reviews: 158,
+    views: 1775,
+    newIn: true,
     offers: [
       {
         store: "new-balance-store",
@@ -24438,11 +24436,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0670",
     slug: "new-balance-997-golf",
     name: "997 Golf",
     brand: "new-balance",
@@ -24458,8 +24455,9 @@ export const generatedProducts: Product[] = [
       "golf-athletic-shoes"
     ],
     rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    reviews: 148,
+    views: 3695,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24471,11 +24469,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0671",
     slug: "new-balance-brighton-v2-w",
     name: "Brighton V2 (W)",
     brand: "new-balance",
@@ -24490,9 +24487,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 4.1,
+    reviews: 167,
+    views: 6060,
+    newIn: true,
     offers: [
       {
         store: "new-balance-store",
@@ -24504,11 +24502,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0672",
     slug: "new-balance-327-golf",
     name: "327 Golf",
     brand: "new-balance",
@@ -24523,9 +24520,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.6,
+    reviews: 186,
+    views: 6599,
+    newIn: true,
     offers: [
       {
         store: "new-balance-store",
@@ -24537,11 +24535,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0673",
     slug: "new-balance-youth-adversary-2-knicker-solid-athletic",
     name: "Youth Adversary 2 Knicker Solid Athletic",
     brand: "new-balance",
@@ -24556,9 +24553,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 3.7,
+    reviews: 205,
+    views: 3682,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24570,11 +24568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0674",
     slug: "new-balance-youth-adversary-2-knicker-piped-athletic",
     name: "Youth Adversary 2 Knicker Piped Athletic",
     brand: "new-balance",
@@ -24590,8 +24587,9 @@ export const generatedProducts: Product[] = [
       "golf-athletic-shoes"
     ],
     rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    reviews: 72,
+    views: 5219,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24603,11 +24601,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-0675",
     slug: "new-balance-youth-adversary-2-pant-piped-tapered",
     name: "Youth Adversary 2 Pant Piped Tapered",
     brand: "new-balance",
@@ -24624,9 +24621,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    rating: 4.9,
+    reviews: 91,
+    views: 7152,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24638,11 +24636,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-0676",
     slug: "new-balance-youth-adversary-2-pant-solid-tapered",
     name: "Youth Adversary 2 Pant Solid Tapered",
     brand: "new-balance",
@@ -24659,9 +24656,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 4,
+    reviews: 110,
+    views: 5725,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24673,11 +24671,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-0677",
     slug: "new-balance-adversary-2-knicker-solid-athletic",
     name: "Adversary 2 Knicker Solid Athletic",
     brand: "new-balance",
@@ -24692,9 +24689,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 4.5,
+    reviews: 129,
+    views: 3806,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24706,11 +24704,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-0678",
     slug: "new-balance-adversary-2-knicker-piped-athletic",
     name: "Adversary 2 Knicker Piped Athletic",
     brand: "new-balance",
@@ -24725,9 +24722,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 3.8,
+    reviews: 196,
+    views: 4985,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24739,11 +24737,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-0679",
     slug: "new-balance-adversary-2-pant-piped-tapered",
     name: "Adversary 2 Pant Piped Tapered",
     brand: "new-balance",
@@ -24760,9 +24757,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 4.3,
+    reviews: 215,
+    views: 3068,
+    newIn: true,
     offers: [
       {
         store: "new-balance-store",
@@ -24774,11 +24772,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-0680",
     slug: "new-balance-adversary-2-pant-solid-tapered",
     name: "Adversary 2 Pant Solid Tapered",
     brand: "new-balance",
@@ -24795,9 +24792,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    rating: 4.7,
+    reviews: 181,
+    views: 3304,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24809,11 +24807,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-0681",
     slug: "new-balance-ultra-cushion",
     name: "Ultra Cushion",
     brand: "new-balance",
@@ -24828,9 +24825,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 3.8,
+    reviews: 200,
+    views: 4699,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24842,11 +24840,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-0682",
     slug: "new-balance-therapeutic-cushion",
     name: "Therapeutic Cushion",
     brand: "new-balance",
@@ -24862,8 +24859,9 @@ export const generatedProducts: Product[] = [
       "golf-athletic-shoes"
     ],
     rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    reviews: 143,
+    views: 1002,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24875,11 +24873,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-0683",
     slug: "new-balance-comfort-fit",
     name: "Comfort Fit",
     brand: "new-balance",
@@ -24895,8 +24892,9 @@ export const generatedProducts: Product[] = [
       "golf-athletic-shoes"
     ],
     rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    reviews: 162,
+    views: 3701,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24908,11 +24906,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-0684",
     slug: "new-balance-flex-cushion",
     name: "Flex Cushion",
     brand: "new-balance",
@@ -24927,9 +24924,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    rating: 4.1,
+    reviews: 105,
+    views: 6052,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24941,11 +24939,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-0685",
     slug: "new-balance-slim-fit",
     name: "Slim Fit",
     brand: "new-balance",
@@ -24960,9 +24957,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 4.6,
+    reviews: 124,
+    views: 3849,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -24974,11 +24972,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-0686",
     slug: "new-balance-running-cushion-cfx",
     name: "Running Cushion CFX",
     brand: "new-balance",
@@ -24994,8 +24991,9 @@ export const generatedProducts: Product[] = [
       "golf-athletic-shoes"
     ],
     rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    reviews: 67,
+    views: 6026,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -25007,11 +25005,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-0687",
     slug: "new-balance-running-support-cfx",
     name: "Running Support CFX",
     brand: "new-balance",
@@ -25026,9 +25023,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "golf-athletic-shoes"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 3.6,
+    reviews: 86,
+    views: 1327,
+    newIn: false,
     offers: [
       {
         store: "new-balance-store",
@@ -25040,11 +25038,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0021",
+    id: "PI-0688",
     slug: "lululemon-lululemon-align-high-rise-pant-28",
     name: "lululemon Align High-Rise Pant 28\"",
     brand: "lululemon",
@@ -25056,12 +25053,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.2,
-    reviews: 228,
-    views: 2503,
+    rating: 4.9,
+    reviews: 229,
+    views: 6048,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25073,11 +25071,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0022",
+    id: "PI-0689",
     slug: "lululemon-lululemon-align-high-rise-pant-25",
     name: "lululemon Align High-Rise Pant 25\"",
     brand: "lululemon",
@@ -25089,12 +25086,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.1,
-    reviews: 171,
-    views: 1030,
+    rating: 4,
+    reviews: 48,
+    views: 1171,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25106,11 +25104,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0023",
+    id: "PI-0690",
     slug: "lululemon-groove-nulu-high-rise-flared-pant-regular",
     name: "Groove Nulu High-Rise Flared Pant Regular",
     brand: "lululemon",
@@ -25124,12 +25121,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.6,
-    reviews: 190,
-    views: 3937,
+    rating: 4,
+    reviews: 162,
+    views: 375,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25141,11 +25139,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0024",
+    id: "PI-0691",
     slug: "lululemon-lululemon-align-no-line-high-rise-pant-28",
     name: "lululemon Align No Line High-Rise Pant 28\"",
     brand: "lululemon",
@@ -25157,12 +25154,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.3,
-    reviews: 85,
-    views: 6536,
+    rating: 4.5,
+    reviews: 181,
+    views: 530,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25174,11 +25172,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0025",
+    id: "PI-0692",
     slug: "lululemon-lululemon-align-high-rise-pant-31",
     name: "lululemon Align High-Rise Pant 31\"",
     brand: "lululemon",
@@ -25190,12 +25187,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.8,
-    reviews: 104,
-    views: 4725,
+    rating: 4.4,
+    reviews: 124,
+    views: 7167,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25207,11 +25205,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0026",
+    id: "PI-0693",
     slug: "lululemon-groove-nulu-high-rise-flared-pant-short",
     name: "Groove Nulu High-Rise Flared Pant Short",
     brand: "lululemon",
@@ -25225,12 +25222,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.7,
-    reviews: 47,
-    views: 7718,
+    rating: 4.9,
+    reviews: 143,
+    views: 7860,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25242,11 +25240,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0027",
+    id: "PI-0694",
     slug: "lululemon-wunder-train-no-line-high-rise-tight-25",
     name: "Wunder Train No Line High-Rise Tight 25\"",
     brand: "lululemon",
@@ -25258,12 +25255,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2267,
+    rating: 4.8,
+    reviews: 86,
+    views: 6189,
+    newIn: true,
     offers: [
       {
         store: "lululemon-store",
@@ -25275,11 +25273,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0028",
+    id: "PI-0695",
     slug: "lululemon-lululemon-glow-up-super-high-rise-tight-25",
     name: "lululemon Glow Up Super-High-Rise Tight 25\"",
     brand: "lululemon",
@@ -25291,12 +25288,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
     rating: 3.9,
-    reviews: 57,
-    views: 5564,
+    reviews: 105,
+    views: 6862,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25308,11 +25306,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0029",
+    id: "PI-0696",
     slug: "lululemon-unrestricted-power-high-rise-tight-25",
     name: "Unrestricted Power High-Rise Tight 25\"",
     brand: "lululemon",
@@ -25324,12 +25321,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 4.4,
-    reviews: 76,
-    views: 3185,
+    rating: 3.8,
+    reviews: 48,
+    views: 7475,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25341,11 +25339,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0030",
+    id: "PI-0697",
     slug: "lululemon-lululemon-align-high-rise-pant-with-pockets-28",
     name: "lululemon Align High-Rise Pant with Pockets 28\"",
     brand: "lululemon",
@@ -25357,12 +25354,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "leggings",
+      "sportswear",
       "women-s-leggings"
     ],
-    rating: 3.6,
-    reviews: 218,
-    views: 6475,
+    rating: 4.3,
+    reviews: 67,
+    views: 7232,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25374,11 +25372,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0031",
+    id: "PI-0698",
     slug: "lululemon-sojourn-jacket",
     name: "Sojourn Jacket",
     brand: "lululemon",
@@ -25390,12 +25387,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.5,
-    reviews: 199,
-    views: 3482,
+    rating: 4.2,
+    reviews: 210,
+    views: 1487,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25407,11 +25405,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0032",
+    id: "PI-0699",
     slug: "lululemon-define-jacket-nulu",
     name: "Define Jacket Nulu",
     brand: "lululemon",
@@ -25423,12 +25420,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.6,
-    reviews: 56,
-    views: 869,
+    rating: 4.7,
+    reviews: 229,
+    views: 4394,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25440,11 +25438,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0033",
+    id: "PI-0700",
     slug: "lululemon-define-jacket-luon",
     name: "Define Jacket Luon",
     brand: "lululemon",
@@ -25456,12 +25453,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.1,
-    reviews: 237,
-    views: 2680,
+    rating: 4.6,
+    reviews: 48,
+    views: 3125,
+    newIn: true,
     offers: [
       {
         store: "lululemon-store",
@@ -25473,11 +25471,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0034",
+    id: "PI-0701",
     slug: "lululemon-sleek-city-jacket",
     name: "Sleek City Jacket",
     brand: "lululemon",
@@ -25489,12 +25486,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.4,
-    reviews: 142,
-    views: 5361,
+    rating: 4.1,
+    reviews: 229,
+    views: 4936,
+    newIn: true,
     offers: [
       {
         store: "lululemon-store",
@@ -25506,11 +25504,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0035",
+    id: "PI-0702",
     slug: "lululemon-define-cropped-jacket-nulu",
     name: "Define Cropped Jacket Nulu",
     brand: "lululemon",
@@ -25522,12 +25519,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 3.9,
-    reviews: 123,
-    views: 5718,
+    rating: 3.6,
+    reviews: 210,
+    views: 667,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25539,11 +25537,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0036",
+    id: "PI-0703",
     slug: "lululemon-breathable-lightweight-training-jacket",
     name: "Breathable Lightweight Training Jacket",
     brand: "lululemon",
@@ -25555,12 +25552,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "sportswear",
       "jackets-outerwear"
     ],
-    rating: 4,
-    reviews: 180,
-    views: 6359,
+    rating: 4.5,
+    reviews: 191,
+    views: 2122,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25572,11 +25570,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0037",
+    id: "PI-0704",
     slug: "lululemon-women-s-cross-chill-performance-jacket",
     name: "Women's Cross Chill Performance Jacket",
     brand: "lululemon",
@@ -25588,12 +25585,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.9,
-    reviews: 161,
-    views: 276,
+    rating: 4,
+    reviews: 172,
+    views: 3433,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25605,11 +25603,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0038",
+    id: "PI-0705",
     slug: "lululemon-court-rival-tennis-track-jacket",
     name: "Court Rival Tennis Track Jacket",
     brand: "lululemon",
@@ -25621,12 +25618,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "sportswear",
       "jackets-outerwear"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2237,
+    rating: 4.9,
+    reviews: 153,
+    views: 4548,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25638,11 +25636,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0039",
+    id: "PI-0706",
     slug: "lululemon-scuba-windbreaker",
     name: "Scuba Windbreaker",
     brand: "lululemon",
@@ -25654,12 +25651,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.7,
-    reviews: 47,
-    views: 3902,
+    rating: 4.4,
+    reviews: 134,
+    views: 5537,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25671,11 +25669,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0040",
+    id: "PI-0707",
     slug: "lululemon-daydrift-jacket",
     name: "Daydrift Jacket",
     brand: "lululemon",
@@ -25687,12 +25684,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "jackets-outerwear"
     ],
-    rating: 4.1,
-    reviews: 223,
-    views: 2550,
+    rating: 3.9,
+    reviews: 115,
+    views: 4906,
+    newIn: false,
     offers: [
       {
         store: "lululemon-store",
@@ -25704,11 +25702,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0041",
+    id: "PI-0708",
     slug: "gymshark-vital-seamless-midi-zip-2-0-pullover",
     name: "Vital Seamless Midi Zip 2.0 Pullover",
     brand: "gymshark",
@@ -25720,12 +25717,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "track-top"
     ],
-    rating: 4.6,
-    reviews: 42,
-    views: 3973,
+    rating: 4.8,
+    reviews: 96,
+    views: 1277,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25737,11 +25735,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0042",
+    id: "PI-0709",
     slug: "gymshark-vital-regular-leggings",
     name: "Vital Regular Leggings",
     brand: "gymshark",
@@ -25753,12 +25750,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "full-length"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 7384,
+    rating: 4.3,
+    reviews: 77,
+    views: 6720,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25770,11 +25768,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0043",
+    id: "PI-0710",
     slug: "gymshark-vital-sports-bra",
     name: "Vital Sports Bra",
     brand: "gymshark",
@@ -25786,12 +25783,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "scoop-neck"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6123,
+    rating: 4.7,
+    reviews: 239,
+    views: 2486,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25803,11 +25801,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0044",
+    id: "PI-0711",
     slug: "gymshark-vital-tank-with-shelf",
     name: "Vital Tank With Shelf",
     brand: "gymshark",
@@ -25821,12 +25818,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "tanks"
     ],
-    rating: 4.9,
-    reviews: 147,
-    views: 7798,
+    rating: 3.8,
+    reviews: 58,
+    views: 4037,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25838,11 +25836,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0045",
+    id: "PI-0712",
     slug: "gymshark-soft-sculpt-leggings",
     name: "Soft Sculpt Leggings",
     brand: "gymshark",
@@ -25854,12 +25851,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "full-length"
     ],
-    rating: 4,
-    reviews: 166,
-    views: 2321,
+    rating: 4.3,
+    reviews: 77,
+    views: 792,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25871,11 +25869,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0046",
+    id: "PI-0713",
     slug: "gymshark-training-oversized-boxy-sweatshirt",
     name: "Training Oversized Boxy Sweatshirt",
     brand: "gymshark",
@@ -25887,12 +25884,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "crew"
     ],
-    rating: 4.5,
-    reviews: 185,
-    views: 2356,
+    rating: 4.8,
+    reviews: 96,
+    views: 6187,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25904,11 +25902,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0047",
+    id: "PI-0714",
     slug: "gymshark-vital-sweetheart-neck-crop-top",
     name: "Vital Sweetheart Neck Crop Top",
     brand: "gymshark",
@@ -25920,12 +25917,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "crop-top"
     ],
-    rating: 3.6,
-    reviews: 204,
-    views: 439,
+    rating: 4.1,
+    reviews: 163,
+    views: 7862,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25937,11 +25935,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0048",
+    id: "PI-0715",
     slug: "gymshark-cosy-luxe-straight-leg-regular-joggers",
     name: "Cosy Luxe Straight Leg Regular Joggers",
     brand: "gymshark",
@@ -25953,12 +25950,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "joggers"
     ],
-    rating: 4.3,
-    reviews: 71,
-    views: 1618,
+    rating: 4.6,
+    reviews: 182,
+    views: 2385,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -25970,11 +25968,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0049",
+    id: "PI-0716",
     slug: "gymshark-washed-pastel-baby-tee",
     name: "Washed Pastel Baby Tee",
     brand: "gymshark",
@@ -25986,12 +25983,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "crew-neck"
     ],
-    rating: 4.8,
-    reviews: 90,
-    views: 4627,
+    rating: 3.7,
+    reviews: 201,
+    views: 2420,
+    newIn: true,
     offers: [
       {
         store: "gymshark-store",
@@ -26003,11 +26001,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0050",
+    id: "PI-0717",
     slug: "gymshark-twist-front-sports-bra",
     name: "Twist Front Sports Bra",
     brand: "gymshark",
@@ -26019,12 +26016,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "scoop-neck"
     ],
-    rating: 4,
-    reviews: 232,
-    views: 5051,
+    rating: 4.2,
+    reviews: 220,
+    views: 503,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26036,11 +26034,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0051",
+    id: "PI-0718",
     slug: "gymshark-lift-seamless-high-rise-shorts",
     name: "Lift Seamless High-Rise Shorts",
     brand: "gymshark",
@@ -26052,12 +26049,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "tight"
     ],
     rating: 4.9,
-    reviews: 213,
-    views: 3240,
+    reviews: 87,
+    views: 1682,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26069,11 +26067,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0052",
+    id: "PI-0719",
     slug: "gymshark-soft-sculpt-zip-up-jacket",
     name: "Soft Sculpt Zip Up Jacket",
     brand: "gymshark",
@@ -26085,12 +26082,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "track-top"
     ],
-    rating: 4.4,
-    reviews: 194,
-    views: 7509,
+    rating: 4,
+    reviews: 106,
+    views: 4563,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26102,11 +26100,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0053",
+    id: "PI-0720",
     slug: "gymshark-featherform-tank",
     name: "FeatherForm Tank",
     brand: "gymshark",
@@ -26120,12 +26117,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "tanks"
     ],
-    rating: 3.9,
-    reviews: 175,
-    views: 2058,
+    rating: 4.8,
+    reviews: 82,
+    views: 3713,
+    newIn: true,
     offers: [
       {
         store: "gymshark-store",
@@ -26137,11 +26135,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0054",
+    id: "PI-0721",
     slug: "gymshark-vital-seamless-shorts",
     name: "Vital Seamless Shorts",
     brand: "gymshark",
@@ -26153,12 +26150,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "tight"
     ],
-    rating: 4.8,
-    reviews: 156,
-    views: 3497,
+    rating: 3.9,
+    reviews: 101,
+    views: 7014,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26170,11 +26168,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0055",
+    id: "PI-0722",
     slug: "gymshark-soft-sculpt-shorts",
     name: "Soft Sculpt Shorts",
     brand: "gymshark",
@@ -26186,12 +26183,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "tight"
     ],
-    rating: 4.3,
-    reviews: 137,
-    views: 4484,
+    rating: 3.8,
+    reviews: 44,
+    views: 1191,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26203,11 +26201,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0056",
+    id: "PI-0723",
     slug: "gymshark-training-oversized-boxy-sweatshirt-purple",
     name: "Training Oversized Boxy Sweatshirt (Purple)",
     brand: "gymshark",
@@ -26221,12 +26218,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "crew"
     ],
-    rating: 3.8,
-    reviews: 118,
-    views: 5473,
+    rating: 4.3,
+    reviews: 63,
+    views: 2852,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26238,11 +26236,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0057",
+    id: "PI-0724",
     slug: "gymshark-lift-seamless-tank-with-shelf",
     name: "Lift Seamless Tank with Shelf",
     brand: "gymshark",
@@ -26256,12 +26253,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "sleeveless"
     ],
-    rating: 4.7,
-    reviews: 99,
-    views: 4970,
+    rating: 4.2,
+    reviews: 206,
+    views: 501,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26273,11 +26271,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0058",
+    id: "PI-0725",
     slug: "gymshark-cosy-luxe-hoodie",
     name: "Cosy Luxe Hoodie",
     brand: "gymshark",
@@ -26289,12 +26286,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "hoodie"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6899,
+    rating: 4.7,
+    reviews: 225,
+    views: 1734,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26306,11 +26304,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0059",
+    id: "PI-0726",
     slug: "gymshark-flutter-woven-shorts",
     name: "Flutter Woven Shorts",
     brand: "gymshark",
@@ -26322,12 +26319,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "loose"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 6656,
+    rating: 4.6,
+    reviews: 168,
+    views: 1499,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26339,11 +26337,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0060",
+    id: "PI-0727",
     slug: "gymshark-blush-seamless-light-support-sports-bra",
     name: "Blush Seamless Light Support Sports Bra",
     brand: "gymshark",
@@ -26355,12 +26352,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "activewear",
+      "sportswear",
       "square-neck"
     ],
-    rating: 3.9,
-    reviews: 107,
-    views: 4768,
+    rating: 3.7,
+    reviews: 187,
+    views: 1736,
+    newIn: false,
     offers: [
       {
         store: "gymshark-store",
@@ -26372,11 +26370,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0061",
+    id: "PI-0728",
     slug: "columbia-timber-meadow-mtr-fleece-half-zip-women-s",
     name: "Timber Meadow MTR Fleece Half-Zip - Women's",
     brand: "columbia",
@@ -26388,12 +26385,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.8,
-    reviews: 88,
-    views: 4781,
+    rating: 4.6,
+    reviews: 234,
+    views: 5657,
+    newIn: true,
     offers: [
       {
         store: "rei",
@@ -26405,11 +26403,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0062",
+    id: "PI-0729",
     slug: "columbia-hikebound-ii-rain-jacket-women-s",
     name: "Hikebound II Rain Jacket - Women's",
     brand: "columbia",
@@ -26421,12 +26418,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.9,
-    reviews: 145,
-    views: 4158,
+    rating: 3.7,
+    reviews: 53,
+    views: 7986,
+    newIn: true,
     offers: [
       {
         store: "rei",
@@ -26438,11 +26436,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0063",
+    id: "PI-0730",
     slug: "columbia-hikebound-ii-jacket-men-s",
     name: "Hikebound II Jacket - Men's",
     brand: "columbia",
@@ -26454,12 +26451,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.4,
-    reviews: 126,
-    views: 5491,
+    rating: 4.7,
+    reviews: 91,
+    views: 4704,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26471,11 +26469,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0064",
+    id: "PI-0731",
     slug: "columbia-spirevalley-cropped-wind-jacket-women-s",
     name: "SpireValley Cropped Wind Jacket - Women's",
     brand: "columbia",
@@ -26487,12 +26484,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 332,
+    rating: 4.2,
+    reviews: 72,
+    views: 4717,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26504,11 +26502,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0065",
+    id: "PI-0732",
     slug: "columbia-hikebound-ii-long-jacket-women-s",
     name: "Hikebound II Long Jacket - Women's",
     brand: "columbia",
@@ -26520,12 +26517,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 7521,
+    rating: 4.3,
+    reviews: 129,
+    views: 4094,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26537,11 +26535,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0066",
+    id: "PI-0733",
     slug: "columbia-benton-springs-full-zip-fleece-jacket-women-s",
     name: "Benton Springs Full-Zip Fleece Jacket - Women's",
     brand: "columbia",
@@ -26553,12 +26550,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.1,
-    reviews: 221,
-    views: 7362,
+    rating: 3.8,
+    reviews: 110,
+    views: 5427,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26570,11 +26568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0067",
+    id: "PI-0734",
     slug: "columbia-iris-canyon-2-in-1-adapt-jacket-women-s",
     name: "Iris Canyon 2-in-1 Adapt Jacket - Women's",
     brand: "columbia",
@@ -26586,12 +26583,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.6,
-    reviews: 202,
-    views: 3337,
+    rating: 3.9,
+    reviews: 167,
+    views: 396,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26603,11 +26601,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0068",
+    id: "PI-0735",
     slug: "columbia-watertight-ii-jacket-boys",
     name: "Watertight II Jacket - Boys'",
     brand: "columbia",
@@ -26619,12 +26616,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.1,
-    reviews: 155,
-    views: 6520,
+    rating: 4.8,
+    reviews: 148,
+    views: 7457,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26636,11 +26634,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0069",
+    id: "PI-0736",
     slug: "columbia-ampli-dry-ii-shell-jacket-women-s",
     name: "Ampli-Dry II Shell Jacket - Women's",
     brand: "columbia",
@@ -26652,12 +26649,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.6,
-    reviews: 136,
-    views: 1829,
+    rating: 4.9,
+    reviews: 205,
+    views: 7298,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26669,11 +26667,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0070",
+    id: "PI-0737",
     slug: "columbia-trailborne-wind-jacket-men-s",
     name: "Trailborne Wind Jacket - Men's",
     brand: "columbia",
@@ -26685,12 +26682,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4,
-    reviews: 98,
-    views: 3649,
+    rating: 4.4,
+    reviews: 186,
+    views: 3401,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26702,11 +26700,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0071",
+    id: "PI-0738",
     slug: "columbia-explorers-edge-ii-insulated-jacket-women-s",
     name: "Explorers Edge II Insulated Jacket - Women's",
     brand: "columbia",
@@ -26718,12 +26715,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.5,
-    reviews: 117,
-    views: 6950,
+    rating: 4.9,
+    reviews: 139,
+    views: 6584,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26735,11 +26733,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0072",
+    id: "PI-0739",
     slug: "columbia-steens-mt-ii-fleece-jacket-boys",
     name: "Steens Mt II Fleece Jacket - Boys'",
     brand: "columbia",
@@ -26751,12 +26748,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
     rating: 4.4,
-    reviews: 60,
-    views: 1127,
+    reviews: 120,
+    views: 1765,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26768,11 +26766,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0073",
+    id: "PI-0740",
     slug: "columbia-fire-side-ii-sherpa-fleece-full-zip-jacket-women-s",
     name: "Fire Side II Sherpa Fleece Full-Zip Jacket - Women's",
     brand: "columbia",
@@ -26784,12 +26781,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.9,
-    reviews: 79,
-    views: 4748,
+    rating: 4.6,
+    reviews: 100,
+    views: 6833,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26801,11 +26799,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0074",
+    id: "PI-0741",
     slug: "columbia-northwest-explorer-3l-shell-jacket-men-s",
     name: "Northwest Explorer 3L Shell Jacket - Men's",
     brand: "columbia",
@@ -26817,12 +26814,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.8,
-    reviews: 222,
-    views: 7099,
+    rating: 3.7,
+    reviews: 119,
+    views: 6140,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26834,11 +26832,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0075",
+    id: "PI-0742",
     slug: "columbia-pike-lake-ii-hooded-insulated-jacket-kids",
     name: "Pike Lake II Hooded Insulated Jacket - Kids'",
     brand: "columbia",
@@ -26850,12 +26847,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.9,
-    reviews: 41,
-    views: 1798,
+    rating: 4.2,
+    reviews: 138,
+    views: 6329,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26867,11 +26865,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0076",
+    id: "PI-0743",
     slug: "columbia-arcadia-ii-jacket-girls",
     name: "Arcadia II Jacket - Girls'",
     brand: "columbia",
@@ -26883,12 +26880,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.8,
-    reviews: 184,
-    views: 1435,
+    rating: 4.7,
+    reviews: 157,
+    views: 4702,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26900,11 +26898,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0077",
+    id: "PI-0744",
     slug: "columbia-hikebound-ii-jacket-boys",
     name: "Hikebound II Jacket - Boys'",
     brand: "columbia",
@@ -26916,12 +26913,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.3,
-    reviews: 203,
-    views: 1672,
+    rating: 4,
+    reviews: 224,
+    views: 3059,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26933,11 +26931,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0078",
+    id: "PI-0745",
     slug: "columbia-mountain-croo-iii-mid-down-jacket-women-s",
     name: "Mountain Croo III Mid Down Jacket - Women's",
     brand: "columbia",
@@ -26949,12 +26946,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.8,
-    reviews: 50,
-    views: 5593,
+    rating: 4.5,
+    reviews: 43,
+    views: 2096,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26966,11 +26964,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0079",
+    id: "PI-0746",
     slug: "columbia-northwest-explorer-3l-shell-jacket-women-s",
     name: "Northwest Explorer 3L Shell Jacket - Women's",
     brand: "columbia",
@@ -26982,12 +26979,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.3,
-    reviews: 69,
-    views: 190,
+    rating: 3.6,
+    reviews: 62,
+    views: 3949,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -26999,11 +26997,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0080",
+    id: "PI-0747",
     slug: "columbia-trailborne-insulated-jacket-women-s",
     name: "Trailborne Insulated Jacket - Women's",
     brand: "columbia",
@@ -27015,12 +27012,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 4058,
+    rating: 4.1,
+    reviews: 81,
+    views: 1806,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27032,11 +27030,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0081",
+    id: "PI-0748",
     slug: "the-north-face-antora-rain-hoodie-women-s",
     name: "Antora Rain Hoodie - Women's",
     brand: "the-north-face",
@@ -27048,12 +27045,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.8,
-    reviews: 214,
-    views: 4415,
+    rating: 4.8,
+    reviews: 148,
+    views: 1159,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27065,11 +27063,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0082",
+    id: "PI-0749",
     slug: "the-north-face-antora-rain-hoodie-men-s",
     name: "Antora Rain Hoodie - Men's",
     brand: "the-north-face",
@@ -27081,12 +27078,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 1500,
+    rating: 3.9,
+    reviews: 167,
+    views: 4844,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27098,11 +27096,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0083",
+    id: "PI-0750",
     slug: "the-north-face-hydrenalite-down-hoodie-women-s",
     name: "Hydrenalite Down Hoodie - Women's",
     brand: "the-north-face",
@@ -27114,12 +27111,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 3417,
+    rating: 4.5,
+    reviews: 109,
+    views: 2082,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27131,11 +27129,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0084",
+    id: "PI-0751",
     slug: "the-north-face-yumiori-off-peak-full-zip-jacket-women-s",
     name: "Yumiori Off Peak Full-Zip Jacket - Women's",
     brand: "the-north-face",
@@ -27147,12 +27144,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 6294,
+    rating: 4,
+    reviews: 90,
+    views: 617,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27164,11 +27162,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0085",
+    id: "PI-0752",
     slug: "the-north-face-alta-vista-rain-jacket-women-s",
     name: "Alta Vista Rain Jacket - Women's",
     brand: "the-north-face",
@@ -27180,12 +27177,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 7525,
+    rating: 4.9,
+    reviews: 71,
+    views: 364,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27197,11 +27195,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0086",
+    id: "PI-0753",
     slug: "the-north-face-alta-vista-rain-jacket-men-s",
     name: "Alta Vista Rain Jacket - Men's",
     brand: "the-north-face",
@@ -27213,12 +27210,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 3320,
+    rating: 4.4,
+    reviews: 52,
+    views: 961,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27230,11 +27228,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0087",
+    id: "PI-0754",
     slug: "the-north-face-yumiori-off-peak-half-zip-jacket-women-s",
     name: "Yumiori Off Peak Half-Zip Jacket - Women's",
     brand: "the-north-face",
@@ -27246,12 +27243,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 5131,
+    rating: 3.9,
+    reviews: 233,
+    views: 530,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27263,11 +27261,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0088",
+    id: "PI-0755",
     slug: "the-north-face-retro-denali-jacket-men-s",
     name: "Retro Denali Jacket - Men's",
     brand: "the-north-face",
@@ -27279,12 +27276,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.9,
-    reviews: 43,
-    views: 2670,
+    rating: 4.8,
+    reviews: 214,
+    views: 5405,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27296,11 +27294,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0089",
+    id: "PI-0756",
     slug: "the-north-face-tnf-range-down-hooded-jacket-women-s",
     name: "TNF Range Down Hooded Jacket - Women's",
     brand: "the-north-face",
@@ -27312,12 +27309,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4,
-    reviews: 62,
-    views: 8103,
+    rating: 4.3,
+    reviews: 195,
+    views: 6128,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27329,11 +27327,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0090",
+    id: "PI-0757",
     slug: "the-north-face-tek-approach-jacket-men-s",
     name: "Tek Approach Jacket - Men's",
     brand: "the-north-face",
@@ -27345,12 +27342,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 1993,
+    rating: 3.8,
+    reviews: 176,
+    views: 3363,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27362,11 +27360,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0091",
+    id: "PI-0758",
     slug: "the-north-face-tek-approach-jacket-women-s",
     name: "Tek Approach Jacket - Women's",
     brand: "the-north-face",
@@ -27378,12 +27375,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 740,
+    rating: 4.7,
+    reviews: 157,
+    views: 5494,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27395,11 +27393,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0092",
+    id: "PI-0759",
     slug: "the-north-face-antora-rain-jacket-girls",
     name: "Antora Rain Jacket - Girls'",
     brand: "the-north-face",
@@ -27411,12 +27408,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.6,
-    reviews: 166,
-    views: 559,
+    rating: 4.2,
+    reviews: 138,
+    views: 3807,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27428,11 +27426,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0093",
+    id: "PI-0760",
     slug: "the-north-face-cedar-trail-grid-fleece-quarter-zip-pullover-men-s",
     name: "Cedar Trail Grid Fleece Quarter-Zip Pullover - Men's",
     brand: "the-north-face",
@@ -27444,12 +27441,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.5,
-    reviews: 147,
-    views: 5798,
+    rating: 4.2,
+    reviews: 234,
+    views: 6411,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27461,11 +27459,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0094",
+    id: "PI-0761",
     slug: "the-north-face-thermoball-hooded-jacket-kids",
     name: "ThermoBall Hooded Jacket - Kids'",
     brand: "the-north-face",
@@ -27477,12 +27474,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.8,
-    reviews: 80,
-    views: 1557,
+    rating: 3.7,
+    reviews: 215,
+    views: 4694,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27494,11 +27492,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0095",
+    id: "PI-0762",
     slug: "the-north-face-valley-view-jacket-men-s",
     name: "Valley View Jacket - Men's",
     brand: "the-north-face",
@@ -27510,12 +27507,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "mens-clothing",
       "outerwear"
     ],
-    rating: 4.7,
-    reviews: 61,
-    views: 4520,
+    rating: 3.8,
+    reviews: 72,
+    views: 6731,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27527,11 +27525,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0096",
+    id: "PI-0763",
     slug: "the-north-face-reversible-perrito-hooded-insulated-jacket-boys",
     name: "Reversible Perrito Hooded Insulated Jacket - Boys'",
     brand: "the-north-face",
@@ -27543,12 +27540,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.2,
-    reviews: 42,
-    views: 251,
+    rating: 4.7,
+    reviews: 53,
+    views: 4920,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27560,11 +27558,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0097",
+    id: "PI-0764",
     slug: "the-north-face-thermoball-hooded-insulated-jacket-kids",
     name: "ThermoBall Hooded Insulated Jacket - Kids'",
     brand: "the-north-face",
@@ -27576,12 +27573,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 3.7,
-    reviews: 223,
-    views: 5766,
+    rating: 3.6,
+    reviews: 158,
+    views: 5425,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27593,11 +27591,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0098",
+    id: "PI-0765",
     slug: "the-north-face-lhotse-lt-insulated-jacket-women-s",
     name: "Lhotse LT Insulated Jacket - Women's",
     brand: "the-north-face",
@@ -27609,12 +27606,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5599,
+    rating: 4.5,
+    reviews: 139,
+    views: 5782,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27626,11 +27624,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0099",
+    id: "PI-0766",
     slug: "the-north-face-hikesteller-parka-women-s",
     name: "Hikesteller Parka - Women's",
     brand: "the-north-face",
@@ -27642,12 +27639,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3348,
+    rating: 4.6,
+    reviews: 196,
+    views: 6423,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27659,11 +27657,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0100",
+    id: "PI-0767",
     slug: "the-north-face-quest-mono-jacket-women-s",
     name: "Quest Mono Jacket - Women's",
     brand: "the-north-face",
@@ -27675,12 +27672,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jackets",
+      "clothing",
       "outerwear"
     ],
-    rating: 4.6,
-    reviews: 62,
-    views: 1617,
+    rating: 4.1,
+    reviews: 177,
+    views: 340,
+    newIn: false,
     offers: [
       {
         store: "rei",
@@ -27692,11 +27690,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0101",
+    id: "PI-0768",
     slug: "ralph-lauren-polo-black-eau-de-toilette-spray",
     name: "Polo Black Eau de Toilette Spray",
     brand: "ralph-lauren",
@@ -27710,12 +27707,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "fragrance",
+      "beauty",
       "fragrance"
     ],
-    rating: 4.1,
-    reviews: 43,
-    views: 4858,
+    rating: 4.4,
+    reviews: 82,
+    views: 2301,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27727,11 +27725,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0102",
+    id: "PI-0769",
     slug: "ralph-lauren-3-pack-slim-fit-crewneck-t-shirt",
     name: "3-Pack Slim Fit Crewneck T-Shirt",
     brand: "ralph-lauren",
@@ -27743,12 +27740,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "t-shirts",
+      "mens-clothing",
       "t-shirts"
     ],
-    rating: 4.2,
-    reviews: 100,
-    views: 439,
+    rating: 3.9,
+    reviews: 63,
+    views: 3838,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27760,11 +27758,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0103",
+    id: "PI-0770",
     slug: "ralph-lauren-floral-mesh-polo",
     name: "Floral Mesh Polo",
     brand: "ralph-lauren",
@@ -27778,12 +27775,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "polos",
+      "mens-clothing",
       "polos"
     ],
-    rating: 3.7,
-    reviews: 81,
-    views: 2300,
+    rating: 4.3,
+    reviews: 225,
+    views: 5228,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27795,11 +27793,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0104",
+    id: "PI-0771",
     slug: "ralph-lauren-sailboat-print-camp-shirt",
     name: "Sailboat Print Camp Shirt",
     brand: "ralph-lauren",
@@ -27811,12 +27808,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shirts",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 645,
+    rating: 4.8,
+    reviews: 44,
+    views: 2567,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27828,11 +27826,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0105",
+    id: "PI-0772",
     slug: "ralph-lauren-stripe-cutoff-denim-carpenter-shorts",
     name: "Stripe Cutoff Denim Carpenter Shorts",
     brand: "ralph-lauren",
@@ -27846,12 +27843,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "shorts",
+      "mens-clothing",
       "shorts"
     ],
     rating: 4.7,
-    reviews: 119,
-    views: 7034,
+    reviews: 187,
+    views: 1094,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27863,11 +27861,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0106",
+    id: "PI-0773",
     slug: "ralph-lauren-sullivan-slim-tapered-leg-knit-pants",
     name: "Sullivan Slim Tapered Leg Knit Pants",
     brand: "ralph-lauren",
@@ -27881,12 +27878,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "pants",
+      "mens-clothing",
       "pants"
     ],
-    rating: 4.8,
-    reviews: 176,
-    views: 3499,
+    rating: 3.8,
+    reviews: 206,
+    views: 4239,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27898,11 +27896,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0107",
+    id: "PI-0774",
     slug: "ralph-lauren-relaxed-tapered-ankle-jeans",
     name: "Relaxed Tapered Ankle Jeans",
     brand: "ralph-lauren",
@@ -27916,12 +27913,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "jeans",
+      "clothing",
       "jeans"
     ],
-    rating: 4.3,
-    reviews: 157,
-    views: 1688,
+    rating: 4.9,
+    reviews: 101,
+    views: 1064,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27933,11 +27931,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0108",
+    id: "PI-0775",
     slug: "ralph-lauren-polo-earth-eau-de-toilette-set",
     name: "Polo Earth Eau de Toilette Set",
     brand: "ralph-lauren",
@@ -27949,12 +27946,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "fragrance",
+      "beauty",
       "fragrance"
     ],
-    rating: 4.8,
-    reviews: 110,
-    views: 1735,
+    rating: 4,
+    reviews: 120,
+    views: 2875,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27966,11 +27964,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0109",
+    id: "PI-0776",
     slug: "ralph-lauren-mercerized-cotton-sleep-t-shirt",
     name: "Mercerized Cotton Sleep T-Shirt",
     brand: "ralph-lauren",
@@ -27982,12 +27979,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "sleepwear",
+      "mens-clothing",
       "sleepwear"
     ],
-    rating: 4.3,
-    reviews: 91,
-    views: 3342,
+    rating: 3.9,
+    reviews: 63,
+    views: 7654,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -27999,11 +27997,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0110",
+    id: "PI-0777",
     slug: "ralph-lauren-classic-fit-plaid-cotton-oxford-button-down-shirt",
     name: "Classic Fit Plaid Cotton Oxford Button-Down Shirt",
     brand: "ralph-lauren",
@@ -28015,12 +28012,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shirts",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 4.9,
-    reviews: 59,
-    views: 2464,
+    rating: 4.4,
+    reviews: 82,
+    views: 5333,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28032,11 +28030,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0111",
+    id: "PI-0778",
     slug: "ralph-lauren-floral-mesh-polo-2",
     name: "Floral Mesh Polo (2)",
     brand: "ralph-lauren",
@@ -28050,12 +28047,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "polos",
+      "mens-clothing",
       "polos"
     ],
-    rating: 4.4,
-    reviews: 40,
-    views: 2707,
+    rating: 4.5,
+    reviews: 73,
+    views: 5628,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28067,11 +28065,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0112",
+    id: "PI-0779",
     slug: "ralph-lauren-sailboat-print-camp-shirt-2",
     name: "Sailboat Print Camp Shirt (2)",
     brand: "ralph-lauren",
@@ -28083,12 +28080,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shirts",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 4.5,
-    reviews: 97,
-    views: 2158,
+    rating: 3.6,
+    reviews: 92,
+    views: 3121,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28100,11 +28098,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0113",
+    id: "PI-0780",
     slug: "ralph-lauren-stripe-cutoff-denim-carpenter-shorts-2",
     name: "Stripe Cutoff Denim Carpenter Shorts (2)",
     brand: "ralph-lauren",
@@ -28118,12 +28115,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "shorts",
+      "mens-clothing",
       "shorts"
     ],
-    rating: 4,
-    reviews: 78,
-    views: 5517,
+    rating: 4.4,
+    reviews: 216,
+    views: 931,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28135,11 +28133,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0114",
+    id: "PI-0781",
     slug: "ralph-lauren-sullivan-slim-tapered-leg-knit-pants-2",
     name: "Sullivan Slim Tapered Leg Knit Pants (2)",
     brand: "ralph-lauren",
@@ -28153,12 +28150,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "pants",
+      "mens-clothing",
       "pants"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 1692,
+    rating: 3.9,
+    reviews: 197,
+    views: 2864,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28170,11 +28168,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0115",
+    id: "PI-0782",
     slug: "ralph-lauren-stretch-cotton-rib-triangle-bralette",
     name: "Stretch Cotton Rib Triangle Bralette",
     brand: "ralph-lauren",
@@ -28186,12 +28183,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "intimates",
+      "clothing",
       "intimates"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 2399,
+    rating: 4.8,
+    reviews: 178,
+    views: 1437,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28203,11 +28201,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0116",
+    id: "PI-0783",
     slug: "ralph-lauren-classic-fit-plaid-cotton-oxford-button-down-shirt-2",
     name: "Classic Fit Plaid Cotton Oxford Button-Down Shirt (2)",
     brand: "ralph-lauren",
@@ -28219,12 +28216,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shirts",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 3.7,
-    reviews: 173,
-    views: 5298,
+    rating: 4.3,
+    reviews: 159,
+    views: 8094,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28236,11 +28234,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0117",
+    id: "PI-0784",
     slug: "ralph-lauren-classic-fit-plaid-cotton-twill-button-down-shirt",
     name: "Classic Fit Plaid Cotton Twill Button-Down Shirt",
     brand: "ralph-lauren",
@@ -28252,12 +28249,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shirts",
+      "mens-clothing",
       "shirts"
     ],
-    rating: 4.6,
-    reviews: 154,
-    views: 7895,
+    rating: 3.8,
+    reviews: 140,
+    views: 833,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28269,11 +28267,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0118",
+    id: "PI-0785",
     slug: "ralph-lauren-kids-floral-smocked-romper",
     name: "Kids' Floral Smocked Romper",
     brand: "ralph-lauren",
@@ -28287,12 +28284,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "kids",
+      "kids-clothing",
       "kids"
     ],
-    rating: 3.7,
-    reviews: 107,
-    views: 520,
+    rating: 4.7,
+    reviews: 121,
+    views: 1772,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28304,11 +28302,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0119",
+    id: "PI-0786",
     slug: "ralph-lauren-rustic-twill-cargo-pants",
     name: "Rustic Twill Cargo Pants",
     brand: "ralph-lauren",
@@ -28320,12 +28317,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "pants",
+      "mens-clothing",
       "pants"
     ],
-    rating: 4.6,
-    reviews: 88,
-    views: 3483,
+    rating: 4.2,
+    reviews: 102,
+    views: 4649,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28337,11 +28335,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0120",
+    id: "PI-0787",
     slug: "ralph-lauren-wrap-tech-jersey-athletic-joggers",
     name: "Wrap Tech Jersey Athletic Joggers",
     brand: "ralph-lauren",
@@ -28353,12 +28350,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "joggers",
+      "mens-sportswear",
       "joggers"
     ],
-    rating: 4.4,
-    reviews: 80,
-    views: 3659,
+    rating: 3.7,
+    reviews: 83,
+    views: 7970,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28370,11 +28368,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0121",
+    id: "PI-0788",
     slug: "tommy-hilfiger-twill-tailored-suit-separate-pants",
     name: "Twill Tailored Suit Separate Pants",
     brand: "tommy-hilfiger",
@@ -28388,12 +28385,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 3.9,
-    reviews: 61,
-    views: 3768,
+    rating: 4.2,
+    reviews: 168,
+    views: 3589,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28405,11 +28403,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0122",
+    id: "PI-0789",
     slug: "tommy-hilfiger-crew-neck-lounge-t-shirt",
     name: "Crew Neck Lounge T-Shirt",
     brand: "tommy-hilfiger",
@@ -28421,12 +28418,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.8,
-    reviews: 42,
-    views: 5925,
+    rating: 3.7,
+    reviews: 149,
+    views: 5208,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28438,11 +28436,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0123",
+    id: "PI-0790",
     slug: "tommy-hilfiger-fine-sport-sneaker",
     name: "Fine Sport Sneaker",
     brand: "tommy-hilfiger",
@@ -28457,9 +28454,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.3,
-    reviews: 223,
-    views: 7898,
+    rating: 3.7,
+    reviews: 105,
+    views: 5058,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28471,11 +28469,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0124",
+    id: "PI-0791",
     slug: "tommy-hilfiger-glitter-slide-sandal",
     name: "Glitter Slide Sandal",
     brand: "tommy-hilfiger",
@@ -28490,9 +28487,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 204,
-    views: 2713,
+    rating: 4.6,
+    reviews: 86,
+    views: 5795,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28504,11 +28502,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0125",
+    id: "PI-0792",
     slug: "tommy-hilfiger-anni-slip-on-sneaker",
     name: "Anni Slip-On Sneaker",
     brand: "tommy-hilfiger",
@@ -28523,9 +28520,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 185,
-    views: 6044,
+    rating: 4.1,
+    reviews: 67,
+    views: 6928,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28537,11 +28535,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0126",
+    id: "PI-0793",
     slug: "tommy-hilfiger-lezari-slip-on-sneaker",
     name: "Lezari Slip-On Sneaker",
     brand: "tommy-hilfiger",
@@ -28556,9 +28553,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.2,
-    reviews: 166,
-    views: 3953,
+    rating: 3.6,
+    reviews: 48,
+    views: 4435,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28570,11 +28568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0127",
+    id: "PI-0794",
     slug: "tommy-hilfiger-fentii-sneaker",
     name: "Fentii Sneaker",
     brand: "tommy-hilfiger",
@@ -28589,9 +28586,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.7,
-    reviews: 147,
-    views: 602,
+    rating: 4.3,
+    reviews: 181,
+    views: 6014,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28603,11 +28601,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0128",
+    id: "PI-0795",
     slug: "tommy-hilfiger-lendar-sneaker",
     name: "Lendar Sneaker",
     brand: "tommy-hilfiger",
@@ -28619,12 +28616,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 707,
+    rating: 3.8,
+    reviews: 162,
+    views: 4119,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28636,11 +28634,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0129",
+    id: "PI-0796",
     slug: "tommy-hilfiger-zeghora-floral-sleeveless-dress",
     name: "Zeghora Floral Sleeveless Dress",
     brand: "tommy-hilfiger",
@@ -28654,12 +28651,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 720,
+    rating: 4.7,
+    reviews: 143,
+    views: 6228,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28671,11 +28669,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0130",
+    id: "PI-0797",
     slug: "tommy-hilfiger-kozal-slip-on-sneaker",
     name: "Kozal Slip-On Sneaker",
     brand: "tommy-hilfiger",
@@ -28687,12 +28684,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.5,
-    reviews: 71,
-    views: 4362,
+    rating: 4.2,
+    reviews: 124,
+    views: 6161,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28704,11 +28702,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0131",
+    id: "PI-0798",
     slug: "tommy-hilfiger-sarifina-knotted-strap-sandal",
     name: "Sarifina Knotted Strap Sandal",
     brand: "tommy-hilfiger",
@@ -28723,9 +28720,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.6,
-    reviews: 90,
-    views: 3605,
+    rating: 3.9,
+    reviews: 153,
+    views: 4266,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28737,11 +28735,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0132",
+    id: "PI-0799",
     slug: "tommy-hilfiger-lexxa-sneaker",
     name: "Lexxa Sneaker",
     brand: "tommy-hilfiger",
@@ -28756,9 +28753,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 168,
+    rating: 4.8,
+    reviews: 134,
+    views: 1275,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28770,11 +28768,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0133",
+    id: "PI-0800",
     slug: "tommy-hilfiger-sesame-chelsea-boot",
     name: "Sesame Chelsea Boot",
     brand: "tommy-hilfiger",
@@ -28786,12 +28783,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 2357,
+    rating: 3.7,
+    reviews: 131,
+    views: 3434,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28803,11 +28801,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0134",
+    id: "PI-0801",
     slug: "tommy-hilfiger-slim-fit-non-iron-dress-shirt",
     name: "Slim Fit Non-Iron Dress Shirt",
     brand: "tommy-hilfiger",
@@ -28819,12 +28816,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 3.9,
-    reviews: 195,
-    views: 6918,
+    rating: 4.2,
+    reviews: 150,
+    views: 2255,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28836,11 +28834,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0135",
+    id: "PI-0802",
     slug: "tommy-hilfiger-slim-fit-non-iron-cotton-dress-shirt",
     name: "Slim Fit Non-Iron Cotton Dress Shirt",
     brand: "tommy-hilfiger",
@@ -28852,12 +28849,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 4.4,
-    reviews: 214,
-    views: 7439,
+    rating: 4.7,
+    reviews: 169,
+    views: 1772,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28869,11 +28867,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0136",
+    id: "PI-0803",
     slug: "tommy-hilfiger-ribby-low-top-sneaker",
     name: "Ribby Low Top Sneaker",
     brand: "tommy-hilfiger",
@@ -28885,12 +28882,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.9,
-    reviews: 233,
-    views: 580,
+    rating: 3.8,
+    reviews: 188,
+    views: 4231,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28902,11 +28900,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0137",
+    id: "PI-0804",
     slug: "tommy-hilfiger-mixed-media-high-low-dress",
     name: "Mixed Media High-Low Dress",
     brand: "tommy-hilfiger",
@@ -28918,12 +28915,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4,
-    reviews: 52,
-    views: 1193,
+    rating: 4.3,
+    reviews: 207,
+    views: 5990,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28935,11 +28933,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0138",
+    id: "PI-0805",
     slug: "tommy-hilfiger-regular-fit-wrinkle-resistant-cotton-dress-shirt",
     name: "Regular Fit Wrinkle Resistant Cotton Dress Shirt",
     brand: "tommy-hilfiger",
@@ -28953,12 +28950,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 3618,
+    rating: 4.8,
+    reviews: 226,
+    views: 6747,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -28970,11 +28968,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0139",
+    id: "PI-0806",
     slug: "tommy-hilfiger-maisie-sneaker",
     name: "Maisie Sneaker",
     brand: "tommy-hilfiger",
@@ -28989,9 +28986,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 6403,
+    rating: 3.9,
+    reviews: 45,
+    views: 2184,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29003,11 +29001,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0140",
+    id: "PI-0807",
     slug: "tommy-hilfiger-lexei-sneaker",
     name: "Lexei Sneaker",
     brand: "tommy-hilfiger",
@@ -29022,9 +29019,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 66,
-    views: 4149,
+    rating: 4.4,
+    reviews: 64,
+    views: 3067,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29036,11 +29034,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0141",
+    id: "PI-0808",
     slug: "calvin-klein-convertible-strap-lightly-lined-demi-bra",
     name: "Convertible Strap Lightly Lined Demi Bra",
     brand: "calvin-klein",
@@ -29052,12 +29049,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "clothing",
       "underwear"
     ],
-    rating: 4.9,
-    reviews: 47,
-    views: 6086,
+    rating: 3.9,
+    reviews: 179,
+    views: 7774,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29069,11 +29067,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0142",
+    id: "PI-0809",
     slug: "calvin-klein-sleeveless-sheath-dress",
     name: "Sleeveless Sheath Dress",
     brand: "calvin-klein",
@@ -29085,12 +29082,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 3.6,
-    reviews: 104,
-    views: 5147,
+    rating: 4.4,
+    reviews: 198,
+    views: 1401,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29102,11 +29100,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0143",
+    id: "PI-0810",
     slug: "calvin-klein-boxer-briefs-pack-of-3",
     name: "Boxer Briefs - Pack of 3",
     brand: "calvin-klein",
@@ -29118,12 +29115,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "mens-clothing",
       "underwear"
     ],
-    rating: 4.5,
-    reviews: 85,
-    views: 5384,
+    rating: 3.6,
+    reviews: 140,
+    views: 2711,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29135,11 +29133,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0144",
+    id: "PI-0811",
     slug: "calvin-klein-3-pack-cotton-crewneck-undershirts",
     name: "3-Pack Cotton Crewneck Undershirts",
     brand: "calvin-klein",
@@ -29151,12 +29148,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "mens-clothing",
       "underwear"
     ],
-    rating: 4.8,
-    reviews: 190,
-    views: 7361,
+    rating: 4.5,
+    reviews: 121,
+    views: 7380,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29168,11 +29166,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0145",
+    id: "PI-0812",
     slug: "calvin-klein-push-up-underwire-plunge-bra",
     name: "Push-up Underwire Plunge Bra",
     brand: "calvin-klein",
@@ -29184,12 +29181,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "clothing",
       "underwear"
     ],
-    rating: 4.3,
-    reviews: 171,
-    views: 2662,
+    rating: 4,
+    reviews: 102,
+    views: 6399,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29201,11 +29199,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0146",
+    id: "PI-0813",
     slug: "calvin-klein-3-pack-cotton-v-neck-t-shirt",
     name: "3-Pack Cotton V-Neck T-Shirt",
     brand: "calvin-klein",
@@ -29217,12 +29214,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.4,
-    reviews: 228,
-    views: 4839,
+    rating: 4.9,
+    reviews: 83,
+    views: 4822,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29234,11 +29232,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0147",
+    id: "PI-0814",
     slug: "calvin-klein-two-button-short-jacket",
     name: "Two Button Short Jacket",
     brand: "calvin-klein",
@@ -29250,12 +29247,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "clothing",
       "apparel"
     ],
-    rating: 3.9,
-    reviews: 209,
-    views: 6500,
+    rating: 4.2,
+    reviews: 216,
+    views: 843,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29267,11 +29265,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0148",
+    id: "PI-0815",
     slug: "calvin-klein-wide-leg-pants",
     name: "Wide Leg Pants",
     brand: "calvin-klein",
@@ -29283,12 +29280,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "clothing",
       "apparel"
     ],
-    rating: 4.2,
-    reviews: 114,
-    views: 7629,
+    rating: 3.7,
+    reviews: 197,
+    views: 1656,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29300,11 +29298,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0149",
+    id: "PI-0816",
     slug: "calvin-klein-cotton-classic-fit-brief-pack-of-4",
     name: "Cotton Classic Fit Brief - Pack of 4",
     brand: "calvin-klein",
@@ -29316,12 +29313,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "mens-clothing",
       "underwear"
     ],
-    rating: 3.7,
-    reviews: 95,
-    views: 5294,
+    rating: 4.6,
+    reviews: 178,
+    views: 4427,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29333,11 +29331,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0150",
+    id: "PI-0817",
     slug: "calvin-klein-boxer-briefs-pack-of-3-2",
     name: "Boxer Briefs - Pack of 3 (2)",
     brand: "calvin-klein",
@@ -29349,12 +29346,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "mens-clothing",
       "underwear"
     ],
     rating: 4.1,
-    reviews: 57,
-    views: 7956,
+    reviews: 159,
+    views: 5082,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29366,11 +29364,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0151",
+    id: "PI-0818",
     slug: "calvin-klein-motive-cotton-boyshorts-pack-of-3",
     name: "Motive Cotton Boyshorts - Pack of 3",
     brand: "calvin-klein",
@@ -29382,12 +29379,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "clothing",
       "apparel"
     ],
-    rating: 4.6,
-    reviews: 76,
-    views: 3287,
+    rating: 3.8,
+    reviews: 188,
+    views: 3151,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29399,11 +29397,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0152",
+    id: "PI-0819",
     slug: "calvin-klein-logo-assorted-thongs-pack-of-3",
     name: "Logo Assorted Thongs - Pack of 3",
     brand: "calvin-klein",
@@ -29415,12 +29412,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "clothing",
       "underwear"
     ],
-    rating: 4.5,
-    reviews: 219,
-    views: 5398,
+    rating: 4.7,
+    reviews: 169,
+    views: 3468,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29432,11 +29430,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0153",
+    id: "PI-0820",
     slug: "calvin-klein-carousel-3-pack-bikini-panty-set",
     name: "Carousel 3-Pack Bikini Panty Set",
     brand: "calvin-klein",
@@ -29448,12 +29445,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "clothing",
       "underwear"
     ],
-    rating: 3.6,
-    reviews: 238,
-    views: 5823,
+    rating: 4.3,
+    reviews: 199,
+    views: 6876,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29465,11 +29463,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0154",
+    id: "PI-0821",
     slug: "calvin-klein-logo-bikini-pack-of-5",
     name: "Logo Bikini - Pack of 5",
     brand: "calvin-klein",
@@ -29481,12 +29478,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "clothing",
       "underwear"
     ],
-    rating: 4.7,
-    reviews: 133,
-    views: 2232,
+    rating: 3.8,
+    reviews: 180,
+    views: 7953,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29498,11 +29496,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0155",
+    id: "PI-0822",
     slug: "calvin-klein-comfort-mid-rise-hipster-pack-of-3",
     name: "Comfort Mid Rise Hipster - Pack of 3",
     brand: "calvin-klein",
@@ -29514,12 +29511,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "underwear",
+      "clothing",
       "underwear"
     ],
-    rating: 3.8,
-    reviews: 152,
-    views: 6117,
+    rating: 3.9,
+    reviews: 237,
+    views: 8114,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29531,11 +29529,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0156",
+    id: "PI-0823",
     slug: "calvin-klein-stretch-cotton-camisole-shorts-pajamas",
     name: "Stretch Cotton Camisole & Shorts Pajamas",
     brand: "calvin-klein",
@@ -29547,12 +29544,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "sleepwear",
+      "clothing",
       "sleepwear"
     ],
-    rating: 3.7,
-    reviews: 95,
-    views: 1878,
+    rating: 4.8,
+    reviews: 218,
+    views: 5529,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29564,11 +29562,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0157",
+    id: "PI-0824",
     slug: "calvin-klein-gloria-d-orsay-pump",
     name: "Gloria d'Orsay Pump",
     brand: "calvin-klein",
@@ -29583,9 +29580,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.2,
-    reviews: 114,
-    views: 3851,
+    rating: 3.7,
+    reviews: 123,
+    views: 7888,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29597,11 +29595,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0158",
+    id: "PI-0825",
     slug: "calvin-klein-brady-pump",
     name: "Brady Pump",
     brand: "calvin-klein",
@@ -29616,9 +29613,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.3,
-    reviews: 105,
-    views: 4044,
+    rating: 4.6,
+    reviews: 104,
+    views: 7891,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29630,11 +29628,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0159",
+    id: "PI-0826",
     slug: "calvin-klein-tegin-sandal",
     name: "Tegin Sandal",
     brand: "calvin-klein",
@@ -29649,9 +29646,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 124,
-    views: 3809,
+    rating: 4.7,
+    reviews: 161,
+    views: 3266,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29663,11 +29661,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0160",
+    id: "PI-0827",
     slug: "calvin-klein-v-neck-t-shirt-shorts-2-piece-pajama-set",
     name: "V-Neck T-Shirt & Shorts 2-Piece Pajama Set",
     brand: "calvin-klein",
@@ -29679,12 +29676,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "sleepwear",
+      "clothing",
       "sleepwear"
     ],
-    rating: 4.8,
-    reviews: 68,
-    views: 5601,
+    rating: 4.2,
+    reviews: 142,
+    views: 4835,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29696,11 +29694,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0161",
+    id: "PI-0828",
     slug: "lacoste-12-12-chronograph-silicone-strap-watch-44mm",
     name: "12.12 Chronograph Silicone Strap Watch, 44mm",
     brand: "lacoste",
@@ -29712,12 +29709,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-watches",
       "accessories"
     ],
-    rating: 3.7,
-    reviews: 89,
-    views: 5028,
+    rating: 4.5,
+    reviews: 47,
+    views: 4812,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29729,11 +29727,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0162",
+    id: "PI-0829",
     slug: "lacoste-relaxed-twill-drawstring-shorts",
     name: "Relaxed Twill Drawstring Shorts",
     brand: "lacoste",
@@ -29745,12 +29742,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.6,
-    reviews: 70,
-    views: 4937,
+    rating: 4,
+    reviews: 228,
+    views: 7305,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29762,11 +29760,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0163",
+    id: "PI-0830",
     slug: "lacoste-slim-fit-joggers",
     name: "Slim Fit Joggers",
     brand: "lacoste",
@@ -29778,12 +29775,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-sportswear",
       "apparel"
     ],
-    rating: 4.1,
-    reviews: 51,
-    views: 8066,
+    rating: 3.8,
+    reviews: 122,
+    views: 7763,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29795,11 +29793,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0164",
+    id: "PI-0831",
     slug: "lacoste-logo-embossed-sweatpants",
     name: "Logo Embossed Sweatpants",
     brand: "lacoste",
@@ -29811,12 +29808,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.2,
-    reviews: 192,
-    views: 1325,
+    rating: 4.7,
+    reviews: 103,
+    views: 4638,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29828,11 +29826,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0165",
+    id: "PI-0832",
     slug: "lacoste-x-bandier-slim-fit-piqu-polo",
     name: "x BANDIER Slim Fit Piqué Polo",
     brand: "lacoste",
@@ -29844,12 +29841,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "clothing",
       "apparel"
     ],
-    rating: 4.7,
-    reviews: 211,
-    views: 6928,
+    rating: 4.8,
+    reviews: 160,
+    views: 6435,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29861,11 +29859,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0166",
+    id: "PI-0833",
     slug: "lacoste-libson-bracelet-watch-42mm",
     name: "Libson Bracelet Watch, 42mm",
     brand: "lacoste",
@@ -29877,12 +29874,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "jewelry",
       "accessories"
     ],
-    rating: 3.8,
-    reviews: 230,
-    views: 5501,
+    rating: 4.3,
+    reviews: 141,
+    views: 7040,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29894,11 +29892,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0167",
+    id: "PI-0834",
     slug: "lacoste-touch-of-pink-eau-de-toilette",
     name: "Touch of Pink Eau de Toilette",
     brand: "lacoste",
@@ -29912,12 +29909,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "fragrance",
+      "beauty",
       "fragrance"
     ],
-    rating: 4.3,
-    reviews: 49,
-    views: 638,
+    rating: 4.6,
+    reviews: 46,
+    views: 3689,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29929,11 +29927,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0168",
+    id: "PI-0835",
     slug: "lacoste-regular-fit-performance-golf-short-sleeve-button-up-shirt",
     name: "Regular Fit Performance Golf Short Sleeve Button-Up Shirt",
     brand: "lacoste",
@@ -29945,12 +29942,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 1623,
+    rating: 4.1,
+    reviews: 227,
+    views: 7010,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29962,11 +29960,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0169",
+    id: "PI-0836",
     slug: "lacoste-relaxed-cotton-twill-shorts",
     name: "Relaxed Cotton Twill Shorts",
     brand: "lacoste",
@@ -29978,12 +29975,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 3540,
+    rating: 4.2,
+    reviews: 84,
+    views: 1647,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -29995,11 +29993,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0170",
+    id: "PI-0837",
     slug: "lacoste-low-top-sneaker",
     name: "Low Top Sneaker",
     brand: "lacoste",
@@ -30011,12 +30008,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.3,
-    reviews: 99,
-    views: 8082,
+    rating: 3.7,
+    reviews: 65,
+    views: 3436,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30028,11 +30026,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0171",
+    id: "PI-0838",
     slug: "lacoste-low-top-sneaker-2",
     name: "Low Top Sneaker (2)",
     brand: "lacoste",
@@ -30044,12 +30041,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 118,
-    views: 313,
+    rating: 3.6,
+    reviews: 74,
+    views: 5829,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30061,11 +30059,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0172",
+    id: "PI-0839",
     slug: "lacoste-low-top-court-sneaker",
     name: "Low Top Court Sneaker",
     brand: "lacoste",
@@ -30077,12 +30074,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 137,
-    views: 828,
+    rating: 4.5,
+    reviews: 55,
+    views: 3318,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30094,11 +30092,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0173",
+    id: "PI-0840",
     slug: "lacoste-low-top-sneaker-3",
     name: "Low Top Sneaker (3)",
     brand: "lacoste",
@@ -30110,12 +30107,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 156,
-    views: 7921,
+    rating: 3.9,
+    reviews: 185,
+    views: 6322,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30127,11 +30125,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0174",
+    id: "PI-0841",
     slug: "lacoste-double-face-organic-cotton-blend-piqu-sweatpants",
     name: "Double Face Organic Cotton Blend Piqué Sweatpants",
     brand: "lacoste",
@@ -30143,12 +30140,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.9,
-    reviews: 175,
-    views: 6414,
+    rating: 4.8,
+    reviews: 166,
+    views: 3315,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30160,11 +30158,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0175",
+    id: "PI-0842",
     slug: "lacoste-relaxed-fit-cotton-sweatpants",
     name: "Relaxed Fit Cotton Sweatpants",
     brand: "lacoste",
@@ -30176,12 +30173,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "clothing",
       "apparel"
     ],
-    rating: 4,
-    reviews: 194,
-    views: 899,
+    rating: 4.3,
+    reviews: 147,
+    views: 1888,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30193,11 +30191,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0176",
+    id: "PI-0843",
     slug: "lacoste-mainsail-chronograph-bracelet-watch-43mm",
     name: "Mainsail Chronograph Bracelet Watch, 43mm",
     brand: "lacoste",
@@ -30209,12 +30206,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "jewelry",
       "accessories"
     ],
-    rating: 4.5,
-    reviews: 163,
-    views: 7856,
+    rating: 3.8,
+    reviews: 128,
+    views: 1901,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30226,11 +30224,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0177",
+    id: "PI-0844",
     slug: "lacoste-everett-mesh-strap-watch-40mm",
     name: "Everett Mesh Strap Watch, 40mm",
     brand: "lacoste",
@@ -30242,12 +30239,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-watches",
       "accessories"
     ],
-    rating: 4,
-    reviews: 144,
-    views: 7923,
+    rating: 4.5,
+    reviews: 61,
+    views: 6894,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30259,11 +30257,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0178",
+    id: "PI-0845",
     slug: "lacoste-club-mesh-strap-watch-42mm",
     name: "Club Mesh Strap Watch, 42mm",
     brand: "lacoste",
@@ -30275,12 +30272,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-watches",
       "accessories"
     ],
-    rating: 4.9,
-    reviews: 125,
-    views: 4294,
+    rating: 4,
+    reviews: 42,
+    views: 4361,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30292,11 +30290,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0179",
+    id: "PI-0846",
     slug: "lacoste-eau-blanc-eau-de-parfum",
     name: "Eau Blanc Eau de Parfum",
     brand: "lacoste",
@@ -30308,12 +30305,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "fragrance",
+      "grooming",
       "fragrance"
     ],
-    rating: 4.4,
-    reviews: 106,
-    views: 1039,
+    rating: 4.9,
+    reviews: 223,
+    views: 5604,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30325,11 +30323,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0180",
+    id: "PI-0847",
     slug: "lacoste-serve-slide-sandal",
     name: "Serve Slide Sandal",
     brand: "lacoste",
@@ -30341,12 +30338,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 94,
-    views: 6105,
+    rating: 4.4,
+    reviews: 204,
+    views: 6177,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30358,11 +30356,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0181",
+    id: "PI-0848",
     slug: "hugo-boss-piro-solid-polo",
     name: "Piro Solid Polo",
     brand: "hugo-boss",
@@ -30374,12 +30371,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.7,
-    reviews: 75,
-    views: 702,
+    rating: 4.1,
+    reviews: 233,
+    views: 2070,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30391,11 +30389,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0182",
+    id: "PI-0849",
     slug: "hugo-boss-bay-slide-sandal",
     name: "Bay Slide Sandal",
     brand: "hugo-boss",
@@ -30407,12 +30404,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 132,
-    views: 7377,
+    rating: 3.6,
+    reviews: 214,
+    views: 3749,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30424,11 +30422,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0183",
+    id: "PI-0850",
     slug: "hugo-boss-men-s-ease-pajama-shorts",
     name: "Men's Ease Pajama Shorts",
     brand: "hugo-boss",
@@ -30440,12 +30437,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "sleepwear",
+      "mens-clothing",
       "sleepwear"
     ],
-    rating: 4.3,
-    reviews: 113,
-    views: 8084,
+    rating: 4,
+    reviews: 176,
+    views: 6109,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30457,11 +30455,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0184",
+    id: "PI-0851",
     slug: "hugo-boss-men-s-ease-pajama-joggers",
     name: "Men's Ease Pajama Joggers",
     brand: "hugo-boss",
@@ -30473,12 +30470,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "sleepwear",
+      "mens-sportswear",
       "sleepwear"
     ],
-    rating: 4.6,
-    reviews: 206,
-    views: 4259,
+    rating: 4.5,
+    reviews: 195,
+    views: 1888,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30490,11 +30488,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0185",
+    id: "PI-0852",
     slug: "hugo-boss-men-s-ease-track-jacket",
     name: "Men's Ease Track Jacket",
     brand: "hugo-boss",
@@ -30506,12 +30503,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-sportswear",
       "apparel"
     ],
-    rating: 3.9,
-    reviews: 151,
-    views: 3842,
+    rating: 3.6,
+    reviews: 214,
+    views: 4941,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30523,11 +30521,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0186",
+    id: "PI-0853",
     slug: "hugo-boss-umbe-casual-leather-belt",
     name: "Umbe Casual Leather Belt",
     brand: "hugo-boss",
@@ -30539,12 +30536,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 3.6,
-    reviews: 168,
-    views: 7069,
+    rating: 4.1,
+    reviews: 233,
+    views: 2734,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30556,11 +30554,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0187",
+    id: "PI-0854",
     slug: "hugo-boss-uland-leather-belt",
     name: "Uland Leather Belt",
     brand: "hugo-boss",
@@ -30572,12 +30569,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4.1,
-    reviews: 187,
-    views: 7312,
+    rating: 4.6,
+    reviews: 52,
+    views: 1823,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30589,11 +30587,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0188",
+    id: "PI-0855",
     slug: "hugo-boss-uran-leather-belt",
     name: "Uran Leather Belt",
     brand: "hugo-boss",
@@ -30605,12 +30602,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "accessories",
+      "mens-accessories",
       "accessories"
     ],
-    rating: 4,
-    reviews: 130,
-    views: 5295,
+    rating: 3.7,
+    reviews: 71,
+    views: 7124,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30622,11 +30620,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0189",
+    id: "PI-0856",
     slug: "hugo-boss-tenore-quarter-zip-sweater",
     name: "Tenore Quarter Zip Sweater",
     brand: "hugo-boss",
@@ -30638,12 +30635,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.5,
-    reviews: 149,
-    views: 1062,
+    rating: 4.2,
+    reviews: 90,
+    views: 471,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30655,11 +30653,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0190",
+    id: "PI-0857",
     slug: "hugo-boss-cotton-curved-logo-t-shirt",
     name: "Cotton Curved Logo T-Shirt",
     brand: "hugo-boss",
@@ -30671,12 +30668,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "apparel",
+      "mens-clothing",
       "apparel"
     ],
-    rating: 4.5,
-    reviews: 83,
-    views: 4712,
+    rating: 4.7,
+    reviews: 109,
+    views: 1662,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30688,11 +30686,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0191",
+    id: "PI-0858",
     slug: "hugo-boss-colyn-hybrid-leather-sneaker",
     name: "Colyn Hybrid Leather Sneaker",
     brand: "hugo-boss",
@@ -30704,12 +30701,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 64,
-    views: 6523,
+    rating: 4.2,
+    reviews: 224,
+    views: 5333,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30721,11 +30719,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0192",
+    id: "PI-0859",
     slug: "hugo-boss-colby-leather-derby",
     name: "Colby Leather Derby",
     brand: "hugo-boss",
@@ -30737,12 +30734,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 121,
-    views: 4006,
+    rating: 4.7,
+    reviews: 43,
+    views: 7944,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30754,11 +30752,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0193",
+    id: "PI-0860",
     slug: "hugo-boss-grady-driving-loafer",
     name: "Grady Driving Loafer",
     brand: "hugo-boss",
@@ -30770,12 +30767,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 3.6,
-    reviews: 102,
-    views: 981,
+    rating: 4.9,
+    reviews: 149,
+    views: 4808,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30787,11 +30785,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0194",
+    id: "PI-0861",
     slug: "hugo-boss-sean-slide-sandal",
     name: "Sean Slide Sandal",
     brand: "hugo-boss",
@@ -30803,12 +30800,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 3.7,
-    reviews: 159,
-    views: 1580,
+    rating: 4,
+    reviews: 168,
+    views: 4571,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30820,11 +30818,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0195",
+    id: "PI-0862",
     slug: "hugo-boss-parkour-runner-sneaker",
     name: "Parkour Runner Sneaker",
     brand: "hugo-boss",
@@ -30836,12 +30833,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.6,
-    reviews: 140,
-    views: 6215,
+    rating: 3.9,
+    reviews: 111,
+    views: 6662,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30853,11 +30851,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0196",
+    id: "PI-0863",
     slug: "hugo-boss-stiven-sneaker",
     name: "Stiven Sneaker",
     brand: "hugo-boss",
@@ -30869,12 +30866,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 197,
-    views: 4742,
+    rating: 4.4,
+    reviews: 130,
+    views: 3573,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30886,11 +30884,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0197",
+    id: "PI-0864",
     slug: "hugo-boss-kirk-slide-sandal",
     name: "Kirk Slide Sandal",
     brand: "hugo-boss",
@@ -30902,12 +30899,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.2,
-    reviews: 178,
-    views: 591,
+    rating: 4.3,
+    reviews: 73,
+    views: 5924,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30919,11 +30917,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0198",
+    id: "PI-0865",
     slug: "hugo-boss-max-kent-sharp-fit-cotton-dress-shirt",
     name: "Max Kent Sharp Fit Cotton Dress Shirt",
     brand: "hugo-boss",
@@ -30935,12 +30932,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 4.3,
-    reviews: 235,
-    views: 7408,
+    rating: 4.8,
+    reviews: 92,
+    views: 3977,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30952,11 +30950,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0199",
+    id: "PI-0866",
     slug: "hugo-boss-kent-sharp-fit-cotton-dress-shirt",
     name: "Kent Sharp Fit Cotton Dress Shirt",
     brand: "hugo-boss",
@@ -30968,12 +30965,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "mens-clothing",
       "dresses"
     ],
-    rating: 3.8,
-    reviews: 216,
-    views: 371,
+    rating: 4.7,
+    reviews: 235,
+    views: 6154,
+    newIn: true,
     offers: [
       {
         store: "nordstrom-rack",
@@ -30985,11 +30983,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0200",
+    id: "PI-0867",
     slug: "hugo-boss-colby-loafer",
     name: "Colby Loafer",
     brand: "hugo-boss",
@@ -31001,12 +30998,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "mens-shoes",
       "shoes"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3156,
+    rating: 3.8,
+    reviews: 54,
+    views: 1455,
+    newIn: false,
     offers: [
       {
         store: "nordstrom-rack",
@@ -31018,11 +31016,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0868",
     slug: "michael-kors-piper-flat-pumps",
     name: "Piper flat pumps",
     brand: "michael-kors",
@@ -31037,9 +31034,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 3.7,
+    reviews: 197,
+    views: 5920,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31051,11 +31049,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0869",
     slug: "michael-kors-keaton-leather-sneakers",
     name: "Keaton leather sneakers",
     brand: "michael-kors",
@@ -31070,9 +31067,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 4.2,
+    reviews: 216,
+    views: 6493,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31084,11 +31082,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0870",
     slug: "michael-kors-pointed-toe-chain-detail-ballet-flats",
     name: "Pointed-toe chain-detail ballet flats",
     brand: "michael-kors",
@@ -31103,9 +31100,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    rating: 3.8,
+    reviews: 194,
+    views: 503,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -31117,11 +31115,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0871",
     slug: "michael-kors-50mm-blake-combat-boots",
     name: "50mm Blake combat boots",
     brand: "michael-kors",
@@ -31136,9 +31133,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 4.3,
+    reviews: 213,
+    views: 658,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31150,11 +31148,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0872",
     slug: "michael-kors-peyton-fringed-woven-sandals",
     name: "Peyton fringed woven sandals",
     brand: "michael-kors",
@@ -31169,9 +31166,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.2,
+    reviews: 156,
+    views: 497,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31183,11 +31181,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0873",
     slug: "michael-kors-cherie-logo-print-pumps",
     name: "Cherie logo-print pumps",
     brand: "michael-kors",
@@ -31202,9 +31199,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 4.7,
+    reviews: 175,
+    views: 252,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31216,11 +31214,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0874",
     slug: "michael-kors-rhodes-panelled-suede-sneakers",
     name: "Rhodes panelled suede sneakers",
     brand: "michael-kors",
@@ -31235,9 +31232,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "women-s-shoes"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 4.6,
+    reviews: 118,
+    views: 6061,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31249,11 +31247,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-0875",
     slug: "michael-kors-satin-belted-jumpsuit",
     name: "Satin belted jumpsuit",
     brand: "michael-kors",
@@ -31268,9 +31265,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    rating: 3.7,
+    reviews: 137,
+    views: 6990,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31282,11 +31280,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-0876",
     slug: "michael-kors-ruched-mini-dress",
     name: "Ruched mini dress",
     brand: "michael-kors",
@@ -31298,12 +31295,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "women-s-clothing"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 3.6,
+    reviews: 80,
+    views: 7347,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31315,11 +31313,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-0877",
     slug: "michael-kors-pleated-ribbed-skirt",
     name: "Pleated ribbed skirt",
     brand: "michael-kors",
@@ -31334,9 +31331,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 4.1,
+    reviews: 99,
+    views: 432,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31348,11 +31346,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-0878",
     slug: "michael-kors-smocked-tie-neck-blouse",
     name: "Smocked tie-neck blouse",
     brand: "michael-kors",
@@ -31367,9 +31364,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 4,
+    reviews: 42,
+    views: 1615,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -31381,11 +31379,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-0879",
     slug: "michael-kors-monogram-trousers",
     name: "Monogram trousers",
     brand: "michael-kors",
@@ -31400,9 +31397,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 4.5,
+    reviews: 61,
+    views: 4522,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31414,11 +31412,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-0880",
     slug: "michael-kors-pleated-linen-short",
     name: "Pleated linen short",
     brand: "michael-kors",
@@ -31433,9 +31430,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "women-s-clothing"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    rating: 4.7,
+    reviews: 155,
+    views: 5362,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31447,11 +31445,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-0881",
     slug: "michael-kors-smocked-tiered-midi-dress",
     name: "Smocked tiered midi dress",
     brand: "michael-kors",
@@ -31465,12 +31462,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "women-s-clothing"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 3.8,
+    reviews: 174,
+    views: 281,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31482,11 +31480,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-0882",
     slug: "michael-kors-sheila-small-crossbody-bag",
     name: "Sheila small crossbody bag",
     brand: "michael-kors",
@@ -31501,9 +31498,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    rating: 4.3,
+    reviews: 193,
+    views: 2068,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -31515,11 +31513,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-0883",
     slug: "michael-kors-quinn-medium-tote-bag",
     name: "Quinn medium tote bag",
     brand: "michael-kors",
@@ -31534,9 +31531,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    rating: 4.8,
+    reviews: 212,
+    views: 6239,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31548,11 +31546,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-0884",
     slug: "michael-kors-wristlet-shoulder-bag",
     name: "Wristlet shoulder bag",
     brand: "michael-kors",
@@ -31567,9 +31564,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    rating: 3.9,
+    reviews: 231,
+    views: 6318,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31581,11 +31579,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-0885",
     slug: "michael-kors-hudson-commuter-backpack",
     name: "Hudson Commuter backpack",
     brand: "michael-kors",
@@ -31600,9 +31597,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 4.4,
+    reviews: 50,
+    views: 6605,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31614,11 +31612,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-0886",
     slug: "michael-kors-jana-mini-leather-crossbody-bag",
     name: "Jana mini leather crossbody bag",
     brand: "michael-kors",
@@ -31633,9 +31630,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    rating: 4.9,
+    reviews: 69,
+    views: 5472,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -31647,11 +31645,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-0887",
     slug: "michael-kors-jaycee-extra-small-backpack",
     name: "Jaycee extra-small backpack",
     brand: "michael-kors",
@@ -31666,9 +31663,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 4,
+    reviews: 88,
+    views: 6941,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31680,11 +31678,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0021",
+    id: "PI-0888",
     slug: "michael-kors-logo-print-tote-bag",
     name: "Logo-print tote bag",
     brand: "michael-kors",
@@ -31699,9 +31696,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "women-s-bags"
     ],
-    rating: 4.2,
-    reviews: 228,
-    views: 2503,
+    rating: 4.5,
+    reviews: 107,
+    views: 6602,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31713,11 +31711,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-0889",
     slug: "coach-logo-plaque-stud-earrings",
     name: "logo-plaque stud earrings",
     brand: "coach",
@@ -31729,12 +31726,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 3.6,
+    reviews: 126,
+    views: 1903,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31746,11 +31744,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-0890",
     slug: "coach-logo-plaque-bracelet",
     name: "logo-plaque bracelet",
     brand: "coach",
@@ -31762,12 +31759,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.1,
-    reviews: 87,
-    views: 300,
+    rating: 4.8,
+    reviews: 180,
+    views: 3567,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31779,11 +31777,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-0891",
     slug: "coach-26-tabby-shoulder-bag",
     name: "26 Tabby shoulder bag",
     brand: "coach",
@@ -31798,9 +31795,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    rating: 3.9,
+    reviews: 199,
+    views: 5932,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31812,11 +31810,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-0892",
     slug: "coach-logo-pendant-pearl-detail-necklace",
     name: "logo-pendant pearl-detail necklace",
     brand: "coach",
@@ -31828,12 +31825,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 4.4,
+    reviews: 218,
+    views: 6727,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31845,11 +31843,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-0893",
     slug: "coach-23-lana-tote-bag",
     name: "23 Lana tote bag",
     brand: "coach",
@@ -31864,9 +31861,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.9,
+    reviews: 237,
+    views: 4430,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31878,11 +31876,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-0894",
     slug: "coach-logo-plaque-leather-cardholder",
     name: "logo-plaque leather cardholder",
     brand: "coach",
@@ -31897,9 +31894,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 4.2,
+    reviews: 104,
+    views: 2445,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31911,11 +31909,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-0895",
     slug: "coach-tabby-20-leather-shoulder-bag",
     name: "Tabby 20 leather shoulder bag",
     brand: "coach",
@@ -31930,9 +31927,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 4.7,
+    reviews: 123,
+    views: 7024,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31944,11 +31942,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-0896",
     slug: "coach-39-brooklyn-logo-tote-bag",
     name: "39 Brooklyn logo tote bag",
     brand: "coach",
@@ -31963,9 +31960,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    rating: 3.8,
+    reviews: 142,
+    views: 5597,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -31977,11 +31975,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-0897",
     slug: "coach-crystal-embellished-buckle-fastening-sandals",
     name: "crystal-embellished buckle-fastening sandals",
     brand: "coach",
@@ -31996,9 +31993,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 4.3,
+    reviews: 161,
+    views: 4306,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32010,11 +32008,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-0898",
     slug: "coach-leah-patent-leather-loafers",
     name: "Leah patent-leather loafers",
     brand: "coach",
@@ -32029,9 +32026,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 3.6,
+    reviews: 228,
+    views: 5113,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32043,11 +32041,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-0899",
     slug: "coach-tabby-leather-shoulder-bag",
     name: "Tabby leather shoulder bag",
     brand: "coach",
@@ -32062,9 +32059,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 4.1,
+    reviews: 47,
+    views: 5044,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32076,11 +32074,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-0900",
     slug: "coach-lana-shoulder-bag-19",
     name: "Lana shoulder bag 19",
     brand: "coach",
@@ -32096,8 +32093,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    reviews: 146,
+    views: 6503,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32109,11 +32107,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-0901",
     slug: "coach-tabby-26-shoulder-bag",
     name: "Tabby 26 shoulder bag",
     brand: "coach",
@@ -32129,8 +32126,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    reviews: 165,
+    views: 6574,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32142,11 +32140,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-0902",
     slug: "coach-heart-floral-charm-necklace",
     name: "heart floral charm necklace",
     brand: "coach",
@@ -32160,12 +32157,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 3.8,
+    reviews: 108,
+    views: 6415,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -32177,11 +32175,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-0903",
     slug: "coach-tabby-flap-shoulder-bag",
     name: "Tabby flap shoulder bag",
     brand: "coach",
@@ -32196,9 +32193,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    rating: 4.3,
+    reviews: 127,
+    views: 1508,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32210,11 +32208,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-0904",
     slug: "coach-empire-top-handle-leather-tote-bag",
     name: "Empire top-handle leather tote bag",
     brand: "coach",
@@ -32230,8 +32227,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    reviews: 70,
+    views: 7091,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32243,11 +32241,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-0905",
     slug: "coach-brooklyn-39-shoulder-bag",
     name: "Brooklyn 39 shoulder bag",
     brand: "coach",
@@ -32263,8 +32260,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    reviews: 89,
+    views: 1778,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32276,11 +32274,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-0906",
     slug: "coach-pebbled-leather-zip-around-wallet",
     name: "pebbled leather zip-around wallet",
     brand: "coach",
@@ -32295,9 +32292,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 4.6,
+    reviews: 232,
+    views: 1155,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32309,11 +32307,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-0907",
     slug: "coach-tabby-26-logo-plaque-shoulder-bag",
     name: "Tabby 26 logo-plaque shoulder bag",
     brand: "coach",
@@ -32328,9 +32325,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    rating: 3.7,
+    reviews: 51,
+    views: 6368,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32342,11 +32340,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-0908",
     slug: "coach-empire-carryall-34-leather-shoulder-bag",
     name: "Empire Carryall 34 leather shoulder bag",
     brand: "coach",
@@ -32361,9 +32358,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 3.6,
+    reviews: 194,
+    views: 3135,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32375,11 +32373,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0021",
+    id: "PI-0909",
     slug: "kate-spade-crystal-embellished-huggie-earrings",
     name: "crystal-embellished huggie earrings",
     brand: "kate-spade",
@@ -32391,12 +32388,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.2,
-    reviews: 228,
-    views: 2503,
+    rating: 4.1,
+    reviews: 213,
+    views: 154,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32408,11 +32406,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0022",
+    id: "PI-0910",
     slug: "kate-spade-faux-fur-collar-jacket",
     name: "faux-fur collar jacket",
     brand: "kate-spade",
@@ -32428,8 +32425,9 @@ export const generatedProducts: Product[] = [
       "clothing"
     ],
     rating: 4.1,
-    reviews: 171,
-    views: 1030,
+    reviews: 147,
+    views: 3416,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32441,11 +32439,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0023",
+    id: "PI-0911",
     slug: "kate-spade-deco-tote-bag",
     name: "Deco tote bag",
     brand: "kate-spade",
@@ -32460,9 +32457,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 190,
-    views: 3937,
+    rating: 3.6,
+    reviews: 128,
+    views: 1605,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32474,11 +32472,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0024",
+    id: "PI-0912",
     slug: "kate-spade-safety-pin-besties-bracelets",
     name: "safety-pin besties bracelets",
     brand: "kate-spade",
@@ -32490,12 +32487,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.3,
-    reviews: 85,
-    views: 6536,
+    rating: 3.7,
+    reviews: 185,
+    views: 2170,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32507,11 +32505,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0025",
+    id: "PI-0913",
     slug: "kate-spade-summer-daze-fish-motif-necklace",
     name: "Summer Daze fish-motif necklace",
     brand: "kate-spade",
@@ -32523,12 +32520,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.8,
-    reviews: 104,
-    views: 4725,
+    rating: 4.6,
+    reviews: 166,
+    views: 4459,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32540,11 +32538,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0026",
+    id: "PI-0914",
     slug: "kate-spade-mini-deco-embellished-shoulder-bag",
     name: "mini Deco embellished shoulder bag",
     brand: "kate-spade",
@@ -32560,8 +32557,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.7,
-    reviews: 47,
-    views: 7718,
+    reviews: 223,
+    views: 7164,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32573,11 +32571,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0027",
+    id: "PI-0915",
     slug: "kate-spade-harmony-orb-strap-sandals",
     name: "Harmony orb strap sandals",
     brand: "kate-spade",
@@ -32592,9 +32589,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2267,
+    rating: 4.2,
+    reviews: 204,
+    views: 4665,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32606,11 +32604,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0028",
+    id: "PI-0916",
     slug: "kate-spade-crystal-embellished-clover-earrings",
     name: "crystal-embellished clover earrings",
     brand: "kate-spade",
@@ -32622,12 +32619,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 3.9,
-    reviews: 57,
-    views: 5564,
+    rating: 4.3,
+    reviews: 61,
+    views: 1722,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32639,11 +32637,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0029",
+    id: "PI-0917",
     slug: "kate-spade-do-it-all-studded-leather-tote-bag",
     name: "Do It All studded leather tote bag",
     brand: "kate-spade",
@@ -32658,9 +32655,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 76,
-    views: 3185,
+    rating: 3.8,
+    reviews: 42,
+    views: 4753,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32672,11 +32670,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0030",
+    id: "PI-0918",
     slug: "kate-spade-embellished-ring-shoulder-bag",
     name: "embellished ring shoulder bag",
     brand: "kate-spade",
@@ -32691,9 +32688,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.6,
-    reviews: 218,
-    views: 6475,
+    rating: 3.9,
+    reviews: 99,
+    views: 6448,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -32705,11 +32703,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0031",
+    id: "PI-0919",
     slug: "kate-spade-deco-mini-cross-body-bag",
     name: "Deco Mini cross body bag",
     brand: "kate-spade",
@@ -32724,9 +32721,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 199,
-    views: 3482,
+    rating: 4.8,
+    reviews: 80,
+    views: 3683,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32738,11 +32736,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0032",
+    id: "PI-0920",
     slug: "kate-spade-sam-icon-sneakers",
     name: "Sam Icon sneakers",
     brand: "kate-spade",
@@ -32758,8 +32755,9 @@ export const generatedProducts: Product[] = [
       "shoes"
     ],
     rating: 4.6,
-    reviews: 56,
-    views: 869,
+    reviews: 184,
+    views: 803,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -32771,11 +32769,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0033",
+    id: "PI-0921",
     slug: "kate-spade-clover-embellished-bangle-bracelet",
     name: "clover-embellished bangle bracelet",
     brand: "kate-spade",
@@ -32787,12 +32784,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
     rating: 4.1,
-    reviews: 237,
-    views: 2680,
+    reviews: 165,
+    views: 2736,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32804,11 +32802,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0034",
+    id: "PI-0922",
     slug: "kate-spade-duo-suede-cross-body-bag",
     name: "Duo suede cross body bag",
     brand: "kate-spade",
@@ -32823,9 +32820,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 142,
-    views: 5361,
+    rating: 3.6,
+    reviews: 146,
+    views: 1309,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32837,11 +32835,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0035",
+    id: "PI-0923",
     slug: "kate-spade-foil-emboss-logo-bag-charm",
     name: "foil emboss-logo bag charm",
     brand: "kate-spade",
@@ -32856,9 +32853,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.9,
-    reviews: 123,
-    views: 5718,
+    rating: 4.5,
+    reviews: 127,
+    views: 222,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32870,11 +32868,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0036",
+    id: "PI-0924",
     slug: "kate-spade-precious-delights-hoop-earrings",
     name: "Precious Delights hoop earrings",
     brand: "kate-spade",
@@ -32886,12 +32883,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
     rating: 4,
-    reviews: 180,
-    views: 6359,
+    reviews: 108,
+    views: 7279,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32903,11 +32901,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0037",
+    id: "PI-0925",
     slug: "kate-spade-deco-tote-bag-2",
     name: "Deco tote bag (2)",
     brand: "kate-spade",
@@ -32923,8 +32920,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.9,
-    reviews: 161,
-    views: 276,
+    reviews: 89,
+    views: 1644,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32936,11 +32934,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0038",
+    id: "PI-0926",
     slug: "kate-spade-say-i-do-crystal-embellished-block-heel-sandals",
     name: "Say I Do crystal-embellished block-heel sandals",
     brand: "kate-spade",
@@ -32955,9 +32952,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2237,
+    rating: 4.4,
+    reviews: 70,
+    views: 3015,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -32969,11 +32967,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0039",
+    id: "PI-0927",
     slug: "kate-spade-safety-pin-engraved-logo-bracelet",
     name: "safety-pin engraved-logo bracelet",
     brand: "kate-spade",
@@ -32985,12 +32982,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.7,
-    reviews: 47,
-    views: 3902,
+    rating: 3.9,
+    reviews: 51,
+    views: 8098,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33002,11 +33000,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0040",
+    id: "PI-0928",
     slug: "kate-spade-harmony-stud-earrings",
     name: "Harmony stud earrings",
     brand: "kate-spade",
@@ -33018,12 +33015,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.1,
-    reviews: 223,
-    views: 2550,
+    rating: 4.4,
+    reviews: 136,
+    views: 3717,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33035,11 +33033,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0041",
+    id: "PI-0929",
     slug: "marc-jacobs-the-canvas-small-tote-bag",
     name: "The Canvas Small Tote Bag",
     brand: "marc-jacobs",
@@ -33054,9 +33051,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 42,
-    views: 3973,
+    rating: 3.9,
+    reviews: 117,
+    views: 2456,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33068,11 +33066,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0042",
+    id: "PI-0930",
     slug: "marc-jacobs-the-sak-belt-leather-shoulder-bag",
     name: "The Sak Belt Leather Shoulder Bag",
     brand: "marc-jacobs",
@@ -33087,9 +33084,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 7384,
+    rating: 4.9,
+    reviews: 137,
+    views: 4930,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33101,11 +33099,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0043",
+    id: "PI-0931",
     slug: "marc-jacobs-mini-vanity-cross-body-bag",
     name: "Mini Vanity Cross Body Bag",
     brand: "marc-jacobs",
@@ -33120,9 +33117,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6123,
+    rating: 4.4,
+    reviews: 118,
+    views: 5923,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33134,11 +33132,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0044",
+    id: "PI-0932",
     slug: "marc-jacobs-the-sak-leather-shoulder-bag",
     name: "The Sak Leather Shoulder Bag",
     brand: "marc-jacobs",
@@ -33153,9 +33150,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 147,
-    views: 7798,
+    rating: 3.9,
+    reviews: 99,
+    views: 1184,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33167,11 +33165,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0045",
+    id: "PI-0933",
     slug: "marc-jacobs-everyday-vanity-leather-cross-body-bag",
     name: "Everyday Vanity Leather Cross Body Bag",
     brand: "marc-jacobs",
@@ -33186,9 +33183,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 166,
-    views: 2321,
+    rating: 4.8,
+    reviews: 80,
+    views: 3229,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33200,11 +33198,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0046",
+    id: "PI-0934",
     slug: "marc-jacobs-the-belt-sak-bag",
     name: "The Belt Sak Bag",
     brand: "marc-jacobs",
@@ -33219,9 +33216,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 185,
-    views: 2356,
+    rating: 4.1,
+    reviews: 213,
+    views: 1650,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33233,11 +33231,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0047",
+    id: "PI-0935",
     slug: "marc-jacobs-the-tote-medium-bag",
     name: "The Tote Medium Bag",
     brand: "marc-jacobs",
@@ -33253,8 +33250,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.6,
-    reviews: 204,
-    views: 439,
+    reviews: 194,
+    views: 4247,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33266,11 +33264,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0048",
+    id: "PI-0936",
     slug: "marc-jacobs-the-72-spring-sneakers",
     name: "The '72 Spring Sneakers",
     brand: "marc-jacobs",
@@ -33285,9 +33282,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.3,
-    reviews: 71,
-    views: 1618,
+    rating: 4.5,
+    reviews: 175,
+    views: 6356,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33299,11 +33297,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0049",
+    id: "PI-0937",
     slug: "marc-jacobs-sabrina-ballerina-flats",
     name: "Sabrina Ballerina Flats",
     brand: "marc-jacobs",
@@ -33318,9 +33315,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 90,
-    views: 4627,
+    rating: 4,
+    reviews: 156,
+    views: 1951,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33332,11 +33330,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0050",
+    id: "PI-0938",
     slug: "marc-jacobs-the-72-spring-sneakers-2",
     name: "The '72 Spring Sneakers (2)",
     brand: "marc-jacobs",
@@ -33351,9 +33348,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 232,
-    views: 5051,
+    rating: 3.7,
+    reviews: 185,
+    views: 3398,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33365,11 +33363,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0051",
+    id: "PI-0939",
     slug: "marc-jacobs-black-midi-dress",
     name: "Black Midi Dress",
     brand: "marc-jacobs",
@@ -33383,12 +33380,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.9,
-    reviews: 213,
-    views: 3240,
+    rating: 4.6,
+    reviews: 166,
+    views: 6837,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33400,11 +33398,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0052",
+    id: "PI-0940",
     slug: "marc-jacobs-layered-satin-slip-skirt",
     name: "Layered Satin Slip Skirt",
     brand: "marc-jacobs",
@@ -33421,9 +33418,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 194,
-    views: 7509,
+    rating: 4.2,
+    reviews: 170,
+    views: 1773,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33435,11 +33433,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0053",
+    id: "PI-0941",
     slug: "marc-jacobs-faux-fur-shrunken-trucker-jacket",
     name: "Faux Fur Shrunken Trucker Jacket",
     brand: "marc-jacobs",
@@ -33454,9 +33451,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
-    reviews: 175,
-    views: 2058,
+    rating: 3.7,
+    reviews: 151,
+    views: 3278,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -33468,11 +33466,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0054",
+    id: "PI-0942",
     slug: "marc-jacobs-glam-mirror-shoulder-bag",
     name: "Glam Mirror Shoulder Bag",
     brand: "marc-jacobs",
@@ -33487,9 +33484,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 156,
-    views: 3497,
+    rating: 3.8,
+    reviews: 208,
+    views: 3059,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33501,11 +33499,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0055",
+    id: "PI-0943",
     slug: "marc-jacobs-oversized-bow-floral-canvas-medium-tote-bag",
     name: "Oversized Bow Floral Canvas Medium Tote Bag",
     brand: "marc-jacobs",
@@ -33522,9 +33519,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 137,
-    views: 4484,
+    rating: 4.7,
+    reviews: 189,
+    views: 2816,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33536,11 +33534,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0056",
+    id: "PI-0944",
     slug: "marc-jacobs-pop-j-mark-ankle-boots",
     name: "Pop J Mark Ankle Boots",
     brand: "marc-jacobs",
@@ -33555,9 +33552,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 118,
-    views: 5473,
+    rating: 3.6,
+    reviews: 94,
+    views: 4791,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33569,11 +33567,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0057",
+    id: "PI-0945",
     slug: "marc-jacobs-babe-mini-vanity-bag",
     name: "Babe Mini Vanity Bag",
     brand: "marc-jacobs",
@@ -33588,9 +33585,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.7,
-    reviews: 99,
-    views: 4970,
+    rating: 4.5,
+    reviews: 75,
+    views: 4946,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33602,11 +33600,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0058",
+    id: "PI-0946",
     slug: "marc-jacobs-bow-lace-up-ballerina-shoes",
     name: "Bow Lace-Up Ballerina Shoes",
     brand: "marc-jacobs",
@@ -33621,9 +33618,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6899,
+    rating: 4.6,
+    reviews: 132,
+    views: 2751,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -33635,11 +33633,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0059",
+    id: "PI-0947",
     slug: "marc-jacobs-logo-print-bow-print-t-shirt",
     name: "Logo-Print Bow-Print T-Shirt",
     brand: "marc-jacobs",
@@ -33654,9 +33651,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 6656,
+    rating: 4.1,
+    reviews: 113,
+    views: 4276,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33668,11 +33666,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0060",
+    id: "PI-0948",
     slug: "marc-jacobs-polka-dot-cut-out-dress",
     name: "Polka Dot Cut-Out Dress",
     brand: "marc-jacobs",
@@ -33684,12 +33681,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 3.9,
-    reviews: 107,
-    views: 4768,
+    rating: 4,
+    reviews: 122,
+    views: 3669,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33701,11 +33699,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0061",
+    id: "PI-0949",
     slug: "tory-burch-romy-leather-shoulder-bag",
     name: "Romy leather shoulder bag",
     brand: "tory-burch",
@@ -33720,9 +33717,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 88,
-    views: 4781,
+    rating: 4.9,
+    reviews: 103,
+    views: 1318,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33734,11 +33732,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0062",
+    id: "PI-0950",
     slug: "tory-burch-ines-slippers",
     name: "Ines slippers",
     brand: "tory-burch",
@@ -33753,9 +33750,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.9,
-    reviews: 145,
-    views: 4158,
+    rating: 4.3,
+    reviews: 161,
+    views: 132,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33767,11 +33765,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0063",
+    id: "PI-0951",
     slug: "tory-burch-lee-radziwill-double-small-handbag",
     name: "Lee Radziwill Double small handbag",
     brand: "tory-burch",
@@ -33786,9 +33783,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 126,
-    views: 5491,
+    rating: 4.8,
+    reviews: 180,
+    views: 2497,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33800,11 +33798,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0064",
+    id: "PI-0952",
     slug: "tory-burch-charlie-quilted-leather-mini-bag",
     name: "Charlie quilted leather mini bag",
     brand: "tory-burch",
@@ -33819,9 +33816,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 332,
+    rating: 4.7,
+    reviews: 123,
+    views: 5902,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33833,11 +33831,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0065",
+    id: "PI-0953",
     slug: "tory-burch-fleming-quilted-mini-tote-bag",
     name: "Fleming quilted mini tote bag",
     brand: "tory-burch",
@@ -33852,9 +33849,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 7521,
+    rating: 3.8,
+    reviews: 142,
+    views: 2985,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33866,11 +33864,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0066",
+    id: "PI-0954",
     slug: "tory-burch-romy-slim-design-handbag",
     name: "Romy slim design handbag",
     brand: "tory-burch",
@@ -33885,9 +33882,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 221,
-    views: 7362,
+    rating: 4.9,
+    reviews: 237,
+    views: 7040,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33899,11 +33897,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0067",
+    id: "PI-0955",
     slug: "tory-burch-mini-miller-flip-flops",
     name: "Mini Miller flip flops",
     brand: "tory-burch",
@@ -33918,9 +33915,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 202,
-    views: 3337,
+    rating: 4,
+    reviews: 56,
+    views: 973,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33932,11 +33930,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0068",
+    id: "PI-0956",
     slug: "tory-burch-reva-travel-ballet-flats",
     name: "Reva Travel ballet flats",
     brand: "tory-burch",
@@ -33948,12 +33945,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "shoes",
+      "lifestyle-accessories",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 155,
-    views: 6520,
+    rating: 3.9,
+    reviews: 199,
+    views: 1758,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -33965,11 +33963,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0069",
+    id: "PI-0957",
     slug: "tory-burch-perry-tote-bag",
     name: "Perry tote bag",
     brand: "tory-burch",
@@ -33984,9 +33981,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.6,
-    reviews: 136,
-    views: 1829,
+    rating: 4.4,
+    reviews: 218,
+    views: 467,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -33998,11 +33996,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0070",
+    id: "PI-0958",
     slug: "tory-burch-charlie-quilted-shoulder-bag",
     name: "Charlie quilted shoulder bag",
     brand: "tory-burch",
@@ -34017,9 +34014,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 98,
-    views: 3649,
+    rating: 4.1,
+    reviews: 113,
+    views: 6516,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34031,11 +34029,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0071",
+    id: "PI-0959",
     slug: "tory-burch-lee-radziwill-double-small-handbag-2",
     name: "Lee Radziwill Double small handbag (2)",
     brand: "tory-burch",
@@ -34050,9 +34047,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 117,
-    views: 6950,
+    rating: 4.6,
+    reviews: 132,
+    views: 4599,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34064,11 +34062,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0072",
+    id: "PI-0960",
     slug: "tory-burch-jelly-sandals",
     name: "Jelly sandals",
     brand: "tory-burch",
@@ -34083,9 +34080,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 60,
-    views: 1127,
+    rating: 4,
+    reviews: 188,
+    views: 6183,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34097,11 +34095,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0073",
+    id: "PI-0961",
     slug: "tory-burch-double-t-sport-slides",
     name: "Double T Sport slides",
     brand: "tory-burch",
@@ -34117,8 +34114,9 @@ export const generatedProducts: Product[] = [
       "shoes"
     ],
     rating: 4.9,
-    reviews: 79,
-    views: 4748,
+    reviews: 169,
+    views: 676,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34130,11 +34128,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0074",
+    id: "PI-0962",
     slug: "tory-burch-lee-radziwill-double-small-handbag-3",
     name: "Lee Radziwill Double small handbag (3)",
     brand: "tory-burch",
@@ -34149,9 +34146,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 222,
-    views: 7099,
+    rating: 4.4,
+    reviews: 150,
+    views: 623,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -34163,11 +34161,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0075",
+    id: "PI-0963",
     slug: "tory-burch-romy-suede-bag",
     name: "Romy suede bag",
     brand: "tory-burch",
@@ -34183,8 +34180,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.9,
-    reviews: 41,
-    views: 1798,
+    reviews: 131,
+    views: 1802,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34196,11 +34194,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0076",
+    id: "PI-0964",
     slug: "tory-burch-kira-sport-sandals",
     name: "Kira Sport sandals",
     brand: "tory-burch",
@@ -34215,9 +34212,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 184,
-    views: 1435,
+    rating: 4.6,
+    reviews: 64,
+    views: 1621,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34229,11 +34227,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0077",
+    id: "PI-0965",
     slug: "tory-burch-romy-leather-bucket-bag",
     name: "Romy leather bucket bag",
     brand: "tory-burch",
@@ -34248,9 +34245,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 203,
-    views: 1672,
+    rating: 4.1,
+    reviews: 45,
+    views: 4584,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34262,11 +34260,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0078",
+    id: "PI-0966",
     slug: "tory-burch-charlie-quilted-mini-shoulder-bag",
     name: "Charlie quilted mini shoulder bag",
     brand: "tory-burch",
@@ -34281,9 +34278,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.8,
-    reviews: 50,
-    views: 5593,
+    rating: 3.6,
+    reviews: 226,
+    views: 315,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34295,11 +34293,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0079",
+    id: "PI-0967",
     slug: "tory-burch-kira-quilted-flip-flops",
     name: "Kira quilted flip flops",
     brand: "tory-burch",
@@ -34314,9 +34311,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.3,
-    reviews: 69,
-    views: 190,
+    rating: 4.5,
+    reviews: 207,
+    views: 5830,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34328,11 +34326,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0080",
+    id: "PI-0968",
     slug: "tory-burch-charlie-quilted-suede-shoulder-bag",
     name: "Charlie quilted suede shoulder bag",
     brand: "tory-burch",
@@ -34347,9 +34344,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 4058,
+    rating: 4.2,
+    reviews: 236,
+    views: 5535,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -34361,11 +34359,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0081",
+    id: "PI-0969",
     slug: "ted-baker-jonora-dress-with-balloon-sleeves-and-floral-print",
     name: "Jonora dress with balloon sleeves and floral print",
     brand: "ted-baker",
@@ -34379,12 +34376,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 3.8,
-    reviews: 214,
-    views: 4415,
+    rating: 3.7,
+    reviews: 217,
+    views: 3412,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34396,11 +34394,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0082",
+    id: "PI-0970",
     slug: "ted-baker-jolyye-24mm-watch",
     name: "Jolyye 24mm watch",
     brand: "ted-baker",
@@ -34412,12 +34409,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 1500,
+    rating: 4.1,
+    reviews: 179,
+    views: 4118,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34429,11 +34427,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0083",
+    id: "PI-0971",
     slug: "ted-baker-kkassia-large-belt-bag-with-woven-design-and-leather-trim",
     name: "Kkassia large belt bag with woven design and leather trim",
     brand: "ted-baker",
@@ -34448,9 +34445,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 3417,
+    rating: 4.6,
+    reviews: 198,
+    views: 4479,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34462,11 +34460,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0084",
+    id: "PI-0972",
     slug: "ted-baker-alati-blouse",
     name: "Alati blouse",
     brand: "ted-baker",
@@ -34481,9 +34478,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 6294,
+    rating: 3.7,
+    reviews: 217,
+    views: 1564,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34495,11 +34493,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0085",
+    id: "PI-0973",
     slug: "ted-baker-sanderr-sweater",
     name: "Sanderr sweater",
     brand: "ted-baker",
@@ -34514,9 +34511,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 7525,
+    rating: 4.2,
+    reviews: 236,
+    views: 3481,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34528,11 +34526,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0086",
+    id: "PI-0974",
     slug: "ted-baker-rose-trench-coat",
     name: "Rose trench coat",
     brand: "ted-baker",
@@ -34547,9 +34544,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 3320,
+    rating: 4.7,
+    reviews: 55,
+    views: 6358,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34561,11 +34559,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0087",
+    id: "PI-0975",
     slug: "ted-baker-kander-midi-skirt",
     name: "Kander midi skirt",
     brand: "ted-baker",
@@ -34580,9 +34577,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 5131,
+    rating: 3.8,
+    reviews: 74,
+    views: 7461,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34594,11 +34592,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0088",
+    id: "PI-0976",
     slug: "ted-baker-aracely-short-dress-with-floral-motif",
     name: "Aracely short dress with floral motif",
     brand: "ted-baker",
@@ -34612,12 +34609,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.9,
-    reviews: 43,
-    views: 2670,
+    rating: 4.3,
+    reviews: 93,
+    views: 3256,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34629,11 +34627,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0089",
+    id: "PI-0977",
     slug: "ted-baker-lileey-16mm-watch",
     name: "Lileey 16mm watch",
     brand: "ted-baker",
@@ -34645,12 +34642,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4,
-    reviews: 62,
-    views: 8103,
+    rating: 4.8,
+    reviews: 112,
+    views: 5067,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34662,11 +34660,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0090",
+    id: "PI-0978",
     slug: "ted-baker-georie-long-jumpsuit",
     name: "Georie long jumpsuit",
     brand: "ted-baker",
@@ -34681,9 +34678,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 1993,
+    rating: 4.3,
+    reviews: 227,
+    views: 2606,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34695,11 +34693,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0091",
+    id: "PI-0979",
     slug: "ted-baker-louannn-floral-print-t-shirt",
     name: "Louannn floral print t-shirt",
     brand: "ted-baker",
@@ -34716,9 +34713,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 740,
+    rating: 4.8,
+    reviews: 46,
+    views: 167,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -34730,11 +34728,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0092",
+    id: "PI-0980",
     slug: "ted-baker-shii-bomber-jacket",
     name: "Shii bomber jacket",
     brand: "ted-baker",
@@ -34749,9 +34746,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 166,
-    views: 559,
+    rating: 4.6,
+    reviews: 114,
+    views: 3585,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34763,11 +34761,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0093",
+    id: "PI-0981",
     slug: "ted-baker-long-dress-with-lace-up-detail",
     name: "Long dress with lace-up detail",
     brand: "ted-baker",
@@ -34779,12 +34776,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.5,
-    reviews: 147,
-    views: 5798,
+    rating: 3.7,
+    reviews: 133,
+    views: 6886,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34796,11 +34794,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0094",
+    id: "PI-0982",
     slug: "ted-baker-35-5mm-stainless-steel-watch",
     name: "35.5mm stainless steel watch",
     brand: "ted-baker",
@@ -34812,12 +34809,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 3.8,
-    reviews: 80,
-    views: 1557,
+    rating: 3.6,
+    reviews: 76,
+    views: 1063,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34829,11 +34827,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0095",
+    id: "PI-0983",
     slug: "ted-baker-marssia-sweatshirt",
     name: "Marssia sweatshirt",
     brand: "ted-baker",
@@ -34848,9 +34845,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.7,
-    reviews: 61,
-    views: 4520,
+    rating: 4.1,
+    reviews: 95,
+    views: 4812,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34862,11 +34860,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0096",
+    id: "PI-0984",
     slug: "ted-baker-midi-dress-with-floral-print",
     name: "Midi dress with floral print",
     brand: "ted-baker",
@@ -34880,12 +34877,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.2,
-    reviews: 42,
-    views: 251,
+    rating: 4,
+    reviews: 238,
+    views: 7163,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34897,11 +34895,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0097",
+    id: "PI-0985",
     slug: "ted-baker-ammy-hearts-34mm-bracelet-and-bracelet-set",
     name: "Ammy Hearts 34mm bracelet and bracelet set",
     brand: "ted-baker",
@@ -34913,12 +34910,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 3.7,
-    reviews: 223,
-    views: 5766,
+    rating: 4.5,
+    reviews: 57,
+    views: 1862,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34930,11 +34928,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0098",
+    id: "PI-0986",
     slug: "ted-baker-lahnaa-blouse",
     name: "Lahnaa blouse",
     brand: "ted-baker",
@@ -34949,9 +34946,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5599,
+    rating: 4.4,
+    reviews: 200,
+    views: 6165,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34963,11 +34961,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0099",
+    id: "PI-0987",
     slug: "ted-baker-sannii-midi-dress",
     name: "Sannii midi dress",
     brand: "ted-baker",
@@ -34979,12 +34976,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3348,
+    rating: 4.9,
+    reviews: 219,
+    views: 1608,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -34996,11 +34994,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0100",
+    id: "PI-0988",
     slug: "ted-baker-layleta-bikini-bottom",
     name: "Layleta bikini bottom",
     brand: "ted-baker",
@@ -35015,9 +35012,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 62,
-    views: 1617,
+    rating: 4.4,
+    reviews: 66,
+    views: 5529,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35029,11 +35027,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0101",
+    id: "PI-0989",
     slug: "prada-small-shoulder-bag-with-buckle-detail",
     name: "small shoulder bag with buckle detail",
     brand: "prada",
@@ -35048,9 +35045,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 43,
-    views: 4858,
+    rating: 4.9,
+    reviews: 85,
+    views: 126,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35062,11 +35060,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0102",
+    id: "PI-0990",
     slug: "prada-satin-skirt",
     name: "satin skirt",
     brand: "prada",
@@ -35081,9 +35078,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.2,
-    reviews: 100,
-    views: 439,
+    rating: 4.5,
+    reviews: 123,
+    views: 4832,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -35095,11 +35093,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0103",
+    id: "PI-0991",
     slug: "prada-leather-sneakers-with-back-strap",
     name: "leather sneakers with back strap",
     brand: "prada",
@@ -35114,9 +35111,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.7,
-    reviews: 81,
-    views: 2300,
+    rating: 4,
+    reviews: 104,
+    views: 4845,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35128,11 +35126,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0104",
+    id: "PI-0992",
     slug: "prada-suede-sneakers-with-back-strap",
     name: "suede sneakers with back strap",
     brand: "prada",
@@ -35147,9 +35144,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 645,
+    rating: 4.1,
+    reviews: 161,
+    views: 4222,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35161,11 +35159,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0105",
+    id: "PI-0993",
     slug: "prada-compact-printed-dress",
     name: "compact printed dress",
     brand: "prada",
@@ -35177,12 +35174,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 7034,
+    rating: 3.6,
+    reviews: 142,
+    views: 5555,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35194,11 +35192,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0106",
+    id: "PI-0994",
     slug: "prada-buckle-small-leather-bag",
     name: "Buckle small leather bag",
     brand: "prada",
@@ -35213,9 +35210,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 176,
-    views: 3499,
+    rating: 3.7,
+    reviews: 199,
+    views: 268,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -35227,11 +35225,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0107",
+    id: "PI-0995",
     slug: "prada-embroidered-silk-dress",
     name: "embroidered silk dress",
     brand: "prada",
@@ -35245,12 +35242,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.3,
-    reviews: 157,
-    views: 1688,
+    rating: 4.6,
+    reviews: 180,
+    views: 7585,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35262,11 +35260,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0108",
+    id: "PI-0996",
     slug: "prada-houndstooth-and-fur-jacket",
     name: "houndstooth and fur jacket",
     brand: "prada",
@@ -35281,9 +35278,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 110,
-    views: 1735,
+    rating: 4.7,
+    reviews: 237,
+    views: 7426,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -35295,11 +35293,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0109",
+    id: "PI-0997",
     slug: "prada-poplin-shirt",
     name: "poplin shirt",
     brand: "prada",
@@ -35314,9 +35311,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.3,
-    reviews: 91,
-    views: 3342,
+    rating: 4.2,
+    reviews: 218,
+    views: 3273,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35328,11 +35326,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0110",
+    id: "PI-0998",
     slug: "prada-bonnie-mini-leather-bag",
     name: "Bonnie mini leather bag",
     brand: "prada",
@@ -35347,9 +35344,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 59,
-    views: 2464,
+    rating: 4.7,
+    reviews: 171,
+    views: 6456,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35361,11 +35359,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0111",
+    id: "PI-0999",
     slug: "prada-compact-pants-with-trench-coat-fabric",
     name: "compact pants with trench coat fabric",
     brand: "prada",
@@ -35380,9 +35377,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 40,
-    views: 2707,
+    rating: 4.2,
+    reviews: 152,
+    views: 1893,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35394,11 +35392,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0112",
+    id: "PI-1000",
     slug: "prada-wish-bag",
     name: "Wish bag",
     brand: "prada",
@@ -35413,9 +35410,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 97,
-    views: 2158,
+    rating: 4,
+    reviews: 68,
+    views: 247,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35427,11 +35425,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0113",
+    id: "PI-1001",
     slug: "prada-coat-with-buttons",
     name: "coat with buttons",
     brand: "prada",
@@ -35446,9 +35443,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
-    reviews: 78,
-    views: 5517,
+    rating: 4.5,
+    reviews: 87,
+    views: 2164,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35460,11 +35458,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0114",
+    id: "PI-1002",
     slug: "prada-leather-sneakers-with-back-strap-2",
     name: "leather sneakers with back strap (2)",
     brand: "prada",
@@ -35479,9 +35476,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 1692,
+    rating: 3.6,
+    reviews: 106,
+    views: 5407,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35493,11 +35491,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0115",
+    id: "PI-1003",
     slug: "prada-devore-satin-dress",
     name: "devore satin dress",
     brand: "prada",
@@ -35509,12 +35506,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 2399,
+    rating: 4.1,
+    reviews: 125,
+    views: 7606,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -35526,11 +35524,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0116",
+    id: "PI-1004",
     slug: "prada-cardigan-with-zip",
     name: "cardigan with zip",
     brand: "prada",
@@ -35545,9 +35542,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.7,
-    reviews: 173,
-    views: 5298,
+    rating: 4.8,
+    reviews: 192,
+    views: 5931,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35559,11 +35557,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0117",
+    id: "PI-1005",
     slug: "prada-shoulder-bag-with-logo-plaque",
     name: "shoulder bag with logo plaque",
     brand: "prada",
@@ -35578,9 +35575,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 154,
-    views: 7895,
+    rating: 3.9,
+    reviews: 211,
+    views: 7192,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35592,11 +35590,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0118",
+    id: "PI-1006",
     slug: "prada-short-top-with-duchesse-motif",
     name: "short top with Duchesse motif",
     brand: "prada",
@@ -35611,9 +35608,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.7,
-    reviews: 107,
-    views: 520,
+    rating: 4.4,
+    reviews: 230,
+    views: 3781,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35625,11 +35623,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0119",
+    id: "PI-1007",
     slug: "prada-cotton-midi-skirt",
     name: "cotton midi skirt",
     brand: "prada",
@@ -35644,9 +35641,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 88,
-    views: 3483,
+    rating: 4.9,
+    reviews: 49,
+    views: 2742,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35658,11 +35656,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0120",
+    id: "PI-1008",
     slug: "prada-leather-flats",
     name: "leather flats",
     brand: "prada",
@@ -35677,9 +35674,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 80,
-    views: 3659,
+    rating: 3.8,
+    reviews: 220,
+    views: 6849,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -35691,11 +35689,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0121",
+    id: "PI-1009",
     slug: "burberry-heritage-square-sunglasses",
     name: "Heritage square sunglasses",
     brand: "burberry",
@@ -35710,9 +35707,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 3.9,
-    reviews: 61,
-    views: 3768,
+    rating: 4.3,
+    reviews: 239,
+    views: 4484,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35724,11 +35722,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0122",
+    id: "PI-1010",
     slug: "burberry-quilted-design-bucket-bag",
     name: "quilted-design bucket bag",
     brand: "burberry",
@@ -35743,9 +35740,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 42,
-    views: 5925,
+    rating: 4.1,
+    reviews: 67,
+    views: 6758,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35757,11 +35755,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0123",
+    id: "PI-1011",
     slug: "burberry-horseshoe-chain-bag",
     name: "Horseshoe chain bag",
     brand: "burberry",
@@ -35776,9 +35773,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 223,
-    views: 7898,
+    rating: 4.6,
+    reviews: 86,
+    views: 3457,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35790,11 +35788,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0124",
+    id: "PI-1012",
     slug: "burberry-nylon-suede-and-leather-eclipse-sneakers",
     name: "nylon, suede and leather Eclipse sneakers",
     brand: "burberry",
@@ -35809,9 +35806,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 204,
-    views: 2713,
+    rating: 3.7,
+    reviews: 105,
+    views: 4940,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35823,11 +35821,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0125",
+    id: "PI-1013",
     slug: "burberry-side-tie-top",
     name: "side-tie top",
     brand: "burberry",
@@ -35842,9 +35839,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.7,
-    reviews: 185,
-    views: 6044,
+    rating: 4.2,
+    reviews: 124,
+    views: 935,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35856,11 +35854,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0126",
+    id: "PI-1014",
     slug: "burberry-crochet-cotton-blend-dress",
     name: "crochet cotton blend dress",
     brand: "burberry",
@@ -35872,12 +35869,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.2,
-    reviews: 166,
-    views: 3953,
+    rating: 4.7,
+    reviews: 143,
+    views: 6250,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35889,11 +35887,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0127",
+    id: "PI-1015",
     slug: "burberry-check-trim-leather-robin-ballerinas",
     name: "Check-trim leather Robin ballerinas",
     brand: "burberry",
@@ -35908,9 +35905,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.7,
-    reviews: 147,
-    views: 602,
+    rating: 3.8,
+    reviews: 162,
+    views: 7291,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35922,11 +35920,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0128",
+    id: "PI-1016",
     slug: "burberry-cotton-pique-tennis-dress",
     name: "cotton pique tennis dress",
     brand: "burberry",
@@ -35938,12 +35935,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 707,
+    rating: 4.3,
+    reviews: 181,
+    views: 1480,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35955,11 +35953,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0129",
+    id: "PI-1017",
     slug: "burberry-long-silk-cotton-foxfield-trench-coat",
     name: "long silk cotton Foxfield trench coat",
     brand: "burberry",
@@ -35974,9 +35971,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 720,
+    rating: 4.8,
+    reviews: 200,
+    views: 6293,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -35988,11 +35986,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0130",
+    id: "PI-1018",
     slug: "burberry-medium-check-zip-tote",
     name: "medium Check zip tote",
     brand: "burberry",
@@ -36007,9 +36004,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 71,
-    views: 4362,
+    rating: 4.3,
+    reviews: 115,
+    views: 7998,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36021,11 +36019,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0131",
+    id: "PI-1019",
     slug: "burberry-wool-polo-shirt",
     name: "wool polo shirt",
     brand: "burberry",
@@ -36040,9 +36037,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 90,
-    views: 3605,
+    rating: 4.8,
+    reviews: 134,
+    views: 5401,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -36054,11 +36052,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0132",
+    id: "PI-1020",
     slug: "burberry-cavalier-check-detail-boots",
     name: "Cavalier Check-detail boots",
     brand: "burberry",
@@ -36073,9 +36070,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 168,
+    rating: 4.2,
+    reviews: 58,
+    views: 2557,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36087,11 +36085,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0133",
+    id: "PI-1021",
     slug: "burberry-check-slides",
     name: "Check slides",
     brand: "burberry",
@@ -36106,9 +36103,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 2357,
+    rating: 3.7,
+    reviews: 239,
+    views: 4350,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36120,11 +36118,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0134",
+    id: "PI-1022",
     slug: "burberry-check-canvas-highgate-ballerinas",
     name: "Check canvas Highgate ballerinas",
     brand: "burberry",
@@ -36139,9 +36136,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 195,
-    views: 6918,
+    rating: 3.8,
+    reviews: 96,
+    views: 4973,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36153,11 +36151,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0135",
+    id: "PI-1023",
     slug: "burberry-check-trim-bikini",
     name: "Check trim bikini",
     brand: "burberry",
@@ -36172,9 +36169,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 214,
-    views: 7439,
+    rating: 4.7,
+    reviews: 77,
+    views: 4960,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36186,11 +36184,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0136",
+    id: "PI-1024",
     slug: "burberry-quilted-thermoregulated-fernleigh-jacket",
     name: "quilted thermoregulated Fernleigh jacket",
     brand: "burberry",
@@ -36205,9 +36202,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.9,
-    reviews: 233,
-    views: 580,
+    rating: 3.6,
+    reviews: 182,
+    views: 3145,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36219,11 +36217,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0137",
+    id: "PI-1025",
     slug: "burberry-gabardine-baseball-cap",
     name: "Gabardine baseball cap",
     brand: "burberry",
@@ -36238,9 +36235,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
-    reviews: 52,
-    views: 1193,
+    rating: 4.5,
+    reviews: 163,
+    views: 7554,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36252,11 +36250,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0138",
+    id: "PI-1026",
     slug: "burberry-skinny-check-silk-scarf",
     name: "skinny Check silk scarf",
     brand: "burberry",
@@ -36271,9 +36268,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 3618,
+    rating: 4.6,
+    reviews: 220,
+    views: 7713,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36285,11 +36283,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0139",
+    id: "PI-1027",
     slug: "burberry-mid-length-taffeta-kensington-trench-coat",
     name: "mid-length taffeta Kensington trench coat",
     brand: "burberry",
@@ -36304,9 +36301,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 6403,
+    rating: 4.1,
+    reviews: 201,
+    views: 140,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36318,11 +36316,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0140",
+    id: "PI-1028",
     slug: "burberry-mini-check-vanity-bag",
     name: "mini Check vanity bag",
     brand: "burberry",
@@ -36338,8 +36335,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4,
-    reviews: 66,
-    views: 4149,
+    reviews: 210,
+    views: 485,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36351,11 +36349,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0141",
+    id: "PI-1029",
     slug: "versace-printed-silk-twill-mini-dress",
     name: "printed silk twill mini dress",
     brand: "versace",
@@ -36367,12 +36364,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
     rating: 4.9,
-    reviews: 47,
-    views: 6086,
+    reviews: 191,
+    views: 5782,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36384,11 +36382,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0142",
+    id: "PI-1030",
     slug: "versace-sea-frames-necklace",
     name: "sea frames necklace",
     brand: "versace",
@@ -36400,12 +36397,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 3.6,
-    reviews: 104,
-    views: 5147,
+    rating: 4.3,
+    reviews: 49,
+    views: 1652,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36417,11 +36415,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0143",
+    id: "PI-1031",
     slug: "versace-lace-trim-silk-cady-satin-mini-dress",
     name: "lace-trim silk cady satin mini dress",
     brand: "versace",
@@ -36433,12 +36430,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.5,
-    reviews: 85,
-    views: 5384,
+    rating: 4.8,
+    reviews: 68,
+    views: 7089,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36450,11 +36448,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0144",
+    id: "PI-1032",
     slug: "versace-nyx-buckle-detail-sandals",
     name: "Nyx buckle-detail sandals",
     brand: "versace",
@@ -36469,9 +36466,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 190,
-    views: 7361,
+    rating: 4.7,
+    reviews: 211,
+    views: 4446,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36483,11 +36481,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0145",
+    id: "PI-1033",
     slug: "versace-pivot-small-canvas-bucket-bag",
     name: "Pivot small canvas bucket bag",
     brand: "versace",
@@ -36502,9 +36499,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 171,
-    views: 2662,
+    rating: 3.8,
+    reviews: 230,
+    views: 1463,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36516,11 +36514,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0146",
+    id: "PI-1034",
     slug: "versace-greca-print-graphic-pattern-dress",
     name: "Greca-print graphic-pattern dress",
     brand: "versace",
@@ -36532,12 +36529,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.4,
-    reviews: 228,
-    views: 4839,
+    rating: 4.9,
+    reviews: 125,
+    views: 2352,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36549,11 +36547,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0147",
+    id: "PI-1035",
     slug: "versace-gianni-nappa-mules-55mm",
     name: "Gianni nappa mules 55mm",
     brand: "versace",
@@ -36568,9 +36565,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 209,
-    views: 6500,
+    rating: 4,
+    reviews: 144,
+    views: 2803,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36582,11 +36580,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0148",
+    id: "PI-1036",
     slug: "versace-embroidered-silk-cady-satin-mini-dress",
     name: "embroidered silk cady satin mini dress",
     brand: "versace",
@@ -36600,12 +36597,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.2,
-    reviews: 114,
-    views: 7629,
+    rating: 3.9,
+    reviews: 87,
+    views: 2062,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36617,11 +36615,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0149",
+    id: "PI-1037",
     slug: "versace-printed-silk-twill-shirt",
     name: "printed silk twill shirt",
     brand: "versace",
@@ -36636,9 +36633,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.7,
-    reviews: 95,
-    views: 5294,
+    rating: 4.4,
+    reviews: 106,
+    views: 3843,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36650,11 +36648,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0150",
+    id: "PI-1038",
     slug: "versace-severine-leather-shoulder-bag",
     name: "Severine leather shoulder bag",
     brand: "versace",
@@ -36670,8 +36667,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.1,
-    reviews: 57,
-    views: 7956,
+    reviews: 201,
+    views: 3140,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36683,11 +36681,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0151",
+    id: "PI-1039",
     slug: "versace-nappa-shorts",
     name: "nappa shorts",
     brand: "versace",
@@ -36703,8 +36700,9 @@ export const generatedProducts: Product[] = [
       "clothing"
     ],
     rating: 4.6,
-    reviews: 76,
-    views: 3287,
+    reviews: 220,
+    views: 903,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -36716,11 +36714,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0152",
+    id: "PI-1040",
     slug: "versace-marisa-leather-sandals",
     name: "Marisa leather sandals",
     brand: "versace",
@@ -36735,9 +36732,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.5,
-    reviews: 219,
-    views: 5398,
+    rating: 4.6,
+    reviews: 72,
+    views: 3197,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36749,11 +36747,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0153",
+    id: "PI-1041",
     slug: "versace-irradia-earrings",
     name: "Irradia earrings",
     brand: "versace",
@@ -36765,12 +36762,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 3.6,
-    reviews: 238,
-    views: 5823,
+    rating: 4.1,
+    reviews: 53,
+    views: 7424,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36782,11 +36780,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0154",
+    id: "PI-1042",
     slug: "versace-printed-silk-duchesse-mini-dress",
     name: "printed silk duchesse mini dress",
     brand: "versace",
@@ -36798,12 +36795,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.7,
-    reviews: 133,
-    views: 2232,
+    rating: 3.6,
+    reviews: 234,
+    views: 5933,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36815,11 +36813,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0155",
+    id: "PI-1043",
     slug: "versace-gianni-nappa-pumps-90mm",
     name: "Gianni nappa pumps 90mm",
     brand: "versace",
@@ -36834,9 +36831,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 152,
-    views: 6117,
+    rating: 4.5,
+    reviews: 215,
+    views: 7714,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36848,11 +36846,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0156",
+    id: "PI-1044",
     slug: "versace-cotton-poplin-mini-dress",
     name: "cotton-poplin mini dress",
     brand: "versace",
@@ -36864,12 +36861,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 3.7,
-    reviews: 95,
-    views: 1878,
+    rating: 4,
+    reviews: 196,
+    views: 2687,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36881,11 +36879,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0157",
+    id: "PI-1045",
     slug: "versace-buttoned-striped-polo-shirt",
     name: "buttoned striped polo shirt",
     brand: "versace",
@@ -36900,9 +36897,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.2,
-    reviews: 114,
-    views: 3851,
+    rating: 4.9,
+    reviews: 177,
+    views: 124,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -36914,11 +36912,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0158",
+    id: "PI-1046",
     slug: "versace-bikini-top",
     name: "bikini top",
     brand: "versace",
@@ -36933,9 +36930,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.3,
-    reviews: 105,
-    views: 4044,
+    rating: 4.4,
+    reviews: 158,
+    views: 313,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36947,11 +36945,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0159",
+    id: "PI-1047",
     slug: "versace-embroidered-logo-bikini-bottoms",
     name: "embroidered-logo bikini bottoms",
     brand: "versace",
@@ -36968,9 +36965,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 124,
-    views: 3809,
+    rating: 3.9,
+    reviews: 139,
+    views: 1554,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -36982,11 +36980,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0160",
+    id: "PI-1048",
     slug: "versace-sophie-thong-strap-mules",
     name: "Sophie thong-strap mules",
     brand: "versace",
@@ -37001,9 +36998,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 68,
-    views: 5601,
+    rating: 4.4,
+    reviews: 224,
+    views: 1979,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37015,11 +37013,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0161",
+    id: "PI-1049",
     slug: "gucci-ophidia-small-shoulder-bag",
     name: "Ophidia small shoulder bag",
     brand: "gucci",
@@ -37034,9 +37031,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 89,
-    views: 5028,
+    rating: 3.9,
+    reviews: 205,
+    views: 4264,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37048,11 +37046,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0162",
+    id: "PI-1050",
     slug: "gucci-mini-quilted-gg-marmont-bag",
     name: "mini quilted GG Marmont bag",
     brand: "gucci",
@@ -37067,9 +37064,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 70,
-    views: 4937,
+    rating: 4.7,
+    reviews: 63,
+    views: 5726,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37081,11 +37079,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0163",
+    id: "PI-1051",
     slug: "gucci-small-quilted-gg-handbag",
     name: "small quilted GG handbag",
     brand: "gucci",
@@ -37100,9 +37097,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 51,
-    views: 8066,
+    rating: 3.8,
+    reviews: 82,
+    views: 851,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37114,11 +37112,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0164",
+    id: "PI-1052",
     slug: "gucci-small-dionysus-gg-canvas-clutch-bag",
     name: "small Dionysus GG canvas clutch bag",
     brand: "gucci",
@@ -37133,9 +37130,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.2,
-    reviews: 192,
-    views: 1325,
+    rating: 4.3,
+    reviews: 101,
+    views: 128,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37147,11 +37145,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0165",
+    id: "PI-1053",
     slug: "gucci-medium-monogram-tote-bag",
     name: "medium monogram tote bag",
     brand: "gucci",
@@ -37166,9 +37163,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.7,
-    reviews: 211,
-    views: 6928,
+    rating: 4.8,
+    reviews: 120,
+    views: 2893,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37180,11 +37178,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0166",
+    id: "PI-1054",
     slug: "gucci-large-gg-supreme-brera-shoulder-bag",
     name: "large GG Supreme Brera shoulder bag",
     brand: "gucci",
@@ -37199,9 +37196,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.8,
-    reviews: 230,
-    views: 5501,
+    rating: 4.1,
+    reviews: 187,
+    views: 8098,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37213,11 +37211,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0167",
+    id: "PI-1055",
     slug: "gucci-mini-gg-marmont-shoulder-bag",
     name: "mini GG Marmont shoulder bag",
     brand: "gucci",
@@ -37232,9 +37229,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 49,
-    views: 638,
+    rating: 4.6,
+    reviews: 206,
+    views: 2601,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37246,11 +37244,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0168",
+    id: "PI-1056",
     slug: "gucci-boston-gg-supreme-mini-bag",
     name: "Boston GG Supreme mini bag",
     brand: "gucci",
@@ -37265,9 +37262,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.6,
-    reviews: 116,
-    views: 1623,
+    rating: 3.7,
+    reviews: 225,
+    views: 5892,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37279,11 +37277,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0169",
+    id: "PI-1057",
     slug: "gucci-gg-marmont-mini-shoulder-bag",
     name: "GG Marmont mini shoulder bag",
     brand: "gucci",
@@ -37298,9 +37295,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 3540,
+    rating: 4.2,
+    reviews: 44,
+    views: 559,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37312,11 +37310,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0170",
+    id: "PI-1058",
     slug: "gucci-medium-jackie-1961-shoulder-bag",
     name: "Medium Jackie 1961 shoulder bag",
     brand: "gucci",
@@ -37331,9 +37328,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 99,
-    views: 8082,
+    rating: 4.5,
+    reviews: 215,
+    views: 3130,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37345,11 +37343,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0171",
+    id: "PI-1059",
     slug: "gucci-shoulder-bag-with-logo-plaque",
     name: "shoulder bag with logo plaque",
     brand: "gucci",
@@ -37364,9 +37361,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 118,
-    views: 313,
+    rating: 3.6,
+    reviews: 234,
+    views: 4741,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37378,11 +37376,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0172",
+    id: "PI-1060",
     slug: "gucci-small-tribeca-tote-bag",
     name: "small Tribeca tote bag",
     brand: "gucci",
@@ -37397,9 +37394,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.9,
-    reviews: 137,
-    views: 828,
+    rating: 4.8,
+    reviews: 58,
+    views: 4441,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37411,11 +37409,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0173",
+    id: "PI-1061",
     slug: "gucci-jackie-1961-medium-shoulder-bag",
     name: "Jackie 1961 medium shoulder bag",
     brand: "gucci",
@@ -37430,9 +37427,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 156,
-    views: 7921,
+    rating: 3.9,
+    reviews: 77,
+    views: 1202,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37444,11 +37442,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0174",
+    id: "PI-1062",
     slug: "gucci-medium-dionysus-shoulder-bag",
     name: "medium Dionysus shoulder bag",
     brand: "gucci",
@@ -37463,9 +37460,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 175,
-    views: 6414,
+    rating: 3.8,
+    reviews: 220,
+    views: 1041,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37477,11 +37475,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0175",
+    id: "PI-1063",
     slug: "gucci-gg-marmont-medium-shoulder-bag",
     name: "GG Marmont medium shoulder bag",
     brand: "gucci",
@@ -37496,9 +37493,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 194,
-    views: 899,
+    rating: 4.3,
+    reviews: 239,
+    views: 5788,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37510,11 +37508,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0176",
+    id: "PI-1064",
     slug: "gucci-bamboo-1947-cross-body-bag",
     name: "Bamboo 1947 cross body bag",
     brand: "gucci",
@@ -37529,9 +37526,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 163,
-    views: 7856,
+    rating: 4.2,
+    reviews: 182,
+    views: 5923,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37543,11 +37541,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0177",
+    id: "PI-1065",
     slug: "gucci-gg-marmont-shoulder-bag",
     name: "GG Marmont shoulder bag",
     brand: "gucci",
@@ -37562,9 +37559,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 144,
-    views: 7923,
+    rating: 4.7,
+    reviews: 201,
+    views: 6062,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37576,11 +37574,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0178",
+    id: "PI-1066",
     slug: "gucci-dionysus-goat-leather-shoulder-bag",
     name: "Dionysus goat leather shoulder bag",
     brand: "gucci",
@@ -37595,9 +37592,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 125,
-    views: 4294,
+    rating: 4.6,
+    reviews: 144,
+    views: 6803,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37609,11 +37607,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0179",
+    id: "PI-1067",
     slug: "gucci-small-dionysus-leather-shoulder-bag",
     name: "small Dionysus leather shoulder bag",
     brand: "gucci",
@@ -37628,9 +37625,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 106,
-    views: 1039,
+    rating: 3.7,
+    reviews: 163,
+    views: 976,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37642,11 +37640,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0180",
+    id: "PI-1068",
     slug: "gucci-jackie-grained-leather-shoulder-bag",
     name: "Jackie grained leather shoulder bag",
     brand: "gucci",
@@ -37661,9 +37658,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.8,
-    reviews: 94,
-    views: 6105,
+    rating: 3.6,
+    reviews: 106,
+    views: 577,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37675,11 +37673,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-1069",
     slug: "balenciaga-belted-cotton-shirt",
     name: "belted cotton shirt",
     brand: "balenciaga",
@@ -37694,9 +37691,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 4.1,
+    reviews: 125,
+    views: 842,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37708,11 +37706,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-1070",
     slug: "balenciaga-cagole-mules",
     name: "Cagole mules",
     brand: "balenciaga",
@@ -37728,8 +37725,9 @@ export const generatedProducts: Product[] = [
       "shoes"
     ],
     rating: 4.1,
-    reviews: 87,
-    views: 300,
+    reviews: 59,
+    views: 3048,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -37741,11 +37739,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-1071",
     slug: "balenciaga-draped-glittered-mini-dress",
     name: "draped glittered mini dress",
     brand: "balenciaga",
@@ -37759,12 +37756,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
     rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    reviews: 40,
+    views: 4859,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -37776,11 +37774,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-1072",
     slug: "balenciaga-cagole-110mm-leather-sandals",
     name: "Cagole 110mm leather sandals",
     brand: "balenciaga",
@@ -37795,9 +37792,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.5,
-    reviews: 49,
-    views: 466,
+    rating: 3.7,
+    reviews: 97,
+    views: 5670,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37809,11 +37807,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-1073",
     slug: "balenciaga-techwear-fitted-long-sleeve-top",
     name: "techwear fitted long sleeve top",
     brand: "balenciaga",
@@ -37828,9 +37825,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 4.6,
+    reviews: 78,
+    views: 7317,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37842,11 +37840,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-1074",
     slug: "balenciaga-gaeta-wedge-thong-sandals-in-black",
     name: "Gaeta wedge thong sandals in black",
     brand: "balenciaga",
@@ -37863,9 +37860,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    rating: 4.7,
+    reviews: 135,
+    views: 4292,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37877,11 +37875,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-1075",
     slug: "balenciaga-logo-print-panelled-leggings",
     name: "logo-print panelled leggings",
     brand: "balenciaga",
@@ -37893,12 +37890,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "clothing",
+      "sportswear",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 4.2,
+    reviews: 116,
+    views: 3689,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37910,11 +37908,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-1076",
     slug: "balenciaga-twisted-seam-jeans-in-bleach-light-blue",
     name: "twisted seam jeans in bleach light blue",
     brand: "balenciaga",
@@ -37931,9 +37928,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
+    rating: 4.3,
     reviews: 173,
-    views: 2106,
+    views: 5162,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37945,11 +37943,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-1077",
     slug: "balenciaga-techwear-short-long-sleeve-bodysuit-in-black",
     name: "techwear short long sleeve bodysuit in black",
     brand: "balenciaga",
@@ -37966,9 +37963,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
+    rating: 3.8,
     reviews: 154,
-    views: 4369,
+    views: 2255,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -37980,11 +37978,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-1078",
     slug: "balenciaga-le-city-pouch-shoulder-bag",
     name: "Le City Pouch shoulder bag",
     brand: "balenciaga",
@@ -37999,9 +37996,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 3.9,
+    reviews: 211,
+    views: 6464,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38013,11 +38011,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-1079",
     slug: "balenciaga-le-city-bag-medium-in-black",
     name: "Le City bag medium in black",
     brand: "balenciaga",
@@ -38034,9 +38031,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 4.8,
+    reviews: 192,
+    views: 6707,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38048,11 +38046,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-1080",
     slug: "balenciaga-nano-le-city-bag",
     name: "nano Le City bag",
     brand: "balenciaga",
@@ -38067,9 +38064,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 4.4,
+    reviews: 44,
+    views: 271,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38081,11 +38079,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-1081",
     slug: "balenciaga-logo-short-sleeves-t-shirt",
     name: "logo short-sleeves T-shirt",
     brand: "balenciaga",
@@ -38100,9 +38097,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    rating: 4.9,
+    reviews: 63,
+    views: 844,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38114,11 +38112,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-1082",
     slug: "balenciaga-track-trainers-in-black",
     name: "track trainers in black",
     brand: "balenciaga",
@@ -38132,12 +38129,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "clothing",
+      "sportswear",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 4,
+    reviews: 82,
+    views: 4967,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38149,11 +38147,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-1083",
     slug: "balenciaga-two-button-cotton-blazer",
     name: "two-button cotton blazer",
     brand: "balenciaga",
@@ -38168,9 +38165,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    rating: 4.5,
+    reviews: 101,
+    views: 5806,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38182,11 +38180,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-1084",
     slug: "balenciaga-los-angeles-city-print-layered-dress",
     name: "Los Angeles city print layered dress",
     brand: "balenciaga",
@@ -38200,12 +38197,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    rating: 3.8,
+    reviews: 168,
+    views: 2989,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38217,11 +38215,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-1085",
     slug: "balenciaga-le-city-charm-detail-long-card-holder",
     name: "Le City charm-detail long card holder",
     brand: "balenciaga",
@@ -38236,9 +38233,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    rating: 4.3,
+    reviews: 187,
+    views: 2976,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38250,11 +38248,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-1086",
     slug: "balenciaga-gaeta-leopard-print-wedge-sandals",
     name: "Gaeta leopard-print wedge sandals",
     brand: "balenciaga",
@@ -38269,9 +38266,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 4.8,
+    reviews: 206,
+    views: 4403,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38283,11 +38281,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-1087",
     slug: "balenciaga-le-city-tote-bag",
     name: "Le City tote bag",
     brand: "balenciaga",
@@ -38302,9 +38299,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    rating: 3.9,
+    reviews: 225,
+    views: 5234,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38316,11 +38314,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-1088",
     slug: "balenciaga-cagole-thong-sandal-in-black",
     name: "Cagole thong sandal in black",
     brand: "balenciaga",
@@ -38337,9 +38334,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 4.6,
+    reviews: 92,
+    views: 281,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38351,11 +38349,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0021",
+    id: "PI-1089",
     slug: "saint-laurent-small-envelope-wallet-with-chain",
     name: "small Envelope wallet with chain",
     brand: "saint-laurent",
@@ -38370,9 +38367,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.2,
-    reviews: 228,
-    views: 2503,
+    rating: 3.7,
+    reviews: 111,
+    views: 6364,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38384,11 +38382,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0022",
+    id: "PI-1090",
     slug: "saint-laurent-compact-cassandre-wallet",
     name: "compact Cassandre wallet",
     brand: "saint-laurent",
@@ -38403,9 +38400,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 171,
-    views: 1030,
+    rating: 4.3,
+    reviews: 53,
+    views: 1746,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38417,11 +38415,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0023",
+    id: "PI-1091",
     slug: "saint-laurent-cassandre-clutch",
     name: "Cassandre clutch",
     brand: "saint-laurent",
@@ -38436,9 +38433,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 190,
-    views: 3937,
+    rating: 3.8,
+    reviews: 234,
+    views: 1591,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -38450,11 +38448,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0024",
+    id: "PI-1092",
     slug: "saint-laurent-cassandre-leather-belt",
     name: "Cassandre leather belt",
     brand: "saint-laurent",
@@ -38469,9 +38466,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.3,
-    reviews: 85,
-    views: 6536,
+    rating: 4.7,
+    reviews: 215,
+    views: 1076,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38483,11 +38481,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0025",
+    id: "PI-1093",
     slug: "saint-laurent-le-loafer-smooth-leather-shoes",
     name: "Le Loafer smooth leather shoes",
     brand: "saint-laurent",
@@ -38502,9 +38499,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.8,
-    reviews: 104,
-    views: 4725,
+    rating: 4.2,
+    reviews: 196,
+    views: 5951,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38516,11 +38514,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0026",
+    id: "PI-1094",
     slug: "saint-laurent-medium-clutch-with-monogram",
     name: "medium clutch with monogram",
     brand: "saint-laurent",
@@ -38535,9 +38532,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.7,
-    reviews: 47,
-    views: 7718,
+    rating: 3.7,
+    reviews: 177,
+    views: 8078,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38549,11 +38547,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0027",
+    id: "PI-1095",
     slug: "saint-laurent-opyum-sandals-with-logo-heel",
     name: "Opyum sandals with logo heel",
     brand: "saint-laurent",
@@ -38568,9 +38565,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2267,
+    rating: 4.6,
+    reviews: 158,
+    views: 4973,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38582,11 +38580,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0028",
+    id: "PI-1096",
     slug: "saint-laurent-mini-le-5-7-shoulder-bag",
     name: "mini Le 5 à 7 shoulder bag",
     brand: "saint-laurent",
@@ -38601,9 +38598,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.9,
-    reviews: 57,
-    views: 5564,
+    rating: 4.1,
+    reviews: 139,
+    views: 6016,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38615,11 +38613,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0029",
+    id: "PI-1097",
     slug: "saint-laurent-shoulder-bag-with-logo-plaque",
     name: "shoulder bag with logo plaque",
     brand: "saint-laurent",
@@ -38634,9 +38631,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 76,
-    views: 3185,
+    rating: 3.6,
+    reviews: 120,
+    views: 6259,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38648,11 +38646,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0030",
+    id: "PI-1098",
     slug: "saint-laurent-cassandre-card-holder",
     name: "Cassandre card holder",
     brand: "saint-laurent",
@@ -38667,9 +38664,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 218,
-    views: 6475,
+    rating: 4.5,
+    reviews: 101,
+    views: 5610,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38681,11 +38679,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0031",
+    id: "PI-1099",
     slug: "saint-laurent-cassandre-metal-and-rhinestone-bracelet",
     name: "Cassandre metal and rhinestone bracelet",
     brand: "saint-laurent",
@@ -38697,12 +38694,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.5,
-    reviews: 199,
-    views: 3482,
+    rating: 4,
+    reviews: 82,
+    views: 2703,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -38714,11 +38712,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0032",
+    id: "PI-1100",
     slug: "saint-laurent-loafer-with-logo-plaque",
     name: "loafer with logo plaque",
     brand: "saint-laurent",
@@ -38733,9 +38730,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.6,
-    reviews: 56,
-    views: 869,
+    rating: 3.9,
+    reviews: 201,
+    views: 5804,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38747,11 +38745,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0033",
+    id: "PI-1101",
     slug: "saint-laurent-high-waisted-jeans",
     name: "high-waisted jeans",
     brand: "saint-laurent",
@@ -38766,9 +38763,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.1,
-    reviews: 237,
-    views: 2680,
+    rating: 4.4,
+    reviews: 220,
+    views: 3439,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38780,11 +38778,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0034",
+    id: "PI-1102",
     slug: "saint-laurent-babylone-smooth-leather-mules",
     name: "Babylone smooth leather mules",
     brand: "saint-laurent",
@@ -38799,9 +38796,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.4,
-    reviews: 142,
-    views: 5361,
+    rating: 4.3,
+    reviews: 163,
+    views: 4302,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38813,11 +38811,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0035",
+    id: "PI-1103",
     slug: "saint-laurent-classic-belt",
     name: "classic belt",
     brand: "saint-laurent",
@@ -38832,9 +38829,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 3.9,
-    reviews: 123,
-    views: 5718,
+    rating: 4.8,
+    reviews: 182,
+    views: 6855,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -38846,11 +38844,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0036",
+    id: "PI-1104",
     slug: "saint-laurent-quilted-shoulder-bag",
     name: "quilted shoulder bag",
     brand: "saint-laurent",
@@ -38865,9 +38862,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 180,
-    views: 6359,
+    rating: 4.5,
+    reviews: 77,
+    views: 6896,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38879,11 +38877,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0037",
+    id: "PI-1105",
     slug: "saint-laurent-gaby-shoulder-bag",
     name: "Gaby shoulder bag",
     brand: "saint-laurent",
@@ -38898,9 +38895,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 161,
-    views: 276,
+    rating: 3.6,
+    reviews: 96,
+    views: 2573,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38912,11 +38910,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0038",
+    id: "PI-1106",
     slug: "saint-laurent-cassandre-card-holder-2",
     name: "Cassandre card holder (2)",
     brand: "saint-laurent",
@@ -38931,9 +38928,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2237,
+    rating: 4.9,
+    reviews: 239,
+    views: 4178,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38945,11 +38943,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0039",
+    id: "PI-1107",
     slug: "saint-laurent-ruched-loafer-with-logo-plaque",
     name: "ruched loafer with logo plaque",
     brand: "saint-laurent",
@@ -38964,9 +38961,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 47,
-    views: 3902,
+    rating: 4,
+    reviews: 58,
+    views: 5469,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -38978,11 +38976,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0040",
+    id: "PI-1108",
     slug: "saint-laurent-earrings-with-monogram",
     name: "earrings with monogram",
     brand: "saint-laurent",
@@ -38994,12 +38991,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.1,
-    reviews: 223,
-    views: 2550,
+    rating: 3.7,
+    reviews: 153,
+    views: 4916,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39011,11 +39009,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0041",
+    id: "PI-1109",
     slug: "valentino-lace-bodysuit",
     name: "lace bodysuit",
     brand: "valentino",
@@ -39030,9 +39027,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 42,
-    views: 3973,
+    rating: 4.2,
+    reviews: 172,
+    views: 5241,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39044,11 +39042,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0042",
+    id: "PI-1110",
     slug: "valentino-panthea-medium-shoulder-bag",
     name: "Panthea medium shoulder bag",
     brand: "valentino",
@@ -39063,9 +39060,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 7384,
+    rating: 3.8,
+    reviews: 210,
+    views: 8067,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39077,11 +39075,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0043",
+    id: "PI-1111",
     slug: "valentino-rockstud-sneakers-with-100mm-heel",
     name: "Rockstud sneakers with 100mm heel",
     brand: "valentino",
@@ -39096,9 +39093,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6123,
+    rating: 4.7,
+    reviews: 191,
+    views: 2658,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39110,11 +39108,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0044",
+    id: "PI-1112",
     slug: "valentino-small-antibes-tote-bag",
     name: "small Antibes tote bag",
     brand: "valentino",
@@ -39129,9 +39126,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 147,
-    views: 7798,
+    rating: 4.8,
+    reviews: 48,
+    views: 6781,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39143,11 +39141,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0045",
+    id: "PI-1113",
     slug: "valentino-canestrello-cotton-tweed-top",
     name: "Canestrello cotton tweed top",
     brand: "valentino",
@@ -39162,9 +39159,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
-    reviews: 166,
-    views: 2321,
+    rating: 4.3,
+    reviews: 229,
+    views: 1216,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39176,11 +39174,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0046",
+    id: "PI-1114",
     slug: "valentino-vlogo-straight-jeans",
     name: "VLogo straight jeans",
     brand: "valentino",
@@ -39195,9 +39192,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.5,
-    reviews: 185,
-    views: 2356,
+    rating: 4.6,
+    reviews: 134,
+    views: 1145,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39209,11 +39207,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0047",
+    id: "PI-1115",
     slug: "valentino-mool-moulin-sweater",
     name: "Mool Mouliné sweater",
     brand: "valentino",
@@ -39228,9 +39225,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 204,
-    views: 439,
+    rating: 4.1,
+    reviews: 115,
+    views: 990,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39242,11 +39240,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0048",
+    id: "PI-1116",
     slug: "valentino-vlogo-signature-earrings-with-swarovski-crystals",
     name: "VLogo Signature earrings with Swarovski crystals",
     brand: "valentino",
@@ -39258,12 +39255,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.3,
-    reviews: 71,
-    views: 1618,
+    rating: 4.2,
+    reviews: 172,
+    views: 1151,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39275,11 +39273,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0049",
+    id: "PI-1117",
     slug: "valentino-lace-midi-skirt",
     name: "lace midi skirt",
     brand: "valentino",
@@ -39294,9 +39291,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 90,
-    views: 4627,
+    rating: 3.7,
+    reviews: 153,
+    views: 1660,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39308,11 +39306,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0050",
+    id: "PI-1118",
     slug: "valentino-rockstud-leather-sandals",
     name: "Rockstud leather sandals",
     brand: "valentino",
@@ -39327,9 +39324,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4,
-    reviews: 232,
-    views: 5051,
+    rating: 3.6,
+    reviews: 162,
+    views: 6171,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39341,11 +39339,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0051",
+    id: "PI-1119",
     slug: "valentino-small-embroidered-loc-shoulder-bag",
     name: "small embroidered Locò shoulder bag",
     brand: "valentino",
@@ -39362,9 +39359,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 213,
-    views: 3240,
+    rating: 4.5,
+    reviews: 143,
+    views: 4618,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39376,11 +39374,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0052",
+    id: "PI-1120",
     slug: "valentino-blanket-top-with-floral-stamps",
     name: "blanket top with floral stamps",
     brand: "valentino",
@@ -39397,9 +39394,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 194,
-    views: 7509,
+    rating: 3.7,
+    reviews: 219,
+    views: 5722,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39411,11 +39409,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0053",
+    id: "PI-1121",
     slug: "valentino-resort-shoes-with-75mm-wedge",
     name: "Resort shoes with 75mm wedge",
     brand: "valentino",
@@ -39430,9 +39427,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.9,
-    reviews: 175,
-    views: 2058,
+    rating: 4.2,
+    reviews: 238,
+    views: 1457,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39444,11 +39442,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0054",
+    id: "PI-1122",
     slug: "valentino-blanket-midi-skirt-with-floral-stamps",
     name: "blanket midi skirt with floral stamps",
     brand: "valentino",
@@ -39465,9 +39462,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 156,
-    views: 3497,
+    rating: 4.7,
+    reviews: 57,
+    views: 3164,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39479,11 +39477,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0055",
+    id: "PI-1123",
     slug: "valentino-embroidered-couture-linen-top",
     name: "embroidered Couture linen top",
     brand: "valentino",
@@ -39500,9 +39497,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.3,
-    reviews: 137,
-    views: 4484,
+    rating: 3.8,
+    reviews: 76,
+    views: 2455,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39514,11 +39512,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0056",
+    id: "PI-1124",
     slug: "valentino-embroidered-couture-linen-shorts",
     name: "embroidered Couture linen shorts",
     brand: "valentino",
@@ -39535,9 +39532,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.8,
-    reviews: 118,
-    views: 5473,
+    rating: 4.3,
+    reviews: 95,
+    views: 7578,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39549,11 +39547,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0057",
+    id: "PI-1125",
     slug: "valentino-rockstud-sandals-45mm",
     name: "Rockstud sandals 45mm",
     brand: "valentino",
@@ -39568,9 +39565,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 99,
-    views: 4970,
+    rating: 4.8,
+    reviews: 114,
+    views: 2379,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39582,11 +39580,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0058",
+    id: "PI-1126",
     slug: "valentino-raffia-bag-with-geometric-motif",
     name: "raffia bag with geometric motif",
     brand: "valentino",
@@ -39601,9 +39598,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6899,
+    rating: 3.9,
+    reviews: 133,
+    views: 6584,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39615,11 +39613,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0059",
+    id: "PI-1127",
     slug: "valentino-rockstud-rubber-slippers",
     name: "Rockstud rubber slippers",
     brand: "valentino",
@@ -39634,9 +39631,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 6656,
+    rating: 4.4,
+    reviews: 152,
+    views: 4773,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39648,11 +39646,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0060",
+    id: "PI-1128",
     slug: "valentino-short-blanket-skirt-with-floral-stamps",
     name: "short blanket skirt with floral stamps",
     brand: "valentino",
@@ -39670,8 +39667,9 @@ export const generatedProducts: Product[] = [
       "clothing"
     ],
     rating: 3.9,
-    reviews: 107,
-    views: 4768,
+    reviews: 67,
+    views: 7234,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39683,11 +39681,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0061",
+    id: "PI-1129",
     slug: "dolce-gabbana-exclusive-linda-double-breasted-jacket",
     name: "EXCLUSIVE Linda double-breasted jacket",
     brand: "dolce-gabbana",
@@ -39702,9 +39699,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 88,
-    views: 4781,
+    rating: 4.4,
+    reviews: 86,
+    views: 1767,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39716,11 +39714,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0062",
+    id: "PI-1130",
     slug: "dolce-gabbana-medium-my-sicily-handbag-in-split-calfskin",
     name: "medium My Sicily handbag in split calfskin",
     brand: "dolce-gabbana",
@@ -39735,9 +39732,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 145,
-    views: 4158,
+    rating: 3.6,
+    reviews: 228,
+    views: 3657,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -39749,11 +39747,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0063",
+    id: "PI-1131",
     slug: "dolce-gabbana-cashmere-serafino-pullover",
     name: "cashmere Serafino pullover",
     brand: "dolce-gabbana",
@@ -39768,9 +39765,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.4,
-    reviews: 126,
-    views: 5491,
+    rating: 4.5,
+    reviews: 209,
+    views: 1164,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39782,11 +39780,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0064",
+    id: "PI-1132",
     slug: "dolce-gabbana-five-pocket-denim-jeans",
     name: "five-pocket denim jeans",
     brand: "dolce-gabbana",
@@ -39803,9 +39800,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 332,
+    rating: 4,
+    reviews: 190,
+    views: 5313,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39817,11 +39815,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0065",
+    id: "PI-1133",
     slug: "dolce-gabbana-medium-sicily-rose-print-crystal-embellished-tote-bag",
     name: "medium Sicily rose-print crystal-embellished tote bag",
     brand: "dolce-gabbana",
@@ -39836,9 +39833,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 7521,
+    rating: 4.9,
+    reviews: 171,
+    views: 4134,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39850,11 +39848,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0066",
+    id: "PI-1134",
     slug: "dolce-gabbana-rose-print-charmeuse-midi-dress",
     name: "rose-print charmeuse midi dress",
     brand: "dolce-gabbana",
@@ -39866,12 +39863,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.1,
-    reviews: 221,
-    views: 7362,
+    rating: 4.2,
+    reviews: 104,
+    views: 4315,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39883,11 +39881,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0067",
+    id: "PI-1135",
     slug: "dolce-gabbana-exclusive-lace-midi-dress",
     name: "EXCLUSIVE lace midi dress",
     brand: "dolce-gabbana",
@@ -39899,12 +39896,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 3.6,
-    reviews: 202,
-    views: 3337,
+    rating: 3.7,
+    reviews: 85,
+    views: 6184,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39916,11 +39914,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0068",
+    id: "PI-1136",
     slug: "dolce-gabbana-satin-sandals-with-flower",
     name: "satin sandals with flower",
     brand: "dolce-gabbana",
@@ -39935,9 +39932,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.1,
-    reviews: 155,
-    views: 6520,
+    rating: 4.6,
+    reviews: 66,
+    views: 1915,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -39949,11 +39947,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0069",
+    id: "PI-1137",
     slug: "dolce-gabbana-jersey-t-shirt",
     name: "jersey T-shirt",
     brand: "dolce-gabbana",
@@ -39968,9 +39965,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 136,
-    views: 1829,
+    rating: 4.1,
+    reviews: 47,
+    views: 8106,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -39982,11 +39980,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0070",
+    id: "PI-1138",
     slug: "dolce-gabbana-leo-print-viscose-jersey-skirt",
     name: "leo-print viscose jersey skirt",
     brand: "dolce-gabbana",
@@ -40001,9 +39998,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
-    reviews: 98,
-    views: 3649,
+    rating: 3.8,
+    reviews: 76,
+    views: 4305,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40015,11 +40013,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0071",
+    id: "PI-1139",
     slug: "dolce-gabbana-leo-kid-leather-slingbacks",
     name: "leo kid-leather slingbacks",
     brand: "dolce-gabbana",
@@ -40034,9 +40031,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.5,
-    reviews: 117,
-    views: 6950,
+    rating: 4.7,
+    reviews: 57,
+    views: 2524,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40048,11 +40046,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0072",
+    id: "PI-1140",
     slug: "dolce-gabbana-exclusive-leo-print-sheer-dress",
     name: "EXCLUSIVE leo-print sheer dress",
     brand: "dolce-gabbana",
@@ -40064,12 +40061,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.4,
-    reviews: 60,
-    views: 1127,
+    rating: 4.5,
+    reviews: 107,
+    views: 2520,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40081,11 +40079,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0073",
+    id: "PI-1141",
     slug: "dolce-gabbana-double-breasted-pinstripe-wool-jacket",
     name: "double-breasted pinstripe wool jacket",
     brand: "dolce-gabbana",
@@ -40100,9 +40097,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.9,
-    reviews: 79,
-    views: 4748,
+    rating: 4,
+    reviews: 88,
+    views: 4331,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40114,11 +40112,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0074",
+    id: "PI-1142",
     slug: "dolce-gabbana-dg-logo-clip-earrings",
     name: "DG-logo clip earrings",
     brand: "dolce-gabbana",
@@ -40130,12 +40127,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.8,
-    reviews: 222,
-    views: 7099,
+    rating: 4.1,
+    reviews: 145,
+    views: 7670,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40147,11 +40145,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0075",
+    id: "PI-1143",
     slug: "dolce-gabbana-wool-skirt",
     name: "wool skirt",
     brand: "dolce-gabbana",
@@ -40166,9 +40163,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
-    reviews: 41,
-    views: 1798,
+    rating: 3.6,
+    reviews: 126,
+    views: 1477,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40180,11 +40178,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0076",
+    id: "PI-1144",
     slug: "dolce-gabbana-logo-detail-pointed-toe-pumps",
     name: "logo-detail pointed-toe pumps",
     brand: "dolce-gabbana",
@@ -40199,9 +40196,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 184,
-    views: 1435,
+    rating: 3.7,
+    reviews: 183,
+    views: 6772,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40213,11 +40211,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0077",
+    id: "PI-1145",
     slug: "dolce-gabbana-turlington-single-breasted-jacket-in-pinstripe-wool",
     name: "Turlington single-breasted jacket in pinstripe wool",
     brand: "dolce-gabbana",
@@ -40232,9 +40229,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.3,
-    reviews: 203,
-    views: 1672,
+    rating: 4.6,
+    reviews: 164,
+    views: 1271,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40246,11 +40244,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0078",
+    id: "PI-1146",
     slug: "dolce-gabbana-bow-detail-long-sleeve-sweater",
     name: "bow-detail long-sleeve sweater",
     brand: "dolce-gabbana",
@@ -40265,9 +40262,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.8,
-    reviews: 50,
-    views: 5593,
+    rating: 4.7,
+    reviews: 221,
+    views: 4214,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40279,11 +40277,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0079",
+    id: "PI-1147",
     slug: "dolce-gabbana-lace-flat-slides",
     name: "lace flat slides",
     brand: "dolce-gabbana",
@@ -40298,9 +40295,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.3,
-    reviews: 69,
-    views: 190,
+    rating: 4.2,
+    reviews: 202,
+    views: 5087,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40312,11 +40310,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0080",
+    id: "PI-1148",
     slug: "dolce-gabbana-pinstripe-wool-trousers",
     name: "pinstripe wool trousers",
     brand: "dolce-gabbana",
@@ -40331,9 +40328,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 4058,
+    rating: 4.3,
+    reviews: 59,
+    views: 3392,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40345,11 +40343,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0081",
+    id: "PI-1149",
     slug: "armani-tote-bag-with-shoulder-strap",
     name: "tote bag with shoulder strap",
     brand: "armani",
@@ -40365,8 +40362,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.8,
-    reviews: 214,
-    views: 4415,
+    reviews: 40,
+    views: 2083,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40378,11 +40376,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0082",
+    id: "PI-1150",
     slug: "armani-shoulder-bag-with-logo",
     name: "shoulder bag with logo",
     brand: "armani",
@@ -40397,9 +40394,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 1500,
+    rating: 3.8,
+    reviews: 106,
+    views: 7433,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40411,11 +40409,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0083",
+    id: "PI-1151",
     slug: "armani-shoulder-bag-with-logo-2",
     name: "shoulder bag with logo (2)",
     brand: "armani",
@@ -40430,9 +40427,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 3417,
+    rating: 4.3,
+    reviews: 125,
+    views: 3266,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40444,11 +40442,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0084",
+    id: "PI-1152",
     slug: "armani-embroidered-cotton-jacket",
     name: "embroidered cotton jacket",
     brand: "armani",
@@ -40465,9 +40462,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 6294,
+    rating: 4.2,
+    reviews: 68,
+    views: 3425,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40479,11 +40477,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0085",
+    id: "PI-1153",
     slug: "armani-fringed-sequin-blouse",
     name: "fringed sequin blouse",
     brand: "armani",
@@ -40495,12 +40492,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 7525,
+    rating: 4.7,
+    reviews: 87,
+    views: 4428,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40512,11 +40510,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0086",
+    id: "PI-1154",
     slug: "armani-felted-wool-fedora-hat",
     name: "felted wool fedora hat",
     brand: "armani",
@@ -40531,9 +40528,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 3320,
+    rating: 4.6,
+    reviews: 230,
+    views: 6845,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40545,11 +40543,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0087",
+    id: "PI-1155",
     slug: "armani-keyring-with-logo-plaque",
     name: "keyring with logo plaque",
     brand: "armani",
@@ -40561,12 +40558,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 5131,
+    rating: 3.7,
+    reviews: 49,
+    views: 178,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40578,11 +40576,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0088",
+    id: "PI-1156",
     slug: "armani-square-eyeglass-frame",
     name: "square eyeglass frame",
     brand: "armani",
@@ -40597,9 +40594,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.9,
-    reviews: 43,
-    views: 2670,
+    rating: 3.6,
+    reviews: 192,
+    views: 7555,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40611,11 +40609,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0089",
+    id: "PI-1157",
     slug: "armani-midi-dress-with-twisted-detail",
     name: "midi dress with twisted detail",
     brand: "armani",
@@ -40627,12 +40624,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4,
-    reviews: 62,
-    views: 8103,
+    rating: 4.1,
+    reviews: 211,
+    views: 7568,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40644,11 +40642,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0090",
+    id: "PI-1158",
     slug: "armani-logo-debossed-bifold-cardholder",
     name: "logo-debossed bifold cardholder",
     brand: "armani",
@@ -40663,9 +40660,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 1993,
+    rating: 4,
+    reviews: 154,
+    views: 2801,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40677,11 +40675,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0091",
+    id: "PI-1159",
     slug: "armani-short-sleeve-jersey-blouse",
     name: "short-sleeve jersey blouse",
     brand: "armani",
@@ -40696,9 +40693,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 740,
+    rating: 4.5,
+    reviews: 173,
+    views: 1754,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40710,11 +40708,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0092",
+    id: "PI-1160",
     slug: "armani-slim-jacket-with-chevron-pattern",
     name: "slim jacket with chevron pattern",
     brand: "armani",
@@ -40729,9 +40726,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 166,
-    views: 559,
+    rating: 3.9,
+    reviews: 97,
+    views: 3330,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40743,11 +40741,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0093",
+    id: "PI-1161",
     slug: "armani-gathered-midi-dress-with-tied-collar",
     name: "gathered midi dress with tied collar",
     brand: "armani",
@@ -40761,12 +40758,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "dresses",
+      "clothing",
       "dresses"
     ],
-    rating: 4.5,
-    reviews: 147,
-    views: 5798,
+    rating: 4.8,
+    reviews: 78,
+    views: 8013,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40778,11 +40776,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0094",
+    id: "PI-1162",
     slug: "armani-round-eyeglass-frame",
     name: "round eyeglass frame",
     brand: "armani",
@@ -40797,9 +40794,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.8,
-    reviews: 80,
-    views: 1557,
+    rating: 4.3,
+    reviews: 59,
+    views: 656,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40811,11 +40809,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0095",
+    id: "PI-1163",
     slug: "armani-high-waisted-bootcut-jeans",
     name: "high-waisted bootcut jeans",
     brand: "armani",
@@ -40830,9 +40827,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.7,
-    reviews: 61,
-    views: 4520,
+    rating: 3.8,
+    reviews: 40,
+    views: 2707,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40844,11 +40842,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0096",
+    id: "PI-1164",
     slug: "armani-vest-with-chain-trim-and-double-breasted-buttons",
     name: "vest with chain trim and double-breasted buttons",
     brand: "armani",
@@ -40863,9 +40860,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.2,
-    reviews: 42,
-    views: 251,
+    rating: 4.5,
+    reviews: 173,
+    views: 4286,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40877,11 +40875,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0097",
+    id: "PI-1165",
     slug: "armani-fringed-crew-neck-tank-top",
     name: "fringed crew-neck tank top",
     brand: "armani",
@@ -40895,12 +40892,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 3.7,
-    reviews: 223,
-    views: 5766,
+    rating: 4,
+    reviews: 154,
+    views: 1689,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40912,11 +40910,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0098",
+    id: "PI-1166",
     slug: "armani-round-eyeglass-frame-2",
     name: "round eyeglass frame (2)",
     brand: "armani",
@@ -40931,9 +40928,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5599,
+    rating: 4.9,
+    reviews: 135,
+    views: 7580,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40945,11 +40943,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0099",
+    id: "PI-1167",
     slug: "armani-earrings-with-crystal-application",
     name: "earrings with crystal application",
     brand: "armani",
@@ -40961,12 +40958,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3348,
+    rating: 4.4,
+    reviews: 116,
+    views: 7889,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -40978,11 +40976,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0100",
+    id: "PI-1168",
     slug: "armani-pendant-earrings",
     name: "pendant earrings",
     brand: "armani",
@@ -40994,12 +40991,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.6,
-    reviews: 62,
-    views: 1617,
+    rating: 4.1,
+    reviews: 145,
+    views: 2538,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41011,11 +41009,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0101",
+    id: "PI-1169",
     slug: "givenchy-antigona-tote-bag",
     name: "Antigona tote bag",
     brand: "givenchy",
@@ -41030,9 +41027,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 43,
-    views: 4858,
+    rating: 3.6,
+    reviews: 126,
+    views: 3003,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41044,11 +41042,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0102",
+    id: "PI-1170",
     slug: "givenchy-leopard-print-logo-print-clutch-bag",
     name: "leopard-print logo-print clutch bag",
     brand: "givenchy",
@@ -41064,8 +41061,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.2,
-    reviews: 100,
-    views: 439,
+    reviews: 224,
+    views: 7203,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41077,11 +41075,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0103",
+    id: "PI-1171",
     slug: "givenchy-grained-leather-shoulder-bag",
     name: "grained-leather shoulder bag",
     brand: "givenchy",
@@ -41097,8 +41094,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.7,
-    reviews: 81,
-    views: 2300,
+    reviews: 205,
+    views: 7104,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41110,11 +41108,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0104",
+    id: "PI-1172",
     slug: "givenchy-small-voyou-leather-bucket-bag",
     name: "small Voyou leather bucket bag",
     brand: "givenchy",
@@ -41129,9 +41126,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 645,
+    rating: 4.6,
+    reviews: 186,
+    views: 531,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41143,11 +41141,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0105",
+    id: "PI-1173",
     slug: "givenchy-mini-antigona-leather-tote-bag",
     name: "mini Antigona leather tote bag",
     brand: "givenchy",
@@ -41162,9 +41159,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 7034,
+    rating: 4.1,
+    reviews: 167,
+    views: 1822,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41176,11 +41174,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0106",
+    id: "PI-1174",
     slug: "givenchy-logo-lettering-clutch-bag",
     name: "logo-lettering clutch bag",
     brand: "givenchy",
@@ -41195,9 +41192,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 176,
-    views: 3499,
+    rating: 3.6,
+    reviews: 148,
+    views: 2561,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41209,11 +41207,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0107",
+    id: "PI-1175",
     slug: "givenchy-medium-voyou-shoulder-bag",
     name: "medium Voyou shoulder bag",
     brand: "givenchy",
@@ -41228,9 +41225,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 157,
-    views: 1688,
+    rating: 4.5,
+    reviews: 129,
+    views: 196,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41242,11 +41240,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0108",
+    id: "PI-1176",
     slug: "givenchy-antigona-mini-bag",
     name: "Antigona mini bag",
     brand: "givenchy",
@@ -41261,9 +41258,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
+    rating: 4,
     reviews: 110,
-    views: 1735,
+    views: 2921,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41275,11 +41273,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0109",
+    id: "PI-1177",
     slug: "givenchy-small-voyou-two-way-bucket-bag",
     name: "small Voyou two-way bucket bag",
     brand: "givenchy",
@@ -41294,9 +41291,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.3,
+    rating: 4.9,
     reviews: 91,
-    views: 3342,
+    views: 1698,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41308,11 +41306,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0110",
+    id: "PI-1178",
     slug: "givenchy-small-antigona-tote-bag",
     name: "small Antigona tote bag",
     brand: "givenchy",
@@ -41327,9 +41324,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 59,
-    views: 2464,
+    rating: 4,
+    reviews: 176,
+    views: 5317,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -41341,11 +41339,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0111",
+    id: "PI-1179",
     slug: "givenchy-small-voyou-leather-bucket-bag-2",
     name: "small Voyou leather bucket bag (2)",
     brand: "givenchy",
@@ -41360,9 +41357,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 40,
-    views: 2707,
+    rating: 4.9,
+    reviews: 157,
+    views: 3480,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41374,11 +41372,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0112",
+    id: "PI-1180",
     slug: "givenchy-logo-print-clutch-bag",
     name: "logo-print clutch bag",
     brand: "givenchy",
@@ -41393,9 +41390,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 97,
-    views: 2158,
+    rating: 4.1,
+    reviews: 233,
+    views: 580,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41407,11 +41405,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0113",
+    id: "PI-1181",
     slug: "givenchy-multi-pocket-top-handle-belt-bag",
     name: "multi-pocket top-handle belt bag",
     brand: "givenchy",
@@ -41428,9 +41425,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 78,
-    views: 5517,
+    rating: 4.6,
+    reviews: 52,
+    views: 7401,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41442,11 +41440,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0114",
+    id: "PI-1182",
     slug: "givenchy-voyou-shoulder-bag",
     name: "Voyou shoulder bag",
     brand: "givenchy",
@@ -41461,9 +41458,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 135,
-    views: 1692,
+    rating: 4.5,
+    reviews: 195,
+    views: 874,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41475,11 +41473,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0115",
+    id: "PI-1183",
     slug: "givenchy-nano-facet-logo-embroidered-raffia-effect-tote-bag",
     name: "Nano Facet logo-embroidered raffia-effect tote bag",
     brand: "givenchy",
@@ -41497,8 +41494,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.6,
-    reviews: 116,
-    views: 2399,
+    reviews: 214,
+    views: 5967,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41510,11 +41508,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0116",
+    id: "PI-1184",
     slug: "givenchy-star-print-iconic-pouch",
     name: "star print Iconic pouch",
     brand: "givenchy",
@@ -41529,9 +41526,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 173,
-    views: 5298,
+    rating: 4.7,
+    reviews: 109,
+    views: 7336,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41543,11 +41541,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0117",
+    id: "PI-1185",
     slug: "givenchy-medium-voyou-shoulder-bag-2",
     name: "medium Voyou shoulder bag (2)",
     brand: "givenchy",
@@ -41562,9 +41559,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 154,
-    views: 7895,
+    rating: 3.8,
+    reviews: 128,
+    views: 1147,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41576,11 +41574,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0118",
+    id: "PI-1186",
     slug: "givenchy-mini-antigona-east-west-tote-bag",
     name: "mini Antigona East-West tote bag",
     brand: "givenchy",
@@ -41596,8 +41593,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 3.7,
-    reviews: 107,
-    views: 520,
+    reviews: 71,
+    views: 1382,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -41609,11 +41607,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0119",
+    id: "PI-1187",
     slug: "givenchy-mini-antigona-metallic-leather-shoulder-bag",
     name: "mini Antigona metallic leather shoulder bag",
     brand: "givenchy",
@@ -41628,9 +41625,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 88,
-    views: 3483,
+    rating: 4.2,
+    reviews: 90,
+    views: 3605,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41642,11 +41640,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0120",
+    id: "PI-1188",
     slug: "givenchy-silk-blend-clutch-bag",
     name: "silk-blend clutch bag",
     brand: "givenchy",
@@ -41661,9 +41658,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 80,
-    views: 3659,
+    rating: 4.3,
+    reviews: 81,
+    views: 4340,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41675,11 +41673,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0121",
+    id: "PI-1189",
     slug: "moncler-printed-striped-shirt",
     name: "printed striped shirt",
     brand: "moncler",
@@ -41694,9 +41691,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.9,
-    reviews: 61,
-    views: 3768,
+    rating: 4.8,
+    reviews: 100,
+    views: 2687,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41708,11 +41706,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0122",
+    id: "PI-1190",
     slug: "moncler-tote-bag-with-logo-detail",
     name: "tote bag with logo detail",
     brand: "moncler",
@@ -41727,9 +41724,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
+    rating: 4,
     reviews: 42,
-    views: 5925,
+    views: 7397,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41741,11 +41739,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0123",
+    id: "PI-1191",
     slug: "moncler-nepeta-jacket",
     name: "Nepeta jacket",
     brand: "moncler",
@@ -41760,9 +41757,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.3,
+    rating: 4.9,
     reviews: 223,
-    views: 7898,
+    views: 6422,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41774,11 +41772,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0124",
+    id: "PI-1192",
     slug: "moncler-vera-leisure-sneakers",
     name: "Vera Leisure sneakers",
     brand: "moncler",
@@ -41793,9 +41790,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 3.8,
-    reviews: 204,
-    views: 2713,
+    rating: 3.6,
+    reviews: 80,
+    views: 5003,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41807,11 +41805,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0125",
+    id: "PI-1193",
     slug: "moncler-polo-shirt-with-printed-stripes",
     name: "polo shirt with printed stripes",
     brand: "moncler",
@@ -41826,9 +41823,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.7,
-    reviews: 185,
-    views: 6044,
+    rating: 4.5,
+    reviews: 61,
+    views: 3192,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41840,11 +41838,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0126",
+    id: "PI-1194",
     slug: "moncler-zelkova-jacket",
     name: "Zelkova jacket",
     brand: "moncler",
@@ -41859,9 +41856,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.2,
+    rating: 4.8,
     reviews: 166,
-    views: 3953,
+    views: 4543,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41873,11 +41871,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0127",
+    id: "PI-1195",
     slug: "moncler-trick-mini-bag",
     name: "Trick mini bag",
     brand: "moncler",
@@ -41892,9 +41889,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
+    rating: 4.3,
     reviews: 147,
-    views: 602,
+    views: 4054,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41906,11 +41904,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0128",
+    id: "PI-1196",
     slug: "moncler-shirt-with-printed-stripes-and-printed-logo",
     name: "shirt with printed stripes and printed logo",
     brand: "moncler",
@@ -41925,9 +41922,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 707,
+    rating: 4.4,
+    reviews: 204,
+    views: 3545,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41939,11 +41937,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0129",
+    id: "PI-1197",
     slug: "moncler-knit-shorts-with-printed-stripes",
     name: "knit shorts with printed stripes",
     brand: "moncler",
@@ -41958,9 +41955,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 720,
+    rating: 3.9,
+    reviews: 185,
+    views: 6612,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -41972,11 +41970,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0130",
+    id: "PI-1198",
     slug: "moncler-short-hooded-jacket",
     name: "short hooded jacket",
     brand: "moncler",
@@ -41991,9 +41988,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.5,
-    reviews: 71,
-    views: 4362,
+    rating: 4.2,
+    reviews: 90,
+    views: 7667,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42005,11 +42003,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0131",
+    id: "PI-1199",
     slug: "moncler-shirt-with-logo-patch-three-piece-set",
     name: "shirt with logo patch (three-piece set)",
     brand: "moncler",
@@ -42024,9 +42021,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.6,
-    reviews: 90,
-    views: 3605,
+    rating: 3.7,
+    reviews: 71,
+    views: 1970,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42038,11 +42036,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0132",
+    id: "PI-1200",
     slug: "moncler-pleated-short-skirt-with-check-motif",
     name: "pleated short skirt with check motif",
     brand: "moncler",
@@ -42057,9 +42054,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 168,
+    rating: 4,
+    reviews: 46,
+    views: 6991,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42071,11 +42069,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0133",
+    id: "PI-1201",
     slug: "moncler-short-sleeve-top-with-floral-motif",
     name: "short-sleeve top with floral motif",
     brand: "moncler",
@@ -42092,9 +42089,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 2357,
+    rating: 4.9,
+    reviews: 227,
+    views: 170,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42106,11 +42104,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0134",
+    id: "PI-1202",
     slug: "moncler-caradoc-teddy-micro-tote-bag",
     name: "Caradoc Teddy micro tote bag",
     brand: "moncler",
@@ -42125,9 +42122,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.9,
-    reviews: 195,
-    views: 6918,
+    rating: 3.6,
+    reviews: 84,
+    views: 7495,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42139,11 +42137,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0135",
+    id: "PI-1203",
     slug: "moncler-drawstring-waist-trousers",
     name: "drawstring-waist trousers",
     brand: "moncler",
@@ -42155,12 +42152,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "jewelry-accessories",
+      "jewelry",
       "jewelry-accessories"
     ],
-    rating: 4.4,
-    reviews: 214,
-    views: 7439,
+    rating: 4.5,
+    reviews: 65,
+    views: 6508,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42172,11 +42170,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0136",
+    id: "PI-1204",
     slug: "moncler-tailgrip-lp-sneakers",
     name: "Tailgrip LP sneakers",
     brand: "moncler",
@@ -42191,9 +42188,10 @@ export const generatedProducts: Product[] = [
       "shoes",
       "shoes"
     ],
-    rating: 4.9,
-    reviews: 233,
-    views: 580,
+    rating: 4.6,
+    reviews: 122,
+    views: 3483,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42205,11 +42203,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0137",
+    id: "PI-1205",
     slug: "moncler-coquelicot-jacket",
     name: "Coquelicot jacket",
     brand: "moncler",
@@ -42224,9 +42221,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 4,
-    reviews: 52,
-    views: 1193,
+    rating: 4.1,
+    reviews: 103,
+    views: 2726,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42238,11 +42236,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0138",
+    id: "PI-1206",
     slug: "moncler-very-tote-bag",
     name: "Very tote bag",
     brand: "moncler",
@@ -42257,9 +42254,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 3618,
+    rating: 4.2,
+    reviews: 160,
+    views: 6331,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42271,11 +42269,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0139",
+    id: "PI-1207",
     slug: "moncler-shirt-with-lace-trim",
     name: "shirt with lace trim",
     brand: "moncler",
@@ -42290,9 +42287,10 @@ export const generatedProducts: Product[] = [
       "clothing",
       "clothing"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 6403,
+    rating: 3.7,
+    reviews: 141,
+    views: 6920,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42304,11 +42302,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0140",
+    id: "PI-1208",
     slug: "moncler-skirt-with-belt-and-buttons",
     name: "skirt with belt and buttons",
     brand: "moncler",
@@ -42323,9 +42320,10 @@ export const generatedProducts: Product[] = [
       "accessories",
       "accessories"
     ],
-    rating: 4,
-    reviews: 66,
-    views: 4149,
+    rating: 4.2,
+    reviews: 94,
+    views: 4665,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -42337,11 +42335,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0001",
+    id: "PI-1209",
     slug: "samsonite-freeform-hardside-carry-on-luggage-electric-yellow",
     name: "Freeform Hardside Carry-On Luggage - Electric Yellow",
     brand: "samsonite",
@@ -42355,12 +42352,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
-    rating: 4.6,
-    reviews: 106,
-    views: 6983,
+    rating: 3.7,
+    reviews: 75,
+    views: 5202,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42372,11 +42370,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0002",
+    id: "PI-1210",
     slug: "samsonite-omni-2-hardside-2-piece-set-icy-lilac",
     name: "Omni 2 Hardside 2 Piece Set - Icy Lilac",
     brand: "samsonite",
@@ -42390,12 +42387,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
     rating: 4.1,
-    reviews: 87,
-    views: 300,
+    reviews: 237,
+    views: 3776,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42407,11 +42405,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0003",
+    id: "PI-1211",
     slug: "samsonite-centric-2-hardside-expandable-luggage-3-piece-set-black",
     name: "Centric 2 Hardside Expandable Luggage 3-Piece Set - Black",
     brand: "samsonite",
@@ -42425,12 +42422,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
-    rating: 3.6,
-    reviews: 68,
-    views: 1025,
+    rating: 4.6,
+    reviews: 56,
+    views: 6541,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42442,11 +42440,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0004",
+    id: "PI-1212",
     slug: "samsonite-andante-2-wheeled-duffel-bag-all-black",
     name: "Andante 2 Wheeled Duffel Bag - All Black",
     brand: "samsonite",
@@ -42460,12 +42457,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
     rating: 4.5,
-    reviews: 49,
-    views: 466,
+    reviews: 199,
+    views: 1374,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42477,11 +42475,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0005",
+    id: "PI-1213",
     slug: "samsonite-omni-2-domestic-carry-on-luggage-nova-teal",
     name: "Omni 2 Domestic Carry-On Luggage - Nova Teal",
     brand: "samsonite",
@@ -42495,12 +42492,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
-    rating: 4,
-    reviews: 230,
-    views: 5341,
+    rating: 3.6,
+    reviews: 218,
+    views: 4499,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42512,11 +42510,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0006",
+    id: "PI-1214",
     slug: "samsonite-omni-2-pro-hardside-expandable-luggage-midnight-black",
     name: "Omni 2 Pro Hardside Expandable Luggage - Midnight Black",
     brand: "samsonite",
@@ -42530,12 +42527,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
     rating: 4.9,
-    reviews: 211,
-    views: 6064,
+    reviews: 161,
+    views: 6700,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42547,11 +42545,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0007",
+    id: "PI-1215",
     slug: "samsonite-saire-lte-softside-expandable-luggage-3pc-set-olive-green",
     name: "Saire LTE Softside Expandable Luggage 3PC Set - Olive Green",
     brand: "samsonite",
@@ -42565,12 +42562,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
-    rating: 4.4,
-    reviews: 192,
-    views: 3299,
+    rating: 4,
+    reviews: 180,
+    views: 4911,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42582,11 +42580,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0008",
+    id: "PI-1216",
     slug: "samsonite-omni-2-hardside-expandable-luggage-3-piece-set-emerald-green",
     name: "Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green",
     brand: "samsonite",
@@ -42600,12 +42597,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
     rating: 3.9,
-    reviews: 173,
-    views: 2106,
+    reviews: 123,
+    views: 3746,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42617,11 +42615,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0009",
+    id: "PI-1217",
     slug: "samsonite-scure-spinner-75-28-hardside-suitcase",
     name: "Scure Spinner 75/28 Hardside Suitcase",
     brand: "samsonite",
@@ -42633,12 +42630,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 4369,
+    rating: 4.4,
+    reviews: 142,
+    views: 6953,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42650,11 +42648,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0010",
+    id: "PI-1218",
     slug: "samsonite-scure-renewed-classic-hardside-suitcase-black",
     name: "Scure Renewed Classic Hardside Suitcase - Black",
     brand: "samsonite",
@@ -42668,12 +42665,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "luggage",
+      "lifestyle-accessories",
       "luggage-travel-bags"
     ],
-    rating: 3.8,
-    reviews: 116,
-    views: 6897,
+    rating: 3.9,
+    reviews: 189,
+    views: 2136,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42685,11 +42683,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0011",
+    id: "PI-1219",
     slug: "tumi-just-in-case-tote-packable-travel-tote-bag",
     name: "Just In Case Tote - Packable Travel Tote Bag",
     brand: "tumi",
@@ -42701,12 +42698,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.3,
-    reviews: 135,
-    views: 1460,
+    rating: 4.4,
+    reviews: 208,
+    views: 3947,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42718,11 +42716,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0012",
+    id: "PI-1220",
     slug: "tumi-tyler-crossbody-women-s-nylon-crossbody-bag",
     name: "Tyler Crossbody - Women's Nylon Crossbody Bag",
     brand: "tumi",
@@ -42734,12 +42731,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.8,
-    reviews: 154,
-    views: 6265,
+    rating: 3.8,
+    reviews: 64,
+    views: 7835,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42751,11 +42749,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0013",
+    id: "PI-1221",
     slug: "tumi-contine-weekender-women-s-travel-weekend-bag",
     name: "Contine Weekender - Women's Travel Weekend Bag",
     brand: "tumi",
@@ -42767,12 +42764,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 3.9,
-    reviews: 173,
-    views: 4638,
+    rating: 4.7,
+    reviews: 45,
+    views: 8072,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42784,11 +42782,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0014",
+    id: "PI-1222",
     slug: "tumi-voyageur-valetta-tote-women-s-carryall-bag",
     name: "Voyageur Valetta Tote - Women's Carryall Bag",
     brand: "tumi",
@@ -42800,12 +42797,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.6,
-    reviews: 40,
-    views: 2995,
+    rating: 4.2,
+    reviews: 226,
+    views: 6837,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42817,11 +42815,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0015",
+    id: "PI-1223",
     slug: "tumi-persia-crossbody-nylon-travel-shoulder-bag",
     name: "Persia Crossbody - Nylon Travel Shoulder Bag",
     brand: "tumi",
@@ -42833,12 +42830,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
     rating: 3.7,
-    reviews: 59,
-    views: 2160,
+    reviews: 207,
+    views: 3398,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42850,11 +42848,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0016",
+    id: "PI-1224",
     slug: "tumi-alpha-bravo-esports-pro-sling-bag",
     name: "Alpha Bravo Esports Pro Sling Bag",
     brand: "tumi",
@@ -42866,12 +42863,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.2,
-    reviews: 78,
-    views: 3885,
+    rating: 4.6,
+    reviews: 188,
+    views: 713,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42883,11 +42881,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0017",
+    id: "PI-1225",
     slug: "tumi-alpha-bravo-search-backpack",
     name: "Alpha Bravo Search Backpack",
     brand: "tumi",
@@ -42899,12 +42896,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.7,
-    reviews: 97,
-    views: 1870,
+    rating: 4.1,
+    reviews: 169,
+    views: 1188,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42916,11 +42914,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0018",
+    id: "PI-1226",
     slug: "tumi-voyageur-celina-backpack-unisex",
     name: "Voyageur Celina Backpack - Unisex",
     brand: "tumi",
@@ -42932,12 +42929,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 1095,
+    rating: 3.6,
+    reviews: 150,
+    views: 6191,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42949,11 +42947,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0019",
+    id: "PI-1227",
     slug: "tumi-unisex-double-expansion-duffel",
     name: "Unisex Double Expansion Duffel",
     brand: "tumi",
@@ -42965,12 +42962,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
     rating: 4.5,
-    reviews: 183,
-    views: 3332,
+    reviews: 131,
+    views: 2890,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -42982,11 +42980,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0020",
+    id: "PI-1228",
     slug: "tumi-alpha-large-17-laptop-briefcase",
     name: "Alpha Large 17\" Laptop Briefcase",
     brand: "tumi",
@@ -42998,12 +42995,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 3.7,
-    reviews: 209,
-    views: 5292,
+    rating: 4,
+    reviews: 112,
+    views: 3229,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43015,11 +43013,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0021",
+    id: "PI-1229",
     slug: "tumi-voyageur-halsey-backpack",
     name: "Voyageur Halsey Backpack",
     brand: "tumi",
@@ -43031,12 +43028,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.2,
-    reviews: 228,
-    views: 2503,
+    rating: 4.9,
+    reviews: 93,
+    views: 1184,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43048,11 +43046,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0022",
+    id: "PI-1230",
     slug: "tumi-just-in-case-foldable-backpack",
     name: "Just In Case Foldable Backpack",
     brand: "tumi",
@@ -43064,12 +43061,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.1,
-    reviews: 171,
-    views: 1030,
+    rating: 3.9,
+    reviews: 55,
+    views: 346,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43081,11 +43079,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0023",
+    id: "PI-1231",
     slug: "tumi-alpha-bravo-academy-brief-compact-laptop-briefcase",
     name: "Alpha Bravo Academy Brief - Compact Laptop Briefcase",
     brand: "tumi",
@@ -43097,12 +43094,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.6,
-    reviews: 190,
-    views: 3937,
+    rating: 4.4,
+    reviews: 74,
+    views: 1163,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43114,11 +43112,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0024",
+    id: "PI-1232",
     slug: "tumi-alpha-medium-crossbody",
     name: "Alpha Medium Crossbody",
     brand: "tumi",
@@ -43130,12 +43127,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.3,
-    reviews: 85,
-    views: 6536,
+    rating: 4.9,
+    reviews: 93,
+    views: 4920,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43147,11 +43145,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0025",
+    id: "PI-1233",
     slug: "tumi-alpha-travel-kit-toiletry-bag",
     name: "Alpha Travel Kit - Toiletry Bag",
     brand: "tumi",
@@ -43163,12 +43160,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.8,
-    reviews: 104,
-    views: 4725,
+    rating: 4,
+    reviews: 112,
+    views: 4107,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43180,11 +43178,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0026",
+    id: "PI-1234",
     slug: "tumi-voyageur-q-tote-lightweight-travel-tote",
     name: "Voyageur Q Tote - Lightweight Travel Tote",
     brand: "tumi",
@@ -43196,12 +43193,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
     rating: 4.7,
-    reviews: 47,
-    views: 7718,
+    reviews: 179,
+    views: 8086,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43213,11 +43211,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0027",
+    id: "PI-1235",
     slug: "tumi-unisex-rhys-expandable-duffel",
     name: "Unisex Rhys Expandable Duffel",
     brand: "tumi",
@@ -43229,12 +43226,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
     rating: 3.8,
-    reviews: 66,
-    views: 2267,
+    reviews: 198,
+    views: 3135,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43246,11 +43244,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0028",
+    id: "PI-1236",
     slug: "tumi-alpha-tri-fold-garment-bag-carry-on",
     name: "Alpha Tri-Fold Garment Bag Carry-On",
     brand: "tumi",
@@ -43262,12 +43259,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 3.9,
-    reviews: 57,
-    views: 5564,
+    rating: 4.3,
+    reviews: 217,
+    views: 5596,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43279,11 +43277,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0029",
+    id: "PI-1237",
     slug: "tumi-alpha-east-west-sling",
     name: "Alpha East West Sling",
     brand: "tumi",
@@ -43295,12 +43292,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 4.4,
-    reviews: 76,
-    views: 3185,
+    rating: 4.8,
+    reviews: 236,
+    views: 5975,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43312,11 +43310,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0030",
+    id: "PI-1238",
     slug: "tumi-alpha-large-dual-access-expandable-carry-on-luggage",
     name: "Alpha Large Dual Access Expandable Carry-On Luggage",
     brand: "tumi",
@@ -43328,12 +43325,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags-travel"
     ],
-    rating: 3.6,
-    reviews: 218,
-    views: 6475,
+    rating: 4.1,
+    reviews: 103,
+    views: 5758,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -43345,11 +43343,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0031",
+    id: "PI-1239",
     slug: "longchamp-tote-le-pliage-one-m",
     name: "Tote Le Pliage One M",
     brand: "longchamp",
@@ -43364,9 +43361,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 199,
-    views: 3482,
+    rating: 4.6,
+    reviews: 122,
+    views: 7091,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43378,11 +43376,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0032",
+    id: "PI-1240",
     slug: "longchamp-handbag-le-pliage-one-l",
     name: "Handbag Le Pliage One L",
     brand: "longchamp",
@@ -43398,8 +43395,9 @@ export const generatedProducts: Product[] = [
       "bags"
     ],
     rating: 4.6,
-    reviews: 56,
-    views: 869,
+    reviews: 94,
+    views: 7403,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43411,11 +43409,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0033",
+    id: "PI-1241",
     slug: "longchamp-tote-le-pliage-one-l",
     name: "Tote Le Pliage One L",
     brand: "longchamp",
@@ -43430,9 +43427,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 237,
-    views: 2680,
+    rating: 3.7,
+    reviews: 113,
+    views: 6390,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43444,11 +43442,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0034",
+    id: "PI-1242",
     slug: "longchamp-tote-le-pliage-one-m-2",
     name: "Tote Le Pliage One M (2)",
     brand: "longchamp",
@@ -43463,9 +43460,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.4,
-    reviews: 142,
-    views: 5361,
+    rating: 3.6,
+    reviews: 56,
+    views: 5253,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43477,11 +43475,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0035",
+    id: "PI-1243",
     slug: "longchamp-handbag-le-pliage-one-s",
     name: "Handbag Le Pliage One S",
     brand: "longchamp",
@@ -43496,9 +43493,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.9,
-    reviews: 123,
-    views: 5718,
+    rating: 4.1,
+    reviews: 75,
+    views: 3544,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43510,11 +43508,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0036",
+    id: "PI-1244",
     slug: "longchamp-travel-bag-le-pliage-one-l",
     name: "Travel Bag Le Pliage One L",
     brand: "longchamp",
@@ -43526,12 +43523,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags"
     ],
-    rating: 4,
-    reviews: 180,
-    views: 6359,
+    rating: 3.8,
+    reviews: 170,
+    views: 1055,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43543,11 +43541,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0037",
+    id: "PI-1245",
     slug: "longchamp-handbag-le-pliage-one-s-2",
     name: "Handbag Le Pliage One S (2)",
     brand: "longchamp",
@@ -43562,9 +43559,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 161,
-    views: 276,
+    rating: 4.3,
+    reviews: 189,
+    views: 3578,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43576,11 +43574,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0038",
+    id: "PI-1246",
     slug: "longchamp-bag-le-pliage-one",
     name: "Bag Le Pliage One",
     brand: "longchamp",
@@ -43595,9 +43592,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.8,
-    reviews: 66,
-    views: 2237,
+    rating: 4.2,
+    reviews: 132,
+    views: 4599,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43609,11 +43607,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0039",
+    id: "PI-1247",
     slug: "longchamp-travel-bag-le-pliage-one-s",
     name: "Travel Bag Le Pliage One S",
     brand: "longchamp",
@@ -43625,12 +43622,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags"
     ],
     rating: 4.7,
-    reviews: 47,
-    views: 3902,
+    reviews: 151,
+    views: 1020,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -43642,11 +43640,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0040",
+    id: "PI-1248",
     slug: "longchamp-travel-bag-le-pliage-one-l-2",
     name: "Travel Bag Le Pliage One L (2)",
     brand: "longchamp",
@@ -43658,12 +43655,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags"
     ],
-    rating: 4.1,
-    reviews: 223,
-    views: 2550,
+    rating: 4.4,
+    reviews: 46,
+    views: 467,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43675,11 +43673,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0041",
+    id: "PI-1249",
     slug: "longchamp-bag-le-pliage-one-2",
     name: "Bag Le Pliage One (2)",
     brand: "longchamp",
@@ -43694,9 +43691,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.6,
-    reviews: 42,
-    views: 3973,
+    rating: 4.9,
+    reviews: 65,
+    views: 1758,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43708,11 +43706,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0042",
+    id: "PI-1250",
     slug: "longchamp-backpack-le-pliage-one-m",
     name: "Backpack Le Pliage One M",
     brand: "longchamp",
@@ -43727,9 +43724,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 7384,
+    rating: 4.9,
+    reviews: 41,
+    views: 588,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43741,11 +43739,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0043",
+    id: "PI-1251",
     slug: "longchamp-tote-le-pliage-one-l-2",
     name: "Tote Le Pliage One L (2)",
     brand: "longchamp",
@@ -43760,9 +43757,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6123,
+    rating: 4,
+    reviews: 60,
+    views: 5287,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43774,11 +43772,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0044",
+    id: "PI-1252",
     slug: "longchamp-handbag-le-pliage-one-l-2",
     name: "Handbag Le Pliage One L (2)",
     brand: "longchamp",
@@ -43793,9 +43790,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.9,
-    reviews: 147,
-    views: 7798,
+    rating: 3.9,
+    reviews: 203,
+    views: 3110,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43807,11 +43805,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0045",
+    id: "PI-1253",
     slug: "longchamp-travel-bag-le-pliage-one-xl",
     name: "Travel Bag Le Pliage One XL",
     brand: "longchamp",
@@ -43823,12 +43820,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags"
     ],
-    rating: 4,
-    reviews: 166,
-    views: 2321,
+    rating: 4.4,
+    reviews: 222,
+    views: 7809,
+    newIn: true,
     offers: [
       {
         store: "farfetch-store",
@@ -43840,11 +43838,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0046",
+    id: "PI-1254",
     slug: "longchamp-backpack-le-pliage-one-m-2",
     name: "Backpack Le Pliage One M (2)",
     brand: "longchamp",
@@ -43859,9 +43856,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.5,
-    reviews: 185,
-    views: 2356,
+    rating: 4.1,
+    reviews: 117,
+    views: 1704,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43873,11 +43871,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0047",
+    id: "PI-1255",
     slug: "longchamp-tote-le-pliage-one-l-3",
     name: "Tote Le Pliage One L (3)",
     brand: "longchamp",
@@ -43892,9 +43889,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 3.6,
-    reviews: 204,
-    views: 439,
+    rating: 4.6,
+    reviews: 136,
+    views: 1941,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43906,11 +43904,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0048",
+    id: "PI-1256",
     slug: "longchamp-travel-bag-le-pliage-one-xl-2",
     name: "Travel Bag Le Pliage One XL (2)",
     brand: "longchamp",
@@ -43922,12 +43919,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "bags",
+      "lifestyle-accessories",
       "bags"
     ],
-    rating: 4.3,
-    reviews: 71,
-    views: 1618,
+    rating: 4.5,
+    reviews: 79,
+    views: 2602,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43939,11 +43937,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0049",
+    id: "PI-1257",
     slug: "longchamp-tote-le-pliage-one-m-3",
     name: "Tote Le Pliage One M (3)",
     brand: "longchamp",
@@ -43958,9 +43955,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4.8,
-    reviews: 90,
-    views: 4627,
+    rating: 3.6,
+    reviews: 98,
+    views: 2939,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -43972,11 +43970,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0050",
+    id: "PI-1258",
     slug: "longchamp-backpack-le-pliage-one-m-3",
     name: "Backpack Le Pliage One M (3)",
     brand: "longchamp",
@@ -43991,9 +43988,10 @@ export const generatedProducts: Product[] = [
       "bags",
       "bags"
     ],
-    rating: 4,
-    reviews: 232,
-    views: 5051,
+    rating: 3.7,
+    reviews: 89,
+    views: 7644,
+    newIn: false,
     offers: [
       {
         store: "farfetch-store",
@@ -44005,11 +44003,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0051",
+    id: "PI-1259",
     slug: "carters-unisex-baby-5-pack-side-snap-short-sleeve-bodysuit",
     name: "Unisex Baby 5-pack Side Snap Short-sleeve Bodysuit",
     brand: "carters",
@@ -44024,9 +44021,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.9,
-    reviews: 213,
-    views: 3240,
+    rating: 4.2,
+    reviews: 108,
+    views: 7825,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44038,11 +44036,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0052",
+    id: "PI-1260",
     slug: "carters-baby-6-piece-bodysuits-and-pants-set",
     name: "Baby 6-piece Bodysuits and Pants Set",
     brand: "carters",
@@ -44057,9 +44054,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.4,
-    reviews: 194,
-    views: 7509,
+    rating: 4,
+    reviews: 84,
+    views: 4689,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44071,11 +44069,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0053",
+    id: "PI-1261",
     slug: "carters-baby-girls-6-pack-short-sleeve-bodysuit",
     name: "Baby Girls 6 Pack Short Sleeve Bodysuit",
     brand: "carters",
@@ -44090,9 +44087,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.9,
-    reviews: 175,
-    views: 2058,
+    rating: 4.5,
+    reviews: 103,
+    views: 2140,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44104,11 +44102,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0054",
+    id: "PI-1262",
     slug: "carters-baby-3-pack-neutral-sleep-and-play",
     name: "Baby 3-Pack Neutral Sleep and Play",
     brand: "carters",
@@ -44123,9 +44120,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.8,
-    reviews: 156,
-    views: 3497,
+    rating: 3.6,
+    reviews: 122,
+    views: 793,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44137,11 +44135,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0055",
+    id: "PI-1263",
     slug: "carters-baby-girls-6-piece-bodysuits-and-pants-set",
     name: "Baby Girls 6-piece Bodysuits and Pants Set",
     brand: "carters",
@@ -44156,9 +44153,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.3,
-    reviews: 137,
-    views: 4484,
+    rating: 4.1,
+    reviews: 141,
+    views: 4850,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -44170,11 +44168,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0056",
+    id: "PI-1264",
     slug: "carters-baby-girls-3-pack-cotton-sleeper-gown",
     name: "Baby Girls' 3-pack Cotton Sleeper Gown",
     brand: "carters",
@@ -44189,9 +44186,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.8,
-    reviews: 118,
-    views: 5473,
+    rating: 4.8,
+    reviews: 208,
+    views: 3155,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44203,11 +44201,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0057",
+    id: "PI-1265",
     slug: "carters-baby-hooded-sweater-jacket-with-sherpa-lining",
     name: "Baby Hooded Sweater Jacket with Sherpa Lining",
     brand: "carters",
@@ -44222,9 +44219,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.7,
-    reviews: 99,
-    views: 4970,
+    rating: 3.9,
+    reviews: 227,
+    views: 4624,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44236,11 +44234,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0058",
+    id: "PI-1266",
     slug: "carters-baby-boys-4-piece-jacket-pant-and-bodysuit-set",
     name: "Baby Boys 4-piece Jacket, Pant, and Bodysuit Set",
     brand: "carters",
@@ -44255,9 +44252,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.2,
-    reviews: 80,
-    views: 6899,
+    rating: 4.4,
+    reviews: 46,
+    views: 1571,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -44269,11 +44267,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0059",
+    id: "PI-1267",
     slug: "carters-baby-8-pack-short-sleeve-bodysuit",
     name: "Baby 8-Pack Short-Sleeve Bodysuit",
     brand: "carters",
@@ -44288,9 +44285,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.7,
-    reviews: 61,
-    views: 6656,
+    rating: 4.9,
+    reviews: 65,
+    views: 6530,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44302,11 +44300,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0060",
+    id: "PI-1268",
     slug: "carters-baby-boys-3-pack-snap-up-rompers",
     name: "Baby Boys 3 pack Snap up Rompers",
     brand: "carters",
@@ -44321,9 +44318,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.9,
-    reviews: 107,
-    views: 4768,
+    rating: 4.2,
+    reviews: 132,
+    views: 4041,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44335,11 +44333,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0061",
+    id: "PI-1269",
     slug: "carters-baby-neutral-2-pack-cotton-footed-sleep-and-play",
     name: "Baby Neutral 2-pack Cotton Footed Sleep and Play",
     brand: "carters",
@@ -44354,9 +44351,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.8,
-    reviews: 88,
-    views: 4781,
+    rating: 4.7,
+    reviews: 151,
+    views: 1548,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44368,11 +44366,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0062",
+    id: "PI-1270",
     slug: "carters-baby-girls-cotton-footed-sleep-and-play-pack-of-2",
     name: "Baby Girls' Cotton Footed Sleep and Play, Pack of 2",
     brand: "carters",
@@ -44387,9 +44384,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.9,
-    reviews: 145,
-    views: 4158,
+    rating: 3.9,
+    reviews: 93,
+    views: 7618,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44401,11 +44399,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0063",
+    id: "PI-1271",
     slug: "carters-baby-6-piece-bodysuits-and-pants-set-2",
     name: "Baby 6-piece Bodysuits and Pants Set (2)",
     brand: "carters",
@@ -44420,9 +44417,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.4,
-    reviews: 126,
-    views: 5491,
+    rating: 4.8,
+    reviews: 74,
+    views: 2151,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -44434,11 +44432,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0064",
+    id: "PI-1272",
     slug: "carters-baby-boys-3-pack-short-sleeve-tee-shirts",
     name: "Baby Boys' 3-Pack Short-Sleeve Tee Shirts",
     brand: "carters",
@@ -44453,9 +44450,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.5,
-    reviews: 183,
-    views: 332,
+    rating: 4.3,
+    reviews: 55,
+    views: 3660,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44467,11 +44465,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0065",
+    id: "PI-1273",
     slug: "carters-baby-boys-3-pack-rompers",
     name: "Baby Boys' 3-pack Rompers",
     brand: "carters",
@@ -44486,9 +44483,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
-    reviews: 164,
-    views: 7521,
+    rating: 3.8,
+    reviews: 236,
+    views: 3087,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44500,11 +44498,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0066",
+    id: "PI-1274",
     slug: "carters-babys-3-pack-snug-fit-footless-cotton-pajamas",
     name: "Babys' 3 pack Snug Fit Footless Cotton Pajamas",
     brand: "carters",
@@ -44519,9 +44516,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.1,
-    reviews: 221,
-    views: 7362,
+    rating: 4.7,
+    reviews: 217,
+    views: 190,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44533,11 +44531,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0067",
+    id: "PI-1275",
     slug: "carters-baby-boys-3-pack-cotton-sleeper-gown",
     name: "Baby Boys 3-pack Cotton Sleeper Gown",
     brand: "carters",
@@ -44552,9 +44549,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.6,
-    reviews: 202,
-    views: 3337,
+    rating: 4.2,
+    reviews: 198,
+    views: 5949,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44566,11 +44564,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0068",
+    id: "PI-1276",
     slug: "carters-baby-boys-2-way-zip-thermal-footed-sleep-and-play-pack-of-2",
     name: "Baby Boys 2-way Zip Thermal Footed Sleep and Play, Pack of 2",
     brand: "carters",
@@ -44585,9 +44582,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4.1,
-    reviews: 155,
-    views: 6520,
+    rating: 3.7,
+    reviews: 179,
+    views: 7376,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44599,11 +44597,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0069",
+    id: "PI-1277",
     slug: "carters-unisex-baby-organic-cotton-gauze-shortall",
     name: "Unisex Baby Organic Cotton Gauze Shortall",
     brand: "carters",
@@ -44618,9 +44615,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 3.6,
-    reviews: 136,
-    views: 1829,
+    rating: 4.6,
+    reviews: 160,
+    views: 7363,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44632,11 +44630,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0070",
+    id: "PI-1278",
     slug: "carters-baby-girls-8-pack-short-sleeve-onesies-bodysuits",
     name: "Baby Girls' 8-pack Short Sleeve Onesies Bodysuits",
     brand: "carters",
@@ -44651,9 +44648,10 @@ export const generatedProducts: Product[] = [
       "baby-clothing",
       "baby-clothing"
     ],
-    rating: 4,
-    reviews: 98,
-    views: 3649,
+    rating: 4.1,
+    reviews: 141,
+    views: 6106,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44665,11 +44663,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0071",
+    id: "PI-1279",
     slug: "oshkosh-bgosh-kids-aquatic-water-sports-sandals",
     name: "Kids' Aquatic Water Sports Sandals",
     brand: "oshkosh-bgosh",
@@ -44681,12 +44678,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "kids-shoes",
       "kids-clothing"
     ],
-    rating: 4.5,
-    reviews: 117,
-    views: 6950,
+    rating: 3.6,
+    reviews: 122,
+    views: 1073,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44698,11 +44696,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0072",
+    id: "PI-1280",
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls",
     name: "Baby Boys World's Best Overalls",
     brand: "oshkosh-bgosh",
@@ -44714,12 +44711,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.4,
-    reviews: 60,
-    views: 1127,
+    rating: 3.8,
+    reviews: 214,
+    views: 2823,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44731,11 +44729,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0073",
+    id: "PI-1281",
     slug: "oshkosh-bgosh-girls-world-s-best-overalls",
     name: "Girls World's Best Overalls",
     brand: "oshkosh-bgosh",
@@ -44750,9 +44747,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.9,
-    reviews: 79,
-    views: 4748,
+    rating: 4.7,
+    reviews: 195,
+    views: 2254,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44764,11 +44762,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0074",
+    id: "PI-1282",
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-2",
     name: "Baby Boys World's Best Overalls (2)",
     brand: "oshkosh-bgosh",
@@ -44780,12 +44777,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
     rating: 4.8,
-    reviews: 222,
-    views: 7099,
+    reviews: 52,
+    views: 4865,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44797,11 +44795,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0075",
+    id: "PI-1283",
     slug: "oshkosh-bgosh-girls-world-s-best-overalls-2",
     name: "Girls World's Best Overalls (2)",
     brand: "oshkosh-bgosh",
@@ -44816,9 +44813,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 3.9,
-    reviews: 41,
-    views: 1798,
+    rating: 4.3,
+    reviews: 233,
+    views: 3076,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44830,11 +44828,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0076",
+    id: "PI-1284",
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-3",
     name: "Baby Boys World's Best Overalls (3)",
     brand: "oshkosh-bgosh",
@@ -44846,12 +44843,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 3.8,
-    reviews: 184,
-    views: 1435,
+    rating: 4.4,
+    reviews: 90,
+    views: 1501,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44863,11 +44861,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0077",
+    id: "PI-1285",
     slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-floral",
     name: "Baby Girls World's Best Overalls (Floral)",
     brand: "oshkosh-bgosh",
@@ -44881,12 +44878,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.3,
-    reviews: 203,
-    views: 1672,
+    rating: 3.9,
+    reviews: 71,
+    views: 4626,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44898,11 +44896,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0078",
+    id: "PI-1286",
     slug: "oshkosh-bgosh-girls-athletic-shoes-sneaker",
     name: "Girls Athletic Shoes Sneaker",
     brand: "oshkosh-bgosh",
@@ -44914,12 +44911,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "kids-shoes",
       "kids-clothing"
     ],
-    rating: 3.8,
-    reviews: 50,
-    views: 5593,
+    rating: 4,
+    reviews: 128,
+    views: 8077,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44931,11 +44929,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0079",
+    id: "PI-1287",
     slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-hickory",
     name: "Baby Girls World's Best Overalls (Hickory)",
     brand: "oshkosh-bgosh",
@@ -44947,12 +44944,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.3,
-    reviews: 69,
-    views: 190,
+    rating: 4.9,
+    reviews: 109,
+    views: 2224,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44964,11 +44962,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0080",
+    id: "PI-1288",
     slug: "oshkosh-bgosh-baby-girls-world-s-best-overalls-denim",
     name: "Baby Girls World's Best Overalls (Denim)",
     brand: "oshkosh-bgosh",
@@ -44982,12 +44979,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.7,
-    reviews: 195,
-    views: 4058,
+    rating: 3.6,
+    reviews: 166,
+    views: 529,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -44999,11 +44997,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0081",
+    id: "PI-1289",
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-olive",
     name: "Baby Boys World's Best Overalls (Olive)",
     brand: "oshkosh-bgosh",
@@ -45017,12 +45014,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 3.8,
-    reviews: 214,
-    views: 4415,
+    rating: 4.5,
+    reviews: 147,
+    views: 5946,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45034,11 +45032,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0082",
+    id: "PI-1290",
     slug: "oshkosh-bgosh-boy-s-short-sleeve-henley",
     name: "Boy's Short Sleeve Henley",
     brand: "oshkosh-bgosh",
@@ -45053,9 +45050,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 1500,
+    rating: 3.7,
+    reviews: 99,
+    views: 6520,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45067,11 +45065,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0083",
+    id: "PI-1291",
     slug: "oshkosh-bgosh-baby-girls-dress",
     name: "Baby Girls' Dress",
     brand: "oshkosh-bgosh",
@@ -45083,12 +45080,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 3417,
+    rating: 4.6,
+    reviews: 80,
+    views: 4709,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45100,11 +45098,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0084",
+    id: "PI-1292",
     slug: "oshkosh-bgosh-boy-s-short-sleeve-henley-2",
     name: "Boy's Short Sleeve Henley (2)",
     brand: "oshkosh-bgosh",
@@ -45119,9 +45116,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 3.9,
-    reviews: 71,
-    views: 6294,
+    rating: 4.7,
+    reviews: 137,
+    views: 7642,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45133,11 +45131,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0085",
+    id: "PI-1293",
     slug: "oshkosh-bgosh-boys-bruno-shoes",
     name: "Boys' Bruno Shoes",
     brand: "oshkosh-bgosh",
@@ -45149,12 +45146,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "kids-shoes",
       "kids-clothing"
     ],
-    rating: 4.4,
-    reviews: 90,
-    views: 7525,
+    rating: 4.2,
+    reviews: 118,
+    views: 2315,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45166,11 +45164,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0086",
+    id: "PI-1294",
     slug: "oshkosh-bgosh-boys-pull-on-shorts",
     name: "Boys Pull on Shorts",
     brand: "oshkosh-bgosh",
@@ -45185,9 +45182,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.9,
-    reviews: 109,
-    views: 3320,
+    rating: 4.3,
+    reviews: 175,
+    views: 3100,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45199,11 +45197,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0087",
+    id: "PI-1295",
     slug: "oshkosh-bgosh-baby-boys-world-s-best-overalls-green",
     name: "Baby Boys World's Best Overalls (Green)",
     brand: "oshkosh-bgosh",
@@ -45217,12 +45214,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4,
-    reviews: 128,
-    views: 5131,
+    rating: 3.8,
+    reviews: 156,
+    views: 2519,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45234,11 +45232,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0088",
+    id: "PI-1296",
     slug: "oshkosh-bgosh-boys-putney-sneaker",
     name: "Boys' Putney Sneaker",
     brand: "oshkosh-bgosh",
@@ -45250,12 +45247,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "kids-shoes",
       "kids-clothing"
     ],
-    rating: 4.9,
-    reviews: 43,
-    views: 2670,
+    rating: 3.9,
+    reviews: 213,
+    views: 5658,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45267,11 +45265,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0089",
+    id: "PI-1297",
     slug: "oshkosh-bgosh-kids-marie-casual-sandals",
     name: "Kids' Marie Casual Sandals",
     brand: "oshkosh-bgosh",
@@ -45283,12 +45280,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "kids-shoes",
       "kids-clothing"
     ],
-    rating: 4,
-    reviews: 62,
-    views: 8103,
+    rating: 4.8,
+    reviews: 194,
+    views: 1521,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45300,11 +45298,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0090",
+    id: "PI-1298",
     slug: "oshkosh-bgosh-boy-s-short-sleeve-henley-3",
     name: "Boy's Short Sleeve Henley (3)",
     brand: "oshkosh-bgosh",
@@ -45319,9 +45316,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.6,
-    reviews: 204,
-    views: 1993,
+    rating: 4.9,
+    reviews: 51,
+    views: 7824,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -45333,11 +45331,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0091",
+    id: "PI-1299",
     slug: "the-childrens-place-girls-2-piece-tankini-swimsuit",
     name: "Girls 2-Piece Tankini Swimsuit",
     brand: "the-childrens-place",
@@ -45354,9 +45351,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.1,
-    reviews: 185,
-    views: 740,
+    rating: 4.4,
+    reviews: 232,
+    views: 7811,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45368,11 +45366,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0092",
+    id: "PI-1300",
     slug: "the-childrens-place-girls-short-sleeve-graphic-t-shirts-5-pack",
     name: "Girls' Short Sleeve Graphic T-shirts (5-Pack)",
     brand: "the-childrens-place",
@@ -45387,9 +45384,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 3.6,
-    reviews: 166,
-    views: 559,
+    rating: 4.7,
+    reviews: 93,
+    views: 5598,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45401,11 +45399,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0093",
+    id: "PI-1301",
     slug: "the-childrens-place-boys-pull-on-cargo-pants-multipacks",
     name: "Boys' Pull on Cargo Pants, Multipacks",
     brand: "the-childrens-place",
@@ -45422,9 +45419,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.5,
-    reviews: 147,
-    views: 5798,
+    rating: 4.2,
+    reviews: 74,
+    views: 7225,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45436,11 +45434,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0094",
+    id: "PI-1302",
     slug: "the-childrens-place-girls-flare-leggings",
     name: "Girls' Flare Leggings",
     brand: "the-childrens-place",
@@ -45455,9 +45452,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 3.8,
-    reviews: 80,
-    views: 1557,
+    rating: 3.7,
+    reviews: 55,
+    views: 500,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45469,11 +45467,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0095",
+    id: "PI-1303",
     slug: "the-childrens-place-baby-girls-and-toddler-graphic-t-shirts-4-pack",
     name: "Baby Girls' and Toddler Graphic T-Shirts, 4 Pack",
     brand: "the-childrens-place",
@@ -45485,12 +45482,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.7,
-    reviews: 61,
-    views: 4520,
+    rating: 4.6,
+    reviews: 236,
+    views: 5937,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45502,11 +45500,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0096",
+    id: "PI-1304",
     slug: "the-childrens-place-baby-girls-and-toddler-assorted-solid-leggings-multipacks",
     name: "Baby Girls and Toddler Assorted Solid Leggings, Multipacks",
     brand: "the-childrens-place",
@@ -45520,12 +45517,13 @@ export const generatedProducts: Product[] = [
     ],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 4.2,
-    reviews: 42,
-    views: 251,
+    rating: 4.1,
+    reviews: 217,
+    views: 910,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -45537,11 +45535,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0097",
+    id: "PI-1305",
     slug: "the-childrens-place-girls-assorted-cartwheel-shorts",
     name: "Girls Assorted Cartwheel Shorts",
     brand: "the-childrens-place",
@@ -45553,12 +45550,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "kids-shoes",
       "kids-clothing"
     ],
-    rating: 3.7,
-    reviews: 223,
-    views: 5766,
+    rating: 3.6,
+    reviews: 198,
+    views: 4845,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45570,11 +45568,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0098",
+    id: "PI-1306",
     slug: "the-childrens-place-girls-basic-cardigan",
     name: "Girls Basic Cardigan",
     brand: "the-childrens-place",
@@ -45589,9 +45586,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.8,
-    reviews: 52,
-    views: 5599,
+    rating: 4.5,
+    reviews: 179,
+    views: 1200,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45603,11 +45601,43 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0099",
+    id: "PI-1307",
+    slug: "fossil-men-s-grant-quartz-chronograph-watch",
+    name: "Men's Grant Quartz Chronograph Watch",
+    brand: "fossil",
+    category: "watches",
+    subcategory: "Watches",
+    gender: "unisex",
+    description: "Fossil Men's Grant Quartz Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://m.media-amazon.com/images/I/81cfp4YcCtL._AC_UL320_.jpg",
+    colors: [],
+    sizes: [],
+    tags: [
+      "watches",
+      "watches"
+    ],
+    rating: 4,
+    reviews: 160,
+    views: 3955,
+    newIn: false,
+    offers: [
+      {
+        store: "amazon",
+        price: 9213,
+        originalPrice: 9213,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Leather-Chronograph/dp/B00STAYV6C",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
+  },
+  {
+    id: "PI-1308",
     slug: "the-childrens-place-girls-plaid-stretch-jacquard-short-sleeve-dress",
     name: "Girls' Plaid Stretch Jacquard Short Sleeve Dress",
     brand: "the-childrens-place",
@@ -45622,9 +45652,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.3,
-    reviews: 233,
-    views: 3348,
+    rating: 4.9,
+    reviews: 141,
+    views: 5610,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45636,11 +45667,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0100",
+    id: "PI-1309",
     slug: "the-childrens-place-boys-performance-basketball-shorts",
     name: "Boys' Performance Basketball Shorts",
     brand: "the-childrens-place",
@@ -45655,9 +45685,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.6,
-    reviews: 62,
-    views: 1617,
+    rating: 4.4,
+    reviews: 122,
+    views: 3809,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45669,11 +45700,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0101",
+    id: "PI-1310",
     slug: "the-childrens-place-girls-leggings-8-pack",
     name: "girls Leggings 8 Pack",
     brand: "the-childrens-place",
@@ -45688,9 +45718,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.1,
-    reviews: 43,
-    views: 4858,
+    rating: 4.8,
+    reviews: 84,
+    views: 6561,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45702,11 +45733,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0102",
+    id: "PI-1311",
     slug: "the-childrens-place-girls-long-sleeve-graphic-t-shirts-5-pack",
     name: "Girls' Long Sleeve Graphic T-Shirts, 5 Pack",
     brand: "the-childrens-place",
@@ -45721,9 +45751,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.2,
-    reviews: 100,
-    views: 439,
+    rating: 3.9,
+    reviews: 103,
+    views: 1292,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -45735,11 +45766,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0103",
+    id: "PI-1312",
     slug: "the-childrens-place-baby-and-toddler-stretch-straight-chino-pants",
     name: "Baby and Toddler Stretch Straight Chino Pants",
     brand: "the-childrens-place",
@@ -45751,12 +45781,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 3.7,
-    reviews: 81,
-    views: 2300,
+    rating: 4.4,
+    reviews: 122,
+    views: 4297,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45768,11 +45799,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0104",
+    id: "PI-1313",
     slug: "the-childrens-place-baby-girls-and-toddler-pull-on-chambray-shorts",
     name: "Baby Girls' and Toddler Pull on Chambray Shorts",
     brand: "the-childrens-place",
@@ -45784,12 +45814,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "kids-clothing",
+      "baby-clothing",
       "kids-clothing"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 645,
+    rating: 4.9,
+    reviews: 141,
+    views: 6402,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -45801,11 +45832,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0105",
+    id: "PI-1314",
     slug: "the-childrens-place-boys-uniform-quick-dry-jogger-shorts",
     name: "Boys' Uniform Quick Dry Jogger Shorts",
     brand: "the-childrens-place",
@@ -45820,9 +45850,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 7034,
+    rating: 4.2,
+    reviews: 208,
+    views: 3821,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45834,11 +45865,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0106",
+    id: "PI-1315",
     slug: "the-childrens-place-girls-solid-bike-shorts",
     name: "Girls' Solid Bike Shorts",
     brand: "the-childrens-place",
@@ -45853,9 +45883,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.8,
-    reviews: 176,
-    views: 3499,
+    rating: 4.7,
+    reviews: 227,
+    views: 3808,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -45867,11 +45898,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0107",
+    id: "PI-1316",
     slug: "the-childrens-place-boys-pull-on-cargo-pants",
     name: "Boys' Pull on Cargo Pants",
     brand: "the-childrens-place",
@@ -45886,9 +45916,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.3,
-    reviews: 157,
-    views: 1688,
+    rating: 3.8,
+    reviews: 46,
+    views: 4531,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45900,11 +45931,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0108",
+    id: "PI-1317",
     slug: "the-childrens-place-boys-straight-leg-jeans",
     name: "Boys' Straight Leg Jeans",
     brand: "the-childrens-place",
@@ -45919,9 +45949,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.8,
-    reviews: 110,
-    views: 1735,
+    rating: 4.3,
+    reviews: 65,
+    views: 3198,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45933,11 +45964,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0109",
+    id: "PI-1318",
     slug: "the-childrens-place-girls-unicorns-butterfly-short-sleeve-graphic-t-shirts-3-pack",
     name: "Girls' Unicorns,Butterfly Short Sleeve Graphic T-Shirts, 3 Pack",
     brand: "the-childrens-place",
@@ -45952,9 +45982,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.3,
-    reviews: 91,
-    views: 3342,
+    rating: 3.6,
+    reviews: 132,
+    views: 7001,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -45966,11 +45997,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0110",
+    id: "PI-1319",
     slug: "the-childrens-place-girls-denim-bermuda-shorts",
     name: "Girls' Denim Bermuda Shorts",
     brand: "the-childrens-place",
@@ -45987,9 +46017,10 @@ export const generatedProducts: Product[] = [
       "kids-clothing",
       "kids-clothing"
     ],
-    rating: 4.9,
-    reviews: 59,
-    views: 2464,
+    rating: 4.1,
+    reviews: 151,
+    views: 5204,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46001,11 +46032,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0111",
+    id: "PI-1320",
     slug: "fossil-men-s-nate-quartz-chronograph-watch",
     name: "Men's Nate Quartz Chronograph Watch",
     brand: "fossil",
@@ -46020,9 +46050,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.4,
-    reviews: 40,
-    views: 2707,
+    rating: 4.1,
+    reviews: 41,
+    views: 1236,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46034,11 +46065,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0112",
+    id: "PI-1321",
     slug: "fossil-women-s-riley-quartz-stainless-steel-multifunction-watch",
     name: "Women's Riley Quartz Stainless Steel Multifunction Watch",
     brand: "fossil",
@@ -46055,9 +46085,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.5,
-    reviews: 97,
-    views: 2158,
+    rating: 4.6,
+    reviews: 60,
+    views: 7319,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46069,11 +46100,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0113",
+    id: "PI-1322",
     slug: "fossil-men-s-neutra-quartz-stainless-steel-chronograph-watch",
     name: "Men's Neutra Quartz Stainless Steel Chronograph Watch",
     brand: "fossil",
@@ -46088,9 +46118,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4,
-    reviews: 78,
-    views: 5517,
+    rating: 4.5,
+    reviews: 203,
+    views: 6678,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46102,44 +46133,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0114",
-    slug: "fossil-men-s-grant-quartz-chronograph-watch",
-    name: "Men's Grant Quartz Chronograph Watch",
-    brand: "fossil",
-    category: "watches",
-    subcategory: "Watches",
-    gender: "unisex",
-    description: "Fossil Men's Grant Quartz Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81cfp4YcCtL._AC_UL320_.jpg",
-    colors: [],
-    sizes: [],
-    tags: [
-      "watches",
-      "watches"
-    ],
-    rating: 4.1,
-    reviews: 135,
-    views: 1692,
-    offers: [
-      {
-        store: "amazon",
-        price: 9213,
-        originalPrice: 9213,
-        currency: "USD",
-        availability: "IN STOCK",
-        productUrl: "https://www.amazon.com/Fossil-Quartz-Stainless-Leather-Chronograph/dp/B00STAYV6C",
-        shipping: "Standard shipping",
-        updatedHoursAgo: 1
-      }
-    ],
-    newIn: false
-  },
-  {
-    id: "PI-0115",
+    id: "PI-1323",
     slug: "fossil-women-s-raquel-quartz-stainless-steel-watch",
     name: "Women's Raquel Quartz Stainless Steel Watch",
     brand: "fossil",
@@ -46155,8 +46152,9 @@ export const generatedProducts: Product[] = [
       "watches"
     ],
     rating: 3.6,
-    reviews: 116,
-    views: 2399,
+    reviews: 222,
+    views: 6321,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46168,11 +46166,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0116",
+    id: "PI-1324",
     slug: "fossil-men-s-neutra-quartz-stainless-steel-chronograph-watch-2",
     name: "Men's Neutra Quartz Stainless Steel Chronograph Watch (2)",
     brand: "fossil",
@@ -46187,9 +46184,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 3.7,
-    reviews: 173,
-    views: 5298,
+    rating: 4.7,
+    reviews: 117,
+    views: 1720,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46201,11 +46199,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0117",
+    id: "PI-1325",
     slug: "fossil-men-s-neutra-quartz-stainless-steel-chronograph-watch-3",
     name: "Men's Neutra Quartz Stainless Steel Chronograph Watch (3)",
     brand: "fossil",
@@ -46220,9 +46217,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.6,
-    reviews: 154,
-    views: 7895,
+    rating: 3.8,
+    reviews: 136,
+    views: 7909,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -46234,11 +46232,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0118",
+    id: "PI-1326",
     slug: "fossil-men-s-minimalist-quartz-stainless-steel-three-hand-watch",
     name: "Men's Minimalist Quartz Stainless Steel Three-Hand Watch",
     brand: "fossil",
@@ -46254,8 +46251,9 @@ export const generatedProducts: Product[] = [
       "watches"
     ],
     rating: 3.7,
-    reviews: 107,
-    views: 520,
+    reviews: 79,
+    views: 4442,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46267,11 +46265,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0119",
+    id: "PI-1327",
     slug: "fossil-coachman-quartz-chronograph-leather-watch",
     name: "Coachman Quartz Chronograph Leather Watch",
     brand: "fossil",
@@ -46286,9 +46283,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.6,
-    reviews: 88,
-    views: 3483,
+    rating: 4.2,
+    reviews: 98,
+    views: 5515,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -46300,11 +46298,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0120",
+    id: "PI-1328",
     slug: "fossil-coachman-quartz-chronograph-leather-watch-2",
     name: "Coachman Quartz Chronograph Leather Watch (2)",
     brand: "fossil",
@@ -46319,9 +46316,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.4,
-    reviews: 80,
-    views: 3659,
+    rating: 4.3,
+    reviews: 89,
+    views: 7332,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46333,11 +46331,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0121",
+    id: "PI-1329",
     slug: "fossil-men-s-grant-quartz-chronograph-watch-2",
     name: "Men's Grant Quartz Chronograph Watch (2)",
     brand: "fossil",
@@ -46352,9 +46349,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 3.9,
-    reviews: 61,
-    views: 3768,
+    rating: 4.8,
+    reviews: 108,
+    views: 7905,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -46366,11 +46364,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0122",
+    id: "PI-1330",
     slug: "fossil-men-s-minimalist-quartz-stainless-steel-three-hand-watch-2",
     name: "Men's Minimalist Quartz Stainless Steel Three-Hand Watch (2)",
     brand: "fossil",
@@ -46385,9 +46382,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.8,
-    reviews: 42,
-    views: 5925,
+    rating: 4,
+    reviews: 50,
+    views: 2485,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46399,11 +46397,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0123",
+    id: "PI-1331",
     slug: "fossil-men-s-dean-quartz-stainless-steel-chronograph-watch",
     name: "Men's Dean Quartz Stainless Steel Chronograph Watch",
     brand: "fossil",
@@ -46418,9 +46415,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.3,
-    reviews: 223,
-    views: 7898,
+    rating: 4.9,
+    reviews: 231,
+    views: 3270,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46432,11 +46430,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0124",
+    id: "PI-1332",
     slug: "fossil-men-s-minimalist-quartz-stainless-steel-three-hand-watch-3",
     name: "Men's Minimalist Quartz Stainless Steel Three-Hand Watch (3)",
     brand: "fossil",
@@ -46451,9 +46448,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 3.8,
-    reviews: 204,
-    views: 2713,
+    rating: 3.6,
+    reviews: 88,
+    views: 1179,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46465,11 +46463,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0125",
+    id: "PI-1333",
     slug: "fossil-men-s-carraway-quartz-stainless-steel-three-hand-watch",
     name: "Men's Carraway Quartz Stainless Steel Three-Hand Watch",
     brand: "fossil",
@@ -46484,9 +46481,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.7,
-    reviews: 185,
-    views: 6044,
+    rating: 4.5,
+    reviews: 69,
+    views: 6216,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46498,11 +46496,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0126",
+    id: "PI-1334",
     slug: "fossil-women-s-carlie-watch-and-bracelet-set",
     name: "Women's Carlie Watch and Bracelet Set",
     brand: "fossil",
@@ -46514,12 +46511,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "watches",
+      "jewelry",
       "watches"
     ],
-    rating: 4.2,
-    reviews: 166,
-    views: 3953,
+    rating: 4.8,
+    reviews: 174,
+    views: 2177,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46531,11 +46529,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0127",
+    id: "PI-1335",
     slug: "fossil-men-s-machine-quartz-stainless-steel-three-hand-watch",
     name: "Men's Machine Quartz Stainless Steel Three-Hand Watch",
     brand: "fossil",
@@ -46550,9 +46547,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 3.7,
-    reviews: 147,
-    views: 602,
+    rating: 4.3,
+    reviews: 155,
+    views: 7242,
+    newIn: true,
     offers: [
       {
         store: "amazon",
@@ -46564,11 +46562,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0128",
+    id: "PI-1336",
     slug: "fossil-men-s-grant-quartz-chronograph-watch-3",
     name: "Men's Grant Quartz Chronograph Watch (3)",
     brand: "fossil",
@@ -46583,9 +46580,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 707,
+    rating: 4.4,
+    reviews: 212,
+    views: 743,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46597,11 +46595,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0129",
+    id: "PI-1337",
     slug: "fossil-men-s-nate-quartz-chronograph-watch-2",
     name: "Men's Nate Quartz Chronograph Watch (2)",
     brand: "fossil",
@@ -46616,9 +46613,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 720,
+    rating: 3.9,
+    reviews: 193,
+    views: 4300,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46630,11 +46628,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0130",
+    id: "PI-1338",
     slug: "fossil-women-s-raquel-quartz-stainless-steel-watch-2",
     name: "Women's Raquel Quartz Stainless Steel Watch (2)",
     brand: "fossil",
@@ -46649,9 +46646,10 @@ export const generatedProducts: Product[] = [
       "watches",
       "watches"
     ],
-    rating: 4.5,
-    reviews: 71,
-    views: 4362,
+    rating: 4.2,
+    reviews: 98,
+    views: 3213,
+    newIn: false,
     offers: [
       {
         store: "amazon",
@@ -46663,11 +46661,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0131",
+    id: "PI-1339",
     slug: "gap-kids-kids-rib-t-shirt",
     name: "Kids Rib T-Shirt",
     brand: "gap-kids",
@@ -46679,12 +46676,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 3.6,
-    reviews: 90,
-    views: 3605,
+    rating: 3.7,
+    reviews: 79,
+    views: 4462,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46696,11 +46694,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0132",
+    id: "PI-1340",
     slug: "gap-kids-kids-rib-t-shirt-2",
     name: "Kids Rib T-Shirt (2)",
     brand: "gap-kids",
@@ -46712,12 +46709,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 4.1,
-    reviews: 109,
-    views: 168,
+    rating: 4.5,
+    reviews: 55,
+    views: 3018,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46729,11 +46727,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0133",
+    id: "PI-1341",
     slug: "gap-kids-kids-rib-t-shirt-3",
     name: "Kids Rib T-Shirt (3)",
     brand: "gap-kids",
@@ -46745,12 +46742,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 4.6,
-    reviews: 128,
-    views: 2357,
+    rating: 3.6,
+    reviews: 74,
+    views: 469,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46762,11 +46760,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0134",
+    id: "PI-1342",
     slug: "gap-kids-kids-rib-t-shirt-4",
     name: "Kids Rib T-Shirt (4)",
     brand: "gap-kids",
@@ -46778,12 +46775,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 3.9,
-    reviews: 195,
-    views: 6918,
+    rating: 4.1,
+    reviews: 93,
+    views: 4200,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46795,11 +46793,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0135",
+    id: "PI-1343",
     slug: "gap-kids-kids-rib-t-shirt-5",
     name: "Kids Rib T-Shirt (5)",
     brand: "gap-kids",
@@ -46811,12 +46808,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 4.4,
-    reviews: 214,
-    views: 7439,
+    rating: 4.6,
+    reviews: 112,
+    views: 2229,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46828,11 +46826,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0136",
+    id: "PI-1344",
     slug: "gap-kids-kids-square-neck-t-shirt",
     name: "Kids Square-Neck T-Shirt",
     brand: "gap-kids",
@@ -46844,12 +46841,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 4.9,
-    reviews: 233,
-    views: 580,
+    rating: 3.9,
+    reviews: 179,
+    views: 4010,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46861,11 +46859,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0137",
+    id: "PI-1345",
     slug: "gap-kids-kids-square-neck-t-shirt-2",
     name: "Kids Square-Neck T-Shirt (2)",
     brand: "gap-kids",
@@ -46877,12 +46874,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 4,
-    reviews: 52,
-    views: 1193,
+    rating: 4.4,
+    reviews: 198,
+    views: 6433,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46894,11 +46892,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0138",
+    id: "PI-1346",
     slug: "gap-kids-kids-square-neck-t-shirt-3",
     name: "Kids Square-Neck T-Shirt (3)",
     brand: "gap-kids",
@@ -46910,12 +46907,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 4.7,
-    reviews: 119,
-    views: 3618,
+    rating: 4.9,
+    reviews: 217,
+    views: 5444,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -46927,11 +46925,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0139",
+    id: "PI-1347",
     slug: "gap-kids-kids-square-neck-t-shirt-4",
     name: "Kids Square-Neck T-Shirt (4)",
     brand: "gap-kids",
@@ -46943,12 +46940,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-short-sleeved-tees",
+      "kids-clothing",
       "girls-short-sleeved-tees"
     ],
-    rating: 3.8,
-    reviews: 138,
-    views: 6403,
+    rating: 4,
+    reviews: 236,
+    views: 2537,
+    newIn: true,
     offers: [
       {
         store: "gap-kids-store",
@@ -46960,11 +46958,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0140",
+    id: "PI-1348",
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set",
     brand: "gap-kids",
@@ -46976,12 +46973,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "baby-sleepwear",
+      "baby-clothing",
       "baby-sleepwear"
     ],
-    rating: 4,
-    reviews: 66,
-    views: 4149,
+    rating: 4.7,
+    reviews: 103,
+    views: 6478,
+    newIn: true,
     offers: [
       {
         store: "gap-kids-store",
@@ -46993,11 +46991,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0141",
+    id: "PI-1349",
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-2",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (2)",
     brand: "gap-kids",
@@ -47009,12 +47006,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "baby-sleepwear",
+      "baby-clothing",
       "baby-sleepwear"
     ],
-    rating: 4.9,
-    reviews: 47,
-    views: 6086,
+    rating: 3.8,
+    reviews: 122,
+    views: 6573,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47026,11 +47024,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0142",
+    id: "PI-1350",
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-3",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (3)",
     brand: "gap-kids",
@@ -47042,12 +47039,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "baby-sleepwear",
+      "baby-clothing",
       "baby-sleepwear"
     ],
-    rating: 3.6,
-    reviews: 104,
-    views: 5147,
+    rating: 4.4,
+    reviews: 64,
+    views: 6373,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47059,11 +47057,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0143",
+    id: "PI-1351",
     slug: "gap-kids-kids-baby-organic-brushed-cotton-gingham-pj-set-4",
     name: "Kids & Baby Organic Brushed Cotton Gingham PJ Set (4)",
     brand: "gap-kids",
@@ -47075,12 +47072,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "baby-sleepwear",
+      "baby-clothing",
       "baby-sleepwear"
     ],
-    rating: 4.5,
-    reviews: 85,
-    views: 5384,
+    rating: 3.9,
+    reviews: 45,
+    views: 184,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47092,11 +47090,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0144",
+    id: "PI-1352",
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans",
     name: "Kids Low Rise Stride Wide-Leg Jeans",
     brand: "gap-kids",
@@ -47108,12 +47105,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-jeans",
+      "kids-clothing",
       "girls-jeans"
     ],
     rating: 4.8,
-    reviews: 190,
-    views: 7361,
+    reviews: 226,
+    views: 4261,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47125,11 +47123,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0145",
+    id: "PI-1353",
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-2",
     name: "Kids Low Rise Stride Wide-Leg Jeans (2)",
     brand: "gap-kids",
@@ -47141,12 +47138,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-jeans",
+      "kids-clothing",
       "girls-jeans"
     ],
     rating: 4.3,
-    reviews: 171,
-    views: 2662,
+    reviews: 207,
+    views: 1558,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47158,11 +47156,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0146",
+    id: "PI-1354",
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-3",
     name: "Kids Low Rise Stride Wide-Leg Jeans (3)",
     brand: "gap-kids",
@@ -47174,12 +47171,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-jeans",
+      "kids-clothing",
       "girls-jeans"
     ],
-    rating: 4.4,
-    reviews: 228,
-    views: 4839,
+    rating: 3.8,
+    reviews: 188,
+    views: 6681,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47191,11 +47189,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0147",
+    id: "PI-1355",
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-4",
     name: "Kids Low Rise Stride Wide-Leg Jeans (4)",
     brand: "gap-kids",
@@ -47207,12 +47204,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-jeans",
+      "kids-clothing",
       "girls-jeans"
     ],
-    rating: 3.9,
-    reviews: 209,
-    views: 6500,
+    rating: 4.7,
+    reviews: 169,
+    views: 4764,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47224,11 +47222,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0148",
+    id: "PI-1356",
     slug: "gap-kids-kids-low-rise-stride-wide-leg-jeans-5",
     name: "Kids Low Rise Stride Wide-Leg Jeans (5)",
     brand: "gap-kids",
@@ -47240,12 +47237,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-jeans",
+      "kids-clothing",
       "girls-jeans"
     ],
     rating: 4.2,
-    reviews: 114,
-    views: 7629,
+    reviews: 150,
+    views: 7679,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47257,11 +47255,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: false
+    ]
   },
   {
-    id: "PI-0149",
+    id: "PI-1357",
     slug: "gap-kids-kids-flare-leggings",
     name: "Kids Flare Leggings",
     brand: "gap-kids",
@@ -47273,12 +47270,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-active-bottoms",
+      "kids-clothing",
       "girls-active-bottoms"
     ],
     rating: 3.7,
-    reviews: 95,
-    views: 5294,
+    reviews: 131,
+    views: 7322,
+    newIn: true,
     offers: [
       {
         store: "gap-kids-store",
@@ -47290,11 +47288,10 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
-    ],
-    newIn: true
+    ]
   },
   {
-    id: "PI-0150",
+    id: "PI-1358",
     slug: "gap-kids-kids-flare-leggings-2",
     name: "Kids Flare Leggings (2)",
     brand: "gap-kids",
@@ -47306,12 +47303,13 @@ export const generatedProducts: Product[] = [
     colors: [],
     sizes: [],
     tags: [
-      "girls-active-bottoms",
+      "kids-clothing",
       "girls-active-bottoms"
     ],
-    rating: 4.1,
-    reviews: 57,
-    views: 7956,
+    rating: 4.6,
+    reviews: 112,
+    views: 1389,
+    newIn: false,
     offers: [
       {
         store: "gap-kids-store",
@@ -47323,7 +47321,39 @@ export const generatedProducts: Product[] = [
         shipping: "Standard shipping",
         updatedHoursAgo: 1
       }
+    ]
+  },
+  {
+    id: "PI-1359",
+    slug: "nike-air-jordan-13-retro-flint",
+    name: "Air Jordan 13 Retro \"Flint\"",
+    brand: "nike",
+    category: "mens-shoes",
+    subcategory: "shoes",
+    gender: "men",
+    description: "Nike Air Jordan 13 Retro \"Flint\" — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/05449c1d-db13-4641-99d6-84b05e422700/AIR+JORDAN+13+RETRO.png",
+    colors: [],
+    sizes: [],
+    tags: [
+      "mens-shoes",
+      "shoes"
     ],
-    newIn: true
+    rating: 4.1,
+    reviews: 93,
+    views: 1376,
+    newIn: false,
+    offers: [
+      {
+        store: "nike-store",
+        price: 17845,
+        originalPrice: 17845,
+        currency: "USD",
+        availability: "IN STOCK",
+        productUrl: "https://www.nike.com/t/air-jordan-13-retro-flint-mens-shoes-OpBQMdeV/IW3808-400",
+        shipping: "Standard shipping",
+        updatedHoursAgo: 1
+      }
+    ]
   }
 ];

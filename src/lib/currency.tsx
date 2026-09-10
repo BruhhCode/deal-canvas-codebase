@@ -26,6 +26,9 @@ const currencyByCode = new Map(currencies.map((c) => [c.code, c]));
 /** Non-hook USD conversion for use outside React (route `head()` loaders, JSON-LD, etc). */
 export const toUsd = (amount: number) => amount * BASE_TO_USD;
 
+/** Inverse of `toUsd` — converts a real USD amount back into the catalog's stored base unit. */
+export const fromUsd = (usd: number) => usd / BASE_TO_USD;
+
 /** Non-hook USD formatting for use outside React (route `head()` loaders, JSON-LD, etc). */
 export const formatUsd = (amount: number) =>
   new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(

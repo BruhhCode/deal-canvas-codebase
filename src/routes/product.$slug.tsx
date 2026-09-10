@@ -20,6 +20,7 @@ import {
   savingsVsHighest,
 } from "@/data/products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/product/$slug")({
   loader: ({ params }) => {
@@ -52,6 +53,7 @@ export const Route = createFileRoute("/product/$slug")({
 function ProductPage() {
   const { product } = Route.useLoaderData();
   const { format } = useCurrency();
+  useCatalogVersion();
   const best = bestOffer(product);
   const discount = productDiscount(product);
   const saving = savingsVsHighest(product);

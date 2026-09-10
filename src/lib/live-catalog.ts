@@ -57,6 +57,15 @@ const saleEventsById = new Map(saleEvents.map((e) => [e.id, e]));
 // product INSERT is applied.
 const pendingOffersBySlug = new Map<string, OfferRow[]>();
 
+// The reverse gap: a product row can also arrive before any of its offers
+// (they're written as a second, separate insert). Every existing consumer
+// of `products` (bestOffer, filterProducts, sortProducts, JSON-LD, etc.)
+// assumes every product has at least one offer — bestOffer's reduce throws
+// on an empty array — so a product must not be published into the shared
+// `products` array until it actually has one, or it can crash any page that
+// renders the live list. Held here until its first offer arrives.
+const pendingProductsBySlug = new Map<string, Product>();
+
 type OfferRow = {
   product_slug: string;
   store: string;
@@ -71,8 +80,18 @@ type OfferRow = {
   sponsored: boolean;
 };
 
+/** Moves a pending (offerless) product into the live `products` array once it has its first offer. */
+function publishPendingProduct(slug: string) {
+  const pending = pendingProductsBySlug.get(slug);
+  if (!pending || !pending.offers.length) return;
+  pendingProductsBySlug.delete(slug);
+  products.push(pending);
+  productsBySlug.set(pending.slug, pending);
+  productsById.set(pending.id, pending);
+}
+
 function applyOfferRow(row: OfferRow, deleted: boolean) {
-  const product = productsBySlug.get(row.product_slug);
+  const product = productsBySlug.get(row.product_slug) ?? pendingProductsBySlug.get(row.product_slug);
   if (!product) {
     if (!deleted) {
       const pending = pendingOffersBySlug.get(row.product_slug) ?? [];
@@ -104,6 +123,8 @@ function applyOfferRow(row: OfferRow, deleted: boolean) {
 
   if (idx === -1) product.offers.push(mapped);
   else product.offers[idx] = mapped;
+
+  publishPendingProduct(row.product_slug);
 }
 
 type ProductRow = {
@@ -139,6 +160,7 @@ function applyProductRow(row: ProductRow, deleted: boolean) {
       productsBySlug.delete(row.slug);
       productsById.delete(existing.id);
     }
+    pendingProductsBySlug.delete(row.slug);
     return;
   }
 
@@ -151,7 +173,9 @@ function applyProductRow(row: ProductRow, deleted: boolean) {
     name: row.name,
   });
 
-  const existing = productsBySlug.get(row.slug);
+  // Covers both an already-published product and one still waiting on its
+  // first offer — either way this is a field update, not a brand-new row.
+  const existing = productsBySlug.get(row.slug) ?? pendingProductsBySlug.get(row.slug);
   if (existing) {
     Object.assign(existing, {
       name: row.name,
@@ -197,9 +221,10 @@ function applyProductRow(row: ProductRow, deleted: boolean) {
     offers: [],
   };
 
-  products.push(mapped);
-  productsBySlug.set(mapped.slug, mapped);
-  productsById.set(mapped.id, mapped);
+  // Held back from the shared `products` array (see pendingProductsBySlug
+  // above) until it has at least one offer, whether that's already buffered
+  // here from an offer that arrived first, or still to come.
+  pendingProductsBySlug.set(mapped.slug, mapped);
 
   const pending = pendingOffersBySlug.get(row.slug);
   if (pending) {

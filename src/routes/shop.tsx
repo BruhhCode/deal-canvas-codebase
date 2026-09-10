@@ -22,6 +22,7 @@ import {
 import { cn } from "@/lib/utils";
 import { useCurrency } from "@/lib/currency";
 import { seededShuffle } from "@/lib/seeded-shuffle";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/shop")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -75,6 +76,11 @@ function ShopView() {
   const { format } = useCurrency();
   const { q, category, department, view, store } = Route.useSearch();
   const { seed } = Route.useLoaderData();
+  // Re-run the product search/filter whenever the live catalog changes (a
+  // new product created in the admin panel, or one removed) — otherwise a
+  // brand-new product never enters this memoized result set even though
+  // it's already in the underlying `products` array.
+  const catalogVersion = useCatalogVersion();
   const [filters, setFilters] = useState<ProductFilters>(() => ({
     ...(category ? { category } : {}),
     ...(department ? { department } : {}),
@@ -105,7 +111,7 @@ function ShopView() {
     const ranked = sortProducts(matched, "recommended");
     const poolSize = Math.min(ranked.length, 300);
     return [...seededShuffle(ranked.slice(0, poolSize), seed), ...ranked.slice(poolSize)];
-  }, [q, JSON.stringify(active), sort, seed]);
+  }, [q, JSON.stringify(active), sort, seed, catalogVersion]);
 
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);

@@ -233,6 +233,28 @@ function applyProductRow(row: ProductRow, deleted: boolean) {
   }
 }
 
+/**
+ * Fallback for the product detail route: its loader runs before the
+ * `initLiveCatalog()` client-side hydration has a chance to complete (it's
+ * synchronous SSR on a cold load), so a product that only exists in
+ * Supabase — not yet in the bundled static data — would 404 even though
+ * `hydrateFromSupabase` would eventually have found it. Fetches and applies
+ * just that one product + its offers directly, server or client side.
+ * Returns true if the product now exists in the live catalog.
+ */
+export async function fetchAndApplyProduct(slug: string): Promise<boolean> {
+  if (!supabase) return false;
+
+  const { data: productRow } = await supabase.from("products").select("*").eq("slug", slug).maybeSingle();
+  if (!productRow) return false;
+  applyProductRow(productRow as ProductRow, false);
+
+  const { data: offerRows } = await supabase.from("offers").select("*").eq("product_slug", slug);
+  for (const row of offerRows ?? []) applyOfferRow(row as OfferRow, false);
+
+  return productsBySlug.has(slug);
+}
+
 type DealRow = {
   id: string;
   slug: string;
@@ -351,10 +373,59 @@ function applySaleEventRow(row: SaleEventRow, deleted: boolean) {
 
 let started = false;
 
+/**
+ * Realtime only delivers events that happen *while a client is subscribed* —
+ * it never backfills changes made earlier (e.g. a product added in the admin
+ * panel while no one had the site open in a browser tab). Without this, such
+ * a product would never appear until the static data file was regenerated at
+ * the next build. So on every client mount we pull the current DB state once
+ * and apply it the same way a realtime INSERT/UPDATE would, before/alongside
+ * subscribing — this self-heals any drift, not just literal misses.
+ */
+// PostgREST caps an unbounded `select("*")` at its configured max-rows (1000
+// on this project) — with 1000+ products, a plain select silently drops
+// everything past the cap instead of erroring, so every table must be paged.
+const PAGE_SIZE = 1000;
+
+async function fetchAllRows<T>(table: string): Promise<T[]> {
+  if (!supabase) return [];
+  const rows: T[] = [];
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await supabase
+      .from(table)
+      .select("*")
+      .range(from, from + PAGE_SIZE - 1);
+    if (error || !data) break;
+    rows.push(...(data as T[]));
+    if (data.length < PAGE_SIZE) break;
+  }
+  return rows;
+}
+
+async function hydrateFromSupabase() {
+  if (!supabase) return;
+
+  const prods = await fetchAllRows<ProductRow>("products");
+  for (const row of prods) applyProductRow(row, false);
+
+  const offs = await fetchAllRows<OfferRow>("offers");
+  for (const row of offs) applyOfferRow(row, false);
+
+  const dealRows = await fetchAllRows<DealRow>("deals");
+  for (const row of dealRows) applyDealRow(row, false);
+
+  const eventRows = await fetchAllRows<SaleEventRow>("sale_events");
+  for (const row of eventRows) applySaleEventRow(row, false);
+
+  bump();
+}
+
 /** Client-only; safe to call multiple times (e.g. on re-mount in dev) — it only wires up once. */
 export function initLiveCatalog() {
   if (started || typeof window === "undefined" || !supabase) return;
   started = true;
+
+  void hydrateFromSupabase();
 
   supabase
     .channel("products-live")

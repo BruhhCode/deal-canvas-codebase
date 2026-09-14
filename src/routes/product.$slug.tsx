@@ -20,11 +20,18 @@ import {
   savingsVsHighest,
 } from "@/data/products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
-import { useCatalogVersion } from "@/lib/live-catalog";
+import { fetchAndApplyProduct, useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/product/$slug")({
-  loader: ({ params }) => {
-    const product = getProduct(params.slug);
+  loader: async ({ params }) => {
+    let product = getProduct(params.slug);
+    // Not in the bundled static data — it may still be a product added to
+    // Supabase after this build, waiting on client-side realtime hydration
+    // that hasn't run yet. Try a direct fetch before giving up.
+    if (!product) {
+      await fetchAndApplyProduct(params.slug);
+      product = getProduct(params.slug);
+    }
     if (!product) throw notFound();
     return { product };
   },

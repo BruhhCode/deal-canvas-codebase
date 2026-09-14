@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { StoreMark } from "@/components/StoreMark";
 import { stores } from "@/data/stores";
 import { productsByStore } from "@/data/products";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/stores")({
   head: () => ({
@@ -24,6 +25,7 @@ export const Route = createFileRoute("/stores")({
 });
 
 function StoresPage() {
+  useCatalogVersion();
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 md:px-6 md:py-10">
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Stores" }]} />

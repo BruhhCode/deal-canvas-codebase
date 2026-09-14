@@ -9,6 +9,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { StoreMark } from "@/components/StoreMark";
 import { storeName } from "@/data/stores";
 import { newArrivals, productDiscount, productsByBrand } from "@/data/products";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/brand/$slug")({
   loader: ({ params }) => {
@@ -50,6 +51,7 @@ export const Route = createFileRoute("/brand/$slug")({
 });
 
 function BrandPage() {
+  useCatalogVersion();
   const { brand } = Route.useLoaderData();
   const all = dealsByBrand(brand.slug);
   const active = all.filter((d) => d.status === "ACTIVE");

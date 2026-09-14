@@ -12,6 +12,7 @@ import {
   productsByStore,
   saleEvents,
 } from "@/data/products";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/store/$slug")({
   loader: ({ params }) => {
@@ -41,6 +42,7 @@ export const Route = createFileRoute("/store/$slug")({
 });
 
 function StorePage() {
+  useCatalogVersion();
   const { store } = Route.useLoaderData();
   const all = productsByStore(store.slug);
   const popular = all.slice().sort((a, b) => b.views - a.views).slice(0, 8);

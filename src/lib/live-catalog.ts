@@ -1,19 +1,18 @@
 /**
- * Wires the static catalog (src/data/products.ts, catalog.ts, stores.ts) to Supabase Realtime.
+ * Wires the static catalog (src/data/products.ts, catalog.ts) to Supabase Realtime.
  *
- * The catalog's `products`, `deals`, `saleEvents`, `brands` and `stores` arrays
- * already live in module scope as plain, shared object references — every
- * component reads the same array and the same product/deal/event/brand/store
- * objects. So instead of replacing that data layer, this module subscribes to
- * Postgres changes on `products`, `offers`, `deals`, `sale_events`, `brands`
- * and `stores` and mutates the matching object *in place* when a row changes
- * (e.g. the admin dashboard adds a product or edits a price). Components that
- * display live data call `useCatalogVersion()`, which forces a re-render
- * whenever a mutation happens — so they always read the freshly-mutated
- * fields on their next render.
+ * The catalog's `products`, `deals` and `saleEvents` arrays already live in module
+ * scope as plain, shared object references — every component reads the same array
+ * and the same product/deal/event objects. So instead of replacing that data layer,
+ * this module subscribes to Postgres changes on `products`, `offers`, `deals` and
+ * `sale_events` and mutates the matching object *in place* when a row changes (e.g.
+ * the admin dashboard adds a product or edits a price). Components that display
+ * live data call `useCatalogVersion()`, which forces a re-render whenever a
+ * mutation happens — so they always read the freshly-mutated fields on their next
+ * render.
  *
- * Requires all six tables to be added to the `supabase_realtime` publication
- * in Postgres — see scripts in the admin panel's
+ * Requires `products` (alongside `offers`/`deals`/`sale_events`) to be added to the
+ * `supabase_realtime` publication in Postgres — see scripts in the admin panel's
  * src/scripts/enable-products-realtime.sql.
  */
 import { useSyncExternalStore } from "react";
@@ -21,10 +20,9 @@ import { supabase } from "./supabase";
 import { canonicalCategory, type Gender } from "./categorize";
 import { products } from "@/data/products";
 import type { Offer, Product } from "@/data/products";
-import { brands, deals, type Brand, type Deal } from "@/data/catalog";
+import { deals, type Deal } from "@/data/catalog";
 import { saleEvents } from "@/data/products";
 import type { SaleEvent } from "@/data/products";
-import { stores, type Store } from "@/data/stores";
 
 let version = 0;
 const listeners = new Set<() => void>();
@@ -52,8 +50,6 @@ const productsBySlug = new Map(products.map((p) => [p.slug, p]));
 const productsById = new Map(products.map((p) => [p.id, p]));
 const dealsById = new Map(deals.map((d) => [d.id, d]));
 const saleEventsById = new Map(saleEvents.map((e) => [e.id, e]));
-const brandsBySlug = new Map(brands.map((b) => [b.slug, b]));
-const storesBySlug = new Map(stores.map((s) => [s.slug, s]));
 
 // Offers can arrive over Realtime before the product row that owns them
 // (no ordering guarantee across two channels/rows in the same WAL batch).
@@ -375,90 +371,6 @@ function applySaleEventRow(row: SaleEventRow, deleted: boolean) {
   }
 }
 
-type BrandRow = {
-  slug: string;
-  name: string;
-  description: string;
-  category: string;
-  network: Brand["network"];
-  featured: boolean;
-};
-
-function applyBrandRow(row: BrandRow, deleted: boolean) {
-  const existing = brandsBySlug.get(row.slug);
-  if (deleted) {
-    if (existing) {
-      const idx = brands.indexOf(existing);
-      if (idx !== -1) brands.splice(idx, 1);
-      brandsBySlug.delete(row.slug);
-    }
-    return;
-  }
-
-  const mapped: Brand = {
-    slug: row.slug,
-    name: row.name,
-    description: row.description,
-    category: row.category,
-    network: row.network,
-    featured: row.featured,
-  };
-
-  if (existing) Object.assign(existing, mapped);
-  else {
-    brands.push(mapped);
-    brandsBySlug.set(row.slug, mapped);
-  }
-}
-
-type StoreRow = {
-  slug: string;
-  name: string;
-  description: string;
-  network: Store["network"];
-  domain: string;
-  campaign: string;
-  store_id: string;
-  sub_id: string;
-  ships_to: string;
-  store_wide_offer: string | null;
-  featured: boolean;
-  sponsored: boolean;
-};
-
-function applyStoreRow(row: StoreRow, deleted: boolean) {
-  const existing = storesBySlug.get(row.slug);
-  if (deleted) {
-    if (existing) {
-      const idx = stores.indexOf(existing);
-      if (idx !== -1) stores.splice(idx, 1);
-      storesBySlug.delete(row.slug);
-    }
-    return;
-  }
-
-  const mapped: Store = {
-    slug: row.slug,
-    name: row.name,
-    description: row.description,
-    network: row.network,
-    domain: row.domain,
-    campaign: row.campaign,
-    storeId: row.store_id,
-    subId: row.sub_id,
-    shipsTo: row.ships_to,
-    ...(row.store_wide_offer ? { storeWideOffer: row.store_wide_offer } : {}),
-    featured: row.featured,
-    sponsored: row.sponsored,
-  };
-
-  if (existing) Object.assign(existing, mapped);
-  else {
-    stores.push(mapped);
-    storesBySlug.set(row.slug, mapped);
-  }
-}
-
 let started = false;
 
 /**
@@ -493,12 +405,6 @@ async function fetchAllRows<T>(table: string): Promise<T[]> {
 async function hydrateFromSupabase() {
   if (!supabase) return;
 
-  const brandRows = await fetchAllRows<BrandRow>("brands");
-  for (const row of brandRows) applyBrandRow(row, false);
-
-  const storeRows = await fetchAllRows<StoreRow>("stores");
-  for (const row of storeRows) applyStoreRow(row, false);
-
   const prods = await fetchAllRows<ProductRow>("products");
   for (const row of prods) applyProductRow(row, false);
 
@@ -520,34 +426,6 @@ export function initLiveCatalog() {
   started = true;
 
   void hydrateFromSupabase();
-
-  supabase
-    .channel("brands-live")
-    .on(
-      "postgres_changes",
-      { event: "*", schema: "public", table: "brands" },
-      (payload) => {
-        const deleted = payload.eventType === "DELETE";
-        const row = (deleted ? payload.old : payload.new) as BrandRow;
-        applyBrandRow(row, deleted);
-        bump();
-      },
-    )
-    .subscribe();
-
-  supabase
-    .channel("stores-live")
-    .on(
-      "postgres_changes",
-      { event: "*", schema: "public", table: "stores" },
-      (payload) => {
-        const deleted = payload.eventType === "DELETE";
-        const row = (deleted ? payload.old : payload.new) as StoreRow;
-        applyStoreRow(row, deleted);
-        bump();
-      },
-    )
-    .subscribe();
 
   supabase
     .channel("products-live")

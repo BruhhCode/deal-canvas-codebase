@@ -12,10 +12,4 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // Hard-pin the deploy target to Vercel. Nitro is supposed to auto-detect this from
-  // Vercel's own build environment, but the site was deploying "successfully" and then
-  // crashing at runtime ("try again") on Vercel, which looks like a Cloudflare-shaped
-  // output (wrangler.json, Workers runtime assumptions) being served by Vercel's
-  // Node/Edge function runtime instead. Pinning removes the auto-detection as a variable.
-  nitro: { preset: "vercel" },
 });

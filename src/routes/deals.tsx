@@ -67,7 +67,7 @@ function DealsPage() {
   const [includeExpired, setIncludeExpired] = useState(false);
   const [sort, setSort] = useState<(typeof sorts)[number]>("Trending");
 
-  const dealTypes = useMemo(() => Array.from(new Set(deals.map((d) => d.dealType))), []);
+  const dealTypes = useMemo(() => Array.from(new Set(deals.map((d) => d.dealType))), [version]);
 
   const results = useMemo(() => {
     const filtered = deals.filter(

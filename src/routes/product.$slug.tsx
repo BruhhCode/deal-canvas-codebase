@@ -58,9 +58,13 @@ export const Route = createFileRoute("/product/$slug")({
 });
 
 function ProductPage() {
-  const { product } = Route.useLoaderData();
+  const { product: loaderProduct } = Route.useLoaderData();
   const { format } = useCurrency();
   useCatalogVersion();
+  // Loader data is a point-in-time snapshot (serialized across the SSR/client
+  // boundary, not a live object reference) — re-resolve from the live
+  // `products` array on every render so realtime edits actually show up here.
+  const product = getProduct(loaderProduct.slug) ?? loaderProduct;
   const best = bestOffer(product);
   const discount = productDiscount(product);
   const saving = savingsVsHighest(product);

@@ -25,7 +25,7 @@ export const Route = createFileRoute("/brands")({
 });
 
 function BrandsPage() {
-  const version = useCatalogVersion();
+  useCatalogVersion();
   const [q, setQ] = useState("");
 
   const grouped = useMemo(() => {
@@ -38,8 +38,7 @@ function BrandsPage() {
       map.set(letter, [...(map.get(letter) ?? []), b]);
     }
     return Array.from(map.entries());
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- `version` bumps on every live catalog mutation; brands is a mutated-in-place array so referencing it alone wouldn't retrigger this memo.
-  }, [q, version]);
+  }, [q]);
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">

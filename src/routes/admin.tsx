@@ -39,11 +39,11 @@ function AdminPage() {
   const [tab, setTab] = useState<(typeof tabs)[number]>("Products");
   const [q, setQ] = useState("");
   const { format } = useCurrency();
-  const version = useCatalogVersion();
+  useCatalogVersion();
 
   const rows = useMemo(
     () => deals.filter((d) => (d.title + brandName(d.brand)).toLowerCase().includes(q.toLowerCase())),
-    [q, version],
+    [q],
   );
 
   const totalClicks = deals.reduce((s, d) => s + d.clicks, 0);

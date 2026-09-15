@@ -79,12 +79,9 @@ export const Route = createFileRoute("/deal/$slug")({
 });
 
 function DealPage() {
-  const { deal: loaderDeal } = Route.useLoaderData();
+  const { deal } = Route.useLoaderData();
   const { format } = useCurrency();
   useCatalogVersion();
-  // See product.$slug.tsx: loader data is a point-in-time snapshot, not a
-  // live object reference — re-resolve so realtime edits show up here.
-  const deal = getDeal(loaderDeal.slug) ?? loaderDeal;
   const expired = deal.status === "EXPIRED";
   const sameBrand = deals.filter((d) => d.brand === deal.brand && d.id !== deal.id && d.status === "ACTIVE");
   const similar = deals

@@ -4,6 +4,7 @@ import { Search } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BrandMark } from "@/components/BrandMark";
 import { brands } from "@/data/catalog";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/brands")({
   head: () => ({
@@ -24,6 +25,7 @@ export const Route = createFileRoute("/brands")({
 });
 
 function BrandsPage() {
+  useCatalogVersion();
   const [q, setQ] = useState("");
 
   const grouped = useMemo(() => {

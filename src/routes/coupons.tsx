@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CouponCard } from "@/components/CouponCard";
 import { Newsletter } from "@/components/Newsletter";
 import { coupons } from "@/data/catalog";
+import { useCatalogVersion } from "@/lib/live-catalog";
 
 export const Route = createFileRoute("/coupons")({
   head: () => ({
@@ -50,6 +51,7 @@ export const Route = createFileRoute("/coupons")({
 });
 
 function CouponsPage() {
+  useCatalogVersion();
   return (
     <>
       <div className="mx-auto max-w-7xl px-6 py-10">

@@ -52,7 +52,10 @@ export const Route = createFileRoute("/brand/$slug")({
 
 function BrandPage() {
   useCatalogVersion();
-  const { brand } = Route.useLoaderData();
+  const { brand: loaderBrand } = Route.useLoaderData();
+  // See product.$slug.tsx: loader data is a point-in-time snapshot, not a
+  // live object reference — re-resolve so realtime edits show up here.
+  const brand = getBrand(loaderBrand.slug) ?? loaderBrand;
   const all = dealsByBrand(brand.slug);
   const active = all.filter((d) => d.status === "ACTIVE");
   const expired = all.filter((d) => d.status === "EXPIRED");

@@ -43,7 +43,10 @@ export const Route = createFileRoute("/store/$slug")({
 
 function StorePage() {
   useCatalogVersion();
-  const { store } = Route.useLoaderData();
+  const { store: loaderStore } = Route.useLoaderData();
+  // See product.$slug.tsx: loader data is a point-in-time snapshot, not a
+  // live object reference — re-resolve so realtime edits show up here.
+  const store = getStore(loaderStore.slug) ?? loaderStore;
   const all = productsByStore(store.slug);
   const popular = all.slice().sort((a, b) => b.views - a.views).slice(0, 8);
   const sale = all.filter((p) => productDiscount(p) >= 25).slice(0, 8);

@@ -6,6 +6,7 @@ import { ProductGallery } from "@/components/ProductGallery";
 import { PriceCompare } from "@/components/PriceCompare";
 import { PriceAlert } from "@/components/PriceAlert";
 import { ProductCard } from "@/components/ProductCard";
+import { ProductReviews } from "@/components/ProductReviews";
 import { SectionHeading } from "@/components/SectionHeading";
 import { WishlistButton } from "@/components/WishlistButton";
 import { brandName } from "@/data/catalog";
@@ -148,14 +149,16 @@ function ProductPage() {
             </p>
           ) : null}
 
-          <p className="mt-6 max-w-prose text-sm text-muted-foreground">{product.description}</p>
+          {/* whitespace-pre-line preserves the blank lines/line breaks admins type in the
+              description field — a plain string collapses them to a single space in HTML. */}
+          <p className="mt-6 max-w-prose whitespace-pre-line text-sm text-muted-foreground">
+            {product.description}
+          </p>
 
           <dl className="mt-6 grid grid-cols-2 gap-4 border-t pt-6 text-sm">
             <div>
               <dt className="editorial-eyebrow">Category</dt>
-              <dd className="mt-1">
-                {categoryName(product.category)} · {product.subcategory}
-              </dd>
+              <dd className="mt-1">{categoryName(product.category)}</dd>
             </div>
             <div>
               <dt className="editorial-eyebrow">Gender</dt>
@@ -213,6 +216,8 @@ function ProductPage() {
           </div>
         </section>
       ) : null}
+
+      <ProductReviews productSlug={product.slug} />
     </div>
   );
 }

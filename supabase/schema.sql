@@ -161,6 +161,21 @@ create table coupons (
 );
 
 -- ---------------------------------------------------------------------------
+-- reviews (shopper-submitted ratings/reviews, written directly from the
+-- product page — no admin gate, this is the one table the public site
+-- itself writes to)
+-- ---------------------------------------------------------------------------
+create table if not exists reviews (
+  id uuid primary key default gen_random_uuid(),
+  product_slug text not null references products(slug) on delete cascade,
+  author text not null default 'Anonymous',
+  rating integer not null check (rating between 1 and 5),
+  comment text not null default '',
+  created_at timestamptz not null default now()
+);
+create index if not exists reviews_product_slug_idx on reviews(product_slug);
+
+-- ---------------------------------------------------------------------------
 -- Row Level Security
 --
 -- Public (anon key) can read everything, and — for now, since the admin
@@ -176,12 +191,13 @@ alter table offers enable row level security;
 alter table deals enable row level security;
 alter table sale_events enable row level security;
 alter table coupons enable row level security;
+alter table reviews enable row level security;
 
 do $$
 declare
   t text;
 begin
-  for t in select unnest(array['brands','stores','products','offers','deals','sale_events','coupons'])
+  for t in select unnest(array['brands','stores','products','offers','deals','sale_events','coupons','reviews'])
   loop
     execute format('drop policy if exists "public read" on %I', t);
     execute format('create policy "public read" on %I for select using (true)', t);
@@ -197,6 +213,12 @@ create policy "public write" on deals for all using (true) with check (true);
 
 drop policy if exists "public write" on sale_events;
 create policy "public write" on sale_events for all using (true) with check (true);
+
+-- Reviews: any shopper can post one; nobody (not even the anon key) can edit
+-- or delete someone else's — there's no "public write" policy here, only
+-- "public read" (from the loop above) + this insert-only policy.
+drop policy if exists "public insert" on reviews;
+create policy "public insert" on reviews for insert with check (true);
 
 -- ---------------------------------------------------------------------------
 -- Realtime — broadcast row changes on the tables the admin edits.

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, User, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
@@ -18,11 +18,23 @@ const nav: NavItem[] = [
 ];
 
 const deptOrder = ["men", "women", "kids", "lifestyle"] as const;
-const departmentNav = deptOrder
-  .map((slug) => departments.find((d) => d.slug === slug))
-  .filter((d): d is (typeof departments)[number] => Boolean(d));
 
 export function Header() {
+  // Computed inside the component (not at module scope) so it never depends on
+  // this module's import of `departments` having finished initializing before
+  // this file's own top-level code runs — a real production crash on Vercel's
+  // build ("Cannot read properties of undefined (reading 'find')") turned out
+  // to be exactly this: a different chunk-splitting order than other presets
+  // used, evaluating this module before `@/data/products` had assigned
+  // `departments` yet.
+  const departmentNav = useMemo(
+    () =>
+      deptOrder
+        .map((slug) => departments.find((d) => d.slug === slug))
+        .filter((d): d is (typeof departments)[number] => Boolean(d)),
+    [],
+  );
+
   const [open, setOpen] = useState(false);
   const [catMenuOpen, setCatMenuOpen] = useState(false);
   const [hoveredDept, setHoveredDept] = useState<string>(departmentNav[0]?.slug ?? "");

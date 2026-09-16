@@ -27,7 +27,12 @@ export function ProductGallery({
   }
 
   return (
-    <div className="flex gap-3">
+    // items-start: without it, flex's default "stretch" cross-axis alignment forces the
+    // main image's container to match the thumbnail column's height whenever there are
+    // enough thumbnails to be taller than the (fixed, square) main image — leaving empty
+    // space below the actual photo. Products with 5+ images (the thumbnail rail
+    // outgrowing a square hero image) reproduced this; fewer images never did.
+    <div className="flex items-start gap-3">
       {images.length > 1 ? (
         <div className="hidden w-16 shrink-0 flex-col gap-3 overflow-y-auto sm:flex md:w-20">
           {images.map((src, i) => (

@@ -46,6 +46,15 @@ const rewrites: { name: string; pattern: RegExp; replace: (match: string) => str
     pattern: /\?\$pdpflexf2\$/g,
     replace: () => "?wid=1200&hei=1200",
   },
+  // nike: t_default preset -> t_web_pdp_535_v2/f_auto, Nike's actual PDP-quality
+  // preset (400x400 16-bit PNG -> 1070x1070 JPEG, ~2.7x the pixels). Scoped to
+  // static.nike.com/a/images/t_default/u_ so it can't match any other CDN's
+  // "t_default" token by coincidence.
+  {
+    name: "nike",
+    pattern: /(static\.nike\.com\/a\/images\/)t_default\/u_/g,
+    replace: (m) => m.replace("t_default/u_", "t_web_pdp_535_v2/f_auto,u_"),
+  },
 ];
 
 let src = readFileSync(FILE, "utf8");

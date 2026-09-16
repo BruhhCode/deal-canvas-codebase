@@ -16006,7 +16006,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Men's Shoes",
     gender: "men",
     description: "Nike Nike Air Force 1 '07 — men's shoes tracked across 5 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a42a5d53-2f99-4e78-a081-9d07a2d0774a/AIR+FORCE+1+%2707.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a42a5d53-2f99-4e78-a081-9d07a2d0774a/AIR+FORCE+1+%2707.png",
     colors: [],
     sizes: [],
     tags: [
@@ -16079,7 +16079,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "unisex",
     description: "Nike Nike Zoom Vomero 5 — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/525c15c8-ff31-4a90-b77f-259e4fecbc96/W+NIKE+ZOOM+VOMERO+5.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/525c15c8-ff31-4a90-b77f-259e4fecbc96/W+NIKE+ZOOM+VOMERO+5.png",
     colors: [],
     sizes: [],
     tags: [
@@ -16112,7 +16112,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Men's Shoes",
     gender: "unisex",
     description: "Jordan Air Jordan 3 Retro \"True Blue\" — men's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88e1020e-4f52-4000-b44c-b421c73b9db1/AIR+JORDAN+3+RETRO+OG.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/88e1020e-4f52-4000-b44c-b421c73b9db1/AIR+JORDAN+3+RETRO+OG.png",
     colors: [
       "Blue"
     ],
@@ -16147,7 +16147,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Men's Shoes",
     gender: "unisex",
     description: "Jordan Air Jordan 3 \"World's Best\" — men's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png",
     colors: [],
     sizes: [],
     tags: [
@@ -16180,7 +16180,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "men",
     description: "Nike Nike P-6000 — shoes tracked across 9 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/mcdrf7uxgwnem8l0sv0q/NIKE+P-6000.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/mcdrf7uxgwnem8l0sv0q/NIKE+P-6000.png",
     colors: [],
     sizes: [],
     tags: [
@@ -16328,7 +16328,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Men's Shoes",
     gender: "unisex",
     description: "Nike Nike P-6000 Fade — men's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8710354e-ed8a-4a8e-bddb-6bff5caca2cc/NIKE+P-6000.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8710354e-ed8a-4a8e-bddb-6bff5caca2cc/NIKE+P-6000.png",
     colors: [],
     sizes: [],
     tags: [
@@ -16361,7 +16361,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "men",
     description: "Nike Nike P-6000 SE — shoes tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/47690382-3d0c-4aa4-b968-a4876e5bcf4c/NIKE+P-6000+SE+LOS.png",
+    image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/47690382-3d0c-4aa4-b968-a4876e5bcf4c/NIKE+P-6000+SE+LOS.png",
     colors: [],
     sizes: [],
     tags: [

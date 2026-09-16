@@ -13,7 +13,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Originals",
     gender: "unisex",
     description: "Adidas Samba OG Shoes — originals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/9b983d5bc09a4d4aba39a8bf011869ba_9366/samba-og-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/9b983d5bc09a4d4aba39a8bf011869ba_9366/samba-og-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15530,7 +15530,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Originals",
     gender: "unisex",
     description: "Adidas PW Adistar Jellyfish Shoes — originals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/c4df1fb7186e4db28f5d9365718a279a_9366/pw-adistar-jellyfish-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/c4df1fb7186e4db28f5d9365718a279a_9366/pw-adistar-jellyfish-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15563,7 +15563,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Originals",
     gender: "women",
     description: "Adidas Billie Jean King Shoes — women's originals tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/1c1f8a4028f0466f87649043315f6d77_9366/billie-jean-king-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/1c1f8a4028f0466f87649043315f6d77_9366/billie-jean-king-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15606,7 +15606,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Originals",
     gender: "women",
     description: "Adidas Samba Og Shoes — women's originals tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/f88fdc6701a845be8fa1b2d0656b4ab0_9366/samba-og-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/f88fdc6701a845be8fa1b2d0656b4ab0_9366/samba-og-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15649,7 +15649,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Originals",
     gender: "women",
     description: "Adidas Samba Jane Shoes — women's originals tracked across 4 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/c793cdb6d1ea4273a49a738732e9eb29_9366/samba-jane-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/c793cdb6d1ea4273a49a738732e9eb29_9366/samba-jane-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15712,7 +15712,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Originals",
     gender: "unisex",
     description: "Adidas Handball Spezial Shoes — originals tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/349ec8b3dbb84fc382bdd9bea4c316a3_9366/handball-spezial-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/349ec8b3dbb84fc382bdd9bea4c316a3_9366/handball-spezial-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15755,7 +15755,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Originals",
     gender: "women",
     description: "Adidas Campus 00s Shoes — women's originals tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/b3eb4e526c3b4f268c53af7b0092b158_9366/campus-00s-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/b3eb4e526c3b4f268c53af7b0092b158_9366/campus-00s-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15798,7 +15798,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sportswear",
     gender: "unisex",
     description: "Adidas Climacool Shoes — sportswear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/e72ff7f8350b46c184db325a2f8ec7a6_9366/climacool-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/e72ff7f8350b46c184db325a2f8ec7a6_9366/climacool-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15831,7 +15831,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sportswear",
     gender: "unisex",
     description: "Adidas Climacool Laced Shoes — sportswear tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/8d638c67bd9f42dc8ae70bf6bedad1b7_9366/climacool-laced-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/8d638c67bd9f42dc8ae70bf6bedad1b7_9366/climacool-laced-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15857,14 +15857,14 @@ export const generatedProducts: Product[] = [
   },
   {
     id: "PI-0417",
-    slug: "adidas-samba-og-shoes",
+    slug: "adidas-samba-og-shoes-3",
     name: "Samba OG Shoes",
     brand: "adidas",
     category: "shoes",
     subcategory: "Originals",
     gender: "unisex",
     description: "Adidas Samba OG Shoes — originals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/9b983d5bc09a4d4aba39a8bf011869ba_9366/samba-og-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/9b983d5bc09a4d4aba39a8bf011869ba_9366/samba-og-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15897,7 +15897,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Youth Originals",
     gender: "unisex",
     description: "Adidas Samba OG Shoes Kids — youth originals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/9fb258a11a25407ab06b52eed1cca37b_9366/samba-og-shoes-kids.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/9fb258a11a25407ab06b52eed1cca37b_9366/samba-og-shoes-kids.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15930,7 +15930,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Originals",
     gender: "unisex",
     description: "Adidas Hyperboost Ephr Shoes — originals tracked across 2 stores. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/a27dcb4f37c7430288b48a84cd5d99a8_9366/hyperboost-ephr-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/a27dcb4f37c7430288b48a84cd5d99a8_9366/hyperboost-ephr-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -15973,7 +15973,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Originals",
     gender: "unisex",
     description: "Adidas Hyperboost Ephr Lt Shoes — originals tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/ab37c6e90db747f6b3f5947002e8b109_9366/hyperboost-ephr-lt-shoes.jpg",
+    image: "https://assets.adidas.com/images/w_1200,h_1200,f_auto,q_auto:sensitive/ab37c6e90db747f6b3f5947002e8b109_9366/hyperboost-ephr-lt-shoes.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19707,7 +19707,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Dangle Earrings",
     gender: "women",
     description: "SHEIN NAIZHU 1pair Flower Earrings, Fashion Party Accessories — women dangle earrings tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/images3_spmp/2024/03/19/a9/1710833238f93cea562cd38ccb1918c7392dc296d2_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/images3_spmp/2024/03/19/a9/1710833238f93cea562cd38ccb1918c7392dc296d2_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19740,7 +19740,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women T-Shirts",
     gender: "women",
     description: "SHEIN EMERY ROSE Faux Denim Color Block Polo Long Sleeve Top — women t-shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/dps/PS2026082022159/5c85381ecf7c53c39dc4fdbbffb0791154d3b1204395d3388e17fec8360170d6_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/dps/PS2026082022159/5c85381ecf7c53c39dc4fdbbffb0791154d3b1204395d3388e17fec8360170d6_thumbnail_810x1104.jpg",
     colors: [
       "Denim"
     ],
@@ -19775,7 +19775,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Sweater Vests",
     gender: "women",
     description: "SHEIN Women's V-Neck Knit Vest, Button Front Cardigan — women sweater vests tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/04/27/de/17772677267a35563516dc9df8009bc5e48e2cbd37_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/04/27/de/17772677267a35563516dc9df8009bc5e48e2cbd37_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19808,7 +19808,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Hair Bands",
     gender: "women",
     description: "SHEIN Fashion Punk Gothic Elastic Beach Headband — hair bands tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/08/12/2b/1786500394127b655a6ab0ee3d09436d0def1df104_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/08/12/2b/1786500394127b655a6ab0ee3d09436d0def1df104_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19841,7 +19841,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN Women's Lace Trim Satin Halter Neck Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/08/18/9a/1787040658a2419634ed1de74fe142087cd21f88ca_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/08/18/9a/1787040658a2419634ed1de74fe142087cd21f88ca_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19874,7 +19874,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Jackets",
     gender: "women",
     description: "SHEIN SHEIN Essnce Long Sleeve Pleated Blazer — women jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/images3_pi/2024/08/16/e3/17237731484f56782a1f1473a0639978b963cf3a5f_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/images3_pi/2024/08/16/e3/17237731484f56782a1f1473a0639978b963cf3a5f_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19907,7 +19907,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Blouses & Shirts",
     gender: "women",
     description: "SHEIN SHEIN Boho Casual Loose Linen Shirt Blouse — women blouses & shirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/20/31/17845463206bf7f4c6585f83b99341d4235d514ee4_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/20/31/17845463206bf7f4c6585f83b99341d4235d514ee4_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -19940,7 +19940,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Tank Tops & Camis",
     gender: "women",
     description: "SHEIN TRNVIE Halter Neck Circular Buckle Tank Top — women tank tops & camis tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2025/08/22/50/1755866915545c9736b38769d346bc380957c727fd_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2025/08/22/50/1755866915545c9736b38769d346bc380957c727fd_thumbnail_810x1104.jpg",
     colors: [
       "Tan"
     ],
@@ -19975,7 +19975,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Jeans",
     gender: "women",
     description: "SHEIN ROMWE Leopard & Floral Print Y2K Skinny Denim Shorts — women jeans tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2026/02/04/81/1770195424e9632c4ca035262199270f1b1ccd3f2e_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/02/04/81/1770195424e9632c4ca035262199270f1b1ccd3f2e_thumbnail_810x1104.jpg",
     colors: [
       "Denim"
     ],
@@ -20010,7 +20010,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Skirts",
     gender: "women",
     description: "SHEIN Bohemian Woven Flared A-Line Long Skirt — women skirts tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/06/22/dc/1782119923c9160504e95d50e05096e6922605dca7_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2026/06/22/dc/1782119923c9160504e95d50e05096e6922605dca7_thumbnail_810x1104.jpg",
     colors: [
       "Red"
     ],
@@ -20045,7 +20045,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Jackets",
     gender: "women",
     description: "SHEIN Casual Denim Spliced Jacket Slim-Fit Coat — women jackets tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/p/spmp/2026/07/21/64/1784630626d5244aa7001b053d965179ba5ebcf3fa_thumbnail_405x552.png",
+    image: "https://img.ltwebstatic.com/v4/p/spmp/2026/07/21/64/1784630626d5244aa7001b053d965179ba5ebcf3fa_thumbnail_810x1104.png",
     colors: [
       "Denim"
     ],
@@ -20080,7 +20080,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Jumpsuits",
     gender: "women",
     description: "SHEIN Elenzga V-Neck Cinched Waist Jumpsuit — women jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/dps/PS202608160527/d3989da97a11bf0a24fadba0ef77031cf110683c69cc1f8409968b2c335ca7a7_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/dps/PS202608160527/d3989da97a11bf0a24fadba0ef77031cf110683c69cc1f8409968b2c335ca7a7_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -20113,7 +20113,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Bras & Bralettes",
     gender: "women",
     description: "SHEIN ROMWE Goth Floral Lace Underwire Triangle Cup Bra — women bras & bralettes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2026/01/05/d6/1767583925ecbe2357d32f29fc3180a520a3832708_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/01/05/d6/1767583925ecbe2357d32f29fc3180a520a3832708_thumbnail_810x1104.jpg",
     colors: [
       "Floral"
     ],
@@ -20148,7 +20148,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Sweatshirts & Hoodies",
     gender: "women",
     description: "SHEIN Autumn Tiger Print Crew Neck Sweatshirt — women sweatshirts & hoodies tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/spmp/2025/11/24/d7/1763955247ff2974a97e61871c7439582513476b03_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2025/11/24/d7/1763955247ff2974a97e61871c7439582513476b03_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -20181,7 +20181,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Sweaters",
     gender: "women",
     description: "SHEIN Balvessa Floral Print Wrap V-Neck Sweater — women sweaters tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2025/10/30/cd/1761793423f903cc98458e3bc80bde65f39dd082b1_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2025/10/30/cd/1761793423f903cc98458e3bc80bde65f39dd082b1_thumbnail_810x1104.jpg",
     colors: [
       "Floral"
     ],
@@ -20216,7 +20216,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN Vixey Textured Asymmetrical Hem Waistcoat Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/24/61/17848870032e292b562cf776050fff9a71b77dbe14_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/24/61/17848870032e292b562cf776050fff9a71b77dbe14_thumbnail_810x1104.jpg",
     colors: [
       "Red"
     ],
@@ -20251,7 +20251,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Over the Calf Socks",
     gender: "women",
     description: "SHEIN Colorful Striped Ankle Socks (4/8 Pairs) — women over the calf socks tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/spmp/2025/09/18/af/17581855747059f11260c390d4477b6d94c43f239f_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/spmp/2025/09/18/af/17581855747059f11260c390d4477b6d94c43f239f_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -20284,7 +20284,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Jumpsuits",
     gender: "women",
     description: "SHEIN Glyssa Backless Halter Neck Fitted Jumpsuit — women jumpsuits tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/smartflow/2026/08/13/30/17865983008be564dc8c24413fc3ca2f4cc9202294_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/smartflow/2026/08/13/30/17865983008be564dc8c24413fc3ca2f4cc9202294_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -20317,7 +20317,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN SHEIN Cross Neck 3/4 Sleeve Pleated Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2026/08/04/f2/1785848495e4773d741658d2f9f633549c61d82626_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/08/04/f2/1785848495e4773d741658d2f9f633549c61d82626_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -20350,7 +20350,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women Tops",
     gender: "women",
     description: "SHEIN Hauture Cowl Neck Mesh Backless Halter Top — women tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/07/a5/1783363156ebcb2f9fe5934cd8fd6ff2e51985b8a6_thumbnail_405x552.jpg",
+    image: "https://img.ltwebstatic.com/v4/j/pi/2026/07/07/a5/1783363156ebcb2f9fe5934cd8fd6ff2e51985b8a6_thumbnail_810x1104.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -24381,7 +24381,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Brighton V2 — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/mg202wgy_nb_02_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/mg202wgy_nb_02_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24414,7 +24414,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance 550 SL — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/mg550wt_nb_02_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/mg550wt_nb_02_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24447,7 +24447,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance 997 Golf — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/mg997gb_nb_02_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/mg997gb_nb_02_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24480,7 +24480,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Brighton V2 (W) — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/wg202wgy_nb_02_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/wg202wgy_nb_02_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24513,7 +24513,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance 327 Golf — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/wg327wtb_nb_02_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/wg327wtb_nb_02_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24546,7 +24546,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Youth Adversary 2 Knicker Solid Athletic — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bbp236gr_nb_40_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bbp236gr_nb_40_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24579,7 +24579,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Youth Adversary 2 Knicker Piped Athletic — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bbp240wk_nb_40_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bbp240wk_nb_40_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24612,7 +24612,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Youth Adversary 2 Pant Piped Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bbp316wk_nb_01_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bbp316wk_nb_01_i?wid=1200&hei=1200",
     colors: [
       "Red"
     ],
@@ -24647,7 +24647,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Youth Adversary 2 Pant Solid Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bbp332gr_nb_01_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bbp332gr_nb_01_i?wid=1200&hei=1200",
     colors: [
       "Red"
     ],
@@ -24682,7 +24682,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Adversary 2 Knicker Solid Athletic — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bmp236wt_nb_70_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bmp236wt_nb_70_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24715,7 +24715,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Adversary 2 Knicker Piped Athletic — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bmp240gnv_nb_40_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bmp240gnv_nb_40_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24748,7 +24748,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Adversary 2 Pant Piped Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bmp316wn_nb_01_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bmp316wn_nb_01_i?wid=1200&hei=1200",
     colors: [
       "Red"
     ],
@@ -24783,7 +24783,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Adversary 2 Pant Solid Tapered — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/bmp332wt_nb_70_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/bmp332wt_nb_70_i?wid=1200&hei=1200",
     colors: [
       "Red"
     ],
@@ -24818,7 +24818,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Ultra Cushion — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6381gr_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6381gr_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24851,7 +24851,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Therapeutic Cushion — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6382bk_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6382bk_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24884,7 +24884,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Comfort Fit — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6385bl_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6385bl_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24917,7 +24917,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Flex Cushion — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6386gr_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6386gr_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24950,7 +24950,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Slim Fit — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6391lb_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6391lb_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -24983,7 +24983,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Running Cushion CFX — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6394lg_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6394lg_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -25016,7 +25016,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Golf/Athletic Shoes",
     gender: "unisex",
     description: "New Balance Running Support CFX — golf/athletic shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://nb.scene7.com/is/image/NB/fl6397rd_nb_03_i?$pdpflexf2$",
+    image: "https://nb.scene7.com/is/image/NB/fl6397rd_nb_03_i?wid=1200&hei=1200",
     colors: [],
     sizes: [],
     tags: [
@@ -31027,7 +31027,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors Piper flat pumps — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/57/84/36755784_71055541_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/57/84/36755784_71055541_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31060,7 +31060,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors Keaton leather sneakers — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/23/36/69/37/23366937_53786135_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/23/36/69/37/23366937_53786135_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31093,7 +31093,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors Pointed-toe chain-detail ballet flats — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/80/56/54/33805654_64661770_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/80/56/54/33805654_64661770_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31126,7 +31126,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors 50mm Blake combat boots — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/74/10/08/30741008_60847661_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/74/10/08/30741008_60847661_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31159,7 +31159,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors Peyton fringed woven sandals — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/28/29/29/36282929_68054303_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/28/29/29/36282929_68054303_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31192,7 +31192,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors Cherie logo-print pumps — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/63/91/36756391_69553469_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/63/91/36756391_69553469_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31225,7 +31225,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Shoes",
     gender: "women",
     description: "Michael Kors Rhodes panelled suede sneakers — women's shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/07/34/43/37073443_69580115_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/07/34/43/37073443_69580115_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31258,7 +31258,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Satin belted jumpsuit — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/64/60/36756460_69451163_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/64/60/36756460_69451163_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31291,7 +31291,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Ruched mini dress — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/57/59/36755759_69424828_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/57/59/36755759_69424828_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31324,7 +31324,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Pleated ribbed skirt — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/38/71/97/34387197_66914118_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/38/71/97/34387197_66914118_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31357,7 +31357,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Smocked tie-neck blouse — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/65/07/36756507_69451322_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/65/07/36756507_69451322_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31390,7 +31390,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Monogram trousers — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/92/63/96/32926396_65061529_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/92/63/96/32926396_65061529_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31423,7 +31423,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Pleated linen short — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/38/71/77/34387177_66113709_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/38/71/77/34387177_66113709_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31456,7 +31456,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Clothing",
     gender: "women",
     description: "Michael Kors Smocked tiered midi dress — women's clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/64/54/36756454_69441690_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/64/54/36756454_69441690_1000.jpg",
     colors: [
       "Red"
     ],
@@ -31491,7 +31491,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Sheila small crossbody bag — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/47/08/98/35470898_66725315_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/47/08/98/35470898_66725315_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31524,7 +31524,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Quinn medium tote bag — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/63/95/36756395_70301924_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/63/95/36756395_70301924_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31557,7 +31557,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Wristlet shoulder bag — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/86/27/77/31862777_61839190_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/86/27/77/31862777_61839190_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31590,7 +31590,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Hudson Commuter backpack — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/23/92/60/72/23926072_55148680_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/23/92/60/72/23926072_55148680_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31623,7 +31623,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Jana mini leather crossbody bag — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/57/99/36755799_70089446_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/57/99/36755799_70089446_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31656,7 +31656,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Jaycee extra-small backpack — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/63/02/26/35630226_67116792_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/63/02/26/35630226_67116792_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31689,7 +31689,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's Bags",
     gender: "women",
     description: "Michael Kors Logo-print tote bag — women's bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/28/94/43/55/28944355_58415383_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/28/94/43/55/28944355_58415383_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31722,7 +31722,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach logo-plaque stud earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/16/44/18/38164418_71474498_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/16/44/18/38164418_71474498_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31755,7 +31755,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach logo-plaque bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/16/35/60/38163560_71242356_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/16/35/60/38163560_71242356_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31788,7 +31788,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach 26 Tabby shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/25/79/30/55/25793055_55910259_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/25/79/30/55/25793055_55910259_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31821,7 +31821,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach logo-pendant pearl-detail necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/16/33/83/38163383_71345033_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/16/33/83/38163383_71345033_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31854,7 +31854,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach 23 Lana tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/29/02/99/58/29029958_58260146_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/29/02/99/58/29029958_58260146_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31887,7 +31887,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach logo-plaque leather cardholder — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/21/34/85/45/21348545_51538319_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/21/34/85/45/21348545_51538319_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31920,7 +31920,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Tabby 20 leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/26/61/94/16/26619416_69502809_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/26/61/94/16/26619416_69502809_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31953,7 +31953,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach 39 Brooklyn logo tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/96/75/02/34967502_67022450_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/96/75/02/34967502_67022450_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -31986,7 +31986,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Coach crystal-embellished buckle-fastening sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/52/92/30/36529230_69109860_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/52/92/30/36529230_69109860_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32019,7 +32019,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Coach Leah patent-leather loafers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/21/45/42/62/21454262_51412033_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/21/45/42/62/21454262_51412033_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32052,7 +32052,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Tabby leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/39/24/93/32392493_63695383_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/39/24/93/32392493_63695383_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32085,7 +32085,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Lana shoulder bag 19 — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/73/68/07/36736807_69357935_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/73/68/07/36736807_69357935_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32118,7 +32118,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Tabby 26 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/16/79/00/32167900_62113094_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/16/79/00/32167900_62113094_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32151,7 +32151,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Coach heart floral charm necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/24/01/83/33240183_64382242_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/24/01/83/33240183_64382242_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -32186,7 +32186,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Tabby flap shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/00/95/40/32009540_61942927_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/00/95/40/32009540_61942927_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32219,7 +32219,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Empire top-handle leather tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/08/47/51/31084751_60182173_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/08/47/51/31084751_60182173_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32252,7 +32252,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Brooklyn 39 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/84/54/99/30845499_59686743_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/84/54/99/30845499_59686743_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32285,7 +32285,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach pebbled leather zip-around wallet — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/39/55/05/37395505_70065294_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/39/55/05/37395505_70065294_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32318,7 +32318,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Tabby 26 logo-plaque shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/50/02/41/36500241_68583399_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/50/02/41/36500241_68583399_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32351,7 +32351,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Coach Empire Carryall 34 leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/13/73/05/31137305_60344361_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/13/73/05/31137305_60344361_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32384,7 +32384,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade crystal-embellished huggie earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/16/33/65/38163365_71727444_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/16/33/65/38163365_71727444_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32417,7 +32417,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Kate Spade faux-fur collar jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/29/96/76/33299676_64195145_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/29/96/76/33299676_64195145_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32450,7 +32450,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade Deco tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/25/63/33/82/25633382_55653403_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/25/63/33/82/25633382_55653403_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32483,7 +32483,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade safety-pin besties bracelets — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/16/33/58/38163358_71454788_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/16/33/58/38163358_71454788_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32516,7 +32516,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade Summer Daze fish-motif necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/66/91/11/36669111_71106228_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/66/91/11/36669111_71106228_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32549,7 +32549,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade mini Deco embellished shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/08/40/30/33084030_63710104_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/08/40/30/33084030_63710104_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32582,7 +32582,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Kate Spade Harmony orb strap sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/78/00/03/33780003_64920189_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/78/00/03/33780003_64920189_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32615,7 +32615,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade crystal-embellished clover earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/86/78/77/37867877_70867532_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/86/78/77/37867877_70867532_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32648,7 +32648,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade Do It All studded leather tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/77/94/23/33779423_64949924_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/77/94/23/33779423_64949924_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32681,7 +32681,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade embellished ring shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/56/49/49/32564949_62875666_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/56/49/49/32564949_62875666_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32714,7 +32714,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade Deco Mini cross body bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/25/53/38/79/25533879_55647697_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/25/53/38/79/25533879_55647697_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32747,7 +32747,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Kate Spade Sam Icon sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/78/00/48/33780048_64927292_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/78/00/48/33780048_64927292_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32780,7 +32780,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade clover-embellished bangle bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/64/11/73/31641173_61552613_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/64/11/73/31641173_61552613_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32813,7 +32813,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade Duo suede cross body bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/56/80/38/32568038_62985931_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/56/80/38/32568038_62985931_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32846,7 +32846,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade foil emboss-logo bag charm — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/76/31/64/34763164_66564956_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/76/31/64/34763164_66564956_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32879,7 +32879,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade Precious Delights hoop earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/22/24/71/60/22247160_52118882_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/22/24/71/60/22247160_52118882_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32912,7 +32912,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Kate Spade Deco tote bag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/25/63/28/46/25632846_55653082_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/25/63/28/46/25632846_55653082_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32945,7 +32945,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Kate Spade Say I Do crystal-embellished block-heel sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/21/87/58/38218758_71304304_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/21/87/58/38218758_71304304_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -32978,7 +32978,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade safety-pin engraved-logo bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/23/63/62/38236362_71406620_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/23/63/62/38236362_71406620_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33011,7 +33011,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Kate Spade Harmony stud earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/43/71/42/36437142_68628600_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/43/71/42/36437142_68628600_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33044,7 +33044,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs The Canvas Small Tote Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/19/36/41/78/19364178_53566556_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/19/36/41/78/19364178_53566556_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33077,7 +33077,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs The Sak Belt Leather Shoulder Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/32/04/90/34320490_67831159_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/32/04/90/34320490_67831159_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33110,7 +33110,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs Mini Vanity Cross Body Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/82/92/12/31829212_62760978_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/82/92/12/31829212_62760978_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33143,7 +33143,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs The Sak Leather Shoulder Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/32/04/46/34320446_67759704_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/32/04/46/34320446_67759704_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33176,7 +33176,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs Everyday Vanity Leather Cross Body Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/82/91/02/31829102_62665974_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/82/91/02/31829102_62665974_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33209,7 +33209,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs The Belt Sak Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/32/15/49/34321549_67719696_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/32/15/49/34321549_67719696_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33242,7 +33242,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs The Tote Medium Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/11/05/58/37110558_69779672_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/11/05/58/37110558_69779672_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33275,7 +33275,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Marc Jacobs The '72 Spring Sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/92/92/35/30929235_60946628_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/92/92/35/30929235_60946628_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33308,7 +33308,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Marc Jacobs Sabrina Ballerina Flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/82/91/71/31829171_62692560_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/82/91/71/31829171_62692560_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33341,7 +33341,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Marc Jacobs The '72 Spring Sneakers (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/82/82/85/31828285_62666084_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/82/82/85/31828285_62666084_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33374,7 +33374,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Marc Jacobs Black Midi Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/83/93/28/33839328_64635201_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/83/93/28/33839328_64635201_1000.jpg",
     colors: [
       "Black"
     ],
@@ -33409,7 +33409,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Marc Jacobs Layered Satin Slip Skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/54/21/37135421_70897682_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/21/37135421_70897682_1000.jpg",
     colors: [
       "Red"
     ],
@@ -33444,7 +33444,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Marc Jacobs Faux Fur Shrunken Trucker Jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/61/70/37136170_70796871_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/61/70/37136170_70796871_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33477,7 +33477,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs Glam Mirror Shoulder Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/36/85/09/31368509_60816876_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/36/85/09/31368509_60816876_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33510,7 +33510,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs Oversized Bow Floral Canvas Medium Tote Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/55/07/37135507_70797838_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/55/07/37135507_70797838_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -33545,7 +33545,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Marc Jacobs Pop J Mark Ankle Boots — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/53/87/37135387_71145155_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/53/87/37135387_71145155_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33578,7 +33578,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Marc Jacobs Babe Mini Vanity Bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/54/87/37135487_70796546_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/87/37135487_70796546_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33611,7 +33611,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Marc Jacobs Bow Lace-Up Ballerina Shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/54/03/37135403_71145844_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/03/37135403_71145844_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33644,7 +33644,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Marc Jacobs Logo-Print Bow-Print T-Shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/13/54/10/37135410_70901190_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/13/54/10/37135410_70901190_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33677,7 +33677,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Marc Jacobs Polka Dot Cut-Out Dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/92/91/25/30929125_60947673_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/92/91/25/30929125_60947673_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33710,7 +33710,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Romy leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/37/18/51/37371851_70056601_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/37/18/51/37371851_70056601_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33743,7 +33743,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Tory Burch Ines slippers — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/27/45/81/58/27458158_57230691_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/27/45/81/58/27458158_57230691_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33776,7 +33776,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Lee Radziwill Double small handbag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/57/59/12/34575912_65685090_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/57/59/12/34575912_65685090_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33809,7 +33809,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Charlie quilted leather mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/39/73/90/36397390_68256672_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/39/73/90/36397390_68256672_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33842,7 +33842,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Fleming quilted mini tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/25/37/48/37/25374837_55887053_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/25/37/48/37/25374837_55887053_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33875,7 +33875,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Romy slim design handbag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/80/66/06/31806606_62940382_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/80/66/06/31806606_62940382_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33908,7 +33908,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Tory Burch Mini Miller flip flops — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/29/65/13/17/29651317_59813190_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/29/65/13/17/29651317_59813190_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33941,7 +33941,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Tory Burch Reva Travel ballet flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/58/20/77/31582077_60963593_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/58/20/77/31582077_60963593_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -33974,7 +33974,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Perry tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/10/75/27/30107527_59130824_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/10/75/27/30107527_59130824_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34007,7 +34007,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Charlie quilted shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/39/73/81/36397381_68259047_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/39/73/81/36397381_68259047_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34040,7 +34040,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Lee Radziwill Double small handbag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/57/59/66/34575966_65688175_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/57/59/66/34575966_65688175_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34073,7 +34073,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Tory Burch Jelly sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/38/06/84/34380684_68798381_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/38/06/84/34380684_68798381_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34106,7 +34106,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Tory Burch Double T Sport slides — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/19/04/22/12/19042212_41858969_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/19/04/22/12/19042212_41858969_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34139,7 +34139,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Lee Radziwill Double small handbag (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/57/48/10/34574810_65686262_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/57/48/10/34574810_65686262_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34172,7 +34172,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Romy suede bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/26/35/33/37263533_71050268_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/26/35/33/37263533_71050268_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34205,7 +34205,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Tory Burch Kira Sport sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/20/47/41/23/20474123_50472173_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/20/47/41/23/20474123_50472173_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34238,7 +34238,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Romy leather bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/27/45/90/95/27459095_57232475_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/27/45/90/95/27459095_57232475_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34271,7 +34271,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Charlie quilted mini shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/96/84/45/36968445_69457665_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/96/84/45/36968445_69457665_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34304,7 +34304,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Tory Burch Kira quilted flip flops — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/29/28/62/59/29286259_58278681_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/29/28/62/59/29286259_58278681_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34337,7 +34337,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Tory Burch Charlie quilted suede shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/03/30/66/37033066_71101104_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/03/30/66/37033066_71101104_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34370,7 +34370,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Jonora dress with balloon sleeves and floral print — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/15/22/36611522_68651624_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/15/22/36611522_68651624_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -34405,7 +34405,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker Jolyye 24mm watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/28/69/87/70/28698770_61031129_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/28/69/87/70/28698770_61031129_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34438,7 +34438,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Ted Baker Kkassia large belt bag with woven design and leather trim — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/42/47/64/38424764_71599091_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/42/47/64/38424764_71599091_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34471,7 +34471,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Alati blouse — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/81/42/36388142_68226743_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/81/42/36388142_68226743_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34504,7 +34504,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Sanderr sweater — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/81/48/36388148_68223246_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/81/48/36388148_68223246_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34537,7 +34537,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Rose trench coat — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/82/14/36388214_68252767_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/82/14/36388214_68252767_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34570,7 +34570,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Kander midi skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/81/66/36388166_68278520_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/81/66/36388166_68278520_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34603,7 +34603,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Aracely short dress with floral motif — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/44/97/85/38449785_71718731_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/44/97/85/38449785_71718731_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -34638,7 +34638,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker Lileey 16mm watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/61/95/51/32619551_62949961_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/61/95/51/32619551_62949961_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34671,7 +34671,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Georie long jumpsuit — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/84/18/36388418_68280970_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/84/18/36388418_68280970_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34704,7 +34704,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Louannn floral print t-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/27/01/36/38270136_71388327_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/27/01/36/38270136_71388327_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -34739,7 +34739,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Shii bomber jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/82/71/36388271_68225168_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/82/71/36388271_68225168_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34772,7 +34772,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Long dress with lace-up detail — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/14/51/36611451_68652816_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/14/51/36611451_68652816_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34805,7 +34805,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker 35.5mm stainless steel watch — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/80/50/32/30805032_61037207_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/80/50/32/30805032_61037207_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34838,7 +34838,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Marssia sweatshirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/91/13/36389113_68273363_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/91/13/36389113_68273363_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34871,7 +34871,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Midi dress with floral print — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/44/85/06/37448506_70194711_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/44/85/06/37448506_70194711_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -34906,7 +34906,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Ted Baker Ammy Hearts 34mm bracelet and bracelet set — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/61/87/26/32618726_62949980_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/61/87/26/32618726_62949980_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34939,7 +34939,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Lahnaa blouse — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/83/44/36388344_68306252_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/83/44/36388344_68306252_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -34972,7 +34972,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Ted Baker Sannii midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/38/83/58/36388358_68373879_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/38/83/58/36388358_68373879_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35005,7 +35005,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Ted Baker Layleta bikini bottom — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/39/76/77/36397677_68741863_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/39/76/77/36397677_68741863_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35038,7 +35038,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Prada small shoulder bag with buckle detail — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/65/56/31/37655631_70495506_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/65/56/31/37655631_70495506_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35071,7 +35071,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada satin skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/65/32/37696532_70642213_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/65/32/37696532_70642213_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35104,7 +35104,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Prada leather sneakers with back strap — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/35/26/44/37352644_70018297_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/35/26/44/37352644_70018297_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35137,7 +35137,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Prada suede sneakers with back strap — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/60/79/98/37607998_70399331_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/60/79/98/37607998_70399331_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35170,7 +35170,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Prada compact printed dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/04/04/81/38040481_71009422_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/04/04/81/38040481_71009422_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35203,7 +35203,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Prada Buckle small leather bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/94/33/43/36943343_69232568_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/94/33/43/36943343_69232568_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35236,7 +35236,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Prada embroidered silk dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/77/14/06/37771406_70630267_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/77/14/06/37771406_70630267_1000.jpg",
     colors: [
       "Red"
     ],
@@ -35271,7 +35271,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada houndstooth and fur jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/04/05/03/38040503_71007019_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/04/05/03/38040503_71007019_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35304,7 +35304,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada poplin shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/39/01/01/37390101_70063834_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/39/01/01/37390101_70063834_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35337,7 +35337,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Prada Bonnie mini leather bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/46/77/96/37467796_70230142_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/46/77/96/37467796_70230142_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35370,7 +35370,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada compact pants with trench coat fabric — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/83/91/61/37839161_70724998_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/83/91/61/37839161_70724998_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35403,7 +35403,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Prada Wish bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/65/19/37696519_70667467_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/65/19/37696519_70667467_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35436,7 +35436,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada coat with buttons — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/03/99/03/38039903_71013283_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/03/99/03/38039903_71013283_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35469,7 +35469,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Prada leather sneakers with back strap (2) — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/83/91/80/37839180_70954105_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/83/91/80/37839180_70954105_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35502,7 +35502,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Prada devore satin dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/64/94/37696494_70562276_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/64/94/37696494_70562276_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35535,7 +35535,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada cardigan with zip — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/39/00/75/37390075_70066438_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/39/00/75/37390075_70066438_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35568,7 +35568,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Prada shoulder bag with logo plaque — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/27/27/56/37272756_69858684_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/27/27/56/37272756_69858684_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35601,7 +35601,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada short top with Duchesse motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/40/93/11/37409311_70098150_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/40/93/11/37409311_70098150_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35634,7 +35634,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Prada cotton midi skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/39/00/69/37390069_70064288_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/39/00/69/37390069_70064288_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35667,7 +35667,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Prada leather flats — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/83/91/93/37839193_71039713_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/83/91/93/37839193_71039713_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35700,7 +35700,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Burberry Heritage square sunglasses — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/32/43/44/36324344_68438503_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/32/43/44/36324344_68438503_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35733,7 +35733,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Burberry quilted-design bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/51/30/36105130_67828998_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/51/30/36105130_67828998_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35766,7 +35766,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Burberry Horseshoe chain bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/73/82/11/36738211_69266580_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/73/82/11/36738211_69266580_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35799,7 +35799,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Burberry nylon, suede and leather Eclipse sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/75/33/19/36753319_69266606_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/75/33/19/36753319_69266606_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35832,7 +35832,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Burberry side-tie top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/63/00/92/35630092_66803901_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/63/00/92/35630092_66803901_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35865,7 +35865,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Burberry crochet cotton blend dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/70/98/23/34709823_66120584_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/70/98/23/34709823_66120584_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35898,7 +35898,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Burberry Check-trim leather Robin ballerinas — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/76/20/22/36762022_69266620_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/76/20/22/36762022_69266620_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35931,7 +35931,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Burberry cotton pique tennis dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/96/16/36619616_68975360_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/96/16/36619616_68975360_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35964,7 +35964,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Burberry long silk cotton Foxfield trench coat — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/25/38/03/35253803_66904947_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/25/38/03/35253803_66904947_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -35997,7 +35997,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Burberry medium Check zip tote — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/37/74/63/36377463_68566460_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/37/74/63/36377463_68566460_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36030,7 +36030,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Burberry wool polo shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/37/74/67/36377467_68383230_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/37/74/67/36377467_68383230_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36063,7 +36063,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Burberry Cavalier Check-detail boots — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/68/74/81/37687481_70958401_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/68/74/81/37687481_70958401_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36096,7 +36096,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Burberry Check slides — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/32/45/04/36324504_68463316_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/32/45/04/36324504_68463316_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36129,7 +36129,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Burberry Check canvas Highgate ballerinas — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/68/82/65/37688265_71077378_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/68/82/65/37688265_71077378_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36162,7 +36162,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Burberry Check trim bikini — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/20/07/77/79/20077779_70198184_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/20/07/77/79/20077779_70198184_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36195,7 +36195,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Burberry quilted thermoregulated Fernleigh jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/17/54/16/89/17541689_36571268_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/17/54/16/89/17541689_36571268_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36228,7 +36228,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Burberry Gabardine baseball cap — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/35/38/99/31353899_60972263_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/35/38/99/31353899_60972263_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36261,7 +36261,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Burberry skinny Check silk scarf — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/86/01/19/31860119_61536078_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/86/01/19/31860119_61536078_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36294,7 +36294,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Burberry mid-length taffeta Kensington trench coat — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/15/81/97/29/15819729_29040387_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/15/81/97/29/15819729_29040387_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36327,7 +36327,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Burberry mini Check vanity bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/32/43/28/36324328_68462867_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/32/43/28/36324328_68462867_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36360,7 +36360,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Versace printed silk twill mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/03/93/37/35039337_68276917_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/37/35039337_68276917_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36393,7 +36393,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Versace sea frames necklace — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/37/52/35043752_67999899_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/52/35043752_67999899_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36426,7 +36426,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Versace lace-trim silk cady satin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/03/93/42/35039342_67938535_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/42/35039342_67938535_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36459,7 +36459,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Versace Nyx buckle-detail sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/16/50/94/37165094_69702913_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/16/50/94/37165094_69702913_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36492,7 +36492,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Versace Pivot small canvas bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/28/06/82/36280682_68383725_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/28/06/82/36280682_68383725_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36525,7 +36525,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Versace Greca-print graphic-pattern dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/35/71/35043571_68493628_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/71/35043571_68493628_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36558,7 +36558,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Versace Gianni nappa mules 55mm — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/37/40/35043740_67556173_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/40/35043740_67556173_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36591,7 +36591,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Versace embroidered silk cady satin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/03/93/73/35039373_67938141_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/73/35039373_67938141_1000.jpg",
     colors: [
       "Red"
     ],
@@ -36626,7 +36626,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Versace printed silk twill shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/36/71/35043671_67939120_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/36/71/35043671_67939120_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36659,7 +36659,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Versace Severine leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/28/13/08/36281308_68444925_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/28/13/08/36281308_68444925_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36692,7 +36692,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Versace nappa shorts — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/35/04/35043504_67937405_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/04/35043504_67937405_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36725,7 +36725,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Versace Marisa leather sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/56/14/49/34561449_70768285_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/56/14/49/34561449_70768285_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36758,7 +36758,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Versace Irradia earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/35/82/35043582_68166295_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/82/35043582_68166295_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36791,7 +36791,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Versace printed silk duchesse mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/37/12/35043712_67937427_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/12/35043712_67937427_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36824,7 +36824,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Versace Gianni nappa pumps 90mm — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/03/93/69/35039369_67854771_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/03/93/69/35039369_67854771_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36857,7 +36857,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Versace cotton-poplin mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/37/90/50/36379050_68381187_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/37/90/50/36379050_68381187_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36890,7 +36890,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Versace buttoned striped polo shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/35/43/35043543_67988151_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/35/43/35043543_67988151_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36923,7 +36923,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Versace bikini top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/36/63/35043663_68265904_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/36/63/35043663_68265904_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -36956,7 +36956,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Versace embroidered-logo bikini bottoms — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/03/94/01/35039401_68695524_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/03/94/01/35039401_68695524_1000.jpg",
     colors: [
       "Red"
     ],
@@ -36991,7 +36991,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Versace Sophie thong-strap mules — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/04/37/46/35043746_68515732_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/04/37/46/35043746_68515732_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37024,7 +37024,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Ophidia small shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/87/71/43/37877143_71629391_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/87/71/43/37877143_71629391_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37057,7 +37057,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci mini quilted GG Marmont bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/92/94/84/32929484_63269757_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/92/94/84/32929484_63269757_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37090,7 +37090,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci small quilted GG handbag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/19/45/62/56/19456256_53167169_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/19/45/62/56/19456256_53167169_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37123,7 +37123,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci small Dionysus GG canvas clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/87/71/50/37877150_71628930_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/87/71/50/37877150_71628930_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37156,7 +37156,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci medium monogram tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/00/83/37690083_71359280_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/83/37690083_71359280_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37189,7 +37189,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci large GG Supreme Brera shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/67/85/65/35678565_67130680_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/67/85/65/35678565_67130680_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37222,7 +37222,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci mini GG Marmont shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/17/34/77/19/17347719_53149487_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/17/34/77/19/17347719_53149487_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37255,7 +37255,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Boston GG Supreme mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/68/90/29/37689029_71845937_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/68/90/29/37689029_71845937_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37288,7 +37288,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci GG Marmont mini shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/80/89/01/37808901_71783338_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/80/89/01/37808901_71783338_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37321,7 +37321,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Medium Jackie 1961 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/26/45/63/38264563_71690702_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/26/45/63/38264563_71690702_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37354,7 +37354,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci shoulder bag with logo plaque — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/00/72/37690072_71332007_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/72/37690072_71332007_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37387,7 +37387,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci small Tribeca tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/50/22/64/36502264_68459441_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/50/22/64/36502264_68459441_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37420,7 +37420,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Jackie 1961 medium shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/87/64/53/37876453_71629386_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/87/64/53/37876453_71629386_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37453,7 +37453,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci medium Dionysus shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/68/90/33/37689033_71843877_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/68/90/33/37689033_71843877_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37486,7 +37486,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci GG Marmont medium shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/80/89/08/37808908_71783042_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/80/89/08/37808908_71783042_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37519,7 +37519,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Bamboo 1947 cross body bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/00/25/37690025_71848739_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/25/37690025_71848739_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37552,7 +37552,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci GG Marmont shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/13/84/45/33138445_68202290_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/13/84/45/33138445_68202290_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37585,7 +37585,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Dionysus goat leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/69/00/23/37690023_71845681_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/69/00/23/37690023_71845681_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37618,7 +37618,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci small Dionysus leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/68/90/30/37689030_71844307_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/68/90/30/37689030_71844307_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37651,7 +37651,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Gucci Jackie grained leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/44/99/71/36449971_68450682_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/44/99/71/36449971_68450682_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37684,7 +37684,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Balenciaga belted cotton shirt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/25/23/77/32/25237732_55456632_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/25/23/77/32/25237732_55456632_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37717,7 +37717,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Balenciaga Cagole mules — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/24/17/77/87/24177787_54450766_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/24/17/77/87/24177787_54450766_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37750,7 +37750,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Balenciaga draped glittered mini dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/21/72/91/98/21729198_54176121_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/21/72/91/98/21729198_54176121_1000.jpg",
     colors: [
       "Red"
     ],
@@ -37785,7 +37785,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Balenciaga Cagole 110mm leather sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/23/38/95/63/23389563_53527758_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/23/38/95/63/23389563_53527758_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37818,7 +37818,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga techwear fitted long sleeve top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/94/34/12/37943412_71535025_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/94/34/12/37943412_71535025_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37851,7 +37851,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Balenciaga Gaeta wedge thong sandals in black — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/75/96/69/37759669_70624418_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/75/96/69/37759669_70624418_1000.jpg",
     colors: [
       "Black"
     ],
@@ -37886,7 +37886,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga logo-print panelled leggings — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/62/49/12/36624912_70266848_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/62/49/12/36624912_70266848_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -37919,7 +37919,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga twisted seam jeans in bleach light blue — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/37/21/07/37372107_70054351_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/37/21/07/37372107_70054351_1000.jpg",
     colors: [
       "Blue"
     ],
@@ -37954,7 +37954,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga techwear short long sleeve bodysuit in black — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/31/31/87/37313187_69952397_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/31/31/87/37313187_69952397_1000.jpg",
     colors: [
       "Black"
     ],
@@ -37989,7 +37989,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Balenciaga Le City Pouch shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/94/33/20/37943320_71539422_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/94/33/20/37943320_71539422_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38022,7 +38022,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Balenciaga Le City bag medium in black — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/27/65/21/34276521_71572511_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/27/65/21/34276521_71572511_1000.jpg",
     colors: [
       "Black"
     ],
@@ -38057,7 +38057,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Balenciaga nano Le City bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/17/31/68/36173168_71303289_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/17/31/68/36173168_71303289_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38090,7 +38090,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga logo short-sleeves T-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/29/30/77/33293077_63898525_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/29/30/77/33293077_63898525_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38123,7 +38123,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga track trainers in black — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/13/40/79/41/13407941_54383264_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/13/40/79/41/13407941_54383264_1000.jpg",
     colors: [
       "Black"
     ],
@@ -38158,7 +38158,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga two-button cotton blazer — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/23/73/12/75/23731275_54972261_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/23/73/12/75/23731275_54972261_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38191,7 +38191,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Balenciaga Los Angeles city print layered dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/02/20/69/31022069_60182283_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/02/20/69/31022069_60182283_1000.jpg",
     colors: [
       "Red"
     ],
@@ -38226,7 +38226,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Balenciaga Le City charm-detail long card holder — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/90/85/86/36908586_69261361_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/90/85/86/36908586_69261361_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38259,7 +38259,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Balenciaga Gaeta leopard-print wedge sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/17/37/83/37173783_69746943_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/17/37/83/37173783_69746943_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38292,7 +38292,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Balenciaga Le City tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/94/32/11/34943211_66387360_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/94/32/11/34943211_66387360_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38325,7 +38325,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Balenciaga Cagole thong sandal in black — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/22/98/30/73/22983073_54150608_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/22/98/30/73/22983073_54150608_1000.jpg",
     colors: [
       "Black"
     ],
@@ -38360,7 +38360,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent small Envelope wallet with chain — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/63/36/45/32633645_62867745_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/63/36/45/32633645_62867745_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38393,7 +38393,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent compact Cassandre wallet — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/14/56/55/11/14565511_56392356_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/14/56/55/11/14565511_56392356_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38426,7 +38426,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent Cassandre clutch — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/12/10/17/23/12101723_54570770_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/12/10/17/23/12101723_54570770_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38459,7 +38459,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Saint Laurent Cassandre leather belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/14/36/04/95/14360495_54374618_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/14/36/04/95/14360495_54374618_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38492,7 +38492,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Saint Laurent Le Loafer smooth leather shoes — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/41/89/40/37418940_70217415_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/41/89/40/37418940_70217415_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38525,7 +38525,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent medium clutch with monogram — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/15/10/26/14/15102614_25725705_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/15/10/26/14/15102614_25725705_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38558,7 +38558,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Saint Laurent Opyum sandals with logo heel — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/21/99/29/60/21992960_65046420_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/21/99/29/60/21992960_65046420_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38591,7 +38591,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent mini Le 5 à 7 shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/18/42/95/06/18429506_54809843_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/18/42/95/06/18429506_54809843_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38624,7 +38624,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent shoulder bag with logo plaque — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/06/68/18/32066818_62037516_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/06/68/18/32066818_62037516_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38657,7 +38657,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Saint Laurent Cassandre card holder — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/11/63/73/89/11637389_54975450_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/11/63/73/89/11637389_54975450_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38690,7 +38690,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Saint Laurent Cassandre metal and rhinestone bracelet — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/22/65/87/90/22658790_60128052_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/22/65/87/90/22658790_60128052_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38723,7 +38723,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Saint Laurent loafer with logo plaque — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/04/31/26/32043126_61810381_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/04/31/26/32043126_61810381_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38756,7 +38756,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Saint Laurent high-waisted jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/99/23/72/33992372_65500950_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/99/23/72/33992372_65500950_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38789,7 +38789,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Saint Laurent Babylone smooth leather mules — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/10/88/25/30108825_59192890_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/10/88/25/30108825_59192890_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38822,7 +38822,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Saint Laurent classic belt — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/85/63/14/37856314_71537729_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/85/63/14/37856314_71537729_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38855,7 +38855,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent quilted shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/16/08/06/74/16080674_54575355_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/16/08/06/74/16080674_54575355_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38888,7 +38888,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Saint Laurent Gaby shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/22/35/08/93/22350893_54809861_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/22/35/08/93/22350893_54809861_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38921,7 +38921,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Saint Laurent Cassandre card holder (2) — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/14/33/90/53/14339053_54156605_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/14/33/90/53/14339053_54156605_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38954,7 +38954,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Saint Laurent ruched loafer with logo plaque — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/13/67/63/33136763_64682762_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/13/67/63/33136763_64682762_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -38987,7 +38987,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Saint Laurent earrings with monogram — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/20/01/99/85/20019985_45036899_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/20/01/99/85/20019985_45036899_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39020,7 +39020,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino lace bodysuit — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/64/92/54/35649254_70191639_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/64/92/54/35649254_70191639_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39053,7 +39053,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Valentino Panthea medium shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/66/28/98/35662898_67104517_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/66/28/98/35662898_67104517_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39086,7 +39086,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Valentino Rockstud sneakers with 100mm heel — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/64/94/57/35649457_68046138_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/64/94/57/35649457_68046138_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39119,7 +39119,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Valentino small Antibes tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/66/40/03/35664003_69133050_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/66/40/03/35664003_69133050_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39152,7 +39152,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino Canestrello cotton tweed top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/65/68/06/35656806_67591719_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/65/68/06/35656806_67591719_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39185,7 +39185,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino VLogo straight jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/67/02/05/36670205_68860368_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/67/02/05/36670205_68860368_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39218,7 +39218,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino Mool Mouliné sweater — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/65/67/42/35656742_69146116_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/65/67/42/35656742_69146116_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39251,7 +39251,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Valentino VLogo Signature earrings with Swarovski crystals — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/07/45/37/36074537_67679142_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/07/45/37/36074537_67679142_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39284,7 +39284,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino lace midi skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/83/61/08/35836108_67479696_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/83/61/08/35836108_67479696_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39317,7 +39317,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Valentino Rockstud leather sandals — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/45/00/37/34450037_69348138_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/45/00/37/34450037_69348138_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39350,7 +39350,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Valentino small embroidered Locò shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/23/27/36612327_68683629_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/23/27/36612327_68683629_1000.jpg",
     colors: [
       "Red"
     ],
@@ -39385,7 +39385,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino blanket top with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/91/59/36619159_68656172_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/91/59/36619159_68656172_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -39420,7 +39420,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Valentino Resort shoes with 75mm wedge — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/62/00/00/36620000_68733579_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/62/00/00/36620000_68733579_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39453,7 +39453,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino blanket midi skirt with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/93/87/36619387_68655673_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/93/87/36619387_68655673_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -39488,7 +39488,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino embroidered Couture linen top — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/93/89/36619389_68655588_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/93/89/36619389_68655588_1000.jpg",
     colors: [
       "Red"
     ],
@@ -39523,7 +39523,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino embroidered Couture linen shorts — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/62/00/02/36620002_68655596_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/62/00/02/36620002_68655596_1000.jpg",
     colors: [
       "Red"
     ],
@@ -39558,7 +39558,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Valentino Rockstud sandals 45mm — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/65/98/07/35659807_67104629_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/65/98/07/35659807_67104629_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39591,7 +39591,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Valentino raffia bag with geometric motif — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/23/61/36612361_68656171_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/23/61/36612361_68656171_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39624,7 +39624,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino Rockstud rubber slippers — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/07/79/83/34077983_68035040_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/07/79/83/34077983_68035040_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39657,7 +39657,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Valentino short blanket skirt with floral stamps — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/61/88/20/36618820_68655986_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/61/88/20/36618820_68655986_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -39692,7 +39692,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana EXCLUSIVE Linda double-breasted jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/35/76/35853576_70008597_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/35/76/35853576_70008597_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39725,7 +39725,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Dolce & Gabbana medium My Sicily handbag in split calfskin — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/68/15/74/37681574_70666041_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/68/15/74/37681574_70666041_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39758,7 +39758,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana cashmere Serafino pullover — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/50/46/35855046_70008938_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/50/46/35855046_70008938_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39791,7 +39791,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana five-pocket denim jeans — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/39/88/35853988_70287269_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/39/88/35853988_70287269_1000.jpg",
     colors: [
       "Denim"
     ],
@@ -39826,7 +39826,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Dolce & Gabbana medium Sicily rose-print crystal-embellished tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/92/02/50/36920250_70106173_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/92/02/50/36920250_70106173_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39859,7 +39859,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Dolce & Gabbana rose-print charmeuse midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/37/16/35853716_70679936_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/37/16/35853716_70679936_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39892,7 +39892,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Dolce & Gabbana EXCLUSIVE lace midi dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/37/12/35853712_70611523_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/37/12/35853712_70611523_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39925,7 +39925,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Dolce & Gabbana satin sandals with flower — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/32/99/35853299_70615962_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/99/35853299_70615962_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39958,7 +39958,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana jersey T-shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/38/38/35853838_69190309_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/38/38/35853838_69190309_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -39991,7 +39991,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana leo-print viscose jersey skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/36/04/35853604_69195362_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/36/04/35853604_69195362_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40024,7 +40024,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Dolce & Gabbana leo kid-leather slingbacks — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/32/17/35853217_69404010_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/17/35853217_69404010_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40057,7 +40057,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Dolce & Gabbana EXCLUSIVE leo-print sheer dress — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/36/71/35853671_69190494_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/36/71/35853671_69190494_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40090,7 +40090,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana double-breasted pinstripe wool jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/35/61/35853561_70027962_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/35/61/35853561_70027962_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40123,7 +40123,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Dolce & Gabbana DG-logo clip earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/45/99/35854599_70015270_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/45/99/35854599_70015270_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40156,7 +40156,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana wool skirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/36/27/35853627_70014237_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/36/27/35853627_70014237_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40189,7 +40189,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Dolce & Gabbana logo-detail pointed-toe pumps — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/32/23/35853223_70482432_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/23/35853223_70482432_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40222,7 +40222,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana Turlington single-breasted jacket in pinstripe wool — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/35/42/35853542_70008895_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/35/42/35853542_70008895_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40255,7 +40255,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana bow-detail long-sleeve sweater — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/50/73/35855073_70765992_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/50/73/35855073_70765992_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40288,7 +40288,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Dolce & Gabbana lace flat slides — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/32/72/35853272_70612681_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/32/72/35853272_70612681_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40321,7 +40321,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Dolce & Gabbana pinstripe wool trousers — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/85/39/11/35853911_70014690_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/85/39/11/35853911_70014690_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40354,7 +40354,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Armani tote bag with shoulder strap — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/15/49/26/34/15492634_27602753_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/15/49/26/34/15492634_27602753_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40387,7 +40387,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Armani shoulder bag with logo — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/15/20/37/58/15203758_26191955_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/15/20/37/58/15203758_26191955_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40420,7 +40420,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Armani shoulder bag with logo (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/15/12/76/09/15127609_25750008_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/15/12/76/09/15127609_25750008_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40453,7 +40453,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani embroidered cotton jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/44/99/92/37449992_70196355_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/44/99/92/37449992_70196355_1000.jpg",
     colors: [
       "Red"
     ],
@@ -40488,7 +40488,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani fringed sequin blouse — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/92/07/16/34920716_66111521_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/92/07/16/34920716_66111521_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40521,7 +40521,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Armani felted wool fedora hat — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/41/41/26/38414126_71721513_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/41/41/26/38414126_71721513_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40554,7 +40554,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani keyring with logo plaque — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/28/45/27/63/28452763_57822554_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/28/45/27/63/28452763_57822554_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40587,7 +40587,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani square eyeglass frame — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/16/07/90/35160790_66890496_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/16/07/90/35160790_66890496_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40620,7 +40620,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Armani midi dress with twisted detail — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/76/51/16/37765116_70754718_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/76/51/16/37765116_70754718_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40653,7 +40653,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Armani logo-debossed bifold cardholder — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/41/23/57/38412357_71645895_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/41/23/57/38412357_71645895_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40686,7 +40686,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani short-sleeve jersey blouse — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/24/50/51/59/24505159_54663378_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/24/50/51/59/24505159_54663378_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40719,7 +40719,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani slim jacket with chevron pattern — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/46/55/12/37465512_70315005_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/46/55/12/37465512_70315005_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40752,7 +40752,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dresses",
     gender: "women",
     description: "Armani gathered midi dress with tied collar — dresses tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/66/96/17/37669617_70558539_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/66/96/17/37669617_70558539_1000.jpg",
     colors: [
       "Red"
     ],
@@ -40787,7 +40787,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani round eyeglass frame — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/16/20/15/35162015_66890404_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/16/20/15/35162015_66890404_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40820,7 +40820,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Armani high-waisted bootcut jeans — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/28/60/40/97/28604097_57945035_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/28/60/40/97/28604097_57945035_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40853,7 +40853,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani vest with chain trim and double-breasted buttons — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/76/00/16/37760016_71332430_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/76/00/16/37760016_71332430_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40886,7 +40886,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani fringed crew-neck tank top — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/29/28/72/33292872_65200663_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/29/28/72/33292872_65200663_1000.jpg",
     colors: [
       "Tan"
     ],
@@ -40921,7 +40921,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Armani round eyeglass frame (2) — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/18/29/83/75/18298375_39333346_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/18/29/83/75/18298375_39333346_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40954,7 +40954,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani earrings with crystal application — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/06/43/97/38064397_71250210_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/06/43/97/38064397_71250210_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -40987,7 +40987,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Armani pendant earrings — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/06/53/19/38065319_71108587_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/06/53/19/38065319_71108587_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41020,7 +41020,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy Antigona tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/36/52/59/32365259_62324346_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/36/52/59/32365259_62324346_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41053,7 +41053,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy leopard-print logo-print clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/54/24/14/37542414_70914879_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/54/24/14/37542414_70914879_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41086,7 +41086,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy grained-leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/19/80/93/86/19809386_44438369_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/19/80/93/86/19809386_44438369_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41119,7 +41119,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy small Voyou leather bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/56/35/98/36563598_68785039_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/56/35/98/36563598_68785039_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41152,7 +41152,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy mini Antigona leather tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/21/20/38/32212038_62100029_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/21/20/38/32212038_62100029_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41185,7 +41185,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy logo-lettering clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/92/75/25/32927525_63372669_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/92/75/25/32927525_63372669_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41218,7 +41218,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy medium Voyou shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/27/19/34/92/27193492_57119166_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/27/19/34/92/27193492_57119166_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41251,7 +41251,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy Antigona mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/35/63/42/57/35634257_67416597_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/35/63/42/57/35634257_67416597_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41284,7 +41284,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy small Voyou two-way bucket bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/37/91/12/39/37911239_71942671_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/37/91/12/39/37911239_71942671_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41317,7 +41317,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy small Antigona tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/24/15/82/31241582_60516362_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/24/15/82/31241582_60516362_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41350,7 +41350,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy small Voyou leather bucket bag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/96/89/64/36968964_69617485_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/96/89/64/36968964_69617485_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41383,7 +41383,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy logo-print clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/91/94/94/31919494_61513495_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/91/94/94/31919494_61513495_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41416,7 +41416,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy multi-pocket top-handle belt bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/52/50/84/31525084_61037702_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/52/50/84/31525084_61037702_1000.jpg",
     colors: [
       "Multi"
     ],
@@ -41451,7 +41451,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy Voyou shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/40/07/67/32400767_62669481_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/40/07/67/32400767_62669481_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41484,7 +41484,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy Nano Facet logo-embroidered raffia-effect tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/00/72/39/36007239_67831007_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/00/72/39/36007239_67831007_1000.jpg",
     colors: [
       "Red"
     ],
@@ -41519,7 +41519,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy star print Iconic pouch — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/11/80/41/49/11804149_8506877_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/11/80/41/49/11804149_8506877_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41552,7 +41552,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy medium Voyou shoulder bag (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/31/24/15/50/31241550_60509150_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/31/24/15/50/31241550_60509150_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41585,7 +41585,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy mini Antigona East-West tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/30/91/49/68/30914968_59779855_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/30/91/49/68/30914968_59779855_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41618,7 +41618,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy mini Antigona metallic leather shoulder bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/19/55/34/38195534_71677191_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/19/55/34/38195534_71677191_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41651,7 +41651,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Givenchy silk-blend clutch bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/38/29/01/36/38290136_71971451_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/38/29/01/36/38290136_71971451_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41684,7 +41684,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler printed striped shirt — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/57/55/23/32575523_65250726_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/57/55/23/32575523_65250726_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41717,7 +41717,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Moncler tote bag with logo detail — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/33/82/56/34338256_65584597_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/33/82/56/34338256_65584597_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41750,7 +41750,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler Nepeta jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/33/40/32/34334032_65631768_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/33/40/32/34334032_65631768_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41783,7 +41783,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Moncler Vera Leisure sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/71/39/01/33713901_64677621_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/71/39/01/33713901_64677621_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41816,7 +41816,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler polo shirt with printed stripes — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/74/67/56/33746756_65566177_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/74/67/56/33746756_65566177_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41849,7 +41849,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler Zelkova jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/57/27/24/34572724_66110439_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/57/27/24/34572724_66110439_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41882,7 +41882,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Moncler Trick mini bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/44/98/18/34449818_65753605_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/44/98/18/34449818_65753605_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41915,7 +41915,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler shirt with printed stripes and printed logo — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/57/26/82/34572682_66110515_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/57/26/82/34572682_66110515_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41948,7 +41948,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler knit shorts with printed stripes — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/57/27/58/34572758_66110217_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/57/27/58/34572758_66110217_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -41981,7 +41981,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler short hooded jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/89/24/95/34892495_66096088_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/89/24/95/34892495_66096088_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42014,7 +42014,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler shirt with logo patch (three-piece set) — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/74/03/09/32740309_65982918_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/74/03/09/32740309_65982918_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42047,7 +42047,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler pleated short skirt with check motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/28/84/61/34288461_65705200_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/28/84/61/34288461_65705200_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42080,7 +42080,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler short-sleeve top with floral motif — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/18/55/63/33185563_63873275_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/18/55/63/33185563_63873275_1000.jpg",
     colors: [
       "Floral"
     ],
@@ -42115,7 +42115,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Moncler Caradoc Teddy micro tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/63/52/14/32635214_63801316_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/63/52/14/32635214_63801316_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42148,7 +42148,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Jewelry-Accessories",
     gender: "women",
     description: "Moncler drawstring-waist trousers — jewelry-accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/26/69/41/33266941_63964005_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/26/69/41/33266941_63964005_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42181,7 +42181,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Shoes",
     gender: "women",
     description: "Moncler Tailgrip LP sneakers — shoes tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/33/90/92/34339092_65548586_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/33/90/92/34339092_65548586_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42214,7 +42214,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler Coquelicot jacket — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/32/57/60/28/32576028_65491812_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/32/57/60/28/32576028_65491812_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42247,7 +42247,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Moncler Very tote bag — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/94/46/98/33944698_65089012_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/94/46/98/33944698_65089012_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42280,7 +42280,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Clothing",
     gender: "women",
     description: "Moncler shirt with lace trim — clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/33/74/68/22/33746822_65409773_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/33/74/68/22/33746822_65409773_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42313,7 +42313,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Accessories",
     gender: "women",
     description: "Moncler skirt with belt and buttons — accessories tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/34/63/82/36/34638236_65919985_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/34/63/82/36/34638236_65919985_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42346,7 +42346,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Freeform Hardside Carry-On Luggage - Electric Yellow — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61UNg1GdHDL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61UNg1GdHDL._AC_UL1200_.jpg",
     colors: [
       "Electric Yellow"
     ],
@@ -42381,7 +42381,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Hardside 2 Piece Set - Icy Lilac — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/91wWuKpW7WL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/91wWuKpW7WL._AC_UL1200_.jpg",
     colors: [
       "Icy Lilac"
     ],
@@ -42416,7 +42416,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Centric 2 Hardside Expandable Luggage 3-Piece Set - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71vF7oZFuKL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71vF7oZFuKL._AC_UL1200_.jpg",
     colors: [
       "Black"
     ],
@@ -42451,7 +42451,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Andante 2 Wheeled Duffel Bag - All Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81vZ3E+MhlL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81vZ3E+MhlL._AC_UL1200_.jpg",
     colors: [
       "All Black"
     ],
@@ -42486,7 +42486,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Domestic Carry-On Luggage - Nova Teal — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81CISS6f9UL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81CISS6f9UL._AC_UL1200_.jpg",
     colors: [
       "Nova Teal"
     ],
@@ -42521,7 +42521,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Pro Hardside Expandable Luggage - Midnight Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71LSTZPyTKL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71LSTZPyTKL._AC_UL1200_.jpg",
     colors: [
       "Midnight Black"
     ],
@@ -42556,7 +42556,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Saire LTE Softside Expandable Luggage 3PC Set - Olive Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71ejwDiBkoL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71ejwDiBkoL._AC_UL1200_.jpg",
     colors: [
       "Olive Green"
     ],
@@ -42591,7 +42591,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Omni 2 Hardside Expandable Luggage 3-Piece Set - Emerald Green — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81KD5bb+31L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81KD5bb+31L._AC_UL1200_.jpg",
     colors: [
       "Emerald Green"
     ],
@@ -42626,7 +42626,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Scure Spinner 75/28 Hardside Suitcase — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81nKW2g0SPL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81nKW2g0SPL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42659,7 +42659,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Luggage & Travel Bags",
     gender: "unisex",
     description: "Samsonite Scure Renewed Classic Hardside Suitcase - Black — luggage & travel bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61ddE8PAs2L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61ddE8PAs2L._AC_UL1200_.jpg",
     colors: [
       "Black"
     ],
@@ -42694,7 +42694,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Just In Case Tote - Packable Travel Tote Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61eVyug9W5L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61eVyug9W5L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42727,7 +42727,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Tyler Crossbody - Women's Nylon Crossbody Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71bRLbuJzhL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71bRLbuJzhL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42760,7 +42760,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Contine Weekender - Women's Travel Weekend Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71K4dDd0-lL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71K4dDd0-lL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42793,7 +42793,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Valetta Tote - Women's Carryall Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71fIkRJ9+DL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71fIkRJ9+DL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42826,7 +42826,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Persia Crossbody - Nylon Travel Shoulder Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/712nPYMu+1L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/712nPYMu+1L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42859,7 +42859,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Esports Pro Sling Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81qttN+B7DL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81qttN+B7DL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42892,7 +42892,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Search Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/916invaR6AL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/916invaR6AL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42925,7 +42925,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Celina Backpack - Unisex — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71-Yq1HdUzL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71-Yq1HdUzL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42958,7 +42958,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Unisex Double Expansion Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71W0+T73lUL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71W0+T73lUL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -42991,7 +42991,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Large 17\" Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71JC5Mv6qfL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71JC5Mv6qfL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43024,7 +43024,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Halsey Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61wbFGIX2vL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61wbFGIX2vL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43057,7 +43057,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Just In Case Foldable Backpack — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61HFOAAFBFL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61HFOAAFBFL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43090,7 +43090,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Bravo Academy Brief - Compact Laptop Briefcase — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71N5xVKnA7L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71N5xVKnA7L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43123,7 +43123,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Medium Crossbody — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71h5+HJoa5L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71h5+HJoa5L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43156,7 +43156,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Travel Kit - Toiletry Bag — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81hjA05pHsL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81hjA05pHsL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43189,7 +43189,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Voyageur Q Tote - Lightweight Travel Tote — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/51XPLLk8wRL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/51XPLLk8wRL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43222,7 +43222,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Unisex Rhys Expandable Duffel — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/51OJa4U9DDL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/51OJa4U9DDL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43255,7 +43255,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Tri-Fold Garment Bag Carry-On — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81MmL+Mr-WL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81MmL+Mr-WL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43288,7 +43288,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha East West Sling — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71Z+0NbiVnL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Z+0NbiVnL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43321,7 +43321,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags & Travel",
     gender: "unisex",
     description: "TUMI Alpha Large Dual Access Expandable Carry-On Luggage — bags & travel tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71PwNAUjQwL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71PwNAUjQwL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43354,7 +43354,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Tote Le Pliage One M — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/03/36103203_68066036_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/03/36103203_68066036_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43387,7 +43387,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Handbag Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/14/36102614_68066014_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/14/36102614_68066014_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43420,7 +43420,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Tote Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/27/36102627_68088228_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/27/36102627_68088228_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43453,7 +43453,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Tote Le Pliage One M (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/29/36103229_68042471_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/29/36103229_68042471_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43486,7 +43486,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Handbag Le Pliage One S — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/31/92/36103192_68099961_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/31/92/36103192_68099961_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43519,7 +43519,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One L — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/45/36102645_68065967_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/45/36102645_68065967_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43552,7 +43552,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Handbag Le Pliage One S (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/24/36102624_68065920_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/24/36102624_68065920_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43585,7 +43585,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Bag Le Pliage One — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/25/36102625_68078666_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/25/36102625_68078666_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43618,7 +43618,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One S — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/00/36103200_68039979_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/00/36103200_68039979_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43651,7 +43651,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/31/95/36103195_68066056_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/31/95/36103195_68066056_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43684,7 +43684,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Bag Le Pliage One (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/09/36102609_68078400_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/09/36102609_68078400_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43717,7 +43717,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Backpack Le Pliage One M — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/27/36103227_72083535_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/27/36103227_72083535_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43750,7 +43750,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Tote Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/01/36103201_68070559_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/01/36103201_68070559_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43783,7 +43783,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Handbag Le Pliage One L (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/23/36103223_68070692_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/23/36103223_68070692_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43816,7 +43816,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One XL — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/48/36102648_71995536_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/48/36102648_71995536_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43849,7 +43849,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Backpack Le Pliage One M (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/13/36102613_68089012_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/13/36102613_68089012_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43882,7 +43882,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Tote Le Pliage One L (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/49/36102649_67942293_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/49/36102649_67942293_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43915,7 +43915,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Travel Bag Le Pliage One XL (2) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/22/36103222_68101792_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/22/36103222_68101792_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43948,7 +43948,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Tote Le Pliage One M (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/32/32/36103232_67942421_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/32/32/36103232_67942421_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -43981,7 +43981,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Bags",
     gender: "women",
     description: "Longchamp Backpack Le Pliage One M (3) — bags tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://cdn-images.farfetch-contents.com/36/10/26/16/36102616_68099583_480.jpg",
+    image: "https://cdn-images.farfetch-contents.com/36/10/26/16/36102616_68099583_1000.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44014,7 +44014,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Unisex Baby 5-pack Side Snap Short-sleeve Bodysuit — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/91C8Z9G9j9L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/91C8Z9G9j9L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44047,7 +44047,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby 6-piece Bodysuits and Pants Set — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81D7d6cfKwL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81D7d6cfKwL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44080,7 +44080,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Girls 6 Pack Short Sleeve Bodysuit — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81fLiGg0L8L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81fLiGg0L8L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44113,7 +44113,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby 3-Pack Neutral Sleep and Play — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71Du1VFs13L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Du1VFs13L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44146,7 +44146,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Girls 6-piece Bodysuits and Pants Set — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81kcdsSnDqL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81kcdsSnDqL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44179,7 +44179,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Girls' 3-pack Cotton Sleeper Gown — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71RdGSkQOTL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71RdGSkQOTL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44212,7 +44212,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Hooded Sweater Jacket with Sherpa Lining — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/910pajFCcPL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/910pajFCcPL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44245,7 +44245,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Boys 4-piece Jacket, Pant, and Bodysuit Set — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/915fikz2NTL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/915fikz2NTL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44278,7 +44278,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby 8-Pack Short-Sleeve Bodysuit — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81yDahe4h6L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81yDahe4h6L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44311,7 +44311,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Boys 3 pack Snap up Rompers — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81j0asOYlbL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81j0asOYlbL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44344,7 +44344,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Neutral 2-pack Cotton Footed Sleep and Play — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/91q1etzCm+L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/91q1etzCm+L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44377,7 +44377,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Girls' Cotton Footed Sleep and Play, Pack of 2 — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81II3wjE3gL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81II3wjE3gL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44410,7 +44410,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby 6-piece Bodysuits and Pants Set (2) — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81lxx-BnYIL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81lxx-BnYIL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44443,7 +44443,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Boys' 3-Pack Short-Sleeve Tee Shirts — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81Lzng5wTQL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81Lzng5wTQL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44476,7 +44476,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Boys' 3-pack Rompers — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81vGZ8aneWL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81vGZ8aneWL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44509,7 +44509,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Babys' 3 pack Snug Fit Footless Cotton Pajamas — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81SDap+LHjL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81SDap+LHjL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44542,7 +44542,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Boys 3-pack Cotton Sleeper Gown — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81pZ62cNXRL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81pZ62cNXRL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44575,7 +44575,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Boys 2-way Zip Thermal Footed Sleep and Play, Pack of 2 — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81V-mOhNUSL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81V-mOhNUSL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44608,7 +44608,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Unisex Baby Organic Cotton Gauze Shortall — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81Yf2YMAkwL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81Yf2YMAkwL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44641,7 +44641,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Baby Clothing",
     gender: "unisex",
     description: "Carter's Baby Girls' 8-pack Short Sleeve Onesies Bodysuits — baby clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81mfiIoQ1-L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81mfiIoQ1-L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44674,7 +44674,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Kids' Aquatic Water Sports Sandals — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81O5Z9lH1gL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81O5Z9lH1gL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44707,7 +44707,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71UymUfFREL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71UymUfFREL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44740,7 +44740,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Girls World's Best Overalls — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71RgPOD7dGL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71RgPOD7dGL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44773,7 +44773,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/816kOTFfL-L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/816kOTFfL-L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44806,7 +44806,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Girls World's Best Overalls (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81g9fSZ33tL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81g9fSZ33tL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44839,7 +44839,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (3) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/91SN1xHg2oL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/91SN1xHg2oL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44872,7 +44872,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls World's Best Overalls (Floral) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71Nhp6AM54L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Nhp6AM54L._AC_UL1200_.jpg",
     colors: [
       "Floral"
     ],
@@ -44907,7 +44907,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Girls Athletic Shoes Sneaker — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71KZBXSGZzL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71KZBXSGZzL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44940,7 +44940,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls World's Best Overalls (Hickory) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71ugrrivruL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71ugrrivruL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -44973,7 +44973,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls World's Best Overalls (Denim) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81JAp5LMscL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81JAp5LMscL._AC_UL1200_.jpg",
     colors: [
       "Denim"
     ],
@@ -45008,7 +45008,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (Olive) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81FTDambRtL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81FTDambRtL._AC_UL1200_.jpg",
     colors: [
       "Olive"
     ],
@@ -45043,7 +45043,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boy's Short Sleeve Henley — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71i99fmjolL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71i99fmjolL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45076,7 +45076,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Girls' Dress — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81awiTqpOUL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81awiTqpOUL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45109,7 +45109,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boy's Short Sleeve Henley (2) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81kQUrENuLL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81kQUrENuLL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45142,7 +45142,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boys' Bruno Shoes — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71Zu6HVp1cL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Zu6HVp1cL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45175,7 +45175,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boys Pull on Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/814EA8em15L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/814EA8em15L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45208,7 +45208,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Baby Boys World's Best Overalls (Green) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81AE+B3nvrL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81AE+B3nvrL._AC_UL1200_.jpg",
     colors: [
       "Green"
     ],
@@ -45243,7 +45243,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boys' Putney Sneaker — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71QLphJeDHL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71QLphJeDHL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45276,7 +45276,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Kids' Marie Casual Sandals — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71R5mzBUyAL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71R5mzBUyAL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45309,7 +45309,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "OshKosh B'gosh Boy's Short Sleeve Henley (3) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/818Dzpz5VZL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/818Dzpz5VZL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45342,7 +45342,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls 2-Piece Tankini Swimsuit — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71sagIhazWL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71sagIhazWL._AC_UL1200_.jpg",
     colors: [
       "Tan"
     ],
@@ -45377,7 +45377,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Short Sleeve Graphic T-shirts (5-Pack) — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71aHUg7soRL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71aHUg7soRL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45410,7 +45410,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Boys' Pull on Cargo Pants, Multipacks — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61r1xiZt9VL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61r1xiZt9VL._AC_UL1200_.jpg",
     colors: [
       "Multi"
     ],
@@ -45445,7 +45445,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Flare Leggings — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61hX1SpwDLL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61hX1SpwDLL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45478,7 +45478,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby Girls' and Toddler Graphic T-Shirts, 4 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71jguxpdH2L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71jguxpdH2L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45511,7 +45511,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby Girls and Toddler Assorted Solid Leggings, Multipacks — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61yj7ziiH7L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61yj7ziiH7L._AC_UL1200_.jpg",
     colors: [
       "Multi"
     ],
@@ -45546,7 +45546,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls Assorted Cartwheel Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71Y28z8CrpL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Y28z8CrpL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45579,7 +45579,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls Basic Cardigan — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81xHOG4Z9NL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81xHOG4Z9NL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45612,7 +45612,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Grant Quartz Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81cfp4YcCtL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81cfp4YcCtL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45645,7 +45645,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Plaid Stretch Jacquard Short Sleeve Dress — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81y53f3tArL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81y53f3tArL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45678,7 +45678,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Boys' Performance Basketball Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71ytHWrxpEL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71ytHWrxpEL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45711,7 +45711,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place girls Leggings 8 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71IXWvxftoL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71IXWvxftoL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45744,7 +45744,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Long Sleeve Graphic T-Shirts, 5 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71KDjVhhICL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71KDjVhhICL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45777,7 +45777,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby and Toddler Stretch Straight Chino Pants — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81ws4e8LobL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81ws4e8LobL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45810,7 +45810,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Baby Girls' and Toddler Pull on Chambray Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/91s4rxObM4L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/91s4rxObM4L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45843,7 +45843,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Boys' Uniform Quick Dry Jogger Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81hrB+pP0eL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81hrB+pP0eL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45876,7 +45876,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Solid Bike Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71MxYQA3QkL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71MxYQA3QkL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45909,7 +45909,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Boys' Pull on Cargo Pants — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71917uJe5nL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71917uJe5nL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45942,7 +45942,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Boys' Straight Leg Jeans — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/911EZ2IUsaL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/911EZ2IUsaL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -45975,7 +45975,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Unicorns,Butterfly Short Sleeve Graphic T-Shirts, 3 Pack — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/7121hTmElfL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/7121hTmElfL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46008,7 +46008,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Kids' Clothing",
     gender: "unisex",
     description: "The Children's Place Girls' Denim Bermuda Shorts — kids' clothing tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/91J7TysMwqL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/91J7TysMwqL._AC_UL1200_.jpg",
     colors: [
       "Denim"
     ],
@@ -46043,7 +46043,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Nate Quartz Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46076,7 +46076,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Women's Riley Quartz Stainless Steel Multifunction Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71HAooNcaYL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71HAooNcaYL._AC_UL1200_.jpg",
     colors: [
       "Multi"
     ],
@@ -46111,7 +46111,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Neutra Quartz Stainless Steel Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/714AEIyeizL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/714AEIyeizL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46144,7 +46144,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Women's Raquel Quartz Stainless Steel Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61LY38tKASL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61LY38tKASL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46177,7 +46177,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Neutra Quartz Stainless Steel Chronograph Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/713qy8eBfsL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/713qy8eBfsL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46210,7 +46210,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Neutra Quartz Stainless Steel Chronograph Watch (3) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71Qck57ImqL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Qck57ImqL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46243,7 +46243,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71WAr6TSVKL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71WAr6TSVKL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46276,7 +46276,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Coachman Quartz Chronograph Leather Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71MlmOso55L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71MlmOso55L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46309,7 +46309,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Coachman Quartz Chronograph Leather Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81hmv3QuQfL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81hmv3QuQfL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46342,7 +46342,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Grant Quartz Chronograph Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/818lBoWqXtL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/818lBoWqXtL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46375,7 +46375,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/81sLG+YEFqL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/81sLG+YEFqL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46408,7 +46408,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Dean Quartz Stainless Steel Chronograph Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71QoSMBhfVL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71QoSMBhfVL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46441,7 +46441,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Minimalist Quartz Stainless Steel Three-Hand Watch (3) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/51NYPwjoHhL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/51NYPwjoHhL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46474,7 +46474,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Carraway Quartz Stainless Steel Three-Hand Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71R9UXW6d3L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71R9UXW6d3L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46507,7 +46507,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Women's Carlie Watch and Bracelet Set — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61Cx7A+Yy4L._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61Cx7A+Yy4L._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46540,7 +46540,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Machine Quartz Stainless Steel Three-Hand Watch — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71phfGfh8GL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71phfGfh8GL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46573,7 +46573,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Grant Quartz Chronograph Watch (3) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/713EyiqlnTL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/713EyiqlnTL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46606,7 +46606,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Men's Nate Quartz Chronograph Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [
@@ -46639,7 +46639,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Watches",
     gender: "unisex",
     description: "Fossil Women's Raquel Quartz Stainless Steel Watch (2) — watches tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "https://m.media-amazon.com/images/I/61LY38tKASL._AC_UL320_.jpg",
+    image: "https://m.media-amazon.com/images/I/61LY38tKASL._AC_UL1200_.jpg",
     colors: [],
     sizes: [],
     tags: [

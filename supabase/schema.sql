@@ -87,6 +87,18 @@ create table offers (
 );
 create index offers_product_slug_idx on offers(product_slug);
 create index offers_store_idx on offers(store);
+-- (product_slug, store) alone is NOT unique in this catalog: a product can
+-- legitimately have multiple offers from the same store when several CSV
+-- rows sharing one product name (different colorways/SKUs, e.g. two Air
+-- Force 1 colorways both from "nike-store") get grouped into one product by
+-- scripts/import-products.ts — each keeps its own product_url. Including
+-- product_url in the key is what actually identifies a distinct listing;
+-- scripts/seed-supabase.ts upserts on this triple instead of deleting and
+-- reinserting every offer on every run. (A one-time cleanup removed ~124
+-- pre-existing rows that had no real product_url and were pure duplicate
+-- noise from the old delete+reinsert seeding — see git history if this
+-- index creation ever fails again with a conflict, that's the class of bug.)
+create unique index offers_product_slug_store_url_key on offers(product_slug, store, product_url);
 
 -- ---------------------------------------------------------------------------
 -- deals (hand-curated marketing deal cards)
@@ -176,13 +188,44 @@ create table if not exists reviews (
 create index if not exists reviews_product_slug_idx on reviews(product_slug);
 
 -- ---------------------------------------------------------------------------
+-- admin_users / is_admin() — the admin-role mechanism the write policies
+-- below check against. A request must be both authenticated via Supabase
+-- Auth AND have a row here to insert/update/delete offers, deals or
+-- sale_events. There is deliberately no public read or write policy on this
+-- table itself (see the RLS section below) — the only way to query it is
+-- through the security-definer function, or the service-role key.
+--
+-- To make someone an admin: sign them up/in once via Supabase Auth (e.g.
+-- through the admin login screen), then insert their auth.users id here —
+-- `insert into admin_users (user_id) values ('<their-auth-uid>');` — using
+-- the service-role key or the SQL Editor (both bypass RLS).
+-- ---------------------------------------------------------------------------
+create table if not exists admin_users (
+  user_id uuid primary key references auth.users(id) on delete cascade,
+  created_at timestamptz not null default now()
+);
+alter table admin_users enable row level security;
+
+create or replace function is_admin()
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (select 1 from admin_users where user_id = auth.uid());
+$$;
+
+-- ---------------------------------------------------------------------------
 -- Row Level Security
 --
--- Public (anon key) can read everything, and — for now, since the admin
--- dashboard has no real authentication yet — can also write to the tables
--- the admin dashboard edits. Tighten the write policies (e.g. restrict to
--- an authenticated `admin` role) before deploying the admin app anywhere
--- publicly reachable.
+-- Public (anon key) can read everything. Writes to offers/deals/sale_events
+-- require an authenticated user who also passes is_admin() (see above) —
+-- this used to be a wide-open `using (true) with check (true)` policy with
+-- no `to` role restriction, meaning ANY holder of the public anon key (which
+-- ships in every page load, so this was a real vulnerability, not just a
+-- theoretical one) could insert/update/delete directly against the REST API
+-- with no login at all. See docs/shared-context.md for the cross-repo note.
 -- ---------------------------------------------------------------------------
 alter table brands enable row level security;
 alter table stores enable row level security;
@@ -204,15 +247,24 @@ begin
   end loop;
 end $$;
 
--- Writes: only offers, deals and sale_events are edited from the admin UI today.
+-- Writes: only offers, deals and sale_events are edited from the admin UI —
+-- insert/update/delete all require to authenticated + is_admin(). No public
+-- (anon) write policy exists on any of the three, so anon has zero write
+-- access, including delete, without a fallback "public write" policy layered
+-- underneath (Postgres RLS policies are OR'd, so a leftover permissive
+-- policy would have silently defeated this — make sure both drops below
+-- actually run, not just the "create policy" lines).
 drop policy if exists "public write" on offers;
-create policy "public write" on offers for all using (true) with check (true);
+drop policy if exists "admin write" on offers;
+create policy "admin write" on offers for all to authenticated using (is_admin()) with check (is_admin());
 
 drop policy if exists "public write" on deals;
-create policy "public write" on deals for all using (true) with check (true);
+drop policy if exists "admin write" on deals;
+create policy "admin write" on deals for all to authenticated using (is_admin()) with check (is_admin());
 
 drop policy if exists "public write" on sale_events;
-create policy "public write" on sale_events for all using (true) with check (true);
+drop policy if exists "admin write" on sale_events;
+create policy "admin write" on sale_events for all to authenticated using (is_admin()) with check (is_admin());
 
 -- Reviews: any shopper can post one; nobody (not even the anon key) can edit
 -- or delete someone else's — there's no "public write" policy here, only

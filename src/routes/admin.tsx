@@ -1,5 +1,6 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
+import type { Session } from "@supabase/supabase-js";
 import { toast } from "sonner";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DealBadge } from "@/components/DealBadge";
@@ -20,6 +21,33 @@ import { fromUsd, toUsd, useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { supabase } from "@/lib/supabase";
 
+/**
+ * Tracks the signed-in Supabase Auth session so the dashboard can gate
+ * writes behind actually being logged in. `undefined` = still checking the
+ * initial session, `null` = confirmed signed out. Being signed in isn't
+ * sufficient on its own for offers/deals/sale_events writes to succeed —
+ * RLS also requires the account to be listed in `admin_users` (see
+ * supabase/schema.sql and docs/shared-context.md) — this hook only knows
+ * about the auth half, and a write attempt from a signed-in-but-not-admin
+ * account will fail with a normal Supabase error surfaced via the existing
+ * toast.error() calls in ProductRow/DealRow below.
+ */
+function useAdminSession(): Session | null | undefined {
+  const [session, setSession] = useState<Session | null | undefined>(undefined);
+  useEffect(() => {
+    if (!supabase) {
+      setSession(null);
+      return;
+    }
+    supabase.auth.getSession().then(({ data }) => setSession(data.session));
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, next) => setSession(next));
+    return () => subscription.unsubscribe();
+  }, []);
+  return session;
+}
+
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
@@ -36,6 +64,88 @@ const availabilityOptions: Offer["availability"][] = ["IN STOCK", "LOW STOCK", "
 const dealStatusOptions: DealStatus[] = ["ACTIVE", "UPCOMING", "EXPIRED", "SOLD OUT", "PAUSED"];
 
 function AdminPage() {
+  const session = useAdminSession();
+
+  if (session === undefined) {
+    return <div className="mx-auto max-w-7xl px-6 py-24 text-center text-sm text-muted-foreground">Loading…</div>;
+  }
+  if (!session) {
+    return <AdminLogin />;
+  }
+  return <AdminDashboard session={session} />;
+}
+
+/** Minimal email/password gate — real Supabase Auth, matching the sibling admin-panel repo's login flow. */
+function AdminLogin() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+
+  const submit = async (e: FormEvent) => {
+    e.preventDefault();
+    if (!supabase) {
+      toast.error("Supabase isn't configured — set VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY.");
+      return;
+    }
+    setSubmitting(true);
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    setSubmitting(false);
+    if (error) toast.error(error.message);
+  };
+
+  return (
+    <div className="mx-auto flex max-w-sm flex-col px-6 py-24">
+      <p className="editorial-eyebrow">Internal</p>
+      <h1 className="mt-3 text-3xl">Admin sign in</h1>
+      <p className="mt-2 text-sm text-muted-foreground">
+        Sign in with an admin account to manage prices, deals and sale events.
+      </p>
+      <form onSubmit={submit} className="mt-8 space-y-4">
+        <div>
+          <label htmlFor="admin-email" className="editorial-eyebrow mb-2 block">
+            Email
+          </label>
+          <input
+            id="admin-email"
+            type="email"
+            autoComplete="username"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay"
+          />
+        </div>
+        <div>
+          <label htmlFor="admin-password" className="editorial-eyebrow mb-2 block">
+            Password
+          </label>
+          <input
+            id="admin-password"
+            type="password"
+            autoComplete="current-password"
+            required
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            className="w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay"
+          />
+        </div>
+        <button
+          type="submit"
+          disabled={submitting}
+          className="w-full rounded-sm bg-primary px-5 py-2.5 text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          {submitting ? "Signing in…" : "Sign in"}
+        </button>
+      </form>
+      <p className="mt-6 text-xs text-muted-foreground">
+        Signing in isn't enough on its own to save changes — the account also needs to be listed in the{" "}
+        <code>admin_users</code> table (see <code>docs/shared-context.md</code>).
+      </p>
+    </div>
+  );
+}
+
+function AdminDashboard({ session }: { session: Session }) {
   const [tab, setTab] = useState<(typeof tabs)[number]>("Products");
   const [q, setQ] = useState("");
   const { format } = useCurrency();
@@ -78,8 +188,9 @@ function AdminPage() {
         <div>
           <p className="editorial-eyebrow">Internal · mockup</p>
           <h1 className="mt-3 text-4xl">Catalogue Management</h1>
+          <p className="mt-1 text-xs text-muted-foreground">Signed in as {session.user.email}</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           {tabs.map((t) => (
             <button
               key={t}
@@ -92,6 +203,13 @@ function AdminPage() {
               {t}
             </button>
           ))}
+          <button
+            type="button"
+            onClick={() => supabase?.auth.signOut()}
+            className="rounded-sm border px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] hover:border-clay"
+          >
+            Sign out
+          </button>
         </div>
       </header>
 

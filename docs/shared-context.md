@@ -17,7 +17,7 @@ what caused real bugs before (see "History" at the bottom).
 |---|---|---|
 | Purpose | Public storefront (search, compare prices, deals, coupons, sales calendar) | Internal CRUD dashboard for the catalog |
 | Framework | TanStack Start, file routes in `src/routes/` | TanStack Start (separate app/repo), routes in `src/routes/admin/*` |
-| Auth | None (public) | Real Supabase Auth (`supabase.auth.signInWithPassword`, see `src/lib/auth.ts`) — login screen at `/login` |
+| Auth | None on the public storefront; the legacy `/admin` route now requires Supabase Auth + `admin_users` membership to write (see RLS section below) — login gate lives inline in `src/routes/admin.tsx` | Real Supabase Auth (`supabase.auth.signInWithPassword`, see `src/lib/auth.ts`) — login screen at `/login` |
 | Reads Supabase via | `src/lib/supabase.ts` (anon key) + `src/lib/live-catalog.ts` (realtime → mutates static in-memory arrays) | `src/lib/data.ts` (anon key, `useSyncExternalStore`-based store, full CRUD helpers) |
 | Legacy admin route | `src/routes/admin.tsx` — a lightweight, older, *read-mostly* dashboard baked into the site itself (edits price/availability directly). **The admin panel repo is the actively developed one; treat the in-site `/admin` route as legacy** and prefer changing the admin panel repo unless told otherwise. | — |
 
@@ -88,27 +88,51 @@ Closed set — Postgres will reject anything else:
 
 ## Row Level Security — current live state
 
-Verified empirically against the live project (not just read from a schema
-file, since both repos' SQL scripts have independently touched policies over
-time and could drift from what's on disk):
+**Updated 2026-09 — this used to describe a wide-open write gap; it's now
+fixed. Read this whole section before assuming anon-key writes still work
+anywhere, in either repo.**
 
-- **Read**: `anon` key can read all 7 tables.
-- **Write**: `anon` key can currently **insert/update/delete on all 7 tables**
-  (a broad `"public write" ... using (true) with check (true)` policy, with no
-  `to` role restriction, exists on every table — Postgres RLS is
-  permissive/OR'd, so this alone grants anon full write access regardless of
-  any narrower `to authenticated` policies layered on top).
-- The admin panel repo *also* has narrower `to authenticated` insert/update/delete
-  policies (`src/scripts/rls-policies.sql`, `restore-products-rls.sql`) —
-  these are currently redundant with the wide-open anon policy, not a
-  replacement for it. **If real access control is ever wanted, the wide-open
-  `"public write"` policy must be dropped**, not just have `authenticated`
-  policies added alongside it — right now anyone with the public anon key
-  (which ships in both apps' client bundles) can write to every table with or
-  without logging in.
-- This is a known, accepted gap for now (no public deployment yet) — flagged
-  here so neither repo "fixes" only its own half and assumes the DB is locked
-  down.
+- **Read**: `anon` key can read all 8 tables (`brands`, `stores`, `products`,
+  `offers`, `deals`, `sale_events`, `coupons`, `reviews`) — unchanged, still
+  fully public.
+- **Write on `offers`/`deals`/`sale_events`**: the previous wide-open
+  `"public write" ... using (true) with check (true)` policy (no `to` role
+  restriction — meaning **any** holder of the public anon key, which ships in
+  every page load of both apps, could insert/update/delete directly against
+  the REST API with no login at all) **has been dropped**. Both tables now
+  carry a single `"admin write" ... for all to authenticated using
+  (is_admin()) with check (is_admin())` policy instead — a request must be
+  both an authenticated Supabase Auth user *and* have a row in the new
+  `admin_users` table to write at all (insert, update, **or** delete — there
+  is no separate, looser delete policy).
+- **`is_admin()`**: a `security definer` SQL function
+  (`exists (select 1 from admin_users where user_id = auth.uid())`) — this is
+  what the write policies above check. `admin_users` itself (`user_id uuid
+  primary key references auth.users(id)`) has RLS enabled with **no** public
+  read or write policy; the only way to query or modify it is through
+  `is_admin()` or the service-role key.
+- **Making someone an admin** (do this in the Supabase SQL Editor, or via a
+  service-role script — RLS blocks the anon/authenticated roles from doing it
+  themselves, on purpose): have them sign up/in once via Supabase Auth (either
+  app's login flow works, same project), then
+  `insert into admin_users (user_id) values ('<their-auth-uid>');`.
+- **`reviews`** keeps its own narrower **insert-only** public policy (anyone
+  can post a review, nobody — not even the anon key — can edit/delete someone
+  else's) — unaffected by this change, listed here for completeness.
+- `products`, `brands`, `stores`, `coupons` have **no** write policy for
+  either `anon` or `authenticated` — only the service-role key can write to
+  them (used by `scripts/seed-supabase.ts` in the site repo).
+- The admin panel repo's own `to authenticated` policies
+  (`src/scripts/rls-policies.sql`, `restore-products-rls.sql`) are no longer
+  redundant now that the permissive policy under them is gone — **but if
+  those files grant write access to *every* authenticated user rather than
+  checking `is_admin()`, they need to be updated to match this**, or the
+  admin-role gate can still be bypassed by anyone who signs up for an account
+  without being added to `admin_users`. Check this before assuming the fix is
+  complete on that side.
+- Source of truth for the actual table/policy DDL is the site repo's
+  `supabase/schema.sql` (the `admin_users`/`is_admin()`/policy definitions
+  live there) — re-run it in the Supabase SQL Editor to apply.
 
 ## Realtime
 
@@ -149,8 +173,14 @@ run — policies here have drifted from file history at least once already
 - Site originally shipped `offers`/`deals`/`sale_events` with `anon`-writable
   RLS ("no real admin auth yet"). The admin panel repo later added real
   Supabase Auth + its own `to authenticated` policies, intending to tighten
-  this — but the original wide-open policy was never dropped, so it's still
-  wide open in practice (see RLS section above).
+  this — but the original wide-open policy was never dropped, so it stayed
+  wide open in practice for a long time. **Fixed 2026-09**: the wide-open
+  policy is dropped, an `admin_users` table + `is_admin()` function were
+  added, and `offers`/`deals`/`sale_events` now require `to authenticated`
+  *and* `is_admin()` to write at all (see RLS section above). The site's
+  legacy `/admin` route was also updated to actually sign in via Supabase
+  Auth before attempting any write, instead of writing straight through the
+  anon-key client with no auth flow.
 - `products` was originally **not** in the realtime publication; the admin
   panel's `src/scripts/enable-products-realtime.sql` added it after
   discovering products created in the admin panel never appeared live on the

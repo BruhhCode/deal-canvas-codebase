@@ -75,6 +75,76 @@ async function upsertInBatches<T extends Record<string, unknown>>(
   console.log(`  ${table}: upserted ${done} row(s)`);
 }
 
+type OfferRow = {
+  product_slug: string;
+  store: string;
+  product_url: string;
+  [key: string]: unknown;
+};
+
+/**
+ * `offers` has no single-column natural key, and (product_slug, store) alone
+ * isn't unique either — a product can have multiple offers from the same
+ * store (different colorway/SKU rows grouped under one product name, e.g.
+ * two Nike Air Force 1 colorways both from "nike-store"). product_url is
+ * what actually distinguishes those, so this upserts on the
+ * (product_slug, store, product_url) triple — backed by the
+ * `offers_product_slug_store_url_key` unique index in supabase/schema.sql —
+ * instead of the old delete-everything-then-reinsert. That means a
+ * Realtime-subscribed client (src/lib/live-catalog.ts) never sees a
+ * still-current offer flash to "gone" mid-seed; only offers actually removed
+ * from the source data get an explicit DELETE, scoped to just those rows.
+ */
+async function upsertOffers(offerRows: OfferRow[]) {
+  const existingKeys = new Set<string>();
+  const PAGE = 1000;
+  for (let from = 0; ; from += PAGE) {
+    const { data, error } = await supabase
+      .from("offers")
+      .select("product_slug, store, product_url")
+      .range(from, from + PAGE - 1);
+    if (error) throw new Error(`offers (read existing): ${error.message}`);
+    for (const r of data as { product_slug: string; store: string; product_url: string }[]) {
+      existingKeys.add(`${r.product_slug}::${r.store}::${r.product_url}`);
+    }
+    if (data.length < PAGE) break;
+  }
+
+  const newKeys = new Set(offerRows.map((o) => `${o.product_slug}::${o.store}::${o.product_url}`));
+
+  let done = 0;
+  for (let i = 0; i < offerRows.length; i += 500) {
+    const batch = offerRows.slice(i, i + 500);
+    const { error } = await supabase.from("offers").upsert(batch, { onConflict: "product_slug,store,product_url" });
+    if (error) throw new Error(`offers (upsert): ${error.message}`);
+    done += batch.length;
+  }
+  console.log(`  offers: upserted ${done} row(s)`);
+
+  const stale = [...existingKeys]
+    .filter((k) => !newKeys.has(k))
+    .map((k) => {
+      const [product_slug, store, product_url] = k.split("::") as [string, string, string];
+      return { product_slug, store, product_url };
+    });
+  if (stale.length) {
+    // product_slug/store are machine-generated slugs (lowercase alnum + dashes)
+    // and always safe to inline into a PostgREST `.or()` filter unquoted;
+    // product_url is real scraped text, so it's quoted to survive commas,
+    // parens or other filter-syntax characters that show up in real URLs.
+    const quote = (v: string) => `"${v.replace(/"/g, '\\"')}"`;
+    for (let i = 0; i < stale.length; i += 100) {
+      const chunk = stale.slice(i, i + 100);
+      const filter = chunk
+        .map((s) => `and(product_slug.eq.${s.product_slug},store.eq.${s.store},product_url.eq.${quote(s.product_url)})`)
+        .join(",");
+      const { error } = await supabase.from("offers").delete().or(filter);
+      if (error) throw new Error(`offers (delete stale): ${error.message}`);
+    }
+    console.log(`  offers: removed ${stale.length} stale row(s)`);
+  }
+}
+
 async function main() {
   console.log("Loading static catalog via Vite SSR...");
   const { brands, deals, coupons, stores, products, saleEvents } = await loadCatalog();
@@ -149,12 +219,7 @@ async function main() {
       sponsored: !!o.sponsored,
     })),
   );
-  // offers has no natural unique key to upsert on — clear and re-insert so re-runs don't duplicate.
-  {
-    const { error } = await supabase.from("offers").delete().neq("product_slug", "");
-    if (error) throw new Error(`offers (clear): ${error.message}`);
-  }
-  await upsertInBatches("offers", offerRows);
+  await upsertOffers(offerRows);
 
   await upsertInBatches(
     "deals",

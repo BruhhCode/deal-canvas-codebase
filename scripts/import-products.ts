@@ -367,6 +367,40 @@ function buildProduct(group: Group, index: number): Product {
   };
 }
 
+/**
+ * `slug` is the Supabase primary key for `products` — two different groups
+ * producing the same slug (e.g. names that only differ by case, like "Samba
+ * OG Shoes" vs "Samba Og Shoes") has already caused duplicate-key failures
+ * at seed time twice, fixed by hand both times. Mutates `p.slug` in place on
+ * the second+ occurrence, appending -2/-3/... (the same convention already
+ * used for the hand fixes), and logs every collision it resolves. Only
+ * disambiguates collisions *within this import batch* — a freshly-imported
+ * slug matching an existing on-disk product is left alone, since that's the
+ * normal "update this product" case the merge step below relies on; the
+ * `existingSlugs` check only keeps a chosen `-N` suffix from colliding with
+ * an unrelated existing product.
+ */
+function dedupeSlugs(imported: Product[], existing: Product[]): void {
+  const existingSlugs = new Set(existing.map((p) => p.slug));
+  const seen = new Set<string>();
+  for (const p of imported) {
+    if (seen.has(p.slug)) {
+      const original = p.slug;
+      let n = 2;
+      let candidate = `${original}-${n}`;
+      while (seen.has(candidate) || existingSlugs.has(candidate)) {
+        n++;
+        candidate = `${original}-${n}`;
+      }
+      console.warn(
+        `Warning: duplicate slug "${original}" for "${p.name}" (brand "${p.brand}") — renamed to "${candidate}".`,
+      );
+      p.slug = candidate;
+    }
+    seen.add(p.slug);
+  }
+}
+
 /* ---------------- codegen ---------------- */
 
 function toSource(products: Product[]): string {
@@ -429,6 +463,8 @@ async function main() {
   const imported = groups.map(buildProduct);
 
   const existing = await loadExistingProducts(outPath);
+  dedupeSlugs(imported, existing);
+
   const importedSlugs = new Set(imported.map((p) => p.slug));
   const untouched = existing.filter((p) => !importedSlugs.has(p.slug) && !replaceBrands.has(p.brand));
   const merged = [...untouched, ...imported];

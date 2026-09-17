@@ -44,9 +44,24 @@ function isH3SwallowedErrorBody(body: string): boolean {
   }
 }
 
+// This site has no admin UI — that lives in a separate repo/deployment now
+// (see docs/shared-context.md). Intercept /admin here, before the request
+// ever reaches the router/SPA, so it gets a bare empty 404 instead of the
+// app's normal branded not-found page (no HTML, no Header/Footer, nothing
+// rendered at all) — not because a generic 404 would leak anything (it
+// wouldn't; every other unmatched path already gets the same page), but
+// because this was explicitly requested for this exact path.
+function isBlockedAdminPath(pathname: string): boolean {
+  return pathname === "/admin" || pathname.startsWith("/admin/");
+}
+
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
     try {
+      const { pathname } = new URL(request.url);
+      if (isBlockedAdminPath(pathname)) {
+        return new Response(null, { status: 404 });
+      }
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);
       return await normalizeCatastrophicSsrResponse(response);

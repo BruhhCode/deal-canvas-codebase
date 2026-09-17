@@ -1,14 +1,15 @@
 # DealsCanvas
 
 > **Cross-repo note**: this site shares one Supabase project with a separate
-> repo, `Deal canvas admin panel` (the actively developed admin dashboard —
-> the `admin.tsx` route in *this* repo is a legacy/lightweight one). The DB
-> schema, RLS state, realtime config, and pricing contract both repos must
+> repo, `Deal canvas admin panel` (the actively developed admin dashboard,
+> deployed at https://deal-canvas-admin-panel.vercel.app — this repo has
+> **no admin UI of its own**; the two apps are deliberately not merged). The
+> DB schema, RLS state, realtime config, and pricing contract both repos must
 > agree on live in **[`docs/shared-context.md`](docs/shared-context.md)** —
 > read it before touching anything Supabase-related, and update it in both
 > repos together if you change the contract.
 
-A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack Start** (React 19, file-based routing via `@tanstack/react-router`) + **Vite** + **Tailwind v4**. It lets shoppers search/compare prices for the same product across multiple stores, browse curated deals/coupons/sale events, and now has a real-time admin dashboard backed by **Supabase**.
+A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack Start** (React 19, file-based routing via `@tanstack/react-router`) + **Vite** + **Tailwind v4**. It lets shoppers search/compare prices for the same product across multiple stores, browse curated deals/coupons/sale events, and stays in sync with the separate admin panel's edits via **Supabase Realtime**.
 
 ## Stack
 
@@ -23,7 +24,8 @@ A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack St
 ```
 src/
   routes/            file-based routes (index, shop, product.$slug, brand.$slug, brands, store.$slug,
-                      deal.$slug, deals, sales-calendar, admin, ...)
+                      deal.$slug, deals, sales-calendar, ...) — no admin route; that lives in the
+                      separate admin-panel repo (see cross-repo note above)
   components/         Header, Footer, ProductCard, PriceCompare, DealCard, ProductGallery,
                       ProductReviews, etc. + components/ui (shadcn)
   data/
@@ -69,14 +71,14 @@ The scraped/imported catalog's `id` field (e.g. `"PI-0081"`) is **not globally u
 
 ### Why / what
 
-The admin dashboard (`src/routes/admin.tsx`) needs to edit prices/availability/deal status and have those changes appear on the live site **instantly, without a page refresh** — real Supabase Realtime subscriptions, not per-request polling.
+The separate admin panel repo edits prices/availability/deal status, and this site needs those changes to appear **instantly, without a page refresh** — real Supabase Realtime subscriptions, not per-request polling.
 
 ### Credentials & env vars
 
 - `.env` (git-ignored, never commit) holds:
   - `VITE_SUPABASE_URL`
   - `VITE_SUPABASE_ANON_KEY` — safe for the browser, used by `src/lib/supabase.ts`.
-  - `SUPABASE_SERVICE_ROLE_KEY` — **server/script-only**, used only by `scripts/seed-supabase.ts`. Never prefix it with `VITE_`, never log it, never let it reach client bundles.
+  - `SUPABASE_SERVICE_ROLE_KEY` — **server/script-only**, used by `scripts/seed-supabase.ts` and `scripts/audit-product-links.ts` (any script writing to a table with no anon-writable RLS policy needs it). Never prefix it with `VITE_`, never log it, never let it reach client bundles.
 - `.env.example` documents the three keys with empty values.
 - `.gitignore` covers `.env` / `.env.*` (with `!.env.example` carved out).
 
@@ -84,12 +86,20 @@ The admin dashboard (`src/routes/admin.tsx`) needs to edit prices/availability/d
 
 Run once in the Supabase SQL Editor. Tables: `brands`, `stores` (kept, `create table if not exists`), `products`, `offers`, `deals`, `sale_events`, `coupons` (dropped + recreated on each run to guarantee they match the file exactly — earlier iterations hit stray FK dependencies from an unrelated pre-existing `deals` table in the same project, hence `cascade` on the drops), and `reviews` (kept, `create table if not exists` — shopper-submitted, so dropping it on every schema run would nuke real reviews).
 
-- RLS is **enabled on all 8 tables**.
-- **Read**: public (`anon` key) can read everything.
-- **Write**: public (`anon` key) can write to `offers`, `deals`, `sale_events` (full read/write/delete) — this is intentionally open right now because the admin dashboard has **no real authentication yet**. `schema.sql` has a comment flagging this. **Tighten these write policies (e.g. require an authenticated `admin` role) before deploying the admin app anywhere publicly reachable.**
-- `reviews` gets a narrower **insert-only** public policy instead of full "public write" — anyone can post a review, nobody (not even the anon key) can edit/delete someone else's.
+- RLS is **enabled on all 9 tables** (the 8 above plus `admin_users`).
+- **Read**: public (`anon` key) can read everything except `admin_users` (no public read policy on that one at all).
+- **Write**: `offers`, `deals`, `sale_events` require `to authenticated` + `is_admin()` — see "Admin auth & RLS lockdown" below. There is **no** public/anon write policy on these anymore.
+- `reviews` gets a narrower **insert-only** public policy — anyone can post a review, nobody (not even the anon key) can edit/delete someone else's.
 - `brands`, `stores`, `products` have no public-write policy at all — only readable by anon key. Writing to them (e.g. `scripts/seed-supabase.ts`, or deleting a bad row) requires the service-role key.
 - Realtime publication (`supabase_realtime`) includes `offers`, `deals`, `sale_events` (and `products`, added later for admin-created products — see `live-catalog.ts` below).
+
+#### Admin auth & RLS lockdown
+
+`offers`/`deals`/`sale_events` writes require BOTH a signed-in Supabase Auth user AND a row in `admin_users` (`user_id uuid references auth.users(id)`) — checked via the `is_admin()` security-definer SQL function, which the write policies call. There's no public read/write policy on `admin_users` itself, so the only way to grant someone admin access is with the service-role key or directly in the Supabase SQL Editor:
+```sql
+insert into admin_users (user_id) values ('<their-auth-uid>');
+```
+This replaced a previous wide-open `"public write" ... using (true) with check (true)` policy with no `to` role restriction — meaning the anon key (which ships in every page load) used to be able to write directly to those tables with no login at all. See `docs/shared-context.md`'s RLS section for the full history and the note to the sibling admin-panel repo about checking `is_admin()` in its own policies too, not just `to authenticated`.
 
 ### Seeding (`scripts/seed-supabase.ts`)
 
@@ -116,14 +126,11 @@ Several scraped image sources bake a low resolution into the URL itself (Adidas 
 
 ### Product link auditing (`scripts/audit-product-links.ts`)
 
-Live-checks every `offers.product_url` and blanks out ones that are confirmed dead (HTTP 404/410, DNS failure, connection refused, timeout) — doesn't add new fallback logic, just triggers the *existing* one (`offerAffiliateUrl()` in `src/data/products.ts` already sends shoppers to the brand homepage whenever `product_url` is empty or unparsable, see the gotcha below). Deliberately does **not** touch 403/429/5xx responses — several stores (Farfetch in particular) bot-block automated/headless requests inconsistently (the same URL can 200, 403, or 429 across consecutive requests), which looks identical to a dead link from a script's point of view but a real shopper's browser would likely still get through. Those are logged as "uncertain" and left untouched rather than risk sending a working link to the brand homepage instead. Defaults to a dry run (prints what it would change); pass `--apply` to actually write the fix. Writes through the anon key — `offers` already has a public-write RLS policy.
+Live-checks every `offers.product_url` and blanks out ones that are confirmed dead (HTTP 404/410, DNS failure, connection refused, timeout) — doesn't add new fallback logic, just triggers the *existing* one (`offerAffiliateUrl()` in `src/data/products.ts` already sends shoppers to the brand homepage whenever `product_url` is empty or unparsable, see the gotcha below). Deliberately does **not** touch 403/429/5xx responses — several stores (Farfetch in particular) bot-block automated/headless requests inconsistently (the same URL can 200, 403, or 429 across consecutive requests), which looks identical to a dead link from a script's point of view but a real shopper's browser would likely still get through. Those are logged as "uncertain" and left untouched rather than risk sending a working link to the brand homepage instead. Defaults to a dry run (prints what it would change); pass `--apply` to actually write the fix. Writes through the **service-role** key — `offers` requires `to authenticated` + `is_admin()` to write now (see the RLS note above), so the anon key this originally used no longer works.
 
-### Admin dashboard (`src/routes/admin.tsx`)
+### No admin UI in this repo
 
-- Products tab: `ProductRow` edits a product's best offer's price + availability, writes via `supabase.from("offers").update({ price: fromUsd(...), availability }).eq("product_slug", p.slug).eq("store", offer.store)`.
-- Deals tab: `DealRow` edits price + status, writes via `supabase.from("deals").update({ price: fromUsd(...), status }).eq("id", d.id)`.
-- Both show a toast on success/failure and disable Save until the row is actually dirty.
-- **No real authentication exists on this route today** — it's reachable by anyone who finds the URL, and (per the RLS note above) anyone with the anon key can write directly to `offers`/`deals`/`sale_events` even without going through the UI. Do not deploy this publicly as-is.
+There is deliberately no `/admin` route or dashboard here — this repo is the public storefront only. Catalog/price/deal editing happens entirely in the separate `Deal canvas admin panel` repo (https://deal-canvas-admin-panel.vercel.app), which writes to the same Supabase project this site reads from via `live-catalog.ts`. A lightweight `src/routes/admin.tsx` used to exist in this repo (writing straight to Supabase with the anon key, no auth) but was removed once the real admin panel repo took over that job — **don't re-add an admin route here**, per explicit instruction; if you need to inspect/edit catalog data, do it in the admin panel repo or directly in Supabase.
 
 ## Known gotchas / history worth knowing before touching this area
 
@@ -136,4 +143,4 @@ Live-checks every `offers.product_url` and blanks out ones that are confirmed de
 ## Verification habits used on this project
 
 - Any non-trivial Supabase/data change gets checked with a small throwaway script (service-role key, run via `npx tsx`) rather than trusted on faith — e.g. confirming a write round-trips through Realtime within a few seconds, confirming RLS still allows the exact read/write shape the app uses. These scripts are deleted immediately after use (`scripts/tmp-*.ts` is the convention) — they should never be committed.
-- `npx tsc --noEmit` after any TypeScript change touching `live-catalog.ts`, `admin.tsx`, or the currency helpers.
+- `npx tsc --noEmit` after any TypeScript change touching `live-catalog.ts`, `supabase.ts`, or the currency helpers.

@@ -17,15 +17,16 @@ what caused real bugs before (see "History" at the bottom).
 |---|---|---|
 | Purpose | Public storefront (search, compare prices, deals, coupons, sales calendar) | Internal CRUD dashboard for the catalog |
 | Framework | TanStack Start, file routes in `src/routes/` | TanStack Start (separate app/repo), routes in `src/routes/admin/*` |
-| Auth | None on the public storefront; the legacy `/admin` route now requires Supabase Auth + `admin_users` membership to write (see RLS section below) — login gate lives inline in `src/routes/admin.tsx` | Real Supabase Auth (`supabase.auth.signInWithPassword`, see `src/lib/auth.ts`) — login screen at `/login` |
+| Auth | None — this repo has **no admin UI of its own** | Real Supabase Auth (`supabase.auth.signInWithPassword`, see `src/lib/auth.ts`) — login screen at `/login`, deployed at https://deal-canvas-admin-panel.vercel.app |
 | Reads Supabase via | `src/lib/supabase.ts` (anon key) + `src/lib/live-catalog.ts` (realtime → mutates static in-memory arrays) | `src/lib/data.ts` (anon key, `useSyncExternalStore`-based store, full CRUD helpers) |
-| Legacy admin route | `src/routes/admin.tsx` — a lightweight, older, *read-mostly* dashboard baked into the site itself (edits price/availability directly). **The admin panel repo is the actively developed one; treat the in-site `/admin` route as legacy** and prefer changing the admin panel repo unless told otherwise. | — |
+
+**No merged/duplicate admin UI**: this repo previously had a lightweight `src/routes/admin.tsx` (writes straight to Supabase, briefly gated behind Supabase Auth + `admin_users` before being removed entirely) — it has been **deleted on purpose**, now that the admin panel repo is live and actively developed. Catalog/price/deal editing happens only in the admin panel repo; do not re-add an admin route to this one.
 
 Both apps use the **same Supabase project** (URL + anon key in each repo's
 `.env`, never committed — see `.env.example` in each repo). The **service-role
-key** exists only in the site repo's `.env`, used only by
-`scripts/seed-supabase.ts`, and must never be exposed to any browser bundle
-in either app.
+key** exists only in the site repo's `.env`, used by `scripts/seed-supabase.ts`
+and `scripts/audit-product-links.ts`, and must never be exposed to any browser
+bundle in either app.
 
 ## Pricing contract — legacy base unit (do not skip this)
 
@@ -178,9 +179,10 @@ run — policies here have drifted from file history at least once already
   policy is dropped, an `admin_users` table + `is_admin()` function were
   added, and `offers`/`deals`/`sale_events` now require `to authenticated`
   *and* `is_admin()` to write at all (see RLS section above). The site's
-  legacy `/admin` route was also updated to actually sign in via Supabase
-  Auth before attempting any write, instead of writing straight through the
-  anon-key client with no auth flow.
+  legacy `/admin` route was briefly updated to actually sign in via Supabase
+  Auth before attempting any write, then removed entirely once this Fixed
+  2026-09 note was written — the admin panel repo is the only admin UI now,
+  by explicit choice ("don't merge" the two).
 - `products` was originally **not** in the realtime publication; the admin
   panel's `src/scripts/enable-products-realtime.sql` added it after
   discovering products created in the admin panel never appeared live on the

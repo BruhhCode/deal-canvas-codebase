@@ -14,8 +14,9 @@
  * still get through — those are logged separately and left untouched rather
  * than risk sending working links to the brand homepage instead.
  *
- * Inserts/updates through the anon key — `offers` already has a public-write
- * RLS policy (the same one the admin dashboard uses).
+ * Writes through the service-role key — `offers` requires `to authenticated`
+ * + `is_admin()` to write (see supabase/schema.sql), so the anon key this
+ * script used before that lockdown no longer works here.
  *
  * Usage: npx tsx scripts/audit-product-links.ts [--apply]
  *   (no flag = dry run, prints what WOULD change; --apply writes the fix)
@@ -25,12 +26,12 @@ process.loadEnvFile?.();
 import { createClient } from "@supabase/supabase-js";
 
 const url = process.env.VITE_SUPABASE_URL;
-const anonKey = process.env.VITE_SUPABASE_ANON_KEY;
-if (!url || !anonKey) {
-  console.error("Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY in .env");
+const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+if (!url || !serviceKey) {
+  console.error("Missing VITE_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in .env");
   process.exit(1);
 }
-const supabase = createClient(url, anonKey, { auth: { persistSession: false } });
+const supabase = createClient(url, serviceKey, { auth: { persistSession: false } });
 
 const APPLY = process.argv.includes("--apply");
 const UA =

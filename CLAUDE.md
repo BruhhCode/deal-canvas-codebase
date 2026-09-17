@@ -22,12 +22,13 @@ A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack St
 
 ```
 src/
-  routes/            file-based routes (index, shop, product.$slug, brand.$slug, store.$slug,
+  routes/            file-based routes (index, shop, product.$slug, brand.$slug, brands, store.$slug,
                       deal.$slug, deals, sales-calendar, admin, ...)
-  components/         Header, Footer, ProductCard, PriceCompare, DealCard, etc. + components/ui (shadcn)
+  components/         Header, Footer, ProductCard, PriceCompare, DealCard, ProductGallery,
+                      ProductReviews, etc. + components/ui (shadcn)
   data/
     products.ts       Product/Offer types + helpers (bestOffer, filterProducts, sortProducts, ...)
-    products.generated.ts   ~1300+ products, auto-generated (see scripts/import-products.ts)
+    products.generated.ts   ~1360+ products, auto-generated (see scripts/import-products.ts)
     catalog.ts        Brand types, brands[], deals[], coupons[]
     stores.ts         Store type, stores[]
     deal-products.ts  affiliate URL helpers for deals
@@ -39,6 +40,9 @@ src/
 scripts/
   import-products.ts, enrich-products.ts, enrich-images.ts, normalize-categories.ts
                       generate/maintain src/data/products.generated.ts
+  upgrade-image-resolution.ts  rewrites low-res CDN image URLs to higher-res variants (re-runnable)
+  seed-reviews.ts     backfills ~5 product-specific reviews per product (re-runnable)
+  audit-product-links.ts  live-checks every offer's outbound URL, clears confirmed-dead ones
   seed-supabase.ts    pushes the static catalog into Supabase (re-runnable)
 supabase/
   schema.sql          full DB schema, RLS policies, realtime publication setup
@@ -59,7 +63,7 @@ supabase/
 The scraped/imported catalog's `id` field (e.g. `"PI-0081"`) is **not globally unique** — ids are reused across unrelated products from different source import files. `slug` is the reliable unique key (routing already keyed off it), so:
 - Supabase's `products` table has `slug` as primary key, with the old `id` renamed to `source_id`.
 - `offers.product_slug` (not `product_id`) is the FK into `products`.
-- One genuine duplicate slug was found and fixed by hand (`adidas-samba-og-shoes` → `...-2` for one of the two colliding products) — if you ever see a "duplicate key" error seeding `products`, look for this class of bug again.
+- This has happened twice for `adidas-samba-og-shoes` alone — two separate real products (different `id`, gender, subcategory) collided on the same slug, fixed by hand by renaming the extra one (`...-2`, then `...-3` for the next collision found). If you ever see a "duplicate key" error seeding `products`, grep `products.generated.ts` for duplicate `slug:` values and rename the extras — don't just retry the seed.
 
 ## Supabase integration
 
@@ -78,16 +82,24 @@ The admin dashboard (`src/routes/admin.tsx`) needs to edit prices/availability/d
 
 ### Schema (`supabase/schema.sql`)
 
-Run once in the Supabase SQL Editor. Tables: `brands`, `stores` (kept, `create table if not exists`), `products`, `offers`, `deals`, `sale_events`, `coupons` (dropped + recreated on each run to guarantee they match the file exactly — earlier iterations hit stray FK dependencies from an unrelated pre-existing `deals` table in the same project, hence `cascade` on the drops).
+Run once in the Supabase SQL Editor. Tables: `brands`, `stores` (kept, `create table if not exists`), `products`, `offers`, `deals`, `sale_events`, `coupons` (dropped + recreated on each run to guarantee they match the file exactly — earlier iterations hit stray FK dependencies from an unrelated pre-existing `deals` table in the same project, hence `cascade` on the drops), and `reviews` (kept, `create table if not exists` — shopper-submitted, so dropping it on every schema run would nuke real reviews).
 
-- RLS is **enabled on all 7 tables**.
+- RLS is **enabled on all 8 tables**.
 - **Read**: public (`anon` key) can read everything.
-- **Write**: public (`anon` key) can write to `offers`, `deals`, `sale_events` only — this is intentionally open right now because the admin dashboard has **no real authentication yet**. `schema.sql` has a comment flagging this. **Tighten these write policies (e.g. require an authenticated `admin` role) before deploying the admin app anywhere publicly reachable.**
+- **Write**: public (`anon` key) can write to `offers`, `deals`, `sale_events` (full read/write/delete) — this is intentionally open right now because the admin dashboard has **no real authentication yet**. `schema.sql` has a comment flagging this. **Tighten these write policies (e.g. require an authenticated `admin` role) before deploying the admin app anywhere publicly reachable.**
+- `reviews` gets a narrower **insert-only** public policy instead of full "public write" — anyone can post a review, nobody (not even the anon key) can edit/delete someone else's.
+- `brands`, `stores`, `products` have no public-write policy at all — only readable by anon key. Writing to them (e.g. `scripts/seed-supabase.ts`, or deleting a bad row) requires the service-role key.
 - Realtime publication (`supabase_realtime`) includes `offers`, `deals`, `sale_events` (and `products`, added later for admin-created products — see `live-catalog.ts` below).
 
 ### Seeding (`scripts/seed-supabase.ts`)
 
-`npx tsx scripts/seed-supabase.ts` — re-runnable. Loads `src/data/*` through a throwaway **Vite SSR dev server** (`vite.createServer` + `ssrLoadModule`), not plain Node/tsx, because those data files import image assets (`@/assets/*.jpg`) and use the `@` path alias, which plain Node can't resolve. Upserts everything in batches of 500; `offers` has no natural unique key so it's deleted-and-reinserted on each run instead of upserted.
+`npx tsx scripts/seed-supabase.ts` — re-runnable. Loads `src/data/*` through a throwaway **Vite SSR dev server** (`vite.createServer` + `ssrLoadModule`), not plain Node/tsx, because those data files import image assets (`@/assets/*.jpg`) and use the `@` path alias, which plain Node can't resolve. Upserts everything in batches of 500; `offers` has no natural unique key so it's deleted-and-reinserted on each run instead of upserted. Any edit to `products.generated.ts` (image URLs, a slug fix, etc.) only reaches the live site after this is re-run — the app reads from Supabase via `live-catalog.ts`, not the bundled file directly.
+
+### Reviews (`reviews` table, `src/components/ProductReviews.tsx`)
+
+Shopper-submitted ratings/reviews, rendered under "Similar Products" on every `/product/$slug` page. Read/write goes straight through the browser `supabase` client with the anon key (no admin gate) — `reviews` is the one table the public site itself writes to, via the insert-only RLS policy described above. `scripts/seed-reviews.ts` backfilled ~5 category-aware, product-specific reviews (4-5★ only) per product; it's re-runnable and skips products that already have 5+.
+
+**Not wired up**: the star rating shown at the top of the product page (next to the product name) comes from `products.rating`/`products.reviews` — a separate, static field seeded from the original catalog import, unrelated to the live `reviews` table. The two will show different numbers unless something explicitly recomputes `products.rating`/`reviews` from the real review rows (not done — would need the service-role key to write to `products`).
 
 ### Real-time sync (`src/lib/live-catalog.ts`)
 
@@ -97,6 +109,14 @@ The site's data layer is deeply synchronous/module-scope (`products`, `deals`, `
 - On mount it also does a one-time `hydrateFromSupabase()` pull of current DB state — Realtime only streams changes that happen *while subscribed*, so this catches anything added/edited while no browser tab was open (e.g. a product added in admin overnight), and self-heals drift generally.
 - `useCatalogVersion()` — a `useSyncExternalStore` hook — must be called by any component that renders live price/availability/deal/sale-event data, so React knows to re-render when a mutation lands. **Already wired into**: `ProductCard`, `PriceCompare`, `DealCard`, and the routes `shop`, `deals`, `sales-calendar`, `product.$slug`, `admin`, `index` (homepage compare section), `deal.$slug`. **If you add a new place that reads `.price`/`.availability`/deal fields directly (not through `ProductCard`/`PriceCompare`/`DealCard`), you must add `useCatalogVersion()` there too** — this exact gap caused a real bug once (homepage's "Same Product. Different Price." section and the deal detail page silently didn't update live because they read prices directly and had no hook call).
 - Handles out-of-order delivery: a product row and its first offer are written as two separate inserts with no ordering guarantee — `pendingProductsBySlug`/`pendingOffersBySlug` buffer whichever arrives first so a product is never published into the shared `products` array with zero offers (several consumers, e.g. `bestOffer`, assume every product has ≥1 offer and will throw on an empty array).
+
+### Image resolution (`scripts/upgrade-image-resolution.ts`)
+
+Several scraped image sources bake a low resolution into the URL itself (Adidas `w_280,h_280`, Amazon `._AC_UL320_`, Farfetch `_480.jpg`, SHEIN `thumbnail_405x552`, New Balance's `$pdpflexf2$` preset, Nike's `t_default` preset) — this rewrites each to a verified higher-res equivalent on the same CDN (each pattern was curl-checked by hand before being added). Re-runnable/idempotent; safe to re-run after `scripts/import-products.ts` brings in fresh low-res URLs. Only touches `products.generated.ts` — **must be followed by `npx tsx scripts/seed-supabase.ts`** to actually reach the live site. Deliberately does *not* touch ASOS (its CDN was unreachable from this environment for verification — better to leave it alone than guess) or hosts that were already serving full resolution (Zara, Shopify, Nordstrom, Nike's non-`t_default` images, Puma, H&M, Uniqlo, Mango, Gap, REI, Lululemon, boohoo, PrettyLittleThing).
+
+### Product link auditing (`scripts/audit-product-links.ts`)
+
+Live-checks every `offers.product_url` and blanks out ones that are confirmed dead (HTTP 404/410, DNS failure, connection refused, timeout) — doesn't add new fallback logic, just triggers the *existing* one (`offerAffiliateUrl()` in `src/data/products.ts` already sends shoppers to the brand homepage whenever `product_url` is empty or unparsable, see the gotcha below). Deliberately does **not** touch 403/429/5xx responses — several stores (Farfetch in particular) bot-block automated/headless requests inconsistently (the same URL can 200, 403, or 429 across consecutive requests), which looks identical to a dead link from a script's point of view but a real shopper's browser would likely still get through. Those are logged as "uncertain" and left untouched rather than risk sending a working link to the brand homepage instead. Defaults to a dry run (prints what it would change); pass `--apply` to actually write the fix. Writes through the anon key — `offers` already has a public-write RLS policy.
 
 ### Admin dashboard (`src/routes/admin.tsx`)
 
@@ -110,7 +130,8 @@ The site's data layer is deeply synchronous/module-scope (`products`, `deals`, `
 - Postgres reserved keyword: `sale_events.window` must stay quoted (`"window"`) in SQL.
 - `exactOptionalPropertyTypes: true` is on in `tsconfig` — optional fields typed as `field?: T` (not `T | undefined`) need conditional spreads (`...(x ? { field: x } : {})`), not `field: x ?? undefined`.
 - `import.meta.env.SOME_VAR` needs bracket notation (`import.meta.env["SOME_VAR"]`) under this TS config (TS4111).
-- Dead product links: `offerAffiliateUrl`/`dealAffiliateUrl` fall back to the brand homepage when a product's own affiliate link is unavailable/dead.
+- Dead product links: `offerAffiliateUrl`/`dealAffiliateUrl` fall back to the brand homepage when a product's own affiliate link is unavailable/dead — this only triggers when `product_url`/`merchantUrl` is empty or fails `new URL()` parsing, it doesn't live-check reachability. `scripts/audit-product-links.ts` is what actually finds dead links and clears the field so this fallback kicks in.
+- Admin-panel-created rows can silently duplicate: the separate admin panel repo has, at least once, created a near-duplicate `brands` row when editing a brand whose name has an apostrophe/ampersand (its slugify couldn't round-trip `Carter's`/`H&M`/`OshKosh B'gosh`/`The Children's Place`/`Armani`, so it inserted a new malformed-slug row — e.g. `h-m`/"H M" — instead of updating the existing one). These duplicates have `category: null` and zero products attached, which is how to distinguish them from a real second brand. Check `brands` for this pattern (case-insensitive name match, or a null `category`) if `/brands` ever looks cluttered.
 
 ## Verification habits used on this project
 

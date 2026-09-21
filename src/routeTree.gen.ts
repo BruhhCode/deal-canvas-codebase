@@ -15,6 +15,7 @@ import { Route as BrandsRouteImport } from './routes/brands'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CouponsRouteImport } from './routes/coupons'
 import { Route as DealsRouteImport } from './routes/deals'
+import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FlashDealsRouteImport } from './routes/flash-deals'
 import { Route as GuidesRouteImport } from './routes/guides'
 import { Route as SaleRouteImport } from './routes/sale'
@@ -27,6 +28,7 @@ import { Route as BrandSlugRouteImport } from './routes/brand.$slug'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as DealSlugRouteImport } from './routes/deal.$slug'
 import { Route as GuidesSlugRouteImport } from './routes/guides.$slug'
+import { Route as PagesSlugRouteImport } from './routes/pages.$slug'
 import { Route as ProductSlugRouteImport } from './routes/product.$slug'
 import { Route as SaleSlugRouteImport } from './routes/sale.$slug'
 import { Route as StoreSlugRouteImport } from './routes/store.$slug'
@@ -59,6 +61,11 @@ const CouponsRoute = CouponsRouteImport.update({
 const DealsRoute = DealsRouteImport.update({
   id: '/deals',
   path: '/deals',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqRoute = FaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FlashDealsRoute = FlashDealsRouteImport.update({
@@ -121,6 +128,11 @@ const GuidesSlugRoute = GuidesSlugRouteImport.update({
   path: '/$slug',
   getParentRoute: () => GuidesRoute,
 } as any)
+const PagesSlugRoute = PagesSlugRouteImport.update({
+  id: '/pages/$slug',
+  path: '/pages/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ProductSlugRoute = ProductSlugRouteImport.update({
   id: '/product/$slug',
   path: '/product/$slug',
@@ -144,6 +156,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
   '/deals': typeof DealsRoute
+  '/faq': typeof FaqRoute
   '/flash-deals': typeof FlashDealsRoute
   '/guides': typeof GuidesRouteWithChildren
   '/sale': typeof SaleRouteWithChildren
@@ -156,6 +169,7 @@ export interface FileRoutesByFullPath {
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
   '/guides/$slug': typeof GuidesSlugRoute
+  '/pages/$slug': typeof PagesSlugRoute
   '/product/$slug': typeof ProductSlugRoute
   '/sale/$slug': typeof SaleSlugRoute
   '/store/$slug': typeof StoreSlugRoute
@@ -167,6 +181,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
   '/deals': typeof DealsRoute
+  '/faq': typeof FaqRoute
   '/flash-deals': typeof FlashDealsRoute
   '/guides': typeof GuidesRouteWithChildren
   '/sale': typeof SaleRouteWithChildren
@@ -179,6 +194,7 @@ export interface FileRoutesByTo {
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
   '/guides/$slug': typeof GuidesSlugRoute
+  '/pages/$slug': typeof PagesSlugRoute
   '/product/$slug': typeof ProductSlugRoute
   '/sale/$slug': typeof SaleSlugRoute
   '/store/$slug': typeof StoreSlugRoute
@@ -191,6 +207,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
   '/deals': typeof DealsRoute
+  '/faq': typeof FaqRoute
   '/flash-deals': typeof FlashDealsRoute
   '/guides': typeof GuidesRouteWithChildren
   '/sale': typeof SaleRouteWithChildren
@@ -203,6 +220,7 @@ export interface FileRoutesById {
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
   '/guides/$slug': typeof GuidesSlugRoute
+  '/pages/$slug': typeof PagesSlugRoute
   '/product/$slug': typeof ProductSlugRoute
   '/sale/$slug': typeof SaleSlugRoute
   '/store/$slug': typeof StoreSlugRoute
@@ -216,6 +234,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/coupons'
     | '/deals'
+    | '/faq'
     | '/flash-deals'
     | '/guides'
     | '/sale'
@@ -228,6 +247,7 @@ export interface FileRouteTypes {
     | '/category/$slug'
     | '/deal/$slug'
     | '/guides/$slug'
+    | '/pages/$slug'
     | '/product/$slug'
     | '/sale/$slug'
     | '/store/$slug'
@@ -239,6 +259,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/coupons'
     | '/deals'
+    | '/faq'
     | '/flash-deals'
     | '/guides'
     | '/sale'
@@ -251,6 +272,7 @@ export interface FileRouteTypes {
     | '/category/$slug'
     | '/deal/$slug'
     | '/guides/$slug'
+    | '/pages/$slug'
     | '/product/$slug'
     | '/sale/$slug'
     | '/store/$slug'
@@ -262,6 +284,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/coupons'
     | '/deals'
+    | '/faq'
     | '/flash-deals'
     | '/guides'
     | '/sale'
@@ -274,6 +297,7 @@ export interface FileRouteTypes {
     | '/category/$slug'
     | '/deal/$slug'
     | '/guides/$slug'
+    | '/pages/$slug'
     | '/product/$slug'
     | '/sale/$slug'
     | '/store/$slug'
@@ -286,6 +310,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   CouponsRoute: typeof CouponsRoute
   DealsRoute: typeof DealsRoute
+  FaqRoute: typeof FaqRoute
   FlashDealsRoute: typeof FlashDealsRoute
   GuidesRoute: typeof GuidesRouteWithChildren
   SaleRoute: typeof SaleRouteWithChildren
@@ -297,6 +322,7 @@ export interface RootRouteChildren {
   BrandSlugRoute: typeof BrandSlugRoute
   CategorySlugRoute: typeof CategorySlugRoute
   DealSlugRoute: typeof DealSlugRoute
+  PagesSlugRoute: typeof PagesSlugRoute
   ProductSlugRoute: typeof ProductSlugRoute
   StoreSlugRoute: typeof StoreSlugRoute
 }
@@ -343,6 +369,13 @@ declare module '@tanstack/react-router' {
       path: '/deals'
       fullPath: '/deals'
       preLoaderRoute: typeof DealsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faq': {
+      id: '/faq'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/flash-deals': {
@@ -429,6 +462,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GuidesSlugRouteImport
       parentRoute: typeof GuidesRoute
     }
+    '/pages/$slug': {
+      id: '/pages/$slug'
+      path: '/pages/$slug'
+      fullPath: '/pages/$slug'
+      preLoaderRoute: typeof PagesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/product/$slug': {
       id: '/product/$slug'
       path: '/product/$slug'
@@ -481,6 +521,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   CouponsRoute: CouponsRoute,
   DealsRoute: DealsRoute,
+  FaqRoute: FaqRoute,
   FlashDealsRoute: FlashDealsRoute,
   GuidesRoute: GuidesRouteWithChildren,
   SaleRoute: SaleRouteWithChildren,
@@ -492,6 +533,7 @@ const rootRouteChildren: RootRouteChildren = {
   BrandSlugRoute: BrandSlugRoute,
   CategorySlugRoute: CategorySlugRoute,
   DealSlugRoute: DealSlugRoute,
+  PagesSlugRoute: PagesSlugRoute,
   ProductSlugRoute: ProductSlugRoute,
   StoreSlugRoute: StoreSlugRoute,
 }

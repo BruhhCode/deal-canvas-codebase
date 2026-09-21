@@ -3,10 +3,15 @@ import { Link } from "@tanstack/react-router";
 import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, User, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
 import { cn } from "@/lib/utils";
+import { supabase } from "@/lib/supabase";
 
-type NavItem = { label: string; to: string; search?: Record<string, string> };
+type StaticNavItem = { label: string; to: string; search?: Record<string, string> };
 
-const nav: NavItem[] = [
+// Fallback shown until the live nav loads (or if it fails / the table is
+// empty) — keeps the header from ever flashing empty, and matches what
+// src/scripts/create-cms-tables.sql seeds into `nav_items` in the admin
+// panel repo, so there's no visible difference on a normal page load.
+const defaultNav: StaticNavItem[] = [
   { label: "Shop", to: "/shop", search: { q: "", category: "", department: "", view: "" } },
   { label: "Deals", to: "/deals" },
   { label: "Stores", to: "/stores" },
@@ -15,7 +20,58 @@ const nav: NavItem[] = [
   { label: "Sale", to: "/shop", search: { q: "", category: "", department: "", view: "sale" } },
   { label: "Trending", to: "/shop", search: { q: "", category: "", department: "", view: "trending" } },
   { label: "Sales Calendar", to: "/sales-calendar" },
+  { label: "FAQ", to: "/faq" },
+  { label: "Contact", to: "/contact" },
 ];
+
+type NavRow = { slug: string; label: string; href: string; sort_order: number; visible: boolean };
+
+/**
+ * Nav items are admin-editable (see the admin panel's Navigation section),
+ * so their `href` is arbitrary free text — it might carry a query string
+ * ("/shop?view=new"), point at a not-yet-typed CMS page, or be an external
+ * URL. TanStack Router's typed `Link to`/`search` props can't safely accept
+ * that, so live items render as plain `<a>` tags (a full navigation instead
+ * of a client-side transition) rather than fighting the router's typing for
+ * admin-controlled strings — an acceptable trade-off for a handful of
+ * top-level nav clicks.
+ */
+// Builds a plain href for a nav item — static items carry `to` + `search`
+// separately (the pre-existing typed-Link shape), live items already have
+// the full path (query string included) baked into `to`.
+function hrefFor(n: StaticNavItem): string {
+  if (!n.search) return n.to;
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(n.search)) {
+    if (value) params.set(key, value);
+  }
+  const qs = params.toString();
+  return qs ? `${n.to}?${qs}` : n.to;
+}
+
+function useLiveNav(): StaticNavItem[] {
+  const [items, setItems] = useState<StaticNavItem[]>(defaultNav);
+
+  useEffect(() => {
+    if (!supabase) return;
+    let cancelled = false;
+    supabase
+      .from("nav_items")
+      .select("*")
+      .order("sort_order")
+      .then(({ data, error }) => {
+        if (cancelled || error || !data || data.length === 0) return;
+        const visible = (data as NavRow[]).filter((n) => n.visible);
+        if (visible.length === 0) return;
+        setItems(visible.map((n) => ({ label: n.label, to: n.href })));
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return items;
+}
 
 const deptOrder = ["men", "women", "kids", "lifestyle"] as const;
 
@@ -35,6 +91,7 @@ export function Header() {
     [],
   );
 
+  const nav = useLiveNav();
   const [open, setOpen] = useState(false);
   const [catMenuOpen, setCatMenuOpen] = useState(false);
   const [hoveredDept, setHoveredDept] = useState<string>(departmentNav[0]?.slug ?? "");
@@ -146,14 +203,12 @@ export function Header() {
           </li>
           {nav.map((n) => (
             <li key={n.label}>
-              <Link
-                to={n.to as "/"}
-                {...(n.search ? { search: n.search as never } : {})}
-                activeProps={{ className: "text-clay" }}
-                className="hover:text-clay"
-              >
+              {/* Plain <a>, not <Link> — nav items are admin-editable free
+                  text (see hrefFor above), so they can't safely go through
+                  the router's typed to/search props. */}
+              <a href={hrefFor(n)} className="hover:text-clay">
                 {n.label}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>
@@ -199,14 +254,13 @@ export function Header() {
           <ul className="grid grid-cols-2 gap-px bg-border pb-px">
             {nav.map((n) => (
               <li key={n.label} className="bg-background">
-                <Link
-                  to={n.to as "/"}
-                  {...(n.search ? { search: n.search as never } : {})}
+                <a
+                  href={hrefFor(n)}
                   onClick={() => setOpen(false)}
                   className="block px-4 py-3 text-xs font-semibold uppercase tracking-[0.16em]"
                 >
                   {n.label}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

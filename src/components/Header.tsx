@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, User, X } from "lucide-react";
+import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { supabase } from "@/lib/supabase";
@@ -132,12 +132,9 @@ export function Header() {
         </Link>
 
         <div className="ml-auto flex items-center gap-4">
-          <Link to="/account" aria-label="Saved products" className="hover:text-clay">
-            <Heart className="h-5 w-5" />
-          </Link>
           <Link to="/account" className="flex items-center gap-2 text-sm font-medium hover:text-clay">
-            <User className="h-5 w-5" />
-            <span className="hidden sm:inline">Account</span>
+            <Heart className="h-5 w-5" />
+            <span className="hidden sm:inline">Wishlist</span>
           </Link>
         </div>
       </div>

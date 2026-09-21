@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AccountRouteImport } from './routes/account'
 import { Route as BrandsRouteImport } from './routes/brands'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CouponsRouteImport } from './routes/coupons'
 import { Route as DealsRouteImport } from './routes/deals'
 import { Route as FlashDealsRouteImport } from './routes/flash-deals'
@@ -43,6 +44,11 @@ const AccountRoute = AccountRouteImport.update({
 const BrandsRoute = BrandsRouteImport.update({
   id: '/brands',
   path: '/brands',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CouponsRoute = CouponsRouteImport.update({
@@ -135,6 +141,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
   '/brands': typeof BrandsRoute
+  '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
   '/deals': typeof DealsRoute
   '/flash-deals': typeof FlashDealsRoute
@@ -157,6 +164,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
   '/brands': typeof BrandsRoute
+  '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
   '/deals': typeof DealsRoute
   '/flash-deals': typeof FlashDealsRoute
@@ -180,6 +188,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/account': typeof AccountRoute
   '/brands': typeof BrandsRoute
+  '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
   '/deals': typeof DealsRoute
   '/flash-deals': typeof FlashDealsRoute
@@ -204,6 +213,7 @@ export interface FileRouteTypes {
     | '/'
     | '/account'
     | '/brands'
+    | '/contact'
     | '/coupons'
     | '/deals'
     | '/flash-deals'
@@ -226,6 +236,7 @@ export interface FileRouteTypes {
     | '/'
     | '/account'
     | '/brands'
+    | '/contact'
     | '/coupons'
     | '/deals'
     | '/flash-deals'
@@ -248,6 +259,7 @@ export interface FileRouteTypes {
     | '/'
     | '/account'
     | '/brands'
+    | '/contact'
     | '/coupons'
     | '/deals'
     | '/flash-deals'
@@ -271,6 +283,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AccountRoute: typeof AccountRoute
   BrandsRoute: typeof BrandsRoute
+  ContactRoute: typeof ContactRoute
   CouponsRoute: typeof CouponsRoute
   DealsRoute: typeof DealsRoute
   FlashDealsRoute: typeof FlashDealsRoute
@@ -309,6 +322,13 @@ declare module '@tanstack/react-router' {
       path: '/brands'
       fullPath: '/brands'
       preLoaderRoute: typeof BrandsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/coupons': {
@@ -458,6 +478,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AccountRoute: AccountRoute,
   BrandsRoute: BrandsRoute,
+  ContactRoute: ContactRoute,
   CouponsRoute: CouponsRoute,
   DealsRoute: DealsRoute,
   FlashDealsRoute: FlashDealsRoute,

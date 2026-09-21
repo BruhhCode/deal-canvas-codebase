@@ -188,6 +188,23 @@ create table if not exists reviews (
 create index if not exists reviews_product_slug_idx on reviews(product_slug);
 
 -- ---------------------------------------------------------------------------
+-- contact_messages (the /contact page's form, written directly from the
+-- public site — insert-only, same pattern as reviews, except there is no
+-- public read policy at all: unlike reviews, contact messages aren't meant
+-- to be listable by anyone with the anon key, only readable via the
+-- service-role key or the Supabase dashboard's table editor)
+-- ---------------------------------------------------------------------------
+create table if not exists contact_messages (
+  id uuid primary key default gen_random_uuid(),
+  name text not null,
+  email text not null,
+  subject text not null default '',
+  message text not null,
+  created_at timestamptz not null default now()
+);
+create index if not exists contact_messages_created_at_idx on contact_messages(created_at desc);
+
+-- ---------------------------------------------------------------------------
 -- admin_users / is_admin() — the admin-role mechanism the write policies
 -- below check against. A request must be both authenticated via Supabase
 -- Auth AND have a row here to insert/update/delete offers, deals or
@@ -235,6 +252,7 @@ alter table deals enable row level security;
 alter table sale_events enable row level security;
 alter table coupons enable row level security;
 alter table reviews enable row level security;
+alter table contact_messages enable row level security;
 
 do $$
 declare
@@ -271,6 +289,13 @@ create policy "admin write" on sale_events for all to authenticated using (is_ad
 -- "public read" (from the loop above) + this insert-only policy.
 drop policy if exists "public insert" on reviews;
 create policy "public insert" on reviews for insert with check (true);
+
+-- Contact messages: any visitor can submit one via the /contact form.
+-- Deliberately no "public read" policy at all (contact_messages isn't in
+-- the read-policy loop above) — messages are only readable with the
+-- service-role key or in the Supabase dashboard, not via the anon key.
+drop policy if exists "public insert" on contact_messages;
+create policy "public insert" on contact_messages for insert with check (true);
 
 -- ---------------------------------------------------------------------------
 -- Realtime — broadcast row changes on the tables the admin edits.

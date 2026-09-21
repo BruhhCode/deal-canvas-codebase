@@ -24,8 +24,8 @@ A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack St
 ```
 src/
   routes/            file-based routes (index, shop, product.$slug, brand.$slug, brands, store.$slug,
-                      deal.$slug, deals, sales-calendar, ...) — no admin route; that lives in the
-                      separate admin-panel repo (see cross-repo note above)
+                      deal.$slug, deals, sales-calendar, contact, ...) — no admin route; that lives
+                      in the separate admin-panel repo (see cross-repo note above)
   components/         Header, Footer, ProductCard, PriceCompare, DealCard, ProductGallery,
                       ProductReviews, etc. + components/ui (shadcn)
   data/
@@ -127,6 +127,10 @@ Several scraped image sources bake a low resolution into the URL itself (Adidas 
 ### Product link auditing (`scripts/audit-product-links.ts`)
 
 Live-checks every `offers.product_url` and blanks out ones that are confirmed dead (HTTP 404/410, DNS failure, connection refused, timeout) — doesn't add new fallback logic, just triggers the *existing* one (`offerAffiliateUrl()` in `src/data/products.ts` already sends shoppers to the brand homepage whenever `product_url` is empty or unparsable, see the gotcha below). Deliberately does **not** touch 403/429/5xx responses — several stores (Farfetch in particular) bot-block automated/headless requests inconsistently (the same URL can 200, 403, or 429 across consecutive requests), which looks identical to a dead link from a script's point of view but a real shopper's browser would likely still get through. Those are logged as "uncertain" and left untouched rather than risk sending a working link to the brand homepage instead. Defaults to a dry run (prints what it would change); pass `--apply` to actually write the fix. Writes through the **service-role** key — `offers` requires `to authenticated` + `is_admin()` to write now (see the RLS note above), so the anon key this originally used no longer works.
+
+### Contact form (`contact_messages` table, `src/routes/contact.tsx`)
+
+A real working form (name/email/topic/message), linked from the footer. Writes straight through the browser `supabase` client with the anon key — `contact_messages` has an insert-only RLS policy, same pattern as `reviews`, except there is **no public read policy at all** (unlike reviews, submitted messages aren't meant to be listable by anyone holding the anon key). Read them with the service-role key or the Supabase dashboard's table editor.
 
 ### No admin UI in this repo
 

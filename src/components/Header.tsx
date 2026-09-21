@@ -252,8 +252,11 @@ export function Header() {
             ))}
           </ul>
           <ul className="grid grid-cols-2 gap-px bg-border pb-px">
-            {nav.map((n) => (
-              <li key={n.label} className="bg-background">
+            {nav.map((n, i) => (
+              <li
+                key={n.label}
+                className={cn("bg-background", i === nav.length - 1 && nav.length % 2 !== 0 && "col-span-2")}
+              >
                 <a
                   href={hrefFor(n)}
                   onClick={() => setOpen(false)}

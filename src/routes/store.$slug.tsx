@@ -52,7 +52,7 @@ function StorePage() {
   const sale = all.filter((p) => productDiscount(p) >= 25).slice(0, 8);
   const fresh = all.filter((p) => p.newIn).slice(0, 4);
   const events = saleEvents.filter((e) => e.store === store.slug);
-  const cats = Array.from(new Set(all.map((p) => p.category))).slice(0, 8);
+  const cats = Array.from(new Map(all.map((p) => [categoryName(p.category), p.category])).values()).slice(0, 8);
   const storeCoupons = coupons.filter((c) => store.slug.startsWith(c.brand)).slice(0, 3);
 
   return (

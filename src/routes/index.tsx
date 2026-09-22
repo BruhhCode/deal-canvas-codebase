@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { ProductSearch } from "@/components/ProductSearch";
-import { HeroCarousel } from "@/components/HeroCarousel";
+import { HeroCarousel, SLIDES, heroSrcSet } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
@@ -47,7 +47,17 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [
+      { rel: "canonical", href: "/" },
+      {
+        rel: "preload",
+        as: "image",
+        href: SLIDES[0],
+        imageSrcSet: heroSrcSet(SLIDES[0]!),
+        imageSizes: "100vw",
+        fetchPriority: "high",
+      },
+    ],
   }),
   component: Home,
 });

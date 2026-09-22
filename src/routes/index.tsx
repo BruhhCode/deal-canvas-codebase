@@ -64,9 +64,9 @@ function Home() {
   const { seed } = Route.useLoaderData();
   useCatalogVersion();
 
-  const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 8);
-  const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 8);
-  const newInPicks = seededShuffle(newArrivals, `${seed}-new`).slice(0, 4);
+  const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 10);
+  const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 10);
+  const newInPicks = seededShuffle(newArrivals, `${seed}-new`).slice(0, 5);
 
   return (
     <>
@@ -112,7 +112,7 @@ function Home() {
           description="Ranked by product views, searches and saves over the last seven days."
           href="/shop"
         />
-        <div className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
           {trendingPicks.map((p) => (
             <ProductCard key={p.id} product={p} />
           ))}
@@ -181,7 +181,7 @@ function Home() {
           description="Highest percentage off across every store we track."
           href="/shop"
         />
-        <div className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
           {discountPicks.map((p) => (
             <ProductCard key={p.id} product={p} />
           ))}
@@ -218,7 +218,7 @@ function Home() {
       {newInPicks.length ? (
         <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
           <SectionHeading eyebrow="New in" title="Just Landed" href="/shop" />
-          <div className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
             {newInPicks.map((p) => (
               <ProductCard key={p.id} product={p} />
             ))}
@@ -226,36 +226,7 @@ function Home() {
         </section>
       ) : null}
 
-      <section className="border-y bg-cream">
-        <div className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
-          <SectionHeading
-            eyebrow="Stores"
-            title="Shop Across Every Store"
-            description="We compare live prices, stock and coupons from each retailer."
-            href="/stores"
-            linkLabel="All stores"
-          />
-          <div className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-3 lg:grid-cols-6">
-            {stores.slice(0, 12).map((s) => (
-              <Link
-                key={s.slug}
-                to="/store/$slug"
-                params={{ slug: s.slug }}
-                className="group flex flex-col items-center gap-3 bg-card px-4 py-8 transition-colors hover:bg-cream"
-              >
-                <StoreMark
-                  slug={s.slug}
-                  size="free"
-                  className="grayscale opacity-70 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
-                />
-                <span className="text-center text-xs font-semibold uppercase tracking-[0.14em]">{s.name}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
+      <section className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
         <SectionHeading eyebrow="Brands" title="Shop by Brand" href="/brands" linkLabel="All brands" />
         <div className="flex flex-wrap gap-3">
           {brands.slice(0, 14).map((b) => (

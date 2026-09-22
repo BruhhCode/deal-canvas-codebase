@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductSearch } from "@/components/ProductSearch";
+import { FilterCheckbox, FilterPanel, FilterRange, FilterSelect, SortControl } from "@/components/FilterControls";
 import { brands } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import {
@@ -138,109 +139,104 @@ function ShopView() {
             ? categoryName(category)
             : "All Products";
 
+  const maxPriceValue = active.maxPrice ?? 0;
+  const minDiscountValue = active.minDiscount ?? 0;
+
   const filterUI = (
-    <div className="space-y-7 text-sm">
-      <FilterGroup label="Department">
-        <Chips
-          options={departments.map((d) => ({ value: d.slug, label: d.name }))}
-          value={active.department ?? ""}
-          onChange={(v) => set({ department: v, category: undefined })}
-        />
-      </FilterGroup>
+    <div className="space-y-5 text-sm">
+      <FilterSelect
+        label="Department"
+        value={active.department ?? ""}
+        onChange={(v) => set({ department: v || undefined, category: undefined })}
+        placeholder="All departments"
+        options={departments.map((d) => ({ value: d.slug, label: d.name }))}
+      />
 
-      <FilterGroup label="Category">
-        <Chips
-          options={(active.department ? categoriesByDepartment(active.department) : [])
-            .map((c) => ({ value: c.slug, label: c.name }))}
-          value={active.category ?? ""}
-          onChange={(v) => set({ category: v })}
-          empty="Pick a department first"
-        />
-      </FilterGroup>
+      <FilterSelect
+        label="Category"
+        value={active.category ?? ""}
+        onChange={(v) => set({ category: v || undefined })}
+        placeholder="All categories"
+        options={(active.department ? categoriesByDepartment(active.department) : []).map((c) => ({
+          value: c.slug,
+          label: c.name,
+        }))}
+        disabledHint="Pick a department first"
+      />
 
-      <FilterGroup label="Gender">
-        <Chips
-          options={[
-            { value: "women", label: "Women" },
-            { value: "men", label: "Men" },
-            { value: "unisex", label: "Unisex" },
-          ]}
-          value={active.gender ?? ""}
-          onChange={(v) => set({ gender: v })}
-        />
-      </FilterGroup>
+      <FilterSelect
+        label="Gender"
+        value={active.gender ?? ""}
+        onChange={(v) => set({ gender: v || undefined })}
+        placeholder="Women, men & unisex"
+        options={[
+          { value: "women", label: "Women" },
+          { value: "men", label: "Men" },
+          { value: "unisex", label: "Unisex" },
+        ]}
+      />
 
-      <FilterGroup label="Brand">
-        <Chips
-          options={brands
-            .map((b) => ({ value: b.slug, label: b.name }))
-            .sort((a, b) => a.label.localeCompare(b.label))}
-          value={active.brand ?? ""}
-          onChange={(v) => set({ brand: v })}
-        />
-      </FilterGroup>
+      <FilterSelect
+        label="Brand"
+        value={active.brand ?? ""}
+        onChange={(v) => set({ brand: v || undefined })}
+        placeholder="All brands"
+        options={brands.map((b) => ({ value: b.slug, label: b.name })).sort((a, b) => a.label.localeCompare(b.label))}
+      />
 
-      <FilterGroup label="Store">
-        <Chips
-          options={stores
-            .map((s) => ({ value: s.slug, label: s.name }))
-            .sort((a, b) => a.label.localeCompare(b.label))}
-          value={active.store ?? ""}
-          onChange={(v) => set({ store: v })}
-        />
-      </FilterGroup>
+      <FilterSelect
+        label="Store"
+        value={active.store ?? ""}
+        onChange={(v) => set({ store: v || undefined })}
+        placeholder="All stores"
+        options={stores.map((s) => ({ value: s.slug, label: s.name })).sort((a, b) => a.label.localeCompare(b.label))}
+      />
 
-      <FilterGroup label="Max price">
-        <Chips
-          options={[2000, 5000, 10000, 20000, 50000].map((p) => ({
-            value: String(p),
-            label: `Under ${format(p)}`,
-          }))}
-          value={active.maxPrice ? String(active.maxPrice) : ""}
-          onChange={(v) => set({ maxPrice: v ? Number(v) : undefined })}
-        />
-      </FilterGroup>
+      <FilterRange
+        label={`Max price: ${maxPriceValue > 0 ? format(maxPriceValue) : "No limit"}`}
+        value={maxPriceValue}
+        min={0}
+        max={60000}
+        step={1000}
+        onChange={(v) => set({ maxPrice: v > 0 ? v : undefined })}
+      />
 
-      <FilterGroup label="Discount">
-        <Chips
-          options={[20, 30, 40, 50].map((d) => ({ value: String(d), label: `${d}%+ off` }))}
-          value={active.minDiscount ? String(active.minDiscount) : ""}
-          onChange={(v) => set({ minDiscount: v ? Number(v) : undefined })}
-        />
-      </FilterGroup>
+      <FilterRange
+        label={`Minimum discount: ${minDiscountValue > 0 ? `${minDiscountValue}%` : "Any"}`}
+        value={minDiscountValue}
+        min={0}
+        max={80}
+        step={5}
+        onChange={(v) => set({ minDiscount: v > 0 ? v : undefined })}
+      />
 
-      <FilterGroup label="Colour">
-        <Chips
-          options={allColors.map((c) => ({ value: c, label: c }))}
-          value={active.color ?? ""}
-          onChange={(v) => set({ color: v })}
-        />
-      </FilterGroup>
+      <FilterSelect
+        label="Colour"
+        value={active.color ?? ""}
+        onChange={(v) => set({ color: v || undefined })}
+        placeholder="All colours"
+        options={allColors.map((c) => ({ value: c, label: c }))}
+      />
 
-      <FilterGroup label="Size">
-        <Chips
-          options={allSizes.map((s) => ({ value: s, label: s }))}
-          value={active.size ?? ""}
-          onChange={(v) => set({ size: v })}
-        />
-      </FilterGroup>
+      <FilterSelect
+        label="Size"
+        value={active.size ?? ""}
+        onChange={(v) => set({ size: v || undefined })}
+        placeholder="All sizes"
+        options={allSizes.map((s) => ({ value: s, label: s }))}
+      />
 
-      <FilterGroup label="More">
-        <div className="flex flex-wrap gap-2">
-          <Toggle on={!!active.inStock} onClick={() => set({ inStock: !active.inStock })}>
-            In stock
-          </Toggle>
-          <Toggle on={!!active.sale} onClick={() => set({ sale: !active.sale })}>
-            On sale
-          </Toggle>
-          <Toggle on={!!active.newIn} onClick={() => set({ newIn: !active.newIn })}>
-            New in
-          </Toggle>
-          <Toggle on={!!active.coupon} onClick={() => set({ coupon: !active.coupon })}>
-            Coupon available
-          </Toggle>
-        </div>
-      </FilterGroup>
+      <div className="space-y-2.5">
+        <p className="font-medium">More</p>
+        <FilterCheckbox label="In stock" checked={!!active.inStock} onChange={(v) => set({ inStock: v || undefined })} />
+        <FilterCheckbox label="On sale" checked={!!active.sale} onChange={(v) => set({ sale: v || undefined })} />
+        <FilterCheckbox label="New in" checked={!!active.newIn} onChange={(v) => set({ newIn: v || undefined })} />
+        <FilterCheckbox
+          label="Coupon available"
+          checked={!!active.coupon}
+          onChange={(v) => set({ coupon: v || undefined })}
+        />
+      </div>
 
       <button
         type="button"
@@ -267,8 +263,13 @@ function ShopView() {
         <ProductSearch className="mt-5" size="sm" initial={q} />
       </div>
 
-      <div className="grid gap-10 lg:grid-cols-[240px_1fr]">
-        <aside className="hidden lg:block">{filterUI}</aside>
+      <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
+        <div className="hidden lg:block">
+          <FilterPanel sticky>
+            <p className="editorial-eyebrow">Filters</p>
+            {filterUI}
+          </FilterPanel>
+        </div>
 
         <div>
           <div className="mb-6 flex items-center justify-between gap-3 border-b pb-4">
@@ -279,20 +280,13 @@ function ShopView() {
             >
               <SlidersHorizontal className="h-4 w-4" /> Filters
             </button>
-            <label className="ml-auto flex items-center gap-2 text-xs text-muted-foreground">
-              Sort
-              <select
+            <div className="ml-auto">
+              <SortControl
                 value={sort}
-                onChange={(e) => setSort(e.target.value as SortKey)}
-                className="rounded-sm border bg-card px-3 py-2 text-xs text-foreground outline-none"
-              >
-                {sortOptions.map((o) => (
-                  <option key={o.key} value={o.key}>
-                    {o.label}
-                  </option>
-                ))}
-              </select>
-            </label>
+                onChange={(v) => setSort(v as SortKey)}
+                options={sortOptions.map((o) => ({ value: o.key, label: o.label }))}
+              />
+            </div>
           </div>
 
           {visible.length ? (
@@ -337,38 +331,6 @@ function ShopView() {
           </div>
         </div>
       ) : null}
-    </div>
-  );
-}
-
-function FilterGroup({ label, children }: { label: string; children: React.ReactNode }) {
-  return (
-    <div>
-      <p className="editorial-eyebrow mb-3">{label}</p>
-      {children}
-    </div>
-  );
-}
-
-function Chips({
-  options,
-  value,
-  onChange,
-  empty,
-}: {
-  options: { value: string; label: string }[];
-  value: string;
-  onChange: (v: string | undefined) => void;
-  empty?: string;
-}) {
-  if (!options.length) return <p className="text-xs text-muted-foreground">{empty ?? "—"}</p>;
-  return (
-    <div className="flex max-h-52 flex-wrap gap-2 overflow-y-auto">
-      {options.map((o) => (
-        <Toggle key={o.value} on={value === o.value} onClick={() => onChange(value === o.value ? undefined : o.value)}>
-          {o.label}
-        </Toggle>
-      ))}
     </div>
   );
 }
@@ -448,30 +410,6 @@ function PageButton({ n, active, onClick }: { n: number; active: boolean; onClic
       )}
     >
       {n}
-    </button>
-  );
-}
-
-function Toggle({
-  on,
-  onClick,
-  children,
-}: {
-  on: boolean;
-  onClick: () => void;
-  children: React.ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      aria-pressed={on}
-      onClick={onClick}
-      className={cn(
-        "rounded-full border px-3 py-1 text-xs transition-colors",
-        on ? "border-foreground bg-foreground text-background" : "hover:border-clay hover:text-clay",
-      )}
-    >
-      {children}
     </button>
   );
 }

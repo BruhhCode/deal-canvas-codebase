@@ -72,7 +72,7 @@ function Home() {
     <>
       <section className="relative isolate overflow-hidden border-b">
         <HeroCarousel />
-        <div className="relative mx-auto max-w-3xl px-4 py-12 text-center md:px-6 md:py-16">
+        <div className="relative mx-auto max-w-3xl px-4 py-10 text-center md:px-6 md:py-16">
           <p className="editorial-eyebrow text-background/80">
             {approxCount(products.length)} products · {approxCount(stores.length)} stores · updated hourly
           </p>
@@ -189,7 +189,7 @@ function Home() {
       </section>
 
       <section className="border-y bg-cream">
-        <div className="mx-auto max-w-7xl px-4 py-16 md:px-6">
+        <div className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
           <SectionHeading
             eyebrow="Sales calendar"
             title="Live & Upcoming Store Sales"
@@ -227,7 +227,7 @@ function Home() {
       ) : null}
 
       <section className="border-y bg-cream">
-        <div className="mx-auto max-w-7xl px-4 py-16 md:px-6">
+        <div className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
           <SectionHeading
             eyebrow="Stores"
             title="Shop Across Every Store"

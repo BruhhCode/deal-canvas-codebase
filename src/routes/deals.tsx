@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { DealCard } from "@/components/DealCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { FilterCheckbox, FilterPanel, FilterRange, FilterSelect, SortControl } from "@/components/FilterControls";
 import { brands, categories, deals, discountPct, type Deal } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
@@ -82,9 +83,6 @@ function DealsPage() {
     return sortDeals(filtered, sort);
   }, [category, brand, minDiscount, maxPrice, type, includeExpired, sort, version]);
 
-  const select =
-    "w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay";
-
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Deals" }]} />
@@ -99,91 +97,62 @@ function DealsPage() {
       </header>
 
       <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
-        <aside className="h-fit space-y-5 rounded-lg border bg-card p-5 lg:sticky lg:top-36">
+        <FilterPanel sticky>
           <p className="editorial-eyebrow">Filters</p>
 
-          <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Category</span>
-            <select className={select} value={category} onChange={(e) => setCategory(e.target.value)}>
-              <option value="all">All categories</option>
-              {categories.map((c) => (
-                <option key={c.slug} value={c.slug}>{c.name}</option>
-              ))}
-            </select>
-          </label>
+          <FilterSelect
+            label="Category"
+            value={category === "all" ? "" : category}
+            onChange={(v) => setCategory(v || "all")}
+            placeholder="All categories"
+            options={categories.map((c) => ({ value: c.slug, label: c.name }))}
+          />
 
-          <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Brand</span>
-            <select className={select} value={brand} onChange={(e) => setBrand(e.target.value)}>
-              <option value="all">All brands</option>
-              {brands.map((b) => (
-                <option key={b.slug} value={b.slug}>{b.name}</option>
-              ))}
-            </select>
-          </label>
+          <FilterSelect
+            label="Brand"
+            value={brand === "all" ? "" : brand}
+            onChange={(v) => setBrand(v || "all")}
+            placeholder="All brands"
+            options={brands.map((b) => ({ value: b.slug, label: b.name }))}
+          />
 
-          <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Deal type</span>
-            <select className={select} value={type} onChange={(e) => setType(e.target.value)}>
-              <option value="all">All types</option>
-              {dealTypes.map((t) => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </select>
-          </label>
+          <FilterSelect
+            label="Deal type"
+            value={type === "all" ? "" : type}
+            onChange={(v) => setType(v || "all")}
+            placeholder="All types"
+            options={dealTypes.map((t) => ({ value: t, label: t }))}
+          />
 
-          <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Minimum discount: {minDiscount}%</span>
-            <input
-              type="range"
-              min={0}
-              max={80}
-              step={5}
-              value={minDiscount}
-              onChange={(e) => setMinDiscount(Number(e.target.value))}
-              className="w-full accent-clay"
-            />
-          </label>
+          <FilterRange
+            label={`Minimum discount: ${minDiscount}%`}
+            value={minDiscount}
+            min={0}
+            max={80}
+            step={5}
+            onChange={setMinDiscount}
+          />
 
-          <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Max price: {format(maxPrice)}</span>
-            <input
-              type="range"
-              min={1000}
-              max={200000}
-              step={1000}
-              value={maxPrice}
-              onChange={(e) => setMaxPrice(Number(e.target.value))}
-              className="w-full accent-clay"
-            />
-          </label>
+          <FilterRange
+            label={`Max price: ${format(maxPrice)}`}
+            value={maxPrice}
+            min={1000}
+            max={200000}
+            step={1000}
+            onChange={setMaxPrice}
+          />
 
-          <label className="flex items-center gap-2 text-sm">
-            <input
-              type="checkbox"
-              checked={includeExpired}
-              onChange={(e) => setIncludeExpired(e.target.checked)}
-              className="accent-clay"
-            />
-            Include expired deals
-          </label>
-        </aside>
+          <FilterCheckbox label="Include expired deals" checked={includeExpired} onChange={setIncludeExpired} />
+        </FilterPanel>
 
         <div>
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm text-muted-foreground">{results.length} deals</p>
-            <label className="flex items-center gap-2 text-sm">
-              <span className="editorial-eyebrow">Sort</span>
-              <select
-                className="rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay"
-                value={sort}
-                onChange={(e) => setSort(e.target.value as (typeof sorts)[number])}
-              >
-                {sorts.map((s) => (
-                  <option key={s} value={s}>{s}</option>
-                ))}
-              </select>
-            </label>
+            <SortControl
+              value={sort}
+              onChange={(v) => setSort(v as (typeof sorts)[number])}
+              options={sorts.map((s) => ({ value: s, label: s }))}
+            />
           </div>
 
           {results.length === 0 ? (

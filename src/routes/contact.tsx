@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, MessageCircle, Clock, Handshake } from "lucide-react";
+import { MessageCircle, Clock, Handshake } from "lucide-react";
 import { toast } from "sonner";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { supabase } from "@/lib/supabase";
@@ -76,17 +76,6 @@ function ContactPage() {
 
       <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
         <div className="flex flex-col justify-between gap-6">
-          <div className="rounded-lg border bg-card p-6">
-            <div className="flex items-start gap-3">
-              <Mail className="mt-0.5 h-5 w-5 text-clay" />
-              <div>
-                <p className="text-sm font-semibold">Email</p>
-                <a href="mailto:hello@dealscanvas.com" className="text-sm text-muted-foreground hover:text-clay">
-                  hello@dealscanvas.com
-                </a>
-              </div>
-            </div>
-          </div>
           <div className="rounded-lg border bg-card p-6">
             <div className="flex items-start gap-3">
               <Clock className="mt-0.5 h-5 w-5 text-clay" />

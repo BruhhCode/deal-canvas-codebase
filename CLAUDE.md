@@ -30,8 +30,8 @@ A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack St
 ```
 src/
   routes/            file-based routes (index, shop, product.$slug, brand.$slug, brands, store.$slug,
-                      deal.$slug, deals, sales-calendar, contact, ...) — no admin route; that lives
-                      in the separate admin-panel repo (see cross-repo note above)
+                      deal.$slug, deals, sales-calendar, contact, about, terms, privacy, ...) — no
+                      admin route; that lives in the separate admin-panel repo (see cross-repo note above)
   components/         Header, Footer, ProductCard, PriceCompare, DealCard, ProductGallery,
                       ProductReviews, etc. + components/ui (shadcn)
   data/

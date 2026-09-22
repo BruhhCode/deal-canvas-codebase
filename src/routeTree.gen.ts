@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
 import { Route as AccountRouteImport } from './routes/account'
 import { Route as BrandsRouteImport } from './routes/brands'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -18,12 +19,14 @@ import { Route as DealsRouteImport } from './routes/deals'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FlashDealsRouteImport } from './routes/flash-deals'
 import { Route as GuidesRouteImport } from './routes/guides'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SaleRouteImport } from './routes/sale'
 import { Route as SalesCalendarRouteImport } from './routes/sales-calendar'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as ShopRouteImport } from './routes/shop'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as StoresRouteImport } from './routes/stores'
+import { Route as TermsRouteImport } from './routes/terms'
 import { Route as BrandSlugRouteImport } from './routes/brand.$slug'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as DealSlugRouteImport } from './routes/deal.$slug'
@@ -36,6 +39,11 @@ import { Route as StoreSlugRouteImport } from './routes/store.$slug'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AccountRoute = AccountRouteImport.update({
@@ -78,6 +86,11 @@ const GuidesRoute = GuidesRouteImport.update({
   path: '/guides',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SaleRoute = SaleRouteImport.update({
   id: '/sale',
   path: '/sale',
@@ -106,6 +119,11 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
 const StoresRoute = StoresRouteImport.update({
   id: '/stores',
   path: '/stores',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermsRoute = TermsRouteImport.update({
+  id: '/terms',
+  path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BrandSlugRoute = BrandSlugRouteImport.update({
@@ -151,6 +169,7 @@ const StoreSlugRoute = StoreSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/account': typeof AccountRoute
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
@@ -159,12 +178,14 @@ export interface FileRoutesByFullPath {
   '/faq': typeof FaqRoute
   '/flash-deals': typeof FlashDealsRoute
   '/guides': typeof GuidesRouteWithChildren
+  '/privacy': typeof PrivacyRoute
   '/sale': typeof SaleRouteWithChildren
   '/sales-calendar': typeof SalesCalendarRoute
   '/search': typeof SearchRoute
   '/shop': typeof ShopRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
+  '/terms': typeof TermsRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -176,6 +197,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/account': typeof AccountRoute
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
@@ -184,12 +206,14 @@ export interface FileRoutesByTo {
   '/faq': typeof FaqRoute
   '/flash-deals': typeof FlashDealsRoute
   '/guides': typeof GuidesRouteWithChildren
+  '/privacy': typeof PrivacyRoute
   '/sale': typeof SaleRouteWithChildren
   '/sales-calendar': typeof SalesCalendarRoute
   '/search': typeof SearchRoute
   '/shop': typeof ShopRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
+  '/terms': typeof TermsRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -202,6 +226,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/account': typeof AccountRoute
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
@@ -210,12 +235,14 @@ export interface FileRoutesById {
   '/faq': typeof FaqRoute
   '/flash-deals': typeof FlashDealsRoute
   '/guides': typeof GuidesRouteWithChildren
+  '/privacy': typeof PrivacyRoute
   '/sale': typeof SaleRouteWithChildren
   '/sales-calendar': typeof SalesCalendarRoute
   '/search': typeof SearchRoute
   '/shop': typeof ShopRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
+  '/terms': typeof TermsRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -229,6 +256,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/about'
     | '/account'
     | '/brands'
     | '/contact'
@@ -237,12 +265,14 @@ export interface FileRouteTypes {
     | '/faq'
     | '/flash-deals'
     | '/guides'
+    | '/privacy'
     | '/sale'
     | '/sales-calendar'
     | '/search'
     | '/shop'
     | '/sitemap.xml'
     | '/stores'
+    | '/terms'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -254,6 +284,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/about'
     | '/account'
     | '/brands'
     | '/contact'
@@ -262,12 +293,14 @@ export interface FileRouteTypes {
     | '/faq'
     | '/flash-deals'
     | '/guides'
+    | '/privacy'
     | '/sale'
     | '/sales-calendar'
     | '/search'
     | '/shop'
     | '/sitemap.xml'
     | '/stores'
+    | '/terms'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -279,6 +312,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/about'
     | '/account'
     | '/brands'
     | '/contact'
@@ -287,12 +321,14 @@ export interface FileRouteTypes {
     | '/faq'
     | '/flash-deals'
     | '/guides'
+    | '/privacy'
     | '/sale'
     | '/sales-calendar'
     | '/search'
     | '/shop'
     | '/sitemap.xml'
     | '/stores'
+    | '/terms'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -305,6 +341,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
   AccountRoute: typeof AccountRoute
   BrandsRoute: typeof BrandsRoute
   ContactRoute: typeof ContactRoute
@@ -313,12 +350,14 @@ export interface RootRouteChildren {
   FaqRoute: typeof FaqRoute
   FlashDealsRoute: typeof FlashDealsRoute
   GuidesRoute: typeof GuidesRouteWithChildren
+  PrivacyRoute: typeof PrivacyRoute
   SaleRoute: typeof SaleRouteWithChildren
   SalesCalendarRoute: typeof SalesCalendarRoute
   SearchRoute: typeof SearchRoute
   ShopRoute: typeof ShopRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   StoresRoute: typeof StoresRoute
+  TermsRoute: typeof TermsRoute
   BrandSlugRoute: typeof BrandSlugRoute
   CategorySlugRoute: typeof CategorySlugRoute
   DealSlugRoute: typeof DealSlugRoute
@@ -334,6 +373,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/account': {
@@ -392,6 +438,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GuidesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sale': {
       id: '/sale'
       path: '/sale'
@@ -432,6 +485,13 @@ declare module '@tanstack/react-router' {
       path: '/stores'
       fullPath: '/stores'
       preLoaderRoute: typeof StoresRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/terms': {
+      id: '/terms'
+      path: '/terms'
+      fullPath: '/terms'
+      preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/brand/$slug': {
@@ -516,6 +576,7 @@ const SaleRouteWithChildren = SaleRoute._addFileChildren(SaleRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
   AccountRoute: AccountRoute,
   BrandsRoute: BrandsRoute,
   ContactRoute: ContactRoute,
@@ -524,12 +585,14 @@ const rootRouteChildren: RootRouteChildren = {
   FaqRoute: FaqRoute,
   FlashDealsRoute: FlashDealsRoute,
   GuidesRoute: GuidesRouteWithChildren,
+  PrivacyRoute: PrivacyRoute,
   SaleRoute: SaleRouteWithChildren,
   SalesCalendarRoute: SalesCalendarRoute,
   SearchRoute: SearchRoute,
   ShopRoute: ShopRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   StoresRoute: StoresRoute,
+  TermsRoute: TermsRoute,
   BrandSlugRoute: BrandSlugRoute,
   CategorySlugRoute: CategorySlugRoute,
   DealSlugRoute: DealSlugRoute,

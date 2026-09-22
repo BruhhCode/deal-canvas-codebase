@@ -55,10 +55,14 @@ export function ProductSearch({
   size = "lg",
   className,
   initial = "",
+  autoFocus = false,
+  onSubmit,
 }: {
   size?: "lg" | "sm";
   className?: string;
   initial?: string;
+  autoFocus?: boolean;
+  onSubmit?: () => void;
 }) {
   const [q, setQ] = useState(initial);
   const typed = useTypewriter(searchPlaceholders);
@@ -70,6 +74,7 @@ export function ProductSearch({
       onSubmit={(e) => {
         e.preventDefault();
         navigate({ to: "/shop", search: { q: q.trim(), category: "", department: "", view: "", store: "" } });
+        onSubmit?.();
       }}
       className={cn("w-full", className)}
     >
@@ -85,6 +90,7 @@ export function ProductSearch({
           onChange={(e) => setQ(e.target.value)}
           aria-label="Search for products, brands or stores"
           placeholder={typed}
+          autoFocus={autoFocus}
           className={cn(
             "w-full bg-transparent outline-none placeholder:text-muted-foreground",
             size === "lg" ? "text-base" : "text-sm",

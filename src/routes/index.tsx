@@ -236,14 +236,18 @@ function Home() {
             linkLabel="All stores"
           />
           <div className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-3 lg:grid-cols-6">
-            {stores.map((s) => (
+            {stores.slice(0, 12).map((s) => (
               <Link
                 key={s.slug}
                 to="/store/$slug"
                 params={{ slug: s.slug }}
-                className="flex flex-col items-center gap-3 bg-card px-4 py-8 transition-colors hover:bg-cream"
+                className="group flex flex-col items-center gap-3 bg-card px-4 py-8 transition-colors hover:bg-cream"
               >
-                <StoreMark slug={s.slug} size="free" />
+                <StoreMark
+                  slug={s.slug}
+                  size="free"
+                  className="grayscale opacity-70 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
+                />
                 <span className="text-center text-xs font-semibold uppercase tracking-[0.14em]">{s.name}</span>
               </Link>
             ))}

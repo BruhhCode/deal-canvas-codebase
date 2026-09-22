@@ -29,7 +29,7 @@ export function BrandMark({
   return (
     <span
       className={cn(
-        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white font-semibold uppercase tracking-wider text-foreground",
+        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm bg-secondary font-semibold uppercase tracking-wider text-foreground",
         sizes[size],
         className,
       )}

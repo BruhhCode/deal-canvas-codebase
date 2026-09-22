@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, X } from "lucide-react";
+import { ChevronDown, ChevronRight, Heart, LayoutGrid, Menu, Search, X } from "lucide-react";
 import { categoriesByDepartment, departments } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { supabase } from "@/lib/supabase";
+import { ProductSearch } from "./ProductSearch";
 
 type StaticNavItem = { label: string; to: string; search?: Record<string, string> };
 
@@ -11,17 +12,25 @@ type StaticNavItem = { label: string; to: string; search?: Record<string, string
 // empty) — keeps the header from ever flashing empty, and matches what
 // src/scripts/create-cms-tables.sql seeds into `nav_items` in the admin
 // panel repo, so there's no visible difference on a normal page load.
+//
+// Kept to 6 items on purpose (Categories, the department mega-menu, is the
+// 6th "item" — it's rendered separately below, not in this array). "Sale"
+// and "Trending" used to be separate entries pointing at /shop?view=sale
+// and /shop?view=trending — both routes still work, they're just reachable
+// via the Deals page (its own sort options include "Trending", and
+// discount filtering covers "Sale") instead of a dedicated top-nav slot.
+// Sales Calendar / FAQ / Contact moved to the footer for the same reason —
+// real pages, just not core shopping-flow items that need a permanent header
+// slot. (The sibling admin-panel repo's `nav_items` table drives the *live*
+// nav shown here when it has rows — if it still seeds the old 10-item list,
+// it's worth trimming there too for consistency, but that's out of this
+// repo's control.)
 const defaultNav: StaticNavItem[] = [
   { label: "Shop", to: "/shop", search: { q: "", category: "", department: "", view: "" } },
   { label: "Deals", to: "/deals" },
   { label: "Stores", to: "/stores" },
   { label: "Brands", to: "/brands" },
   { label: "New In", to: "/shop", search: { q: "", category: "", department: "", view: "new" } },
-  { label: "Sale", to: "/shop", search: { q: "", category: "", department: "", view: "sale" } },
-  { label: "Trending", to: "/shop", search: { q: "", category: "", department: "", view: "trending" } },
-  { label: "Sales Calendar", to: "/sales-calendar" },
-  { label: "FAQ", to: "/faq" },
-  { label: "Contact", to: "/contact" },
 ];
 
 type NavRow = { slug: string; label: string; href: string; sort_order: number; visible: boolean };
@@ -94,6 +103,7 @@ export function Header() {
   const nav = useLiveNav();
   const [open, setOpen] = useState(false);
   const [catMenuOpen, setCatMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const [hoveredDept, setHoveredDept] = useState<string>(departmentNav[0]?.slug ?? "");
   const [openDeptMobile, setOpenDeptMobile] = useState<string | null>(null);
   const catMenuRef = useRef<HTMLLIElement>(null);
@@ -115,6 +125,16 @@ export function Header() {
     };
   }, [catMenuOpen]);
 
+  // Close the header search bar on Escape.
+  useEffect(() => {
+    if (!searchOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSearchOpen(false);
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [searchOpen]);
+
   return (
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 md:px-6">
@@ -122,7 +142,10 @@ export function Header() {
           type="button"
           className="lg:hidden"
           aria-label="Open menu"
-          onClick={() => setOpen((v) => !v)}
+          onClick={() => {
+            setOpen((v) => !v);
+            setSearchOpen(false);
+          }}
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
@@ -132,12 +155,32 @@ export function Header() {
         </Link>
 
         <div className="ml-auto flex items-center gap-4">
+          <button
+            type="button"
+            aria-label={searchOpen ? "Close search" : "Search"}
+            aria-expanded={searchOpen}
+            onClick={() => {
+              setSearchOpen((v) => !v);
+              setOpen(false);
+            }}
+            className={cn("hover:text-clay", searchOpen && "text-clay")}
+          >
+            {searchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
+          </button>
           <Link to="/account" className="flex items-center gap-2 text-sm font-medium hover:text-clay">
             <Heart className="h-5 w-5" />
             <span className="hidden sm:inline">Wishlist</span>
           </Link>
         </div>
       </div>
+
+      {searchOpen ? (
+        <div className="border-t bg-cream">
+          <div className="mx-auto max-w-2xl px-4 py-3 md:px-6">
+            <ProductSearch size="sm" autoFocus onSubmit={() => setSearchOpen(false)} />
+          </div>
+        </div>
+      ) : null}
 
       <nav className="hidden border-t lg:block">
         <ul className="mx-auto flex max-w-7xl items-center gap-6 px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em]">

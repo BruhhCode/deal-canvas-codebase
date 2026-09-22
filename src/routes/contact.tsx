@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, MessageCircle, Clock } from "lucide-react";
+import { Mail, MessageCircle, Clock, Handshake } from "lucide-react";
 import { toast } from "sonner";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { supabase } from "@/lib/supabase";
@@ -75,7 +75,7 @@ function ContactPage() {
       </header>
 
       <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
-        <div className="space-y-6">
+        <div className="flex flex-col justify-between gap-6">
           <div className="rounded-lg border bg-card p-6">
             <div className="flex items-start gap-3">
               <Mail className="mt-0.5 h-5 w-5 text-clay" />
@@ -104,6 +104,18 @@ function ContactPage() {
                 <p className="text-sm text-muted-foreground">
                   Pick "Report a broken deal or link" below and include the product or deal name — it helps us fix
                   it faster.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-lg border bg-card p-6">
+            <div className="flex items-start gap-3">
+              <Handshake className="mt-0.5 h-5 w-5 text-clay" />
+              <div>
+                <p className="text-sm font-semibold">Partnerships & press</p>
+                <p className="text-sm text-muted-foreground">
+                  Brand collaborations, affiliate partnerships or press requests — pick "Brand / partnership
+                  enquiry" or "Press" below and tell us what you have in mind.
                 </p>
               </div>
             </div>

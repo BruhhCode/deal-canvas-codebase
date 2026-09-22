@@ -35,19 +35,30 @@ export function useWishlist() {
 export function WishlistButton({ id, className }: { id: string; className?: string }) {
   const { ids, toggle } = useWishlist();
   const saved = ids.includes(id);
+  const [popped, setPopped] = useState(false);
 
   return (
     <button
       type="button"
       aria-label={saved ? "Remove from wishlist" : "Save deal"}
       aria-pressed={saved}
-      onClick={() => toggle(id)}
+      onClick={() => {
+        toggle(id);
+        setPopped(true);
+        setTimeout(() => setPopped(false), 280);
+      }}
       className={cn(
         "z-10 rounded-full bg-background/90 p-2 text-foreground backdrop-blur transition-colors hover:text-clay",
         className,
       )}
     >
-      <Heart className={cn("h-4 w-4", saved && "fill-clay text-clay")} />
+      <Heart
+        className={cn(
+          "h-4 w-4 transition-all duration-200 ease-out",
+          saved && "fill-clay text-clay",
+          popped && "scale-125",
+        )}
+      />
     </button>
   );
 }

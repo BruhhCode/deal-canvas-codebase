@@ -9,6 +9,12 @@
 > read it before touching anything Supabase-related, and update it in both
 > repos together if you change the contract.
 
+> **Also in `docs/`**: [`architecture.md`](docs/architecture.md) (how this
+> repo's code is put together), [`design-system.md`](docs/design-system.md)
+> (tokens + component conventions — read before any visual/UI change),
+> [`project-brief.md`](docs/project-brief.md) (what this product is, who
+> it's for, what's explicitly out of scope).
+
 A fashion-deal-aggregator site (formerly "Deal Canvas") built with **TanStack Start** (React 19, file-based routing via `@tanstack/react-router`) + **Vite** + **Tailwind v4**. It lets shoppers search/compare prices for the same product across multiple stores, browse curated deals/coupons/sale events, and stays in sync with the separate admin panel's edits via **Supabase Realtime**.
 
 ## Stack

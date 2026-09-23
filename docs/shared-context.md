@@ -186,18 +186,27 @@ retailer CDNs (`n.nordstrommedia.com`, `cdn-images.farfetch-contents.com`,
 (`cdn.worldvectorlogo.com`, `icons.duckduckgo.com`, `api.iconify.design`) —
 huge (some 2640×2641, 600+ KB) and outside our control (a retailer changing
 a URL or blocking hotlinking breaks the image with no warning). The admin
-panel repo's `src/scripts/` now process these once and re-host them from our
+panel repo's `scripts/` now process these once and re-host them from our
 own Supabase Storage.
 
 - **Buckets** (both public): `product-images` (products) and `brand-logos`
   (brands under a `brands/` path prefix, stores under `stores/`). Created
   idempotently by the scripts themselves (`ensurePublicBucket()` in
-  `src/scripts/lib/image-pipeline.mjs`) — no manual dashboard setup needed.
+  `scripts/lib/image-pipeline.mjs`) — no manual dashboard setup needed.
 - **Product images**: two WebP variants per source URL, 480w and 960w
   (quality ~75), at `products/<slug>/<sha1(sourceUrl)-first-10-hex>-{480,960}.webp`.
-  The 960w URL is what gets written to `products.image`/`images`; 480w is
-  uploaded too (for a future `<picture>`/srcset without needing to
-  reprocess) but nothing reads it yet.
+  **The 960w URL is the one written to `products.image`/each entry of
+  `images`** — that's the only URL stored in the database. The 480w sibling
+  is uploaded to the same path with `-960.webp` replaced by `-480.webp`
+  (same slug, same hash — only the width suffix differs), so the site can
+  derive it with a plain string replace instead of a second stored column:
+  `stored.replace(/-960\.webp$/, "-480.webp")` gets you the 480w URL for a
+  `srcSet`/`<picture>` without any schema or query change. Both variants
+  always exist together (uploaded in the same call) or neither does, so
+  this derivation is safe to rely on for any URL that actually came from
+  this pipeline — guard it (fall back to the stored URL alone) for any
+  `image`/`images` value that predates this and is still a raw retailer
+  URL, since those obviously have no `-480`/`-960` sibling.
 - **Logos**: SVGs are copied through untouched; raster favicons/icons are
   converted to a single WebP capped at 256×256. Path:
   `brand-logos/{brands,stores}/<slug>-<hash>.{svg,webp}`.
@@ -212,12 +221,12 @@ own Supabase Storage.
 - **Scripts** (admin panel repo, run locally with the service-role key —
   see `.env.example`, non-`VITE_`-prefixed `SUPABASE_URL` /
   `SUPABASE_SERVICE_ROLE_KEY`, added specifically for these):
-  - `src/scripts/seed.js` — CSV product import; processes each product's
+  - `scripts/seed.js` — CSV product import; processes each product's
     image + gallery as part of importing it.
-  - `src/scripts/backfill-product-images.mjs` — one-off, processes products
+  - `scripts/backfill-product-images.mjs` — one-off, processes products
     already in the DB (`--force` to reprocess everything, otherwise skips
     rows that already have `image_source_url`).
-  - `src/scripts/backfill-brand-logos.mjs` — needs a `logo-map.json`
+  - `scripts/backfill-brand-logos.mjs` — needs a `logo-map.json`
     (`{brands: {slug: url}, stores: {slug: url}}`) produced by running
     `npx tsx scripts/export-logo-map.ts` **in the site repo** (logo URLs are
     computed by `brandLogo()`/`storeLogo()` there, not stored anywhere in
@@ -254,7 +263,7 @@ run — policies here have drifted from file history at least once already
   this — but the original wide-open policy was never dropped, so it's still
   wide open in practice (see RLS section above).
 - `products` was originally **not** in the realtime publication; the admin
-  panel's `src/scripts/enable-products-realtime.sql` added it after
+  panel's `scripts/enable-products-realtime.sql` added it after
   discovering products created in the admin panel never appeared live on the
   site.
 - The site's `products` table was migrated from an `id`-keyed to a
@@ -276,11 +285,11 @@ run — policies here have drifted from file history at least once already
   a `contact_messages` table defined in `schema.sql`, but that table was
   never actually created in the live project — every real contact form
   submission was silently failing (into a toast error) until the admin
-  panel's `src/scripts/create-cms-tables.sql` created it (idempotently
+  panel's `scripts/create-cms-tables.sql` created it (idempotently
   mirroring the site's definition) while adding the Navigation/Pages/FAQ/
   Contact-Queries admin sections. Worth remembering: a table being fully
   defined in a repo's schema file doesn't mean it exists live — verify.
-- The admin panel repo's `src/scripts/seed.js` (and the `static-data.js` it
+- The admin panel repo's `scripts/seed.js` (and the `static-data.js` it
   imports) was **effectively broken and unrunnable** before being fixed
   alongside adding image processing: `seed.js` used CommonJS `require()`
   under a `"type": "module"` `package.json` (a hard `ReferenceError`, not

@@ -60,13 +60,13 @@ back to the original import).
 ## Tables (current shape — source of truth is Supabase itself; this is a snapshot)
 
 ### `brands`
-`slug` (PK, text) · `name` · `description` · `category` · `network` · `featured` (bool)
+`slug` (PK, text) · `name` · `description` · `category` · `network` · `featured` (bool) · `logo_url` (nullable — our own Supabase Storage URL, `brand-logos` bucket; see "Image & logo storage") · `logo_source_url` (nullable — original hotlinked URL, kept for re-processing)
 
 ### `stores`
-`slug` (PK, text) · `name` · `description` · `network` · `domain` · `campaign` · `store_id` · `sub_id` · `ships_to` · `store_wide_offer` (nullable) · `featured` (bool) · `sponsored` (bool)
+`slug` (PK, text) · `name` · `description` · `network` · `domain` · `campaign` · `store_id` · `sub_id` · `ships_to` · `store_wide_offer` (nullable) · `featured` (bool) · `sponsored` (bool) · `logo_url` (nullable — same `brand-logos` bucket, `stores/` prefix) · `logo_source_url` (nullable)
 
 ### `products`
-`slug` (PK, text) · `source_id` · `name` · `brand` (FK → `brands.slug`) · `category` · `subcategory` · `gender` · `description` · `image` · `images` (jsonb array) · `colors` (jsonb array) · `sizes` (jsonb array) · `tags` (jsonb array) · `rating` (numeric) · `reviews` (int) · `views` (int) · `new_in` (bool) · `updated_at`
+`slug` (PK, text) · `source_id` · `name` · `brand` (FK → `brands.slug`) · `category` · `subcategory` · `gender` · `description` · `image` · `images` (jsonb array) · `colors` (jsonb array) · `sizes` (jsonb array) · `tags` (jsonb array) · `rating` (numeric) · `reviews` (int) · `views` (int) · `new_in` (bool) · `updated_at` · `image_source_url` (nullable — original hotlinked retailer URL for `image`, kept for re-processing) · `images_source_urls` (jsonb array, nullable — original URLs for `images`, same order)
 
 ### `offers`
 `id` (PK, uuid, default `gen_random_uuid()`) · `product_slug` (FK → `products.slug`, cascade delete) · `store` (FK → `stores.slug`) · `price` (base unit) · `original_price` (base unit) · `currency` (text, always `"USD"` today — it labels the base-unit currency, not a display currency) · `availability` (text: `"IN STOCK" | "LOW STOCK" | "OUT OF STOCK"`) · `product_url` · `coupon_code` (nullable) · `shipping` · `updated_hours_ago` (int) · `sponsored` (bool) · `updated_at`
@@ -177,6 +177,66 @@ them the way there is for prices/availability).
   it doesn't need `useCatalogVersion`-equivalent wiring, but if it ever adds
   a second open tab/session scenario, this is where that would go.
 
+## Image & logo storage
+
+Product photos and brand/store logos used to be hotlinked directly from
+retailer CDNs (`n.nordstrommedia.com`, `cdn-images.farfetch-contents.com`,
+`cdn.shopify.com`, `m.media-amazon.com`, `images.puma.com`,
+`mediahub.prettylittlething.com`) and logo/favicon services
+(`cdn.worldvectorlogo.com`, `icons.duckduckgo.com`, `api.iconify.design`) —
+huge (some 2640×2641, 600+ KB) and outside our control (a retailer changing
+a URL or blocking hotlinking breaks the image with no warning). The admin
+panel repo's `src/scripts/` now process these once and re-host them from our
+own Supabase Storage.
+
+- **Buckets** (both public): `product-images` (products) and `brand-logos`
+  (brands under a `brands/` path prefix, stores under `stores/`). Created
+  idempotently by the scripts themselves (`ensurePublicBucket()` in
+  `src/scripts/lib/image-pipeline.mjs`) — no manual dashboard setup needed.
+- **Product images**: two WebP variants per source URL, 480w and 960w
+  (quality ~75), at `products/<slug>/<sha1(sourceUrl)-first-10-hex>-{480,960}.webp`.
+  The 960w URL is what gets written to `products.image`/`images`; 480w is
+  uploaded too (for a future `<picture>`/srcset without needing to
+  reprocess) but nothing reads it yet.
+- **Logos**: SVGs are copied through untouched; raster favicons/icons are
+  converted to a single WebP capped at 256×256. Path:
+  `brand-logos/{brands,stores}/<slug>-<hash>.{svg,webp}`.
+- **Idempotency**: the path is fully determined by `slug` + a hash of the
+  *source* URL, so re-running any of these scripts against the same source
+  is a no-op past the first successful run (existence is checked before
+  uploading) — safe to re-run seed.js or either backfill script freely.
+- **Original URLs are preserved**, not discarded: `image_source_url` /
+  `images_source_urls` / `logo_source_url` (see the table entries above) —
+  so a source can be re-processed later (e.g. quality settings change)
+  without needing it re-supplied from outside the database.
+- **Scripts** (admin panel repo, run locally with the service-role key —
+  see `.env.example`, non-`VITE_`-prefixed `SUPABASE_URL` /
+  `SUPABASE_SERVICE_ROLE_KEY`, added specifically for these):
+  - `src/scripts/seed.js` — CSV product import; processes each product's
+    image + gallery as part of importing it.
+  - `src/scripts/backfill-product-images.mjs` — one-off, processes products
+    already in the DB (`--force` to reprocess everything, otherwise skips
+    rows that already have `image_source_url`).
+  - `src/scripts/backfill-brand-logos.mjs` — needs a `logo-map.json`
+    (`{brands: {slug: url}, stores: {slug: url}}`) produced by running
+    `npx tsx scripts/export-logo-map.ts` **in the site repo** (logo URLs are
+    computed by `brandLogo()`/`storeLogo()` there, not stored anywhere in
+    the DB) and copied over.
+  - All three: 4-way concurrency limit (`runWithConcurrency` in
+    `image-pipeline.mjs`), a failed image never aborts the run — the
+    product/brand/store just keeps its original URL, gets logged, and is
+    counted in a processed/skipped/failed summary printed at the end.
+- **Site repo still needs updating to actually use this** (not done as
+  part of adding these scripts — a separate follow-up):
+  - Products need **no change** — images render via a plain
+    `<img src={imageSrc}>` (`src/components/Tile.tsx`), so once `image`/
+    `images` point at Storage URLs the site picks them up automatically.
+  - `src/data/catalog.ts`'s `brandLogo()` and `src/data/stores.ts`'s
+    `storeLogo()` (consumed by `src/components/BrandMark.tsx`) still return
+    the old hardcoded/favicon URLs — they'd need to prefer a DB-fetched
+    `brand.logo_url`/`store.logo_url` once populated, falling back to the
+    existing logic for any brand/store where it's still null.
+
 ## Verification convention
 
 Both repos favor small, throwaway diagnostic scripts (using the service-role
@@ -220,3 +280,17 @@ run — policies here have drifted from file history at least once already
   mirroring the site's definition) while adding the Navigation/Pages/FAQ/
   Contact-Queries admin sections. Worth remembering: a table being fully
   defined in a repo's schema file doesn't mean it exists live — verify.
+- The admin panel repo's `src/scripts/seed.js` (and the `static-data.js` it
+  imports) was **effectively broken and unrunnable** before being fixed
+  alongside adding image processing: `seed.js` used CommonJS `require()`
+  under a `"type": "module"` `package.json` (a hard `ReferenceError`, not
+  just stale), and `static-data.js`'s `deals`/`sale_events` arrays had drift
+  from the live schema (`product_id: null` — no such column on `deals`;
+  `time_window` — the real column is `"window"`) that would have made even
+  a fixed-ESM version fail to insert. All three fixed together. The actual
+  live CSV product import path is, and remains, the admin UI's own **Import
+  Feed** modal (`ImportFeedModal.tsx` → `bulkImportProducts()` in
+  `src/lib/data.ts`), which runs client-side in the browser — `seed.js` is
+  a separate, Node-only path (needed because image processing via `sharp`
+  can't run in a browser) and does not get the same image processing the
+  Import Feed modal doesn't have either; see "Image & logo storage" above.

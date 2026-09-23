@@ -71,7 +71,13 @@ export function Tile({
         className,
       )}
     >
-      <Link to={imageTo} params={imageParams} className="relative block aspect-square overflow-hidden bg-cream">
+      <Link
+        to={imageTo}
+        params={imageParams}
+        aria-hidden="true"
+        tabIndex={-1}
+        className="relative block aspect-square overflow-hidden bg-cream"
+      >
         <ProductImage
           src={imageSrc}
           alt={imageAlt}

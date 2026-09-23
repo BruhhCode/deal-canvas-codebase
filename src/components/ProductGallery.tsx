@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, ImageOff } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { productImg } from "@/lib/img";
 
 export function ProductGallery({
   images: rawImages,
@@ -47,7 +48,12 @@ export function ProductGallery({
                 i === current ? "border-foreground" : "border-transparent hover:border-border",
               )}
             >
-              <img src={src} alt="" className="aspect-square w-full object-cover" loading="lazy" />
+              <img
+                src={productImg(src, 160)}
+                alt=""
+                className="aspect-square w-full object-cover"
+                loading="lazy"
+              />
             </button>
           ))}
         </div>
@@ -56,7 +62,9 @@ export function ProductGallery({
       <div className="relative flex-1 overflow-hidden rounded-lg bg-cream">
         <img
           key={current}
-          src={images[current]}
+          src={productImg(images[current]!, 960)}
+          srcSet={`${productImg(images[current]!, 640)} 640w, ${productImg(images[current]!, 960)} 960w, ${productImg(images[current]!, 1280)} 1280w`}
+          sizes="(min-width: 1024px) 50vw, 100vw"
           alt={alt}
           width={900}
           height={900}

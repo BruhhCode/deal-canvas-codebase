@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { productImg } from "@/lib/img";
 
 /** First letter of up to the first two words — same monogram convention as BrandMark. */
 function initialsOf(text: string): string {
@@ -14,7 +15,17 @@ function initialsOf(text: string): string {
 }
 
 /** Renders a product photo, or a branded monogram placeholder when there isn't a genuine one. */
-export function ProductImage({ src, alt, className }: { src: string; alt: string; className?: string }) {
+export function ProductImage({
+  src,
+  alt,
+  className,
+  sizes = "(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw",
+}: {
+  src: string;
+  alt: string;
+  className?: string;
+  sizes?: string;
+}) {
   const [failed, setFailed] = useState(false);
 
   if (!src || failed) {
@@ -34,7 +45,9 @@ export function ProductImage({ src, alt, className }: { src: string; alt: string
 
   return (
     <img
-      src={src}
+      src={productImg(src, 480)}
+      srcSet={`${productImg(src, 240)} 240w, ${productImg(src, 480)} 480w`}
+      sizes={sizes}
       alt={alt}
       loading="lazy"
       width={900}

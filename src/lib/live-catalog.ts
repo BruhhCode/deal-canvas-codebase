@@ -475,13 +475,27 @@ let started = false;
 // everything past the cap instead of erroring, so every table must be paged.
 const PAGE_SIZE = 1000;
 
-async function fetchAllRows<T>(table: string): Promise<T[]> {
+// Column lists mirror each table's Row type above exactly — trims whatever
+// extra DB columns (timestamps, etc.) aren't in those types out of the
+// payload, instead of pulling every column with select("*").
+const BRAND_COLUMNS = "slug,name,description,category,network,featured";
+const STORE_COLUMNS =
+  "slug,name,description,network,domain,campaign,store_id,sub_id,ships_to,store_wide_offer,featured,sponsored";
+const PRODUCT_COLUMNS =
+  "slug,source_id,name,brand,category,subcategory,gender,description,image,images,colors,sizes,tags,rating,reviews,views,new_in";
+const OFFER_COLUMNS =
+  "product_slug,store,price,original_price,currency,availability,product_url,coupon_code,shipping,updated_hours_ago,sponsored";
+const DEAL_COLUMNS =
+  "id,slug,title,product,brand,category,subcategory,original_price,price,code,deal_type,badges,description,terms,expires_in_hours,status,image,tags,merchant_url,network,campaign,sub_id,tracking_id,clicks,featured,flash,sponsored";
+const SALE_EVENT_COLUMNS = "id,store,title,discount,window,detail,code";
+
+async function fetchAllRows<T>(table: string, columns: string): Promise<T[]> {
   if (!supabase) return [];
   const rows: T[] = [];
   for (let from = 0; ; from += PAGE_SIZE) {
     const { data, error } = await supabase
       .from(table)
-      .select("*")
+      .select(columns)
       .range(from, from + PAGE_SIZE - 1);
     if (error || !data) break;
     rows.push(...(data as T[]));
@@ -493,33 +507,41 @@ async function fetchAllRows<T>(table: string): Promise<T[]> {
 async function hydrateFromSupabase() {
   if (!supabase) return;
 
-  const brandRows = await fetchAllRows<BrandRow>("brands");
+  const brandRows = await fetchAllRows<BrandRow>("brands", BRAND_COLUMNS);
   for (const row of brandRows) applyBrandRow(row, false);
 
-  const storeRows = await fetchAllRows<StoreRow>("stores");
+  const storeRows = await fetchAllRows<StoreRow>("stores", STORE_COLUMNS);
   for (const row of storeRows) applyStoreRow(row, false);
 
-  const prods = await fetchAllRows<ProductRow>("products");
+  const prods = await fetchAllRows<ProductRow>("products", PRODUCT_COLUMNS);
   for (const row of prods) applyProductRow(row, false);
 
-  const offs = await fetchAllRows<OfferRow>("offers");
+  const offs = await fetchAllRows<OfferRow>("offers", OFFER_COLUMNS);
   for (const row of offs) applyOfferRow(row, false);
 
-  const dealRows = await fetchAllRows<DealRow>("deals");
+  const dealRows = await fetchAllRows<DealRow>("deals", DEAL_COLUMNS);
   for (const row of dealRows) applyDealRow(row, false);
 
-  const eventRows = await fetchAllRows<SaleEventRow>("sale_events");
+  const eventRows = await fetchAllRows<SaleEventRow>("sale_events", SALE_EVENT_COLUMNS);
   for (const row of eventRows) applySaleEventRow(row, false);
 
   bump();
 }
 
-/** Client-only; safe to call multiple times (e.g. on re-mount in dev) — it only wires up once. */
+/**
+ * Client-only; safe to call multiple times (e.g. on re-mount in dev) — it
+ * only wires up once. The one-time bulk hydrate is deferred to idle time
+ * (it exists purely to self-heal drift from edits made while no tab was
+ * open — the catalog is already statically bundled, so it doesn't need to
+ * compete with first paint); realtime subscriptions still attach
+ * immediately since they're push-based, not a payload cost.
+ */
 export function initLiveCatalog() {
   if (started || typeof window === "undefined" || !supabase) return;
   started = true;
 
-  void hydrateFromSupabase();
+  const runWhenIdle = window.requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 1));
+  runWhenIdle(() => void hydrateFromSupabase());
 
   supabase
     .channel("brands-live")

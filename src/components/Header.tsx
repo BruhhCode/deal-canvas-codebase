@@ -66,7 +66,7 @@ function useLiveNav(): StaticNavItem[] {
     let cancelled = false;
     supabase
       .from("nav_items")
-      .select("*")
+      .select("slug,label,href,sort_order,visible")
       .order("sort_order")
       .then(({ data, error }) => {
         if (cancelled || error || !data || data.length === 0) return;

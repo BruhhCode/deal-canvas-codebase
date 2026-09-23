@@ -16,12 +16,20 @@ import {
   categoryName,
   getProduct,
   lastUpdatedLabel,
+  offerAffiliateUrl,
   productDiscount,
   relatedProducts,
   savingsVsHighest,
 } from "@/data/products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 import { fetchAndApplyProduct, useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
+
+const availabilitySchema: Record<string, string> = {
+  "IN STOCK": "https://schema.org/InStock",
+  "LOW STOCK": "https://schema.org/LimitedAvailability",
+  "OUT OF STOCK": "https://schema.org/OutOfStock",
+};
 
 export const Route = createFileRoute("/product/$slug")({
   loader: async ({ params }) => {
@@ -44,14 +52,36 @@ export const Route = createFileRoute("/product/$slug")({
     const best = bestOffer(p);
     const title = `${brandName(p.brand)} ${p.name} — Compare Prices Across ${p.offers.length} Stores`;
     const description = `${brandName(p.brand)} ${p.name} from ${formatUsd(best.price)} at ${storeName(best.store)}. Compare live prices, stock and coupons across every store we track.`;
+    const url = absoluteUrl(`/product/${p.slug}`);
     return {
       meta: [
         { title },
         { name: "description", content: description },
         { property: "og:title", content: title },
         { property: "og:description", content: description },
+        { property: "og:url", content: url },
         { property: "og:type", content: "product" },
         { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [{ rel: "canonical", href: url }],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: p.name,
+            image: p.image,
+            brand: { "@type": "Brand", name: brandName(p.brand) },
+            offers: p.offers.map((o) => ({
+              "@type": "Offer",
+              price: toUsd(o.price).toFixed(2),
+              priceCurrency: "USD",
+              availability: availabilitySchema[o.availability] ?? "https://schema.org/InStock",
+              url: offerAffiliateUrl(p, o),
+            })),
+          }),
+        },
       ],
     };
   },
@@ -71,33 +101,8 @@ function ProductPage() {
   const saving = savingsVsHighest(product);
   const related = relatedProducts(product);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: `${brandName(product.brand)} ${product.name}`,
-    brand: { "@type": "Brand", name: brandName(product.brand) },
-    description: product.description,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviews,
-    },
-    offers: product.offers.map((o) => ({
-      "@type": "Offer",
-      price: Math.round(toUsd(o.price)),
-      priceCurrency: "USD",
-      availability:
-        o.availability === "OUT OF STOCK"
-          ? "https://schema.org/OutOfStock"
-          : "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: storeName(o.store) },
-    })),
-  };
-
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 md:px-6 md:py-10">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-
       <Breadcrumbs
         items={[
           { label: "Home", to: "/" },

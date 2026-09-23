@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BrandMark } from "@/components/BrandMark";
 import { brands } from "@/data/catalog";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/brands")({
   head: () => ({
@@ -17,9 +18,9 @@ export const Route = createFileRoute("/brands")({
       },
       { property: "og:title", content: "All Brands A–Z | DealsCanvas" },
       { property: "og:description", content: "Every store we track, with live deals and coupons." },
-      { property: "og:url", content: "/brands" },
+      { property: "og:url", content: absoluteUrl("/brands") },
     ],
-    links: [{ rel: "canonical", href: "/brands" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/brands") }],
   }),
   component: BrandsPage,
 });

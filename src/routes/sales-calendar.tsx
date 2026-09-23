@@ -6,6 +6,7 @@ import { storeName } from "@/data/stores";
 import { saleEvents, saleWindows } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sales-calendar")({
   head: () => ({
@@ -18,9 +19,11 @@ export const Route = createFileRoute("/sales-calendar")({
       },
       { property: "og:title", content: "Sales Calendar | DealsCanvas" },
       { property: "og:description", content: "Plan your shopping around every upcoming sale window." },
+      { property: "og:url", content: absoluteUrl("/sales-calendar") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: absoluteUrl("/sales-calendar") }],
   }),
   component: SalesCalendar,
 });

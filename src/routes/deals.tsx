@@ -6,6 +6,7 @@ import { FilterCheckbox, FilterPanel, FilterRange, FilterSelect, SortControl } f
 import { brands, categories, deals, discountPct, type Deal } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/deals")({
   head: () => ({
@@ -18,9 +19,9 @@ export const Route = createFileRoute("/deals")({
       },
       { property: "og:title", content: "All Deals | DealsCanvas" },
       { property: "og:description", content: "Every live deal, filterable by brand and discount." },
-      { property: "og:url", content: "/deals" },
+      { property: "og:url", content: absoluteUrl("/deals") },
     ],
-    links: [{ rel: "canonical", href: "/deals" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/deals") }],
   }),
   component: DealsPage,
 });

@@ -5,6 +5,7 @@ import { StoreMark } from "@/components/StoreMark";
 import { stores } from "@/data/stores";
 import { productsByStore } from "@/data/products";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/stores")({
   head: () => ({
@@ -17,9 +18,11 @@ export const Route = createFileRoute("/stores")({
       },
       { property: "og:title", content: "All Stores | DealsCanvas" },
       { property: "og:description", content: "Every store we compare prices across, in one directory." },
+      { property: "og:url", content: absoluteUrl("/stores") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: absoluteUrl("/stores") }],
   }),
   component: StoresPage,
 });

@@ -5,6 +5,7 @@ import { CouponCard } from "@/components/CouponCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { categories, coupons, dealsByCategory, guides } from "@/data/catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/category/$slug")({
   loader: ({ params }) => {
@@ -25,9 +26,9 @@ export const Route = createFileRoute("/category/$slug")({
         { name: "description", content: description },
         { property: "og:title", content: title },
         { property: "og:description", content: description },
-        { property: "og:url", content: `/category/${params.slug}` },
+        { property: "og:url", content: absoluteUrl(`/category/${params.slug}`) },
       ],
-      links: [{ rel: "canonical", href: `/category/${params.slug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/category/${params.slug}`) }],
       scripts: [
         {
           type: "application/ld+json",

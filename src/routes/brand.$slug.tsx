@@ -10,6 +10,7 @@ import { StoreMark } from "@/components/StoreMark";
 import { storeName } from "@/data/stores";
 import { newArrivals, productDiscount, productsByBrand } from "@/data/products";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/brand/$slug")({
   loader: ({ params }) => {
@@ -30,9 +31,9 @@ export const Route = createFileRoute("/brand/$slug")({
         { name: "description", content: description },
         { property: "og:title", content: title },
         { property: "og:description", content: description },
-        { property: "og:url", content: `/brand/${params.slug}` },
+        { property: "og:url", content: absoluteUrl(`/brand/${params.slug}`) },
       ],
-      links: [{ rel: "canonical", href: `/brand/${params.slug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/brand/${params.slug}`) }],
       scripts: [
         {
           type: "application/ld+json",

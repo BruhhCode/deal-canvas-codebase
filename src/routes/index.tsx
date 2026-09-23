@@ -13,6 +13,7 @@ import { stores, storeName } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
 import { approxCount } from "@/lib/utils";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 import {
   bestOffer,
   biggestDiscounts,
@@ -48,7 +49,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      { rel: "canonical", href: "/" },
+      { rel: "canonical", href: absoluteUrl("/") },
       {
         rel: "preload",
         as: "image",

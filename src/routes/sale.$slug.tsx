@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DealCard } from "@/components/DealCard";
 import { Newsletter } from "@/components/Newsletter";
 import { seasonalSales, topDiscounts } from "@/data/catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sale/$slug")({
   loader: ({ params }) => {
@@ -22,9 +23,9 @@ export const Route = createFileRoute("/sale/$slug")({
         { name: "description", content: `${sale.blurb} Compare the best ${sale.name} deals and coupons from top fashion and lifestyle brands.` },
         { property: "og:title", content: title },
         { property: "og:description", content: sale.blurb },
-        { property: "og:url", content: `/sale/${params.slug}` },
+        { property: "og:url", content: absoluteUrl(`/sale/${params.slug}`) },
       ],
-      links: [{ rel: "canonical", href: `/sale/${params.slug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/sale/${params.slug}`) }],
     };
   },
   component: SaleDetail,

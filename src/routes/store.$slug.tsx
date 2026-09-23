@@ -13,6 +13,7 @@ import {
   saleEvents,
 } from "@/data/products";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/store/$slug")({
   loader: ({ params }) => {
@@ -33,9 +34,11 @@ export const Route = createFileRoute("/store/$slug")({
         { name: "description", content: description },
         { property: "og:title", content: title },
         { property: "og:description", content: description },
+        { property: "og:url", content: absoluteUrl(`/store/${s.slug}`) },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
+      links: [{ rel: "canonical", href: absoluteUrl(`/store/${s.slug}`) }],
     };
   },
   component: StorePage,

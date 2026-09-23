@@ -3,9 +3,7 @@ import type {} from "@tanstack/react-start";
 import { brands, categories, deals, guides, seasonalSales } from "@/data/catalog";
 import { products, shopCategories } from "@/data/products";
 import { stores } from "@/data/stores";
-
-// TODO: replace with your project URL once a project name or custom domain is set.
-const BASE_URL = "";
+import { SITE_URL } from "@/lib/site";
 
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
@@ -35,7 +33,7 @@ export const Route = createFileRoute("/sitemap.xml")({
         const xml = [
           `<?xml version="1.0" encoding="UTF-8"?>`,
           `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`,
-          ...paths.map((p) => `  <url>\n    <loc>${BASE_URL}${p}</loc>\n  </url>`),
+          ...paths.map((p) => `  <url>\n    <loc>${SITE_URL}${p}</loc>\n  </url>`),
           `</urlset>`,
         ].join("\n");
 

@@ -5,6 +5,7 @@ import { DealCard } from "@/components/DealCard";
 import { Countdown } from "@/components/Countdown";
 import { endingSoon, flashDeals as seedFlashDeals } from "@/data/catalog";
 import { productsAsDeals } from "@/data/deal-products";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/flash-deals")({
   head: () => ({
@@ -13,9 +14,9 @@ export const Route = createFileRoute("/flash-deals")({
       { name: "description", content: "Short-window flash sales, midnight deals and 24-hour offers with live countdown timers." },
       { property: "og:title", content: "Flash Deals | DealsCanvas" },
       { property: "og:description", content: "Limited-time offers ending within hours." },
-      { property: "og:url", content: "/flash-deals" },
+      { property: "og:url", content: absoluteUrl("/flash-deals") },
     ],
-    links: [{ rel: "canonical", href: "/flash-deals" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/flash-deals") }],
   }),
   component: FlashPage,
 });

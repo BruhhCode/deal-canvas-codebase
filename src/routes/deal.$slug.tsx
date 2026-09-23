@@ -15,6 +15,7 @@ import {
 import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/deal/$slug")({
   loader: ({ params }) => {
@@ -38,10 +39,10 @@ export const Route = createFileRoute("/deal/$slug")({
         { property: "og:title", content: title },
         { property: "og:description", content: description },
         { property: "og:type", content: "product" },
-        { property: "og:url", content: `/deal/${params.slug}` },
+        { property: "og:url", content: absoluteUrl(`/deal/${params.slug}`) },
         ...(deal.status === "EXPIRED" ? [{ name: "robots", content: "index, follow" }] : []),
       ],
-      links: [{ rel: "canonical", href: `/deal/${params.slug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/deal/${params.slug}`) }],
       scripts: [
         {
           type: "application/ld+json",

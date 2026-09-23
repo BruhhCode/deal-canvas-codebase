@@ -4,6 +4,7 @@ import { CouponCard } from "@/components/CouponCard";
 import { Newsletter } from "@/components/Newsletter";
 import { coupons } from "@/data/catalog";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/coupons")({
   head: () => ({
@@ -16,9 +17,9 @@ export const Route = createFileRoute("/coupons")({
       },
       { property: "og:title", content: "Coupons & Promo Codes | DealsCanvas" },
       { property: "og:description", content: "Verified discount codes from top fashion brands." },
-      { property: "og:url", content: "/coupons" },
+      { property: "og:url", content: absoluteUrl("/coupons") },
     ],
-    links: [{ rel: "canonical", href: "/coupons" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/coupons") }],
     scripts: [
       {
         type: "application/ld+json",

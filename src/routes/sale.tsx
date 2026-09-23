@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { seasonalSales, topDiscounts } from "@/data/catalog";
 import { DealCard } from "@/components/DealCard";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/sale")({
   head: () => ({
@@ -10,9 +11,9 @@ export const Route = createFileRoute("/sale")({
       { name: "description", content: "Every major shopping event in one place: July 4th, Black Friday, Cyber Monday, End of Season and New Year sales." },
       { property: "og:title", content: "Seasonal Sales | DealsCanvas" },
       { property: "og:description", content: "Plan your year around the biggest discount windows." },
-      { property: "og:url", content: "/sale" },
+      { property: "og:url", content: absoluteUrl("/sale") },
     ],
-    links: [{ rel: "canonical", href: "/sale" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/sale") }],
   }),
   component: SalePage,
 });

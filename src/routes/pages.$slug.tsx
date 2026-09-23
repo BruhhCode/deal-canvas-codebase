@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { supabase } from "@/lib/supabase";
+import { absoluteUrl } from "@/lib/site";
 
 type PageRow = {
   slug: string;
@@ -36,9 +37,9 @@ export const Route = createFileRoute("/pages/$slug")({
         { title: `${page.title} | DealsCanvas` },
         ...(page.meta_description ? [{ name: "description", content: page.meta_description }] : []),
         { property: "og:title", content: page.title },
-        { property: "og:url", content: `/pages/${params.slug}` },
+        { property: "og:url", content: absoluteUrl(`/pages/${params.slug}`) },
       ],
-      links: [{ rel: "canonical", href: `/pages/${params.slug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/pages/${params.slug}`) }],
     };
   },
   component: CmsPage,

@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -10,9 +11,9 @@ export const Route = createFileRoute("/about")({
         content: "Why DealsCanvas exists, how it makes money, and what we're honest about not being perfect at.",
       },
       { property: "og:title", content: "About DealsCanvas" },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: absoluteUrl("/about") },
     ],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/about") }],
   }),
   component: AboutPage,
 });

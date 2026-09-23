@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/privacy")({
   head: () => ({
@@ -10,9 +11,9 @@ export const Route = createFileRoute("/privacy")({
         content: "What DealsCanvas collects, why, and how affiliate links work — in plain language.",
       },
       { property: "og:title", content: "Privacy Policy | DealsCanvas" },
-      { property: "og:url", content: "/privacy" },
+      { property: "og:url", content: absoluteUrl("/privacy") },
     ],
-    links: [{ rel: "canonical", href: "/privacy" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/privacy") }],
   }),
   component: PrivacyPage,
 });

@@ -4,6 +4,7 @@ import { MessageCircle, Clock, Handshake } from "lucide-react";
 import { toast } from "sonner";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { supabase } from "@/lib/supabase";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -14,9 +15,9 @@ export const Route = createFileRoute("/contact")({
         content: "Get in touch with the DealsCanvas team — questions, partnership enquiries, or feedback on a deal.",
       },
       { property: "og:title", content: "Contact Us | DealsCanvas" },
-      { property: "og:url", content: "/contact" },
+      { property: "og:url", content: absoluteUrl("/contact") },
     ],
-    links: [{ rel: "canonical", href: "/contact" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/contact") }],
   }),
   component: ContactPage,
 });

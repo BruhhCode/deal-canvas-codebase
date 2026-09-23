@@ -4,6 +4,7 @@ import { DealCard } from "@/components/DealCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { deals, guides } from "@/data/catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/guides/$slug")({
   loader: ({ params }) => {
@@ -23,9 +24,9 @@ export const Route = createFileRoute("/guides/$slug")({
         { property: "og:title", content: guide.title },
         { property: "og:description", content: guide.excerpt },
         { property: "og:type", content: "article" },
-        { property: "og:url", content: `/guides/${params.slug}` },
+        { property: "og:url", content: absoluteUrl(`/guides/${params.slug}`) },
       ],
-      links: [{ rel: "canonical", href: `/guides/${params.slug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/guides/${params.slug}`) }],
       scripts: [
         {
           type: "application/ld+json",

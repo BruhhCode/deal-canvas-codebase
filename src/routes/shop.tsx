@@ -24,6 +24,7 @@ import { cn } from "@/lib/utils";
 import { useCurrency } from "@/lib/currency";
 import { seededShuffle } from "@/lib/seeded-shuffle";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/shop")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -53,6 +54,10 @@ export const Route = createFileRoute("/shop")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    // Canonical points at the unfiltered listing regardless of query params
+    // (q/category/department/view/store) -- standard practice for faceted
+    // search pages, so filter combinations aren't indexed as duplicate pages.
+    links: [{ rel: "canonical", href: absoluteUrl("/shop") }],
   }),
   component: ShopPage,
 });

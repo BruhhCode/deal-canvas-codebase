@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { guides } from "@/data/catalog";
+import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/guides")({
   head: () => ({
@@ -13,9 +14,9 @@ export const Route = createFileRoute("/guides")({
       },
       { property: "og:title", content: "Shopping Guides | DealsCanvas" },
       { property: "og:description", content: "What to buy, when to buy it, and where it's cheapest." },
-      { property: "og:url", content: "/guides" },
+      { property: "og:url", content: absoluteUrl("/guides") },
     ],
-    links: [{ rel: "canonical", href: "/guides" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/guides") }],
   }),
   component: GuidesPage,
 });

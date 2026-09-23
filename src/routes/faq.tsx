@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { supabase } from "@/lib/supabase";
+import { absoluteUrl } from "@/lib/site";
 
 type FaqRow = {
   id: string;
@@ -26,9 +27,9 @@ export const Route = createFileRoute("/faq")({
           content: "Answers to common questions about shopping, deals, orders and accounts on DealsCanvas.",
         },
         { property: "og:title", content: "FAQ | DealsCanvas" },
-        { property: "og:url", content: "/faq" },
+        { property: "og:url", content: absoluteUrl("/faq") },
       ],
-      links: [{ rel: "canonical", href: "/faq" }],
+      links: [{ rel: "canonical", href: absoluteUrl("/faq") }],
       scripts:
         faqs.length > 0
           ? [

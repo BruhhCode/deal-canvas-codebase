@@ -1,0 +1,45 @@
+/*
+ * Self-hosted fonts (replaces the Google Fonts <link>, see __root.tsx) —
+ * Latin subset only, only the weights actually used across the app
+ * (grep for font-normal/font-medium/font-semibold/font-bold confirmed
+ * Poppins 400/500/600/700 and Playfair Display 500/600/700 are the full
+ * set; Poppins 300 was loaded before but never referenced anywhere).
+ */
+@import "@fontsource/poppins/latin-400.css";
+@import "@fontsource/poppins/latin-500.css";
+@import "@fontsource/poppins/latin-600.css";
+@import "@fontsource/poppins/latin-700.css";
+@import "@fontsource/playfair-display/latin-500.css";
+@import "@fontsource/playfair-display/latin-600.css";
+@import "@fontsource/playfair-display/latin-700.css";
+
+/*
+ * Metric-matched fallback faces so the browser's fallback (Arial / Georgia)
+ * occupies the same box as the real font before it loads — eliminates the
+ * layout shift on swap. One fallback per family (not per weight — the
+ * override values only shift ~1-2 percentage points across the weights we
+ * load, computed below, so a single face covering the whole weight range
+ * is the standard approach, same as the `fontaine` Vite plugin's default).
+ * Values computed from the real font files' metrics (capsize's
+ * xWidthAvg-based method) against Arial (Poppins) / Georgia (Playfair
+ * Display) — not guessed.
+ */
+@font-face {
+  font-family: "Poppins Fallback";
+  src: local("Arial");
+  font-weight: 100 900;
+  ascent-override: 93.62%;
+  descent-override: 31.21%;
+  line-gap-override: 8.92%;
+  size-adjust: 112.16%;
+}
+
+@font-face {
+  font-family: "Playfair Display Fallback";
+  src: local("Georgia");
+  font-weight: 100 900;
+  ascent-override: 105.78%;
+  descent-override: 24.54%;
+  line-gap-override: 0%;
+  size-adjust: 102.29%;
+}

@@ -16293,7 +16293,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Dress",
     gender: "women",
     description: "ASOS DESIGN ASOS DESIGN draped halter neck maxi dress with knot back detail in floral print — dress tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "",
+    image: "https://images.asos-media.com/products/asos-design-draped-halter-neck-maxi-dress-with-knot-back-detail-in-floral-print/210638152-1-multifloral",
     colors: [
       "Floral"
     ],
@@ -17026,7 +17026,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Sneakers",
     gender: "unisex",
     description: "Nike Nike Air Rift sneakers in beige — sneakers tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "",
+    image: "https://images.asos-media.com/products/nike-air-rift-sneakers-in-beige/207499260-1-beige",
     colors: [
       "Beige"
     ],
@@ -18550,7 +18550,7 @@ export const generatedProducts: Product[] = [
     subcategory: "Women's T-Shirts & Tops",
     gender: "women",
     description: "Uniqlo Boat Neck T-Shirt — women's t-shirts & tops tracked across 1 store. We compare live prices, stock and coupons so you always land on the cheapest active listing.",
-    image: "",
+    image: "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/487819/item/usgoods_30_487819_3x4.jpg",
     colors: [],
     sizes: [],
     tags: [

@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 export const SLIDES = [
-  "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1920&q=70", // clothing boutique
-  "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1920&q=70", // fashion editorial
-  "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=1920&q=70", // sneakers
-  "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1920&q=70", // heels
-  "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1920&q=70", // makeup brushes
-  "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1920&q=70", // makeup / lipstick
-  "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1920&q=70", // shopping bags
-  "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1920&q=70", // clothing
+  "https://images.unsplash.com/photo-1621261027519-a71ac66d5a68?auto=format&fit=crop&w=1920&q=70", // bright minimalist boutique
+  "https://images.unsplash.com/photo-1606143412458-acc5f86de897?auto=format&fit=crop&w=1920&q=70", // fashion editorial, black & white portrait
+  "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1920&q=70", // boutique clothing rack under hanging lights
+  "https://images.unsplash.com/photo-1629511565591-a1d494ad6c58?auto=format&fit=crop&w=1920&q=70", // fashion editorial, bold color portrait
+  "https://images.unsplash.com/photo-1555529771-122e5d9f2341?auto=format&fit=crop&w=1920&q=70", // boutique interior, exposed brick
+  "https://images.unsplash.com/photo-1630905119003-329447458f85?auto=format&fit=crop&w=1920&q=70", // bright boutique corridor
+  "https://images.unsplash.com/photo-1561715276-a2d087060f1d?auto=format&fit=crop&w=1920&q=70", // shopping bag
+  "https://images.unsplash.com/photo-1595991209266-5ff5a3a2f008?auto=format&fit=crop&w=1920&q=70", // eclectic boutique interior
 ];
 
 const SLIDE_DURATION_MS = 4500;

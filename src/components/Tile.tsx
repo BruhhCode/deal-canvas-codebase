@@ -146,7 +146,7 @@ export function Tile({
           <Link
             to={cta.to}
             params={cta.params}
-            className="mt-auto block rounded-sm bg-primary py-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"
+            className="mt-auto block rounded-sm bg-primary py-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-primary-foreground transition-[color,background-color,transform] hover:bg-clay hover:text-clay-foreground active:scale-[0.97]"
           >
             {cta.label}
           </Link>
@@ -155,7 +155,7 @@ export function Tile({
             href={cta.href}
             target="_blank"
             rel="nofollow sponsored noopener"
-            className="mt-auto block rounded-sm bg-primary py-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"
+            className="mt-auto block rounded-sm bg-primary py-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-primary-foreground transition-[color,background-color,transform] hover:bg-clay hover:text-clay-foreground active:scale-[0.97]"
           >
             {cta.label}
           </a>

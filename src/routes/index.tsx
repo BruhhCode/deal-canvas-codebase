@@ -6,6 +6,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { BrandMark } from "@/components/BrandMark";
+import { Reveal } from "@/components/Reveal";
 import { brands } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
@@ -134,8 +135,10 @@ function Home() {
           href="/shop"
         />
         <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
-          {trendingPicks.map((p) => (
-            <ProductCard key={p.id} product={p} />
+          {trendingPicks.map((p, i) => (
+            <Reveal key={p.id} delayMs={(i % 5) * 60} className="h-full">
+              <ProductCard product={p} />
+            </Reveal>
           ))}
         </div>
       </section>
@@ -143,7 +146,7 @@ function Home() {
       <section className="border-y bg-ink py-16 text-background">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <div className="grid gap-6 md:grid-cols-3">
-            {promoBanners.map((b) => {
+            {promoBanners.map((b, i) => {
               const content = (
                 <>
                   <img
@@ -166,14 +169,18 @@ function Home() {
               );
               const className =
                 "group relative isolate h-72 overflow-hidden rounded-lg border border-background/20";
-              return "to" in b ? (
-                <Link key={b.title} to={b.to} className={className}>
-                  {content}
-                </Link>
-              ) : (
-                <Link key={b.title} to="/shop" search={b.search} className={className}>
-                  {content}
-                </Link>
+              return (
+                <Reveal key={b.title} delayMs={i * 100}>
+                  {"to" in b ? (
+                    <Link to={b.to} className={className}>
+                      {content}
+                    </Link>
+                  ) : (
+                    <Link to="/shop" search={b.search} className={className}>
+                      {content}
+                    </Link>
+                  )}
+                </Reveal>
               );
             })}
           </div>
@@ -188,8 +195,10 @@ function Home() {
           href="/shop"
         />
         <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
-          {discountPicks.map((p) => (
-            <ProductCard key={p.id} product={p} />
+          {discountPicks.map((p, i) => (
+            <Reveal key={p.id} delayMs={(i % 5) * 60} className="h-full">
+              <ProductCard product={p} />
+            </Reveal>
           ))}
         </div>
       </section>
@@ -198,8 +207,10 @@ function Home() {
         <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
           <SectionHeading eyebrow="New in" title="Just Landed" href="/shop" />
           <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
-            {newInPicks.map((p) => (
-              <ProductCard key={p.id} product={p} />
+            {newInPicks.map((p, i) => (
+              <Reveal key={p.id} delayMs={(i % 5) * 60} className="h-full">
+                <ProductCard product={p} />
+              </Reveal>
             ))}
           </div>
         </section>
@@ -208,16 +219,17 @@ function Home() {
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
         <SectionHeading eyebrow="Brands" title="Shop by Brand" href="/brands" linkLabel="All brands" />
         <div className="flex flex-wrap gap-4">
-          {brands.slice(0, 14).map((b) => (
-            <Link
-              key={b.slug}
-              to="/brand/$slug"
-              params={{ slug: b.slug }}
-              className="flex items-center gap-3 rounded-full border px-5 py-2.5 text-base transition-colors hover:border-clay hover:text-clay"
-            >
-              <BrandMark slug={b.slug} size="md" />
-              {b.name}
-            </Link>
+          {brands.slice(0, 14).map((b, i) => (
+            <Reveal key={b.slug} delayMs={(i % 7) * 40}>
+              <Link
+                to="/brand/$slug"
+                params={{ slug: b.slug }}
+                className="flex items-center gap-3 rounded-full border px-5 py-2.5 text-base transition-colors hover:border-clay hover:text-clay"
+              >
+                <BrandMark slug={b.slug} size="md" />
+                {b.name}
+              </Link>
+            </Reveal>
           ))}
         </div>
       </section>

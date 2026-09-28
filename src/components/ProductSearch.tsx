@@ -99,7 +99,7 @@ export function ProductSearch({
         <button
           type="submit"
           className={cn(
-            "shrink-0 rounded-full bg-primary font-semibold uppercase tracking-wider text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground",
+            "shrink-0 rounded-full bg-primary font-semibold uppercase tracking-wider text-primary-foreground transition-[color,background-color,transform] hover:bg-clay hover:text-clay-foreground active:scale-[0.96]",
             size === "lg" ? "px-6 py-2.5 text-sm" : "px-4 py-1.5 text-xs",
           )}
         >

@@ -37,7 +37,7 @@ export function Newsletter() {
           />
           <button
             type="submit"
-            className="rounded-sm bg-background px-8 py-3 text-sm font-semibold uppercase tracking-wider text-foreground transition-colors hover:bg-clay hover:text-clay-foreground"
+            className="rounded-sm bg-background px-8 py-3 text-sm font-semibold uppercase tracking-wider text-foreground transition-[color,background-color,transform] hover:bg-clay hover:text-clay-foreground active:scale-[0.97]"
           >
             Subscribe
           </button>

@@ -260,9 +260,12 @@ function ShopView() {
       </div>
 
       {sheet ? (
-        <div className="fixed inset-0 z-50 flex items-end bg-ink/40 lg:hidden" onClick={() => setSheet(false)}>
+        <div
+          className="animate-in fade-in fixed inset-0 z-50 flex items-end bg-ink/40 duration-200 lg:hidden"
+          onClick={() => setSheet(false)}
+        >
           <div
-            className="max-h-[85vh] w-full overflow-y-auto rounded-t-lg bg-background p-6"
+            className="animate-in slide-in-from-bottom max-h-[85vh] w-full overflow-y-auto rounded-t-lg bg-background p-6 duration-300 ease-out"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="mb-6 flex items-center justify-between">

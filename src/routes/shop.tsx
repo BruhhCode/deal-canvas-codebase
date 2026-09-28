@@ -4,17 +4,15 @@ import { ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductSearch } from "@/components/ProductSearch";
-import { FilterCheckbox, FilterPanel, FilterRange, FilterSelect, SortControl } from "@/components/FilterControls";
+import { FilterPanel, FilterRange, FilterSelect, SortControl } from "@/components/FilterControls";
 import { brands } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import {
-  allColors,
-  allSizes,
-  departments,
   filterProducts,
   categoriesByDepartment,
   categoryName,
   searchProducts,
+  shopCategories,
   sortOptions,
   sortProducts,
   type ProductFilters,
@@ -145,28 +143,31 @@ function ShopView() {
             : "All Products";
 
   const maxPriceValue = active.maxPrice ?? 0;
-  const minDiscountValue = active.minDiscount ?? 0;
+  const hasActiveFilters = Object.keys(active).length > 0;
 
   const filterUI = (
     <div className="space-y-5 text-sm">
-      <FilterSelect
-        label="Department"
-        value={active.department ?? ""}
-        onChange={(v) => set({ department: v || undefined, category: undefined })}
-        placeholder="All departments"
-        options={departments.map((d) => ({ value: d.slug, label: d.name }))}
-      />
+      <button
+        type="button"
+        onClick={() => {
+          setFilters({});
+          setPage(1);
+        }}
+        disabled={!hasActiveFilters}
+        className="text-xs font-semibold uppercase tracking-[0.14em] underline underline-offset-4 disabled:cursor-not-allowed disabled:no-underline disabled:opacity-40"
+      >
+        Clear all filters
+      </button>
 
       <FilterSelect
         label="Category"
         value={active.category ?? ""}
         onChange={(v) => set({ category: v || undefined })}
         placeholder="All categories"
-        options={(active.department ? categoriesByDepartment(active.department) : []).map((c) => ({
+        options={(active.department ? categoriesByDepartment(active.department) : shopCategories).map((c) => ({
           value: c.slug,
           label: c.name,
         }))}
-        disabledHint="Pick a department first"
       />
 
       <FilterSelect
@@ -182,22 +183,6 @@ function ShopView() {
         ]}
       />
 
-      <FilterSelect
-        label="Brand"
-        value={active.brand ?? ""}
-        onChange={(v) => set({ brand: v || undefined })}
-        placeholder="All brands"
-        options={brands.map((b) => ({ value: b.slug, label: b.name })).sort((a, b) => a.label.localeCompare(b.label))}
-      />
-
-      <FilterSelect
-        label="Store"
-        value={active.store ?? ""}
-        onChange={(v) => set({ store: v || undefined })}
-        placeholder="All stores"
-        options={stores.map((s) => ({ value: s.slug, label: s.name })).sort((a, b) => a.label.localeCompare(b.label))}
-      />
-
       <FilterRange
         label={`Max price: ${maxPriceValue > 0 ? format(maxPriceValue) : "No limit"}`}
         value={maxPriceValue}
@@ -207,53 +192,13 @@ function ShopView() {
         onChange={(v) => set({ maxPrice: v > 0 ? v : undefined })}
       />
 
-      <FilterRange
-        label={`Minimum discount: ${minDiscountValue > 0 ? `${minDiscountValue}%` : "Any"}`}
-        value={minDiscountValue}
-        min={0}
-        max={80}
-        step={5}
-        onChange={(v) => set({ minDiscount: v > 0 ? v : undefined })}
-      />
-
       <FilterSelect
-        label="Colour"
-        value={active.color ?? ""}
-        onChange={(v) => set({ color: v || undefined })}
-        placeholder="All colours"
-        options={allColors.map((c) => ({ value: c, label: c }))}
+        label="Brand"
+        value={active.brand ?? ""}
+        onChange={(v) => set({ brand: v || undefined })}
+        placeholder="All brands"
+        options={brands.map((b) => ({ value: b.slug, label: b.name })).sort((a, b) => a.label.localeCompare(b.label))}
       />
-
-      <FilterSelect
-        label="Size"
-        value={active.size ?? ""}
-        onChange={(v) => set({ size: v || undefined })}
-        placeholder="All sizes"
-        options={allSizes.map((s) => ({ value: s, label: s }))}
-      />
-
-      <div className="space-y-2.5">
-        <p className="font-medium">More</p>
-        <FilterCheckbox label="In stock" checked={!!active.inStock} onChange={(v) => set({ inStock: v || undefined })} />
-        <FilterCheckbox label="On sale" checked={!!active.sale} onChange={(v) => set({ sale: v || undefined })} />
-        <FilterCheckbox label="New in" checked={!!active.newIn} onChange={(v) => set({ newIn: v || undefined })} />
-        <FilterCheckbox
-          label="Coupon available"
-          checked={!!active.coupon}
-          onChange={(v) => set({ coupon: v || undefined })}
-        />
-      </div>
-
-      <button
-        type="button"
-        onClick={() => {
-          setFilters({});
-          setPage(1);
-        }}
-        className="text-xs font-semibold uppercase tracking-[0.14em] underline underline-offset-4"
-      >
-        Clear all filters
-      </button>
     </div>
   );
 

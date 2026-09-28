@@ -209,24 +209,66 @@ export const sortOptions: { key: SortKey; label: string }[] = [
   { key: "price-desc", label: "Price: High → Low" },
 ];
 
+// Recognized gender search terms, pulled out of the query and matched
+// against Product.gender exactly (unisex products still match either) —
+// NOT left to the generic substring match below, because "women" literally
+// contains "men" as a substring: searching "men shoes" against a joined
+// haystack that includes the word "women" would otherwise match every
+// women's shoe too. "unisex" isn't included here — it's rare as a search
+// term and treating it as a strict filter (excluding men's/women's-only
+// items) would be surprising, so it's left to fall through to the normal
+// substring match against name/category/tags instead.
+const GENDER_SEARCH_TERMS: Record<string, Exclude<Gender, "unisex">> = {
+  men: "men",
+  mens: "men",
+  "men's": "men",
+  man: "men",
+  male: "men",
+  boys: "men",
+  boy: "men",
+  women: "women",
+  womens: "women",
+  "women's": "women",
+  woman: "women",
+  female: "women",
+  girls: "women",
+  girl: "women",
+};
+
 export function searchProducts(q: string) {
   const term = q.trim().toLowerCase();
   if (!term) return products;
-  const words = term.split(/\s+/);
+  const words = term.split(/\s+/).filter(Boolean);
+
+  // Only the first recognized gender word counts — "men vs women blazers"
+  // is an edge case not worth resolving, and treating every match as an OR
+  // would defeat the point of filtering.
+  let targetGender: Exclude<Gender, "unisex"> | null = null;
+  const remainingWords: string[] = [];
+  for (const w of words) {
+    const g = GENDER_SEARCH_TERMS[w];
+    if (g && !targetGender) targetGender = g;
+    else remainingWords.push(w);
+  }
+
   return products.filter((p) => {
+    if (targetGender && p.gender !== targetGender && p.gender !== "unisex") return false;
+
+    // p.gender is deliberately excluded from this haystack (see
+    // GENDER_SEARCH_TERMS above) -- it's handled by the strict filter, not
+    // substring matching.
     const hay = [
       p.name,
       brandName(p.brand),
       p.subcategory,
       categoryName(p.category),
-      p.gender,
       ...p.tags,
       ...p.colors,
       ...p.offers.map((o) => storeName(o.store)),
     ]
       .join(" ")
       .toLowerCase();
-    return words.every((w) => hay.includes(w));
+    return remainingWords.every((w) => hay.includes(w));
   });
 }
 

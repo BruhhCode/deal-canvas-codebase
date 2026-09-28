@@ -133,6 +133,22 @@ export function Header() {
   const [catMenuOpen, setCatMenuOpen] = useState(false);
   const [hoveredGroup, setHoveredGroup] = useState<string>(() => buildCategoryGroups()[0]?.name ?? "");
   const [openGroupMobile, setOpenGroupMobile] = useState<string | null>(null);
+  const [wishlistPopped, setWishlistPopped] = useState(false);
+  const prevWishlistCount = useRef(wishlistIds.length);
+
+  // Pop the heart whenever a product is added to or removed from the
+  // wishlist anywhere on the site (WishlistButton dispatches "dc-wishlist",
+  // which useWishlist() picks up) — skip the very first render so the icon
+  // doesn't pop just because localStorage already had saved items on load.
+  useEffect(() => {
+    if (wishlistIds.length !== prevWishlistCount.current) {
+      prevWishlistCount.current = wishlistIds.length;
+      setWishlistPopped(true);
+      const t = setTimeout(() => setWishlistPopped(false), 320);
+      return () => clearTimeout(t);
+    }
+    return undefined;
+  }, [wishlistIds.length]);
   const catMenuRef = useRef<HTMLLIElement>(null);
 
   const hoveredBrands = useMemo(
@@ -176,9 +192,18 @@ export function Header() {
         <div className="ml-auto flex items-center gap-4">
           <Link to="/account" className="relative flex items-center gap-2 text-sm font-medium hover:text-clay">
             <span className="relative">
-              <Heart className="h-5 w-5" />
+              <Heart
+                className={cn(
+                  "h-5 w-5 transition-transform duration-200 ease-out",
+                  wishlistIds.length > 0 && "fill-clay text-clay",
+                  wishlistPopped && "scale-125",
+                )}
+              />
               {wishlistIds.length > 0 ? (
-                <span className="absolute -right-2 -top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-clay px-1 text-[10px] font-semibold leading-none text-clay-foreground">
+                <span
+                  key={wishlistIds.length}
+                  className="animate-in zoom-in-50 duration-200 absolute -right-2 -top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-clay px-1 text-[10px] font-semibold leading-none text-clay-foreground"
+                >
                   {wishlistIds.length > 99 ? "99+" : wishlistIds.length}
                 </span>
               ) : null}

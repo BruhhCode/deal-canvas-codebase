@@ -21,7 +21,6 @@ import { Route as FlashDealsRouteImport } from './routes/flash-deals'
 import { Route as GuidesRouteImport } from './routes/guides'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SaleRouteImport } from './routes/sale'
-import { Route as SalesCalendarRouteImport } from './routes/sales-calendar'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as ShopRouteImport } from './routes/shop'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
@@ -94,11 +93,6 @@ const PrivacyRoute = PrivacyRouteImport.update({
 const SaleRoute = SaleRouteImport.update({
   id: '/sale',
   path: '/sale',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SalesCalendarRoute = SalesCalendarRouteImport.update({
-  id: '/sales-calendar',
-  path: '/sales-calendar',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchRoute = SearchRouteImport.update({
@@ -180,7 +174,6 @@ export interface FileRoutesByFullPath {
   '/guides': typeof GuidesRouteWithChildren
   '/privacy': typeof PrivacyRoute
   '/sale': typeof SaleRouteWithChildren
-  '/sales-calendar': typeof SalesCalendarRoute
   '/search': typeof SearchRoute
   '/shop': typeof ShopRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -208,7 +201,6 @@ export interface FileRoutesByTo {
   '/guides': typeof GuidesRouteWithChildren
   '/privacy': typeof PrivacyRoute
   '/sale': typeof SaleRouteWithChildren
-  '/sales-calendar': typeof SalesCalendarRoute
   '/search': typeof SearchRoute
   '/shop': typeof ShopRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -237,7 +229,6 @@ export interface FileRoutesById {
   '/guides': typeof GuidesRouteWithChildren
   '/privacy': typeof PrivacyRoute
   '/sale': typeof SaleRouteWithChildren
-  '/sales-calendar': typeof SalesCalendarRoute
   '/search': typeof SearchRoute
   '/shop': typeof ShopRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -267,7 +258,6 @@ export interface FileRouteTypes {
     | '/guides'
     | '/privacy'
     | '/sale'
-    | '/sales-calendar'
     | '/search'
     | '/shop'
     | '/sitemap.xml'
@@ -295,7 +285,6 @@ export interface FileRouteTypes {
     | '/guides'
     | '/privacy'
     | '/sale'
-    | '/sales-calendar'
     | '/search'
     | '/shop'
     | '/sitemap.xml'
@@ -323,7 +312,6 @@ export interface FileRouteTypes {
     | '/guides'
     | '/privacy'
     | '/sale'
-    | '/sales-calendar'
     | '/search'
     | '/shop'
     | '/sitemap.xml'
@@ -352,7 +340,6 @@ export interface RootRouteChildren {
   GuidesRoute: typeof GuidesRouteWithChildren
   PrivacyRoute: typeof PrivacyRoute
   SaleRoute: typeof SaleRouteWithChildren
-  SalesCalendarRoute: typeof SalesCalendarRoute
   SearchRoute: typeof SearchRoute
   ShopRoute: typeof ShopRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
@@ -450,13 +437,6 @@ declare module '@tanstack/react-router' {
       path: '/sale'
       fullPath: '/sale'
       preLoaderRoute: typeof SaleRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sales-calendar': {
-      id: '/sales-calendar'
-      path: '/sales-calendar'
-      fullPath: '/sales-calendar'
-      preLoaderRoute: typeof SalesCalendarRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search': {
@@ -587,7 +567,6 @@ const rootRouteChildren: RootRouteChildren = {
   GuidesRoute: GuidesRouteWithChildren,
   PrivacyRoute: PrivacyRoute,
   SaleRoute: SaleRouteWithChildren,
-  SalesCalendarRoute: SalesCalendarRoute,
   SearchRoute: SearchRoute,
   ShopRoute: ShopRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,

@@ -21,7 +21,6 @@ import {
   offersSorted,
   popularSearches,
   products,
-  saleEvents,
   savingsVsHighest,
   trendingProducts,
 } from "@/data/products";
@@ -67,8 +66,6 @@ const compareShowcase = products
   .filter((p) => p.offers.length >= 3)
   .sort((a, b) => savingsVsHighest(b) - savingsVsHighest(a))
   .slice(0, 3);
-
-const todaysSales = saleEvents.filter((e) => e.window === "today" || e.window === "tomorrow");
 
 function Home() {
   const { format } = useCurrency();
@@ -196,33 +193,6 @@ function Home() {
           {discountPicks.map((p) => (
             <ProductCard key={p.id} product={p} />
           ))}
-        </div>
-      </section>
-
-      <section className="border-y bg-cream">
-        <div className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
-          <SectionHeading
-            eyebrow="Sales calendar"
-            title="Live & Upcoming Store Sales"
-            description="Know whether to buy today or wait for the next markdown."
-            href="/sales-calendar"
-            linkLabel="Full calendar"
-          />
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-            {todaysSales.map((e) => (
-              <Link
-                key={e.id}
-                to="/shop"
-                search={{ q: "", category: "", department: "", view: "sale", store: e.store }}
-                className="rounded-lg border bg-card p-5 transition-colors hover:border-clay"
-              >
-                <p className="editorial-eyebrow">{e.window === "today" ? "Today" : "Tomorrow"}</p>
-                <h3 className="mt-2 text-lg leading-snug">{e.title}</h3>
-                <p className="mt-1 text-sm font-semibold text-clay">{e.discount}</p>
-                <p className="mt-2 text-xs text-muted-foreground">{e.detail}</p>
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 

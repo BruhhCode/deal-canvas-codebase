@@ -105,7 +105,7 @@ function StorePage() {
 
       {events.length ? (
         <section className="mb-14">
-          <SectionHeading eyebrow="Live" title="Current Store Sales" href="/sales-calendar" linkLabel="Sales calendar" />
+          <SectionHeading eyebrow="Live" title="Current Store Sales" />
           <div className="grid gap-4 md:grid-cols-2">
             {events.map((e) => (
               <div key={e.id} className="rounded-lg border bg-card p-5">

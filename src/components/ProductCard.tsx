@@ -1,5 +1,4 @@
 import { brandName } from "@/data/catalog";
-import { storeName } from "@/data/stores";
 import { useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import {
@@ -8,7 +7,6 @@ import {
   savingsVsHighest,
   type Product,
 } from "@/data/products";
-import { StoreMark } from "./StoreMark";
 import { Tile } from "./Tile";
 
 export function ProductCard({ product, className }: { product: Product; className?: string }) {
@@ -37,15 +35,6 @@ export function ProductCard({ product, className }: { product: Product; classNam
       titleParams={{ slug: product.slug }}
       priceCurrent={format(offer.price)}
       priceOriginal={discount > 0 ? format(offer.originalPrice) : undefined}
-      metaRow={
-        <>
-          <StoreMark slug={offer.store} />
-          <span>
-            Lowest at {storeName(offer.store)}
-            {stores > 1 ? ` · ${stores} stores` : ""}
-          </span>
-        </>
-      }
       footnote={
         saving > 0 && stores > 1 ? (
           <span className="text-clay">Save {format(saving)} vs highest store price</span>

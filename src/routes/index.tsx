@@ -127,6 +127,24 @@ function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
+        <SectionHeading eyebrow="Brands" title="Shop by Brand" href="/brands" linkLabel="All brands" />
+        <div className="flex flex-wrap gap-4">
+          {brands.slice(0, 14).map((b, i) => (
+            <Reveal key={b.slug} delayMs={(i % 7) * 40}>
+              <Link
+                to="/brand/$slug"
+                params={{ slug: b.slug }}
+                className="flex items-center gap-3 rounded-full border px-5 py-2.5 text-base transition-colors hover:border-clay hover:text-clay"
+              >
+                <BrandMark slug={b.slug} size="md" />
+                {b.name}
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
       <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
         <SectionHeading
           eyebrow="Trending now"
@@ -215,24 +233,6 @@ function Home() {
           </div>
         </section>
       ) : null}
-
-      <section className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
-        <SectionHeading eyebrow="Brands" title="Shop by Brand" href="/brands" linkLabel="All brands" />
-        <div className="flex flex-wrap gap-4">
-          {brands.slice(0, 14).map((b, i) => (
-            <Reveal key={b.slug} delayMs={(i % 7) * 40}>
-              <Link
-                to="/brand/$slug"
-                params={{ slug: b.slug }}
-                className="flex items-center gap-3 rounded-full border px-5 py-2.5 text-base transition-colors hover:border-clay hover:text-clay"
-              >
-                <BrandMark slug={b.slug} size="md" />
-                {b.name}
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-      </section>
 
       <Newsletter />
     </>

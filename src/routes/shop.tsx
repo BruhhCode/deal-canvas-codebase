@@ -170,13 +170,14 @@ function ShopView() {
       />
 
       <FilterSelect
-        label="Gender"
+        label="Shopping For"
         value={active.gender ?? ""}
         onChange={(v) => set({ gender: v || undefined })}
-        placeholder="Women, men & unisex"
+        placeholder="Everyone"
         options={[
           { value: "women", label: "Women" },
           { value: "men", label: "Men" },
+          { value: "kids", label: "Kids" },
           { value: "unisex", label: "Unisex" },
         ]}
       />

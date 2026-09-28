@@ -272,11 +272,23 @@ export function searchProducts(q: string) {
   });
 }
 
+// Kids' products aren't a distinct Product.gender value in this catalog --
+// every kids-clothing/kids-shoes/baby-clothing item is labeled "unisex"
+// (verified against the live data), so it's indistinguishable from a
+// generic unisex adult product by gender alone. "Kids" in the Gender/
+// audience filter therefore matches by category (the same category set
+// the Department filter's "Kids" option resolves to) instead of gender.
+const kidsCategorySlugs = new Set(categoriesByDepartment("kids").map((c) => c.slug));
+
 export function filterProducts(list: Product[], f: ProductFilters) {
   const deptCats = f.department ? new Set(categoriesByDepartment(f.department).map((c) => c.slug)) : null;
   return list.filter((p) => {
     const o = bestOffer(p);
-    if (f.gender && p.gender !== f.gender && p.gender !== "unisex") return false;
+    if (f.gender === "kids") {
+      if (!kidsCategorySlugs.has(p.category)) return false;
+    } else if (f.gender && p.gender !== f.gender && p.gender !== "unisex") {
+      return false;
+    }
     if (deptCats && !deptCats.has(p.category)) return false;
     if (f.category && p.category !== f.category) return false;
     if (f.brand && p.brand !== f.brand) return false;

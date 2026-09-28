@@ -9,7 +9,12 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   // "hidden": generates real .map files for error-tracking/debugging use, but
   // omits the //# sourceMappingURL comment so browsers never auto-fetch them.
-  vite: { build: { sourcemap: "hidden" } },
+  // chunkSizeWarningLimit: the client entry bundle (React + router + Supabase
+  // client libs) sits just over Vite's default 500kB warning threshold — this
+  // is a real bundle-size call to make later (code-splitting Supabase off the
+  // critical path), not something breaking the build or the deployed site;
+  // raised only to stop it being misread as a build failure in Vercel's logs.
+  vite: { build: { sourcemap: "hidden", chunkSizeWarningLimit: 1200 } },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this

@@ -92,7 +92,13 @@ function useLiveNav(): StaticNavItem[] {
 // "kids-shoes" all become one "Shoes" entry) instead of by department.
 type CategoryGroup = { name: string; slugs: string[] };
 
-const categoryGroups: CategoryGroup[] = (() => {
+// Computed inside the component (not at module scope) for the same reason
+// `departmentNav` used to be: this depends on this module's import of
+// `shopCategories` from `@/data/products` having finished initializing
+// before this file's own top-level code runs, which isn't guaranteed —
+// a different chunk-splitting order on Vercel already crashed production
+// once this way ("Cannot read properties of undefined (reading 'find')").
+function buildCategoryGroups(): CategoryGroup[] {
   const order: string[] = [];
   const bySlugs = new Map<string, string[]>();
   for (const c of shopCategories) {
@@ -103,7 +109,7 @@ const categoryGroups: CategoryGroup[] = (() => {
     bySlugs.get(c.name)!.push(c.slug);
   }
   return order.map((name) => ({ name, slugs: bySlugs.get(name)! }));
-})();
+}
 
 /** Brands carrying products in a given category group, ranked by product count. */
 function brandsInGroup(group: CategoryGroup | undefined) {
@@ -122,15 +128,16 @@ export function Header() {
   useCatalogVersion();
   const { ids: wishlistIds } = useWishlist();
   const nav = useLiveNav();
+  const categoryGroups = useMemo(buildCategoryGroups, []);
   const [open, setOpen] = useState(false);
   const [catMenuOpen, setCatMenuOpen] = useState(false);
-  const [hoveredGroup, setHoveredGroup] = useState<string>(categoryGroups[0]?.name ?? "");
+  const [hoveredGroup, setHoveredGroup] = useState<string>(() => buildCategoryGroups()[0]?.name ?? "");
   const [openGroupMobile, setOpenGroupMobile] = useState<string | null>(null);
   const catMenuRef = useRef<HTMLLIElement>(null);
 
   const hoveredBrands = useMemo(
     () => brandsInGroup(categoryGroups.find((g) => g.name === hoveredGroup)),
-    [hoveredGroup],
+    [categoryGroups, hoveredGroup],
   );
 
   // Close the categories mega-menu on outside click or Escape.

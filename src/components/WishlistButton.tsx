@@ -48,7 +48,7 @@ export function WishlistButton({ id, className }: { id: string; className?: stri
         setTimeout(() => setPopped(false), 280);
       }}
       className={cn(
-        "z-10 rounded-full bg-background/90 p-2 text-foreground backdrop-blur transition-colors hover:text-clay",
+        "z-10 flex min-h-11 min-w-11 items-center justify-center rounded-full bg-background/90 text-foreground backdrop-blur transition-colors hover:text-clay",
         className,
       )}
     >

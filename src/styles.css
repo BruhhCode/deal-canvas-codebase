@@ -236,3 +236,26 @@
   animation: kenburns linear forwards;
 }
 
+/* Respect prefers-reduced-motion sitewide: shrink every transition/animation
+   to near-instant instead of disabling it outright (an instant state change
+   is itself a jarring anti-pattern) — this covers hover scales, the mega-menu
+   open/close, the wishlist heart pop, and the hero carousel's crossfade all
+   in one place, so no component has to special-case it individually. The
+   hero's continuous Ken Burns zoom is the one exception: it's ambient,
+   auto-playing motion with no functional purpose, so it's stopped outright
+   per WCAG 2.2.2 (Pause, Stop, Hide) rather than just shortened. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-kenburns {
+    animation: none !important;
+  }
+}
+

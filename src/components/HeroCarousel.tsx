@@ -48,6 +48,11 @@ export function HeroCarousel() {
   }, []);
 
   useEffect(() => {
+    // Respect prefers-reduced-motion: leave the first slide showing statically
+    // instead of auto-advancing every SLIDE_DURATION_MS (the CSS-level reduced-
+    // motion override alone would just turn each advance into an abrupt flash
+    // rather than a crossfade, which is worse, not better).
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const id = setInterval(() => {
       setActive((i) => {
         const next = (i + 1) % SLIDES.length;

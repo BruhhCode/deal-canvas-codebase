@@ -178,7 +178,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 md:px-6">
         <button
           type="button"
-          className="lg:hidden"
+          className="-ml-2.5 flex min-h-11 min-w-11 items-center justify-center lg:hidden"
           aria-label="Open menu"
           onClick={() => setOpen((v) => !v)}
         >
@@ -229,8 +229,11 @@ export function Header() {
             {/* Always rendered (not conditionally mounted) so opening/closing animates via
                 opacity/scale/translate instead of an abrupt pop. Two-pane layout: the left
                 column lists product-type categories, and hovering one swaps the right pane
-                to the brands that carry that type. */}
+                to the brands that carry that type. aria-hidden + tabIndex=-1 on every link
+                while closed — otherwise this stays keyboard-tabbable while invisible, a real
+                trap for keyboard users tabbing through the header. */}
             <div
+              aria-hidden={!catMenuOpen}
               className={cn(
                 "absolute left-0 top-full z-50 mt-1 flex h-72 w-[34rem] rounded-sm border bg-card normal-case shadow-lg transition-all duration-150 ease-out",
                 catMenuOpen
@@ -244,7 +247,9 @@ export function Header() {
                     key={g.name}
                     to="/shop"
                     search={{ q: g.name, category: "", department: "", view: "", store: "" }}
+                    tabIndex={catMenuOpen ? 0 : -1}
                     onMouseEnter={() => setHoveredGroup(g.name)}
+                    onFocus={() => setHoveredGroup(g.name)}
                     onClick={() => setCatMenuOpen(false)}
                     className={cn(
                       "flex items-center justify-between rounded-sm px-3 py-2.5 text-xs font-semibold uppercase tracking-[0.14em] hover:bg-cream hover:text-clay",
@@ -266,6 +271,7 @@ export function Header() {
                       key={slug}
                       to="/shop"
                       search={{ q: `${brandName(slug)} ${hoveredGroup}`, category: "", department: "", view: "", store: "" }}
+                      tabIndex={catMenuOpen ? 0 : -1}
                       onClick={() => setCatMenuOpen(false)}
                       className="block rounded-sm px-3 py-2 text-sm font-normal normal-case tracking-normal text-muted-foreground hover:bg-cream hover:text-clay"
                     >

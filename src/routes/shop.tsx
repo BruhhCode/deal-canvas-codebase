@@ -307,13 +307,13 @@ function Pagination({
   const pages = Array.from({ length: end - start + 1 }, (_, i) => start + i);
 
   return (
-    <nav aria-label="Pagination" className="mt-12 flex items-center justify-center gap-2">
+    <nav aria-label="Pagination" className="mt-12 flex flex-wrap items-center justify-center gap-2">
       <button
         type="button"
         onClick={() => go(page - 1)}
         disabled={page === 1}
         aria-label="Previous page"
-        className="flex h-9 w-9 items-center justify-center rounded-sm border border-foreground transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
+        className="flex h-11 w-11 items-center justify-center rounded-sm border border-foreground transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
       >
         <ChevronLeft className="h-4 w-4" />
       </button>
@@ -341,7 +341,7 @@ function Pagination({
         onClick={() => go(page + 1)}
         disabled={page === totalPages}
         aria-label="Next page"
-        className="flex h-9 w-9 items-center justify-center rounded-sm border border-foreground transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
+        className="flex h-11 w-11 items-center justify-center rounded-sm border border-foreground transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
       >
         <ChevronRight className="h-4 w-4" />
       </button>
@@ -356,7 +356,7 @@ function PageButton({ n, active, onClick }: { n: number; active: boolean; onClic
       aria-current={active ? "page" : undefined}
       onClick={() => onClick(n)}
       className={cn(
-        "flex h-9 w-9 items-center justify-center rounded-sm border text-xs font-semibold transition-colors",
+        "flex h-11 w-11 items-center justify-center rounded-sm border text-xs font-semibold transition-colors",
         active ? "border-foreground bg-foreground text-background" : "hover:border-clay hover:text-clay",
       )}
     >

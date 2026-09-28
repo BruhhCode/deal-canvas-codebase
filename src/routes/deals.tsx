@@ -1,9 +1,10 @@
 import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
+import { Search } from "lucide-react";
 import { DealCard } from "@/components/DealCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FilterCheckbox, FilterPanel, FilterRange, FilterSelect, SortControl } from "@/components/FilterControls";
-import { brands, categories, deals, discountPct, type Deal } from "@/data/catalog";
+import { brandName, brands, categories, deals, discountPct, type Deal } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { absoluteUrl } from "@/lib/site";
@@ -61,6 +62,7 @@ function sortDeals(list: Deal[], sort: (typeof sorts)[number]) {
 function DealsPage() {
   const { format } = useCurrency();
   const version = useCatalogVersion();
+  const [q, setQ] = useState("");
   const [category, setCategory] = useState("all");
   const [brand, setBrand] = useState("all");
   const [minDiscount, setMinDiscount] = useState(0);
@@ -72,17 +74,22 @@ function DealsPage() {
   const dealTypes = useMemo(() => Array.from(new Set(deals.map((d) => d.dealType))), [version]);
 
   const results = useMemo(() => {
-    const filtered = deals.filter(
-      (d) =>
-        (includeExpired || d.status !== "EXPIRED") &&
-        (category === "all" || d.category === category) &&
-        (brand === "all" || d.brand === brand) &&
-        discountPct(d) >= minDiscount &&
-        d.price <= maxPrice &&
-        (type === "all" || d.dealType === type),
-    );
+    const term = q.trim().toLowerCase();
+    const filtered = deals.filter((d) => {
+      if (!includeExpired && d.status === "EXPIRED") return false;
+      if (category !== "all" && d.category !== category) return false;
+      if (brand !== "all" && d.brand !== brand) return false;
+      if (discountPct(d) < minDiscount) return false;
+      if (d.price > maxPrice) return false;
+      if (type !== "all" && d.dealType !== type) return false;
+      if (term) {
+        const hay = [d.title, d.product, brandName(d.brand), ...d.tags].join(" ").toLowerCase();
+        if (!hay.includes(term)) return false;
+      }
+      return true;
+    });
     return sortDeals(filtered, sort);
-  }, [category, brand, minDiscount, maxPrice, type, includeExpired, sort, version]);
+  }, [q, category, brand, minDiscount, maxPrice, type, includeExpired, sort, version]);
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
@@ -95,6 +102,17 @@ function DealsPage() {
           Every live offer we track across fashion, beauty, footwear, accessories and lifestyle.
           Filter, sort and click straight through to the merchant.
         </p>
+
+        <div className="mt-5 flex w-full max-w-xl items-center gap-3 rounded-full border bg-card px-4 py-2.5 transition-colors focus-within:border-clay">
+          <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
+          <input
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            aria-label="Search deals"
+            placeholder="Search deals by title, product or brand..."
+            className="w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground"
+          />
+        </div>
       </header>
 
       <div className="grid gap-8 lg:grid-cols-[260px_1fr]">

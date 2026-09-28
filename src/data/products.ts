@@ -157,7 +157,6 @@ export const popularSearches = [
   { name: "Uniqlo", slug: "uniqlo" },
   { name: "Columbia", slug: "columbia" },
   { name: "Gucci", slug: "gucci" },
-  { name: "Asos", slug: "asos" },
 ];
 
 export const searchPlaceholders = [

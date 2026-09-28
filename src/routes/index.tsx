@@ -5,23 +5,21 @@ import { HeroCarousel, SLIDES, heroSrcSet } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
-import { StoreMark } from "@/components/StoreMark";
 import { BrandMark } from "@/components/BrandMark";
-import { brandName, brands } from "@/data/catalog";
-import { useCurrency } from "@/lib/currency";
-import { stores, storeName } from "@/data/stores";
+import { brands } from "@/data/catalog";
+import { stores } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
 import { approxCount } from "@/lib/utils";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { absoluteUrl } from "@/lib/site";
+import bannerDeals from "@/assets/cat-fashion.jpg";
+import bannerSale from "@/assets/cat-shoes.jpg";
+import bannerNew from "@/assets/cat-beauty.jpg";
 import {
-  bestOffer,
   biggestDiscounts,
   newArrivals,
-  offersSorted,
   popularSearches,
   products,
-  savingsVsHighest,
   trendingProducts,
 } from "@/data/products";
 
@@ -62,13 +60,28 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const compareShowcase = products
-  .filter((p) => p.offers.length >= 3)
-  .sort((a, b) => savingsVsHighest(b) - savingsVsHighest(a))
-  .slice(0, 3);
+const promoBanners = [
+  {
+    title: "Live Deals, Updated Hourly",
+    subtitle: "Every markdown we track, in one feed.",
+    image: bannerDeals,
+    to: "/deals",
+  },
+  {
+    title: "Sale Ends Soon",
+    subtitle: "Deepest discounts before they're gone.",
+    image: bannerSale,
+    search: { q: "", category: "", department: "", view: "sale", store: "" },
+  },
+  {
+    title: "Just Landed",
+    subtitle: "This week's newest arrivals across every store.",
+    image: bannerNew,
+    search: { q: "", category: "", department: "", view: "new", store: "" },
+  },
+] as const;
 
 function Home() {
-  const { format } = useCurrency();
   const { seed } = Route.useLoaderData();
   useCatalogVersion();
 
@@ -97,13 +110,13 @@ function Home() {
 
           <div className="mt-5">
             <p className="editorial-eyebrow text-background/80">Popular searches</p>
-            <div className="mt-3 flex flex-wrap justify-center gap-2">
+            <div className="mt-3 flex flex-nowrap justify-center gap-2 overflow-x-auto px-1 md:overflow-visible">
               {popularSearches.map((t) => (
                 <Link
                   key={t.slug}
                   to="/brand/$slug"
                   params={{ slug: t.slug }}
-                  className="rounded-full border border-background/30 bg-background/10 px-4 py-2 text-sm text-background backdrop-blur-sm transition-colors hover:border-background hover:bg-background/20"
+                  className="shrink-0 rounded-full border border-background/30 bg-background/10 px-4 py-2 text-sm text-background backdrop-blur-sm transition-colors hover:border-background hover:bg-background/20"
                 >
                   {t.name}
                 </Link>
@@ -129,52 +142,37 @@ function Home() {
 
       <section className="border-y bg-ink py-16 text-background">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
-          <div className="mb-8 flex flex-wrap items-end justify-between gap-4 border-b border-background/20 pb-4">
-            <div>
-              <p className="editorial-eyebrow text-background/60">Compare</p>
-              <h2 className="text-3xl text-background md:text-4xl">Same Product. Different Price.</h2>
-            </div>
-            <Link
-              to="/shop"
-              search={{ q: "", category: "", department: "", view: "", store: "" }}
-              className="text-xs font-semibold uppercase tracking-[0.16em] text-background underline underline-offset-4"
-            >
-              Compare everything
-            </Link>
-          </div>
           <div className="grid gap-6 md:grid-cols-3">
-            {compareShowcase.map((p) => {
-              const best = bestOffer(p);
-              return (
-                <Link
-                  key={p.id}
-                  to="/product/$slug"
-                  params={{ slug: p.slug }}
-                  className="rounded-lg bg-background p-5 text-foreground"
-                >
-                  <p className="editorial-eyebrow">{brandName(p.brand)}</p>
-                  <h3 className="mt-2 text-xl leading-snug">{p.name}</h3>
-                  <ul className="mt-4 space-y-2 text-sm">
-                    {offersSorted(p)
-                      .slice(0, 3)
-                      .map((o) => (
-                        <li key={o.store} className="flex items-center justify-between gap-3">
-                          <span className="flex items-center gap-2 text-muted-foreground">
-                            <StoreMark slug={o.store} /> {storeName(o.store)}
-                          </span>
-                          <span className={o.store === best.store ? "font-semibold" : "text-muted-foreground"}>
-                            {format(o.price)}
-                          </span>
-                        </li>
-                      ))}
-                  </ul>
-                  <p className="mt-4 border-t pt-3 text-sm">
-                    <span className="font-semibold">Best price {format(best.price)}</span>{" "}
-                    <span className="text-muted-foreground">at {storeName(best.store)}</span>
-                  </p>
-                  <span className="mt-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em]">
-                    Shop now <ArrowRight className="h-4 w-4" />
-                  </span>
+            {promoBanners.map((b) => {
+              const content = (
+                <>
+                  <img
+                    src={b.image}
+                    alt=""
+                    width={640}
+                    height={480}
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/30 to-transparent" />
+                  <div className="relative flex h-full flex-col justify-end p-6">
+                    <h3 className="text-2xl text-background">{b.title}</h3>
+                    <p className="mt-1 text-sm text-background/85">{b.subtitle}</p>
+                    <span className="mt-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-background">
+                      Shop now <ArrowRight className="h-4 w-4" />
+                    </span>
+                  </div>
+                </>
+              );
+              const className =
+                "group relative isolate h-72 overflow-hidden rounded-lg border border-background/20";
+              return "to" in b ? (
+                <Link key={b.title} to={b.to} className={className}>
+                  {content}
+                </Link>
+              ) : (
+                <Link key={b.title} to="/shop" search={b.search} className={className}>
+                  {content}
                 </Link>
               );
             })}

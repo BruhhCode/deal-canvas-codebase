@@ -10,6 +10,16 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+// Preloaded below: these are the only 3 font files PageSpeed Insights'
+// critical-path trace actually shows loading before first paint (Poppins
+// 400 for body text, Poppins 600 for semibold UI like the search button/
+// eyebrows, Playfair Display 500 for h1/h2/h3 — see styles.css's
+// `font-weight: 500` heading rule). Without a preload hint they only get
+// discovered once the browser has parsed styles.css and resolved the
+// @font-face rules inside it, adding a full extra round trip to the chain.
+import poppins400 from "@fontsource/poppins/files/poppins-latin-400-normal.woff2?url";
+import poppins600 from "@fontsource/poppins/files/poppins-latin-600-normal.woff2?url";
+import playfair500 from "@fontsource/playfair-display/files/playfair-display-latin-500-normal.woff2?url";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Toaster } from "@/components/ui/sonner";
@@ -91,6 +101,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      { rel: "preload", as: "font", type: "font/woff2", crossOrigin: "anonymous", href: poppins400 },
+      { rel: "preload", as: "font", type: "font/woff2", crossOrigin: "anonymous", href: poppins600 },
+      { rel: "preload", as: "font", type: "font/woff2", crossOrigin: "anonymous", href: playfair500 },
       { rel: "stylesheet", href: appCss },
     ],
     scripts: [

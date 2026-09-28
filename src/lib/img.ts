@@ -35,6 +35,32 @@ export function productImg(url: string, width: number): string {
       return url;
     }
 
+    // mediahub.boohoo.com / mediahub.prettylittlething.com (same CDN
+    // platform, both Boohoo Group brands): the URL's trailing size keyword
+    // is effectively binary — "_xl" serves the full-resolution master
+    // (400-550 KiB per curl check), any other value (including "_sm" or a
+    // nonsense string) serves the same much smaller default rendition
+    // (~13-90 KiB, ~5x smaller) — verified by hand against real product
+    // URLs, not guessed. "_sm" used here as the readable, intentional one.
+    if (host === "mediahub.boohoo.com" || host === "mediahub.prettylittlething.com") {
+      return url.replace(/_xl$/, "_sm");
+    }
+
+    // n.nordstrommedia.com honours a plain ?w= query param (verified:
+    // ~70 KiB raw -> ~13 KiB at w=400, regardless of displayed width here).
+    if (host === "n.nordstrommedia.com") {
+      u.searchParams.set("w", String(width));
+      return u.toString();
+    }
+
+    // cdn-images.farfetch-contents.com bakes size into the filename itself
+    // as the segment before the extension (e.g. "..._1000.jpg") — query
+    // params are ignored (verified: ?w= returns the same bytes as no param
+    // at all), but replacing that segment works (~20 KiB -> ~4 KiB at 400).
+    if (host === "cdn-images.farfetch-contents.com") {
+      return url.replace(/_\d+(\.\w+)$/, `_${width}$1`);
+    }
+
     // Our own Supabase Storage-hosted images (product-images / brand-logos
     // buckets, see docs/shared-context.md "Image & logo storage") are
     // already served pre-sized — pass through unchanged.
@@ -42,8 +68,8 @@ export function productImg(url: string, width: number): string {
       return url;
     }
 
-    // TODO: no known resize param for this host (e.g. Nordstrom, Farfetch,
-    // ASOS, ShopStyle-style CDNs) — return the original, full-size URL.
+    // TODO: no known resize param for this host (e.g. ASOS, ShopStyle-style
+    // CDNs) — return the original, full-size URL.
     return url;
   } catch {
     return url;

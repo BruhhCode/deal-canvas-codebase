@@ -877,18 +877,22 @@ const storeLogoOverrides: Record<string, string> = {
   "neiman-marcus": "https://cdn.worldvectorlogo.com/logos/neiman-marcus.svg",
 };
 
+// Google's s2 favicon service (at its max reliable size) is preferred over
+// DuckDuckGo's ip3 endpoint — ip3 only ever returns whatever low-res icon a
+// site happens to have cached (often 16-32px), which looks visibly soft once
+// scaled up to StoreMark's "lg" size; s2 reads sharper in practice.
 /** The store's logo — the matching brand's verified mark, a verified retailer logo, or a favicon fallback. */
 export const storeLogo = (slug: string) => {
   const brandSlug = slug.replace(/-store$/, "");
   if (brandSlugs.has(brandSlug)) return brandLogo(brandSlug);
   if (storeLogoOverrides[slug]) return storeLogoOverrides[slug];
   const domain = bySlug.get(slug)?.domain ?? `${slug.replace(/-/g, "")}.com`;
-  return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
+  return `https://www.google.com/s2/favicons?domain=${domain}&sz=256`;
 };
 
 /** Secondary source, tried if `storeLogo` fails to load. */
 export const storeLogoFallback = (slug: string) => {
   const domain = bySlug.get(slug)?.domain ?? `${slug.replace(/-/g, "")}.com`;
-  return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+  return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
 };
 export const storeName = (slug: string) => bySlug.get(slug)?.name ?? slug;

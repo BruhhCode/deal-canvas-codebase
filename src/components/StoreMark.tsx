@@ -53,7 +53,7 @@ export function StoreMark({
   return (
     <span
       className={cn(
-        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm bg-secondary font-semibold tracking-tight text-foreground",
+        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-border bg-white font-semibold tracking-tight text-neutral-900",
         size === "sm" && "h-6 w-6 text-[10px]",
         size === "md" && "h-9 w-9 text-xs",
         size === "lg" && "h-14 w-14 text-sm",
@@ -67,7 +67,7 @@ export function StoreMark({
           key={stage}
           src={stage === "primary" ? storeLogo(slug) : storeLogoFallback(slug)}
           alt={`${name} logo`}
-          className="h-full w-full object-contain"
+          className="h-full w-full object-contain p-1"
           loading="lazy"
           onError={() => setStage((s) => (s === "primary" ? "fallback" : "failed"))}
         />

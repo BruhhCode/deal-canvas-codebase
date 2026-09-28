@@ -29,7 +29,7 @@ export function BrandMark({
   return (
     <span
       className={cn(
-        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm bg-secondary font-semibold uppercase tracking-wider text-foreground",
+        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-border bg-white font-semibold uppercase tracking-wider text-neutral-900",
         sizes[size],
         className,
       )}
@@ -41,7 +41,7 @@ export function BrandMark({
           key={stage}
           src={stage === "primary" ? brandLogo(slug) : brandLogoFallback(slug)}
           alt={`${name} logo`}
-          className="h-full w-full object-contain"
+          className="h-full w-full object-contain p-1"
           loading="lazy"
           onError={() => setStage((s) => (s === "primary" ? "fallback" : "failed"))}
         />

@@ -410,13 +410,22 @@ brandLogoOverrides["adidas-originals"] = brandLogoOverrides["adidas"]!;
 brandLogoOverrides["hm-kids"] = brandLogoOverrides["hm"]!;
 brandLogoOverrides["asos-design"] = brandLogoOverrides["asos"]!;
 
-/** The brand's logo — a verified vector logo where available, otherwise a favicon sourced from its real domain. */
+/**
+ * The brand's logo — a verified vector logo where available, otherwise a
+ * favicon sourced from its real domain. Google's s2 favicon service (at its
+ * max reliable size) is used ahead of DuckDuckGo's ip3 endpoint here: ip3
+ * only ever returns whatever low-res icon (often 16-32px) a site happens to
+ * have cached, which looks visibly soft once scaled up to BrandMark's "lg"
+ * size (64px) — s2 upscales more of the time from a larger source and reads
+ * sharper in practice.
+ */
 export const brandLogo = (slug: string) =>
-  brandLogoOverrides[slug] ?? `https://icons.duckduckgo.com/ip3/${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}.ico`;
+  brandLogoOverrides[slug] ??
+  `https://www.google.com/s2/favicons?domain=${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}&sz=256`;
 
 /** Secondary source, tried if `brandLogo` fails to load. */
 export const brandLogoFallback = (slug: string) =>
-  `https://www.google.com/s2/favicons?domain=${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}&sz=128`;
+  `https://icons.duckduckgo.com/ip3/${brandDomains[slug] ?? `${slug.replace(/-/g, "")}.com`}.ico`;
 
 const imageFor = (cat: string) =>
   categories.find((c) => c.slug === cat)?.image ?? catFashion;

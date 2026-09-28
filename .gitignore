@@ -5,3 +5,4 @@ node_modules
 .tanstack
 logo-map.json
 .vercel
+catalog-backup-*.json

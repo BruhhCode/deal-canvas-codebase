@@ -13,7 +13,13 @@ const selectClass =
 
 export function FilterPanel({ children, sticky }: { children: ReactNode; sticky?: boolean }) {
   return (
-    <aside className={sticky ? "h-fit space-y-5 rounded-lg border bg-card p-5 lg:sticky lg:top-36" : "space-y-5"}>
+    <aside
+      className={
+        sticky
+          ? "h-fit space-y-5 overflow-y-auto rounded-lg border bg-card p-5 lg:sticky lg:top-36 lg:max-h-[calc(100vh-9rem-2rem)]"
+          : "space-y-5"
+      }
+    >
       {children}
     </aside>
   );

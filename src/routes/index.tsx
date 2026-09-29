@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { BrandMark } from "@/components/BrandMark";
 import { Reveal } from "@/components/Reveal";
+import { Marquee } from "@/components/Marquee";
 import { brands } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
@@ -88,7 +89,7 @@ function Home() {
 
   const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 10);
   const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 10);
-  const newInPicks = seededShuffle(newArrivals, `${seed}-new`).slice(0, 5);
+  const newInAll = seededShuffle(newArrivals, `${seed}-new`);
 
   return (
     <>
@@ -129,15 +130,15 @@ function Home() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
         <SectionHeading eyebrow="Brands" title="Shop by Brand" href="/brands" linkLabel="All brands" />
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-nowrap items-center gap-x-2.5 gap-y-2 overflow-x-auto pb-1 lg:flex-wrap lg:overflow-visible lg:pb-0">
           {brands.slice(0, 14).map((b, i) => (
-            <Reveal key={b.slug} delayMs={(i % 7) * 40}>
+            <Reveal key={b.slug} delayMs={(i % 7) * 40} className="shrink-0">
               <Link
                 to="/brand/$slug"
                 params={{ slug: b.slug }}
-                className="flex items-center gap-3 rounded-full border px-5 py-2.5 text-base transition-colors hover:border-clay hover:text-clay"
+                className="flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm transition-colors hover:border-clay hover:text-clay"
               >
-                <BrandMark slug={b.slug} size="md" />
+                <BrandMark slug={b.slug} size="sm" />
                 {b.name}
               </Link>
             </Reveal>
@@ -205,6 +206,19 @@ function Home() {
         </div>
       </section>
 
+      {newInAll.length ? (
+        <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
+          <SectionHeading eyebrow="New in" title="Just Landed" href="/shop" />
+          <Marquee
+            items={newInAll}
+            keyFor={(p) => p.id}
+            renderItem={(p) => <ProductCard product={p} />}
+            durationSeconds={Math.max(newInAll.length * 4, 30)}
+            itemClassName="w-48 sm:w-56"
+          />
+        </section>
+      ) : null}
+
       <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
         <SectionHeading
           eyebrow="Biggest discounts"
@@ -220,19 +234,6 @@ function Home() {
           ))}
         </div>
       </section>
-
-      {newInPicks.length ? (
-        <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
-          <SectionHeading eyebrow="New in" title="Just Landed" href="/shop" />
-          <div className="grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
-            {newInPicks.map((p, i) => (
-              <Reveal key={p.id} delayMs={(i % 5) * 60} className="h-full">
-                <ProductCard product={p} />
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      ) : null}
 
       <Newsletter />
     </>

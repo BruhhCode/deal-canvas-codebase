@@ -236,14 +236,29 @@
   animation: kenburns linear forwards;
 }
 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@utility animate-marquee {
+  animation: marquee linear infinite;
+}
+
 /* Respect prefers-reduced-motion sitewide: shrink every transition/animation
    to near-instant instead of disabling it outright (an instant state change
    is itself a jarring anti-pattern) — this covers hover scales, the mega-menu
    open/close, the wishlist heart pop, and the hero carousel's crossfade all
    in one place, so no component has to special-case it individually. The
-   hero's continuous Ken Burns zoom is the one exception: it's ambient,
-   auto-playing motion with no functional purpose, so it's stopped outright
-   per WCAG 2.2.2 (Pause, Stop, Hide) rather than just shortened. */
+   hero's continuous Ken Burns zoom and the New In marquee are the exception:
+   both are ambient, auto-playing motion with no functional purpose, so
+   they're stopped outright per WCAG 2.2.2 (Pause, Stop, Hide) rather than
+   just shortened — shrinking a `linear infinite` animation's duration to
+   ~0 would just spin it into a flicker, not freeze it. */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -254,7 +269,8 @@
     scroll-behavior: auto !important;
   }
 
-  .animate-kenburns {
+  .animate-kenburns,
+  .animate-marquee {
     animation: none !important;
   }
 }

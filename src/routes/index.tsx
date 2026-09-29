@@ -130,13 +130,13 @@ function Home() {
 
       <section className="mx-auto max-w-7xl px-4 pb-16 pt-10 md:px-6">
         <SectionHeading eyebrow="Brands" title="Shop by Brand" href="/brands" linkLabel="All brands" />
-        <div className="flex flex-nowrap items-center gap-2.5 overflow-x-auto pb-1">
+        <div className="flex flex-wrap items-center gap-x-2.5 gap-y-3">
           {brands.slice(0, 22).map((b, i) => (
-            <Reveal key={b.slug} delayMs={(i % 7) * 40} className="shrink-0">
+            <Reveal key={b.slug} delayMs={(i % 7) * 40}>
               <Link
                 to="/brand/$slug"
                 params={{ slug: b.slug }}
-                className="flex items-center gap-2 rounded-full border bg-card px-3.5 py-1.5 text-sm transition-[color,transform,box-shadow] hover:-translate-y-0.5 hover:border-clay hover:text-clay hover:shadow-card"
+                className="flex items-center gap-2 rounded-full border bg-card px-3.5 py-1.5 text-sm transition-[color,transform,box-shadow] duration-300 ease-out hover:-translate-y-0.5 hover:border-clay hover:text-clay hover:shadow-card"
               >
                 <BrandMark slug={b.slug} size="sm" />
                 {b.name}

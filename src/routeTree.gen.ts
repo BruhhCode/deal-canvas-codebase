@@ -27,7 +27,7 @@ import { Route as ShopRouteImport } from './routes/shop'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as StoresRouteImport } from './routes/stores'
 import { Route as TermsRouteImport } from './routes/terms'
-import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as BlogSlugRouteImport } from './routes/blog_.$slug'
 import { Route as BrandSlugRouteImport } from './routes/brand.$slug'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as DealSlugRouteImport } from './routes/deal.$slug'
@@ -128,9 +128,9 @@ const TermsRoute = TermsRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => BlogRoute,
+  id: '/blog_/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const BrandSlugRoute = BrandSlugRouteImport.update({
   id: '/brand/$slug',
@@ -177,7 +177,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
-  '/blog': typeof BlogRouteWithChildren
+  '/blog': typeof BlogRoute
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
@@ -206,7 +206,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
-  '/blog': typeof BlogRouteWithChildren
+  '/blog': typeof BlogRoute
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
@@ -236,7 +236,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
-  '/blog': typeof BlogRouteWithChildren
+  '/blog': typeof BlogRoute
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
@@ -251,7 +251,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
   '/terms': typeof TermsRoute
-  '/blog/$slug': typeof BlogSlugRoute
+  '/blog_/$slug': typeof BlogSlugRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -340,7 +340,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/stores'
     | '/terms'
-    | '/blog/$slug'
+    | '/blog_/$slug'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -355,7 +355,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   AccountRoute: typeof AccountRoute
-  BlogRoute: typeof BlogRouteWithChildren
+  BlogRoute: typeof BlogRoute
   BrandsRoute: typeof BrandsRoute
   ContactRoute: typeof ContactRoute
   CouponsRoute: typeof CouponsRoute
@@ -370,6 +370,7 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   StoresRoute: typeof StoresRoute
   TermsRoute: typeof TermsRoute
+  BlogSlugRoute: typeof BlogSlugRoute
   BrandSlugRoute: typeof BrandSlugRoute
   CategorySlugRoute: typeof CategorySlugRoute
   DealSlugRoute: typeof DealSlugRoute
@@ -506,12 +507,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blog/$slug': {
-      id: '/blog/$slug'
-      path: '/$slug'
+    '/blog_/$slug': {
+      id: '/blog_/$slug'
+      path: '/blog/$slug'
       fullPath: '/blog/$slug'
       preLoaderRoute: typeof BlogSlugRouteImport
-      parentRoute: typeof BlogRoute
+      parentRoute: typeof rootRouteImport
     }
     '/brand/$slug': {
       id: '/brand/$slug'
@@ -572,16 +573,6 @@ declare module '@tanstack/react-router' {
   }
 }
 
-interface BlogRouteChildren {
-  BlogSlugRoute: typeof BlogSlugRoute
-}
-
-const BlogRouteChildren: BlogRouteChildren = {
-  BlogSlugRoute: BlogSlugRoute,
-}
-
-const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
-
 interface GuidesRouteChildren {
   GuidesSlugRoute: typeof GuidesSlugRoute
 }
@@ -607,7 +598,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   AccountRoute: AccountRoute,
-  BlogRoute: BlogRouteWithChildren,
+  BlogRoute: BlogRoute,
   BrandsRoute: BrandsRoute,
   ContactRoute: ContactRoute,
   CouponsRoute: CouponsRoute,
@@ -622,6 +613,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   StoresRoute: StoresRoute,
   TermsRoute: TermsRoute,
+  BlogSlugRoute: BlogSlugRoute,
   BrandSlugRoute: BrandSlugRoute,
   CategorySlugRoute: CategorySlugRoute,
   DealSlugRoute: DealSlugRoute,

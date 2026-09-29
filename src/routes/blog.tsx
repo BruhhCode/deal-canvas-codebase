@@ -2,10 +2,11 @@ import { Fragment } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AdSlot } from "@/components/AdSlot";
-import { blogPosts } from "@/data/blog";
+import { fetchPublishedBlogPosts } from "@/data/blog";
 import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/blog")({
+  loader: async () => ({ posts: await fetchPublishedBlogPosts() }),
   head: () => ({
     meta: [
       { title: "Blog — Shopping Advice, Style & Trends | DealsCanvas" },
@@ -24,6 +25,7 @@ export const Route = createFileRoute("/blog")({
 });
 
 function BlogPage() {
+  const { posts } = Route.useLoaderData();
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Blog" }]} />
@@ -39,7 +41,7 @@ function BlogPage() {
       <AdSlot variant="leaderboard" className="mb-10" />
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {blogPosts.map((post, i) => (
+        {posts.map((post, i) => (
           <Fragment key={post.slug}>
             <Link
               to="/blog/$slug"
@@ -63,7 +65,7 @@ function BlogPage() {
               </div>
             </Link>
             {/* In-feed ad every 6 posts, aligned to the grid like a card. */}
-            {(i + 1) % 6 === 0 && i !== blogPosts.length - 1 ? (
+            {(i + 1) % 6 === 0 && i !== posts.length - 1 ? (
               <div className="flex items-center rounded-lg border border-dashed p-5">
                 <AdSlot variant="rectangle" className="w-full" />
               </div>

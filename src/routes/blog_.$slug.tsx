@@ -3,14 +3,15 @@ import { Breadcrumbs, breadcrumbJsonLd } from "@/components/Breadcrumbs";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { AdSlot } from "@/components/AdSlot";
-import { blogPosts } from "@/data/blog";
+import { fetchPublishedBlogPosts } from "@/data/blog";
 import { absoluteUrl } from "@/lib/site";
 
-export const Route = createFileRoute("/blog/$slug")({
-  loader: ({ params }) => {
-    const post = blogPosts.find((p) => p.slug === params.slug);
+export const Route = createFileRoute("/blog_/$slug")({
+  loader: async ({ params }) => {
+    const allPosts = await fetchPublishedBlogPosts();
+    const post = allPosts.find((p) => p.slug === params.slug);
     if (!post) throw notFound();
-    return { post };
+    return { post, allPosts };
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
@@ -56,8 +57,8 @@ export const Route = createFileRoute("/blog/$slug")({
 });
 
 function BlogPostPage() {
-  const { post } = Route.useLoaderData();
-  const related = blogPosts.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 3);
+  const { post, allPosts } = Route.useLoaderData();
+  const related = allPosts.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 3);
   const midpoint = Math.ceil(post.body.length / 2);
 
   return (

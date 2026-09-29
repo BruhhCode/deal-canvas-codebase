@@ -4,6 +4,7 @@ import catShoes from "@/assets/cat-shoes.jpg";
 import catAccessories from "@/assets/cat-accessories.jpg";
 import catLifestyle from "@/assets/cat-lifestyle.jpg";
 import catTravel from "@/assets/cat-travel.jpg";
+import { supabase } from "@/lib/supabase";
 
 export interface BlogPost {
   slug: string;
@@ -19,7 +20,61 @@ export interface BlogPost {
 
 export const blogCategories = ["Fashion", "Beauty", "Shopping Tips", "Lifestyle", "Trends"] as const;
 
-export const blogPosts: BlogPost[] = [
+// Row shape of the admin panel's `blog_posts` table (see that repo's
+// docs/shared-context.md). Kept as a local type here rather than shared,
+// same convention as every other cross-repo table this site reads.
+type BlogPostRow = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  category: string;
+  read_time: string;
+  author: string;
+  image_url: string;
+  body: string;
+  status: "DRAFT" | "PUBLISHED";
+  published_at: string;
+};
+
+function rowToPost(row: BlogPostRow): BlogPost {
+  return {
+    slug: row.slug,
+    title: row.title,
+    excerpt: row.excerpt,
+    category: row.category,
+    readTime: row.read_time,
+    published: row.published_at.slice(0, 10),
+    author: row.author,
+    image: row.image_url,
+    // Plain text, paragraphs separated by a blank line — same convention
+    // the admin panel's PageForm uses for pages.content.
+    body: row.body
+      .split(/\n\s*\n/)
+      .map((p) => p.trim())
+      .filter(Boolean),
+  };
+}
+
+/**
+ * Published blog posts, newest first. Reads from the admin panel's
+ * `blog_posts` table when it has rows; falls back to `defaultBlogPosts`
+ * (this file's original hardcoded content) so /blog never goes empty
+ * before anyone's added a post through the admin panel.
+ */
+export async function fetchPublishedBlogPosts(): Promise<BlogPost[]> {
+  if (supabase) {
+    const { data } = await supabase
+      .from("blog_posts")
+      .select("*")
+      .eq("status", "PUBLISHED")
+      .order("published_at", { ascending: false });
+    const rows = (data ?? []) as BlogPostRow[];
+    if (rows.length > 0) return rows.map(rowToPost);
+  }
+  return defaultBlogPosts;
+}
+
+export const defaultBlogPosts: BlogPost[] = [
   {
     slug: "how-to-actually-tell-if-a-sale-is-a-real-deal",
     title: "How to Actually Tell If a Sale Is a Real Deal",

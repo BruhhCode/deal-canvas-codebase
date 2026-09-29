@@ -1,6 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
+// Default/fallback slides, used when the admin panel's `banners` table
+// (placement='hero') is empty or unreachable — see src/routes/index.tsx's
+// loader. Keeping these here (rather than deleting them) means the hero
+// never goes blank if the DB has nothing in it yet.
 export const SLIDES = [
   "https://images.unsplash.com/photo-1621261027519-a71ac66d5a68?auto=format&fit=crop&w=1920&q=70", // bright minimalist boutique
   "https://images.unsplash.com/photo-1606143412458-acc5f86de897?auto=format&fit=crop&w=1920&q=70", // fashion editorial, black & white portrait
@@ -15,8 +19,22 @@ export const SLIDES = [
 const SLIDE_DURATION_MS = 4500;
 const FADE_DURATION_MS = 1800;
 
-/** Builds a `srcset` at 800/1280/1920w from a base Unsplash URL (already `w=1920&q=70`). */
-export function heroSrcSet(url: string): string {
+/**
+ * Builds a `srcset` at 800/1280/1920w from a base Unsplash URL (already
+ * `w=1920&q=70`) by rewriting its `w` query param. Only Unsplash's own CDN
+ * supports this on-the-fly resizing — an admin-uploaded image from any other
+ * host has no such contract, so this returns `undefined` for anything that
+ * isn't an `images.unsplash.com` URL and the caller falls back to a plain,
+ * un-resized `<img src>`.
+ */
+export function heroSrcSet(url: string): string | undefined {
+  let parsed: URL;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return undefined;
+  }
+  if (parsed.hostname !== "images.unsplash.com") return undefined;
   return [800, 1280, 1920]
     .map((w) => {
       const u = new URL(url);
@@ -26,14 +44,19 @@ export function heroSrcSet(url: string): string {
     .join(", ");
 }
 
+export type HeroSlide = {
+  imageUrl: string;
+  alt: string;
+};
+
 /** Full-bleed background carousel for the hero section — cycles slides on a timer with a crossfade. */
-export function HeroCarousel() {
+export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   const [active, setActive] = useState(0);
   // Bumped only for the slide that's *becoming* active, so its zoom animation
   // remounts (restarts from scale(1)) at the exact moment it's still fully
   // transparent — never while a slide is visible and mid-fade, which is what
   // caused the visible snap.
-  const [epoch, setEpoch] = useState(() => SLIDES.map(() => 0));
+  const [epoch, setEpoch] = useState(() => slides.map(() => 0));
   // Slide 0 renders fully opaque with no transition on first paint (so it's
   // the LCP element with zero render delay). Fade/crossfade behavior for
   // every slide, including slide 0's eventual fade-out, only turns on once
@@ -55,33 +78,34 @@ export function HeroCarousel() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const id = setInterval(() => {
       setActive((i) => {
-        const next = (i + 1) % SLIDES.length;
+        const next = (i + 1) % slides.length;
         everShown.current.add(next);
         setEpoch((prev) => prev.map((e, idx) => (idx === next ? e + 1 : e)));
         return next;
       });
     }, SLIDE_DURATION_MS);
     return () => clearInterval(id);
-  }, []);
+  }, [slides.length]);
 
-  const nextSlide = (active + 1) % SLIDES.length;
+  const nextSlide = (active + 1) % slides.length;
 
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {SLIDES.map((src, i) => {
+      {slides.map((slide, i) => {
         // Only the current slide, the next one in rotation, and any slide the
         // user has actually reached are mounted — the other 5 never hit the
         // network on first load.
         if (i !== active && i !== nextSlide && !everShown.current.has(i)) return null;
         const isFirstPaint = i === 0 && !fadeEnabled;
+        const srcSet = heroSrcSet(slide.imageUrl);
         return (
           <img
-            key={`${src}-${epoch[i]}`}
-            src={src}
-            srcSet={heroSrcSet(src)}
-            sizes="100vw"
-            alt=""
-            aria-hidden="true"
+            key={`${slide.imageUrl}-${epoch[i]}`}
+            src={slide.imageUrl}
+            srcSet={srcSet}
+            sizes={srcSet ? "100vw" : undefined}
+            alt={slide.alt}
+            aria-hidden={slide.alt ? undefined : "true"}
             loading={i === 0 ? "eager" : "lazy"}
             fetchPriority={i === 0 ? "high" : "low"}
             decoding="async"
@@ -101,9 +125,9 @@ export function HeroCarousel() {
       <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-ink/30" />
 
       <div className="absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2">
-        {SLIDES.map((src, i) => (
+        {slides.map((slide, i) => (
           <button
-            key={src}
+            key={slide.imageUrl}
             type="button"
             aria-label={`Show slide ${i + 1}`}
             onClick={() => {

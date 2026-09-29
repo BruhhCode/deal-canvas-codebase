@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { ProductSearch } from "@/components/ProductSearch";
 import { HeroCarousel, SLIDES, heroSrcSet } from "@/components/HeroCarousel";
+import type { HeroSlide } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
@@ -14,6 +15,7 @@ import { seededShuffle } from "@/lib/seeded-shuffle";
 import { approxCount } from "@/lib/utils";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { absoluteUrl } from "@/lib/site";
+import { supabase } from "@/lib/supabase";
 import bannerDeals from "@/assets/cat-fashion.jpg";
 import bannerSale from "@/assets/cat-shoes.jpg";
 import bannerNew from "@/assets/cat-beauty.jpg";
@@ -25,66 +27,128 @@ import {
   trendingProducts,
 } from "@/data/products";
 
-export const Route = createFileRoute("/")({
-  // Re-runs on every navigation to "/" (including a hard refresh), so the
-  // homepage's rotating sections pick a fresh set of products each time —
-  // computed here rather than with client-only randomness so the server-
-  // rendered HTML and the client's initial hydration always agree.
-  loader: () => ({ seed: `${Date.now()}-${Math.random()}` }),
-  head: () => ({
-    meta: [
-      { title: "Search & Compare Fashion Prices Across Stores | DealsCanvas" },
-      {
-        name: "description",
-        content:
-          "Find what you love and shop it for less. Search fashion, beauty and lifestyle products across Nordstrom, Revolve, Nike, Adidas, Zara, Amazon and more — compare live prices and buy at the lowest.",
-      },
-      { property: "og:title", content: "Find What You Love. Shop It for Less. | DealsCanvas" },
-      {
-        property: "og:description",
-        content: "Fashion shopping search: compare products, prices and offers from every store in one place.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-    links: [
-      { rel: "canonical", href: absoluteUrl("/") },
-      {
-        rel: "preload",
-        as: "image",
-        href: SLIDES[0],
-        imageSrcSet: heroSrcSet(SLIDES[0]!),
-        imageSizes: "100vw",
-        fetchPriority: "high",
-      },
-    ],
-  }),
-  component: Home,
-});
+// Row shape of the admin panel's `banners` table (see that repo's
+// docs/shared-context.md). Kept as a local type here rather than shared,
+// same convention as every other cross-repo table this site reads.
+type BannerRow = {
+  id: string;
+  placement: "hero" | "promo";
+  image_url: string;
+  alt: string;
+  title: string | null;
+  subtitle: string | null;
+  href: string | null;
+  sort_order: number;
+  visible: boolean;
+};
 
-const promoBanners = [
+type PromoBanner = {
+  title: string;
+  subtitle: string;
+  image: string;
+  href: string;
+};
+
+// Fallbacks used when the `banners` table is empty or unreachable, so the
+// homepage never goes blank because nobody's added banners in the admin
+// panel yet.
+const DEFAULT_HERO_SLIDES: HeroSlide[] = SLIDES.map((url) => ({ imageUrl: url, alt: "" }));
+const DEFAULT_PROMO_BANNERS: PromoBanner[] = [
   {
     title: "Live Deals, Updated Hourly",
     subtitle: "Every markdown we track, in one feed.",
     image: bannerDeals,
-    to: "/deals",
+    href: "/deals",
   },
   {
     title: "Sale Ends Soon",
     subtitle: "Deepest discounts before they're gone.",
     image: bannerSale,
-    search: { q: "", category: "", department: "", view: "sale", store: "" },
+    href: "/shop?view=sale",
   },
   {
     title: "Just Landed",
     subtitle: "This week's newest arrivals across every store.",
     image: bannerNew,
-    search: { q: "", category: "", department: "", view: "new", store: "" },
+    href: "/shop?view=new",
   },
-] as const;
+];
+
+export const Route = createFileRoute("/")({
+  // Re-runs on every navigation to "/" (including a hard refresh), so the
+  // homepage's rotating sections pick a fresh set of products each time —
+  // computed here rather than with client-only randomness so the server-
+  // rendered HTML and the client's initial hydration always agree. Also
+  // fetches the admin-managed hero/promo banners (see the admin panel's
+  // Banners section) here rather than client-side, since the hero's first
+  // slide needs to be known synchronously for the <head> preload below.
+  loader: async () => {
+    const seed = `${Date.now()}-${Math.random()}`;
+    let heroSlides = DEFAULT_HERO_SLIDES;
+    let promoBanners = DEFAULT_PROMO_BANNERS;
+
+    if (supabase) {
+      const { data } = await supabase
+        .from("banners")
+        .select("*")
+        .eq("visible", true)
+        .order("sort_order");
+      const rows = (data ?? []) as BannerRow[];
+
+      const heroRows = rows.filter((b) => b.placement === "hero");
+      if (heroRows.length > 0) {
+        heroSlides = heroRows.map((b) => ({ imageUrl: b.image_url, alt: b.alt }));
+      }
+
+      const promoRows = rows.filter((b) => b.placement === "promo").slice(0, 3);
+      if (promoRows.length > 0) {
+        promoBanners = promoRows.map((b) => ({
+          title: b.title ?? "",
+          subtitle: b.subtitle ?? "",
+          image: b.image_url,
+          href: b.href ?? "/shop",
+        }));
+      }
+    }
+
+    return { seed, heroSlides, promoBanners };
+  },
+  head: ({ loaderData }) => {
+    const firstSlide = (loaderData?.heroSlides ?? DEFAULT_HERO_SLIDES)[0]!;
+    const srcSet = heroSrcSet(firstSlide.imageUrl);
+    return {
+      meta: [
+        { title: "Search & Compare Fashion Prices Across Stores | DealsCanvas" },
+        {
+          name: "description",
+          content:
+            "Find what you love and shop it for less. Search fashion, beauty and lifestyle products across Nordstrom, Revolve, Nike, Adidas, Zara, Amazon and more — compare live prices and buy at the lowest.",
+        },
+        { property: "og:title", content: "Find What You Love. Shop It for Less. | DealsCanvas" },
+        {
+          property: "og:description",
+          content: "Fashion shopping search: compare products, prices and offers from every store in one place.",
+        },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [
+        { rel: "canonical", href: absoluteUrl("/") },
+        {
+          rel: "preload",
+          as: "image",
+          href: firstSlide.imageUrl,
+          fetchPriority: "high",
+          ...(srcSet ? { imageSrcSet: srcSet, imageSizes: "100vw" } : {}),
+        },
+      ],
+    };
+  },
+  component: Home,
+});
 
 function Home() {
-  const { seed } = Route.useLoaderData();
+  const { seed, heroSlides, promoBanners } = Route.useLoaderData();
   useCatalogVersion();
 
   const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 10);
@@ -94,7 +158,7 @@ function Home() {
   return (
     <>
       <section className="relative isolate overflow-hidden border-b">
-        <HeroCarousel />
+        <HeroCarousel slides={heroSlides} />
         <div className="relative mx-auto max-w-3xl px-4 py-10 text-center md:px-6 md:py-16">
           <p className="editorial-eyebrow text-background/80">
             {approxCount(products.length)} products · {approxCount(stores.length)} stores · updated hourly

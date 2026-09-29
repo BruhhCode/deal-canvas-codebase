@@ -33,6 +33,7 @@ const defaultNav: StaticNavItem[] = [
   { label: "Stores", to: "/stores" },
   { label: "Brands", to: "/brands" },
   { label: "New In", to: "/shop", search: { q: "", category: "", department: "", view: "new" } },
+  { label: "Blog", to: "/blog" },
 ];
 
 type NavRow = { slug: string; label: string; href: string; sort_order: number; visible: boolean };

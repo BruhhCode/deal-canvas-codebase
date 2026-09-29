@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AccountRouteImport } from './routes/account'
+import { Route as BlogRouteImport } from './routes/blog'
 import { Route as BrandsRouteImport } from './routes/brands'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CouponsRouteImport } from './routes/coupons'
@@ -26,6 +27,7 @@ import { Route as ShopRouteImport } from './routes/shop'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as StoresRouteImport } from './routes/stores'
 import { Route as TermsRouteImport } from './routes/terms'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as BrandSlugRouteImport } from './routes/brand.$slug'
 import { Route as CategorySlugRouteImport } from './routes/category.$slug'
 import { Route as DealSlugRouteImport } from './routes/deal.$slug'
@@ -48,6 +50,11 @@ const AboutRoute = AboutRouteImport.update({
 const AccountRoute = AccountRouteImport.update({
   id: '/account',
   path: '/account',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BrandsRoute = BrandsRouteImport.update({
@@ -120,6 +127,11 @@ const TermsRoute = TermsRouteImport.update({
   path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => BlogRoute,
+} as any)
 const BrandSlugRoute = BrandSlugRouteImport.update({
   id: '/brand/$slug',
   path: '/brand/$slug',
@@ -165,6 +177,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
+  '/blog': typeof BlogRouteWithChildren
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
@@ -179,6 +192,7 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
   '/terms': typeof TermsRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -192,6 +206,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
+  '/blog': typeof BlogRouteWithChildren
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
@@ -206,6 +221,7 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
   '/terms': typeof TermsRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -220,6 +236,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
+  '/blog': typeof BlogRouteWithChildren
   '/brands': typeof BrandsRoute
   '/contact': typeof ContactRoute
   '/coupons': typeof CouponsRoute
@@ -234,6 +251,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/stores': typeof StoresRoute
   '/terms': typeof TermsRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/brand/$slug': typeof BrandSlugRoute
   '/category/$slug': typeof CategorySlugRoute
   '/deal/$slug': typeof DealSlugRoute
@@ -249,6 +267,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/account'
+    | '/blog'
     | '/brands'
     | '/contact'
     | '/coupons'
@@ -263,6 +282,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/stores'
     | '/terms'
+    | '/blog/$slug'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -276,6 +296,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/account'
+    | '/blog'
     | '/brands'
     | '/contact'
     | '/coupons'
@@ -290,6 +311,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/stores'
     | '/terms'
+    | '/blog/$slug'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -303,6 +325,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/account'
+    | '/blog'
     | '/brands'
     | '/contact'
     | '/coupons'
@@ -317,6 +340,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/stores'
     | '/terms'
+    | '/blog/$slug'
     | '/brand/$slug'
     | '/category/$slug'
     | '/deal/$slug'
@@ -331,6 +355,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   AccountRoute: typeof AccountRoute
+  BlogRoute: typeof BlogRouteWithChildren
   BrandsRoute: typeof BrandsRoute
   ContactRoute: typeof ContactRoute
   CouponsRoute: typeof CouponsRoute
@@ -374,6 +399,13 @@ declare module '@tanstack/react-router' {
       path: '/account'
       fullPath: '/account'
       preLoaderRoute: typeof AccountRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/brands': {
@@ -474,6 +506,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof BlogRoute
+    }
     '/brand/$slug': {
       id: '/brand/$slug'
       path: '/brand/$slug'
@@ -533,6 +572,16 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface BlogRouteChildren {
+  BlogSlugRoute: typeof BlogSlugRoute
+}
+
+const BlogRouteChildren: BlogRouteChildren = {
+  BlogSlugRoute: BlogSlugRoute,
+}
+
+const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
+
 interface GuidesRouteChildren {
   GuidesSlugRoute: typeof GuidesSlugRoute
 }
@@ -558,6 +607,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   AccountRoute: AccountRoute,
+  BlogRoute: BlogRouteWithChildren,
   BrandsRoute: BrandsRoute,
   ContactRoute: ContactRoute,
   CouponsRoute: CouponsRoute,

@@ -253,16 +253,10 @@ function Home() {
               const className =
                 "group relative isolate h-72 overflow-hidden rounded-lg border border-background/20";
               return (
-                <Reveal key={b.title} delayMs={i * 100}>
-                  {"to" in b ? (
-                    <Link to={b.to} className={className}>
-                      {content}
-                    </Link>
-                  ) : (
-                    <Link to="/shop" search={b.search} className={className}>
-                      {content}
-                    </Link>
-                  )}
+                <Reveal key={`${b.title}-${i}`} delayMs={i * 100}>
+                  <a href={b.href} className={className}>
+                    {content}
+                  </a>
                 </Reveal>
               );
             })}

@@ -33,7 +33,6 @@ const defaultNav: StaticNavItem[] = [
   { label: "Stores", to: "/stores" },
   { label: "Brands", to: "/brands" },
   { label: "New In", to: "/shop", search: { q: "", category: "", department: "", view: "new" } },
-  { label: "Blog", to: "/blog" },
 ];
 
 type NavRow = { slug: string; label: string; href: string; sort_order: number; visible: boolean };
@@ -190,7 +189,13 @@ export function Header() {
           Deals<span className="text-clay">Canvas</span>
         </Link>
 
-        <div className="ml-auto flex items-center gap-4">
+        <div className="ml-auto flex items-center gap-3">
+          <Link
+            to="/blog"
+            className="rounded-full border px-4 py-1.5 text-sm font-medium transition-colors hover:border-clay hover:text-clay"
+          >
+            Blog
+          </Link>
           <Link to="/account" className="relative flex items-center gap-2 text-sm font-medium hover:text-clay">
             <span className="relative">
               <Heart

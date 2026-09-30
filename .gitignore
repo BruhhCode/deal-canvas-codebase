@@ -6,3 +6,4 @@ node_modules
 logo-map.json
 .vercel
 catalog-backup-*.json
+.mcp.json

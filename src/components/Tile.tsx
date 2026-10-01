@@ -81,7 +81,7 @@ export function Tile({
         <ProductImage
           src={imageSrc}
           alt={imageAlt}
-          className="h-full w-full object-contain p-3 transition-transform duration-500 group-hover:scale-[1.03]"
+          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
         />
         {badge ? (
           <span

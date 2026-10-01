@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { brands, categories, deals, guides, seasonalSales } from "@/data/catalog";
-import { products, shopCategories } from "@/data/products";
+import { isFullyOutOfStock, products, shopCategories } from "@/data/products";
 import { stores } from "@/data/stores";
 import { SITE_URL } from "@/lib/site";
 
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           "/stores",
           ...shopCategories.map((c) => `/shop?category=${c.slug}`),
           ...stores.map((st) => `/store/${st.slug}`),
-          ...products.map((pr) => `/product/${pr.slug}`),
+          ...products.filter((pr) => !isFullyOutOfStock(pr)).map((pr) => `/product/${pr.slug}`),
           ...categories.map((c) => `/category/${c.slug}`),
           ...brands.map((b) => `/brand/${b.slug}`),
           ...deals.map((d) => `/deal/${d.slug}`),

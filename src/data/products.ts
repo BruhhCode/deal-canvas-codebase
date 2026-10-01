@@ -100,6 +100,13 @@ export const products: Product[] = generatedProducts;
 
 export const inStockOffers = (p: Product) => p.offers.filter((o) => o.availability !== "OUT OF STOCK");
 
+// A product with every offer OUT OF STOCK is treated as unavailable anywhere
+// and excluded from every listing surface (shop/search/brand/store/home/
+// sitemap) below — it's never deleted from the catalog outright so a direct
+// link some already-indexed page still resolves, but nothing on the site
+// links to it any more.
+export const isFullyOutOfStock = (p: Product) => inStockOffers(p).length === 0;
+
 export const bestOffer = (p: Product): Offer => {
   const pool = inStockOffers(p).length ? inStockOffers(p) : p.offers;
   return pool.reduce((a, b) => (b.price < a.price ? b : a));
@@ -125,28 +132,35 @@ export const lastUpdatedLabel = (p: Product) => {
   return h <= 1 ? "Updated 1 hour ago" : `Updated ${h} hours ago`;
 };
 
+// Listing surfaces (shop, search, brand/store/category pages, home, sitemap)
+// read through this, not `products` directly, so a fully-out-of-stock
+// product disappears from every one of them at once. Re-filters the live
+// `products` array on every call (not a precomputed snapshot) so it still
+// reflects realtime admin edits, same as the functions below already did.
+const listableProducts = () => products.filter((p) => !isFullyOutOfStock(p));
+
 export const getProduct = (slug: string) => products.find((p) => p.slug === slug);
-export const productsByBrand = (brand: string) => products.filter((p) => p.brand === brand);
+export const productsByBrand = (brand: string) => listableProducts().filter((p) => p.brand === brand);
 export const productsByStore = (store: string) =>
-  products.filter((p) => p.offers.some((o) => o.store === store));
-export const productsByCategory = (cat: string) => products.filter((p) => p.category === cat);
+  listableProducts().filter((p) => p.offers.some((o) => o.store === store));
+export const productsByCategory = (cat: string) => listableProducts().filter((p) => p.category === cat);
 export const productsByDepartment = (dept: string) => {
   const set = new Set(categoriesByDepartment(dept).map((c) => c.slug));
-  return products.filter((p) => set.has(p.category));
+  return listableProducts().filter((p) => set.has(p.category));
 };
 
-export const trendingProducts = products.slice().sort((a, b) => b.views - a.views);
-export const newArrivals = products.filter((p) => p.newIn);
-export const biggestDiscounts = products
+export const trendingProducts = listableProducts().slice().sort((a, b) => b.views - a.views);
+export const newArrivals = listableProducts().filter((p) => p.newIn);
+export const biggestDiscounts = listableProducts()
   .slice()
   .sort((a, b) => productDiscount(b) - productDiscount(a));
 
 export const relatedProducts = (p: Product, n = 4) =>
-  products.filter((x) => x.id !== p.id && (x.category === p.category || x.brand === p.brand)).slice(0, n);
+  listableProducts().filter((x) => x.id !== p.id && (x.category === p.category || x.brand === p.brand)).slice(0, n);
 
 /** Same silhouette across stores is already modelled as offers; this finds close alternatives. */
 export const similarInCategory = (p: Product, n = 4) =>
-  products.filter((x) => x.id !== p.id && x.subcategory === p.subcategory).slice(0, n);
+  listableProducts().filter((x) => x.id !== p.id && x.subcategory === p.subcategory).slice(0, n);
 
 export const popularSearches = [
   { name: "Nike", slug: "nike" },
@@ -282,6 +296,7 @@ const kidsCategorySlugs = new Set(categoriesByDepartment("kids").map((c) => c.sl
 export function filterProducts(list: Product[], f: ProductFilters) {
   const deptCats = f.department ? new Set(categoriesByDepartment(f.department).map((c) => c.slug)) : null;
   return list.filter((p) => {
+    if (isFullyOutOfStock(p)) return false;
     const o = bestOffer(p);
     if (f.gender === "kids") {
       if (!kidsCategorySlugs.has(p.category)) return false;

@@ -36,14 +36,17 @@ export function productImg(url: string, width: number): string {
     }
 
     // mediahub.boohoo.com / mediahub.prettylittlething.com (same CDN
-    // platform, both Boohoo Group brands): the URL's trailing size keyword
-    // is effectively binary — "_xl" serves the full-resolution master
-    // (400-550 KiB per curl check), any other value (including "_sm" or a
-    // nonsense string) serves the same much smaller default rendition
-    // (~13-90 KiB, ~5x smaller) — verified by hand against real product
-    // URLs, not guessed. "_sm" used here as the readable, intentional one.
+    // platform, both Boohoo Group brands): this used to rewrite "_xl" to
+    // "_sm" for a smaller download, on the assumption that "_sm" was just a
+    // smaller rendition of the same photo. Not true for every SKU — for a
+    // real subset of products (confirmed by hand, e.g. cnq6463_blue and
+    // cmm26528_white), "_sm" actually serves that retailer's literal
+    // "Image coming soon" / "This image is under construction" placeholder
+    // graphic instead of the product photo, while "_xl" always has the real
+    // one. Passing the URL through unchanged trades the file-size saving for
+    // never showing a placeholder graphic as a product's photo.
     if (host === "mediahub.boohoo.com" || host === "mediahub.prettylittlething.com") {
-      return url.replace(/_xl$/, "_sm");
+      return url;
     }
 
     // n.nordstrommedia.com honours a plain ?w= query param (verified:

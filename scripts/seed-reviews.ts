@@ -3,7 +3,7 @@
  * 4-5 stars, text templated per product category and filled in with the
  * actual product/brand name so it reads as product-specific rather than
  * generic filler. Skips any product that already has >=5 rows in `reviews`,
- * so it's safe to re-run after adding new products.
+ * soscripts/create-blog-table.sql it's safe to re-run after adding new products.
  *
  * Inserts through the anon key (same as the live site's review form) since
  * `reviews` already has a public-insert RLS policy — no service role needed.

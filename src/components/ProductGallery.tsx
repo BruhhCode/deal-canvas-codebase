@@ -1,7 +1,62 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, ImageOff } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { productImg } from "@/lib/img";
+
+/**
+ * A single gallery <img> with a broken-image fallback. Checks
+ * complete/naturalWidth once after mount in addition to onError — an SSR'd
+ * <img> starts loading as soon as the browser parses the HTML, often before
+ * React finishes hydrating and attaches onError, so a fast failure (e.g. a
+ * host erroring at the protocol level) can be missed by onError alone and
+ * leave a permanently broken image in the DOM. Same fix as ProductImage.tsx.
+ */
+function GalleryImg({
+  src,
+  width,
+  srcSetWidths,
+  sizes,
+  alt,
+  className,
+  loading,
+}: {
+  src: string;
+  width: number;
+  srcSetWidths?: number[];
+  sizes?: string;
+  alt: string;
+  className?: string;
+  loading?: "lazy" | "eager";
+}) {
+  const [failed, setFailed] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    const el = imgRef.current;
+    if (el && el.complete && el.naturalWidth === 0) setFailed(true);
+  }, [src]);
+
+  if (failed) {
+    return (
+      <div className={cn("flex items-center justify-center bg-cream text-muted-foreground/50", className)}>
+        <ImageOff className="h-6 w-6" />
+      </div>
+    );
+  }
+
+  return (
+    <img
+      ref={imgRef}
+      src={productImg(src, width)}
+      srcSet={srcSetWidths ? srcSetWidths.map((w) => `${productImg(src, w)} ${w}w`).join(", ") : undefined}
+      sizes={sizes}
+      alt={alt}
+      loading={loading}
+      className={className}
+      onError={() => setFailed(true)}
+    />
+  );
+}
 
 export function ProductGallery({
   images: rawImages,
@@ -48,26 +103,20 @@ export function ProductGallery({
                 i === current ? "border-foreground" : "border-transparent hover:border-border",
               )}
             >
-              <img
-                src={productImg(src, 160)}
-                alt=""
-                className="aspect-square w-full object-cover"
-                loading="lazy"
-              />
+              <GalleryImg src={src} width={160} alt="" loading="lazy" className="aspect-square w-full object-cover" />
             </button>
           ))}
         </div>
       ) : null}
 
       <div className="relative flex-1 overflow-hidden rounded-lg bg-cream">
-        <img
+        <GalleryImg
           key={current}
-          src={productImg(images[current]!, 960)}
-          srcSet={`${productImg(images[current]!, 640)} 640w, ${productImg(images[current]!, 960)} 960w, ${productImg(images[current]!, 1280)} 1280w`}
+          src={images[current]!}
+          width={960}
+          srcSetWidths={[640, 960, 1280]}
           sizes="(min-width: 1024px) 50vw, 100vw"
           alt={alt}
-          width={900}
-          height={900}
           className="aspect-square w-full object-cover"
         />
         {badge}

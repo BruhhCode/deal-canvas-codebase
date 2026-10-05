@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { productImg } from "@/lib/img";
 
@@ -27,6 +27,21 @@ export function ProductImage({
   sizes?: string;
 }) {
   const [failed, setFailed] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // SSR'd <img> tags start loading the moment the browser parses the HTML —
+  // often before React finishes hydrating and attaches onError. If the
+  // request fails fast (e.g. a host that errors at the network/protocol
+  // level, like a real rei.com host returning ERR_HTTP2_PROTOCOL_ERROR seen
+  // in production), the native error event can fire before our handler
+  // exists to catch it, and the broken <img> is left in the DOM forever —
+  // onError never fires again since src never changes. Checking
+  // complete/naturalWidth once after mount catches that already-failed
+  // case; onError below still covers failures that happen post-hydration.
+  useEffect(() => {
+    const el = imgRef.current;
+    if (el && el.complete && el.naturalWidth === 0) setFailed(true);
+  }, [src]);
 
   if (!src || failed) {
     return (
@@ -45,6 +60,7 @@ export function ProductImage({
 
   return (
     <img
+      ref={imgRef}
       src={productImg(src, 480)}
       srcSet={`${productImg(src, 240)} 240w, ${productImg(src, 480)} 480w`}
       sizes={sizes}

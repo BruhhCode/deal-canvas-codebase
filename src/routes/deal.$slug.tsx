@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Breadcrumbs, breadcrumbJsonLd } from "@/components/Breadcrumbs";
 import { BrandMark } from "@/components/BrandMark";
+import { ProductImage } from "@/components/ProductImage";
 import { DealBadge } from "@/components/DealBadge";
 import { DealCard } from "@/components/DealCard";
 import { CopyCode } from "@/components/CopyCode";
@@ -104,11 +105,10 @@ function DealPage() {
       />
 
       <div className="grid gap-10 lg:grid-cols-2">
-        <img
+        <ProductImage
           src={dealImage(deal)}
           alt={`${brandName(deal.brand)} ${deal.product}`}
-          width={900}
-          height={900}
+          sizes="(min-width: 1024px) 50vw, 100vw"
           className="aspect-square w-full rounded-lg border bg-cream object-cover"
         />
 

@@ -109,7 +109,7 @@ function DealPage() {
           alt={`${brandName(deal.brand)} ${deal.product}`}
           width={900}
           height={900}
-          className="aspect-square w-full rounded-lg border bg-cream object-contain"
+          className="aspect-square w-full rounded-lg border bg-cream object-cover"
         />
 
         <div>

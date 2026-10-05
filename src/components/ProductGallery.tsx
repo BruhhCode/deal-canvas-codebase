@@ -51,7 +51,7 @@ export function ProductGallery({
               <img
                 src={productImg(src, 160)}
                 alt=""
-                className="aspect-square w-full object-contain"
+                className="aspect-square w-full object-cover"
                 loading="lazy"
               />
             </button>
@@ -68,7 +68,7 @@ export function ProductGallery({
           alt={alt}
           width={900}
           height={900}
-          className="aspect-square w-full object-contain"
+          className="aspect-square w-full object-cover"
         />
         {badge}
 

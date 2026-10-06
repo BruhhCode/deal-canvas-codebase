@@ -1,6 +1,22 @@
-import { useRef, useState } from "react";
+import { lazy, Suspense, useRef, useState } from "react";
 import { toast } from "sonner";
-import BellToggle from "./BellToggle";
+
+// Lazy-loaded: BellToggle pulls in `motion` + `@hugeicons/react`, a
+// meaningful chunk of JS/CSS that has no business being in the critical
+// initial bundle for a below-the-fold newsletter form present on every
+// route. Code-splitting it cut it from PageSpeed's "reduce unused
+// JavaScript" finding instead of shipping it unconditionally on first load.
+const BellToggle = lazy(() => import("./BellToggle"));
+
+// Rendered until the BellToggle chunk loads — same footprint (size="lg" is
+// 52px tall) so there's no layout shift once the real button swaps in.
+function SubscribeFallback() {
+  return (
+    <span className="inline-flex h-[52px] items-center justify-center self-center rounded-full border px-[23px] text-[15px] font-medium">
+      Subscribe
+    </span>
+  );
+}
 
 const segments = ["Fashion", "Beauty", "Lifestyle", "Deals", "Coupons"];
 
@@ -44,22 +60,24 @@ export function Newsletter() {
             aria-label="Email address"
             className="flex-1 rounded-sm border border-background/25 bg-transparent px-4 py-3 text-sm text-background placeholder:text-background/40 focus:border-clay focus:outline-none"
           />
-          <BellToggle
-            pressed={subscribed}
-            onChange={(next) => {
-              if (next) trySubscribe();
-            }}
-            offLabel="Subscribe"
-            onLabel="Subscribed"
-            label="Subscribe to the newsletter"
-            size="lg"
-            badge={false}
-            background="var(--background)"
-            color="var(--foreground)"
-            onBackground="var(--clay)"
-            onColor="var(--clay-foreground)"
-            className="self-center"
-          />
+          <Suspense fallback={<SubscribeFallback />}>
+            <BellToggle
+              pressed={subscribed}
+              onChange={(next) => {
+                if (next) trySubscribe();
+              }}
+              offLabel="Subscribe"
+              onLabel="Subscribed"
+              label="Subscribe to the newsletter"
+              size="lg"
+              badge={false}
+              background="var(--background)"
+              color="var(--foreground)"
+              onBackground="var(--clay)"
+              onColor="var(--clay-foreground)"
+              className="self-center"
+            />
+          </Suspense>
         </form>
 
         <div className="mt-6 flex flex-wrap justify-center gap-2">

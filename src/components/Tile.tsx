@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { type ReactNode, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Star } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -40,6 +40,7 @@ export function Tile({
   cta,
   dimmed,
   className,
+  hideOnImageFail,
 }: {
   wishlistId: string;
   imageSrc: string;
@@ -62,7 +63,15 @@ export function Tile({
   cta: TileCta;
   dimmed?: boolean | undefined;
   className?: string | undefined;
+  /** When true, the whole card disappears instead of showing a placeholder
+   *  monogram once it's confirmed there's no real photo for it — used for
+   *  deal cards, where a tile with nothing to show is worse than one fewer
+   *  tile in the grid. Off by default (ProductCard keeps the monogram). */
+  hideOnImageFail?: boolean;
 }) {
+  const [hasRealImage, setHasRealImage] = useState(true);
+  if (hideOnImageFail && !hasRealImage) return null;
+
   return (
     <article
       className={cn(
@@ -82,6 +91,7 @@ export function Tile({
           src={imageSrc}
           alt={imageAlt}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          {...(hideOnImageFail ? { onStatusChange: setHasRealImage } : {})}
         />
         {badge ? (
           <span

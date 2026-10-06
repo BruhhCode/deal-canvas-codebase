@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "@tanstack/react-router";
-import { Search } from "lucide-react";
+import { Search, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { searchPlaceholders } from "@/data/products";
 
@@ -68,13 +68,25 @@ export function ProductSearch({
   const typed = useTypewriter(searchPlaceholders);
   const navigate = useNavigate();
 
+  // `initial` can change out from under this component without it remounting
+  // (e.g. the shop page's own ShopView instance is reused across navigations
+  // that only change `q`) — resync the input so it doesn't keep showing a
+  // stale term after that kind of external navigation.
+  useEffect(() => {
+    setQ(initial);
+  }, [initial]);
+
+  const runSearch = (value: string) => {
+    navigate({ to: "/shop", search: { q: value.trim(), category: "", department: "", view: "", store: "" } });
+    onSubmit?.();
+  };
+
   return (
     <form
       role="search"
       onSubmit={(e) => {
         e.preventDefault();
-        navigate({ to: "/shop", search: { q: q.trim(), category: "", department: "", view: "", store: "" } });
-        onSubmit?.();
+        runSearch(q);
       }}
       className={cn("w-full", className)}
     >
@@ -87,7 +99,16 @@ export function ProductSearch({
         <Search className={cn("shrink-0 text-muted-foreground", size === "lg" ? "h-5 w-5" : "h-4 w-4")} />
         <input
           value={q}
-          onChange={(e) => setQ(e.target.value)}
+          onChange={(e) => {
+            const next = e.target.value;
+            setQ(next);
+            // Clearing the box (typing or deleting down to empty) resets the
+            // listing immediately instead of leaving it "stuck" on the last
+            // searched term until the user explicitly re-submits — only the
+            // empty case auto-navigates, so typing a new term still waits for
+            // Enter/Search as before.
+            if (next.trim() === "" && q.trim() !== "") runSearch("");
+          }}
           aria-label="Search for products, brands or stores"
           placeholder={typed}
           autoFocus={autoFocus}
@@ -96,6 +117,19 @@ export function ProductSearch({
             size === "lg" ? "text-base" : "text-sm",
           )}
         />
+        {q ? (
+          <button
+            type="button"
+            onClick={() => {
+              setQ("");
+              runSearch("");
+            }}
+            aria-label="Clear search"
+            className="shrink-0 rounded-full p-1 text-muted-foreground hover:text-clay"
+          >
+            <X className={size === "lg" ? "h-4 w-4" : "h-3.5 w-3.5"} />
+          </button>
+        ) : null}
         <button
           type="submit"
           className={cn(

@@ -20,11 +20,15 @@ export function ProductImage({
   alt,
   className,
   sizes = "(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw",
+  onStatusChange,
 }: {
   src: string;
   alt: string;
   className?: string;
   sizes?: string;
+  /** Fires once with whether a real photo is showing (false = placeholder) — lets a
+   *  parent like Tile decide whether the whole card is worth showing. */
+  onStatusChange?: (hasRealImage: boolean) => void;
 }) {
   const [failed, setFailed] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
@@ -42,6 +46,11 @@ export function ProductImage({
     const el = imgRef.current;
     if (el && el.complete && el.naturalWidth === 0) setFailed(true);
   }, [src]);
+
+  useEffect(() => {
+    onStatusChange?.(!!src && !failed);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [src, failed]);
 
   if (!src || failed) {
     return (
@@ -73,3 +82,4 @@ export function ProductImage({
     />
   );
 }
+

@@ -26,6 +26,7 @@ export function DealCard({ deal, className }: { deal: Deal; className?: string }
       imageAlt={`${brandName(deal.brand)} ${deal.product} deal`}
       imageTo="/deal/$slug"
       imageParams={{ slug: deal.slug }}
+      hideOnImageFail
       badge={{
         label: `${discountPct(deal)}% OFF`,
         tone: deal.flash || deal.expiresInHours < 24 ? "urgency" : "default",

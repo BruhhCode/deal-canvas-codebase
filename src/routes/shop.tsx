@@ -4,7 +4,15 @@ import { ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductSearch } from "@/components/ProductSearch";
-import { FilterPanel, FilterRange, FilterSelect, SortControl } from "@/components/FilterControls";
+import {
+  FilterCheckboxList,
+  FilterChips,
+  FilterPanel,
+  FilterRange,
+  SortControl,
+  renderSelectLike,
+} from "@/components/FilterControls";
+import { useFilterOverrides } from "@/lib/site-filters";
 import { brands } from "@/data/catalog";
 import { stores } from "@/data/stores";
 import {
@@ -97,6 +105,7 @@ function ShopView() {
   );
   const [page, setPage] = useState(1);
   const [sheet, setSheet] = useState(false);
+  const overrides = useFilterOverrides("shop");
 
   const active: ProductFilters = filters;
 
@@ -145,6 +154,86 @@ function ShopView() {
   const maxPriceValue = active.maxPrice ?? 0;
   const hasActiveFilters = Object.keys(active).length > 0;
 
+  // Each entry's defaults match what this page always rendered — an admin
+  // override (site_filters, see the admin panel's Filters section) patches
+  // label/displayStyle/order/enabled/options/range bounds per key; a key
+  // with no override keeps rendering exactly as it always has.
+  const categoryOverride = overrides["category"];
+  const genderOverride = overrides["gender"];
+  const priceOverride = overrides["price"];
+  const brandOverride = overrides["brand"];
+  const sortOverride = overrides["sort"];
+
+  const categoryOptions = (active.department ? categoriesByDepartment(active.department) : shopCategories).map((c) => ({
+    value: c.slug,
+    label: c.name,
+  }));
+  const genderOptions = genderOverride?.options ?? [
+    { value: "women", label: "Women" },
+    { value: "men", label: "Men" },
+    { value: "kids", label: "Kids" },
+    { value: "unisex", label: "Unisex" },
+  ];
+  const brandOptions = brands
+    .map((b) => ({ value: b.slug, label: b.name }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+
+  const filterEntries = [
+    {
+      key: "category",
+      order: categoryOverride?.sortOrder ?? 0,
+      enabled: categoryOverride?.enabled ?? true,
+      node: renderSelectLike(categoryOverride?.displayStyle ?? "dropdown", {
+        label: categoryOverride?.label ?? "Category",
+        value: active.category ?? "",
+        onChange: (v: string) => set({ category: v || undefined }),
+        placeholder: "All categories",
+        options: categoryOverride?.options ?? categoryOptions,
+      }),
+    },
+    {
+      key: "gender",
+      order: genderOverride?.sortOrder ?? 1,
+      enabled: genderOverride?.enabled ?? true,
+      node: renderSelectLike(genderOverride?.displayStyle ?? "dropdown", {
+        label: genderOverride?.label ?? "Shopping For",
+        value: active.gender ?? "",
+        onChange: (v: string) => set({ gender: v || undefined }),
+        placeholder: "Everyone",
+        options: genderOptions,
+      }),
+    },
+    {
+      key: "price",
+      order: priceOverride?.sortOrder ?? 2,
+      enabled: priceOverride?.enabled ?? true,
+      node: (
+        <FilterRange
+          label={`${priceOverride?.label ?? "Max price"}: ${maxPriceValue > 0 ? format(maxPriceValue) : "No limit"}`}
+          value={maxPriceValue}
+          min={priceOverride?.minValue ?? 0}
+          max={priceOverride?.maxValue ?? 60000}
+          step={priceOverride?.stepValue ?? 1000}
+          onChange={(v) => set({ maxPrice: v > 0 ? v : undefined })}
+        />
+      ),
+    },
+    {
+      key: "brand",
+      order: brandOverride?.sortOrder ?? 3,
+      enabled: brandOverride?.enabled ?? true,
+      node: renderSelectLike(brandOverride?.displayStyle ?? "dropdown", {
+        label: brandOverride?.label ?? "Brand",
+        value: active.brand ?? "",
+        onChange: (v: string) => set({ brand: v || undefined }),
+        placeholder: "All brands",
+        options: brandOverride?.options ?? brandOptions,
+      }),
+    },
+  ]
+    .filter((e) => e.enabled)
+    .sort((a, b) => a.order - b.order);
+
   const filterUI = (
     <div className="space-y-5 text-sm">
       <button
@@ -159,48 +248,35 @@ function ShopView() {
         Clear all filters
       </button>
 
-      <FilterSelect
-        label="Category"
-        value={active.category ?? ""}
-        onChange={(v) => set({ category: v || undefined })}
-        placeholder="All categories"
-        options={(active.department ? categoriesByDepartment(active.department) : shopCategories).map((c) => ({
-          value: c.slug,
-          label: c.name,
-        }))}
-      />
-
-      <FilterSelect
-        label="Shopping For"
-        value={active.gender ?? ""}
-        onChange={(v) => set({ gender: v || undefined })}
-        placeholder="Everyone"
-        options={[
-          { value: "women", label: "Women" },
-          { value: "men", label: "Men" },
-          { value: "kids", label: "Kids" },
-          { value: "unisex", label: "Unisex" },
-        ]}
-      />
-
-      <FilterRange
-        label={`Max price: ${maxPriceValue > 0 ? format(maxPriceValue) : "No limit"}`}
-        value={maxPriceValue}
-        min={0}
-        max={60000}
-        step={1000}
-        onChange={(v) => set({ maxPrice: v > 0 ? v : undefined })}
-      />
-
-      <FilterSelect
-        label="Brand"
-        value={active.brand ?? ""}
-        onChange={(v) => set({ brand: v || undefined })}
-        placeholder="All brands"
-        options={brands.map((b) => ({ value: b.slug, label: b.name })).sort((a, b) => a.label.localeCompare(b.label))}
-      />
+      {filterEntries.map((e) => (
+        <div key={e.key}>{e.node}</div>
+      ))}
     </div>
   );
+
+  const sortOptionsList = sortOverride?.options ?? sortOptions.map((o) => ({ value: o.key, label: o.label }));
+  const sortDisplayStyle = sortOverride?.displayStyle ?? "dropdown";
+  const sortLabel = sortOverride?.label ?? "Sort";
+  const sortControl =
+    sortDisplayStyle === "chips" ? (
+      <FilterChips
+        label={sortLabel}
+        value={sort}
+        onChange={(v) => setSort(v as SortKey)}
+        options={sortOptionsList}
+        clearable={false}
+      />
+    ) : sortDisplayStyle === "checkbox-list" ? (
+      <FilterCheckboxList
+        label={sortLabel}
+        value={sort}
+        onChange={(v) => setSort(v as SortKey)}
+        options={sortOptionsList}
+        clearable={false}
+      />
+    ) : (
+      <SortControl value={sort} onChange={(v) => setSort(v as SortKey)} options={sortOptionsList} label={sortLabel} />
+    );
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 md:px-6 md:py-10">
@@ -231,13 +307,7 @@ function ShopView() {
             >
               <SlidersHorizontal className="h-4 w-4" /> Filters
             </button>
-            <div className="ml-auto">
-              <SortControl
-                value={sort}
-                onChange={(v) => setSort(v as SortKey)}
-                options={sortOptions.map((o) => ({ value: o.key, label: o.label }))}
-              />
-            </div>
+            <div className="ml-auto">{sortControl}</div>
           </div>
 
           {visible.length ? (
@@ -247,9 +317,7 @@ function ShopView() {
                   <ProductCard key={p.id} product={p} />
                 ))}
               </div>
-              {totalPages > 1 ? (
-                <Pagination page={currentPage} totalPages={totalPages} onChange={setPage} />
-              ) : null}
+              {totalPages > 1 ? <Pagination page={currentPage} totalPages={totalPages} onChange={setPage} /> : null}
             </>
           ) : (
             <p className="rounded-lg border bg-cream p-10 text-center text-sm text-muted-foreground">

@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
+import type { FilterDisplayStyle } from "@/lib/site-filters";
 
 /**
  * Shared dropdown + range-slider filter primitives — the one filter UI
@@ -6,10 +8,14 @@ import type { ReactNode } from "react";
  * pill-button/chip list instead, which had its own internal scrollbar for
  * long option lists like Brand/Store; this reads as one consistent pattern
  * with a native <select> instead).
+ *
+ * `FilterChips`/`FilterCheckboxList` below are alternate renderers for the
+ * same select-like "one value out of a list" shape as `FilterSelect` — which
+ * one a given filter uses is chosen per-filter from the admin panel's
+ * Filters section (`site_filters.display_style`), not hardcoded here.
  */
 
-const selectClass =
-  "w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay";
+const selectClass = "w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay";
 
 export function FilterPanel({ children, sticky }: { children: ReactNode; sticky?: boolean }) {
   return (
@@ -63,6 +69,95 @@ export function FilterSelect({
   );
 }
 
+const chipClass = (active: boolean) =>
+  cn(
+    "rounded-full border px-3 py-1.5 text-xs font-medium transition-colors",
+    active ? "border-foreground bg-foreground text-background" : "hover:border-clay hover:text-clay",
+  );
+
+/** Chip-button variant of `FilterSelect`/`SortControl` — single-select, same value/onChange shape. */
+export function FilterChips({
+  label,
+  value,
+  onChange,
+  options,
+  placeholder,
+  clearable = true,
+}: {
+  label?: string;
+  value: string;
+  onChange: (v: string) => void;
+  options: { value: string; label: string }[];
+  placeholder?: string;
+  /** false for a "Sort"-style control that always has a value and no "All" chip. */
+  clearable?: boolean;
+}) {
+  return (
+    <div className="space-y-1.5 text-sm">
+      {label ? <span className="font-medium">{label}</span> : null}
+      <div className="flex flex-wrap gap-2">
+        {clearable ? (
+          <button type="button" onClick={() => onChange("")} className={chipClass(value === "")}>
+            {placeholder ?? "All"}
+          </button>
+        ) : null}
+        {options.map((o) => (
+          <button
+            key={o.value}
+            type="button"
+            onClick={() => onChange(o.value)}
+            className={chipClass(value === o.value)}
+          >
+            {o.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/** Checkbox-list (radio-behavior) variant of `FilterSelect`/`SortControl` — same value/onChange shape. */
+export function FilterCheckboxList({
+  label,
+  value,
+  onChange,
+  options,
+  placeholder,
+  clearable = true,
+}: {
+  label?: string;
+  value: string;
+  onChange: (v: string) => void;
+  options: { value: string; label: string }[];
+  placeholder?: string;
+  clearable?: boolean;
+}) {
+  return (
+    <div className="space-y-1.5 text-sm">
+      {label ? <span className="font-medium">{label}</span> : null}
+      <div className="max-h-48 space-y-1.5 overflow-y-auto pr-1">
+        {clearable ? (
+          <label className="flex items-center gap-2">
+            <input type="radio" checked={value === ""} onChange={() => onChange("")} className="accent-clay" />
+            {placeholder ?? "All"}
+          </label>
+        ) : null}
+        {options.map((o) => (
+          <label key={o.value} className="flex items-center gap-2">
+            <input
+              type="radio"
+              checked={value === o.value}
+              onChange={() => onChange(o.value)}
+              className="accent-clay"
+            />
+            {o.label}
+          </label>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function FilterRange({
   label,
   value,
@@ -105,12 +200,7 @@ export function FilterCheckbox({
 }) {
   return (
     <label className="flex items-center gap-2 text-sm">
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={(e) => onChange(e.target.checked)}
-        className="accent-clay"
-      />
+      <input type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} className="accent-clay" />
       {label}
     </label>
   );
@@ -121,14 +211,16 @@ export function SortControl({
   value,
   onChange,
   options,
+  label = "Sort",
 }: {
   value: string;
   onChange: (v: string) => void;
   options: { value: string; label: string }[];
+  label?: string;
 }) {
   return (
     <label className="flex items-center gap-2 text-sm">
-      <span className="editorial-eyebrow">Sort</span>
+      <span className="editorial-eyebrow">{label}</span>
       <select className={selectClass} value={value} onChange={(e) => onChange(e.target.value)}>
         {options.map((o) => (
           <option key={o.value} value={o.value}>
@@ -138,4 +230,24 @@ export function SortControl({
       </select>
     </label>
   );
+}
+
+/**
+ * Picks the select-like renderer for a given `display_style` (admin-chosen
+ * per filter, see `site_filters.display_style`) — shared by shop.tsx and
+ * deals.tsx so both pages' filters support the same three styles.
+ */
+export function renderSelectLike(
+  displayStyle: FilterDisplayStyle,
+  props: {
+    label: string;
+    value: string;
+    onChange: (v: string) => void;
+    options: { value: string; label: string }[];
+    placeholder: string;
+  },
+) {
+  if (displayStyle === "chips") return <FilterChips {...props} />;
+  if (displayStyle === "checkbox-list") return <FilterCheckboxList {...props} />;
+  return <FilterSelect {...props} />;
 }

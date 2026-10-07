@@ -132,6 +132,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [catMenuOpen, setCatMenuOpen] = useState(false);
   const [hoveredGroup, setHoveredGroup] = useState<string>(() => buildCategoryGroups()[0]?.name ?? "");
+  const [categoriesOpenMobile, setCategoriesOpenMobile] = useState(false);
   const [openGroupMobile, setOpenGroupMobile] = useState<string | null>(null);
   const [wishlistPopped, setWishlistPopped] = useState(false);
   const prevWishlistCount = useRef(wishlistIds.length);
@@ -150,6 +151,15 @@ export function Header() {
     return undefined;
   }, [wishlistIds.length]);
   const catMenuRef = useRef<HTMLLIElement>(null);
+
+  // Collapse the mobile panel's own sub-accordions whenever it's closed, so
+  // reopening it doesn't resurface wherever the user last drilled into.
+  useEffect(() => {
+    if (!open) {
+      setCategoriesOpenMobile(false);
+      setOpenGroupMobile(null);
+    }
+  }, [open]);
 
   const hoveredBrands = useMemo(
     () => brandsInGroup(categoryGroups.find((g) => g.name === hoveredGroup)),
@@ -309,69 +319,94 @@ export function Header() {
       </nav>
 
       {open ? (
-        <div className="border-t bg-background lg:hidden">
+        <div className="max-h-[calc(100vh-4rem)] overflow-y-auto border-t bg-background lg:hidden">
+          {/* Primary shopping links first — these are what most taps are
+              for, so they shouldn't sit below a 15-group category list. */}
           <ul className="border-b border-border">
-            {categoryGroups.map((g) => (
-              <li key={g.name} className="border-t border-border first:border-t-0">
-                <button
-                  type="button"
-                  onClick={() => setOpenGroupMobile((v) => (v === g.name ? null : g.name))}
-                  aria-expanded={openGroupMobile === g.name}
-                  className="flex min-h-11 w-full items-center justify-between px-4 text-xs font-semibold uppercase tracking-[0.16em]"
-                >
-                  {g.name}
-                  <ChevronDown
-                    className={cn("h-3.5 w-3.5 transition-transform", openGroupMobile === g.name && "rotate-180")}
-                  />
-                </button>
-                {openGroupMobile === g.name ? (
-                  <div className="bg-cream px-4 pb-3">
-                    <Link
-                      to="/shop"
-                      search={{ q: g.name, category: "", department: "", view: "", store: "" }}
-                      onClick={() => {
-                        setOpen(false);
-                        setOpenGroupMobile(null);
-                      }}
-                      className="flex min-h-11 items-center text-sm font-semibold"
-                    >
-                      All {g.name}
-                    </Link>
-                    {brandsInGroup(g).map((slug) => (
-                      <Link
-                        key={slug}
-                        to="/shop"
-                        search={{ q: `${brandName(slug)} ${g.name}`, category: "", department: "", view: "", store: "" }}
-                        onClick={() => {
-                          setOpen(false);
-                          setOpenGroupMobile(null);
-                        }}
-                        className="flex min-h-11 items-center text-sm text-muted-foreground"
-                      >
-                        {brandName(slug)}
-                      </Link>
-                    ))}
-                  </div>
-                ) : null}
-              </li>
-            ))}
-          </ul>
-          <ul className="grid grid-cols-2 gap-px bg-border pb-px">
-            {nav.map((n, i) => (
-              <li
-                key={n.label}
-                className={cn("bg-background", i === nav.length - 1 && nav.length % 2 !== 0 && "col-span-2")}
-              >
+            {nav.map((n) => (
+              <li key={n.label} className="border-t border-border first:border-t-0">
                 <a
                   href={hrefFor(n)}
                   onClick={() => setOpen(false)}
-                  className="flex min-h-11 items-center px-4 text-xs font-semibold uppercase tracking-[0.16em]"
+                  className="flex min-h-12 items-center px-4 text-sm font-semibold uppercase tracking-[0.14em]"
                 >
                   {n.label}
                 </a>
               </li>
             ))}
           </ul>
+
+          {/* Full category/brand taxonomy — tucked behind one toggle instead
+              of being pre-expanded as 15 top-level rows, so it's reachable
+              but doesn't force scrolling past it to get to the links above. */}
+          <div className="border-b border-border">
+            <button
+              type="button"
+              onClick={() => setCategoriesOpenMobile((v) => !v)}
+              aria-expanded={categoriesOpenMobile}
+              className="flex min-h-12 w-full items-center justify-between px-4 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground"
+            >
+              <span className="flex items-center gap-2">
+                <LayoutGrid className="h-3.5 w-3.5" />
+                Browse Categories
+              </span>
+              <ChevronDown className={cn("h-3.5 w-3.5 transition-transform", categoriesOpenMobile && "rotate-180")} />
+            </button>
+            {categoriesOpenMobile ? (
+              <ul>
+                {categoryGroups.map((g) => (
+                  <li key={g.name} className="border-t border-border">
+                    <button
+                      type="button"
+                      onClick={() => setOpenGroupMobile((v) => (v === g.name ? null : g.name))}
+                      aria-expanded={openGroupMobile === g.name}
+                      className="flex min-h-11 w-full items-center justify-between px-4 text-xs font-semibold uppercase tracking-[0.16em]"
+                    >
+                      {g.name}
+                      <ChevronDown
+                        className={cn("h-3.5 w-3.5 transition-transform", openGroupMobile === g.name && "rotate-180")}
+                      />
+                    </button>
+                    {openGroupMobile === g.name ? (
+                      <div className="bg-cream px-4 pb-3">
+                        <Link
+                          to="/shop"
+                          search={{ q: g.name, category: "", department: "", view: "", store: "" }}
+                          onClick={() => {
+                            setOpen(false);
+                            setOpenGroupMobile(null);
+                          }}
+                          className="flex min-h-11 items-center text-sm font-semibold"
+                        >
+                          All {g.name}
+                        </Link>
+                        {brandsInGroup(g).map((slug) => (
+                          <Link
+                            key={slug}
+                            to="/shop"
+                            search={{
+                              q: `${brandName(slug)} ${g.name}`,
+                              category: "",
+                              department: "",
+                              view: "",
+                              store: "",
+                            }}
+                            onClick={() => {
+                              setOpen(false);
+                              setOpenGroupMobile(null);
+                            }}
+                            className="flex min-h-11 items-center text-sm text-muted-foreground"
+                          >
+                            {brandName(slug)}
+                          </Link>
+                        ))}
+                      </div>
+                    ) : null}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+          </div>
         </div>
       ) : null}
     </header>

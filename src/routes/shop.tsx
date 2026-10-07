@@ -243,7 +243,7 @@ function ShopView() {
           setPage(1);
         }}
         disabled={!hasActiveFilters}
-        className="text-xs font-semibold uppercase tracking-[0.14em] underline underline-offset-4 disabled:cursor-not-allowed disabled:no-underline disabled:opacity-40"
+        className="-my-2.5 block py-2.5 text-xs font-semibold uppercase tracking-[0.14em] underline underline-offset-4 disabled:cursor-not-allowed disabled:no-underline disabled:opacity-40"
       >
         Clear all filters
       </button>
@@ -303,7 +303,7 @@ function ShopView() {
             <button
               type="button"
               onClick={() => setSheet(true)}
-              className="flex items-center gap-2 rounded-sm border px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] lg:hidden"
+              className="flex min-h-11 items-center gap-2 rounded-sm border px-4 text-xs font-semibold uppercase tracking-[0.14em] lg:hidden"
             >
               <SlidersHorizontal className="h-4 w-4" /> Filters
             </button>
@@ -338,7 +338,12 @@ function ShopView() {
           >
             <div className="mb-6 flex items-center justify-between">
               <h2 className="text-lg">Filters</h2>
-              <button type="button" aria-label="Close filters" onClick={() => setSheet(false)}>
+              <button
+                type="button"
+                aria-label="Close filters"
+                onClick={() => setSheet(false)}
+                className="-m-2.5 flex h-11 w-11 items-center justify-center"
+              >
                 <X className="h-5 w-5" />
               </button>
             </div>

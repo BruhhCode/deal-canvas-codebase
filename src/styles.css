@@ -209,6 +209,31 @@
     font-weight: 500;
     letter-spacing: -0.01em;
   }
+
+  /* Native range-input thumbs default to ~12-16px — too small to drag
+     precisely on a touch screen. Enlarged here globally (every range input
+     in the app is a filter slider) rather than per-component. WebKit/Blink
+     ignore width/height on the thumb unless its own appearance is reset
+     first, so this redraws it as a plain circle using `accent-color`
+     (already set via the `accent-clay` utility class on each input). */
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    background: var(--color-clay, currentColor);
+    cursor: pointer;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    border: none;
+    background: var(--color-clay, currentColor);
+    cursor: pointer;
+  }
 }
 
 @utility editorial-eyebrow {

@@ -17,7 +17,7 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
               <Link
                 to={item.to}
                 {...(item.params ? { params: item.params } : {})}
-                className="hover:text-clay"
+                className="-my-3.5 py-3.5 hover:text-clay"
               >
                 {item.label}
               </Link>

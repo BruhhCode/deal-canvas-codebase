@@ -196,7 +196,10 @@ export function Header() {
           >
             Blog
           </Link>
-          <Link to="/account" className="relative flex items-center gap-2 text-sm font-medium hover:text-clay">
+          <Link
+            to="/account"
+            className="relative flex min-h-11 min-w-11 items-center justify-center gap-2 text-sm font-medium hover:text-clay sm:justify-start"
+          >
             <span className="relative">
               <Heart
                 className={cn(
@@ -314,7 +317,7 @@ export function Header() {
                   type="button"
                   onClick={() => setOpenGroupMobile((v) => (v === g.name ? null : g.name))}
                   aria-expanded={openGroupMobile === g.name}
-                  className="flex w-full items-center justify-between px-4 py-3 text-xs font-semibold uppercase tracking-[0.16em]"
+                  className="flex min-h-11 w-full items-center justify-between px-4 text-xs font-semibold uppercase tracking-[0.16em]"
                 >
                   {g.name}
                   <ChevronDown
@@ -330,7 +333,7 @@ export function Header() {
                         setOpen(false);
                         setOpenGroupMobile(null);
                       }}
-                      className="block py-2 text-sm font-semibold"
+                      className="flex min-h-11 items-center text-sm font-semibold"
                     >
                       All {g.name}
                     </Link>
@@ -343,7 +346,7 @@ export function Header() {
                           setOpen(false);
                           setOpenGroupMobile(null);
                         }}
-                        className="block py-2 text-sm text-muted-foreground"
+                        className="flex min-h-11 items-center text-sm text-muted-foreground"
                       >
                         {brandName(slug)}
                       </Link>
@@ -362,7 +365,7 @@ export function Header() {
                 <a
                   href={hrefFor(n)}
                   onClick={() => setOpen(false)}
-                  className="block px-4 py-3 text-xs font-semibold uppercase tracking-[0.16em]"
+                  className="flex min-h-11 items-center px-4 text-xs font-semibold uppercase tracking-[0.16em]"
                 >
                   {n.label}
                 </a>

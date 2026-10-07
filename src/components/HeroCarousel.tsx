@@ -135,12 +135,14 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
               everShown.current.add(i);
               setEpoch((prev) => prev.map((e, idx) => (idx === i ? e + 1 : e)));
             }}
-            className="group flex h-4 w-6 items-center"
+            className="group flex min-h-11 min-w-11 items-center justify-center"
           >
-            {/* Fixed-width track; only `transform: scaleX()` animates (compositor-only), width never does. */}
+            {/* Fixed-width track; only `transform: scaleX()` animates (compositor-only), width never does.
+                The button's own box is padded out to a full 44px touch target — this span is just the
+                visible bar, sized independently of it. */}
             <span
               className={cn(
-                "h-1.5 w-full origin-left rounded-full transition-transform duration-300",
+                "h-1.5 w-6 origin-left rounded-full transition-transform duration-300",
                 i === active
                   ? "scale-x-100 bg-background"
                   : "scale-x-[0.25] bg-background/50 group-hover:bg-background/75",

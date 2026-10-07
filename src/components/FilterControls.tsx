@@ -15,7 +15,7 @@ import type { FilterDisplayStyle } from "@/lib/site-filters";
  * Filters section (`site_filters.display_style`), not hardcoded here.
  */
 
-const selectClass = "w-full rounded-sm border bg-card px-3 py-2 text-sm outline-none focus:border-clay";
+const selectClass = "w-full rounded-sm border bg-card px-3 py-3 text-sm outline-none focus:border-clay";
 
 export function FilterPanel({ children, sticky }: { children: ReactNode; sticky?: boolean }) {
   return (
@@ -71,7 +71,7 @@ export function FilterSelect({
 
 const chipClass = (active: boolean) =>
   cn(
-    "rounded-full border px-3 py-1.5 text-xs font-medium transition-colors",
+    "min-h-11 rounded-full border px-3.5 text-xs font-medium transition-colors",
     active ? "border-foreground bg-foreground text-background" : "hover:border-clay hover:text-clay",
   );
 
@@ -137,13 +137,13 @@ export function FilterCheckboxList({
       {label ? <span className="font-medium">{label}</span> : null}
       <div className="max-h-48 space-y-1.5 overflow-y-auto pr-1">
         {clearable ? (
-          <label className="flex items-center gap-2">
+          <label className="flex min-h-11 items-center gap-2">
             <input type="radio" checked={value === ""} onChange={() => onChange("")} className="accent-clay" />
             {placeholder ?? "All"}
           </label>
         ) : null}
         {options.map((o) => (
-          <label key={o.value} className="flex items-center gap-2">
+          <label key={o.value} className="flex min-h-11 items-center gap-2">
             <input
               type="radio"
               checked={value === o.value}
@@ -199,7 +199,7 @@ export function FilterCheckbox({
   onChange: (v: boolean) => void;
 }) {
   return (
-    <label className="flex items-center gap-2 text-sm">
+    <label className="flex min-h-11 items-center gap-2 text-sm">
       <input type="checkbox" checked={checked} onChange={(e) => onChange(e.target.checked)} className="accent-clay" />
       {label}
     </label>

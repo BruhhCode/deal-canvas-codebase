@@ -98,6 +98,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "DealsCanvas" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      // Site-ownership verification tag — must render on every page, unmodified.
+      { name: "fo-verify", content: "cc177968-384c-457e-92c1-c9aff49f6bed" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },

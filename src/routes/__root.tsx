@@ -100,6 +100,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       // Site-ownership verification tag — must render on every page, unmodified.
       { name: "fo-verify", content: "cc177968-384c-457e-92c1-c9aff49f6bed" },
+      // Google Search Console site-ownership verification.
+      { name: "google-site-verification", content: "IRe2AjFO0SAZPksSsAHie4YR1a2VeyaTBsAuz9qjeTE" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -109,6 +111,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "stylesheet", href: appCss },
     ],
     scripts: [
+      // Google tag (gtag.js) — GA4.
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-EN6JX5S386", async: true },
+      {
+        children: [
+          "window.dataLayer = window.dataLayer || [];",
+          "function gtag(){dataLayer.push(arguments);}",
+          "gtag('js', new Date());",
+          "gtag('config', 'G-EN6JX5S386');",
+        ].join("\n"),
+      },
+      // Google Tag Manager — the noscript <iframe> companion lives in
+      // RootShell, right after <body> opens (GTM requires both).
+      {
+        children: [
+          "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+          "new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],",
+          "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+          "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+          "})(window,document,'script','dataLayer','GTM-TNMHM3TH');",
+        ].join("\n"),
+      },
       {
         type: "application/ld+json",
         children: JSON.stringify({
@@ -133,6 +156,17 @@ function RootShell({ children }: { children: ReactNode }) {
         <HeadContent />
       </head>
       <body>
+        {/* Google Tag Manager (noscript) — pairs with the GTM script in head(); must be
+            the first thing in <body> per Google's own install instructions. */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TNMHM3TH"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+            title="Google Tag Manager"
+          />
+        </noscript>
         {children}
         <Scripts />
       </body>

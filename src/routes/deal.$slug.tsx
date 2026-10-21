@@ -109,7 +109,7 @@ function DealPage() {
           src={dealImage(deal)}
           alt={`${brandName(deal.brand)} ${deal.product}`}
           sizes="(min-width: 1024px) 50vw, 100vw"
-          className="aspect-square w-full rounded-lg border bg-cream object-cover"
+          className="aspect-square w-full rounded-lg border bg-cream object-contain"
         />
 
         <div>

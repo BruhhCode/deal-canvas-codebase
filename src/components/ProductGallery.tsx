@@ -103,7 +103,7 @@ export function ProductGallery({
                 i === current ? "border-foreground" : "border-transparent hover:border-border",
               )}
             >
-              <GalleryImg src={src} width={160} alt="" loading="lazy" className="aspect-square w-full object-cover" />
+              <GalleryImg src={src} width={160} alt="" loading="lazy" className="aspect-square w-full object-contain" />
             </button>
           ))}
         </div>
@@ -117,7 +117,7 @@ export function ProductGallery({
           srcSetWidths={[640, 960, 1280]}
           sizes="(min-width: 1024px) 50vw, 100vw"
           alt={alt}
-          className="aspect-square w-full object-cover"
+          className="aspect-square w-full object-contain"
         />
         {badge}
 

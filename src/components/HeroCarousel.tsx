@@ -6,14 +6,14 @@ import { cn } from "@/lib/utils";
 // loader. Keeping these here (rather than deleting them) means the hero
 // never goes blank if the DB has nothing in it yet.
 export const SLIDES = [
-  "https://images.unsplash.com/photo-1621261027519-a71ac66d5a68?auto=format&fit=crop&w=1920&q=70", // bright minimalist boutique
-  "https://images.unsplash.com/photo-1606143412458-acc5f86de897?auto=format&fit=crop&w=1920&q=70", // fashion editorial, black & white portrait
-  "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1920&q=70", // boutique clothing rack under hanging lights
-  "https://images.unsplash.com/photo-1629511565591-a1d494ad6c58?auto=format&fit=crop&w=1920&q=70", // fashion editorial, bold color portrait
-  "https://images.unsplash.com/photo-1555529771-122e5d9f2341?auto=format&fit=crop&w=1920&q=70", // boutique interior, exposed brick
-  "https://images.unsplash.com/photo-1630905119003-329447458f85?auto=format&fit=crop&w=1920&q=70", // bright boutique corridor
-  "https://images.unsplash.com/photo-1561715276-a2d087060f1d?auto=format&fit=crop&w=1920&q=70", // shopping bag
-  "https://images.unsplash.com/photo-1595991209266-5ff5a3a2f008?auto=format&fit=crop&w=1920&q=70", // eclectic boutique interior
+  "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1920&q=70", // fashion clothing rack, warm tones
+  "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1920&q=70", // fashion store interior
+  "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=70", // fashion editorial outfit shot
+  "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1920&q=70", // curated clothing rack close-up
+  "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1920&q=70", // shopper browsing a boutique rack
+  "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1920&q=70", // bright retail store interior
+  "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1920&q=70", // fashion sneakers/shoes flat lay
+  "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1920&q=70", // shopping bags, street style
 ];
 
 const SLIDE_DURATION_MS = 4500;

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { Heart } from "lucide-react";
+import { Heart, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const KEY = "dc_wishlist";
@@ -41,6 +41,7 @@ export function WishlistButton({ id, className }: { id: string; className?: stri
     <button
       type="button"
       aria-label={saved ? "Remove from wishlist" : "Save deal"}
+      title={saved ? "Remove from wishlist" : "Save deal"}
       aria-pressed={saved}
       onClick={() => {
         toggle(id);
@@ -48,17 +49,20 @@ export function WishlistButton({ id, className }: { id: string; className?: stri
         setTimeout(() => setPopped(false), 280);
       }}
       className={cn(
-        "z-10 flex min-h-11 min-w-11 items-center justify-center rounded-full bg-background/90 text-foreground backdrop-blur transition-colors hover:text-clay",
+        "z-10 flex min-h-11 min-w-11 items-center justify-center rounded-full backdrop-blur transition-colors",
+        // Saved items get a solid, higher-contrast treatment (not just a
+        // filled heart) specifically so the card reads as "tap to remove"
+        // at a glance, not just "already saved" — the heart-toggle alone
+        // wasn't a clear enough affordance for removing a wishlist item.
+        saved ? "bg-clay text-clay-foreground hover:bg-clay/90" : "bg-background/90 text-foreground hover:text-clay",
         className,
       )}
     >
-      <Heart
-        className={cn(
-          "h-4 w-4 transition-all duration-200 ease-out",
-          saved && "fill-clay text-clay",
-          popped && "scale-125",
-        )}
-      />
+      {saved ? (
+        <X className={cn("h-4 w-4 transition-transform duration-200 ease-out", popped && "scale-125")} />
+      ) : (
+        <Heart className={cn("h-4 w-4 transition-transform duration-200 ease-out", popped && "scale-125")} />
+      )}
     </button>
   );
 }

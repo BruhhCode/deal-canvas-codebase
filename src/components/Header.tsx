@@ -6,6 +6,7 @@ import { products, shopCategories } from "@/data/products";
 import { cn } from "@/lib/utils";
 import { supabase } from "@/lib/supabase";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { useActiveTheme } from "@/lib/site-theme";
 import { useWishlist } from "./WishlistButton";
 
 type StaticNavItem = { label: string; to: string; search?: Record<string, string> };
@@ -126,6 +127,7 @@ function brandsInGroup(group: CategoryGroup | undefined) {
 
 export function Header() {
   useCatalogVersion();
+  const theme = useActiveTheme();
   const { ids: wishlistIds } = useWishlist();
   const nav = useLiveNav();
   const categoryGroups = useMemo(buildCategoryGroups, []);
@@ -196,7 +198,8 @@ export function Header() {
         </button>
 
         <Link to="/" className="font-serif text-xl tracking-tight md:text-2xl">
-          Deals<span className="text-clay">Canvas</span>
+          <span className={theme === "christmas" ? "text-sage" : undefined}>Deals</span>
+          <span className="text-clay">Canvas</span>
         </Link>
 
         <div className="ml-auto flex items-center gap-3">
@@ -255,9 +258,7 @@ export function Header() {
               aria-hidden={!catMenuOpen}
               className={cn(
                 "absolute left-0 top-full z-50 mt-1 flex h-72 w-[34rem] rounded-sm border bg-card normal-case shadow-lg transition-all duration-150 ease-out",
-                catMenuOpen
-                  ? "translate-y-0 opacity-100"
-                  : "pointer-events-none -translate-y-1 opacity-0",
+                catMenuOpen ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-1 opacity-0",
               )}
             >
               <div className="w-44 shrink-0 overflow-y-auto border-r p-2">
@@ -289,7 +290,13 @@ export function Header() {
                     <Link
                       key={slug}
                       to="/shop"
-                      search={{ q: `${brandName(slug)} ${hoveredGroup}`, category: "", department: "", view: "", store: "" }}
+                      search={{
+                        q: `${brandName(slug)} ${hoveredGroup}`,
+                        category: "",
+                        department: "",
+                        view: "",
+                        store: "",
+                      }}
                       tabIndex={catMenuOpen ? 0 : -1}
                       onClick={() => setCatMenuOpen(false)}
                       className="block rounded-sm px-3 py-2 text-sm font-normal normal-case tracking-normal text-muted-foreground hover:bg-cream hover:text-clay"

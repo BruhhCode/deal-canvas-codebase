@@ -1,0 +1,39 @@
+/* Decorative snowfall overlay for the Christmas theme (see SnowfallEffect.tsx). */
+
+.dc-snowfall {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.dc-snowfall__flake {
+  position: absolute;
+  top: -8%;
+  left: var(--dc-snow-x);
+  font-size: var(--dc-snow-size);
+  opacity: var(--dc-snow-opacity);
+  color: white;
+  text-shadow: 0 0 3px oklch(0.2 0 0 / 0.25);
+  animation: dc-snowfall-fall var(--dc-snow-duration) linear var(--dc-snow-delay) infinite;
+  will-change: transform;
+}
+
+@keyframes dc-snowfall-fall {
+  0% {
+    transform: translate(0, -10vh) rotate(0deg);
+  }
+  100% {
+    transform: translate(var(--dc-snow-drift), 110vh) rotate(360deg);
+  }
+}
+
+/* Respect the OS-level motion preference — hide the effect entirely rather
+   than keep the colors-only part of the theme from working for anyone who's
+   asked for reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  .dc-snowfall {
+    display: none;
+  }
+}

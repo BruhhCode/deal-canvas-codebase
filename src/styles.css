@@ -181,6 +181,28 @@
   --sidebar-ring: oklch(0.62 0.11 38);
 }
 
+/*
+ * Festive themes (admin panel's Themes section, site_theme table) — a theme
+ * only overrides the handful of tokens below, never structural colors like
+ * --background/--foreground/--border, so contrast and layout stay exactly
+ * as tested. Declared after .dark (same selector specificity) so a theme
+ * reads consistently whether or not dark mode is also on, rather than
+ * needing a second dark-mode variant of each theme for v1.
+ *
+ * --clay already means "discount/urgency/price" and --sage already means
+ * "trust/info" sitewide (see the design-system comment above) — both get
+ * reused here instead of introducing new one-off theme colors, so a theme
+ * reskins real UI (sale badges, CTAs, in-stock tags) rather than just
+ * decoration.
+ */
+[data-theme="christmas"] {
+  --clay: oklch(0.48 0.19 25);
+  --clay-foreground: oklch(0.98 0.005 85);
+  --sage: oklch(0.38 0.09 150);
+  --sage-foreground: oklch(0.98 0.005 85);
+  --ring: oklch(0.48 0.19 25);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);

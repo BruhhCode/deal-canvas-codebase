@@ -14,18 +14,13 @@ import { stores } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
 import { approxCount } from "@/lib/utils";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { useActiveTheme } from "@/lib/site-theme";
 import { absoluteUrl } from "@/lib/site";
 import { supabase } from "@/lib/supabase";
 import bannerDeals from "@/assets/cat-fashion.jpg";
 import bannerSale from "@/assets/cat-shoes.jpg";
 import bannerNew from "@/assets/cat-beauty.jpg";
-import {
-  biggestDiscounts,
-  newArrivals,
-  popularSearches,
-  products,
-  trendingProducts,
-} from "@/data/products";
+import { biggestDiscounts, newArrivals, popularSearches, products, trendingProducts } from "@/data/products";
 
 // Row shape of the admin panel's `banners` table (see that repo's
 // docs/shared-context.md). Kept as a local type here rather than shared,
@@ -88,11 +83,7 @@ export const Route = createFileRoute("/")({
     let promoBanners = DEFAULT_PROMO_BANNERS;
 
     if (supabase) {
-      const { data } = await supabase
-        .from("banners")
-        .select("*")
-        .eq("visible", true)
-        .order("sort_order");
+      const { data } = await supabase.from("banners").select("*").eq("visible", true).order("sort_order");
       const rows = (data ?? []) as BannerRow[];
 
       const heroRows = rows.filter((b) => b.placement === "hero");
@@ -150,6 +141,7 @@ export const Route = createFileRoute("/")({
 function Home() {
   const { seed, heroSlides, promoBanners } = Route.useLoaderData();
   useCatalogVersion();
+  const theme = useActiveTheme();
 
   const trendingPicks = seededShuffle(trendingProducts.slice(0, 24), `${seed}-trending`).slice(0, 10);
   const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 10);
@@ -161,15 +153,28 @@ function Home() {
         <HeroCarousel slides={heroSlides} />
         <div className="relative mx-auto max-w-3xl px-4 py-10 text-center md:px-6 md:py-16">
           <p className="editorial-eyebrow text-background/80">
+            {theme === "christmas" ? "🎄 Holiday Edition · " : ""}
             {approxCount(products.length)} products · {approxCount(stores.length)} stores · updated hourly
           </p>
           <h1 className="mt-4 text-4xl leading-[1.05] text-background md:text-6xl">
-            Find What You Love.
-            <br />
-            Shop It for Less.
+            {theme === "christmas" ? (
+              <>
+                Deck the Halls,
+                <br />
+                Not Your Wallet.
+              </>
+            ) : (
+              <>
+                Find What You Love.
+                <br />
+                Shop It for Less.
+              </>
+            )}
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base text-background/85">
-            Discover fashion, beauty and lifestyle products from your favourite stores — all in one place.
+            {theme === "christmas"
+              ? "Festive finds and holiday markdowns across your favourite stores — all in one place."
+              : "Discover fashion, beauty and lifestyle products from your favourite stores — all in one place."}
           </p>
 
           <ProductSearch className="mx-auto mt-6 max-w-2xl" />

@@ -1,13 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import {
-  Outlet,
-  Link,
-  createRootRouteWithContext,
-  useRouter,
-  HeadContent,
-  Scripts,
-} from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { Outlet, Link, createRootRouteWithContext, useRouter, HeadContent, Scripts } from "@tanstack/react-router";
+import { Suspense, lazy, useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 // Preloaded below: these are the only 3 font files PageSpeed Insights'
@@ -25,7 +18,11 @@ import { Footer } from "@/components/Footer";
 import { Toaster } from "@/components/ui/sonner";
 import { CurrencyProvider } from "@/lib/currency";
 import { initLiveCatalog } from "@/lib/live-catalog";
+import { useActiveTheme } from "@/lib/site-theme";
 
+// Lazy: nobody outside the Christmas theme should pay for this component's
+// code at all, not even as an unused import in the main bundle.
+const SnowfallEffect = lazy(() => import("@/components/SnowfallEffect"));
 
 function NotFoundComponent() {
   return (
@@ -56,9 +53,7 @@ function ErrorComponent({ error, reset }: { error: unknown; reset: () => void })
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
-        <h1 className="text-xl font-semibold tracking-tight text-foreground">
-          This page didn't load
-        </h1>
+        <h1 className="text-xl font-semibold tracking-tight text-foreground">This page didn't load</h1>
         <p className="mt-2 text-sm text-muted-foreground">
           Something went wrong on our end. You can try refreshing or head back home.
         </p>
@@ -176,10 +171,22 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const theme = useActiveTheme();
 
   useEffect(() => {
     initLiveCatalog();
   }, []);
+
+  // RootShell (the actual <html> element) renders once per request and has
+  // no reactive access to this client-fetched value, so the attribute is
+  // written directly to the DOM here instead of through a prop/render path.
+  useEffect(() => {
+    if (theme === "default") {
+      document.documentElement.removeAttribute("data-theme");
+    } else {
+      document.documentElement.setAttribute("data-theme", theme);
+    }
+  }, [theme]);
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -193,8 +200,12 @@ function RootComponent() {
           <Footer />
         </div>
         <Toaster position="bottom-right" />
+        {theme === "christmas" ? (
+          <Suspense fallback={null}>
+            <SnowfallEffect />
+          </Suspense>
+        ) : null}
       </CurrencyProvider>
     </QueryClientProvider>
   );
 }
-

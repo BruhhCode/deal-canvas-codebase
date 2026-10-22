@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, ImageOff } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { productImg } from "@/lib/img";
+import { useImageBackgroundColor } from "@/lib/useImageBackgroundColor";
 
 /**
  * A single gallery <img> with a broken-image fallback. Checks
@@ -38,7 +39,7 @@ function GalleryImg({
 
   if (failed) {
     return (
-      <div className={cn("flex items-center justify-center bg-cream text-muted-foreground/50", className)}>
+      <div className={cn("flex items-center justify-center bg-white text-muted-foreground/50", className)}>
         <ImageOff className="h-6 w-6" />
       </div>
     );
@@ -58,6 +59,38 @@ function GalleryImg({
   );
 }
 
+/** One thumbnail-rail button — its own component so each can sample its own
+ *  image's background color via a hook without violating rules-of-hooks
+ *  (a variable-length .map() can't call hooks directly in its callback). */
+function ThumbnailButton({
+  src,
+  active,
+  onClick,
+  index,
+}: {
+  src: string;
+  active: boolean;
+  onClick: () => void;
+  index: number;
+}) {
+  const bgColor = useImageBackgroundColor(src);
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={`View image ${index + 1}`}
+      aria-current={active}
+      className={cn(
+        "shrink-0 overflow-hidden rounded-sm border bg-white transition-colors",
+        active ? "border-foreground" : "border-transparent hover:border-border",
+      )}
+      style={bgColor ? { backgroundColor: bgColor } : undefined}
+    >
+      <GalleryImg src={src} width={160} alt="" loading="lazy" className="aspect-square w-full object-contain" />
+    </button>
+  );
+}
+
 export function ProductGallery({
   images: rawImages,
   alt,
@@ -72,10 +105,11 @@ export function ProductGallery({
   const current = Math.min(active, images.length - 1);
 
   const go = (delta: number) => setActive((i) => (i + delta + images.length) % images.length);
+  const heroBgColor = useImageBackgroundColor(images[current]);
 
   if (!images.length) {
     return (
-      <div className="relative flex aspect-square items-center justify-center rounded-lg bg-cream text-muted-foreground/50">
+      <div className="relative flex aspect-square items-center justify-center rounded-lg bg-white text-muted-foreground/50">
         <ImageOff className="h-10 w-10" />
         {badge}
       </div>
@@ -92,24 +126,15 @@ export function ProductGallery({
       {images.length > 1 ? (
         <div className="hidden w-16 shrink-0 flex-col gap-3 overflow-y-auto sm:flex md:w-20">
           {images.map((src, i) => (
-            <button
-              key={src + i}
-              type="button"
-              onClick={() => setActive(i)}
-              aria-label={`View image ${i + 1}`}
-              aria-current={i === current}
-              className={cn(
-                "shrink-0 overflow-hidden rounded-sm border bg-cream transition-colors",
-                i === current ? "border-foreground" : "border-transparent hover:border-border",
-              )}
-            >
-              <GalleryImg src={src} width={160} alt="" loading="lazy" className="aspect-square w-full object-contain" />
-            </button>
+            <ThumbnailButton key={src + i} src={src} active={i === current} onClick={() => setActive(i)} index={i} />
           ))}
         </div>
       ) : null}
 
-      <div className="relative flex-1 overflow-hidden rounded-lg bg-cream">
+      <div
+        className="relative flex-1 overflow-hidden rounded-lg bg-white"
+        style={heroBgColor ? { backgroundColor: heroBgColor } : undefined}
+      >
         <GalleryImg
           key={current}
           src={images[current]!}

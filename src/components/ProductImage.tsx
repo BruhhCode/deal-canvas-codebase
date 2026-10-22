@@ -19,12 +19,14 @@ export function ProductImage({
   src,
   alt,
   className,
+  style,
   sizes = "(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw",
   onStatusChange,
 }: {
   src: string;
   alt: string;
   className?: string;
+  style?: React.CSSProperties;
   sizes?: string;
   /** Fires once with whether a real photo is showing (false = placeholder) — lets a
    *  parent like Tile decide whether the whole card is worth showing. */
@@ -59,6 +61,7 @@ export function ProductImage({
           "flex items-center justify-center bg-gradient-to-br from-sand to-cream",
           className,
         )}
+        style={style}
       >
         <span className="font-serif text-3xl text-foreground/25" aria-hidden="true">
           {initialsOf(alt) || "DC"}
@@ -78,6 +81,7 @@ export function ProductImage({
       width={900}
       height={900}
       className={className}
+      style={style}
       onError={() => setFailed(true)}
     />
   );

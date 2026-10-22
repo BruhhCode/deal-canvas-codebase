@@ -2,6 +2,7 @@ import { type ReactNode, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Star } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useImageBackgroundColor } from "@/lib/useImageBackgroundColor";
 import { BrandMark } from "./BrandMark";
 import { ProductImage } from "./ProductImage";
 import { WishlistButton } from "./WishlistButton";
@@ -70,6 +71,7 @@ export function Tile({
   hideOnImageFail?: boolean;
 }) {
   const [hasRealImage, setHasRealImage] = useState(true);
+  const bgColor = useImageBackgroundColor(imageSrc);
   if (hideOnImageFail && !hasRealImage) return null;
 
   return (
@@ -85,7 +87,8 @@ export function Tile({
         params={imageParams}
         aria-hidden="true"
         tabIndex={-1}
-        className="relative block aspect-square overflow-hidden bg-cream"
+        className="relative block aspect-square overflow-hidden bg-white"
+        style={bgColor ? { backgroundColor: bgColor } : undefined}
       >
         <ProductImage
           src={imageSrc}

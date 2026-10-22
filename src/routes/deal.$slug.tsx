@@ -17,6 +17,7 @@ import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { absoluteUrl } from "@/lib/site";
+import { useImageBackgroundColor } from "@/lib/useImageBackgroundColor";
 
 export const Route = createFileRoute("/deal/$slug")({
   loader: ({ params }) => {
@@ -92,6 +93,7 @@ function DealPage() {
   const similar = deals
     .filter((d) => d.category === deal.category && d.id !== deal.id && d.status === "ACTIVE")
     .slice(0, 4);
+  const heroBgColor = useImageBackgroundColor(dealImage(deal));
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
@@ -109,7 +111,8 @@ function DealPage() {
           src={dealImage(deal)}
           alt={`${brandName(deal.brand)} ${deal.product}`}
           sizes="(min-width: 1024px) 50vw, 100vw"
-          className="aspect-square w-full rounded-lg border bg-cream object-contain"
+          className="aspect-square w-full rounded-lg border bg-white object-contain"
+          {...(heroBgColor ? { style: { backgroundColor: heroBgColor } } : {})}
         />
 
         <div>

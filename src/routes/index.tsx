@@ -233,7 +233,7 @@ function Home() {
 
       <section className="border-y bg-ink py-16 text-background">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             {promoBanners.map((b, i) => {
               const content = (
                 <>
@@ -256,7 +256,11 @@ function Home() {
                 </>
               );
               const className =
-                "group relative isolate h-72 overflow-hidden rounded-lg border border-background/20";
+                // "block" is required here: an <a> is inline by default, and position:relative
+                // alone doesn't establish a well-defined containing-block width for the
+                // absolutely-positioned, percentage-sized <img> inside it — without this, the
+                // image computes to 0 width and never paints, even though it's fully loaded.
+                "group relative isolate block h-72 overflow-hidden rounded-lg border border-background/20";
               return (
                 <Reveal key={`${b.title}-${i}`} delayMs={i * 100}>
                   <a href={b.href} className={className}>

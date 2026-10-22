@@ -203,6 +203,14 @@
   --ring: oklch(0.48 0.19 25);
 }
 
+[data-theme="halloween"] {
+  --clay: oklch(0.65 0.17 55);
+  --clay-foreground: oklch(0.16 0.02 60);
+  --sage: oklch(0.38 0.14 300);
+  --sage-foreground: oklch(0.98 0.005 85);
+  --ring: oklch(0.65 0.17 55);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);

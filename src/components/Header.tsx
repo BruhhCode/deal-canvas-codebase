@@ -198,7 +198,7 @@ export function Header() {
         </button>
 
         <Link to="/" className="font-serif text-xl tracking-tight md:text-2xl">
-          <span className={theme === "christmas" ? "text-sage" : undefined}>Deals</span>
+          <span className={theme === "christmas" || theme === "halloween" ? "text-sage" : undefined}>Deals</span>
           <span className="text-clay">Canvas</span>
         </Link>
 

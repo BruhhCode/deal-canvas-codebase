@@ -20,9 +20,10 @@ import { CurrencyProvider } from "@/lib/currency";
 import { initLiveCatalog } from "@/lib/live-catalog";
 import { useActiveTheme } from "@/lib/site-theme";
 
-// Lazy: nobody outside the Christmas theme should pay for this component's
+// Lazy: nobody outside the matching theme should pay for either component's
 // code at all, not even as an unused import in the main bundle.
 const SnowfallEffect = lazy(() => import("@/components/SnowfallEffect"));
+const HalloweenEffect = lazy(() => import("@/components/HalloweenEffect"));
 
 function NotFoundComponent() {
   return (
@@ -203,6 +204,11 @@ function RootComponent() {
         {theme === "christmas" ? (
           <Suspense fallback={null}>
             <SnowfallEffect />
+          </Suspense>
+        ) : null}
+        {theme === "halloween" ? (
+          <Suspense fallback={null}>
+            <HalloweenEffect />
           </Suspense>
         ) : null}
       </CurrencyProvider>

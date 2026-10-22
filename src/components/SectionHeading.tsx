@@ -23,7 +23,9 @@ export function SectionHeading({
     <div className="mb-8 flex flex-wrap items-end justify-between gap-4 border-b pb-4">
       <div>
         {eyebrow ? (
-          <p className={cn("editorial-eyebrow mb-2", theme === "christmas" && "text-clay")}>{eyebrow}</p>
+          <p className={cn("editorial-eyebrow mb-2", (theme === "christmas" || theme === "halloween") && "text-clay")}>
+            {eyebrow}
+          </p>
         ) : null}
         <h2 className="text-3xl md:text-4xl">{title}</h2>
         {description ? <p className="mt-2 max-w-xl text-sm text-muted-foreground">{description}</p> : null}

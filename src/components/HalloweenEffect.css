@@ -1,0 +1,82 @@
+/* Decorative Halloween-theme overlay (see HalloweenEffect.tsx): falling
+   bats/spiders, cobwebs in the top corners, and jack-o-lanterns resting
+   along the bottom of the viewport. */
+
+.dc-halloween {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.dc-halloween__particle {
+  position: absolute;
+  top: -8%;
+  left: var(--dc-hw-x);
+  font-size: var(--dc-hw-size);
+  opacity: var(--dc-hw-opacity);
+  filter: drop-shadow(0 1px 2px oklch(0.3 0.02 60 / 0.35));
+  animation: dc-halloween-fall var(--dc-hw-duration) ease-in-out var(--dc-hw-delay) infinite;
+  will-change: transform;
+}
+
+@keyframes dc-halloween-fall {
+  0% {
+    transform: translate(0, -10vh) rotate(-8deg);
+  }
+  50% {
+    transform: translate(var(--dc-hw-drift), 50vh) rotate(8deg);
+  }
+  100% {
+    transform: translate(0, 110vh) rotate(-8deg);
+  }
+}
+
+/* Cobwebs pinned in the top corners — static, since a web doesn't fall. */
+.dc-halloween__web {
+  position: fixed;
+  top: -10px;
+  font-size: 4.5rem;
+  z-index: 59;
+  pointer-events: none;
+  opacity: 0.75;
+  filter: drop-shadow(0 1px 2px oklch(0.3 0.02 60 / 0.3));
+}
+.dc-halloween__web--left {
+  left: -10px;
+}
+.dc-halloween__web--right {
+  right: -10px;
+  transform: scaleX(-1);
+}
+
+/* A low purple-grey mist along the bottom of the viewport — the Halloween
+   equivalent of Christmas's snow bank, same fixed/always-visible treatment. */
+.dc-halloween-fog {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 70px;
+  z-index: 58;
+  pointer-events: none;
+  background: linear-gradient(to top, oklch(0.42 0.06 300 / 0.4), transparent);
+  filter: blur(4px);
+}
+
+/* Jack-o-lanterns resting on the ground — static, not falling. */
+.dc-halloween-ground__pumpkin {
+  position: fixed;
+  bottom: 4px;
+  font-size: 1.6rem;
+  z-index: 59;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 2px oklch(0.3 0.02 60 / 0.4));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dc-halloween__particle {
+    display: none;
+  }
+}

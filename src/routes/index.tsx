@@ -14,7 +14,7 @@ import { stores } from "@/data/stores";
 import { seededShuffle } from "@/lib/seeded-shuffle";
 import { approxCount } from "@/lib/utils";
 import { useCatalogVersion } from "@/lib/live-catalog";
-import { useActiveTheme } from "@/lib/site-theme";
+import { useActiveTheme, type ThemeKey } from "@/lib/site-theme";
 import { absoluteUrl } from "@/lib/site";
 import { supabase } from "@/lib/supabase";
 import bannerDeals from "@/assets/cat-fashion.jpg";
@@ -138,6 +138,28 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
+const HERO_COPY: Record<ThemeKey, { eyebrowPrefix: string; titleLine1: string; titleLine2: string; subtitle: string }> =
+  {
+    default: {
+      eyebrowPrefix: "",
+      titleLine1: "Find What You Love.",
+      titleLine2: "Shop It for Less.",
+      subtitle: "Discover fashion, beauty and lifestyle products from your favourite stores — all in one place.",
+    },
+    christmas: {
+      eyebrowPrefix: "🎄 Holiday Edition · ",
+      titleLine1: "Deck the Halls,",
+      titleLine2: "Not Your Wallet.",
+      subtitle: "Festive finds and holiday markdowns across your favourite stores — all in one place.",
+    },
+    halloween: {
+      eyebrowPrefix: "🎃 Spooky Season · ",
+      titleLine1: "Tricks Are Few.",
+      titleLine2: "Treats Are Many.",
+      subtitle: "Spine-chilling deals and devilish discounts across your favourite stores — all in one place.",
+    },
+  };
+
 function Home() {
   const { seed, heroSlides, promoBanners } = Route.useLoaderData();
   useCatalogVersion();
@@ -147,35 +169,23 @@ function Home() {
   const discountPicks = seededShuffle(biggestDiscounts.slice(0, 24), `${seed}-discounts`).slice(0, 10);
   const newInAll = seededShuffle(newArrivals, `${seed}-new`);
 
+  const hero = HERO_COPY[theme];
+
   return (
     <>
       <section className="relative isolate overflow-hidden border-b">
         <HeroCarousel slides={heroSlides} />
         <div className="relative mx-auto max-w-3xl px-4 py-10 text-center md:px-6 md:py-16">
           <p className="editorial-eyebrow text-background/80">
-            {theme === "christmas" ? "🎄 Holiday Edition · " : ""}
+            {hero.eyebrowPrefix}
             {approxCount(products.length)} products · {approxCount(stores.length)} stores · updated hourly
           </p>
           <h1 className="mt-4 text-4xl leading-[1.05] text-background md:text-6xl">
-            {theme === "christmas" ? (
-              <>
-                Deck the Halls,
-                <br />
-                Not Your Wallet.
-              </>
-            ) : (
-              <>
-                Find What You Love.
-                <br />
-                Shop It for Less.
-              </>
-            )}
+            {hero.titleLine1}
+            <br />
+            {hero.titleLine2}
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base text-background/85">
-            {theme === "christmas"
-              ? "Festive finds and holiday markdowns across your favourite stores — all in one place."
-              : "Discover fashion, beauty and lifestyle products from your favourite stores — all in one place."}
-          </p>
+          <p className="mx-auto mt-4 max-w-xl text-base text-background/85">{hero.subtitle}</p>
 
           <ProductSearch className="mx-auto mt-6 max-w-2xl" />
 

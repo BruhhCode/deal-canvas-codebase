@@ -7,7 +7,7 @@ import { supabase } from "./supabase";
 // (styles.css's [data-theme="..."] blocks, SnowfallEffect.tsx, the
 // homepage's festive copy below); the site_theme table only stores which
 // one is selected.
-export type ThemeKey = "default" | "christmas";
+export type ThemeKey = "default" | "christmas" | "halloween";
 
 type SiteThemeRow = { active_theme: ThemeKey };
 
@@ -33,7 +33,7 @@ export function useActiveTheme(): ThemeKey {
       .then(({ data, error }) => {
         if (cancelled || error || !data) return;
         const row = data as SiteThemeRow;
-        if (row.active_theme === "default" || row.active_theme === "christmas") {
+        if (row.active_theme === "default" || row.active_theme === "christmas" || row.active_theme === "halloween") {
           setTheme(row.active_theme);
         }
       });

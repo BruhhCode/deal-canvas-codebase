@@ -6,17 +6,12 @@ import { DealBadge } from "@/components/DealBadge";
 import { DealCard } from "@/components/DealCard";
 import { CopyCode } from "@/components/CopyCode";
 import { SectionHeading } from "@/components/SectionHeading";
-import {
-  brandName,
-  deals,
-  discountPct,
-  expiryLabel,
-  getDeal,
-} from "@/data/catalog";
+import { brandName, deals, discountPct, expiryLabel, getDeal } from "@/data/catalog";
 import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { formatUsd, toUsd, useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { absoluteUrl } from "@/lib/site";
+import { trackDealClick } from "@/lib/track-click";
 import { useImageBackgroundColor } from "@/lib/useImageBackgroundColor";
 
 export const Route = createFileRoute("/deal/$slug")({
@@ -58,10 +53,7 @@ export const Route = createFileRoute("/deal/$slug")({
               "@type": "Offer",
               price: Math.round(toUsd(deal.price)),
               priceCurrency: "USD",
-              availability:
-                deal.status === "ACTIVE"
-                  ? "https://schema.org/InStock"
-                  : "https://schema.org/OutOfStock",
+              availability: deal.status === "ACTIVE" ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
             },
           }),
         },
@@ -147,9 +139,7 @@ function DealPage() {
             <>
               <div className="mt-6 flex flex-wrap items-baseline gap-3">
                 <span className="font-serif text-4xl">{format(deal.price)}</span>
-                <span className="text-lg text-muted-foreground line-through">
-                  {format(deal.originalPrice)}
-                </span>
+                <span className="text-lg text-muted-foreground line-through">{format(deal.originalPrice)}</span>
                 <span className="rounded-sm bg-ink px-2 py-1 text-xs font-semibold text-background">
                   {discountPct(deal)}% OFF
                 </span>
@@ -168,6 +158,7 @@ function DealPage() {
                 href={dealAffiliateUrl(deal)}
                 target="_blank"
                 rel="nofollow sponsored noopener"
+                onClick={() => trackDealClick(deal.id)}
                 className="mt-6 block rounded-sm bg-primary px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.16em] text-primary-foreground transition-colors hover:bg-clay hover:text-clay-foreground"
               >
                 Get This Deal

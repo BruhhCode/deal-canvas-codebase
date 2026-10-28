@@ -1,12 +1,8 @@
-import {
-  type Deal,
-  brandName,
-  discountPct,
-  expiryLabel,
-} from "@/data/catalog";
+import { type Deal, brandName, discountPct, expiryLabel } from "@/data/catalog";
 import { dealAffiliateUrl, dealImage } from "@/data/deal-products";
 import { useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
+import { trackDealClick } from "@/lib/track-click";
 import { DealBadge } from "./DealBadge";
 import { CopyCode } from "./CopyCode";
 import { Countdown } from "./Countdown";
@@ -73,7 +69,12 @@ export function DealCard({
       cta={
         expired
           ? { kind: "internal", label: "See similar active deals", to: "/deals", params: {} }
-          : { kind: "external", label: "Get Deal", href: dealAffiliateUrl(deal) }
+          : {
+              kind: "external",
+              label: "Get Deal",
+              href: dealAffiliateUrl(deal),
+              onClick: () => trackDealClick(deal.id),
+            }
       }
     />
   );

@@ -17,7 +17,7 @@ export type TileBadge = { label: string; tone?: "default" | "urgency" };
 
 export type TileCta =
   | { kind: "internal"; label: string; to: string; params: Record<string, string> }
-  | { kind: "external"; label: string; href: string };
+  | { kind: "external"; label: string; href: string; onClick?: () => void };
 
 export function Tile({
   wishlistId,
@@ -102,9 +102,7 @@ export function Tile({
           <span
             className={cn(
               "absolute left-3 top-3 rounded-sm px-2 py-1 text-[10px] font-semibold tracking-wider",
-              badge.tone === "urgency"
-                ? "bg-clay text-clay-foreground"
-                : "bg-background/95 text-foreground",
+              badge.tone === "urgency" ? "bg-clay text-clay-foreground" : "bg-background/95 text-foreground",
             )}
           >
             {badge.label}
@@ -146,9 +144,7 @@ export function Tile({
 
         <div className="mt-1 flex items-baseline gap-2">
           <span className="text-base font-semibold">{priceCurrent}</span>
-          {priceOriginal ? (
-            <span className="text-xs text-muted-foreground line-through">{priceOriginal}</span>
-          ) : null}
+          {priceOriginal ? <span className="text-xs text-muted-foreground line-through">{priceOriginal}</span> : null}
         </div>
 
         {metaRow ? <div className="flex items-center gap-1.5 text-[11px] text-muted-foreground">{metaRow}</div> : null}
@@ -170,6 +166,7 @@ export function Tile({
             href={cta.href}
             target="_blank"
             rel="nofollow sponsored noopener"
+            onClick={cta.onClick}
             className="mt-auto block rounded-sm bg-primary py-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-primary-foreground transition-[color,background-color,transform] hover:bg-clay hover:text-clay-foreground active:scale-[0.97]"
           >
             {cta.label}

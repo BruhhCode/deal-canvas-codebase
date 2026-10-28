@@ -1,5 +1,14 @@
 import { lazy, Suspense, useRef, useState } from "react";
 import { toast } from "sonner";
+// Imported eagerly (not just inside BellToggle.tsx's own lazy chunk):
+// confirmed via UAT that this stylesheet never reaches the page when its
+// only import lives inside a lazy()-loaded module -- the chunk's JS runs
+// and the button is fully interactive, but no <style> tag for it is ever
+// injected, so the crossfade/sizing rules silently never apply and both
+// label faces render stacked and unstyled. Importing it here, on the
+// Newsletter module that's always on the critical path, guarantees the
+// stylesheet loads regardless of when/whether the BellToggle chunk does.
+import "./BellToggle.css";
 
 // Lazy-loaded: BellToggle pulls in `motion` + `@hugeicons/react`, a
 // meaningful chunk of JS/CSS that has no business being in the critical

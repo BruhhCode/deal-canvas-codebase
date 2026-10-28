@@ -381,7 +381,11 @@ const brandLogoOverrides: Record<string, string> = {
   burberry: "https://cdn.worldvectorlogo.com/logos/burberry.svg",
   versace: "https://cdn.worldvectorlogo.com/logos/versace-3.svg",
   balenciaga: "https://cdn.worldvectorlogo.com/logos/balenciaga-4.svg",
-  "saint-laurent": "https://cdn.worldvectorlogo.com/logos/yves-saint-laurent-1.svg",
+  // "-1" variant's SVG has a malformed `width="-544"` attribute (negative
+  // width), which every browser refuses to render -- confirmed via UAT
+  // (naturalWidth stayed 0 even after full page settle). This variant
+  // (no suffix) has valid positive width/height and renders correctly.
+  "saint-laurent": "https://cdn.worldvectorlogo.com/logos/yves-saint-laurent.svg",
   valentino: "https://cdn.worldvectorlogo.com/logos/valentino.svg",
   "dolce-gabbana": "https://cdn.worldvectorlogo.com/logos/dolce-gabbana-1.svg",
   armani: "https://cdn.worldvectorlogo.com/logos/armani.svg",

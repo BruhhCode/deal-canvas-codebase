@@ -211,7 +211,10 @@
 .bell-toggle[data-on='false'] .bell-toggle__face--off,
 .bell-toggle[data-on='true'] .bell-toggle__face--on {
   opacity: 1;
-  filter: blur(0);
+  /* "none", not "blur(0)" -- the dev-server's CSS minifier was collapsing
+     blur(0) into the invalid "blur()" (no argument), which made the whole
+     declaration unparsable. */
+  filter: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

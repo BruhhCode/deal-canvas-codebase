@@ -1,9 +1,3 @@
-import catFashion from "@/assets/cat-fashion.jpg";
-import catBeauty from "@/assets/cat-beauty.jpg";
-import catShoes from "@/assets/cat-shoes.jpg";
-import catAccessories from "@/assets/cat-accessories.jpg";
-import catLifestyle from "@/assets/cat-lifestyle.jpg";
-import catTravel from "@/assets/cat-travel.jpg";
 import { supabase } from "@/lib/supabase";
 
 export interface BlogPost {
@@ -84,7 +78,7 @@ export const defaultBlogPosts: BlogPost[] = [
     readTime: "5 min",
     published: "2026-09-12",
     author: "DealsCanvas Editorial",
-    image: catFashion,
+    image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
     body: [
       "Retailers know shoppers respond to big percentage-off numbers, and a strike-through price is one of the easiest things to inflate. Before trusting a discount, check the item's price history — a site that's shown a product at the \"sale\" price for most of the last month isn't really discounting it.",
       "A quick way to sanity-check any deal: search the exact product name plus the word \"price history\" or use a browser extension that tracks it. If the current price matches what it's been for weeks, the surrounding banner is decoration, not a real markdown.",
@@ -99,7 +93,7 @@ export const defaultBlogPosts: BlogPost[] = [
     readTime: "6 min",
     published: "2026-09-08",
     author: "DealsCanvas Editorial",
-    image: catLifestyle,
+    image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1200&q=80",
     body: [
       "A capsule wardrobe isn't about owning less for its own sake — it's about every piece earning its place by pairing with several others. Before buying anything new, it's worth listing what you already own in the same category and asking whether the new piece adds a genuinely new combination.",
       "Neutral basics (a good white shirt, a well-cut pair of dark jeans, a versatile jacket) are worth paying closer to full price for, since they get worn constantly and outlast a season's trend cycle. Save the discount-hunting for statement pieces you'll wear less often.",
@@ -114,7 +108,7 @@ export const defaultBlogPosts: BlogPost[] = [
     readTime: "4 min",
     published: "2026-09-01",
     author: "DealsCanvas Editorial",
-    image: catBeauty,
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80",
     body: [
       "It's easy to end up with a shelf of half-used products chasing a ten-step routine you saw online. Dermatologists consistently point to three non-negotiables: a gentle cleanser, a moisturizer suited to your skin type, and daily SPF — everything else is optional refinement, not a requirement.",
       "If you want to add one more step, a single active ingredient (like a retinoid or vitamin C serum) introduced slowly does more for most people than five new products at once. Layering too many actives together is a common cause of irritation, not better results.",
@@ -129,7 +123,7 @@ export const defaultBlogPosts: BlogPost[] = [
     readTime: "5 min",
     published: "2026-08-26",
     author: "DealsCanvas Editorial",
-    image: catShoes,
+    image: "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=1200&q=80",
     body: [
       "Wearing the same pair of sneakers every day is the fastest way to wear them out — the midsole foam needs roughly 24 hours to decompress between wears to keep its cushioning. Rotating two pairs, even both budget options, will outlast one pair worn daily.",
       "Most suede and leather sneakers benefit from a protective spray applied before the first wear, not after the first stain. Reapply every few months if you're wearing them regularly.",
@@ -144,7 +138,7 @@ export const defaultBlogPosts: BlogPost[] = [
     readTime: "7 min",
     published: "2026-08-19",
     author: "DealsCanvas Editorial",
-    image: catTravel,
+    image: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1200&q=80",
     body: [
       "Retail discounting follows a rhythm that repeats every year. Outerwear and boots are cheapest in late winter as stores clear season stock, swimwear and sandals are cheapest in late summer for the same reason, and January is consistently the strongest month for fitness and loungewear.",
       "Big named sale events are good for stocking up on basics you already know you'll use, but they're rarely the cheapest point for a specific item you have your eye on — that's more often a quiet markdown a few weeks after a new collection lands.",
@@ -159,7 +153,7 @@ export const defaultBlogPosts: BlogPost[] = [
     readTime: "4 min",
     published: "2026-08-11",
     author: "DealsCanvas Editorial",
-    image: catAccessories,
+    image: "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&w=1200&q=80",
     body: [
       "Accessories carry an outsized share of how an outfit reads — a belt, a bag or a scarf can shift the same base pieces from casual to polished. Because they're worn against different outfits constantly, it's one category where buying a slightly bolder or trend-led piece at a low price makes more sense than doing the same with clothing.",
       "Gold and silver-tone jewelry dates less than trend colors, so it's usually the safer place to spend a little more; costume pieces in a strong seasonal color are the better place to chase a discount.",

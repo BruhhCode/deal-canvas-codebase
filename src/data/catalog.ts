@@ -332,11 +332,18 @@ export const brandUrl = (slug: string) => `https://www.${brandDomains[slug] ?? `
  * Verified working before adding: everything else falls back to a favicon.
  */
 const brandLogoOverrides: Record<string, string> = {
-  zara: "https://api.iconify.design/simple-icons:zara.svg?height=1024",
-  nike: "https://api.iconify.design/simple-icons:nike.svg?height=1024",
-  adidas: "https://api.iconify.design/simple-icons:adidas.svg?height=1024",
-  puma: "https://api.iconify.design/simple-icons:puma.svg?height=1024",
-  farfetch: "https://api.iconify.design/simple-icons:farfetch.svg?height=1024",
+  // zara/nike/adidas/puma used to point at api.iconify.design/simple-icons —
+  // Simple Icons has since dropped these marks (trademark takedown requests
+  // are common for that project), so those URLs now 404 for every request.
+  // Replaced with the same verified worldvectorlogo.com CDN used below for
+  // everything else (each one re-rendered and visually checked before
+  // swapping in). No entry for farfetch — the iconify URL for it was 404
+  // too and there's no verified worldvectorlogo.com match, so it now falls
+  // through to the (already working) favicon default instead of a dead link.
+  zara: "https://cdn.worldvectorlogo.com/logos/zara-2.svg",
+  nike: "https://cdn.worldvectorlogo.com/logos/nike-6.svg",
+  adidas: "https://cdn.worldvectorlogo.com/logos/adidas-18.svg",
+  puma: "https://cdn.worldvectorlogo.com/logos/puma.svg",
   // Verified direct worldvectorlogo.com CDN links (each checked for a real
   // 200 response with genuine, brand-matching SVG content — not just that
   // the URL resolves).

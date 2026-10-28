@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { cn } from "@/lib/utils";
 
 function format(ms: number) {
   const total = Math.max(0, Math.floor(ms / 1000));
@@ -8,7 +9,7 @@ function format(ms: number) {
   return `${h}:${m}:${s}`;
 }
 
-export function Countdown({ hours }: { hours: number }) {
+export function Countdown({ hours, className }: { hours: number; className?: string }) {
   const [left, setLeft] = useState(hours * 3600 * 1000);
 
   useEffect(() => {
@@ -18,6 +19,8 @@ export function Countdown({ hours }: { hours: number }) {
   }, [hours]);
 
   return (
-    <span className="font-mono text-sm tabular-nums text-clay">Ends in {format(left)}</span>
+    <span className={cn("font-mono text-sm tabular-nums text-clay", className)}>
+      Ends in {format(left)}
+    </span>
   );
 }

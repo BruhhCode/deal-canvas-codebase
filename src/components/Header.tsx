@@ -31,7 +31,6 @@ type StaticNavItem = { label: string; to: string; search?: Record<string, string
 const defaultNav: StaticNavItem[] = [
   { label: "Shop", to: "/shop", search: { q: "", category: "", department: "", view: "" } },
   { label: "Deals", to: "/deals" },
-  { label: "Stores", to: "/stores" },
   { label: "Brands", to: "/brands" },
   { label: "New In", to: "/shop", search: { q: "", category: "", department: "", view: "new" } },
 ];

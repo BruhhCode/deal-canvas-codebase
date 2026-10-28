@@ -330,7 +330,14 @@ export function sortProducts(list: Product[], key: SortKey) {
     case "highest-discount":
       return arr.sort((a, b) => productDiscount(b) - productDiscount(a));
     case "newest":
-      return arr.sort((a, b) => Number(!!b.newIn) - Number(!!a.newIn));
+      return arr.sort((a, b) => {
+        const byNew = Number(!!b.newIn) - Number(!!a.newIn);
+        if (byNew !== 0) return byNew;
+        // Within an already-newIn set (the "New In" view), surface genuinely
+        // new, not-yet-discounted arrivals first — a 0%-off new drop reads as
+        // "just landed", a discounted one reads as old stock being cleared.
+        return productDiscount(a) - productDiscount(b);
+      });
     case "popular":
       return arr.sort((a, b) => b.views - a.views);
     default:

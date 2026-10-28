@@ -49,6 +49,7 @@ function AccountPage() {
           <p className="text-sm text-muted-foreground">You haven't saved any deals yet.</p>
           <Link
             to="/deals"
+            search={{ q: "" }}
             className="mt-5 inline-block rounded-sm bg-primary px-6 py-3 text-sm font-semibold uppercase tracking-wider text-primary-foreground hover:bg-clay hover:text-clay-foreground"
           >
             Browse deals

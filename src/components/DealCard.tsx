@@ -9,10 +9,20 @@ import { useCurrency } from "@/lib/currency";
 import { useCatalogVersion } from "@/lib/live-catalog";
 import { DealBadge } from "./DealBadge";
 import { CopyCode } from "./CopyCode";
+import { Countdown } from "./Countdown";
 import { Tile } from "./Tile";
 import { cn } from "@/lib/utils";
 
-export function DealCard({ deal, className }: { deal: Deal; className?: string }) {
+export function DealCard({
+  deal,
+  className,
+  liveCountdown,
+}: {
+  deal: Deal;
+  className?: string;
+  /** Flash Deals' cards tick live instead of showing a static "Ends in X" label. */
+  liveCountdown?: boolean;
+}) {
   useCatalogVersion();
   const expired = deal.status === "EXPIRED";
   const { format } = useCurrency();
@@ -50,9 +60,13 @@ export function DealCard({ deal, className }: { deal: Deal; className?: string }
       metaRow={
         <span className="flex w-full items-center justify-between">
           <span>{deal.dealType}</span>
-          <span className={cn(deal.expiresInHours < 24 && !expired && "font-medium text-clay")}>
-            {expiryLabel(deal.expiresInHours)}
-          </span>
+          {liveCountdown && !expired ? (
+            <Countdown hours={deal.expiresInHours} className="text-[11px] font-semibold" />
+          ) : (
+            <span className={cn(deal.expiresInHours < 24 && !expired && "font-medium text-clay")}>
+              {expiryLabel(deal.expiresInHours)}
+            </span>
+          )}
         </span>
       }
       footnote={deal.code ? <CopyCode code={deal.code} /> : null}

@@ -1,11 +1,35 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Breadcrumbs, breadcrumbJsonLd } from "@/components/Breadcrumbs";
 import { DealCard } from "@/components/DealCard";
+import { ProductCard } from "@/components/ProductCard";
 import { CouponCard } from "@/components/CouponCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Newsletter } from "@/components/Newsletter";
 import { categories, coupons, dealsByCategory, guides } from "@/data/catalog";
+import { isFullyOutOfStock, products, shopCategories } from "@/data/products";
 import { absoluteUrl } from "@/lib/site";
+
+// catalog.ts's 5 macro categories (fashion/beauty/shoes/accessories/lifestyle,
+// used here and in the footer) are a different, coarser taxonomy than
+// products.ts's ~20 ShopCategory slugs (used by /shop's filters) — this maps
+// one to the other so a footer link like "Shoes Deals" only ever pulls real
+// shoe products, never anything else, instead of the handful of matching rows
+// from the much smaller synthetic `deals` catalog.
+const MACRO_CATEGORY_NAMES: Record<string, string[]> = {
+  fashion: ["Clothing", "Sportswear", "Baby Clothing"],
+  beauty: ["Beauty", "Grooming"],
+  shoes: ["Shoes", "Sneakers"],
+  accessories: ["Accessories", "Jewelry", "Watches", "Bags", "Lifestyle Accessories"],
+};
+
+function productsForMacroCategory(macroSlug: string) {
+  const matchedSlugs =
+    macroSlug === "lifestyle"
+      ? shopCategories.filter((c) => c.department === "lifestyle").map((c) => c.slug)
+      : shopCategories.filter((c) => (MACRO_CATEGORY_NAMES[macroSlug] ?? []).includes(c.name)).map((c) => c.slug);
+  const slugSet = new Set(matchedSlugs);
+  return products.filter((p) => slugSet.has(p.category) && !isFullyOutOfStock(p));
+}
 
 export const Route = createFileRoute("/category/$slug")({
   loader: ({ params }) => {
@@ -48,6 +72,7 @@ export const Route = createFileRoute("/category/$slug")({
 function CategoryPage() {
   const { category } = Route.useLoaderData();
   const list = dealsByCategory(category.slug).filter((d) => d.status !== "EXPIRED");
+  const categoryProducts = productsForMacroCategory(category.slug);
   const brandSlugs = Array.from(new Set(list.map((d) => d.brand)));
   const catCoupons = coupons.filter((c) => brandSlugs.includes(c.brand));
   const catGuides = guides.filter((g) => g.category.toLowerCase() === category.name.toLowerCase());
@@ -59,7 +84,7 @@ function CategoryPage() {
 
         <header className="mb-12 grid gap-8 border-b pb-10 md:grid-cols-2 md:items-center">
           <div>
-            <p className="editorial-eyebrow">{list.length} live offers</p>
+            <p className="editorial-eyebrow">{list.length + categoryProducts.length} live offers</p>
             <h1 className="mt-3 text-4xl md:text-5xl">{category.name} Deals</h1>
             <p className="mt-3 max-w-lg text-sm text-muted-foreground">{category.tagline}</p>
             <div className="mt-6 flex flex-wrap gap-2">
@@ -84,14 +109,32 @@ function CategoryPage() {
           />
         </header>
 
-        <section className="mb-16">
-          <SectionHeading eyebrow="Live now" title={`Best ${category.name} Offers`} />
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {list.map((d) => (
-              <DealCard key={d.id} deal={d} />
-            ))}
-          </div>
-        </section>
+        {list.length > 0 ? (
+          <section className="mb-16">
+            <SectionHeading eyebrow="Live now" title={`Best ${category.name} Offers`} />
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {list.map((d) => (
+                <DealCard key={d.id} deal={d} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+
+        {categoryProducts.length > 0 ? (
+          <section className="mb-16">
+            <SectionHeading
+              eyebrow="Shop the category"
+              title={`${category.name} Products`}
+              description={`Only real ${category.name.toLowerCase()} — nothing from other categories.`}
+              href="/shop"
+            />
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {categoryProducts.slice(0, 24).map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         {catCoupons.length > 0 ? (
           <section className="mb-16">

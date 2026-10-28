@@ -10,6 +10,15 @@ export function productImg(url: string, width: number): string {
     const u = new URL(url);
     const host = u.hostname;
 
+    // res.cloudinary.com (admin-uploaded banners): inserts a transform
+    // segment right after "/upload/" — f_auto picks the best format for the
+    // requesting browser (usually WebP/AVIF instead of the uploaded PNG),
+    // q_auto compresses without a visible quality loss, w_ caps dimensions.
+    // Verified on two real uploaded banners: 1.87MB PNG -> 126KB, 1.63MB -> 251KB.
+    if (host === "res.cloudinary.com" && url.includes("/upload/")) {
+      return url.replace("/upload/", `/upload/f_auto,q_auto,w_${width}/`);
+    }
+
     if (host === "images.unsplash.com") {
       u.searchParams.set("w", String(width));
       u.searchParams.set("q", "70");

@@ -1,12 +1,12 @@
 import { Link } from "@tanstack/react-router";
-import { categories, seasonalSales } from "@/data/catalog";
+import { categories } from "@/data/catalog";
 import { useCurrency } from "@/lib/currency";
 
 export function Footer() {
   const { currency } = useCurrency();
   return (
     <footer className="border-t bg-cream">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-5">
+      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div className="md:col-span-2 lg:col-span-1">
           <p className="font-serif text-2xl">
             Deals<span className="text-clay">Canvas</span>
@@ -33,25 +33,12 @@ export function Footer() {
         <div>
           <p className="editorial-eyebrow mb-4">Discover</p>
           <ul className="space-y-2 text-sm">
-            <li><Link to="/deals" className="hover:text-clay">All Deals</Link></li>
+            <li><Link to="/deals" search={{ q: "" }} className="hover:text-clay">All Deals</Link></li>
             <li><Link to="/coupons" className="hover:text-clay">Coupons & Promo Codes</Link></li>
             <li><Link to="/flash-deals" className="hover:text-clay">Flash Deals</Link></li>
             <li><Link to="/brands" className="hover:text-clay">All Brands</Link></li>
-            <li><Link to="/guides" className="hover:text-clay">Shopping Guides</Link></li>
+            <li><Link to="/blog" className="hover:text-clay">Blog</Link></li>
             <li><Link to="/faq" className="hover:text-clay">FAQ</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <p className="editorial-eyebrow mb-4">Seasonal Sales</p>
-          <ul className="space-y-2 text-sm">
-            {seasonalSales.map((s) => (
-              <li key={s.slug}>
-                <Link to="/sale/$slug" params={{ slug: s.slug }} className="hover:text-clay">
-                  {s.name}
-                </Link>
-              </li>
-            ))}
           </ul>
         </div>
 

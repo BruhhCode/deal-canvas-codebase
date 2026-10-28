@@ -19,6 +19,9 @@ import { useFilterOverrides } from "@/lib/site-filters";
 import { absoluteUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/deals")({
+  validateSearch: (search: Record<string, unknown>) => ({
+    q: String(search["q"] ?? ""),
+  }),
   head: () => ({
     meta: [
       { title: "All Deals — Fashion, Beauty & Lifestyle Offers | DealsCanvas" },
@@ -71,7 +74,8 @@ function sortDeals(list: Deal[], sort: (typeof sorts)[number]) {
 function DealsPage() {
   const { format } = useCurrency();
   const version = useCatalogVersion();
-  const [q, setQ] = useState("");
+  const { q: initialQ } = Route.useSearch();
+  const [q, setQ] = useState(initialQ);
   const [category, setCategory] = useState("all");
   const [brand, setBrand] = useState("all");
   const [minDiscount, setMinDiscount] = useState(0);

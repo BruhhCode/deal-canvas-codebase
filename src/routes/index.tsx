@@ -17,6 +17,7 @@ import { useCatalogVersion } from "@/lib/live-catalog";
 import { useActiveTheme, type ThemeKey } from "@/lib/site-theme";
 import { absoluteUrl } from "@/lib/site";
 import { supabase } from "@/lib/supabase";
+import { productImg } from "@/lib/img";
 import bannerDeals from "@/assets/cat-fashion.jpg";
 import bannerSale from "@/assets/cat-shoes.jpg";
 import bannerNew from "@/assets/cat-beauty.jpg";
@@ -248,7 +249,7 @@ function Home() {
               const content = (
                 <>
                   <img
-                    src={b.image}
+                    src={productImg(b.image, 640)}
                     alt=""
                     width={640}
                     height={480}

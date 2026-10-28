@@ -81,7 +81,7 @@ function ThumbnailButton({
       aria-label={`View image ${index + 1}`}
       aria-current={active}
       className={cn(
-        "shrink-0 overflow-hidden rounded-sm border bg-white transition-colors",
+        "shrink-0 overflow-hidden rounded-sm border bg-white p-1 transition-colors",
         active ? "border-foreground" : "border-transparent hover:border-border",
       )}
       style={bgColor ? { backgroundColor: bgColor } : undefined}
@@ -132,7 +132,7 @@ export function ProductGallery({
       ) : null}
 
       <div
-        className="relative flex-1 overflow-hidden rounded-lg bg-white"
+        className="relative flex-1 overflow-hidden rounded-lg bg-white p-4"
         style={heroBgColor ? { backgroundColor: heroBgColor } : undefined}
       >
         <GalleryImg

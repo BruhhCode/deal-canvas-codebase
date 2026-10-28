@@ -1,4 +1,4 @@
-import { type ReactNode, useState } from "react";
+import { type ReactNode, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Star } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -71,11 +71,13 @@ export function Tile({
   hideOnImageFail?: boolean;
 }) {
   const [hasRealImage, setHasRealImage] = useState(true);
-  const bgColor = useImageBackgroundColor(imageSrc);
+  const articleRef = useRef<HTMLElement>(null);
+  const bgColor = useImageBackgroundColor(imageSrc, articleRef);
   if (hideOnImageFail && !hasRealImage) return null;
 
   return (
     <article
+      ref={articleRef}
       className={cn(
         "group relative flex h-full flex-col overflow-hidden rounded-lg border bg-card transition-shadow hover:shadow-card",
         dimmed && "opacity-70",
@@ -87,7 +89,7 @@ export function Tile({
         params={imageParams}
         aria-hidden="true"
         tabIndex={-1}
-        className="relative block aspect-square overflow-hidden bg-white"
+        className="relative block aspect-square overflow-hidden bg-white p-2"
         style={bgColor ? { backgroundColor: bgColor } : undefined}
       >
         <ProductImage

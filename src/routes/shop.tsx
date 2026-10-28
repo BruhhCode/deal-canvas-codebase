@@ -101,7 +101,7 @@ function ShopView() {
     ...(view === "sale" ? { sale: true } : {}),
   }));
   const [sort, setSort] = useState<SortKey>(
-    view === "trending" ? "popular" : view === "sale" ? "highest-discount" : "recommended",
+    view === "trending" ? "popular" : view === "sale" ? "highest-discount" : view === "new" ? "newest" : "recommended",
   );
   const [page, setPage] = useState(1);
   const [sheet, setSheet] = useState(false);

@@ -2,7 +2,6 @@ import { useMemo } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { DealCard } from "@/components/DealCard";
-import { Countdown } from "@/components/Countdown";
 import { endingSoon, flashDeals as seedFlashDeals } from "@/data/catalog";
 import { productsAsDeals } from "@/data/deal-products";
 import { absoluteUrl } from "@/lib/site";
@@ -40,19 +39,14 @@ function FlashPage() {
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {flashDeals.map((d) => (
-          <div key={d.id} className="space-y-2">
-            <DealCard deal={d} />
-            <div className="text-center">
-              <Countdown hours={d.expiresInHours} />
-            </div>
-          </div>
+          <DealCard key={d.id} deal={d} liveCountdown />
         ))}
       </div>
 
       <h2 className="mb-6 mt-16 border-b pb-4 text-3xl">Also Ending Soon</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {endingSoon.map((d) => (
-          <DealCard key={d.id} deal={d} />
+          <DealCard key={d.id} deal={d} liveCountdown />
         ))}
       </div>
     </div>

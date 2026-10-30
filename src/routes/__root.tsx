@@ -98,6 +98,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "fo-verify", content: "cc177968-384c-457e-92c1-c9aff49f6bed" },
       // Google Search Console site-ownership verification.
       { name: "google-site-verification", content: "IRe2AjFO0SAZPksSsAHie4YR1a2VeyaTBsAuz9qjeTE" },
+      // impact.com site-ownership verification.
+      { name: "impact-site-verification", content: "810a1977-b3a3-4fae-8392-10977d6cec77" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
